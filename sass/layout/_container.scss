@@ -1,0 +1,22 @@
+// File Name: _container.scss
+// Description: Main container
+// Used by: style.scss, 
+// Dependencies: 
+// Date created: 14/11/2015
+// ------------------------------------------------------------
+
+.container{
+  @extend %marginAuto;
+  width: 80%;
+  color:$chalk;
+  background: $darkBlue;
+  text-align:center;
+  margin-top:80px;
+  min-height: 500px;
+  @include box-shadow(1px, 8px, 18px, 8px, #000);
+
+  h1{
+    color:$teal;
+    @include rem("font-size", 42);
+  }
+}

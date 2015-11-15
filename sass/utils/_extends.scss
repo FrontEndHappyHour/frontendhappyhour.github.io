@@ -1,0 +1,19 @@
+%marginAuto {
+  @include margin-auto();
+}
+
+%clearfix {
+  @include clearfix();
+}
+
+%hideText {
+  @include hide-text();
+}
+
+%left {
+  float: left;
+}
+
+%right {
+  float: right;
+}
