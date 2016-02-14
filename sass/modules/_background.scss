@@ -5,6 +5,5 @@
 // Date created: 14/11/2015
 // ------------------------------------------------------------
 body{
-  background: url("../img/wood.jpg");
-  @include background-cover();
+  background: $darkBlue;
 }
