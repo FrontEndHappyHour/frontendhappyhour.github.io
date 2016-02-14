@@ -6,14 +6,8 @@
 // ------------------------------------------------------------
 
 .container{
+  @extend %clearfix;
   @extend %marginAuto;
   width: 80%;
-  color:$chalk;
-  text-align:center;
-  margin-top:80px;
-
-  h1{
-    color:$teal;
-    @include rem("font-size", 42);
-  }
+  color:$darkBlue;
 }

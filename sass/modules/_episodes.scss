@@ -1,0 +1,38 @@
+// File Name: _episodes.scss
+// Description: Style the list of episodes
+// Used by: style.scss.scss, 
+// Dependencies: 
+// Date created: 14/02/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+.episodes{
+  margin-top: 30px;
+
+  h2{
+    font-size: 26px;
+  }
+
+  a{
+    color: $darkBlue;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 20px;
+
+    &:hover, &:focus{
+      background: lighten($chalk, 80%);
+    }
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+  ol{
+    li{
+      margin-bottom: 30px;
+    }
+  }
+}
