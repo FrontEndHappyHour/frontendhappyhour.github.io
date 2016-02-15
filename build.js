@@ -65,8 +65,16 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
       );
 
       // create html page for new episode
+      // create new Title
       ep('title').prepend(epTitle + ' - ');
+
+      // create new page description
+      ep('meta[name=description]').attr('content', epDesc);
+
+      //update CSS to episode css
       ep('link[href="public/css/style.css"]').attr('href','../public/css/episode.css');
+
+      // add episode content info
       ep('.episodes').html(
         '<h2>' + epTitle + '</h2>' +
         '<time>Published ' + epDate + '</time>' +
@@ -76,6 +84,7 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
         '<p>' + epDesc + '</p>'
       );
 
+      // if picks add picks
       if(picks.length !== 0){
         ep('.episodes').append(
           '<div class="picks">' +
