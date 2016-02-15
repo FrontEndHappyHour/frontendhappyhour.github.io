@@ -73,7 +73,7 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
       ep('meta[name=description]').attr('content', epDesc);
 
       //update CSS to episode css
-      ep('link[href="public/css/style.css"]').attr('href','../public/css/episode.css');
+      ep('link[href="public/css/style.css"]').attr('href','../../public/css/episode.css');
 
       // add episode content info
       ep('.episodes').html(
@@ -96,7 +96,6 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
         );
 
         for(var a = 0; a < picks.length; a++) {
-          console.log(picks[a].title)
           ep('.episodes ul').append(
             '<li>' +
             '<a href="' + picks[a].url + '">' + picks[a].title + '</a>' + ' - ' + picks[a].from +
