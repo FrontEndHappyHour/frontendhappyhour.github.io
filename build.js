@@ -58,7 +58,7 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
       var picks = data[i].picks;
 
       $('.episodes ol').append(
-        '<li><a href="/episodes/'+ link +'"><h3>'+ epTitle + '</h3>' +
+        '<li><a href="/episodes/'+ link +'.html"><h3>'+ epTitle + '</h3>' +
         '<time>'+ epDate + '</time>' +
         '<p>' + epDesc + '</p>' +
         '</a></li>'
