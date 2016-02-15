@@ -113,7 +113,7 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
           if(err) {
             console.log(err);
           } else {
-            console.log('Added new episode page ' + newPage);
+            console.log('Added new episode page: /episodes/' + link);
           }
         });
       });
