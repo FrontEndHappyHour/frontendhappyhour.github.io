@@ -26,6 +26,7 @@
     "jshint-stylish": "^2.1.0"
   },
   "dependencies": {
-    "cheerio": "^0.20.0"
+    "cheerio": "^0.20.0",
+    "mkdirp": "^0.5.1"
   }
 }

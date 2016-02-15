@@ -1,5 +1,6 @@
 var fs = require('fs');
 var cheerio = require('cheerio');
+var mkdirp = require('mkdirp');
 var path = require('path');
 var currentTitles = [];
 var doc = '<!DOCTYPE html>\n<html>';
@@ -58,7 +59,7 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
       var picks = data[i].picks;
 
       $('.episodes ol').append(
-        '<li><a href="/episodes/'+ link +'.html"><h3>'+ epTitle + '</h3>' +
+        '<li><a href="/episodes/'+ link +'/"><h3>'+ epTitle + '</h3>' +
         '<time>'+ epDate + '</time>' +
         '<p>' + epDesc + '</p>' +
         '</a></li>'
@@ -104,14 +105,18 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
         }
       }
 
-      var newPage = link + '.html';
       var newEpOutput = doc + ep('html').html() + '</html>';
-      fs.writeFile('./episodes/' + newPage, newEpOutput, function(err) {
+      mkdirp('./episodes/' + link, function(err) {
         if(err) {
           console.log(err);
-        } else {
-          console.log('Added new episode page ' + newPage);
-        }
+        } 
+        fs.writeFile('./episodes/' + link + '/index.html', newEpOutput, function(err) {
+          if(err) {
+            console.log(err);
+          } else {
+            console.log('Added new episode page ' + newPage);
+          }
+        });
       });
     }
   }
