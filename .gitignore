@@ -7,3 +7,4 @@
 *.css
 *.min.js
 node_modules/
+episodes/

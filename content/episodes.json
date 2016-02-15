@@ -3,7 +3,7 @@
     "episode": "001",
     "title":"The State of Web Development",
     "description":"A discussion about the our opinions on the Medium article posted in early January about the sad state of web development.",
-    "id": "",
+    "id": "240583789",
     "published": "February 28, 2016",
     "panel": [
       "Augustus Yuan",
@@ -11,9 +11,16 @@
       "Derrick Showers",
       "Jem Young",
       "Ryan Anklam",
-      "Ryan Burgess",
+      "Ryan Burgess"
     ],
     "guests": [
+    ],
+    "picks": [
+      {
+        "title": "Example",
+        "url": "http://frontendhappyhour.com",
+        "from": "Ryan"
+      }
     ]
   }
 ]

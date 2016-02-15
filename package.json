@@ -18,8 +18,13 @@
   "homepage": "https://github.com/FrontEndHappyHour/website",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-jsonlint": "^1.1.1",
     "gulp-minify-css": "^1.2.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.0"
+    "gulp-sass": "^2.1.0",
+    "jshint-stylish": "^2.1.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0"
   }
 }
