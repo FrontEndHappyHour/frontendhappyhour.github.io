@@ -2,12 +2,11 @@
   {
     "episode": "001",
     "title":"The State of Web Development",
-    "description":"A discussion about the our opinions on the Medium article posted in early January about the sad state of web development.",
+    "description":"A discussion about the our opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett.",
     "id": "240583789",
     "published": "February 28, 2016",
     "panel": [
       "Augustus Yuan",
-      "Brian Holt",
       "Derrick Showers",
       "Jem Young",
       "Ryan Anklam",
@@ -17,9 +16,54 @@
     ],
     "picks": [
       {
-        "title": "Example",
-        "url": "http://frontendhappyhour.com",
-        "from": "Ryan"
+        "title": "Viking & Lumberjack Series",
+        "url": "https://www.youtube.com/playlist?list=PL95LOQw9SLWwWL7TOgTf5m3d6B8FPF56x",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "O’Reilly Fluent Conference",
+        "url": "http://conferences.oreilly.com/fluent/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "UserOnboard.com",
+        "url": "http://UserOnboard.com",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "frinkiac.com",
+        "url": "https://frinkiac.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Red Rising Trilogy",
+        "url": "http://www.redrisingbook.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Syntax Con",
+        "url": "https://2016.syntaxcon.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Planet Money",
+        "url": "http://www.npr.org/sections/money/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "MacBook Selfie Stick",
+        "url": "http://macbookselfiestick.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Let’s Encrypt",
+        "url": "https://letsencrypt.org/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Product Hunt",
+        "url": "https://www.producthunt.com/",
+        "from": "Derrick Showers"
       }
     ]
   }
