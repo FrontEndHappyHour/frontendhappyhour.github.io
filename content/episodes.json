@@ -26,11 +26,6 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "UserOnboard.com",
-        "url": "http://UserOnboard.com",
-        "from": "Ryan Burgess"
-      },
-      {
         "title": "frinkiac.com",
         "url": "https://frinkiac.com/",
         "from": "Ryan Anklam"
@@ -64,6 +59,11 @@
         "title": "Product Hunt",
         "url": "https://www.producthunt.com/",
         "from": "Derrick Showers"
+      },
+      {
+        "title": "Github Scientist",
+        "url": "http://githubengineering.com/scientist/",
+        "from": "Augustus Yuan"
       }
     ]
   }
