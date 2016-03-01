@@ -4,7 +4,9 @@
 // Dependencies: 
 // Date created: 14/11/2015
 // ------------------------------------------------------------
-
+body{
+  margin-bottom: 50px;
+}
 .container{
   @extend %clearfix;
   @extend %marginAuto;
