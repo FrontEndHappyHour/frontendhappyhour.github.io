@@ -4,7 +4,8 @@
   "description": "Front End Happy Hour website",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "build": "node build"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,9 @@
       "post-merge": "npm install",
       "post-rewrite": "npm install"
     }
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "mkdirp": "^0.5.1"
   }
 }
