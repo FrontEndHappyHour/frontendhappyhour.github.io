@@ -1,5 +1,5 @@
 # Front End Happy Hour
-Front End Happy Hour website
+[Front End Happy Hour website](http://frontendhappyhour.com)
 
 ## Contributing
 1. Fork it
