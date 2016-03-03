@@ -1,0 +1,43 @@
+// File Name: _header.scss
+// Description: Style the main header
+// Used by: style.scss.scss, 
+// Dependencies: 
+// Date created: 14/02/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+header{
+  background: $darkBlue;
+  min-height: 300px;
+  color: $chalk;
+  margin-bottom: 30px;
+
+  h1{
+    color:$teal;
+    @include rem("font-size", 42);
+  }
+
+  .logo{
+    margin: 0 auto;
+    width: 100%;
+
+    @include min-breakpoint(940){
+      float:left;
+    }
+  }
+
+  .right-content{
+    float: left;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px; 
+    color: $chalk;
+
+    @include min-breakpoint(940){
+      width: 46%;
+      margin: 50px 0 0 50px;
+      text-align: left;
+    }
+  }
+}

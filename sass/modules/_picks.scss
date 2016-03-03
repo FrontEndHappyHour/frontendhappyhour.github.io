@@ -1,0 +1,30 @@
+// File Name: _picks.scss
+// Description: style the list of pick links for each episode
+// Used by: style.scss, 
+// Dependencies: 
+// Date created: 14/02/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+
+.picks{
+  margin-top: 30px;
+
+  h3{
+    font-size: 24px;
+  }
+
+  a{
+    color: $darkBlue;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover, &:focus{
+      border-bottom: 1px solid $darkBlue;
+    }
+  }
+
+  li{
+    margin-bottom: 5px;
+  }
+}
