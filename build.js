@@ -88,7 +88,6 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
   
       ep('img').each(function() {
         ep(this).attr('src', '../../' + ep(this).attr('src'));
-        console.log(ep(this).attr('src'))
       });
 
       // add episode content info
