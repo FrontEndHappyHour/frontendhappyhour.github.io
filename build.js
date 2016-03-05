@@ -2,6 +2,7 @@ var fs = require('fs');
 var cheerio = require('cheerio');
 var mkdirp = require('mkdirp');
 var path = require('path');
+var panelists;
 var currentTitles = [];
 var doc = '<!DOCTYPE html>\n<html>';
 var homePage = 'index.html';
@@ -33,6 +34,13 @@ Array.prototype.contains = function ( needle ) {
    return false;
 }
 
+fs.readFile('./content/panelists.json', 'utf8', function (err,data) {
+  if (err) {
+    return console.log(err);
+  }
+  panelists = JSON.parse(data);
+});
+
 // get episode json content
 fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
   if (err) {
@@ -47,8 +55,10 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
     currentTitles.push(title);
   });
 
+  var panel;
   for(var i = 0; i < data.length; i++) {
     var epTitle = data[i].title;
+    panel = data[i].panel;
     
     if(!currentTitles.contains(epTitle)){
 
@@ -98,17 +108,50 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
           '<h3>Picks</h3>' +
           '<ul>' +
           '</ul>' +
+          '</div>' +
+          '<div class="panel">' +
+          '<h3>Panel</h3>' +
+          '<ul>' +
+          '</ul>' +
           '</div>'
         );
 
         for(var a = 0; a < picks.length; a++) {
-          ep('.episodes ul').append(
+          ep('.picks ul').append(
             '<li>' +
             '<a href="' + picks[a].url + '">' + picks[a].title + '</a>' + ' - ' + picks[a].from +
             '</li>'
           );
         }
       }
+
+      for(var i = 0; i < panelists.length; i++) {
+          if(panel.contains(panelists[i].name)){
+            var name = panelists[i].name;
+            var pic = panelists[i].profile_pic;
+            var twitter = panelists[i].twitter;
+
+            ep('.panel ul').append(
+              '<li>' +
+              '<img src="https://avatars0.githubusercontent.com/u/' + pic + '?v=3&s=150" alt="' + name + ' profile picture">' +
+              '<span class="name">' + name + '</span>' +
+              '<a href="https://twitter.com/' + twitter + '" class="twitter">@' + twitter + '</a>' +
+              '</li>'
+            );
+          }
+        }
+
+
+        output = doc + $('html').html() + '</html>';
+
+        fs.writeFile(homePage, output, function(err) {
+          if(err) {
+            console.log(err);
+          } else {
+            console.log('Updated ' + homePage);
+          }
+        });
+
 
       var newEpOutput = doc + ep('html').html() + '</html>';
       mkdirp('./episodes/' + link, function(err) {
@@ -126,14 +169,6 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
     }
   }
 
-  output = doc + $('html').html() + '</html>';
-
-  fs.writeFile(homePage, output, function(err) {
-    if(err) {
-      console.log(err);
-    } else {
-      console.log('Updated ' + homePage);
-    }
-  });
+  
 
 });
