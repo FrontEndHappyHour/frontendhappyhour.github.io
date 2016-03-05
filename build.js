@@ -58,6 +58,7 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
       var id = data[i].id;
       var picks = data[i].picks;
 
+      // create list of episodes on the homepage
       $('.episodes ol').append(
         '<li><a href="/episodes/'+ link +'/"><h3>'+ epTitle + '</h3>' +
         '<time>'+ epDate + '</time>' +
@@ -74,6 +75,11 @@ fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
 
       //update CSS to episode css
       ep('link[href="public/css/style.css"]').attr('href','../../public/css/episode.css');
+  
+      ep('img').each(function() {
+        ep(this).attr('src', '../../' + ep(this).attr('src'));
+        console.log(ep(this).attr('src'))
+      });
 
       // add episode content info
       ep('.episodes').html(
