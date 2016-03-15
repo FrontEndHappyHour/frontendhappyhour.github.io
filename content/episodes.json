@@ -1,5 +1,57 @@
 [
   {
+    "episode": "002",
+    "title":"RxJS - Async and Drink",
+    "description":"The second episode of the Front End Happy Hour podcast we are fortunate enough to have Ben Lesh join as a guest to talk about RxJS.",
+    "id": "",
+    "published": "March 16, 2016",
+    "panel": [
+      "Augustus Yuan",
+      "Brian Holt",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Ben Lesh",
+        "twitter": "BenLesh"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Netflix UIE YouTube Channel",
+        "url": "https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Amazon Echo",
+        "url": "http://www.amazon.com/Amazon-SK705DI-Echo/dp/B00X4WHP5E",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tilt Brush",
+        "url": "https://www.tiltbrush.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "EcmaScript Proposals",
+        "url": "https://github.com/tc39/ecma262",
+        "from": "Jem Young"
+      },
+      {
+        "title": "VimCasts",
+        "url": "http://vimcasts.org/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Ready Player One Audibook",
+        "url": "http://www.audible.com/pd/Sci-Fi-Fantasy/Ready-Player-One-Audiobook/B005FRGT44/",
+        "from": "Ryan Anklam"
+      }
+    ]
+  },
+  {
     "episode": "001",
     "title":"The State of Web Development",
     "description":"For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
