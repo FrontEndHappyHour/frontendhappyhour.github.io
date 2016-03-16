@@ -18,6 +18,12 @@
         "twitter": "BenLesh"
       }
     ],
+    "links": [
+      {
+        "title": "Rx Marbles",
+        "url": "http://rxmarbles.com/"
+      }
+    ],
     "picks": [
       {
         "title": "Egghead.io",
@@ -80,6 +86,8 @@
       "Ryan Burgess"
     ],
     "guests": [
+    ],
+    "links": [
     ],
     "picks": [
       {
