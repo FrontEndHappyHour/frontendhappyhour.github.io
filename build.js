@@ -71,7 +71,7 @@ function episodeContent(){
         var picks = data[i].picks;
 
         // create list of episodes on the homepage
-        $('.episodes ol').append(
+        $('.episodes ol').prepend(
           '<li><a href="/episodes/'+ link +'/"><h3>'+ epTitle + '</h3>' +
           '<time>'+ epDate + '</time>' +
           '<p>' + epDesc + '</p>' +

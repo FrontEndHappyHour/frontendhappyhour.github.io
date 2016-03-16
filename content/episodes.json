@@ -2,8 +2,8 @@
   {
     "episode": "002",
     "title":"RxJS - Async and Drink",
-    "description":"The second episode of the Front End Happy Hour podcast we are fortunate enough to have Ben Lesh join as a guest to talk about RxJS.",
-    "id": "",
+    "description":"In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.",
+    "id": "252127996",
     "published": "March 16, 2016",
     "panel": [
       "Augustus Yuan",
@@ -19,6 +19,16 @@
       }
     ],
     "picks": [
+      {
+        "title": "Egghead.io",
+        "url": "https://egghead.io/",
+        "from": "Ben Lesh"
+      },
+      {
+        "title": "Egghead.io - RxJS Creating Observables from Scratch",
+        "url": "https://egghead.io/lessons/rxjs-creating-observable-from-scratch",
+        "from": "Ben Lesh"
+      },
       {
         "title": "Netflix UIE YouTube Channel",
         "url": "https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA",
@@ -48,6 +58,11 @@
         "title": "Ready Player One Audibook",
         "url": "http://www.audible.com/pd/Sci-Fi-Fantasy/Ready-Player-One-Audiobook/B005FRGT44/",
         "from": "Ryan Anklam"
+      },
+      {
+        "title": "Factorio",
+        "url": "https://www.factorio.com/",
+        "from": "Brian Holt"
       }
     ]
   },
