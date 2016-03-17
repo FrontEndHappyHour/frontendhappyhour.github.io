@@ -1,30 +1,22 @@
-var fs = require('fs');
-var cheerio = require('cheerio');
-var mkdirp = require('mkdirp');
-var path = require('path');
-var panelists;
+var fs            = require('fs');
+var cheerio       = require('cheerio');
+var mkdirp        = require('mkdirp');
+var path          = require('path');
+var _             = require('lodash');
+var episodes      = require('./content/episodes.json');
+var panelists     = require('./content/panelists.json');
+var doc           = '<!DOCTYPE html>\n<html>';
+var homePage      = 'index.html';
 var currentTitles = [];
-var doc = '<!DOCTYPE html>\n<html>';
-var homePage = 'index.html';
 var output;
 var page;
 var epPage;
 
 // read homepage
-fs.readFile('./index.html', 'utf8', function (err,data) {
-  if (err) {
-    return console.log(err);
-  }
-  page = data;
-});
+page = fs.readFileSync('./index.html', 'utf8' );
 
 // read episode
-fs.readFile('./episode.html', 'utf8', function (err,data) {
-  if (err) {
-    return console.log(err);
-  }
-  epPage = data;
-});
+epPage = fs.readFileSync('./episode.html', 'utf8' );
 
 // contains prototype
 Array.prototype.contains = function ( needle ) {
@@ -34,45 +26,30 @@ Array.prototype.contains = function ( needle ) {
    return false;
 }
 
-fs.readFile('./content/panelists.json', 'utf8', function (err,data) {
-  if (err) {
-    return console.log(err);
-  }
-  panelists = JSON.parse(data);
-  episodeContent();
-});
+episodeContent();
 
 // get episode json content
 function episodeContent(){
-  fs.readFile('./content/episodes.json', 'utf8', function (err,data) {
-    if (err) {
-      return console.log(err);
-    }
-    data = JSON.parse(data);
+
     $ = cheerio.load(page);
     ep = cheerio.load(page);
 
-    $('.episodes ol li').each(function(key, callback){
-      var title = $(this).find('h3').text();
-      currentTitles.push(title);
-    });
+    //just redo the episodes every time
+    $('.episodes ol li').remove();
 
     var panel;
-    for(var i = 0; i < data.length; i++) {
-      var epTitle = data[i].title;
-      panel = data[i].panel;
-      
-      if(!currentTitles.contains(epTitle)){
 
-        var epDate = data[i].published;
-        var epDesc = data[i].description;
+    for(var i = episodes.length - 1; i >= 0; i--) {
+      var epTitle = episodes[i].title;
+      panel = episodes[i].panel;
+        var epDate = episodes[i].published;
+        var epDesc = episodes[i].description;
         var link = epTitle.replace(/ /g, '-').toLowerCase();
-        var id = data[i].id;
-        var picks = data[i].picks;
-
+        var id = episodes[i].id;
+        var picks = episodes[i].picks;
         // create list of episodes on the homepage
         $('.episodes ol').prepend(
-          '<li><a href="/episodes/'+ link +'/"><h3>'+ epTitle + '</h3>' +
+          '<li><a href="episodes/'+ link +'/"><h3>'+ epTitle + '</h3>' +
           '<time>'+ epDate + '</time>' +
           '<p>' + epDesc + '</p>' +
           '</a></li>'
@@ -87,7 +64,7 @@ function episodeContent(){
 
         //update CSS to episode css
         ep('link[href="public/css/style.css"]').attr('href','../../public/css/episode.css');
-    
+
         ep('img').each(function() {
           ep(this).attr('src', '../../' + ep(this).attr('src'));
         });
@@ -126,15 +103,23 @@ function episodeContent(){
           }
         }
 
-        for(var i = 0; i < panelists.length; i++) {
-            if(panel.contains(panelists[i].name)){
-              var name = panelists[i].name;
-              var pic = panelists[i].profile_pic;
-              var twitter = panelists[i].twitter;
+        for(var x = 0; x < panelists.length; x++) {
+            if(panel.contains(panelists[x].name)){
+              var name = panelists[x].name;
+              var pic = panelists[x].profile_pic;
+              var picMarkup = '';
+              var twitter = panelists[x].twitter;
+
+              if( _.startsWith( pic, 'http') || _.startsWith( pic, '/' )){
+                pickMarkup = '<img src="../../public' + pic + '" alt="' + name + ' profile picture" />';
+              }
+              else{
+                pickMarkup = '<img src="https://avatars0.githubusercontent.com/u/' + pic + '?v=3&s=150" alt="' + name + ' profile picture">';
+              }
 
               ep('.panel ul').append(
                 '<li>' +
-                '<img src="https://avatars0.githubusercontent.com/u/' + pic + '?v=3&s=150" alt="' + name + ' profile picture">' +
+                pickMarkup +
                 '<span class="name">' + name + '</span>' +
                 '<a href="https://twitter.com/' + twitter + '" class="twitter">@' + twitter + '</a>' +
                 '</li>'
@@ -142,32 +127,20 @@ function episodeContent(){
             }
           }
 
+          var newEpOutput = doc + ep('html').html() + '</html>';
 
-          output = doc + $('html').html() + '</html>';
+          mkdirp.sync( './episodes/' + link );
 
-          fs.writeFile(homePage, output, function(err) {
-            if(err) {
-              console.log(err);
-            } else {
-              console.log('Updated ' + homePage);
-            }
-          });
-
-
-        var newEpOutput = doc + ep('html').html() + '</html>';
-        mkdirp('./episodes/' + link, function(err) {
-          if(err) {
-            console.log(err);
-          } 
-          fs.writeFile('./episodes/' + link + '/index.html', newEpOutput, function(err) {
-            if(err) {
-              console.log(err);
-            } else {
-              console.log('Added new episode page: /episodes/' + link);
-            }
-          });
-        });
-      }
+          fs.writeFileSync('./episodes/' + link + '/index.html', newEpOutput);
     }
-  });
+
+    output = doc + $('html').html() + '</html>';
+
+    fs.writeFile(homePage, output, function(err) {
+      if(err) {
+        console.log(err);
+      } else {
+        console.log('Updated ' + homePage);
+      }
+    });
 }

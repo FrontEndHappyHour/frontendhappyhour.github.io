@@ -1,7 +1,7 @@
 // File Name: _panel.scss
 // Description: styles for the panelists photos, name, twitter
-// Used by: episodes.scss, 
-// Dependencies: 
+// Used by: episodes.scss,
+// Dependencies:
 // Date created: 05/03/2016
 // SassySass v1.3.1
 // ------------------------------------------------------------
@@ -16,10 +16,11 @@
 
   img{
     @include roundedCorners(150);
-    width: 50%;
+    width: 75px;
 
     @include min-breakpoint(940){
       width: 80%;
+      width: 120px;
     }
   }
 
