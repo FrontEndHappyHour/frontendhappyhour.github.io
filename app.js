@@ -1,4 +1,4 @@
-require('babel/register');
+require('babel-core/register');
 
 var koa = require('koa');
 var route = require('koa-route');
@@ -10,7 +10,6 @@ var fs = require('fs');
 
 var baseTemplate = fs.readFileSync('./baseTemplate.html');
 var ClientApp = require('./jsx/index.jsx');
-
 var app = koa();
 
 app.use(mount('/public', serve('./public')));
