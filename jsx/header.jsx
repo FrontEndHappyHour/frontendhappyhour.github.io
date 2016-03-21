@@ -31,7 +31,8 @@ class Header extends React.Component {
                     <p class="tagline">A podcast about everything Front End development</p>
                     <ul class="feeds">
                         <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
-                        <li><a href="https://soundcloud.com/front-end-happy-hour"><img src="public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
+                        <li><a href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
+                        <li><a href="https://twitter.com/frontendhh"><img src="public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
                     </ul>
                 </div>
             </div>
