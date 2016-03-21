@@ -1,4 +1,5 @@
-var React = require('react');
+import React from 'react';
+
 var Header = require('./header');
 var episodes = require('../content/episodes.json');
 class App extends React.Component {

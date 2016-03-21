@@ -1,3 +1,5 @@
-var React = require('react');
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 var App = require('./index');
-React.render(<App />, window.document.querySelector('#target'));
+ReactDOM.render(<App />, document.getElementById('target'));

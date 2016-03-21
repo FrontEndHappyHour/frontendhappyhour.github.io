@@ -1,22 +1,23 @@
 require('babel-core/register');
+require('babel-polyfill');
 
-var koa = require('koa');
-var route = require('koa-route');
-var serve = require('koa-static');
-var mount = require('koa-mount');
-var React = require('react');
+var express = require('express');
+var app = express();
 var _ = require('lodash');
 var fs = require('fs');
 
 var baseTemplate = fs.readFileSync('./baseTemplate.html');
 var ClientApp = require('./jsx/index.jsx');
-var app = koa();
 
-app.use(mount('/public', serve('./public')));
 
-app.use(route.get('/', function *() {
+app.get('/', function (req, res) {
   var rendered = React.renderToString(React.createElement(ClientApp));
   this.body = _.template(baseTemplate)({body:rendered});
-}));
+});
 
-app.listen(3000);
+app.use(express.static(__dirname + '/public'));
+
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+  console.log('listening on port ' + port);
+});
