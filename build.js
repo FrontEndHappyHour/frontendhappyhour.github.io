@@ -57,7 +57,7 @@ function episodeContent(){
 
         // create html page for new episode
         // create new Title
-        ep('title').prepend(epTitle + ' - ');
+        ep('title').html(epTitle + ' - Front End Happy Hour');
 
         // create new page description
         ep('meta[name=description]').attr('content', epDesc);
