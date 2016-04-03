@@ -162,8 +162,28 @@
         "url": "https://www.npmjs.com/"
       },
       {
+        "title": "Babel",
+        "url": "https://babeljs.io/"
+      },
+      {
         "title": "Sass",
         "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "PostCSS",
+        "url": "http://postcss.org/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "Angular",
+        "url": "https://angularjs.org/"
       }
     ],
     "picks": [

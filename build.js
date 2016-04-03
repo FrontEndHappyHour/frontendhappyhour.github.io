@@ -101,15 +101,16 @@ function episodeContent(){
         if(links.length !== 0){
           var linkContent = '';
           for(var b = 0; b < links.length; b++) {
-            linkContent += '<li>' +
-            '<a href="' + links[b].url + '">' + links[b].title + '</a>' +
-            '</li>'
+            linkContent += '<a href="' + links[b].url + '">' + links[b].title + '</a>';
+            if(b !== links.length -1){
+              linkContent += ', ';
+            }
           }
           ep('.episodes').append(
             '<div class="links picks">' +
-            '<h3>Links</h3>' +
-            '<ul>' + linkContent +
-            '</ul>' +
+            '<h3>Items mentioned in the episode</h3>' +
+            '<p>' + linkContent +
+            '</p>' +
             '</div>'
           );          
         }
