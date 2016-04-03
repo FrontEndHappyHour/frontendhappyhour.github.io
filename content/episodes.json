@@ -145,6 +145,26 @@
     "guests": [
     ],
     "links": [
+      {
+        "title": "Gulp",
+        "url": "http://gulpjs.com/"
+      },
+      {
+        "title": "Grunt",
+        "url": "http://gruntjs.com/"
+      },
+      {
+        "title": "Broccoli JS",
+        "url": "http://broccolijs.com/"
+      },
+      {
+        "title": "npm",
+        "url": "https://www.npmjs.com/"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      }
     ],
     "picks": [
       {
