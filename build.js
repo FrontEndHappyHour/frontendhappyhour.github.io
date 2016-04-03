@@ -1,22 +1,20 @@
-var fs            = require('fs');
-var cheerio       = require('cheerio');
-var mkdirp        = require('mkdirp');
-var path          = require('path');
-var _             = require('lodash');
-var episodes      = require('./content/episodes.json');
-var panelists     = require('./content/panelists.json');
-var doc           = '<!DOCTYPE html>\n<html>';
-var homePage      = 'index.html';
-var currentTitles = [];
+const fs            = require('fs');
+const cheerio       = require('cheerio');
+const mkdirp        = require('mkdirp');
+const path          = require('path');
+const _             = require('lodash');
+const episodes      = require('./content/episodes.json');
+const panelists     = require('./content/panelists.json');
+const doc           = '<!DOCTYPE html>\n<html>';
+const homePage      = 'index.html';
+const currentTitles = [];
 var output;
-var page;
-var epPage;
 
 // read homepage
-page = fs.readFileSync('./index.html', 'utf8' );
+const page = fs.readFileSync('./index.html', 'utf8' );
 
 // read episode
-epPage = fs.readFileSync('./episode.html', 'utf8' );
+const epPage = fs.readFileSync('./episode.html', 'utf8' );
 
 // contains prototype
 Array.prototype.contains = function ( needle ) {
@@ -31,8 +29,8 @@ episodeContent();
 // get episode json content
 function episodeContent(){
 
-    $ = cheerio.load(page);
-    ep = cheerio.load(page);
+    const $ = cheerio.load(page);
+    const ep = cheerio.load(page);
 
     //just redo the episodes every time
     $('.episodes ol li').remove();
@@ -49,10 +47,10 @@ function episodeContent(){
         var picks = episodes[i].picks;
         // create list of episodes on the homepage
         $('.episodes ol').prepend(
-          '<li><a href="episodes/'+ link +'/"><h3>'+ epTitle + '</h3>' +
-          '<time>'+ epDate + '</time>' +
-          '<p>' + epDesc + '</p>' +
-          '</a></li>'
+          `<li><a href="episodes/${link}/"><h3>${epTitle}</h3>` +
+          `<time>${epDate}</time>` +
+          `<p>${epDesc}</p>` +
+          `</a></li>`
         );
 
         // create html page for new episode
@@ -66,17 +64,19 @@ function episodeContent(){
         ep('link[href="public/css/style.css"]').attr('href','../../public/css/episode.css');
 
         ep('img').each(function() {
-          ep(this).attr('src', '../../' + ep(this).attr('src'));
+          if(ep(this).attr('src').indexOf('../../') === -1){
+            ep(this).attr('src', '../../' + ep(this).attr('src'));
+          }
         });
 
         // add episode content info
         ep('.episodes').html(
-          '<h2>' + epTitle + '</h2>' +
-          '<time>Published ' + epDate + '</time>' +
-          '<div class="audio">' +
-          '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + id + '&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>' +
-          '</div>' +
-          '<p>' + epDesc + '</p>'
+          `<h2>${epTitle}</h2>` +
+          `<time>Published ${epDate}</time>` +
+          `<div class="audio">` +
+          `<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${id}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>` +
+          `</div>` +
+          `<p>${epDesc}</p>`
         );
 
         // if picks add picks
@@ -111,27 +111,26 @@ function episodeContent(){
               var twitter = panelists[x].twitter;
 
               if( _.startsWith( pic, 'http') || _.startsWith( pic, '/' )){
-                pickMarkup = '<img src="../../public' + pic + '" alt="' + name + ' profile picture" />';
+                pickMarkup = `<img src="../../public${pic}" alt="${name} profile picture" />`;
               }
               else{
-                pickMarkup = '<img src="https://avatars0.githubusercontent.com/u/' + pic + '?v=3&s=150" alt="' + name + ' profile picture">';
+                pickMarkup = `<img src="https://avatars0.githubusercontent.com/u/${pic}?v=3&s=150" alt="${name} profile picture">`;
               }
 
               ep('.panel ul').append(
-                '<li>' +
-                pickMarkup +
-                '<span class="name">' + name + '</span>' +
-                '<a href="https://twitter.com/' + twitter + '" class="twitter">@' + twitter + '</a>' +
-                '</li>'
+                `<li>${pickMarkup}` +
+                `<span class="name">${name}</span>` +
+                `<a href="https://twitter.com/${twitter}" class="twitter">@${twitter}</a>` +
+                `</li>`
               );
             }
           }
 
           var newEpOutput = doc + ep('html').html() + '</html>';
 
-          mkdirp.sync( './episodes/' + link );
+          mkdirp.sync( `./episodes/${link}` );
 
-          fs.writeFileSync('./episodes/' + link + '/index.html', newEpOutput);
+          fs.writeFileSync(`./episodes/${link}/index.html`, newEpOutput);
     }
 
     output = doc + $('html').html() + '</html>';
