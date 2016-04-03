@@ -45,6 +45,9 @@ function episodeContent(){
         var link = epTitle.replace(/ /g, '-').toLowerCase();
         var id = episodes[i].id;
         var picks = episodes[i].picks;
+        var links = episodes[i].links;
+        var guests = episodes[i].guests;
+
         // create list of episodes on the homepage
         $('.episodes ol').prepend(
           `<li><a href="episodes/${link}/"><h3>${epTitle}</h3>` +
@@ -79,12 +82,52 @@ function episodeContent(){
           `<p>${epDesc}</p>`
         );
 
+        if(guests.length !== 0){
+          var guestList = '';
+          for(var b = 0; b < guests.length; b++) {
+            guestList += '<li>' +
+            '<a href="https://twitter.com/' + guests[b].twitter + '">' + guests[b].name + '</a>' +
+            '</li>'
+          }
+          ep('.episodes').append(
+            '<div class="guests picks">' +
+            '<h3>Guests</h3>' +
+            '<ul>' + guestList +
+            '</ul>' +
+            '</div>'
+          );
+        }
+
+        if(links.length !== 0){
+          var linkContent = '';
+          for(var b = 0; b < links.length; b++) {
+            linkContent += '<a href="' + links[b].url + '">' + links[b].title + '</a>';
+            if(b !== links.length -1){
+              linkContent += ', ';
+            }
+          }
+          ep('.episodes').append(
+            '<div class="links picks">' +
+            '<h3>Items mentioned in the episode</h3>' +
+            '<p>' + linkContent +
+            '</p>' +
+            '</div>'
+          );          
+        }
+
         // if picks add picks
         if(picks.length !== 0){
+          var picksContent = '';
+          for(var a = 0; a < picks.length; a++) {
+            picksContent += '<li>' +
+              '<a href="' + picks[a].url + '">' + picks[a].title + '</a>' + ' - ' + picks[a].from +
+              '</li>'
+          }
+
           ep('.episodes').append(
             '<div class="picks">' +
             '<h3>Picks</h3>' +
-            '<ul>' +
+            '<ul>' + picksContent +
             '</ul>' +
             '</div>' +
             '<div class="panel">' +
@@ -93,14 +136,6 @@ function episodeContent(){
             '</ul>' +
             '</div>'
           );
-
-          for(var a = 0; a < picks.length; a++) {
-            ep('.picks ul').append(
-              '<li>' +
-              '<a href="' + picks[a].url + '">' + picks[a].title + '</a>' + ' - ' + picks[a].from +
-              '</li>'
-            );
-          }
         }
 
         for(var x = 0; x < panelists.length; x++) {
