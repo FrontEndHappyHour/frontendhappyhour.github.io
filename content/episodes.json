@@ -1,5 +1,77 @@
 [
   {
+    "episode": "004",
+    "title":"ES6 and a Six Pack",
+    "description":"",
+    "id": "",
+    "published": "April 04, 2016",
+    "panel": [
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess",
+      "Brian Holt",
+      "Augustus Yuan",
+      "Sarah Federman"
+    ],
+    "guests": [
+    ],
+    "links": [
+    ],
+    "picks": [
+      {
+        "title": "1Password",
+        "url": "https://1password.com/features/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Vim Tabular",
+        "url": "https://github.com/godlygeek/tabular",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "90s Hip Hop",
+        "url": "#",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Elegant React with ES6 (and a bit of ES7) - React Rally",
+        "url": "https://www.youtube.com/watch?v=GzChMXy-Es0",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Lot 40 Whiskey",
+        "url": "http://thewhiskeywash.com/2015/12/14/whisky-review-lot-40/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "ES6 Cheatsheet",
+        "url": "http://exploringjs.com/es6/ch_overviews.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Tilt Brush",
+        "url": "https://www.tiltbrush.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "003",
     "title":"From head to footer",
     "description":"In this ever changing industry of front end development, developers are constantly learning. In this episode of Front End Happy Hour we discuss everything from our school backgrounds and what lead us to front end development. We also share ways we stay up to date with the ever-changing landscape of new technologies. Along with our usual panelists, we are joined by guest Sarah Showers, a front end developer from Apple.",
@@ -145,6 +217,26 @@
     "guests": [
     ],
     "links": [
+      {
+        "title": "Gulp",
+        "url": "http://gulpjs.com/"
+      },
+      {
+        "title": "Grunt",
+        "url": "http://gruntjs.com/"
+      },
+      {
+        "title": "Broccoli JS",
+        "url": "http://broccolijs.com/"
+      },
+      {
+        "title": "npm",
+        "url": "https://www.npmjs.com/"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      }
     ],
     "picks": [
       {
