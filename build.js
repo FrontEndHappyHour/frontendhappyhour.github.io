@@ -112,7 +112,7 @@ function episodeContent(){
             '<p>' + linkContent +
             '</p>' +
             '</div>'
-          );          
+          );
         }
 
         // if picks add picks
