@@ -4,6 +4,9 @@
 ## Build
 `node build`
 
+## Add new episode to episodes.json
+`node episode`
+
 ## Clear
 `node clear`
 
