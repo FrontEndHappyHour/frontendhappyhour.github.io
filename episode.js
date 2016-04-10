@@ -1,14 +1,13 @@
 'use strict';
-const fs            = require('fs');
-const episodes      = require('./content/episodes.json');
-const panelists     = require('./content/panelists.json');
-const jsonfile      = require('jsonfile');
-const epNum         = parseInt(episodes[0].episode) + 1;
-const names         = [];
-const picks         = [];
-const links         = [];
-const guests        = [];
-const temp          = [];
+const episodes = require('./content/episodes.json');
+const panelists = require('./content/panelists.json');
+const jsonfile = require('jsonfile');
+const epNum = parseInt(episodes[0].episode) + 1;
+const names = [];
+const picks = [];
+const links = [];
+const guests = [];
+const temp = [];
 
 // add padding to episode number
 function pad(n, width, z) {
@@ -26,15 +25,15 @@ Object.keys(panelists).forEach(function(key) {
 
 // build up place holder object for new episode
 const object = {
-  "episode": pad(epNum, 3),
-  "title": "",
-  "description": "",
-  "id": "",
-  "published": "",
-  "panel": names,
-  "guests": guests,
-  "links": links,
-  "picks": picks
+  'episode': pad(epNum, 3),
+  'title': '',
+  'description': '',
+  'id': '',
+  'published': '',
+  'panel': names,
+  'guests': guests,
+  'links': links,
+  'picks': picks
 };
 
 // add new object and combine with the existing episodes
@@ -45,7 +44,7 @@ temp.push(episodes[0]);
 jsonfile.writeFile('./content/episodes.json', temp, {spaces: 2}, function(err) {
   if(err) {
     console.log(err);
-  }else{
+  }else {
     console.log(`Episodes updated with episode ${epNum}`);
   }
 });
