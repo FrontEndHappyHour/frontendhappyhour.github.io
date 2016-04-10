@@ -1,5 +1,82 @@
 [
   {
+    "episode": "005",
+    "title":"Interviews make us drink",
+    "description":"In order to work professionally as a front end developer there is always an intense interview process. In this episode we share our experiences and thoughts on the interviews we’ve done in the past. Not only have we had experience being interviewed, we’ve also had a lot of experience interviewing other engineers for jobs at our companies. We share things we’re looking for when we interview candidates to join our teams.",
+    "id": "",
+    "published": "April, 2016",
+    "panel": [
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess",
+      "Brian Holt",
+      "Augustus Yuan",
+      "Sarah Federman"
+    ],
+    "guests": [
+    ],
+    "links": [
+    ],
+    "picks": [
+      {
+        "title": "Aerial screensaver",
+        "url": "https://github.com/JohnCoates/Aerial",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Amazon Dash Buttons",
+        "url": "http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=dash+button",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Escape app",
+        "url": "https://itunes.apple.com/us/app/escape-by-focuslist-track/id1090969894?mt=12",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Best of Old Time Radio Podcast",
+        "url": "https://itunes.apple.com/us/podcast/best-of-old-time-radio/id288417478?mt=2",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Dusty Kid - Beyond That Hill",
+        "url": "https://open.spotify.com/album/0xDGKYCBTBZtOBa4DeKaTw",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Massdrop",
+        "url": "https://www.massdrop.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Elevator Saga",
+        "url": "http://play.elevatorsaga.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "004",
     "title":"ES6 and a Six Pack",
     "description":"ECMAScript 6 was a major release for the JavaScript language. There’s a lot of great new features that have been added. In this episode we discuss how you can start using ES6 today and what we’ll start seeing in the next year for the latest update to ECMAScript. We share our favorite features and the best ways to learn and stay up to date with new features.",
