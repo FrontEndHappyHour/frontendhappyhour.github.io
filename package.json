@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "cheerio": "^0.20.0",
+    "jsonfile": "^2.2.3",
     "lodash": "^4.6.1",
     "mkdirp": "^0.5.1"
   }
