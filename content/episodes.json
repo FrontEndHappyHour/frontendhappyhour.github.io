@@ -17,6 +17,10 @@
     "guests": [
     ],
     "links": [
+      {
+        "title": "FizzBuzz",
+        "url": "https://gist.github.com/jaysonrowe/1592432"
+      }
     ],
     "picks": [
       {
