@@ -18,6 +18,10 @@
     ],
     "links": [
       {
+        "title": "Big O notation",
+        "url": "https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/"
+      },
+      {
         "title": "FizzBuzz",
         "url": "https://gist.github.com/jaysonrowe/1592432"
       }
@@ -96,6 +100,11 @@
       {
         "title": "Elevator Saga",
         "url": "http://play.elevatorsaga.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Pretty Thoughts Alina Baraz & Galimatias",
+        "url": "https://www.youtube.com/watch?v=JrHw9BDa3OE",
         "from": "Augustus Yuan"
       },
       {
