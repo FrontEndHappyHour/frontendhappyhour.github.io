@@ -18,6 +18,14 @@
     ],
     "links": [
       {
+        "title": "Eclipse",
+        "url": "https://eclipse.org/"
+      },
+      {
+        "title": "Othello",
+        "url": "http://www.amazon.com/Mattel-B3165-Othello/dp/B00004TQMQ"
+      },
+      {
         "title": "Big O notation",
         "url": "https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/"
       },
