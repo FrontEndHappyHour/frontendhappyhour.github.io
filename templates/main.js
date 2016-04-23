@@ -12,12 +12,7 @@ module.exports = function main(pageType, content, title, desc) {
   let pageTitle;
   let path;
   let css;
-
-  if(title === undefined || pageType === 'home'){
-    title = def.title;
-    heading = 'Episodes';
-    css = 'public/css/style.css';
-  }
+  const mainTitle = def.title;
 
   if(desc === undefined || pageType === 'home'){
     desc = def.desc;
@@ -28,6 +23,8 @@ module.exports = function main(pageType, content, title, desc) {
     path = '';
     pageTitle = '';
     pageContent = '<ol reversed>' + content + '</ol>';
+    heading = 'Episodes';
+    css = 'public/css/style.css';
   }
 
   // episode page
@@ -35,12 +32,13 @@ module.exports = function main(pageType, content, title, desc) {
     path = '../../';
     css = 'public/css/episode.css';
     pageContent = content;
+    pageTitle = title + ' - ';
   }
 
   return `<!DOCTYPE html>
           <html>
               <head>
-                  <title>${pageTitle}${title}</title>
+                  <title>${pageTitle}${mainTitle}</title>
                   <meta name="description" content="${desc}">
                   <meta name="viewport" content="width=device-width">
                   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
