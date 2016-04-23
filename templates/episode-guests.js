@@ -9,9 +9,10 @@ module.exports = function episodeGuests(guests) {
     '</li>';
   }
 
-  return '<div class="guests picks">' +
-          '<h3>Guests</h3>' +
-          '<ul>' + guestList +
-          '</ul>' +
-          '</div>';
+  return `<div class="guests picks">
+          <h3>Guests</h3>
+          <ul>
+          ${guestList}
+          </ul>
+          </div>`;
 };
