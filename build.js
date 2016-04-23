@@ -7,6 +7,9 @@ const episodes = require('./content/episodes.json');
 const panelists = require('./content/panelists.json');
 const contains = require('./lib/contains');
 const write = require('./lib/write');
+// Templates
+const episodeList = require('./templates/episode-list');
+const episodePage = require('./templates/episode-page');
 const doc = '<!DOCTYPE html>\n<html>';
 let output;
 
@@ -36,10 +39,7 @@ function episodeContent() {
 
       // create list of episodes on the homepage
       $('.episodes ol').prepend(
-        `<li><a href="episodes/${link}/"><h3>${epTitle}</h3>` +
-        `<time>${epDate}</time>` +
-        `<p>${epDesc}</p>` +
-        `</a></li>`
+        episodeList(link, epTitle, epDate, epDesc)
       );
 
       // create html page for new episode
@@ -60,14 +60,7 @@ function episodeContent() {
 
       // add episode content info
       ep('.episodes').html(
-        `<h2>${epTitle}</h2>` +
-        `<time>Published ${epDate}</time>` +
-        `<div class="audio">` +
-        `<iframe width="100%" height="166" scrolling="no" frameborder="no"
-         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${id}&amp;color=ff5500&amp;
-         auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>` +
-        `</div>` +
-        `<p>${epDesc}</p>`
+        episodePage(epTitle, epDate, id, epDesc)
       );
 
       if(guests.length !== 0) {
