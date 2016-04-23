@@ -28,6 +28,7 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   // create episode list for homepage
   mainOutput += episodeList(link, epTitle, epDate, epDesc);
 
+  // build episode output
   let episodeOutput = '';
   
   // add episode content info
@@ -52,8 +53,10 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   // create panel list
   episodeOutput += episodePanel(panelists, panel);
 
+  // create a directory for each episode
   mkdirp.sync(`./episodes/${link}`);
 
+  // create index.html for each episode
   write(`./episodes/${link}/index.html`, main('episode', episodeOutput, epTitle, epDesc));
 }
 
