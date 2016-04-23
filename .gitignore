@@ -9,3 +9,5 @@
 node_modules/
 episodes/
 test-output/
+episode.html
+index.html
