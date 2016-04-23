@@ -2,7 +2,7 @@
   {
     "episode": "006",
     "title": "",
-    "description": "",
+    "description": "We’ve all heard unit testing is good, but how do you get started writing unit tests? In this episode of Front End Happy Hour we share our experiences and advice writing unit tests. We discuss why it’s important and beneficial to have unit tests in your JavaScript. We share how we’ve approached unit tests and what a good unit test looks like. We also talk about the various tools and frameworks available to get your code properly tested.",
     "id": "",
     "published": "",
     "panel": [
@@ -10,7 +10,6 @@
       "Augustus Yuan",
       "Jem Young",
       "Derrick Showers",
-      "Ryan Anklam",
       "Brian Holt",
       "Sarah Federman"
     ],
