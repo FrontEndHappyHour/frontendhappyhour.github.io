@@ -31,7 +31,7 @@ for(let i = episodes.length - 1; i >= 0; i--) {
 
   // build episode output
   let episodeOutput = '';
-  
+
   // add episode content info
   episodeOutput += episodePage(epDate, id, epDesc);
 
@@ -60,7 +60,6 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   // create index.html for each episode
   write(`./episodes/${link}/index.html`, main('episode', episodeOutput, epTitle, epDesc));
 }
-
 
 // update index.html
 write('index.html', main('home', mainOutput));

@@ -14,12 +14,12 @@ module.exports = function main(pageType, content, title, desc) {
   let css;
   const mainTitle = def.title;
 
-  if(desc === undefined || pageType === 'home'){
+  if(desc === undefined || pageType === 'home') {
     desc = def.desc;
   }
 
   // homepage
-  if(pageType === 'home'){
+  if(pageType === 'home') {
     path = '';
     pageTitle = '';
     pageContent = '<ol reversed>' + content + '</ol>';
@@ -28,7 +28,7 @@ module.exports = function main(pageType, content, title, desc) {
   }
 
   // episode page
-  if(pageType === 'episode'){
+  if(pageType === 'episode') {
     path = '../../';
     css = 'public/css/episode.css';
     pageContent = content;
@@ -58,5 +58,5 @@ module.exports = function main(pageType, content, title, desc) {
                   ${pageContent}
                   </div>
               </body>
-          </html>`
+          </html>`;
 };

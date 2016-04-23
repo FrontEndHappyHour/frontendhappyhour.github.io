@@ -1,12 +1,7 @@
-// Header
-module.exports = function header(path) {
-  'use strict';
-
-  if(path === undefined) {
-    path = '';
-  }
-
-  const template = `<header>
+'use strict';
+const test = require('tape');
+const header = require('../templates/header');
+const expected = `<header>
             <div class="container">
                 <a href="/" class="logo">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 400 240" style="enable-background:new 0 0 400 240;" xml:space="preserve">
@@ -29,16 +24,20 @@ module.exports = function header(path) {
                     </svg>
                 </a>
                 <div class="right-content">
-                    <h1><a href="/"><img src="${path}public/img/front-end-happy-hour.svg" alt="Front End Happy Hour"></a></h1>
+                    <h1><a href="/"><img src="public/img/front-end-happy-hour.svg" alt="Front End Happy Hour"></a></h1>
                     <p class="tagline">A podcast about everything Front End development</p>
                     <ul class="feeds">
-                        <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="${path}public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
-                        <li><a href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="${path}public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
-                        <li><a href="https://twitter.com/frontendhh"><img src="${path}public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
+                        <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
+                        <li><a href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
+                        <li><a href="https://twitter.com/frontendhh"><img src="public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
                     </ul>
                 </div>
             </div>
         </header>`;
 
-  return template;
-};
+test('Test header template', function (t) {
+  t.equal(header(), expected, 'header template is correct');
+  t.comment('header template is working as expected');
+
+  t.end();
+});
