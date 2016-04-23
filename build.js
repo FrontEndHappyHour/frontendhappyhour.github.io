@@ -5,22 +5,13 @@ const mkdirp = require('mkdirp');
 const _ = require('lodash');
 const episodes = require('./content/episodes.json');
 const panelists = require('./content/panelists.json');
+const contains = require('./lib/contains');
 const doc = '<!DOCTYPE html>\n<html>';
 const homePage = 'index.html';
 let output;
 
 // read homepage
 const page = fs.readFileSync('./index.html', 'utf8');
-
-// contains prototype
-Array.prototype.contains = function (needle) {
-   for (let i in this) {
-      if (this[i] === needle) {
-        return true;
-      }
-   }
-   return false;
-};
 
 // get episode json content
 function episodeContent() {

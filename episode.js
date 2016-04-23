@@ -2,19 +2,13 @@
 const episodes = require('./content/episodes.json');
 const panelists = require('./content/panelists.json');
 const jsonfile = require('jsonfile');
+const pad = require('./lib/padding');
 const epNum = parseInt(episodes[0].episode) + 1;
 const names = [];
 const picks = [];
 const links = [];
 const guests = [];
 const temp = [];
-
-// add padding to episode number
-function pad(n, width, z) {
-  z = z || '0';
-  n = n + '';
-  return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
-}
 
 // create panelist list for new episode
 Object.keys(panelists).forEach(function(key) {

@@ -26,9 +26,11 @@
     "gulp-eslint": "^1.1.1",
     "gulp-jsonlint": "^1.1.1",
     "gulp-minify-css": "^1.2.1",
+    "gulp-nodeunit": "0.0.5",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.0",
-    "jshint-stylish": "^2.1.0"
+    "jshint-stylish": "^2.1.0",
+    "tape": "^4.5.1"
   },
   "config": {
     "ghooks": {
