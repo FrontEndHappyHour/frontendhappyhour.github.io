@@ -14,7 +14,32 @@
       "Sarah Federman"
     ],
     "guests": [],
-    "links": [],
+    "links": [
+      {
+        "title": "Mocha",
+        "url": "https://mochajs.org/"
+      },
+      {
+        "title": "Jasmine",
+        "url": "http://jasmine.github.io/"
+      },
+      {
+        "title": "QUnit",
+        "url": "https://qunitjs.com/"
+      },
+      {
+        "title": "Tape",
+        "url": "https://github.com/substack/tape"
+      },
+      {
+        "title": "Jest",
+        "url": "https://facebook.github.io/jest/"
+      },
+      {
+        "title": "Protractor",
+        "url": "http://angular.github.io/protractor/#/"
+      }
+    ],
     "picks": [
       {
         "title:": "Caffeine for Mac",
