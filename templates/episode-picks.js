@@ -4,14 +4,15 @@ module.exports = function episodePicks(picks) {
   'use strict';
   let picksContent = '';
   for(let i = 0; i < picks.length; i++) {
-    picksContent += '<li>' +
-      '<a href="' + picks[i].url + '">' + picks[i].title + '</a>' + ' - ' + picks[i].from +
-      '</li>';
+    picksContent += `<li>
+      <a href="${picks[i].url}">${picks[i].title}</a> - ${picks[i].from}
+      </li>`;
   }
 
-  return '<div class="picks">' +
-          '<h3>Picks</h3>' +
-          '<ul>' + picksContent +
-          '</ul>' +
-          '</div>';
+  return `<div class="picks">
+          <h3>Picks</h3>
+          <ul>
+          ${picksContent}
+          </ul>
+          </div>`;
 };
