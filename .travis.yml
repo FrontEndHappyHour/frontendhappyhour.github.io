@@ -7,6 +7,4 @@ node_js:
   - '4.1'
   - '4.0'
   notifications:
-  slack:
-    rooms:
-      - frontendhappyhour:ZU08DaIwYl9dJt3sS23mNOGi#travis
+  slack: frontendhappyhour:ZU08DaIwYl9dJt3sS23mNOGi
