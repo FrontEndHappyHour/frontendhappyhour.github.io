@@ -14,6 +14,7 @@ const episodePanel = require('./templates/episode-panel');
 let mainOutput = '';
 
 let panel;
+episodes.reverse();
 for(let i = episodes.length - 1; i >= 0; i--) {
   const epTitle = episodes[i].title;
   panel = episodes[i].panel;
