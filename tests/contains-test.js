@@ -5,7 +5,7 @@ const arrayStrings = ['hello', 'testing', 'frontend', 'JavaScript'];
 const numberArray = [2, 3, 4, 11, 151, 99];
 
 // test to make sure episode number adds pading '00'
-test('Test padding function', function (t) {
+test('Test contains function', function (t) {
   t.equal(arrayStrings.contains('hello'), true, 'Array contains the string hello');
   t.equal(arrayStrings.contains('javascript'), false, 'Array contains the string javascript');
   t.equal(arrayStrings.contains('node'), false, 'Array does not contain the string node');
