@@ -1,8 +1,7 @@
-// episodeList
-// List of episodes
+// episodePage
+// Episode page content
 module.exports = function episodePage(epTitle, epDate, id, epDesc) {
   'use strict';
-  
   return `<h2>${epTitle}</h2>` +
     `<time>Published ${epDate}</time>` +
     `<div class="audio">` +
@@ -10,5 +9,5 @@ module.exports = function episodePage(epTitle, epDate, id, epDesc) {
      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${id}&amp;color=ff5500&amp;
      auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>` +
     `</div>` +
-    `<p>${epDesc}</p>`
+    `<p>${epDesc}</p>`;
 };

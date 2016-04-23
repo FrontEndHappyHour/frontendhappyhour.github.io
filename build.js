@@ -2,14 +2,16 @@
 const fs = require('fs');
 const cheerio = require('cheerio');
 const mkdirp = require('mkdirp');
-const _ = require('lodash');
 const episodes = require('./content/episodes.json');
 const panelists = require('./content/panelists.json');
-const contains = require('./lib/contains');
 const write = require('./lib/write');
 // Templates
 const episodeList = require('./templates/episode-list');
 const episodePage = require('./templates/episode-page');
+const episodeGuests = require('./templates/episode-guests');
+const episodeLinks = require('./templates/episode-links');
+const episodePicks = require('./templates/episode-picks');
+const episodePanel = require('./templates/episode-panel');
 const doc = '<!DOCTYPE html>\n<html>';
 let output;
 
@@ -64,81 +66,30 @@ function episodeContent() {
       );
 
       if(guests.length !== 0) {
-        let guestList = '';
-        for(let b = 0; b < guests.length; b++) {
-          guestList += '<li>' +
-          '<a href="https://twitter.com/' + guests[b].twitter + '">' + guests[b].name + '</a>' +
-          '</li>';
-        }
+        // add episode guests
         ep('.episodes').append(
-          '<div class="guests picks">' +
-          '<h3>Guests</h3>' +
-          '<ul>' + guestList +
-          '</ul>' +
-          '</div>'
+          episodeGuests(guests)
         );
       }
 
       if(links.length !== 0) {
-        let linkContent = '';
-        for(let c = 0; c < links.length; c++) {
-          linkContent += '<a href="' + links[c].url + '">' + links[c].title + '</a>';
-          if(c !== links.length -1) {
-            linkContent += ', ';
-          }
-        }
+        // add episode links
         ep('.episodes').append(
-          '<div class="links picks">' +
-          '<h3>Items mentioned in the episode</h3>' +
-          '<p>' + linkContent +
-          '</p>' +
-          '</div>'
+          episodeLinks(links)
         );
       }
 
       // if picks add picks
       if(picks.length !== 0) {
-        let picksContent = '';
-        for(let a = 0; a < picks.length; a++) {
-          picksContent += '<li>' +
-            '<a href="' + picks[a].url + '">' + picks[a].title + '</a>' + ' - ' + picks[a].from +
-            '</li>';
-        }
-
+        // add pick links
         ep('.episodes').append(
-          '<div class="picks">' +
-          '<h3>Picks</h3>' +
-          '<ul>' + picksContent +
-          '</ul>' +
-          '</div>' +
-          '<div class="panel">' +
-          '<h3>Panel</h3>' +
-          '<ul>' +
-          '</ul>' +
-          '</div>'
+          episodePicks(picks)
         );
       }
 
-      for(let x = 0; x < panelists.length; x++) {
-        if(panel.contains(panelists[x].name)) {
-          const name = panelists[x].name;
-          const pic = panelists[x].profile_pic;
-          const twitter = panelists[x].twitter;
-          let pickMarkup;
-          if(_.startsWith(pic, 'http') || _.startsWith(pic, '/')) {
-            pickMarkup = `<img src="../../public${pic}" alt="${name} profile picture" />`;
-          }else {
-            pickMarkup = `<img src="https://avatars0.githubusercontent.com/u/${pic}?v=3&s=150" alt="${name} profile picture">`;
-          }
-
-          ep('.panel ul').append(
-            `<li>${pickMarkup}` +
-            `<span class="name">${name}</span>` +
-            `<a href="https://twitter.com/${twitter}" class="twitter">@${twitter}</a>` +
-            `</li>`
-          );
-        }
-      }
+      ep('.episodes').append(
+        episodePanel(panelists, panel)
+      );
 
       const newEpOutput = doc + ep('html').html() + '</html>';
 
