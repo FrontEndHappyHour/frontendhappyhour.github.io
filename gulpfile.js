@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const minifyCSS = require('gulp-minify-css');
+const nodeunit = require('gulp-nodeunit');
 const jshintStyle = require('jshint-stylish');
 const jsonlint = require('gulp-jsonlint');
 const eslint = require('gulp-eslint');
@@ -27,9 +28,21 @@ gulp.task('jsonlint', function() {
     .pipe(jsonlint.reporter(jshintStyle));
 });
 
-gulp.task('watch', function() {
-  gulp.watch('sass/**/*.scss', ['sass']);
+// nodeunit tests
+gulp.task('nodeunit', function () {
+  gulp.src('tests/**/*.js')
+    .pipe(nodeunit({
+      reporter: 'junit',
+      reporterOptions: {
+        output: 'test-output'
+      }
+    }));
 });
 
-gulp.task('test', ['jsonlint', 'lint']);
+gulp.task('watch', function() {
+  gulp.watch('sass/**/*.scss', ['sass']);
+  gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'nodeunit']);
+});
+
+gulp.task('test', ['jsonlint', 'lint', 'nodeunit']);
 gulp.task('default', ['watch']);
