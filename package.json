@@ -1,6 +1,6 @@
 {
   "name": "front-end-happy-hour",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Front End Happy Hour website",
   "main": "gulpfile.js",
   "scripts": {
@@ -40,7 +40,6 @@
     }
   },
   "dependencies": {
-    "cheerio": "^0.20.0",
     "jsonfile": "^2.2.3",
     "lodash": "^4.6.1",
     "mkdirp": "^0.5.1"
