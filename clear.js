@@ -1,8 +1,8 @@
 'use strict';
 const fs = require('fs');
 const cheerio = require('cheerio');
+const write = require('./lib/write');
 const doc = '<!DOCTYPE html>\n<html>';
-const homePage = 'index.html';
 
 // read homepage
 fs.readFile('./index.html', 'utf8', function (err, data) {
@@ -13,11 +13,7 @@ fs.readFile('./index.html', 'utf8', function (err, data) {
   $('.episodes ol').empty();
 
   let output = doc + $('html').html() + '</html>';
-  fs.writeFile(homePage, output, function (err) {
-    if(err) {
-      console.log(err);
-    } else {
-      console.log('Updated ' + homePage);
-    }
-  });
+
+  // update index.html
+  write('index.html', output);
 });

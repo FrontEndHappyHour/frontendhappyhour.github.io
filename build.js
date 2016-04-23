@@ -6,8 +6,8 @@ const _ = require('lodash');
 const episodes = require('./content/episodes.json');
 const panelists = require('./content/panelists.json');
 const contains = require('./lib/contains');
+const write = require('./lib/write');
 const doc = '<!DOCTYPE html>\n<html>';
-const homePage = 'index.html';
 let output;
 
 // read homepage
@@ -151,18 +151,13 @@ function episodeContent() {
 
       mkdirp.sync(`./episodes/${link}`);
 
-      fs.writeFileSync(`./episodes/${link}/index.html`, newEpOutput);
+      write(`./episodes/${link}/index.html`, newEpOutput);
     }
 
     output = doc + $('html').html() + '</html>';
 
-    fs.writeFile(homePage, output, function(err) {
-      if(err) {
-        console.log(err);
-      } else {
-        console.log('Updated ' + homePage);
-      }
-    });
+    // update index.html
+    write('index.html', output);
 }
 
 episodeContent();
