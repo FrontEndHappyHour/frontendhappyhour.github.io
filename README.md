@@ -7,9 +7,6 @@
 ## Add new episode to episodes.json
 `node episode`
 
-## Clear
-`node clear`
-
 ## Contributing
 1. Fork it
 2. Run `npm install`
