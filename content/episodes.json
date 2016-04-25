@@ -40,6 +40,14 @@
       {
         "title": "5 Questions Every Unit Test Must Answer",
         "url": "https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.we6rriq8j"
+      },
+      {
+        "title": "Ember CLI",
+        "url": "http://ember-cli.com/"
+      },
+      {
+        "title": "React CLI",
+        "url": "https://www.npmjs.com/package/react-cli"
       }
     ],
     "picks": [
