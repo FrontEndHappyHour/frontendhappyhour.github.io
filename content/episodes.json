@@ -14,6 +14,22 @@
     "guests": [],
     "links": [
       {
+        "title": "Selenium",
+        "url": "http://www.seleniumhq.org/"
+      },
+      {
+        "title": "Black-box testing",
+        "url": "https://en.wikipedia.org/wiki/Black-box_testing"
+      },
+      {
+        "title": "White-box testing",
+        "url": "https://en.wikipedia.org/wiki/White-box_testing"
+      },
+      {
+        "title": "Ember guides",
+        "url": "https://guides.emberjs.com/v2.5.0/"
+      },
+      {
         "title": "Mocha",
         "url": "https://mochajs.org/"
       },
