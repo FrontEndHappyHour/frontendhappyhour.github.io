@@ -32,9 +32,15 @@ const object = {
 
 // add new object and combine with the existing episodes
 temp.push(object);
-temp.push(episodes[0]);
 
-// write new file
+Object.keys(episodes).forEach(function(key) {
+  temp.push(episodes[key]);
+});
+
+
+//console.log(episodes)
+
+//write new file
 jsonfile.writeFile('./content/episodes.json', temp, {spaces: 2}, function(err) {
   if(err) {
     console.log(err);
