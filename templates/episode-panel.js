@@ -13,7 +13,7 @@ module.exports = function episodePanel(panelists, panel) {
       const pic = panelists[x].profile_pic;
       const twitter = panelists[x].twitter;
       // download profile pics if they don't already exist
-      fs.stat(`./public/img/panel/${twitter}.jpg`, function(err, stat) { 
+      fs.stat(`./public/img/panel/${twitter}.jpg`, function(err, stat) {
         if(err !== null) {
           twitterPic(twitter, 'public/img/panel');
         }
