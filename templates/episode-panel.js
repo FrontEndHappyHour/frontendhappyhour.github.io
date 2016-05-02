@@ -4,17 +4,25 @@ const _ = require('lodash');
 const contains = require('../lib/contains');
 module.exports = function episodePanel(panelists, panel) {
   'use strict';
+  const fs = require('fs');
+  const twitterPic = require('../lib/twitter-pic');
   let content = '';
   for(let x = 0; x < panelists.length; x++) {
     if(panel.contains(panelists[x].name)) {
       const name = panelists[x].name;
       const pic = panelists[x].profile_pic;
       const twitter = panelists[x].twitter;
+      // download profile pics if they don't already exist
+      fs.stat(`./public/img/panel/${twitter}.jpg`, function(err, stat) {
+        if(err !== null) {
+          twitterPic(twitter, 'public/img/panel');
+        }
+      });
       let pickMarkup;
       if(_.startsWith(pic, 'http') || _.startsWith(pic, '/')) {
         pickMarkup = `<img src="../../public${pic}" alt="${name} profile picture" />`;
       }else {
-        pickMarkup = `<img src="https://avatars0.githubusercontent.com/u/${pic}?v=3&s=150" alt="${name} profile picture">`;
+        pickMarkup = `<img src="../../public/img/panel/${twitter}.jpg" alt="${name} profile picture" />`;
       }
 
       content += `<li>${pickMarkup}

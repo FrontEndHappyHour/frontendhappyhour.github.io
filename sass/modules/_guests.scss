@@ -1,0 +1,25 @@
+// File Name: _guests.scss
+// Description: styles for the guest photos, name, twitter
+// Used by: episodes.scss,
+// Dependencies:
+// Date created: 01/05/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+.guests{
+
+  li{
+    display: inline-block;
+    text-align: center;
+    max-width: 145px;
+  }
+
+  img{
+    @include roundedCorners(150);
+    width: 75px;
+
+    @include min-breakpoint(940){
+      width: 80%;
+    }
+  }
+}

@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/FrontEndHappyHour/website.git"
+    "url": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FrontEndHappyHour/website/issues"
+    "url": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io/issues"
   },
-  "homepage": "https://github.com/FrontEndHappyHour/website",
+  "homepage": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io",
   "devDependencies": {
     "babel-eslint": "^6.0.2",
     "eslint": "^2.7.0",
@@ -41,8 +41,10 @@
     }
   },
   "dependencies": {
+    "cheerio": "^0.20.0",
     "jsonfile": "^2.2.3",
     "lodash": "^4.6.1",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "request": "^2.72.0"
   }
 }
