@@ -37,9 +37,6 @@ Object.keys(episodes).forEach(function(key) {
   temp.push(episodes[key]);
 });
 
-
-//console.log(episodes)
-
 //write new file
 jsonfile.writeFile('./content/episodes.json', temp, {spaces: 2}, function(err) {
   if(err) {
