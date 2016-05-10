@@ -1,5 +1,79 @@
 [
   {
+    "episode": "007",
+    "title": "a11y Cocktail",
+    "description": "In this episode we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users. We also talk about Global Accessibility Awareness Day (GAAD) coming up on May 19th. Find out how you can participate.",
+    "id": "",
+    "published": "",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Jennison Asuncion",
+        "twitter": "Jennison"
+      }
+    ],
+    "links": [
+      {
+        "title": "Global Accessibility Awareness Day",
+        "url": "http://www.globalaccessibilityawarenessday.org/"
+      }
+    ],
+    "picks": [
+      {
+        "title:": "React a11y",
+        "url": "https://github.com/reactjs/react-a11y",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title:": "The Gaslight Anthem",
+        "url": "https://www.youtube.com/watch?v=9ybyowORfEc",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title:": "Sweet Jesus Ice Cream",
+        "url": "http://www.sweetjesus4life.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title:": "Tota11y by Khan Academy",
+        "url": "http://khan.github.io/tota11y/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title:": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title:": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title:": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title:": "",
+        "url": "",
+        "from": "Sarah Federman"
+      },
+      {
+        "title:": "",
+        "url": "",
+        "from": "Jennison Asuncion"
+      }
+    ]
+  },
+  {
     "episode": "006",
     "title": "Unit testing and whiskey tasting",
     "description": "We’ve all heard unit testing is good, but how do you get started writing unit tests? In this episode of Front End Happy Hour we share our experiences and advice writing unit tests. We discuss why it’s important and beneficial to have unit tests in your JavaScript. We share how we’ve approached unit tests and what a good unit test looks like. We also talk about the various tools and frameworks available to get your code properly tested.",
@@ -288,8 +362,8 @@
   },
   {
     "episode": "004",
-    "title":"ES6 and a Six Pack",
-    "description":"ECMAScript 6 was a major release for the JavaScript language. There’s a lot of great new features that have been added. In this episode we discuss how you can start using ES6 today and what we’ll start seeing in the next year for the latest update to ECMAScript. We share our favorite features and the best ways to learn and stay up to date with new features.",
+    "title": "ES6 and a Six Pack",
+    "description": "ECMAScript 6 was a major release for the JavaScript language. There’s a lot of great new features that have been added. In this episode we discuss how you can start using ES6 today and what we’ll start seeing in the next year for the latest update to ECMAScript. We share our favorite features and the best ways to learn and stay up to date with new features.",
     "id": "257371209",
     "published": "April 04, 2016",
     "panel": [
@@ -301,8 +375,7 @@
       "Augustus Yuan",
       "Sarah Federman"
     ],
-    "guests": [
-    ],
+    "guests": [],
     "links": [
       {
         "title": "ESNext",
@@ -429,8 +502,8 @@
   },
   {
     "episode": "003",
-    "title":"From head to footer",
-    "description":"In this ever changing industry of front end development, developers are constantly learning. In this episode of Front End Happy Hour we discuss everything from our school backgrounds and what lead us to front end development. We also share ways we stay up to date with the ever-changing landscape of new technologies. Along with our usual panelists, we are joined by guest Sarah Showers, a front end developer from Apple.",
+    "title": "From head to footer",
+    "description": "In this ever changing industry of front end development, developers are constantly learning. In this episode of Front End Happy Hour we discuss everything from our school backgrounds and what lead us to front end development. We also share ways we stay up to date with the ever-changing landscape of new technologies. Along with our usual panelists, we are joined by guest Sarah Showers, a front end developer from Apple.",
     "id": "254905107",
     "published": "March 24, 2016",
     "panel": [
@@ -445,8 +518,7 @@
         "twitter": "sarahlshowers"
       }
     ],
-    "links": [
-    ],
+    "links": [],
     "picks": [
       {
         "title": "Hamilton",
@@ -487,8 +559,8 @@
   },
   {
     "episode": "002",
-    "title":"RxJS - Async and Drink",
-    "description":"In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.",
+    "title": "RxJS - Async and Drink",
+    "description": "In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.",
     "id": "252127996",
     "published": "March 16, 2016",
     "panel": [
@@ -559,8 +631,8 @@
   },
   {
     "episode": "001",
-    "title":"The State of Web Development",
-    "description":"For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
+    "title": "The State of Web Development",
+    "description": "For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
     "id": "249593158",
     "published": "February 29, 2016",
     "panel": [
@@ -570,8 +642,7 @@
       "Ryan Anklam",
       "Ryan Burgess"
     ],
-    "guests": [
-    ],
+    "guests": [],
     "links": [
       {
         "title": "Gulp",
