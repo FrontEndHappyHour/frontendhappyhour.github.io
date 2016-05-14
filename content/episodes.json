@@ -7,10 +7,7 @@
     "published": "",
     "panel": [
       "Ryan Burgess",
-      "Augustus Yuan",
-      "Jem Young",
       "Derrick Showers",
-      "Brian Holt",
       "Sarah Federman"
     ],
     "guests": [
@@ -23,6 +20,46 @@
       {
         "title": "Global Accessibility Awareness Day",
         "url": "http://www.globalaccessibilityawarenessday.org/"
+      },
+      {
+        "title": "Using VoiceOver to Evaluate Web Accessibility",
+        "url": "http://webaim.org/articles/voiceover/"
+      },
+      {
+        "title": "AccessLint",
+        "url": "http://accesslint.com/"
+      },
+      {
+        "title": "axe Core",
+        "url": "https://github.com/dequelabs/axe-core"
+      },
+      {
+        "title": "Chrome Accessibility Developer Tools",
+        "url": "https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en"
+      },
+      {
+        "title": "list of Meetups on accessibility",
+        "url": "http://www.meetup.com/find/?allMeetups=false&keywords=a11y&radius=Infinity"
+      },
+      {
+        "title": "Apps For All: Coding Accessible Web Applications eBook",
+        "url": "https://shop.smashingmagazine.com/products/apps-for-all"
+      },
+      {
+        "title": "International Technology and Persons with Disabilities Conference (CSUN Conference)",
+        "url": "http://www.csunconference.org"
+      },
+      {
+        "title": "Accessibility Camp Bay Area (Fall 2016)",
+        "url": "http://www.accessibilitycampbay.org"
+      },
+      {
+        "title": "Boston Accessibility Conference (Fall 2016)",
+        "url": "http://a11y-bos.org/"
+      },
+      {
+        "title": "Accessibility Camp Toronto (Fall 2016)",
+        "url": "http://www.accessibilitycampto.org/"
       }
     ],
     "picks": [
@@ -42,28 +79,28 @@
         "from": "Ryan Burgess"
       },
       {
-        "title:": "Tota11y by Khan Academy",
-        "url": "http://khan.github.io/tota11y/",
-        "from": "Augustus Yuan"
-      },
-      {
-        "title:": "",
-        "url": "",
-        "from": "Jem Young"
-      },
-      {
-        "title:": "",
-        "url": "",
+        "title:": "A11y Command-line Tools",
+        "url": "https://addyosmani.com/a11y/",
         "from": "Derrick Showers"
       },
       {
-        "title:": "",
-        "url": "",
-        "from": "Brian Holt"
+        "title:": "YNAB",
+        "url": "http://www.youneedabudget.com/",
+        "from": "Derrick Showers"
       },
       {
-        "title:": "",
-        "url": "",
+        "title:": "Wakatime",
+        "url": "https://wakatime.com/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title:": "Hackster.io",
+        "url": "https://www.hackster.io/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title:": "Losant (previously Structure)",
+        "url": "https://www.losant.com/",
         "from": "Sarah Federman"
       },
       {
