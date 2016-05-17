@@ -14,7 +14,7 @@ const temp = [];
 Object.keys(panelists).forEach(function(key) {
   let name = panelists[key].name;
   names.push(name);
-  picks.push({'title:': '', 'url': '', 'from': name });
+  picks.push({'title': '', 'url': '', 'from': name });
 });
 
 // build up place holder object for new episode
