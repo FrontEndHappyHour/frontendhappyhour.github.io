@@ -1,8 +1,8 @@
 [
   {
     "episode": "008",
-    "title": "Shots of Silicon Valley",
-    "description": "",
+    "title": "A Shot of Silicon Valley",
+    "description": "Working in Silicon Valley is very unique. We work in a bubble, immersed in technology. There’s billboards about frameworks, technologies and gadgets. Coffee shops are filled with people on Macbooks covered in stickers. Conversations on the train, coffee shops and on the streets are about programing languages. There’s a unique culture from other places we’ve all lived. In this episode we share our thoughts and experiences living and working in Silicon Valley.",
     "id": "",
     "published": "",
     "panel": [
@@ -18,8 +18,18 @@
     "links": [],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "Philz coffee",
+        "url": "http://www.philzcoffee.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The User is Drunk",
+        "url": "https://www.youtube.com/watch?v=r2CbbBLVaPk",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "City and Colour",
+        "url": "https://www.youtube.com/watch?v=yuJ4wm_HTAc",
         "from": "Ryan Burgess"
       },
       {
@@ -28,8 +38,8 @@
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "ES6 Compatibility table",
+        "url": "http://kangax.github.io/compat-table/es6/",
         "from": "Jem Young"
       },
       {
@@ -38,8 +48,18 @@
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Dash app",
+        "url": "https://kapeli.com/dash",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "The Chainsmokers",
+        "url": "https://open.spotify.com/artist/69GGBxA162lTqCwzJG5jLp",
         "from": "Ryan Anklam"
       },
       {
