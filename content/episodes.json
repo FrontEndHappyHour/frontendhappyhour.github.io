@@ -15,7 +15,12 @@
       "Sarah Federman"
     ],
     "guests": [],
-    "links": [],
+    "links": [
+      {
+        "title": "Silicon Valley",
+        "url": "https://en.wikipedia.org/wiki/Silicon_Valley"
+      }
+    ],
     "picks": [
       {
         "title": "Philz coffee",
@@ -40,6 +45,16 @@
       {
         "title": "ES6 Compatibility table",
         "url": "http://kangax.github.io/compat-table/es6/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Music for programming",
+        "url": "http://musicforprogramming.net/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Rapping, deconstructed",
+        "url": "https://www.youtube.com/watch?v=QWveXdj6oZU",
         "from": "Jem Young"
       },
       {
