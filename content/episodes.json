@@ -11,7 +11,6 @@
       "Jem Young",
       "Derrick Showers",
       "Ryan Anklam",
-      "Brian Holt",
       "Sarah Federman"
     ],
     "guests": [],
@@ -19,6 +18,14 @@
       {
         "title": "Silicon Valley",
         "url": "https://en.wikipedia.org/wiki/Silicon_Valley"
+      },
+      {
+        "title": "Rover",
+        "url": "https://www.rover.com/"
+      },
+      {
+        "title": "Sushirrito",
+        "url": "http://www.sushirrito.com/"
       }
     ],
     "picks": [
@@ -58,8 +65,13 @@
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Periscope",
+        "url": "https://www.periscope.tv/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/",
         "from": "Derrick Showers"
       },
       {
@@ -73,18 +85,18 @@
         "from": "Ryan Anklam"
       },
       {
-        "title": "The Chainsmokers",
-        "url": "https://open.spotify.com/artist/69GGBxA162lTqCwzJG5jLp",
+        "title": "Bjork - Army of Me",
+        "url": "https://www.youtube.com/watch?v=LyEJxzQM24Q",
         "from": "Ryan Anklam"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
+        "title": "Sensel Morph",
+        "url": "https://www.kickstarter.com/projects/1152958674/the-sensel-morph-interaction-evolved",
+        "from": "Sarah Federman"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "OnHub & IFTTT",
+        "url": "https://on.google.com/hub/blog/2016-04-28/onhubifttt/",
         "from": "Sarah Federman"
       }
     ]
