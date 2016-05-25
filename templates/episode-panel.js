@@ -12,6 +12,8 @@ module.exports = function episodePanel(panelists, panel) {
       const name = panelists[x].name;
       const pic = panelists[x].profile_pic;
       const twitter = panelists[x].twitter;
+      const directory = name.replace(' ', '-').toLowerCase();
+
       // download profile pics if they don't already exist
       fs.stat(`./public/img/panel/${twitter}.jpg`, function(err, stat) {
         if(err !== null) {
@@ -25,7 +27,7 @@ module.exports = function episodePanel(panelists, panel) {
         pickMarkup = `<img src="../../public/img/panel/${twitter}.jpg" alt="${name} profile picture" />`;
       }
 
-      content += `<li>${pickMarkup}
+      content += `<li><a href="/panelists/${directory}">${pickMarkup}</a>
       <span class="name">${name}</span>
       <a href="https://twitter.com/${twitter}" class="twitter">@${twitter}</a>
       </li>`;
