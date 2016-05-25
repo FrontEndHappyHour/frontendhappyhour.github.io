@@ -35,6 +35,14 @@ module.exports = function main(pageType, content, title, desc) {
     pageTitle = title + ' - ';
   }
 
+  // panelist page
+  if(pageType === 'panelist') {
+    path = '../../';
+    css = 'public/css/panelist.css';
+    pageContent = content;
+    pageTitle = title + ' - ';
+  }
+
   return `<!DOCTYPE html>
           <html>
               <head>

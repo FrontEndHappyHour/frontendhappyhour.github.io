@@ -15,6 +15,15 @@
     max-width: 145px;
   }
 
+  a{
+    text-decoration: none;
+    
+    &:hover, &:focus{
+      opacity: 0.7;
+      border: none;
+    }
+  }
+
   img{
     @include roundedCorners(150);
     width: 75px;

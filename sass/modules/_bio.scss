@@ -1,0 +1,37 @@
+// File Name: _bio.scss
+// Description: Style the bio page
+// Used by: 
+// Dependencies: 
+// Date created: 25/05/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+img{
+  float: left;
+  @include roundedCorners(150);
+  width: 75px;
+
+  @include min-breakpoint(940){
+    width: 150px;
+  }
+}
+
+.content{
+  float: left;
+  width: 90%;
+  margin-left: 30px;
+
+  @include min-breakpoint(940){
+    width: 60%;
+  }
+}
+
+a{
+  color: $darkBlue;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover, &:focus{
+    border-bottom: 1px solid $darkBlue;
+  }
+}
