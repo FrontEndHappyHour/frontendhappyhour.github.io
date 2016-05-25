@@ -26,6 +26,14 @@ header{
     }
   }
 
+  .tagline{
+    @include rem("font-size", 18);
+
+    @include min-breakpoint(940){
+      @include rem("font-size", 24);
+    }
+  }
+
   .right-content{
     float: left;
     max-width: 600px;

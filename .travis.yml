@@ -1,0 +1,8 @@
+sudo: false
+language: node_js
+node_js:
+  - '6.0'
+  - '4.4'
+  - '4.3'
+notifications:
+  slack: frontendhappyhour:ZU08DaIwYl9dJt3sS23mNOGi

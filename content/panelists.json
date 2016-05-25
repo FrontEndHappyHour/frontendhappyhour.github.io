@@ -9,24 +9,36 @@
     "name": "Augustus Yuan",
     "twitter": "augburto",
     "profile_pic": "2054339",
-    "bio": ""
+    "bio": "Augustus is a Frontend Engineer at Evernote. He loves quotes, is constantly curious, and has a strong passion for the frontend. He is also slightly obsessed with the drama House and coffee."
   },
   {
     "name": "Jem Young",
     "twitter": "JemYoung",
-    "profile_pic": "984983",
+    "profile_pic": "/img/jem.jpg",
     "bio": ""
   },
   {
     "name": "Derrick Showers",
     "twitter": "derrickshowers",
-    "profile_pic": "1372292",
-    "bio": ""
+    "profile_pic": "/img/derrick.jpg",
+    "bio": "UI Engineer at LinkedIn | I love steak, sushi, San Francisco, boats, whiskey (and yes, occasionally Fernet) | Spontaneity is the key to life"
   },
   {
     "name": "Ryan Anklam",
     "twitter": "bittersweetryan",
-    "profile_pic": "392624",
+    "profile_pic": "/img/ryan.jpg",
+    "bio": "Ryan is a Senior UI Engineer at Netflix. He loves React, The Simpsons, runninng, and Taylor Swift."
+  },
+  {
+    "name": "Brian Holt",
+    "twitter": "holtbt",
+    "profile_pic": "999523",
     "bio": ""
+  },
+  {
+    "name": "Sarah Federman",
+    "twitter": "sarah_federman",
+    "profile_pic": "5673114",
+    "bio": "Sarah is a UI Engineer at LinkedIn. Addicted to sushi, burritos, sushirittos, alcohol, and sarcasm."
   }
 ]

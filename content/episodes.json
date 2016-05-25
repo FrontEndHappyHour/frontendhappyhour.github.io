@@ -1,8 +1,795 @@
 [
   {
+    "episode": "008",
+    "title": "A Shot of Silicon Valley",
+    "description": "Working in Silicon Valley is very unique. We work in a bubble, immersed in technology. There are billboards about frameworks, technology, and gadgets. Coffee shops are filled with people on Macbooks covered in stickers. Conversations on the train, coffee shops and on the streets are about programming languages. There’s a unique culture from other places we’ve all lived. In this episode, we share our thoughts and experiences living and working in Silicon Valley.",
+    "id": "265692287",
+    "published": "May 24, 2016",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Silicon Valley",
+        "url": "https://en.wikipedia.org/wiki/Silicon_Valley"
+      },
+      {
+        "title": "Skam",
+        "url": "https://www.instagram.com/skamoney/"
+      },
+      {
+        "title": "Rover",
+        "url": "https://www.rover.com/"
+      },
+      {
+        "title": "Sushirrito",
+        "url": "http://www.sushirrito.com/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Philz coffee",
+        "url": "http://www.philzcoffee.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Allbirds shoes",
+        "url": "https://www.allbirds.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "City and Colour",
+        "url": "https://www.youtube.com/watch?v=yuJ4wm_HTAc",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tinyletter",
+        "url": "http://tinyletter.com/site/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "ES6 Compatibility table",
+        "url": "http://kangax.github.io/compat-table/es6/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Music for programming",
+        "url": "http://musicforprogramming.net/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Rapping, deconstructed",
+        "url": "https://www.youtube.com/watch?v=QWveXdj6oZU",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Periscope",
+        "url": "https://www.periscope.tv/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Dash app",
+        "url": "https://kapeli.com/dash",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Bjork - Army of Me",
+        "url": "https://www.youtube.com/watch?v=LyEJxzQM24Q",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Sensel Morph",
+        "url": "https://www.kickstarter.com/projects/1152958674/the-sensel-morph-interaction-evolved",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "OnHub & IFTTT",
+        "url": "https://on.google.com/hub/blog/2016-04-28/onhubifttt/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "007",
+    "title": "a11y Cocktail",
+    "description": "In this episode, we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users. We also talk about Global Accessibility Awareness Day (GAAD) coming up on May 19th. Find out how you can participate.",
+    "id": "264282122",
+    "published": "May 15, 2016",
+    "panel": [
+      "Ryan Burgess",
+      "Derrick Showers",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Jennison Asuncion",
+        "twitter": "Jennison"
+      }
+    ],
+    "links": [
+      {
+        "title": "Global Accessibility Awareness Day",
+        "url": "http://www.globalaccessibilityawarenessday.org/"
+      },
+      {
+        "title": "Using VoiceOver to Evaluate Web Accessibility",
+        "url": "http://webaim.org/articles/voiceover/"
+      },
+      {
+        "title": "AccessLint",
+        "url": "http://accesslint.com/"
+      },
+      {
+        "title": "axe Core",
+        "url": "https://github.com/dequelabs/axe-core"
+      },
+      {
+        "title": "Tenon",
+        "url": "http://www.tenon.io/"
+      },
+      {
+        "title": "Chrome Accessibility Developer Tools",
+        "url": "https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en"
+      },
+      {
+        "title": "list of Meetups on accessibility",
+        "url": "http://www.meetup.com/find/?allMeetups=false&keywords=a11y&radius=Infinity"
+      },
+      {
+        "title": "Apps For All: Coding Accessible Web Applications eBook",
+        "url": "https://shop.smashingmagazine.com/products/apps-for-all"
+      },
+      {
+        "title": "International Technology and Persons with Disabilities Conference (CSUN Conference)",
+        "url": "http://www.csunconference.org"
+      },
+      {
+        "title": "Accessibility Camp Bay Area (Fall 2016)",
+        "url": "http://www.accessibilitycampbay.org"
+      },
+      {
+        "title": "Boston Accessibility Conference (Fall 2016)",
+        "url": "http://a11y-bos.org/"
+      },
+      {
+        "title": "Accessibility Camp Toronto (Fall 2016)",
+        "url": "http://www.accessibilitycampto.org/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Square Cash",
+        "url": "https://cash.me/",
+        "from": "Jennison Asuncion"
+      },
+      {
+        "title": "The Points Guy",
+        "url": "http://thepointsguy.com/",
+        "from": "Jennison Asuncion"
+      },
+      {
+        "title": "Jazz FM",
+        "url": "http://www.jazz.fm/",
+        "from": "Jennison Asuncion"
+      },
+      {
+        "title": "React a11y",
+        "url": "https://github.com/reactjs/react-a11y",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Gaslight Anthem",
+        "url": "https://www.youtube.com/watch?v=9ybyowORfEc",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Sweet Jesus Ice Cream",
+        "url": "http://www.sweetjesus4life.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "A11y Command-line Tools",
+        "url": "https://addyosmani.com/a11y/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "YNAB",
+        "url": "http://www.youneedabudget.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Wakatime",
+        "url": "https://wakatime.com/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Hackster.io",
+        "url": "https://www.hackster.io/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Losant (previously Structure)",
+        "url": "https://www.losant.com/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "006",
+    "title": "Unit testing and whiskey tasting",
+    "description": "We’ve all heard unit testing is good, but how do you get started writing unit tests? In this episode of Front End Happy Hour we share our experiences and advice writing unit tests. We discuss why it’s important and beneficial to have unit tests in your JavaScript. We share how we’ve approached unit tests and what a good unit test looks like. We also talk about the various tools and frameworks available to get your code properly tested.",
+    "id": "260918790",
+    "published": "April 25, 2015",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Selenium",
+        "url": "http://www.seleniumhq.org/"
+      },
+      {
+        "title": "Black-box testing",
+        "url": "https://en.wikipedia.org/wiki/Black-box_testing"
+      },
+      {
+        "title": "White-box testing",
+        "url": "https://en.wikipedia.org/wiki/White-box_testing"
+      },
+      {
+        "title": "Ember guides",
+        "url": "https://guides.emberjs.com/v2.5.0/"
+      },
+      {
+        "title": "Mocha",
+        "url": "https://mochajs.org/"
+      },
+      {
+        "title": "Jasmine",
+        "url": "http://jasmine.github.io/"
+      },
+      {
+        "title": "QUnit",
+        "url": "https://qunitjs.com/"
+      },
+      {
+        "title": "Tape",
+        "url": "https://github.com/substack/tape"
+      },
+      {
+        "title": "Jest",
+        "url": "https://facebook.github.io/jest/"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/"
+      },
+      {
+        "title": "5 Questions Every Unit Test Must Answer",
+        "url": "https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.we6rriq8j"
+      },
+      {
+        "title": "Ember CLI",
+        "url": "http://ember-cli.com/"
+      },
+      {
+        "title": "React CLI",
+        "url": "https://www.npmjs.com/package/react-cli"
+      },
+      {
+        "title": "Karma",
+        "url": "https://karma-runner.github.io/0.13/index.html"
+      },
+      {
+        "title": "What is the difference between a test runner, testing framwork, assertion library, and a testing plugin?",
+        "url": "http://amzotti.github.io/testing/2015/03/16/what-is-the-difference-between-a-test-runner-testing-framework-assertion-library-and-a-testing-plugin/"
+      },
+      {
+        "title": "Ember Guides introduction to Unit Testing",
+        "url": "https://guides.emberjs.com/v2.5.0/testing/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Caffeine for Mac",
+        "url": "https://itunes.apple.com/us/app/caffeine/id411246225?mt=12",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Odesza",
+        "url": "https://www.youtube.com/user/odeszamusic",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Google Doodles",
+        "url": "http://www.google.com/doodles",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "OSSU Computer Science curriculum",
+        "url": "https://github.com/open-source-society/computer-science",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Mura Masa - What If I Go?",
+        "url": "https://www.youtube.com/watch?v=pLuQ0MGLBXU",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "teamLab: Living Digital Space and Future Parks",
+        "url": "http://www.eventbrite.com/e/teamlab-living-digital-space-and-future-parks-tickets-19952168473",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Flume - the mixtape",
+        "url": "https://www.youtube.com/watch?v=rPhoBRbqZeE",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Programming Sucks",
+        "url": "http://www.stilldrinking.org/programming-sucks",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Hype Machine",
+        "url": "http://hypem.com/popular?workaround=lol",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Google Calendar goals",
+        "url": "https://googleblog.blogspot.com/2016/04/find-time-goals-google-calendar.html",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "$13 bluetooth headset",
+        "url": "http://www.amazon.com/dp/B00Z0ME68A/ref=cm_sw_su_dp",
+        "from": "Derrick Showers"
+      }
+    ]
+  },
+  {
+    "episode": "005",
+    "title": "Interviews make us drink",
+    "description": "In order to work professionally as a front end developer, there is always an intense interview process. In this episode, we share our experiences and thoughts on the interviews we’ve done in the past. Not only have we had experience being interviewed, we’ve also had a lot of experience interviewing other engineers for jobs at our companies. We share things we’re looking for when we interview candidates to join our teams.",
+    "id": "259108189",
+    "published": "April 14, 2016",
+    "panel": [
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess",
+      "Brian Holt",
+      "Augustus Yuan",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Eclipse",
+        "url": "https://eclipse.org/"
+      },
+      {
+        "title": "Othello",
+        "url": "http://www.amazon.com/Mattel-B3165-Othello/dp/B00004TQMQ"
+      },
+      {
+        "title": "Big O notation",
+        "url": "https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/"
+      },
+      {
+        "title": "FizzBuzz",
+        "url": "https://gist.github.com/jaysonrowe/1592432"
+      },
+      {
+        "title": "Ryan Anklams famous t-shirt",
+        "url": "http://store.taylorswift.com/mm5/graphics/00000001/RedIheartTStee_1000x979.jpg"
+      },
+      {
+        "title": "War of the Worlds radio broadcast",
+        "url": "http://www.history.com/this-day-in-history/welles-scares-nation"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Aerial screensaver",
+        "url": "https://github.com/JohnCoates/Aerial",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Amazon Dash Buttons",
+        "url": "http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&field-keywords=dash+button",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Front End Happy Hour Playlist",
+        "url": "https://open.spotify.com/user/1294287391/playlist/6mpuF87VHAcog1cOwQqnfl",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Escape app",
+        "url": "https://itunes.apple.com/us/app/escape-by-focuslist-track/id1090969894?mt=12",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Best of Old Time Radio Podcast",
+        "url": "https://itunes.apple.com/us/podcast/best-of-old-time-radio/id288417478?mt=2",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Dusty Kid - Beyond That Hill",
+        "url": "https://open.spotify.com/album/0xDGKYCBTBZtOBa4DeKaTw",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Lindsey Stirling",
+        "url": "http://www.lindseystirling.com/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "SizeUp (osx windows management)",
+        "url": "http://www.irradiatedsoftware.com/sizeup/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "EmpireJS",
+        "url": "http://2016.empirejs.org/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Aphex Swift",
+        "url": "https://www.youtube.com/watch?v=pbMF7_LEh1g&list=PL3JScfXyyxathZuXzNzSQhDyQZ_qoNt8g&nohtml5=False",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Netflix Menus",
+        "url": "http://www.netflixmenus.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Code Climate",
+        "url": "https://codeclimate.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Slack themes",
+        "url": "http://slackthemes.net/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Massdrop",
+        "url": "https://www.massdrop.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Elevator Saga",
+        "url": "http://play.elevatorsaga.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Pretty Thoughts Alina Baraz & Galimatias",
+        "url": "https://www.youtube.com/watch?v=JrHw9BDa3OE",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "AtHack!",
+        "url": "http://www.athackit.org/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Annie Cannons",
+        "url": "https://twitter.com/anniecannons",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Scroobius Pip",
+        "url": "http://www.scroobiuspip.co.uk/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Baths",
+        "url": "https://en.wikipedia.org/wiki/Baths_(musician)",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "M83",
+        "url": "http://ilovem83.com/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "004",
+    "title": "ES6 and a Six Pack",
+    "description": "ECMAScript 6 was a major release for the JavaScript language. There’s a lot of great new features that have been added. In this episode we discuss how you can start using ES6 today and what we’ll start seeing in the next year for the latest update to ECMAScript. We share our favorite features and the best ways to learn and stay up to date with new features.",
+    "id": "257371209",
+    "published": "April 04, 2016",
+    "panel": [
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess",
+      "Brian Holt",
+      "Augustus Yuan",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "ESNext",
+        "url": "https://github.com/esnext/esnext"
+      },
+      {
+        "title": "Ben Lesh - Netflix JavaScript Talks - RxJS Version 5",
+        "url": "https://www.youtube.com/watch?v=COviCoUtwx4"
+      },
+      {
+        "title": "Ponyfoo blog",
+        "url": "https://ponyfoo.com/"
+      },
+      {
+        "title": "5 Minutes of JavaScript",
+        "url": "https://fivejs.codeschool.com/"
+      },
+      {
+        "title": "Compat Table ES6",
+        "url": "https://kangax.github.io/compat-table/es6/"
+      },
+      {
+        "title": "Facebook Codemod",
+        "url": "https://github.com/facebook/codemod"
+      }
+    ],
+    "picks": [
+      {
+        "title": "1Password",
+        "url": "https://1password.com/features/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Vim Tabular",
+        "url": "https://github.com/godlygeek/tabular",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "90s Hip Hop",
+        "url": "spotify:user:bittersweetryan:playlist:2Fz6VlYg8ff2lZJro6SrPD",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Elegant React with ES6 (and a bit of ES7) - React Rally",
+        "url": "https://www.youtube.com/watch?v=GzChMXy-Es0",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Lot 40 Whiskey",
+        "url": "http://thewhiskeywash.com/2015/12/14/whisky-review-lot-40/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "HTML5 Please",
+        "url": "http://html5please.com/ ",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Death Medieval",
+        "url": "https://twitter.com/DeathMedieval/status/715759543389708288",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Microsoft AI Bot",
+        "url": "http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "ES6 Cheatsheet",
+        "url": "http://exploringjs.com/es6/ch_overviews.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Cult of the Party Parrot",
+        "url": "http://cultofthepartyparrot.com",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Babel’s “try it out”",
+        "url": "https://babeljs.io/repl/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Latest greatest webapp",
+        "url": "https://github.com/derrickshowers/generator-latest-greatest-webapp",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Trello",
+        "url": "https://trello.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Tilt Brush",
+        "url": "https://www.tiltbrush.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Cotton Bureau",
+        "url": "https://cottonbureau.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Spacemacs",
+        "url": "https://github.com/syl20bnr/spacemacs",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "The little Schemer",
+        "url": "https://mitpress.mit.edu/books/little-schemer",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Ellee",
+        "url": "https://www.youtube.com/user/elleeduke",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "003",
+    "title": "From head to footer",
+    "description": "In this ever changing industry of front end development, developers are constantly learning. In this episode of Front End Happy Hour we discuss everything from our school backgrounds and what lead us to front end development. We also share ways we stay up to date with the ever-changing landscape of new technologies. Along with our usual panelists, we are joined by guest Sarah Showers, a front end developer from Apple.",
+    "id": "254905107",
+    "published": "March 24, 2016",
+    "panel": [
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Showers",
+        "twitter": "sarahlshowers"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Hamilton",
+        "url": "https://www.youtube.com/watch?v=Zp9HUc9HraQ&list=PLUSRfoOcUe4avCXPg6tPgdZzu--hBXUYx",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "Massive Attack-  Angel",
+        "url": "https://www.youtube.com/watch?v=hbe3CQamF8k",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Apple Music",
+        "url": "http://www.apple.com/music/radio/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Scotland JS",
+        "url": "http://scotlandjs.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Explosions in the Sky",
+        "url": "https://www.youtube.com/watch?v=lsSIyk026P8",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Tycho",
+        "url": "https://www.youtube.com/watch?v=Z6ih1aKeETk",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Comeback Kid",
+        "url": "https://www.youtube.com/watch?v=BHJEb6T9UKU",
+        "from": "Ryan Burgess"
+      }
+    ]
+  },
+  {
+    "episode": "002",
+    "title": "RxJS - Async and Drink",
+    "description": "In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.",
+    "id": "252127996",
+    "published": "March 16, 2016",
+    "panel": [
+      "Brian Holt",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Ben Lesh",
+        "twitter": "BenLesh"
+      }
+    ],
+    "links": [
+      {
+        "title": "Rx Marbles",
+        "url": "http://rxmarbles.com/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Egghead.io",
+        "url": "https://egghead.io/",
+        "from": "Ben Lesh"
+      },
+      {
+        "title": "Egghead.io - RxJS Creating Observables from Scratch",
+        "url": "https://egghead.io/lessons/rxjs-creating-observable-from-scratch",
+        "from": "Ben Lesh"
+      },
+      {
+        "title": "Netflix UIE YouTube Channel",
+        "url": "https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Amazon Echo",
+        "url": "http://www.amazon.com/Amazon-SK705DI-Echo/dp/B00X4WHP5E",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tilt Brush",
+        "url": "https://www.tiltbrush.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "EcmaScript Proposals",
+        "url": "https://github.com/tc39/ecma262",
+        "from": "Jem Young"
+      },
+      {
+        "title": "VimCasts",
+        "url": "http://vimcasts.org/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Ready Player One Audibook",
+        "url": "http://www.audible.com/pd/Sci-Fi-Fantasy/Ready-Player-One-Audiobook/B005FRGT44/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Factorio",
+        "url": "https://www.factorio.com/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "001",
-    "title":"The State of Web Development",
-    "description":"For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
+    "title": "The State of Web Development",
+    "description": "For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
     "id": "249593158",
     "published": "February 29, 2016",
     "panel": [
@@ -12,7 +799,48 @@
       "Ryan Anklam",
       "Ryan Burgess"
     ],
-    "guests": [
+    "guests": [],
+    "links": [
+      {
+        "title": "Gulp",
+        "url": "http://gulpjs.com/"
+      },
+      {
+        "title": "Grunt",
+        "url": "http://gruntjs.com/"
+      },
+      {
+        "title": "Broccoli JS",
+        "url": "http://broccolijs.com/"
+      },
+      {
+        "title": "npm",
+        "url": "https://www.npmjs.com/"
+      },
+      {
+        "title": "Babel",
+        "url": "https://babeljs.io/"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "PostCSS",
+        "url": "http://postcss.org/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "Angular",
+        "url": "https://angularjs.org/"
+      }
     ],
     "picks": [
       {

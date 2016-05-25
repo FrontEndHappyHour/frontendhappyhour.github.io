@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+'use strict';
+const test = require('tape');
+const main = require('../templates/main');
+const expected = `<!DOCTYPE html>
           <html>
               <head>
                   <title>Front End Happy Hour</title>
@@ -57,31 +60,21 @@
         </header>
                   <div class="episodes container">
                   <h2>Episodes</h2>
-                  <ol reversed><li><a href="episodes/a-shot-of-silicon-valley/"><h3>A Shot of Silicon Valley</h3>
-          <p>May 24, 2016</p>
-          <p>Working in Silicon Valley is very unique. We work in a bubble, immersed in technology. There are billboards about frameworks, technology, and gadgets. Coffee shops are filled with people on Macbooks covered in stickers. Conversations on the train, coffee shops and on the streets are about programming languages. There’s a unique culture from other places we’ve all lived. In this episode, we share our thoughts and experiences living and working in Silicon Valley.</p>
-          </a></li><li><a href="episodes/a11y-cocktail/"><h3>a11y Cocktail</h3>
-          <p>May 15, 2016</p>
-          <p>In this episode, we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users. We also talk about Global Accessibility Awareness Day (GAAD) coming up on May 19th. Find out how you can participate.</p>
-          </a></li><li><a href="episodes/unit-testing-and-whiskey-tasting/"><h3>Unit testing and whiskey tasting</h3>
-          <p>April 25, 2015</p>
-          <p>We’ve all heard unit testing is good, but how do you get started writing unit tests? In this episode of Front End Happy Hour we share our experiences and advice writing unit tests. We discuss why it’s important and beneficial to have unit tests in your JavaScript. We share how we’ve approached unit tests and what a good unit test looks like. We also talk about the various tools and frameworks available to get your code properly tested.</p>
-          </a></li><li><a href="episodes/interviews-make-us-drink/"><h3>Interviews make us drink</h3>
-          <p>April 14, 2016</p>
-          <p>In order to work professionally as a front end developer, there is always an intense interview process. In this episode, we share our experiences and thoughts on the interviews we’ve done in the past. Not only have we had experience being interviewed, we’ve also had a lot of experience interviewing other engineers for jobs at our companies. We share things we’re looking for when we interview candidates to join our teams.</p>
-          </a></li><li><a href="episodes/es6-and-a-six-pack/"><h3>ES6 and a Six Pack</h3>
-          <p>April 04, 2016</p>
-          <p>ECMAScript 6 was a major release for the JavaScript language. There’s a lot of great new features that have been added. In this episode we discuss how you can start using ES6 today and what we’ll start seeing in the next year for the latest update to ECMAScript. We share our favorite features and the best ways to learn and stay up to date with new features.</p>
-          </a></li><li><a href="episodes/from-head-to-footer/"><h3>From head to footer</h3>
-          <p>March 24, 2016</p>
-          <p>In this ever changing industry of front end development, developers are constantly learning. In this episode of Front End Happy Hour we discuss everything from our school backgrounds and what lead us to front end development. We also share ways we stay up to date with the ever-changing landscape of new technologies. Along with our usual panelists, we are joined by guest Sarah Showers, a front end developer from Apple.</p>
-          </a></li><li><a href="episodes/rxjs---async-and-drink/"><h3>RxJS - Async and Drink</h3>
-          <p>March 16, 2016</p>
-          <p>In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.</p>
-          </a></li><li><a href="episodes/the-state-of-web-development/"><h3>The State of Web Development</h3>
-          <p>February 29, 2016</p>
-          <p>For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled "The Sad State of Web Development", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.</p>
-          </a></li></ol>
+                  <ol reversed><li><a href="episodes/the-state-of-web-development/"><h3>The State of Web Development</h3>
+<p>February 29, 2016</p>
+<p>For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled "The Sad State of Web Development", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.</p>
+</a></li></ol>
                   </div>
               </body>
-          </html>
+          </html>`;
+const example = `<li><a href="episodes/the-state-of-web-development/"><h3>The State of Web Development</h3>
+<p>February 29, 2016</p>
+<p>For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled "The Sad State of Web Development", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.</p>
+</a></li>`;
+
+test('Test main template', function (t) {
+  t.equal(main('home', example), expected, 'main template is correct');
+  t.comment('homepage output is working as expected');
+
+  t.end();
+});
