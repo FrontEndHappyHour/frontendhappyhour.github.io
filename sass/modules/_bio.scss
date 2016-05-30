@@ -14,7 +14,9 @@
   @include min-breakpoint(940){
     width: 60%;
   }
+}
 
+.episodes{
   img{
     float: left;
     @include roundedCorners(150);
@@ -24,14 +26,13 @@
       width: 150px;
     }
   }
-}
+  a{
+    color: $darkBlue;
+    text-decoration: none;
+    font-weight: bold;
 
-a{
-  color: $darkBlue;
-  text-decoration: none;
-  font-weight: bold;
-
-  &:hover, &:focus{
-    border-bottom: 1px solid $darkBlue;
+    &:hover, &:focus{
+      border-bottom: 1px solid $darkBlue;
+    }
   }
 }
