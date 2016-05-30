@@ -6,16 +6,6 @@
 // SassySass v1.3.1
 // ------------------------------------------------------------
 
-img{
-  float: left;
-  @include roundedCorners(150);
-  width: 75px;
-
-  @include min-breakpoint(940){
-    width: 150px;
-  }
-}
-
 .content{
   float: left;
   width: 90%;
@@ -23,6 +13,16 @@ img{
 
   @include min-breakpoint(940){
     width: 60%;
+  }
+
+  img{
+    float: left;
+    @include roundedCorners(150);
+    width: 75px;
+
+    @include min-breakpoint(940){
+      width: 150px;
+    }
   }
 }
 
