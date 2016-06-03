@@ -1,5 +1,78 @@
 [
   {
+    "episode": "009",
+    "title": "Scotch makes us animated",
+    "description": "",
+    "id": "",
+    "published": "",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Drasner",
+        "twitter": "sarah_edo"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Drasner"
+      },
+      {
+        "title": "Sleep no more",
+        "url": "http://www.sleepnomore.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Internet trends 2016",
+        "url": "http://www.kpcb.com/internet-trends",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Hiphop Mix tapes",
+        "url": "https://archive.org/details/hiphopmixtapes",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Jules Field - Freedom",
+        "url": "https://play.spotify.com/track/1xAgdiNnpxPG1nv8ic0hM6?play=true",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "008",
     "title": "A Shot of Silicon Valley",
     "description": "Working in Silicon Valley is very unique. We work in a bubble, immersed in technology. There are billboards about frameworks, technology, and gadgets. Coffee shops are filled with people on Macbooks covered in stickers. Conversations on the train, coffee shops and on the streets are about programming languages. There’s a unique culture from other places we’ve all lived. In this episode, we share our thoughts and experiences living and working in Silicon Valley.",
