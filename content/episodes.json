@@ -18,7 +18,12 @@
         "twitter": "sarah_edo"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ],
     "picks": [
       {
         "title": "",
@@ -43,11 +48,6 @@
       {
         "title": "",
         "url": "",
-        "from": "Jem Young"
-      },
-      {
-        "title": "",
-        "url": "",
         "from": "Derrick Showers"
       },
       {
@@ -61,13 +61,13 @@
         "from": "Ryan Anklam"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
+        "title": "Transitions and Animations in CSS",
+        "url": "http://shop.oreilly.com/product/0636920041658.do",
+        "from": "Sarah Federman"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Alexa / Pebble Core integration",
+        "url": "https://blog.getpebble.com/2016/06/02/ks3u03/",
         "from": "Sarah Federman"
       }
     ]
