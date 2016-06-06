@@ -9,7 +9,6 @@
       "Ryan Burgess",
       "Augustus Yuan",
       "Derrick Showers",
-      "Ryan Anklam",
       "Sarah Federman"
     ],
     "guests": [
@@ -20,6 +19,22 @@
     ],
     "links": [
       {
+        "title": "GreenSock",
+        "url": "https://greensock.com/"
+      },
+      {
+        "title": "SnapSvg",
+        "url": "http://snapsvg.io/"
+      },
+      {
+        "title": "React Motion",
+        "url": "https://github.com/chenglou/react-motion"
+      },
+      {
+        "title": "Sarah Drasner's CodePen",
+        "url": "http://codepen.io/sdras/"
+      },
+      {
         "title": "",
         "url": ""
       }
@@ -28,6 +43,11 @@
       {
         "title": "",
         "url": "",
+        "from": "Sarah Drasner"
+      },
+      {
+        "title": "Valio Con",
+        "url": "http://valiocon.com/",
         "from": "Sarah Drasner"
       },
       {
@@ -51,19 +71,14 @@
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "how2",
+        "url": "https://www.npmjs.com/package/how2",
         "from": "Derrick Showers"
       },
       {
-        "title": "Hiphop Mix tapes",
-        "url": "https://archive.org/details/hiphopmixtapes",
-        "from": "Ryan Anklam"
-      },
-      {
-        "title": "Jules Field - Freedom",
-        "url": "https://play.spotify.com/track/1xAgdiNnpxPG1nv8ic0hM6?play=true",
-        "from": "Ryan Anklam"
+        "title": "Werker",
+        "url": "http://wercker.com/",
+        "from": "Derrick Showers"
       },
       {
         "title": "Transitions and Animations in CSS",
