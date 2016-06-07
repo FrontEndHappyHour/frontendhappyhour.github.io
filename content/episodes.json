@@ -2,9 +2,9 @@
   {
     "episode": "009",
     "title": "Scotch makes us animated",
-    "description": "",
+    "description": "In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information.",
     "id": "",
-    "published": "",
+    "published": "June 6, 2016",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -19,12 +19,40 @@
     ],
     "links": [
       {
+        "title": "Coin",
+        "url": "https://onlycoin.com/"
+      },
+      {
         "title": "GreenSock",
         "url": "https://greensock.com/"
       },
       {
+        "title": "Weighing SVG Animation Techniques (with Benchmarks)",
+        "url": "https://css-tricks.com/weighing-svg-animation-techniques-benchmarks/"
+      },
+      {
+        "title": "Mac Pro parallax",
+        "url": "http://www.apple.com/mac-pro/"
+      },
+      {
+        "title": "Mo.js",
+        "url": "http://mojs.io/"
+      },
+      {
+        "title": "Lego Mushroom",
+        "url": "http://legomushroom.com/"
+      },
+      {
         "title": "SnapSvg",
         "url": "http://snapsvg.io/"
+      },
+      {
+        "title": "D3",
+        "url": "https://d3js.org/"
+      },
+      {
+        "title": "Sara Soueidan",
+        "url": "https://twitter.com/sarasoueidan"
       },
       {
         "title": "React Motion",
@@ -35,14 +63,34 @@
         "url": "http://codepen.io/sdras/"
       },
       {
-        "title": "",
-        "url": ""
+        "title": "Framer JS",
+        "url": "http://framerjs.com/"
+      },
+      {
+        "title": "React Training",
+        "url": "https://reactjs-training.com/"
+      },
+      {
+        "title": "A Comparison of Animation Technologies",
+        "url": "https://css-tricks.com/comparison-animation-technologies/"
+      },
+      {
+        "title": "SVGOMG",
+        "url": "https://jakearchibald.github.io/svgomg/"
+      },
+      {
+        "title": "SVGO",
+        "url": "https://github.com/svg/svgo"
+      },
+      {
+        "title": "IcoMoon",
+        "url": "https://icomoon.io/"
       }
     ],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "Val Head's book",
+        "url": "https://twitter.com/vlh",
         "from": "Sarah Drasner"
       },
       {
