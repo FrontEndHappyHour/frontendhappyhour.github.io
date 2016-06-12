@@ -5,12 +5,19 @@ const nodeunit = require('gulp-nodeunit');
 const jshintStyle = require('jshint-stylish');
 const jsonlint = require('gulp-jsonlint');
 const eslint = require('gulp-eslint');
+const svgmin = require('gulp-svgmin');
 
 gulp.task('sass', function () {
   return gulp.src('sass/**/*.scss')
     .pipe(sass())
     .pipe(minifyCSS())
     .pipe(gulp.dest('./public/css/'));
+});
+
+gulp.task('svgmin', function () {
+    return gulp.src('public/img/**/*.svg')
+        .pipe(svgmin())
+        .pipe(gulp.dest('./public/img/'));
 });
 
 // ESLint
