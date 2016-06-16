@@ -43,6 +43,14 @@ module.exports = function main(pageType, content, title, desc) {
     pageTitle = title + ' - ';
   }
 
+  // mailing list page
+  if(pageType === 'mailing') {
+    path = '../../';
+    css = 'public/css/mailing.css';
+    pageContent = content;
+    pageTitle = title + ' - ';
+  }
+
   return `<!DOCTYPE html>
           <html>
               <head>
