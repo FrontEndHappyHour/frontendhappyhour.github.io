@@ -1,0 +1,24 @@
+// File Name: _form.scss
+// Description: Style form fields
+// Used by: mailing.scss, 
+// Dependencies: 
+// Date created: 16/06/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+form{
+  label{
+    display: block;
+  }
+
+  input{
+    border:1px solid $darkBlue;
+    background: $chalk;
+    color: $darkBlue;
+    @roundedCorners(5);
+
+    &:focus{
+      background: white;
+    }
+  }
+}

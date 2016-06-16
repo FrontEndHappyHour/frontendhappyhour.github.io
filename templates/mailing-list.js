@@ -7,6 +7,6 @@ module.exports = function mailing(title) {
           <label for="mce-EMAIL">Email address:</label>
           <input type="email" value="" name="EMAIL" id="mce-EMAIL">
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_27e5479493204609f037a4f6a_95d9b45a38" tabindex="-1" value=""></div>
-          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+          <button name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
           </form>`;
 };
