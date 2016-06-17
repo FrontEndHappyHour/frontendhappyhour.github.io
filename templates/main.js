@@ -45,7 +45,7 @@ module.exports = function main(pageType, content, title, desc) {
 
   // mailing list page
   if(pageType === 'mailing') {
-    path = '../../';
+    path = '../';
     css = 'public/css/mailing.css';
     pageContent = content;
     pageTitle = title + ' - ';

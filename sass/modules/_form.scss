@@ -12,13 +12,27 @@ form{
   }
 
   input{
+    display: block;
     border:1px solid $darkBlue;
-    background: $chalk;
+    background: white;
     color: $darkBlue;
-    @roundedCorners(5);
+    @include roundedCorners(5);
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+  }
 
-    &:focus{
-      background: white;
+  button{
+    @include roundedCorners(5);
+    padding: 5px 15px;
+    border:none;
+    background: $darkBlue;
+    color: white;
+
+    &:hover, &:focus{
+      background: $teal;
+      color: $darkBlue;
     }
   }
 }
