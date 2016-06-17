@@ -26,8 +26,23 @@
     "links": [],
     "picks": [
       {
+        "title": "Sift Dessert Bar",
+        "url": "http://siftdessertbar.com/",
+        "from": "Lisa Burgess"
+      },
+      {
         "title": "",
         "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "High West Rendezvous Rye",
+        "url": "http://www.highwest.com/products/rendezvous-rye.php",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Snak the Ripper - From the Dirt",
+        "url": "https://open.spotify.com/album/4b1X1UthWT1ldnw8PWMUZs",
         "from": "Ryan Burgess"
       },
       {
@@ -36,8 +51,8 @@
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Ava",
+        "url": "https://github.com/avajs/ava",
         "from": "Jem Young"
       },
       {
