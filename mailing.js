@@ -7,7 +7,7 @@ const mailing = require('./templates/mailing-list');
 const content = mailing('Join our mailing list');
 //meta data
 const title = 'Mailing list';
-const desc = 'Join the Front End Happy Hour for episode releases and exclusive updates.'
+const desc = 'Join the Front End Happy Hour for episode releases and exclusive updates.';
 
 // create a directory for each episode
 mkdirp.sync(`./mailing-list/`);
