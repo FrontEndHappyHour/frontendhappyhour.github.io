@@ -23,7 +23,28 @@
         "twitter": "_lisaburgess"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "title": "Apple diversity report",
+        "url": "http://www.apple.com/diversity/"
+      },
+      {
+        "title": "Netflix diversity report",
+        "url": "https://jobs.netflix.com/diversity"
+      },
+      {
+        "title": "LinkedIn diversity report",
+        "url": "https://blog.linkedin.com/2015/06/08/linkedins-2015-workforce-diversity"
+      },
+      {
+        "title": "Google diversity report",
+        "url": "https://www.google.com/diversity/"
+      },
+      {
+        "title": "Facebook diversity report",
+        "url": "http://newsroom.fb.com/news/2015/06/driving-diversity-at-facebook/"
+      }
+    ],
     "picks": [
       {
         "title": "Sift Dessert Bar",
