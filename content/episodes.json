@@ -43,6 +43,10 @@
       {
         "title": "Facebook diversity report",
         "url": "http://newsroom.fb.com/news/2015/06/driving-diversity-at-facebook/"
+      },
+      {
+        "title": "Thoughts on Gender and Radical Candor",
+        "url": "http://firstround.com/review/thoughts-on-gender-and-radical-candor/"
       }
     ],
     "picks": [
@@ -50,6 +54,16 @@
         "title": "Sift Dessert Bar",
         "url": "http://siftdessertbar.com/",
         "from": "Lisa Burgess"
+      },
+      {
+        "title": "R Studio",
+        "url": "https://www.rstudio.com/products/rstudio/",
+        "from": "Lisa Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
       },
       {
         "title": "",
@@ -85,6 +99,11 @@
         "title": "",
         "url": "",
         "from": "Brian Holt"
+      },
+      {
+        "title": "Women in Software Eng",
+        "url": "https://github.com/triketora/women-in-software-eng",
+        "from": "Sarah Federman"
       },
       {
         "title": "",
