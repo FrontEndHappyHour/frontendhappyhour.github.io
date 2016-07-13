@@ -1,5 +1,141 @@
 [
   {
+    "episode": "010",
+    "title": "Raise your glass to women in tech",
+    "description": "In the technology industry we’re continually trying to grow the diversity of people who are working in the space. Most recently there have been a lot of great efforts made to increase the number of women in tech. In this episode we are joined by two talented women working at large tech companies in the Bay Area, Lisa Burgess (Uber) and Mars Jullian (Netflix). We discuss what it’s like to be a women working in tech and talk about ways we can help foster a more inclusive industry.",
+    "id": "273424836",
+    "published": "July 12, 2016",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt"
+    ],
+    "guests": [
+      {
+        "name": "Mars Jullian",
+        "twitter": "marsjosephine"
+      },
+      {
+        "name": "Lisa Burgess",
+        "twitter": "_lisaburgess"
+      }
+    ],
+    "links": [
+      {
+        "title": "Apple diversity report",
+        "url": "http://www.apple.com/diversity/"
+      },
+      {
+        "title": "Netflix diversity report",
+        "url": "https://jobs.netflix.com/diversity"
+      },
+      {
+        "title": "LinkedIn diversity report",
+        "url": "https://blog.linkedin.com/2015/06/08/linkedins-2015-workforce-diversity"
+      },
+      {
+        "title": "Google diversity report",
+        "url": "https://www.google.com/diversity/"
+      },
+      {
+        "title": "Facebook diversity report",
+        "url": "http://newsroom.fb.com/news/2015/06/driving-diversity-at-facebook/"
+      },
+      {
+        "title": "Thoughts on Gender and Radical Candor",
+        "url": "http://firstround.com/review/thoughts-on-gender-and-radical-candor/"
+      },
+      {
+        "title": "Vague Feedback Is Holding Women Back",
+        "url": "https://hbr.org/2016/04/research-vague-feedback-is-holding-women-back"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Sift Dessert Bar",
+        "url": "http://siftdessertbar.com/",
+        "from": "Lisa Burgess"
+      },
+      {
+        "title": "Shiny",
+        "url": "http://shiny.rstudio.com/",
+        "from": "Lisa Burgess"
+      },
+      {
+        "title": "99% Invisible",
+        "url": "http://99percentinvisible.org/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Invisiblia",
+        "url": "http://www.npr.org/podcasts/510307/invisibilia",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "TED Radio",
+        "url": "http://www.npr.org/programs/ted-radio-hour/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "High West Rendezvous Rye",
+        "url": "http://www.highwest.com/products/rendezvous-rye.php",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Snak the Ripper - From the Dirt",
+        "url": "https://open.spotify.com/album/4b1X1UthWT1ldnw8PWMUZs",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Blameless Post Mortems",
+        "url": "https://www.kennorton.com/newsletter/2016-04-20-bringing-the-donuts.html",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Ava",
+        "url": "https://github.com/avajs/ava",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Music for Programming",
+        "url": "http://musicforprogramming.net/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Women in tech for the past 50 years!",
+        "url": "#",
+        "from": "Jem Young"
+      },
+      {
+        "title": "High West Silver Whiskey",
+        "url": "http://www.highwest.com/products/silver-whiskey-western-oat.php",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "WWDC iOS 10",
+        "url": "http://www.apple.com/ios/ios10-preview/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Mr Robot",
+        "url": "http://www.usanetwork.com/mrrobot",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Project Include",
+        "url": "http://projectinclude.org/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "elk-cli",
+        "url": "https://github.com/btholt/elk-cli",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "009",
     "title": "Scotch makes us animated",
     "description": "In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information.",
