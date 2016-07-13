@@ -4,14 +4,13 @@
     "title": "Raise your glass to women in tech",
     "description": "In the technology industry we’re continually trying to grow the diversity of people who are working in the space. Most recently there have been a lot of great efforts made to increase the number of women in tech. In this episode we are joined by two talented women working at large tech companies in the Bay Area, Lisa Burgess (Uber) and Mars Jullian (Netflix). We discuss what it’s like to be a women working in tech and talk about ways we can help foster a more inclusive industry.",
     "id": "",
-    "published": "",
+    "published": "July 12, 2016",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
       "Jem Young",
       "Derrick Showers",
-      "Brian Holt",
-      "Sarah Federman"
+      "Brian Holt"
     ],
     "guests": [
       {
@@ -47,6 +46,10 @@
       {
         "title": "Thoughts on Gender and Radical Candor",
         "url": "http://firstround.com/review/thoughts-on-gender-and-radical-candor/"
+      },
+      {
+        "title": "Vague Feedback Is Holding Women Back",
+        "url": "https://hbr.org/2016/04/research-vague-feedback-is-holding-women-back"
       }
     ],
     "picks": [
@@ -56,18 +59,23 @@
         "from": "Lisa Burgess"
       },
       {
-        "title": "R Studio",
-        "url": "https://www.rstudio.com/products/rstudio/",
+        "title": "Shiny",
+        "url": "http://shiny.rstudio.com/",
         "from": "Lisa Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "99% Invisible",
+        "url": "http://99percentinvisible.org/",
         "from": "Mars Jullian"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Invisiblia",
+        "url": "http://www.npr.org/podcasts/510307/invisibilia",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "TED Radio",
+        "url": "http://www.npr.org/programs/ted-radio-hour/",
         "from": "Mars Jullian"
       },
       {
@@ -91,24 +99,39 @@
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Music for Programming",
+        "url": "http://musicforprogramming.net/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Women in tech for the past 50 years!",
+        "url": "#",
+        "from": "Jem Young"
+      },
+      {
+        "title": "High West Silver Whiskey",
+        "url": "http://www.highwest.com/products/silver-whiskey-western-oat.php",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "WWDC iOS 10",
+        "url": "http://www.apple.com/ios/ios10-preview/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Mr Robot",
+        "url": "http://www.usanetwork.com/mrrobot",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Project Include",
+        "url": "http://projectinclude.org/",
         "from": "Brian Holt"
       },
       {
-        "title": "Women in Software Eng",
-        "url": "https://github.com/triketora/women-in-software-eng",
-        "from": "Sarah Federman"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Sarah Federman"
+        "title": "elk-cli",
+        "url": "https://github.com/btholt/elk-cli",
+        "from": "Brian Holt"
       }
     ]
   },
