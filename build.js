@@ -3,6 +3,7 @@ const mkdirp = require('mkdirp');
 const episodes = require('./content/episodes.json');
 const panelists = require('./content/panelists.json');
 const write = require('./lib/write');
+const ellipsize = require('ellipsize');
 // Templates
 const main = require('./templates/main');
 const episodeList = require('./templates/episode-list');
@@ -25,9 +26,10 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   const picks = episodes[i].picks;
   const links = episodes[i].links;
   const guests = episodes[i].guests;
+  const shortDesc = ellipsize(epDesc, 240);
 
   // create episode list for homepage
-  mainOutput += episodeList(link, epTitle, epDate, epDesc);
+  mainOutput += episodeList(link, epTitle, epDate, shortDesc);
 
   // build episode output
   let episodeOutput = '';

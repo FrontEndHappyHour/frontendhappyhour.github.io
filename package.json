@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "cheerio": "^0.20.0",
+    "ellipsize": "0.0.2",
     "jsonfile": "^2.2.3",
     "lodash": "^4.6.1",
     "mkdirp": "^0.5.1",
