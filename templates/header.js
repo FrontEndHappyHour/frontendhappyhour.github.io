@@ -35,6 +35,7 @@ module.exports = function header(path) {
                         <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="${path}public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
                         <li><a href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="${path}public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
                         <li><a href="https://twitter.com/frontendhh"><img src="${path}public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
+                        <li><a href="https://facebook.com/front-end-happy-hour"><img src="${path}public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
                         <li><a href="/mailing-list"><img src="${path}public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
                     </ul>
                 </div>
