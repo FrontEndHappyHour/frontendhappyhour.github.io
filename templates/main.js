@@ -3,7 +3,7 @@ const ga = require('./ga');
 const header = require('./header');
 const def = {
   'title': 'Front End Happy Hour',
-  'desc': 'Front End Happy Hour, a podcast about everything Front End development.'
+  'desc': 'A podcast featuring panelists of engineers from Netflix, Evernote & LinkedIn talking over drinks about all things Front End development.'
 };
 module.exports = function main(pageType, content, title, desc) {
   'use strict';
