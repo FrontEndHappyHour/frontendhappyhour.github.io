@@ -1,5 +1,75 @@
 [
   {
+    "episode": "011",
+    "title": "Transpilers - slow down and drink",
+    "description": "Leveraging transpilers is extremely helpful in allowing us to to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
+    "id": "",
+    "published": "",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Stranger Things",
+        "url": "https://www.netflix.com/title/80057281",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Jem Young - Transpilers: not so fast my friend - Empire JS",
+        "url": "https://www.youtube.com/watch?v=L3JJ8qSIg2k",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Explosions in the Sky - The Wilderness",
+        "url": "https://explosionsinthesky.bandcamp.com",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Google Keep",
+        "url": "https://keep.google.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Wafia - Heartburn Felix Cartel Remix",
+        "url": "https://play.spotify.com/track/6ZtO6PJglJjcqpGeiDcxyV?play=true",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "STS-121 Launch",
+        "url": "https://www.youtube.com/watch?v=OnoNITE-CLc",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "010",
     "title": "Raise your glass to women in tech",
     "description": "In the technology industry we’re continually trying to grow the diversity of people who are working in the space. Most recently there have been a lot of great efforts made to increase the number of women in tech. In this episode we are joined by two talented women working at large tech companies in the Bay Area, Lisa Burgess (Uber) and Mars Jullian (Netflix). We discuss what it’s like to be a women working in tech and talk about ways we can help foster a more inclusive industry.",
