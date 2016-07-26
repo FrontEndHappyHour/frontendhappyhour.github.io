@@ -15,7 +15,56 @@
       "Sarah Federman"
     ],
     "guests": [],
-    "links": [],
+    "links": [
+      {
+        "title": "Babel",
+        "url": "https://babeljs.io/"
+      },
+      {
+        "title": "CoffeeScript",
+        "url": "http://coffeescript.org/"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "title": "Traceur",
+        "url": "https://github.com/google/traceur-compiler"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "Less",
+        "url": "http://lesscss.org/"
+      },
+      {
+        "title": "Stylus",
+        "url": "http://stylus-lang.com/"
+      },
+      {
+        "title": "Chrome V8",
+        "url": "https://developers.google.com/v8/"
+      },
+      {
+        "title": "Firefox SpiderMonkey",
+        "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey"
+      },
+      {
+        "title": "IE Chakra",
+        "url": "https://github.com/Microsoft/ChakraCore"
+      },
+      {
+        "title": "TC39 Committee",
+        "url": "http://www.ecma-international.org/memento/TC39.htm"
+      },
+      {
+        "title": "React CLI",
+        "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html"
+      }
+    ],
     "picks": [
       {
         "title": "Stranger Things",
@@ -43,8 +92,18 @@
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Digital Ocean",
+        "url": "https://www.digitalocean.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Babel Try It Out",
+        "url": "https://babeljs.io/repl/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Google Inbox",
+        "url": "https://inbox.google.com/",
         "from": "Derrick Showers"
       },
       {
@@ -58,18 +117,23 @@
         "from": "Ryan Anklam"
       },
       {
-        "title": "STS-121 Launch",
-        "url": "https://www.youtube.com/watch?v=OnoNITE-CLc",
-        "from": "Ryan Anklam"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "HyperTerm",
+        "url": "https://hyperterm.org/",
         "from": "Brian Holt"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Visual Studio Code",
+        "url": "https://code.visualstudio.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Elle - Women in Tech 2016",
+        "url": "http://www.elle.com/culture/tech/a35725/women-in-tech-2016/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Less: The World’s Most Misunderstood CSS Pre-processor*",
+        "url": "https://getcrunch.co/2015/10/08/less-the-worlds-most-misunderstood-css-pre-processor/",
         "from": "Sarah Federman"
       }
     ]
