@@ -27,6 +27,21 @@
       {
         "title": "",
         "url": "",
+        "from": "Chrissy Running"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Alayna Ketner"
+      },
+      {
+        "title": "React CLI tool",
+        "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Young, Wild & Free - Snoop Dogg, Wiz Khalifa, Bruno Mars",
+        "url": "https://play.spotify.com/track/5HQVUIKwCEXpe7JIHyY734?play=true",
         "from": "Ryan Burgess"
       },
       {
@@ -35,28 +50,28 @@
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Jon Hopkins",
+        "url": "https://www.youtube.com/watch?v=8XtqUOegCv8",
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Derrick Showers"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "STS 121 Launch",
+        "url": "https://www.youtube.com/watch?v=OnoNITE-CLc",
         "from": "Ryan Anklam"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
+        "title": "Bojack Horseman - Season 3, episode 4",
+        "url": "https://www.netflix.com/title/70300800",
+        "from": "Ryan Anklam"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Full Width Containers in Limited Width Parents",
+        "url": "https://css-tricks.com/full-width-containers-limited-width-parents/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "The Macro - Interviews",
+        "url": "http://themacro.com/interviews/",
         "from": "Sarah Federman"
       }
     ]
