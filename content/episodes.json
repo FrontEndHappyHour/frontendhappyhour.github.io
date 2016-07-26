@@ -1,5 +1,67 @@
 [
   {
+    "episode": "012",
+    "title": "Ninja Rockstar Whiskey Drinker With 10 Years IPA Experience",
+    "description": "As an engineer or developer we currently fortunate enough to have a wide selection of amazing jobs and companies to work for. Although we have a wide selection of jobs, finding the right one is extremely important and may require some additional work. In this episode we are joined by the guests Chrissy Running and Alayna Ketner who are both talented recruiters at Netflix. Chrissy and Alayna have a lot of experience working with engineers to help find the ideal role. We’ll discuss types of things companies are looking for and how you can best leverage competitive offers in your job searches.",
+    "id": "",
+    "published": "",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Ryan Anklam",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Chrissy Running",
+        "twitter": "ChrissyRunning"
+      },
+      {
+        "name": "Alayna Ketner",
+        "twitter": "AlaynaSK"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "011",
     "title": "Transpilers - slow down and drink",
     "description": "Leveraging transpilers is extremely helpful in allowing us to to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
