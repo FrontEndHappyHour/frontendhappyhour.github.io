@@ -25,13 +25,23 @@
     "links": [],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "Culture Map",
+        "url": "https://www.amazon.com/Culture-Map-Breaking-Invisible-Boundaries/dp/1610392507",
         "from": "Chrissy Running"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "The Night Of",
+        "url": "http://www.hbo.com/the-night-of",
+        "from": "Chrissy Running"
+      },
+      {
+        "title": "The Fundamentals of Caring",
+        "url": "https://www.netflix.com/title/80097349",
+        "from": "Alayna Ketner"
+      },
+      {
+        "title": "Song Exploder",
+        "url": "http://songexploder.net/",
         "from": "Alayna Ketner"
       },
       {
@@ -45,13 +55,23 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "a.singlediv.com",
+        "url": "http://a.singlediv.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "httpoxy",
+        "url": "https://httpoxy.org/",
         "from": "Augustus Yuan"
       },
       {
         "title": "Jon Hopkins",
         "url": "https://www.youtube.com/watch?v=8XtqUOegCv8",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Star Trek Beyond (sucks)",
+        "url": "http://www.imdb.com/title/tt2660888/",
         "from": "Jem Young"
       },
       {
