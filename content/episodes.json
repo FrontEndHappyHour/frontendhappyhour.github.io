@@ -2,9 +2,9 @@
   {
     "episode": "011",
     "title": "Transpilers - slow down and drink",
-    "description": "Leveraging transpilers is extremely helpful in allowing us to to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
-    "id": "",
-    "published": "",
+    "description": "Leveraging transpilers is extremely helpful in allowing us to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
+    "id": "275723253",
+    "published": "July 27, 2016",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -63,6 +63,26 @@
       {
         "title": "React CLI",
         "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html"
+      },
+      {
+        "title": "ClojureScript",
+        "url": "https://github.com/clojure/clojurescript"
+      },
+      {
+        "title": "Ohm",
+        "url": "https://github.com/cdglabs/ohm"
+      },
+      {
+        "title": "CodePen",
+        "url": "http://codepen.io/"
+      },
+      {
+        "title": "Racket",
+        "url": "https://racket-lang.org/"
+      },
+      {
+        "title": "Erlang",
+        "url": "https://www.erlang.org/"
       }
     ],
     "picks": [
