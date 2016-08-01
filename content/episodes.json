@@ -22,7 +22,20 @@
         "twitter": "AlaynaSK"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/"
+      },
+      {
+        "title": "Glassdoor",
+        "url": "https://www.glassdoor.com"
+      },
+      {
+        "title": "Ted Talk - Power pose",
+        "url": "https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are"
+      }
+    ],
     "picks": [
       {
         "title": "Culture Map",
