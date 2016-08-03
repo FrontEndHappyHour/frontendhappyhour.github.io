@@ -24,6 +24,7 @@ const object = {
   'description': '',
   'id': '',
   'published': '',
+  'transcribed': false,
   'panel': names,
   'guests': guests,
   'links': links,

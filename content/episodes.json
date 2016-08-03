@@ -5,6 +5,7 @@
     "description": "Leveraging transpilers is extremely helpful in allowing us to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
     "id": "275723253",
     "published": "July 27, 2016",
+    "transcribed": false,
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -164,6 +165,7 @@
     "description": "In the technology industry we’re continually trying to grow the diversity of people who are working in the space. Most recently there have been a lot of great efforts made to increase the number of women in tech. In this episode we are joined by two talented women working at large tech companies in the Bay Area, Lisa Burgess (Uber) and Mars Jullian (Netflix). We discuss what it’s like to be a women working in tech and talk about ways we can help foster a more inclusive industry.",
     "id": "273424836",
     "published": "July 12, 2016",
+    "transcribed": false,
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -312,6 +314,7 @@
     "description": "In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information.",
     "id": "267920775",
     "published": "June 6, 2016",
+    "transcribed": false,
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -453,6 +456,7 @@
     "description": "Working in Silicon Valley is very unique. We work in a bubble, immersed in technology. There are billboards about frameworks, technology, and gadgets. Coffee shops are filled with people on Macbooks covered in stickers. Conversations on the train, coffee shops and on the streets are about programming languages. There’s a unique culture from other places we’ve all lived. In this episode, we share our thoughts and experiences living and working in Silicon Valley.",
     "id": "265692287",
     "published": "May 24, 2016",
+    "transcribed": false,
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -563,6 +567,7 @@
     "description": "In this episode, we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users. We also talk about Global Accessibility Awareness Day (GAAD) coming up on May 19th. Find out how you can participate.",
     "id": "264282122",
     "published": "May 15, 2016",
+    "transcribed": false,
     "panel": [
       "Ryan Burgess",
       "Derrick Showers",
@@ -688,6 +693,7 @@
     "description": "We’ve all heard unit testing is good, but how do you get started writing unit tests? In this episode of Front End Happy Hour we share our experiences and advice writing unit tests. We discuss why it’s important and beneficial to have unit tests in your JavaScript. We share how we’ve approached unit tests and what a good unit test looks like. We also talk about the various tools and frameworks available to get your code properly tested.",
     "id": "260918790",
     "published": "April 25, 2015",
+    "transcribed": false,
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -825,6 +831,7 @@
     "description": "In order to work professionally as a front end developer, there is always an intense interview process. In this episode, we share our experiences and thoughts on the interviews we’ve done in the past. Not only have we had experience being interviewed, we’ve also had a lot of experience interviewing other engineers for jobs at our companies. We share things we’re looking for when we interview candidates to join our teams.",
     "id": "259108189",
     "published": "April 14, 2016",
+    "transcribed": false,
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -975,6 +982,7 @@
     "description": "ECMAScript 6 was a major release for the JavaScript language. There’s a lot of great new features that have been added. In this episode we discuss how you can start using ES6 today and what we’ll start seeing in the next year for the latest update to ECMAScript. We share our favorite features and the best ways to learn and stay up to date with new features.",
     "id": "257371209",
     "published": "April 04, 2016",
+    "transcribed": false,
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -1115,6 +1123,7 @@
     "description": "In this ever changing industry of front end development, developers are constantly learning. In this episode of Front End Happy Hour we discuss everything from our school backgrounds and what lead us to front end development. We also share ways we stay up to date with the ever-changing landscape of new technologies. Along with our usual panelists, we are joined by guest Sarah Showers, a front end developer from Apple.",
     "id": "254905107",
     "published": "March 24, 2016",
+    "transcribed": false,
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -1172,6 +1181,7 @@
     "description": "In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.",
     "id": "252127996",
     "published": "March 16, 2016",
+    "transcribed": false,
     "panel": [
       "Brian Holt",
       "Jem Young",
@@ -1244,6 +1254,7 @@
     "description": "For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
     "id": "249593158",
     "published": "February 29, 2016",
+    "transcribed": true,
     "panel": [
       "Augustus Yuan",
       "Derrick Showers",
