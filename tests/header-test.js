@@ -1,6 +1,7 @@
 'use strict';
 const test = require('tape');
 const header = require('../templates/header');
+const strings = require('../content/strings.json');
 const expected = `<header>
             <div class="container">
                 <a href="/" class="logo">
@@ -25,7 +26,7 @@ const expected = `<header>
                 </a>
                 <div class="right-content">
                     <h1><a href="/"><img src="public/img/front-end-happy-hour.svg" alt="Front End Happy Hour"></a></h1>
-                    <p class="tagline">A podcast featuring a panel of Software Engineers from Netflix, Evernote & LinkedIn talking over drinks about all things Front End development.</p>
+                    <p class="tagline">${strings[0].tagline}</p>
                     <ul class="feeds">
                         <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
                         <li><a href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>

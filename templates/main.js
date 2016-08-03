@@ -1,10 +1,8 @@
 // Main Template
 const ga = require('./ga');
 const header = require('./header');
-const def = {
-  'title': 'Front End Happy Hour',
-  'desc': 'A podcast featuring a panel of Software Engineers from Netflix, Evernote & LinkedIn talking over drinks about all things Front End development.'
-};
+const strings = require('../content/strings.json');
+
 module.exports = function main(pageType, content, title, desc) {
   'use strict';
   let heading = title;
@@ -12,10 +10,10 @@ module.exports = function main(pageType, content, title, desc) {
   let pageTitle;
   let path;
   let css;
-  const mainTitle = def.title;
+  const mainTitle = strings[0].title;
 
   if(desc === undefined || pageType === 'home') {
-    desc = def.desc;
+    desc = strings[0].desc;
   }
 
   // homepage
