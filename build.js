@@ -27,6 +27,8 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   const links = episodes[i].links;
   const guests = episodes[i].guests;
   const shortDesc = ellipsize(epDesc, 240);
+  const transcript = episodes[i].transcribed;
+  const episodeNum = episodes[i].episode;
 
   // create episode list for homepage
   mainOutput += episodeList(link, epTitle, epDate, shortDesc);
@@ -55,6 +57,14 @@ for(let i = episodes.length - 1; i >= 0; i--) {
 
   // create panel list
   episodeOutput += episodePanel(panelists, panel);
+
+  // transcript
+  if(transcript === true){
+    const transcriptContent = require('./transcripts/' + episodeNum)();
+    episodeOutput += '<div class="transcript"><h3>Episode transcript</h3>';
+    episodeOutput += transcriptContent;
+    episodeOutput += '</div>';
+  }
 
   // create a directory for each episode
   mkdirp.sync(`./episodes/${link}`);

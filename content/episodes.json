@@ -1254,7 +1254,7 @@
     "description": "For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
     "id": "249593158",
     "published": "February 29, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "panel": [
       "Augustus Yuan",
       "Derrick Showers",
