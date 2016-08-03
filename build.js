@@ -59,7 +59,7 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   episodeOutput += episodePanel(panelists, panel);
 
   // transcript
-  if(transcript === true){
+  if(transcript === true) {
     const transcriptContent = require('./transcripts/' + episodeNum)();
     episodeOutput += '<div class="transcript"><h3>Episode transcript</h3>';
     episodeOutput += transcriptContent;

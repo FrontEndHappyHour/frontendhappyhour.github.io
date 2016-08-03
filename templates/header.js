@@ -33,11 +33,11 @@ module.exports = function header(path) {
                     <h1><a href="/"><img src="${path}public/img/front-end-happy-hour.svg" alt="Front End Happy Hour"></a></h1>
                     <p class="tagline">${strings.tagline}</p>
                     <ul class="feeds">
-                        <li><a href="${strings.urls[0].itunes}"><img src="public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
-                        <li><a href="${strings.urls[0].rss}"><img src="public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
-                        <li><a href="${strings.urls[0].twitter}"><img src="public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
-                        <li><a href="${strings.urls[0].facebook}"><img src="public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
-                        <li><a href="${strings.urls[0].mailing}"><img src="public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
+                        <li><a href="${strings.urls[0].itunes}"><img src="${path}public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
+                        <li><a href="${strings.urls[0].rss}"><img src="${path}public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
+                        <li><a href="${strings.urls[0].twitter}"><img src="${path}public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
+                        <li><a href="${strings.urls[0].facebook}"><img src="${path}public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
+                        <li><a href="${strings.urls[0].mailing}"><img src="${path}public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
                     </ul>
                 </div>
             </div>
