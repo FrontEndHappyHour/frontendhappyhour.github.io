@@ -10,10 +10,10 @@ module.exports = function main(pageType, content, title, desc) {
   let pageTitle;
   let path;
   let css;
-  const mainTitle = strings[0].title;
+  const mainTitle = strings.title;
 
   if(desc === undefined || pageType === 'home') {
-    desc = strings[0].desc;
+    desc = strings.desc;
   }
 
   // homepage
