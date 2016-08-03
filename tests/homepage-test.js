@@ -1,11 +1,12 @@
 'use strict';
 const test = require('tape');
 const main = require('../templates/main');
+const strings = require('../content/strings.json');
 const expected = `<!DOCTYPE html>
           <html>
               <head>
-                  <title>Front End Happy Hour</title>
-                  <meta name="description" content="A podcast featuring a panel of Software Engineers from Netflix, Evernote & LinkedIn talking over drinks about all things Front End development.">
+                  <title>${strings.title}</title>
+                  <meta name="description" content="${strings.desc}">
                   <meta name="viewport" content="width=device-width">
                   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                   <link rel="alternate" type="application/rss+xml"
@@ -49,13 +50,13 @@ const expected = `<!DOCTYPE html>
                 </a>
                 <div class="right-content">
                     <h1><a href="/"><img src="public/img/front-end-happy-hour.svg" alt="Front End Happy Hour"></a></h1>
-                    <p class="tagline">A podcast featuring a panel of Software Engineers from Netflix, Evernote & LinkedIn talking over drinks about all things Front End development.</p>
+                    <p class="tagline">${strings.tagline}</p>
                     <ul class="feeds">
-                        <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
-                        <li><a href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
-                        <li><a href="https://twitter.com/frontendhh"><img src="public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
-                        <li><a href="https://facebook.com/frontendhappyhour"><img src="public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
-                        <li><a href="/mailing-list"><img src="public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
+                        <li><a href="${strings.urls[0].itunes}"><img src="public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
+                        <li><a href="${strings.urls[0].rss}"><img src="public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
+                        <li><a href="${strings.urls[0].twitter}"><img src="public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
+                        <li><a href="${strings.urls[0].facebook}"><img src="public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
+                        <li><a href="${strings.urls[0].mailing}"><img src="public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
                     </ul>
                 </div>
             </div>
