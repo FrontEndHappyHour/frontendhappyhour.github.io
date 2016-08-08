@@ -35,7 +35,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "node build",
+      "pre-commit": "node build mailing panelists",
       "pre-push": "gulp test",
       "post-merge": "npm install",
       "post-rewrite": "npm install"
