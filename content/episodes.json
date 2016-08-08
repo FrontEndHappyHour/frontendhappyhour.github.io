@@ -1,5 +1,116 @@
 [
   {
+    "episode": "012",
+    "title": "Ninja Rockstar Whiskey Drinker With 10 Years IPA Experience",
+    "description": "As an engineer or developer we currently fortunate enough to have a wide selection of amazing jobs and companies to work for. Although we have a wide selection of jobs, finding the right one is extremely important and may require some additional work. In this episode we are joined by the guests Chrissy Running and Alayna Ketner who are both talented recruiters at Netflix. Chrissy and Alayna have a lot of experience working with engineers to help find the ideal role. We’ll discuss types of things companies are looking for and how you can best leverage competitive offers in your job searches.",
+    "id": "277345887",
+    "published": "August 8, 2016",
+    "transcribed": false,
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Ryan Anklam",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Chrissy Running",
+        "twitter": "ChrissyRunning"
+      },
+      {
+        "name": "Alayna Ketner",
+        "twitter": "AlaynaSK"
+      }
+    ],
+    "links": [
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/"
+      },
+      {
+        "title": "Glassdoor",
+        "url": "https://www.glassdoor.com"
+      },
+      {
+        "title": "Ted Talk - Power pose",
+        "url": "https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Culture Map",
+        "url": "https://www.amazon.com/Culture-Map-Breaking-Invisible-Boundaries/dp/1610392507",
+        "from": "Chrissy Running"
+      },
+      {
+        "title": "The Night Of",
+        "url": "http://www.hbo.com/the-night-of",
+        "from": "Chrissy Running"
+      },
+      {
+        "title": "The Fundamentals of Caring",
+        "url": "https://www.netflix.com/title/80097349",
+        "from": "Alayna Ketner"
+      },
+      {
+        "title": "Song Exploder",
+        "url": "http://songexploder.net/",
+        "from": "Alayna Ketner"
+      },
+      {
+        "title": "React CLI tool",
+        "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Young, Wild & Free - Snoop Dogg, Wiz Khalifa, Bruno Mars",
+        "url": "https://play.spotify.com/track/5HQVUIKwCEXpe7JIHyY734?play=true",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "a.singlediv.com",
+        "url": "http://a.singlediv.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "httpoxy",
+        "url": "https://httpoxy.org/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Jon Hopkins",
+        "url": "https://www.youtube.com/watch?v=8XtqUOegCv8",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Star Trek Beyond (sucks)",
+        "url": "http://www.imdb.com/title/tt2660888/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "STS 121 Launch",
+        "url": "https://www.youtube.com/watch?v=OnoNITE-CLc",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Bojack Horseman - Season 3, episode 4",
+        "url": "https://www.netflix.com/title/70300800",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Full Width Containers in Limited Width Parents",
+        "url": "https://css-tricks.com/full-width-containers-limited-width-parents/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "The Macro - Interviews",
+        "url": "http://themacro.com/interviews/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "011",
     "title": "Transpilers - slow down and drink",
     "description": "Leveraging transpilers is extremely helpful in allowing us to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
