@@ -4,8 +4,6 @@
 *.tmp
 .sass-cache
 *.log
-*.css
-*.min.js
 node_modules/
 test-output/
 episode.html

@@ -1,16 +1,7 @@
 'use strict';
 const test = require('tape');
 const strings = require('../content/strings.json');
-
-function isURL(str) {
-  const pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
-  '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|'+ // domain name
-  '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
-  '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
-  '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
-  '(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
-  return pattern.test(str);
-}
+const isURL = require('../lib/is-url');
 
 //test URLs in strings.json to make sure they are valid URLs
 test('Test URLs', function (t) {
