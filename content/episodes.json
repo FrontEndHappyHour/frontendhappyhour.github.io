@@ -1,5 +1,70 @@
 [
   {
+    "episode": "013",
+    "title": "Drinking in the present to learn future JavaScript",
+    "description": "In episode 13 of the Front End Happy Hour podcast, we’re joined by Jafar Husain from Netflix to talk with us about the future of JavaScript. Jafar is a the TC39 committee that helps determine the future specs of ECMAScript.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Jafar Husain",
+        "twitter": "jhusain"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Jafar Husain"
+      },
+      {
+        "title": "The Get Down",
+        "url": "https://www.netflix.com/title/80025601",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Austin Maples tattoo artist",
+        "url": "https://www.instagram.com/austinmaples/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Morbotron",
+        "url": "https://morbotron.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "I Really Like Angular 2 - Trailer for The Jeff Cross Show on Modern Web feat Jafar Husain",
+        "url": "https://www.youtube.com/watch?v=1NXhOChi54U",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "012",
     "title": "Ninja Rockstar Whiskey Drinker With 10 Years IPA Experience",
     "description": "As an engineer or developer we currently fortunate enough to have a wide selection of amazing jobs and companies to work for. Although we have a wide selection of jobs, finding the right one is extremely important and may require some additional work. In this episode, we are joined by the guests Chrissy Running and Alayna Ketner who are both talented recruiters at Netflix. Chrissy and Alayna have a lot of experience working with engineers to help find the ideal role. We’ll discuss types of things companies are looking for and how you can best leverage competitive offers in your job searches.",
