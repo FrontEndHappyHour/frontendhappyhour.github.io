@@ -2,17 +2,15 @@
   {
     "episode": "013",
     "title": "Drinking in the present to learn future JavaScript",
-    "description": "In episode 13 of the Front End Happy Hour podcast, we’re joined by Jafar Husain from Netflix to talk with us about the future of JavaScript. Jafar is a the TC39 committee that helps determine the future specs of ECMAScript.",
+    "description": "In episode 13 of the Front End Happy Hour podcast, we’re joined by Jafar Husain from Netflix to talk with us about the future of JavaScript. Jafar is the TC-39 committee that helps determine the future specs of ECMAScript. Jafar shares a lot of interesting insights into how the committee works and how a feature makes it's way into the spec. Jafar also talks to us about Observables and cancellable promises.",
     "id": "",
-    "published": "",
+    "published": "August 17, 2016",
     "transcribed": false,
     "panel": [
       "Ryan Burgess",
       "Jem Young",
       "Derrick Showers",
-      "Ryan Anklam",
-      "Brian Holt",
-      "Sarah Federman"
+      "Brian Holt"
     ],
     "guests": [
       {
@@ -20,11 +18,64 @@
         "twitter": "jhusain"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "title": "TC-39",
+        "url": "http://www.ecma-international.org/memento/TC39.htm"
+      },
+      {
+        "title": "ECMAScript",
+        "url": "https://en.wikipedia.org/wiki/ECMAScript"
+      },
+      {
+        "title": "Iterators and Generators",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"
+      },
+      {
+        "title": "Proxies",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy"
+      },
+      {
+        "title": "Observables",
+        "url": "http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html"
+      },
+      {
+        "title": "Promises",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+      },
+      {
+        "title": "Evan Czaplicki",
+        "url": "https://twitter.com/czaplic"
+      },
+      {
+        "title": "Yehuda Katz",
+        "url": "https://twitter.com/wycats"
+      },
+      {
+        "title": "Rust Language",
+        "url": "https://www.rust-lang.org/"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "title": "Elm Language",
+        "url": "http://elm-lang.org/"
+      },
+      {
+        "title": "PureScript",
+        "url": "http://www.purescript.org/"
+      },
+      {
+        "title": "Flow",
+        "url": "https://flowtype.org/"
+      }
+    ],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "Idris Language",
+        "url": "http://www.idris-lang.org/",
         "from": "Jafar Husain"
       },
       {
@@ -33,8 +84,8 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "Austin Maples tattoo artist",
-        "url": "https://www.instagram.com/austinmaples/",
+        "title": "Octomore Scotch 07.1",
+        "url": "https://www.bruichladdich.com/the-whisky/octomore/octomore-071-208-ppm",
         "from": "Ryan Burgess"
       },
       {
@@ -43,14 +94,19 @@
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Full Stack Toronto",
+        "url": "https://fsto.co/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Glimmer 2 Deep Dive",
+        "url": "https://www.youtube.com/watch?v=vL8sCi1Bv6E",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Ryan Anklam"
+        "title": "Rogue varieties",
+        "url": "http://www.rogue.com/roguebeers/",
+        "from": "Derrick Showers"
       },
       {
         "title": "I Really Like Angular 2 - Trailer for The Jeff Cross Show on Modern Web feat Jafar Husain",
@@ -58,9 +114,9 @@
         "from": "Brian Holt"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Sarah Federman"
+        "title": "Modern Web Podcast",
+        "url": "http://www.modern-web.org/",
+        "from": "Brian Holt"
       }
     ]
   },
