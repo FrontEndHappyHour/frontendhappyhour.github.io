@@ -70,6 +70,18 @@
       {
         "title": "Flow",
         "url": "https://flowtype.org/"
+      },
+      {
+        "title": "Jay Phelps",
+        "url": "https://twitter.com/_jayphelps"
+      },
+      {
+        "title": "LazyDOM",
+        "url": "https://medium.com/jayphelps/lazydom-an-experiment-to-bring-virtual-dom-to-the-browser-natively-6a2f47096aca"
+      },
+      {
+        "title": "Tracy Lee",
+        "url": "https://twitter.com/ladyleet"
       }
     ],
     "picks": [
