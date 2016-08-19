@@ -25,6 +25,7 @@ const object = {
   'id': '',
   'published': '',
   'transcribed': false,
+  'category': '',
   'panel': names,
   'guests': guests,
   'links': links,

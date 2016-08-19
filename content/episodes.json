@@ -6,6 +6,7 @@
     "id": "278757290",
     "published": "August 17, 2016",
     "transcribed": false,
+    "category": "technical",
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -139,6 +140,7 @@
     "id": "277345887",
     "published": "August 8, 2016",
     "transcribed": false,
+    "category": "soft",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -258,6 +260,7 @@
     "id": "275723253",
     "published": "July 27, 2016",
     "transcribed": false,
+    "category": "technical",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -418,6 +421,7 @@
     "id": "273424836",
     "published": "July 12, 2016",
     "transcribed": false,
+    "category": "soft",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -567,6 +571,7 @@
     "id": "267920775",
     "published": "June 6, 2016",
     "transcribed": false,
+    "category": "technical",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -709,6 +714,7 @@
     "id": "265692287",
     "published": "May 24, 2016",
     "transcribed": false,
+    "category": "soft",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -820,6 +826,7 @@
     "id": "264282122",
     "published": "May 15, 2016",
     "transcribed": false,
+    "category": "technical",
     "panel": [
       "Ryan Burgess",
       "Derrick Showers",
@@ -946,6 +953,7 @@
     "id": "260918790",
     "published": "April 25, 2015",
     "transcribed": false,
+    "category": "technical",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1084,6 +1092,7 @@
     "id": "259108189",
     "published": "April 14, 2016",
     "transcribed": false,
+    "category": "soft",
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -1235,6 +1244,7 @@
     "id": "257371209",
     "published": "April 04, 2016",
     "transcribed": false,
+    "category": "technical",
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -1376,6 +1386,7 @@
     "id": "254905107",
     "published": "March 24, 2016",
     "transcribed": false,
+    "category": "soft",
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -1434,6 +1445,7 @@
     "id": "252127996",
     "published": "March 16, 2016",
     "transcribed": false,
+    "category": "technical",
     "panel": [
       "Brian Holt",
       "Jem Young",
@@ -1507,6 +1519,7 @@
     "id": "249593158",
     "published": "February 29, 2016",
     "transcribed": true,
+    "category": "technical",
     "panel": [
       "Augustus Yuan",
       "Derrick Showers",
