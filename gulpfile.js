@@ -6,6 +6,10 @@ const jshintStyle = require('jshint-stylish');
 const jsonlint = require('gulp-jsonlint');
 const eslint = require('gulp-eslint');
 const svgmin = require('gulp-svgmin');
+const browserify = require('browserify');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const source = require('vinyl-source-stream');
 
 gulp.task('sass', function () {
   return gulp.src('sass/**/*.scss')
@@ -46,9 +50,38 @@ gulp.task('nodeunit', function () {
     }));
 });
 
+gulp.task('scripts', function() {
+ const related = './js/related.js';
+
+  const bundler = browserify({
+    extensions: ['.js', '.jsx'],
+    transform: ['babelify']
+  });
+
+  bundler.add(related);
+
+  const stream = bundler.bundle();
+  stream.on('error', function (err) { console.error(err.toString()) });
+
+  stream
+    .pipe(source(related))
+    .pipe(rename('project.js'))
+    .pipe(gulp.dest('public/js/'));
+});
+
+gulp.task('compress', function() {
+  return gulp.src('./public/js/project.js')
+    .pipe(uglify())
+    .pipe(rename({
+       extname: '.min.js'
+     }))
+    .pipe(gulp.dest('./public/js'));
+});
+
 gulp.task('watch', function() {
   gulp.watch('sass/**/*.scss', ['sass']);
   gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'nodeunit']);
+  gulp.watch(['./js/**/*'], ['lint', 'scripts', 'compress']);
 });
 
 gulp.task('test', ['jsonlint', 'lint', 'nodeunit']);
