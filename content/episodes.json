@@ -15,7 +15,7 @@
     "guests": [
       {
         "name": "Tasha Alfano",
-        "twitter": "Alteryx"
+        "twitter": "TashAlfano"
       },
       {
         "name": "Sumana Mohan",
@@ -24,6 +24,26 @@
       {
         "name": "Henry Zhu",
         "twitter": "left_pad"
+      },
+      {
+        "name": "Ryan Wachholz",
+        "twitter": "https://github.com/wachie"
+      },
+      {
+        "name": "Quinn Daniels",
+        "twitter": "https://github.com/aqdaniels"
+      },
+      {
+        "name": "Hani Ahir",
+        "twitter": "HaniAhir"
+      },
+      {
+        "name": "Albert Toledo",
+        "twitter": "toledoalbert"
+      },
+      {
+        "name": "Brian Tice",
+        "twitter": "BrianTice99"
       }
     ],
     "links": [
