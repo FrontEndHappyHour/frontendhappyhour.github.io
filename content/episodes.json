@@ -62,6 +62,34 @@
       {
         "title": "FITC",
         "url": "http://fitc.ca/"
+      },
+      {
+        "title": "Adobe Max",
+        "url": "https://max.adobe.com/"
+      },
+      {
+        "title": "Jamison Dance",
+        "url": "https://twitter.com/jergason"
+      },
+      {
+        "title": "Matt Zabriskie",
+        "url": "https://twitter.com/mzabriskie"
+      },
+      {
+        "title": "React JS",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Pete Hunt",
+        "url": "https://twitter.com/floydophone"
+      },
+      {
+        "title": "Stranger Things",
+        "url": "https://www.netflix.com/title/80057281"
+      },
+      {
+        "title": "Xoxo",
+        "url": "https://www.netflix.com/title/80057691"
       }
     ],
     "picks": [
