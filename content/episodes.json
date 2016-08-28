@@ -1,5 +1,73 @@
 [
   {
+    "episode": "014",
+    "title": "Hangovers and hotels: engineer conferences",
+    "description": "Conferences continue to be a great way to learn and grow as an engineer. In the 14th episode of the Front End Happy Hour podcast we discuss the value of conferences and why you might want to attend. It’s a special episode because we recorded at React Rally in Salt Lake City. At the conference we caught up with a lot of great attendees and speakers to hear about their experiences at conferences and the benefits for attending.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam"
+    ],
+    "guests": [
+      {
+        "name": "Tasha Alfano",
+        "twitter": "Alteryx"
+      },
+      {
+        "name": "Sumana Mohan",
+        "twitter": "sumana_mohan"
+      },
+      {
+        "name": "Henry Zhu",
+        "twitter": "left_pad"
+      }
+    ],
+    "links": [
+      {
+        "title": "React Rally",
+        "url": "http://www.reactrally.com/"
+      },
+      {
+        "title": "Fluent Conference",
+        "url": "http://conferences.oreilly.com/fluent"
+      },
+      {
+        "title": "Scotland JS",
+        "url": "http://scotlandjs.com/"
+      },
+      {
+        "title": "FITC",
+        "url": "http://fitc.ca/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "V-moda m-100 headphones",
+        "url": "https://amzn.com/B00A39PPDK",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Deadmau5 Stranger Things Cover",
+        "url": "http://www.youredm.com/2016/08/15/watch-deadmau5-cover-stranger-things-theme-song/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Emojipedia",
+        "url": "http://emojipedia.org/pile-of-poo/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Tron Legacy Reconfigured",
+        "url": "https://www.youtube.com/user/pr0nyTronLegacyRecon",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "013",
     "title": "Drinking in the present to learn future JavaScript",
     "description": "In episode 13 of the Front End Happy Hour podcast, we’re joined by Jafar Husain from Netflix to talk with us about the future of JavaScript. Jafar is part of the TC-39 committee that helps determine the future specs of ECMAScript. Jafar shares a lot of interesting insights into how the committee works and how a feature makes it's way into the spec. Jafar also talks to us about Observables and cancellable promises.",
