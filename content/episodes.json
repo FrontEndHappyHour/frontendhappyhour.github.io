@@ -1,5 +1,135 @@
 [
   {
+    "episode": "014",
+    "title": "Hangovers and hotels: engineer conferences",
+    "description": "Conferences continue to be a great way to learn and grow as an engineer. In the 14th episode of the Front End Happy Hour podcast we discuss the value of conferences and why you might want to attend. It’s a special episode because we recorded at React Rally in Salt Lake City. At the conference we caught up with a lot of great attendees and speakers to hear about their experiences at conferences and the benefits for attending.",
+    "id": "280341137",
+    "published": "August 28, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam"
+    ],
+    "guests": [
+      {
+        "name": "Tasha Alfano",
+        "twitter": "TashAlfano"
+      },
+      {
+        "name": "Sumana Mohan",
+        "twitter": "sumana_mohan"
+      },
+      {
+        "name": "Henry Zhu",
+        "twitter": "left_pad"
+      },
+      {
+        "name": "Ryan Wachholz",
+        "twitter": "https://github.com/wachie"
+      },
+      {
+        "name": "Quinn Daniels",
+        "twitter": "https://github.com/aqdaniels"
+      },
+      {
+        "name": "Hani Ahir",
+        "twitter": "HaniAhir"
+      },
+      {
+        "name": "Albert Toledo",
+        "twitter": "toledoalbert"
+      },
+      {
+        "name": "Brian Tice",
+        "twitter": "BrianTice99"
+      }
+    ],
+    "links": [
+      {
+        "title": "React Rally",
+        "url": "http://www.reactrally.com/"
+      },
+      {
+        "title": "Fluent Conference",
+        "url": "http://conferences.oreilly.com/fluent"
+      },
+      {
+        "title": "Scotland JS",
+        "url": "http://scotlandjs.com/"
+      },
+      {
+        "title": "FITC",
+        "url": "http://fitc.ca/"
+      },
+      {
+        "title": "Adobe Max",
+        "url": "https://max.adobe.com/"
+      },
+      {
+        "title": "Jamison Dance",
+        "url": "https://twitter.com/jergason"
+      },
+      {
+        "title": "Matt Zabriskie",
+        "url": "https://twitter.com/mzabriskie"
+      },
+      {
+        "title": "React JS",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Pete Hunt",
+        "url": "https://twitter.com/floydophone"
+      },
+      {
+        "title": "Stranger Things",
+        "url": "https://www.netflix.com/title/80057281"
+      },
+      {
+        "title": "Xoxo",
+        "url": "https://www.netflix.com/title/80057691"
+      },
+      {
+        "title": "Recruiter episode",
+        "url": "http://frontendhappyhour.com/episodes/ninja-rockstar-whiskey-drinker-with-10-years-ipa-experience/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "V-moda m-100 headphones",
+        "url": "https://amzn.com/B00A39PPDK",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Deadmau5 Stranger Things Cover",
+        "url": "http://www.youredm.com/2016/08/15/watch-deadmau5-cover-stranger-things-theme-song/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Emojipedia",
+        "url": "http://emojipedia.org/pile-of-poo/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Tron Legacy Reconfigured",
+        "url": "https://www.youtube.com/user/pr0nyTronLegacyRecon",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Disclosure - You & Me - Flume remix",
+        "url": "https://open.spotify.com/track/1snNAXmmPXCn0dkF9DaPWw",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Zamst Knee Brace",
+        "url": "https://amzn.com/B0093260L4",
+        "from": "Ryan Anklam"
+      }
+    ]
+  },
+  {
     "episode": "013",
     "title": "Drinking in the present to learn future JavaScript",
     "description": "In episode 13 of the Front End Happy Hour podcast, we’re joined by Jafar Husain from Netflix to talk with us about the future of JavaScript. Jafar is part of the TC-39 committee that helps determine the future specs of ECMAScript. Jafar shares a lot of interesting insights into how the committee works and how a feature makes it's way into the spec. Jafar also talks to us about Observables and cancellable promises.",
