@@ -13,6 +13,7 @@
     a{
       color: $darkBlue;
       text-decoration: none;
+      font-weight: bold;
 
       &:hover, &:focus{
         border-bottom: 1px solid $darkBlue;
