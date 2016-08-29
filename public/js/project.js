@@ -96,7 +96,7 @@ var Related = React.createClass({
 
             if (ep.category === cat && relatedTitles.length <= 3) {
               var epTitle = ep.title;
-              var url = epTitle.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
+              var url = '/episodes/' + epTitle.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
               relatedTitles.push({ 'title': epTitle, 'url': url });
             }
           }
