@@ -10,6 +10,7 @@ module.exports = function main(pageType, content, title, desc) {
   let pageTitle;
   let path;
   let css;
+  let js;
   const mainTitle = strings.title;
 
   if(desc === undefined || pageType === 'home') {
@@ -23,6 +24,7 @@ module.exports = function main(pageType, content, title, desc) {
     pageContent = '<ol reversed>' + content + '</ol>';
     heading = 'Episodes';
     css = 'public/css/style.css';
+    js = '';
   }
 
   // episode page
@@ -31,6 +33,7 @@ module.exports = function main(pageType, content, title, desc) {
     css = 'public/css/episode.css';
     pageContent = content;
     pageTitle = title + ' - ';
+    js = '<script src="../../public/js/project.js" type="text/javascript"></script>';
   }
 
   // panelist page
@@ -39,6 +42,7 @@ module.exports = function main(pageType, content, title, desc) {
     css = 'public/css/panelist.css';
     pageContent = content;
     pageTitle = title + ' - ';
+    js = '';
   }
 
   // mailing list page
@@ -47,6 +51,7 @@ module.exports = function main(pageType, content, title, desc) {
     css = 'public/css/mailing.css';
     pageContent = content;
     pageTitle = title + ' - ';
+    js = '';
   }
 
   return `<!DOCTYPE html>
@@ -68,9 +73,10 @@ module.exports = function main(pageType, content, title, desc) {
               <body>
                   ${header(path)}
                   <div class="episodes container">
-                  <h2>${heading}</h2>
+                  <h2 id="heading">${heading}</h2>
                   ${pageContent}
                   </div>
+                  ${js}
               </body>
           </html>`;
 };
