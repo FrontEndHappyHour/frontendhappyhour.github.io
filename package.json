@@ -19,6 +19,8 @@
   "homepage": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io",
   "devDependencies": {
     "babel-eslint": "^6.0.2",
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8",
     "eslint": "^2.7.0",
     "eslint-plugin-babel": "^3.2.0",
     "ghooks": "^1.0.3",
@@ -29,9 +31,11 @@
     "gulp-nodeunit": "0.0.5",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.1",
-    "jshint-stylish": "^2.1.0",
     "gulp-svgmin": "^1.2.2",
-    "tape": "^4.5.1"
+    "gulp-uglify": "^2.0.0",
+    "jshint-stylish": "^2.1.0",
+    "tape": "^4.5.1",
+    "vinyl-source-stream": "^1.1.0"
   },
   "config": {
     "ghooks": {
@@ -47,6 +51,8 @@
     "jsonfile": "^2.2.3",
     "lodash": "^4.6.1",
     "mkdirp": "^0.5.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
     "request": "^2.72.0"
   }
 }

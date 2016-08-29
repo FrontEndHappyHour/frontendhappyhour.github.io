@@ -6,6 +6,10 @@ const jshintStyle = require('jshint-stylish');
 const jsonlint = require('gulp-jsonlint');
 const eslint = require('gulp-eslint');
 const svgmin = require('gulp-svgmin');
+const browserify = require('browserify');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const source = require('vinyl-source-stream');
 
 gulp.task('sass', function () {
   return gulp.src('sass/**/*.scss')
@@ -22,7 +26,7 @@ gulp.task('svgmin', function () {
 
 // ESLint
 gulp.task('lint', function () {
-  return gulp.src(['**/*.js', '!node_modules/**'])
+  return gulp.src(['**/*.js', '!node_modules/**', '!public/js/**/*.js'])
   .pipe(eslint())
   .pipe(eslint.format())
   .pipe(eslint.failAfterError());
@@ -46,9 +50,39 @@ gulp.task('nodeunit', function () {
     }));
 });
 
+gulp.task('scripts', function() {
+ const entryFile = './jsx/clientApp.jsx';
+
+  const bundler = browserify({
+    extensions: ['.js', '.jsx'],
+    transform: ['babelify']
+  });
+
+  bundler.add(entryFile);
+
+  const stream = bundler.bundle();
+  stream.on('error', function (err) { console.error(err.toString()); });
+
+  stream
+    .pipe(source(entryFile))
+    .pipe(rename('project.js'))
+    .pipe(gulp.dest('public/js/'));
+});
+
+gulp.task('compress', function() {
+  return gulp.src('./public/js/project.js')
+    .pipe(uglify())
+    .pipe(rename({
+       extname: '.min.js'
+     }))
+    .pipe(gulp.dest('./public/js'));
+});
+
 gulp.task('watch', function() {
   gulp.watch('sass/**/*.scss', ['sass']);
   gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'nodeunit']);
+  //gulp.watch(['./jsx/**/*'], ['lint', 'scripts', 'compress']);
+  gulp.watch(['./jsx/**/*'], ['scripts']);
 });
 
 gulp.task('test', ['jsonlint', 'lint', 'nodeunit']);

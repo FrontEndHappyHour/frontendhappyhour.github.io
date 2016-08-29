@@ -39,5 +39,6 @@ module.exports = function episodePanel(panelists, panel) {
           <ul>
           ${content}
           </ul>
-          </div>`;
+          </div>
+          <div id="target"></div>`;
 };

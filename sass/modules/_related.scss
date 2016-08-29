@@ -1,0 +1,22 @@
+// File Name: _related.scss
+// Description: related episodes listed on each episode page
+// Used by: episode.scss, 
+// Dependencies: 
+// Date created: 28/08/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+.related{
+  li {
+    margin-bottom: 10px;
+
+    a{
+      color: $darkBlue;
+      text-decoration: none;
+
+      &:hover, &:focus{
+        border-bottom: 1px solid $darkBlue;
+      }
+    }
+  }
+}
