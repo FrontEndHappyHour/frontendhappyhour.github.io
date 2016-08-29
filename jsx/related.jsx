@@ -30,7 +30,9 @@ const Related = React.createClass({
         // find related items from title and category
         for (let ep of shuffledObj) {
           if(ep.category === cat && relatedTitles.length <= 3) {
-            relatedTitles.push(ep.title);
+            const epTitle = ep.title;
+            const url = epTitle.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
+            relatedTitles.push({'title': epTitle, 'url': url});
           } 
         }
 
@@ -43,9 +45,8 @@ const Related = React.createClass({
       <div className='related'>
         <h2>Related episodes</h2>
         <ul>
-          {relatedTitles.map(function(title, i) {
-            const url = title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-');
-            return <li key={i}><a href="{url}">{title}</a></li>;
+          {relatedTitles.map(function(episode, i) {
+            return <li key={i}><a href={episode.url}>{episode.title}</a></li>;
           })}
         </ul>
       </div>

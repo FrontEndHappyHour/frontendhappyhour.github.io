@@ -37,7 +37,6 @@ module.exports = App;
 
 var React = require('react');
 var shuffle = require('../lib/shuffle-object');
-//const episodes = 'https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/master/content/episodes.json';
 var episodes = 'http://frontendhappyhour.com/content/episodes.json';
 var obj = [];
 var cat = '';
@@ -96,7 +95,9 @@ var Related = React.createClass({
             var ep = _step2.value;
 
             if (ep.category === cat && relatedTitles.length <= 3) {
-              relatedTitles.push(ep.title);
+              var epTitle = ep.title;
+              var url = epTitle.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
+              relatedTitles.push({ 'title': epTitle, 'url': url });
             }
           }
         } catch (err) {
@@ -130,15 +131,14 @@ var Related = React.createClass({
       React.createElement(
         'ul',
         null,
-        relatedTitles.map(function (title, i) {
-          var url = title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-');
+        relatedTitles.map(function (episode, i) {
           return React.createElement(
             'li',
             { key: i },
             React.createElement(
               'a',
-              { href: '{url}' },
-              title
+              { href: episode.url },
+              episode.title
             )
           );
         })
