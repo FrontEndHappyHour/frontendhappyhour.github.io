@@ -37,7 +37,8 @@ module.exports = App;
 
 var React = require('react');
 var shuffle = require('../lib/shuffle-object');
-var episodes = 'https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/master/content/episodes.json';
+//const episodes = 'https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/master/content/episodes.json';
+var episodes = 'http://frontendhappyhour.com/content/episodes.json';
 var obj = [];
 var cat = '';
 var relatedTitles = [];
@@ -92,10 +93,10 @@ var Related = React.createClass({
 
         try {
           for (var _iterator2 = shuffledObj[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
-            var related = _step2.value;
+            var ep = _step2.value;
 
-            if (shuffledObj.category === cat && relatedTitles.length <= 3) {
-              relatedTitles.push(shuffledObj.title);
+            if (ep.category === cat && relatedTitles.length <= 3) {
+              relatedTitles.push(ep.title);
             }
           }
         } catch (err) {

@@ -1,6 +1,6 @@
 const React = require('react');
 const shuffle = require('../lib/shuffle-object');
-const episodes = 'https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/master/content/episodes.json';
+const episodes = 'http://frontendhappyhour.com/content/episodes.json';
 const obj = [];
 let cat = '';
 const relatedTitles = [];
@@ -28,9 +28,9 @@ const Related = React.createClass({
         const shuffledObj = shuffle(obj);
 
         // find related items from title and category
-        for (let related of shuffledObj) {
-          if(shuffledObj.category === cat && relatedTitles.length <= 3) {
-            relatedTitles.push(shuffledObj.title);
+        for (let ep of shuffledObj) {
+          if(ep.category === cat && relatedTitles.length <= 3) {
+            relatedTitles.push(ep.title);
           } 
         }
 
