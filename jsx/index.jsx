@@ -1,5 +1,5 @@
-const React = require('react');
-const Related = require('./related');
+import React from 'react';
+import Related from './related';
 
 // main react app class
 const App = React.createClass({

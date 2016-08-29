@@ -3,30 +3,42 @@
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = require('react-dom');
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
 var _index = require('./index');
 
 var _index2 = _interopRequireDefault(_index);
 
-var React = require('react');
-var ReactDOM = require('react-dom');
-
-ReactDOM.render(React.createElement(_index2['default'], null), target);
+_reactDom2['default'].render(_react2['default'].createElement(_index2['default'], null), target);
 
 },{"./index":2,"react":175,"react-dom":7}],2:[function(require,module,exports){
 'use strict';
 
-var React = require('react');
-var Related = require('./related');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _related = require('./related');
+
+var _related2 = _interopRequireDefault(_related);
 
 // main react app class
-var App = React.createClass({
+var App = _react2['default'].createClass({
   displayName: 'App',
   getInitialState: function getInitialState() {
     return {};
   },
   componentDidMount: function componentDidMount() {},
   render: function render() {
-    return React.createElement(Related, null);
+    return _react2['default'].createElement(_related2['default'], null);
   }
 });
 
@@ -35,13 +47,21 @@ module.exports = App;
 },{"./related":3,"react":175}],3:[function(require,module,exports){
 'use strict';
 
-var React = require('react');
-var shuffle = require('../lib/shuffle-object');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _libShuffleObject = require('../lib/shuffle-object');
+
+var _libShuffleObject2 = _interopRequireDefault(_libShuffleObject);
+
 var episodes = 'http://frontendhappyhour.com/content/episodes.json';
 var obj = [];
 var cat = '';
 var relatedTitles = [];
-var Related = React.createClass({
+var Related = _react2['default'].createClass({
   displayName: 'Related',
   getInitialState: function getInitialState() {
     return {};
@@ -83,7 +103,7 @@ var Related = React.createClass({
           }
         }
 
-        var shuffledObj = shuffle(obj);
+        var shuffledObj = (0, _libShuffleObject2['default'])(obj);
 
         // find related items from title and category
         var _iteratorNormalCompletion2 = true;
@@ -120,22 +140,22 @@ var Related = React.createClass({
     });
   },
   render: function render() {
-    return React.createElement(
+    return _react2['default'].createElement(
       'div',
       { className: 'related' },
-      React.createElement(
+      _react2['default'].createElement(
         'h2',
         null,
         'Related episodes'
       ),
-      React.createElement(
+      _react2['default'].createElement(
         'ul',
         null,
         relatedTitles.map(function (episode, i) {
-          return React.createElement(
+          return _react2['default'].createElement(
             'li',
             { key: i },
-            React.createElement(
+            _react2['default'].createElement(
               'a',
               { href: episode.url },
               episode.title

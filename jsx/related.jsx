@@ -1,5 +1,5 @@
-const React = require('react');
-const shuffle = require('../lib/shuffle-object');
+import React from 'react';
+import shuffle from '../lib/shuffle-object';
 const episodes = 'http://frontendhappyhour.com/content/episodes.json';
 const obj = [];
 let cat = '';
