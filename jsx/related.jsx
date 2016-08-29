@@ -28,9 +28,9 @@ const Related = React.createClass({
         const shuffledObj = shuffle(obj);
 
         // find related items from title and category
-        for (let i = 0; i < shuffledObj.length - 1; i++) {
-          if(shuffledObj[i].category === cat && i <= 4) {
-            relatedTitles.push(shuffledObj[i].title);
+        for (let related of shuffledObj) {
+          if(shuffledObj.category === cat && relatedTitles.length <= 3) {
+            relatedTitles.push(shuffledObj.title);
           } 
         }
 

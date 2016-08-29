@@ -86,9 +86,30 @@ var Related = React.createClass({
         var shuffledObj = shuffle(obj);
 
         // find related items from title and category
-        for (var i = 0; i < shuffledObj.length - 1; i++) {
-          if (shuffledObj[i].category === cat && i <= 4) {
-            relatedTitles.push(shuffledObj[i].title);
+        var _iteratorNormalCompletion2 = true;
+        var _didIteratorError2 = false;
+        var _iteratorError2 = undefined;
+
+        try {
+          for (var _iterator2 = shuffledObj[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+            var related = _step2.value;
+
+            if (shuffledObj.category === cat && relatedTitles.length <= 3) {
+              relatedTitles.push(shuffledObj.title);
+            }
+          }
+        } catch (err) {
+          _didIteratorError2 = true;
+          _iteratorError2 = err;
+        } finally {
+          try {
+            if (!_iteratorNormalCompletion2 && _iterator2['return']) {
+              _iterator2['return']();
+            }
+          } finally {
+            if (_didIteratorError2) {
+              throw _iteratorError2;
+            }
           }
         }
 
