@@ -46,6 +46,7 @@ const Related = React.createClass({
         <h2>Related episodes</h2>
         <ul>
           {relatedTitles.map(function(episode, i) {
+            i++;
             return <li key={i}><a href={episode.url}>{episode.title}</a></li>;
           })}
         </ul>
