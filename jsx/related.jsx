@@ -12,9 +12,9 @@ const Related = React.createClass({
   componentDidMount() {
     const component = this;
     const episodeTitle = document.getElementById('heading').innerHTML;
-    fetch(episodes).then(function(response) {
+    fetch(episodes).then((response) => {
       const contentType = response.headers.get('content-type');
-      return response.json().then(function(json) {
+      return response.json().then((json) => {
         for (let episodes of json) {
           const title = episodes.title;
           const category = episodes.category;
