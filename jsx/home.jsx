@@ -15,7 +15,7 @@ const App = React.createClass({
     return (
       <div class="episodes container">
         <ol reversed>
-          {this.state.episodeList.map(function (ep, i) {
+          {this.state.episodeList.map((ep, i) => {
             const url = '/episodes/' + ep.title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
             i++;
             return (
