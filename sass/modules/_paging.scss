@@ -1,0 +1,22 @@
+// File Name: _paging.scss
+// Description: styling for paging next/previous buttons
+// Used by: style.scss, 
+// Dependencies: 
+// Date created: 05/09/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+.paging {
+  text-align: right;
+  display: block;
+
+  a {
+    display: inline;
+    padding: 5px 10px;
+
+    &:hover, &:focus {
+      color: $chalk;
+      background: $darkBlue;
+    }
+  }
+}

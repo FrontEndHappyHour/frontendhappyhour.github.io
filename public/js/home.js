@@ -24,22 +24,91 @@ var App = _react2['default'].createClass({
 
   getInitialState: function getInitialState() {
     return {
-      episodeList: _contentEpisodesJson2['default']
+      episodeList: _contentEpisodesJson2['default'],
+      startValue: 0,
+      listNum: 5,
+      numOnPage: 5,
+      showPrev: false,
+      showNext: true
     };
   },
   componentDidMount: function componentDidMount() {},
+  showPrevButton: function showPrevButton(show) {
+    this.setState({ showPrev: show });
+  },
+  showNextButton: function showNextButton(show) {
+    this.setState({ showNext: show });
+  },
+  previousList: function previousList() {
+    if (this.state.startValue >= 0) {
+      this.setState({ startValue: this.state.startValue - this.state.numOnPage, listNum: this.state.listNum - this.state.numOnPage });
+    }
+
+    // show next button
+    this.showNextButton(true);
+
+    // hide previous button if its the first page in the list
+    if (this.state.startValue <= 5) {
+      this.showPrevButton(false);
+    }
+  },
+  nextList: function nextList() {
+    this.setState({ startValue: this.state.startValue + this.state.numOnPage, listNum: this.state.listNum + this.state.numOnPage });
+
+    // show previous button
+    this.showPrevButton(true);
+
+    // hide next button if its the last page in the list
+    if (this.state.startValue + this.state.numOnPage * 2 >= this.state.episodeList.length) {
+      this.showNextButton(false);
+    }
+  },
   render: function render() {
+    var _this = this;
+
+    var prevButton = undefined;
+    if (this.state.showPrev !== false) {
+      prevButton = _react2['default'].createElement(
+        'a',
+        { href: '#', className: 'prev', onClick: this.previousList },
+        'Previous'
+      );
+    }
+
+    var nextButton = undefined;
+    if (this.state.showNext !== false) {
+      nextButton = _react2['default'].createElement(
+        'a',
+        { href: '#', className: 'next', onClick: this.nextList },
+        'Next'
+      );
+    }
+
     return _react2['default'].createElement(
       'div',
-      { 'class': 'episodes container' },
+      null,
       _react2['default'].createElement(
-        'ol',
-        { reversed: true },
+        'div',
+        { className: 'paging' },
+        prevButton,
+        nextButton
+      ),
+      _react2['default'].createElement(
+        'ul',
+        null,
         this.state.episodeList.map(function (ep, i) {
           var url = '/episodes/' + ep.title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
           i++;
-          return _react2['default'].createElement(_episodes2['default'], { key: i, url: url, title: ep.title, date: ep.published, description: ep.description });
+          if (i > _this.state.startValue && i <= _this.state.listNum) {
+            return _react2['default'].createElement(_episodes2['default'], { key: i, epNum: ep.episode, url: url, title: ep.title, date: ep.published, description: ep.description });
+          }
         })
+      ),
+      _react2['default'].createElement(
+        'div',
+        { className: 'paging' },
+        prevButton,
+        nextButton
       )
     );
   }
@@ -1825,6 +1894,11 @@ var Episodes = _react2['default'].createClass({
       _react2['default'].createElement(
         'a',
         { href: this.props.url },
+        _react2['default'].createElement(
+          'span',
+          { className: 'episode-number' },
+          this.props.epNum
+        ),
         _react2['default'].createElement(
           'h3',
           null,
