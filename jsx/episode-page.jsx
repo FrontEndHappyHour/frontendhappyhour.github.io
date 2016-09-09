@@ -1,19 +1,24 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Related from './related';
 
 // main react app class
 const App = React.createClass({
-  displayName: 'App',
   getInitialState() {
-    return {};
+    return {
+    };
   },
   componentDidMount() {
   },
   render() {
     return (
-      <Related />
+      <div>
+        <Related />
+      </div>
     );
   }
 });
 
 module.exports = App;
+
+ReactDOM.render(<App />, target);

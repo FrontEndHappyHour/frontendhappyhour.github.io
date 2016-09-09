@@ -8,6 +8,11 @@
 
 .episodes{
   margin-top: 30px;
+  
+  .episode-number{
+    display: block;
+    margin-bottom: 15px;
+  }
 
   h2{
     font-size: 26px;
@@ -30,8 +35,9 @@
     font-size: 20px;
   }
 
-  ol{
+  ul, ol{
     li{
+      position: relative;
       margin-bottom: 30px;
     }
   }

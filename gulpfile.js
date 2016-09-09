@@ -50,8 +50,8 @@ gulp.task('nodeunit', function () {
     }));
 });
 
-gulp.task('scripts', function() {
- const entryFile = './jsx/clientApp.jsx';
+gulp.task('episodePage', function() {
+ const entryFile = './jsx/episode-page.jsx';
 
   const bundler = browserify({
     extensions: ['.js', '.jsx'],
@@ -65,23 +65,42 @@ gulp.task('scripts', function() {
 
   stream
     .pipe(source(entryFile))
-    .pipe(rename('project.js'))
+    .pipe(rename('episode.js'))
+    .pipe(gulp.dest('public/js/'));
+});
+
+gulp.task('homepage', function() {
+ const homeFile = './jsx/home.jsx';
+
+  const bundler = browserify({
+    extensions: ['.js', '.jsx'],
+    transform: ['babelify']
+  });
+
+  bundler.add(homeFile);
+
+  const stream = bundler.bundle();
+  stream.on('error', function (err) { console.error(err.toString()); });
+
+  stream
+    .pipe(source(homeFile))
+    .pipe(rename('home.js'))
     .pipe(gulp.dest('public/js/'));
 });
 
 gulp.task('compress', function() {
-  return gulp.src('./public/js/project.js')
+  return gulp.src('./public/js/*.js')
     .pipe(uglify())
     .pipe(rename({
        extname: '.min.js'
      }))
-    .pipe(gulp.dest('./public/js'));
+    .pipe(gulp.dest('./public/js/min/'));
 });
 
 gulp.task('watch', function() {
   gulp.watch('sass/**/*.scss', ['sass']);
   gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'nodeunit']);
-  gulp.watch(['./jsx/**/*'], ['lint', 'scripts', 'compress']);
+  gulp.watch(['./jsx/**/*'], ['lint', 'homepage', 'episodePage', 'compress']);
 });
 
 gulp.task('test', ['jsonlint', 'lint', 'nodeunit']);

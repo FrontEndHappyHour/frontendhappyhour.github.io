@@ -21,10 +21,10 @@ module.exports = function main(pageType, content, title, desc) {
   if(pageType === 'home') {
     path = '';
     pageTitle = '';
-    pageContent = '<ol reversed>' + content + '</ol>';
+    pageContent = '<div id="target"></div>';
     heading = 'Episodes';
     css = 'public/css/style.css';
-    js = '';
+    js = '<script src="public/js/home.js" type="text/javascript"></script>';
   }
 
   // episode page
@@ -33,7 +33,7 @@ module.exports = function main(pageType, content, title, desc) {
     css = 'public/css/episode.css';
     pageContent = content;
     pageTitle = title + ' - ';
-    js = '<script src="../../public/js/project.min.js" type="text/javascript"></script>';
+    js = '<script src="../../public/js/min/episode.min.js" type="text/javascript"></script>';
   }
 
   // panelist page
