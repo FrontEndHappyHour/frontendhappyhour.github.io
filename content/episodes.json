@@ -1,4 +1,4 @@
-[
+ [ 
   {
     "episode": "015",
     "title": "A table of drinks for opinions on JavaScript frameworks",
@@ -16,16 +16,33 @@
       "Ryan Anklam"
     ],
     "guests": [],
-    "links": [],
+    "links": [
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Anuglar",
+        "url": "https://angularjs.org/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "Backbone",
+        "url": "http://backbonejs.org/"
+      }
+    ],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "React in 7 minutes",
+        "url": "https://egghead.io/lessons/react-react-in-7-minutes",
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Mackup",
+        "url": "https://github.com/lra/mackup",
         "from": "Ryan Burgess"
       },
       {
@@ -39,13 +56,13 @@
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "A Very Secret Service",
+        "url": "https://www.youtube.com/watch?v=fwDUguW8Duo",
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "APEX: The Story of the Hypercar",
+        "url": "https://www.netflix.com/title/80109260",
         "from": "Jem Young"
       },
       {
@@ -78,7 +95,7 @@
         "url": "",
         "from": "Ryan Anklam"
       }
-   ]
+    ]
   },
   {
     "episode": "014",
