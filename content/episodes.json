@@ -2,18 +2,15 @@
   {
     "episode": "015",
     "title": "A flight of JavaScript frameworks",
-    "description": "In the JavaScript community we have a lot of amazing frameworks that help us in our day to day work. It can be at times overwhelming to understand what framework is the best one to use. In this episode we discuss our thoughts and opinions on the various frameworks.",
-    "id": "",
-    "published": "",
+    "description": "In the JavaScript community, we have a lot of amazing frameworks that help us in our day to day work. It can be at times overwhelming to understand what framework is the best one to use. In this episode, we discuss our thoughts and opinions on the various frameworks.",
+    "id": "282673305",
+    "published": "September 12, 2016",
     "transcribed": false,
     "category": "technical",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
-      "Jem Young",
-      "Derrick Showers",
-      "Mars Jullian",
-      "Ryan Anklam"
+      "Derrick Showers"
     ],
     "guests": [],
     "links": [
@@ -30,8 +27,76 @@
         "url": "http://emberjs.com/"
       },
       {
+        "title": "JQuery",
+        "url": "https://jquery.com/"
+      },
+      {
         "title": "Backbone",
         "url": "http://backbonejs.org/"
+      },
+      {
+        "title": "Marionette",
+        "url": "http://marionettejs.com/"
+      },
+      {
+        "title": "Knockout",
+        "url": "http://knockoutjs.com/"
+      },
+      {
+        "title": "Troop",
+        "url": "http://troopjs.com/"
+      },
+      {
+        "title": "Prototype",
+        "url": "http://prototypejs.org/"
+      },
+      {
+        "title": "YUI",
+        "url": "http://yuilibrary.com/"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/"
+      },
+      {
+        "title": "GWT",
+        "url": "http://www.gwtproject.org/"
+      },
+      {
+        "title": "Brian Holt's React & ES6 workshop",
+        "url": "https://btholt.github.io/complete-intro-to-react/"
+      },
+      {
+        "title": "Ghost",
+        "url": "https://ghost.org/"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/"
+      },
+      {
+        "title": "Egghead.io",
+        "url": "https://egghead.io/"
+      },
+      {
+        "title": "Pluralsight",
+        "url": "https://www.pluralsight.com"
+      },
+      {
+        "title": "Linda.com",
+        "url": "https://www.lynda.com/"
+      },
+      {
+        "title": "Ember Slack",
+        "url": "https://ember-community-slackin.herokuapp.com/"
+      },
+      {
+        "title": "Paul Irish",
+        "url": "https://twitter.com/paul_irish"
+      },
+      {
+        "title": "John Lindquist",
+        "url": "https://twitter.com/johnlindquist"
       }
     ],
     "picks": [
@@ -46,54 +111,29 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "AMP Project",
+        "url": "https://www.ampproject.org/",
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "DoodlesTV",
+        "url": "https://www.youtube.com/channel/UCyArfuouSLqk3cnMoDUUzlQ",
         "from": "Augustus Yuan"
       },
       {
-        "title": "A Very Secret Service",
-        "url": "https://www.youtube.com/watch?v=fwDUguW8Duo",
-        "from": "Jem Young"
-      },
-      {
-        "title": "APEX: The Story of the Hypercar",
-        "url": "https://www.netflix.com/title/80109260",
-        "from": "Jem Young"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "Fidget cube",
+        "url": "https://www.producthunt.com/tech/fidget-cube",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Sully",
+        "url": "http://www.imdb.com/title/tt3263904/",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Ryan Anklam"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Ryan Anklam"
+        "title": "Alamo Drafthouse",
+        "url": "https://drafthouse.com/sf",
+        "from": "Derrick Showers"
       }
     ]
   },
