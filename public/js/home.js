@@ -119,7 +119,145 @@ module.exports = App;
 _reactDom2['default'].render(_react2['default'].createElement(App, null), target);
 
 },{"../content/episodes.json":2,"./episodes":3,"react":174,"react-dom":6}],2:[function(require,module,exports){
-module.exports=[
+module.exports= [
+  {
+    "episode": "015",
+    "title": "A flight of JavaScript frameworks",
+    "description": "In the JavaScript community, we have a lot of amazing frameworks that help us in our day to day work. It can be at times overwhelming to understand what framework is the best one to use. In this episode, we discuss our thoughts and opinions on the various frameworks.",
+    "id": "282673305",
+    "published": "September 12, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Derrick Showers"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Anuglar",
+        "url": "https://angularjs.org/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "JQuery",
+        "url": "https://jquery.com/"
+      },
+      {
+        "title": "Backbone",
+        "url": "http://backbonejs.org/"
+      },
+      {
+        "title": "Marionette",
+        "url": "http://marionettejs.com/"
+      },
+      {
+        "title": "Knockout",
+        "url": "http://knockoutjs.com/"
+      },
+      {
+        "title": "Troop",
+        "url": "http://troopjs.com/"
+      },
+      {
+        "title": "Prototype",
+        "url": "http://prototypejs.org/"
+      },
+      {
+        "title": "YUI",
+        "url": "http://yuilibrary.com/"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/"
+      },
+      {
+        "title": "GWT",
+        "url": "http://www.gwtproject.org/"
+      },
+      {
+        "title": "Brian Holt's React & ES6 workshop",
+        "url": "https://btholt.github.io/complete-intro-to-react/"
+      },
+      {
+        "title": "Ghost",
+        "url": "https://ghost.org/"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/"
+      },
+      {
+        "title": "Egghead.io",
+        "url": "https://egghead.io/"
+      },
+      {
+        "title": "Pluralsight",
+        "url": "https://www.pluralsight.com"
+      },
+      {
+        "title": "Linda.com",
+        "url": "https://www.lynda.com/"
+      },
+      {
+        "title": "Ember Slack",
+        "url": "https://ember-community-slackin.herokuapp.com/"
+      },
+      {
+        "title": "Paul Irish",
+        "url": "https://twitter.com/paul_irish"
+      },
+      {
+        "title": "John Lindquist",
+        "url": "https://twitter.com/johnlindquist"
+      }
+    ],
+    "picks": [
+      {
+        "title": "React in 7 minutes",
+        "url": "https://egghead.io/lessons/react-react-in-7-minutes",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Mackup",
+        "url": "https://github.com/lra/mackup",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "AMP Project",
+        "url": "https://www.ampproject.org/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "DoodlesTV",
+        "url": "https://www.youtube.com/channel/UCyArfuouSLqk3cnMoDUUzlQ",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Fidget cube",
+        "url": "https://www.producthunt.com/tech/fidget-cube",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Sully",
+        "url": "http://www.imdb.com/title/tt3263904/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Alamo Drafthouse",
+        "url": "https://drafthouse.com/sf",
+        "from": "Derrick Showers"
+      }
+    ]
+  },
   {
     "episode": "014",
     "title": "Hangovers and hotels: engineer conferences",
@@ -133,8 +271,7 @@ module.exports=[
       "Jem Young",
       "Ryan Anklam"
     ],
-    "guests": [
-      {
+    "guests": [ {
         "name": "Tasha Alfano",
         "twitter": "TashAlfano"
       },
