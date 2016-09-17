@@ -140,7 +140,7 @@ module.exports= [
         "url": "https://facebook.github.io/react/"
       },
       {
-        "title": "Anuglar",
+        "title": "Angular",
         "url": "https://angularjs.org/"
       },
       {
