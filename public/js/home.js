@@ -132,7 +132,6 @@ module.exports=[
       "Ryan Burgess",
       "Augustus Yuan",
       "Jem Young",
-      "Derrick Showers",
       "Ryan Anklam",
       "Brian Holt",
       "Sarah Federman"
@@ -146,8 +145,8 @@ module.exports=[
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "React Rally 2016 videos",
+        "url": "https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw",
         "from": "Ryan Burgess"
       },
       {
@@ -169,26 +168,6 @@ module.exports=[
         "title": "APEX: The Story of the Hypercar",
         "url": "https://www.netflix.com/title/80109260",
         "from": "Jem Young"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Derrick Showers"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Derrick Showers"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Ryan Anklam"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Ryan Anklam"
       },
       {
         "title": "",
