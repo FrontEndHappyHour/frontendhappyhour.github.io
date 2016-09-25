@@ -132,7 +132,6 @@ module.exports=[
       "Ryan Burgess",
       "Augustus Yuan",
       "Jem Young",
-      "Ryan Anklam",
       "Brian Holt",
       "Sarah Federman"
     ],
@@ -150,13 +149,13 @@ module.exports=[
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "I got scammed by a Silicon Valley startup",
+        "url": "https://medium.com/startup-grind/i-got-scammed-by-a-silicon-valley-startup-574ced8acdff",
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "React Game Kit",
+        "url": "https://github.com/FormidableLabs/react-game-kit",
         "from": "Augustus Yuan"
       },
       {
@@ -180,13 +179,13 @@ module.exports=[
         "from": "Brian Holt"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "GitHub Universe conference",
+        "url": "https://github.com/universe-2016",
         "from": "Sarah Federman"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Oh Shit Git",
+        "url": "http://ohshitgit.com/",
         "from": "Sarah Federman"
       }
     ]

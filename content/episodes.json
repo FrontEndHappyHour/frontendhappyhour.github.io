@@ -15,7 +15,52 @@
       "Sarah Federman"
     ],
     "guests": [],
-    "links": [],
+    "links": [
+      {
+        "title": "Flash",
+        "url": "https://www.adobe.com/support/flash/downloads.html"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "Python",
+        "url": "https://www.python.org/"
+      },
+     {
+        "title": "PHP",
+        "url": "http://php.net/"
+     },
+     {
+       "title": "Chartbeat",
+       "url": "https://chartbeat.com/"
+     },
+     {
+       "title": "SRE",
+       "url": "https://en.wikipedia.org/wiki/Site_reliability_engineer"
+     },
+     {
+       "title": "Reddit Marketplace",
+       "url": "https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/"
+     },
+     {
+       "title": "Full Stack TO",
+       "url": "https://fsto.co/"
+     },
+     {
+       "title": "Wordpress",
+       "url": "https://wordpress.com"
+     },
+     {
+       "title": "Nagios",
+       "url": "https://exchange.nagios.org/"
+     },
+     {
+       "title": "Jenkins",
+       "url": "https://jenkins.io/"
+     }
+    ],
     "picks": [
       {
         "title": "React plus X: Best Practices for Reusable UI Components - Mars Jullian",
