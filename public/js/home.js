@@ -123,9 +123,9 @@ module.exports=[
   {
     "episode": "016",
     "title": "Spilled beer and epic fails",
-    "description": "As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully this episode helps you avoid making similar mistakes.",
-    "id": "",
-    "published": "",
+    "description": "As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes.",
+    "id": "284642453",
+    "published": "September 25, 2016",
     "transcribed": false,
     "category": "soft",
     "panel": [
