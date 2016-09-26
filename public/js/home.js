@@ -214,13 +214,13 @@ module.exports=[
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Polarheart",
+        "url": "https://www.facebook.com/polarheartmusic/",
         "from": "Brian Holt"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Traveling",
+        "url": "http://frontendhappyhour.com",
         "from": "Brian Holt"
       },
       {
