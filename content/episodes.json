@@ -1,4 +1,119 @@
- [
+[
+  {
+    "episode": "016",
+    "title": "Spilled beer and epic fails",
+    "description": "As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes.",
+    "id": "284642453",
+    "published": "September 25, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Brian Holt",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Flash",
+        "url": "https://www.adobe.com/support/flash/downloads.html"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "Python",
+        "url": "https://www.python.org/"
+      },
+     {
+        "title": "PHP",
+        "url": "http://php.net/"
+     },
+     {
+       "title": "Chartbeat",
+       "url": "https://chartbeat.com/"
+     },
+     {
+       "title": "SRE",
+       "url": "https://en.wikipedia.org/wiki/Site_reliability_engineer"
+     },
+     {
+       "title": "Reddit Marketplace",
+       "url": "https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/"
+     },
+     {
+       "title": "Full Stack TO",
+       "url": "https://fsto.co/"
+     },
+     {
+       "title": "Wordpress",
+       "url": "https://wordpress.com"
+     },
+     {
+       "title": "Nagios",
+       "url": "https://exchange.nagios.org/"
+     },
+     {
+       "title": "Jenkins",
+       "url": "https://jenkins.io/"
+     }
+    ],
+    "picks": [
+      {
+        "title": "React plus X: Best Practices for Reusable UI Components - Mars Jullian",
+        "url": "https://www.youtube.com/watch?v=Yy7gFgETp0o",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "React Rally 2016 videos",
+        "url": "https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "I got scammed by a Silicon Valley startup",
+        "url": "https://medium.com/startup-grind/i-got-scammed-by-a-silicon-valley-startup-574ced8acdff",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "React Game Kit",
+        "url": "https://github.com/FormidableLabs/react-game-kit",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "A Very Secret Service",
+        "url": "https://www.youtube.com/watch?v=fwDUguW8Duo",
+        "from": "Jem Young"
+      },
+      {
+        "title": "APEX: The Story of the Hypercar",
+        "url": "https://www.netflix.com/title/80109260",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Polarheart",
+        "url": "https://www.facebook.com/polarheartmusic/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Traveling",
+        "url": "http://frontendhappyhour.com",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "GitHub Universe conference",
+        "url": "https://github.com/universe-2016",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Oh Shit Git",
+        "url": "http://ohshitgit.com/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
   {
     "episode": "015",
     "title": "A flight of JavaScript frameworks",
@@ -150,7 +265,8 @@
       "Jem Young",
       "Ryan Anklam"
     ],
-    "guests": [ {
+    "guests": [
+      {
         "name": "Tasha Alfano",
         "twitter": "TashAlfano"
       },
