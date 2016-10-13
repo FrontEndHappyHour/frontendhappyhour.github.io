@@ -1,5 +1,108 @@
 [
   {
+    "episode": "017",
+    "title": "",
+    "description": "",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Mars Jullian",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "016",
     "title": "Spilled beer and epic fails",
     "description": "As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes.",
@@ -28,38 +131,38 @@
         "title": "Python",
         "url": "https://www.python.org/"
       },
-     {
+      {
         "title": "PHP",
         "url": "http://php.net/"
-     },
-     {
-       "title": "Chartbeat",
-       "url": "https://chartbeat.com/"
-     },
-     {
-       "title": "SRE",
-       "url": "https://en.wikipedia.org/wiki/Site_reliability_engineer"
-     },
-     {
-       "title": "Reddit Marketplace",
-       "url": "https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/"
-     },
-     {
-       "title": "Full Stack TO",
-       "url": "https://fsto.co/"
-     },
-     {
-       "title": "Wordpress",
-       "url": "https://wordpress.com"
-     },
-     {
-       "title": "Nagios",
-       "url": "https://exchange.nagios.org/"
-     },
-     {
-       "title": "Jenkins",
-       "url": "https://jenkins.io/"
-     }
+      },
+      {
+        "title": "Chartbeat",
+        "url": "https://chartbeat.com/"
+      },
+      {
+        "title": "SRE",
+        "url": "https://en.wikipedia.org/wiki/Site_reliability_engineer"
+      },
+      {
+        "title": "Reddit Marketplace",
+        "url": "https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/"
+      },
+      {
+        "title": "Full Stack TO",
+        "url": "https://fsto.co/"
+      },
+      {
+        "title": "Wordpress",
+        "url": "https://wordpress.com"
+      },
+      {
+        "title": "Nagios",
+        "url": "https://exchange.nagios.org/"
+      },
+      {
+        "title": "Jenkins",
+        "url": "https://jenkins.io/"
+      }
     ],
     "picks": [
       {
