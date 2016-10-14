@@ -1,28 +1,41 @@
 [
   {
     "episode": "017",
-    "title": "",
-    "description": "",
+    "title": "Managing our drinks",
+    "description": "In this episode, we are joined by Chris Saint-Amant from Netflix to help discuss what it’s like to transition from being an engineer to becoming an engineering manager. We share our thoughts on what engineers expect in their manager and share advice for engineers interested in moving into a management role.",
     "id": "",
-    "published": "",
+    "published": "October 13, 2016",
     "transcribed": false,
-    "category": "",
+    "category": "soft",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
       "Jem Young",
       "Derrick Showers",
       "Ryan Anklam",
-      "Brian Holt",
-      "Mars Jullian",
-      "Sarah Federman"
+      "Brian Holt"
     ],
-    "guests": [],
+    "guests": [
+      {
+        "name": "Chris Saint-Amant",
+        "twitter": "csaintamant"
+      }
+    ],
     "links": [],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "Radical Candor",
+        "url": "http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/",
+        "from": "Chris Saint-Amant"
+      },
+      {
+        "title": "Suuns - Hold/Still",
+        "url": "https://suuns.bandcamp.com/",
+        "from": "Chris Saint-Amant"
+      },
+      {
+        "title": "I'll Sleep When I'm Dead",
+        "url": "https://www.netflix.com/title/80118930",
         "from": "Ryan Burgess"
       },
       {
@@ -31,74 +44,59 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Free O’Reilly Books",
+        "url": "https://www.reddit.com/r/learnprogramming/comments/556kxj/oreilly_offering_programming_ebooks_for_free/",
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Noto font by Google",
+        "url": "https://www.google.com/get/noto/",
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Infinite Jukebox",
+        "url": "http://labs.echonest.com/Uploader/index.html",
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "XOXO Soundtrack",
+        "url": "https://play.spotify.com/album/7GII7KZDArYqZ14xcyshb4",
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "TC-39",
+        "url": "https://github.com/tc39",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Ryan Burgess @ Full Stack Toronto",
+        "url": "http://fsto.co/schedule/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Being a Manager is Hard",
+        "url": "https://www.reddit.com/r/sysadmin/comments/55k4lj/being_a_manager_is_hard/",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "The State of JS",
+        "url": "http://stateofjs.com/2016/introduction/",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Samsung SmartThings Hub",
+        "url": "https://www.smartthings.com/",
         "from": "Ryan Anklam"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Flume - Skin",
+        "url": "https://play.spotify.com/album/6VHCF8ykDo3STafE5JfMAs?play=true&utm_source=open.spotify.com",
         "from": "Ryan Anklam"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Bottle Logic Brewing",
+        "url": "http://bottlelogic.com/",
         "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Sarah Federman"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Sarah Federman"
       }
     ]
   },
