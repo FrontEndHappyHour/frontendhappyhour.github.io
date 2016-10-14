@@ -124,7 +124,7 @@ module.exports=[
     "episode": "017",
     "title": "Managing our drinks",
     "description": "In this episode, we are joined by Chris Saint-Amant from Netflix to help discuss what it’s like to transition from being an engineer to becoming an engineering manager. We share our thoughts on what engineers expect in their manager and share advice for engineers interested in moving into a management role.",
-    "id": "",
+    "id": "287594273",
     "published": "October 13, 2016",
     "transcribed": false,
     "category": "soft",
@@ -160,8 +160,8 @@ module.exports=[
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "The Advantage",
+        "url": "https://www.amazon.com/Summary-Advantage-Patrick-Lencioni-Analysis/dp/1519620314",
         "from": "Ryan Burgess"
       },
       {
