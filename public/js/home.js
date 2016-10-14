@@ -121,6 +121,107 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"./episodes":3,"react":174,"react-dom":6}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "017",
+    "title": "Managing our drinks",
+    "description": "In this episode, we are joined by Chris Saint-Amant from Netflix to help discuss what it’s like to transition from being an engineer to becoming an engineering manager. We share our thoughts on what engineers expect in their manager and share advice for engineers interested in moving into a management role.",
+    "id": "287594273",
+    "published": "October 13, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt"
+    ],
+    "guests": [
+      {
+        "name": "Chris Saint-Amant",
+        "twitter": "csaintamant"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Radical Candor",
+        "url": "http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/",
+        "from": "Chris Saint-Amant"
+      },
+      {
+        "title": "Suuns - Hold/Still",
+        "url": "https://suuns.bandcamp.com/",
+        "from": "Chris Saint-Amant"
+      },
+      {
+        "title": "I'll Sleep When I'm Dead",
+        "url": "https://www.netflix.com/title/80118930",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Advantage",
+        "url": "https://www.amazon.com/Summary-Advantage-Patrick-Lencioni-Analysis/dp/1519620314",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Free O’Reilly Books",
+        "url": "https://www.reddit.com/r/learnprogramming/comments/556kxj/oreilly_offering_programming_ebooks_for_free/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Noto font by Google",
+        "url": "https://www.google.com/get/noto/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Infinite Jukebox",
+        "url": "http://labs.echonest.com/Uploader/index.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "XOXO Soundtrack",
+        "url": "https://play.spotify.com/album/7GII7KZDArYqZ14xcyshb4",
+        "from": "Jem Young"
+      },
+      {
+        "title": "TC-39",
+        "url": "https://github.com/tc39",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Ryan Burgess @ Full Stack Toronto",
+        "url": "http://fsto.co/schedule/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Being a Manager is Hard",
+        "url": "https://www.reddit.com/r/sysadmin/comments/55k4lj/being_a_manager_is_hard/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "The State of JS",
+        "url": "http://stateofjs.com/2016/introduction/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Samsung SmartThings Hub",
+        "url": "https://www.smartthings.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Flume - Skin",
+        "url": "https://play.spotify.com/album/6VHCF8ykDo3STafE5JfMAs?play=true&utm_source=open.spotify.com",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Bottle Logic Brewing",
+        "url": "http://bottlelogic.com/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "016",
     "title": "Spilled beer and epic fails",
     "description": "As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes.",
@@ -149,38 +250,38 @@ module.exports=[
         "title": "Python",
         "url": "https://www.python.org/"
       },
-     {
+      {
         "title": "PHP",
         "url": "http://php.net/"
-     },
-     {
-       "title": "Chartbeat",
-       "url": "https://chartbeat.com/"
-     },
-     {
-       "title": "SRE",
-       "url": "https://en.wikipedia.org/wiki/Site_reliability_engineer"
-     },
-     {
-       "title": "Reddit Marketplace",
-       "url": "https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/"
-     },
-     {
-       "title": "Full Stack TO",
-       "url": "https://fsto.co/"
-     },
-     {
-       "title": "Wordpress",
-       "url": "https://wordpress.com"
-     },
-     {
-       "title": "Nagios",
-       "url": "https://exchange.nagios.org/"
-     },
-     {
-       "title": "Jenkins",
-       "url": "https://jenkins.io/"
-     }
+      },
+      {
+        "title": "Chartbeat",
+        "url": "https://chartbeat.com/"
+      },
+      {
+        "title": "SRE",
+        "url": "https://en.wikipedia.org/wiki/Site_reliability_engineer"
+      },
+      {
+        "title": "Reddit Marketplace",
+        "url": "https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/"
+      },
+      {
+        "title": "Full Stack TO",
+        "url": "https://fsto.co/"
+      },
+      {
+        "title": "Wordpress",
+        "url": "https://wordpress.com"
+      },
+      {
+        "title": "Nagios",
+        "url": "https://exchange.nagios.org/"
+      },
+      {
+        "title": "Jenkins",
+        "url": "https://jenkins.io/"
+      }
     ],
     "picks": [
       {
