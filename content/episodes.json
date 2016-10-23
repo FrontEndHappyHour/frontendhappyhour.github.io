@@ -1,5 +1,108 @@
 [
   {
+    "episode": "018",
+    "title": "Shotgunning websites: web performance",
+    "description": "Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Mars Jullian",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Caplansky's Deli",
+        "url": "https://www.caplanskys.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "React Perf Tool",
+        "url": "https://www.npmjs.com/package/react-perf-tool",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "017",
     "title": "Managing our drinks",
     "description": "In this episode, we are joined by Chris Saint-Amant from Netflix to help discuss what it’s like to transition from being an engineer to becoming an engineering manager. We share our thoughts on what engineers expect in their manager and share advice for engineers interested in moving into a management role.",
