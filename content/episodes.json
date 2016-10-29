@@ -3,18 +3,14 @@
     "episode": "018",
     "title": "Shotgunning websites: web performance",
     "description": "Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important.",
-    "id": "",
-    "published": "",
+    "id": "290570478",
+    "published": "October 29, 2016",
     "transcribed": false,
     "category": "technical",
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
-      "Jem Young",
       "Derrick Showers",
-      "Ryan Anklam",
-      "Brian Holt",
-      "Mars Jullian",
       "Sarah Federman"
     ],
     "guests": [],
@@ -64,16 +60,52 @@
         "url": "https://forwardjs.com/"
       },
       {
-        "title": "Real-time performance audit with Chrome DevTools",
-        "url": "https://www.youtube.com/watch?v=pt4TjbSQz-g"
-      },
-      {
         "title": "WebPageTest",
         "url": "https://www.webpagetest.org/"
       },
       {
         "title": "PageSpeed",
         "url": "https://developers.google.com/speed/pagespeed/"
+      },
+      {
+        "title": "Gulp",
+        "url": "http://gulpjs.com/"
+      },
+      {
+        "title": "Grunt",
+        "url": "http://gruntjs.com/"
+      },
+      {
+        "title": "npm",
+        "url": "https://www.npmjs.com/"
+      },
+      {
+        "title": "Broccoli",
+        "url": "http://broccolijs.com/"
+      },
+      {
+        "title": "Glimmer",
+        "url": "https://github.com/tildeio/glimmer"
+      },
+      {
+        "title": "GWT",
+        "url": "http://www.gwtproject.org/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "Angular",
+        "url": "https://angular.io/"
+      },
+      {
+        "title": "Debugging Node.js in Production",
+        "url": "https://www.youtube.com/watch?v=O1YP8QP9gLA"
       }
     ],
     "picks": [
@@ -88,73 +120,43 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "FlameGraph",
+        "url": "https://github.com/brendangregg/FlameGraph",
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Real-time performance audit with Chrome DevTools",
+        "url": "https://www.youtube.com/watch?v=pt4TjbSQz-g",
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Jem Young"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Jem Young"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "Week of learning",
+        "url": "https://learning.linkedin.com/week-of-learning",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Black Mirror",
+        "url": "https://www.netflix.com/title/70264888",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Ryan Anklam"
+        "title": "Man In The High Castle",
+        "url": "https://www.amazon.com/Man-High-Castle-Season/dp/B00RSGIVVO",
+        "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Ryan Anklam"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "Bridge Troll",
+        "url": "https://www.bridgetroll.org/",
         "from": "Sarah Federman"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Page Weight",
+        "url": "https://pageweight.imgix.com/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "CSS Triggers",
+        "url": "https://csstriggers.com/",
         "from": "Sarah Federman"
       }
     ]

@@ -121,6 +121,166 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"./episodes":3,"react":174,"react-dom":6}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "018",
+    "title": "Shotgunning websites: web performance",
+    "description": "Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Mars Jullian",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Amazon found every 100ms of latency cost them 1% in sales",
+        "url": "http://blog.gigaspaces.com/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/"
+      },
+      {
+        "title": "Page speed correlates to business metrics at Walmart.com",
+        "url": "http://www.webperformancetoday.com/2012/02/28/4-awesome-slides-showing-how-page-speed-correlates-to-business-metrics-at-walmart-com/"
+      },
+      {
+        "title": "For Google, 400ms of increased page load time, results in 0,44% lost search sessions",
+        "url": "http://www.cedexis.com/blog/for-google-400ms-of-increased-page-load-time-results-in-044-lost-search-sessions/"
+      },
+      {
+        "title": "The Social Network",
+        "url": "http://www.imdb.com/title/tt1285016/"
+      },
+      {
+        "title": "Large DDoS attacks cause outages at Twitter, Spotify, and other sites",
+        "url": "https://techcrunch.com/2016/10/21/many-sites-including-twitter-and-spotify-suffering-outage/"
+      },
+      {
+        "title": "Google Page Rank",
+        "url": "http://www.prchecker.info/"
+      },
+      {
+        "title": "AMP",
+        "url": "https://www.ampproject.org/"
+      },
+      {
+        "title": "2G Tuesdays",
+        "url": "http://www.theverge.com/2015/10/28/9625062/facebook-2g-tuesdays-slow-internet-developing-world"
+      },
+      {
+        "title": "Gzip",
+        "url": "https://en.wikipedia.org/wiki/Gzip"
+      },
+      {
+        "title": "Wordpress",
+        "url": "https://wordpress.com/"
+      },
+      {
+        "title": "Forward JS",
+        "url": "https://forwardjs.com/"
+      },
+      {
+        "title": "Real-time performance audit with Chrome DevTools",
+        "url": "https://www.youtube.com/watch?v=pt4TjbSQz-g"
+      },
+      {
+        "title": "WebPageTest",
+        "url": "https://www.webpagetest.org/"
+      },
+      {
+        "title": "PageSpeed",
+        "url": "https://developers.google.com/speed/pagespeed/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Caplansky's Deli",
+        "url": "https://www.caplanskys.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "React Perf Tool",
+        "url": "https://www.npmjs.com/package/react-perf-tool",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "017",
     "title": "Managing our drinks",
     "description": "In this episode, we are joined by Chris Saint-Amant from Netflix to help discuss what it’s like to transition from being an engineer to becoming an engineering manager. We share our thoughts on what engineers expect in their manager and share advice for engineers interested in moving into a management role.",
