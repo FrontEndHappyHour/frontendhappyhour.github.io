@@ -121,6 +121,138 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"./episodes":3,"react":174,"react-dom":6}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "019",
+    "title": "Drinking to digital nomads",
+    "description": "The idea of working remotely has become more realistic over the past few years, making it easier for engineers to do their work without being tied to a physical location. In this episode, we are joined by Darren Buckner, Founder and CEO of Workfrom, and Sarah Showers from LinkedIn. Both guests will join us to discuss the pros and cons of working from your favorite coffee shop.",
+    "id": "",
+    "published": "November 7, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Showers",
+        "twitter": "sarahlshowers"
+      },
+      {
+        "name": "Darren Buckner",
+        "twitter": "darrenbuckner"
+      }
+    ],
+    "links": [
+      {
+        "title": "Impact Hub",
+        "url": "https://saltlake.impacthub.net/"
+      },
+      {
+        "title": "Slack",
+        "url": "https://slack.com/"
+      },
+      {
+        "title": "Google Hangouts",
+        "url": "https://hangouts.google.com/"
+      },
+      {
+        "title": "Project retrospective",
+        "url": "https://en.wikipedia.org/wiki/Retrospective"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Workfrom",
+        "url": "https://workfrom.co/",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "Coffee Bar SF",
+        "url": "http://www.coffeebarsf.com/",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "Work Shop Cafe",
+        "url": "http://www.workshopcafe.com/",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Darren Buckner"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Darren Buckner"
+      },
+      {
+        "title": "Oversight",
+        "url": "https://objective-see.com/products/oversight.html",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "How To Open Locks With Improvised Tools",
+        "url": "https://www.amazon.com/gp/product/0966608712/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Why work doesn’t happen at work TED Talk",
+        "url": "https://www.ted.com/talks/jason_fried_why_work_doesn_t_happen_at_work",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Android 404 page",
+        "url": "https://www.android.com/404/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "On Style Maintenance",
+        "url": "https://css-tricks.com/on-style-maintenance/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Grim Dawn",
+        "url": "http://www.grimdawn.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Going Remote, Staying Effective",
+        "url": "http://www.linkedin.com/pulse/going-remote-staying-effective-james-bake",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Yelp Collections",
+        "url": "https://www.yelpblog.com/2016/10/bookmark-collections-new-back-pocket-resource",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Track JS",
+        "url": "https://trackjs.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Indie Hackers Nomad List",
+        "url": "https://www.indiehackers.com/businesses/nomad-list",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Best Practices for Working with Satellite Developers",
+        "url": "http://www.lookthink.com/blog/near-and-far-best-practices-working-satellite-developers",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
     "episode": "018",
     "title": "Shotgunning websites: web performance",
     "description": "Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important.",
