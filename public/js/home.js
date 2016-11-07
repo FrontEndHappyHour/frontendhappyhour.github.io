@@ -181,13 +181,13 @@ module.exports=[
         "from": "Sarah Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "The 10 Biggest Misconceptions About Remote Work",
+        "url": "http://blog.trello.com/company-remote-work-myths",
         "from": "Darren Buckner"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Toby: manage your tabs",
+        "url": "https://chrome.google.com/webstore/detail/toby-manage-your-tabs/hddnkoipeenegfoeaoibdmnaalmgkpip",
         "from": "Darren Buckner"
       },
       {
@@ -229,6 +229,11 @@ module.exports=[
         "title": "Yelp Collections",
         "url": "https://www.yelpblog.com/2016/10/bookmark-collections-new-back-pocket-resource",
         "from": "Derrick Showers"
+      },
+      {
+        "title": "Haelos - Full Circle",
+        "url": "https://play.spotify.com/album/3kE0d3eZX1EjoWMeHQTvXQ",
+        "from": "Brian Holt"
       },
       {
         "title": "Track JS",
