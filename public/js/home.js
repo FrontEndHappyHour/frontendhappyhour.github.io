@@ -121,10 +121,79 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"./episodes":3,"react":174,"react-dom":6}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "020",
+    "title": "Wasted on workflows",
+    "description": "We are lost without our tools. In this episode we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Brian Holt",
+      "Mars Jullian"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "MacOS",
+        "url": "http://www.apple.com/macos"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Reptar",
+        "url": "http://reptar.github.io/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Chance",
+        "url": "http://www.hulu.com/start/?show=chance",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "H.264 is magic",
+        "url": "https://sidbala.com/h-264-is-magic/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "We Rate Dogs",
+        "url": "https://twitter.com/dog_rates",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Jest",
+        "url": "https://facebook.github.io/jest/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "The Naked and Famous - Simple Forms",
+        "url": "https://play.spotify.com/artist/0oeUpvxWsC8bWS6SnpU8b9",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Bose ear buds",
+        "url": "https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "React Devtools",
+        "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Jolene - collaboration with Dolly Parton and Pentatonix",
+        "url": "https://play.spotify.com/track/60PbWX0IWXg10YaE6VlywH",
+        "from": "Mars Jullian"
+      }
+    ]
+  },
+  {
     "episode": "019",
     "title": "Drinking to digital nomads",
     "description": "The idea of working remotely has become more realistic over the past few years, making it easier for engineers to do their work without being tied to a physical location. In this episode, we are joined by Darren Buckner, Founder and CEO of Workfrom, and Sarah Showers from LinkedIn. Both guests will join us to discuss the pros and cons of working from your favorite coffee shop.",
-    "id": "",
+    "id": "291919603",
     "published": "November 7, 2016",
     "transcribed": false,
     "category": "soft",
@@ -408,7 +477,7 @@ module.exports=[
         "from": "Sarah Federman"
       },
       {
-        "title": "Page Weight",
+        "title": "Imgix Page Weight Tool",
         "url": "https://pageweight.imgix.com/",
         "from": "Sarah Federman"
       },

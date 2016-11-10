@@ -18,6 +18,62 @@
       {
         "title": "MacOS",
         "url": "http://www.apple.com/macos"
+      },
+      {
+        "title": "Windows",
+        "url": "https://www.microsoft.com/en-us/windows-10"
+      },
+      {
+        "title": "Ubuntu",
+        "url": "https://www.ubuntu.com/"
+      },
+      {
+        "title": ".NET",
+        "url": "https://www.microsoft.com/net"
+      },
+      {
+        "title": "C#",
+        "url": "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx"
+      },
+      {
+        "title": "Sublime",
+        "url": "https://www.sublimetext.com/"
+      },
+      {
+        "title": "Emacs",
+        "url": "https://emacsformacosx.com/"
+      },
+      {
+        "title": "Atom",
+        "url": "https://atom.io/"
+      },
+      {
+        "title": "Vim",
+        "url": "http://www.vim.org/"
+      },
+      {
+        "title": "Eclipse",
+        "url": "https://eclipse.org/"
+      },
+      {
+        "title": "Visual Code",
+        "url": "https://code.visualstudio.com/"
+      },
+      {
+        "title": "TextMate",
+        "url": ""
+      },
+      {
+        "title": "Notepad++",
+        "url": ""
+      },
+      {
+        "title": "",
+        "url": ""
+      },
+      {
+        "title": "",
+        "url": ""
       }
     ],
     "picks": [
