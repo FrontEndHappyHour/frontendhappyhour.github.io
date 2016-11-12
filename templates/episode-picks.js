@@ -5,7 +5,7 @@ module.exports = function episodePicks(picks) {
   let picksContent = '';
   for(let i = 0; i < picks.length; i++) {
     picksContent += `<li>
-      <a href="${picks[i].url}">${picks[i].title}</a> - ${picks[i].from}
+      <a href="${picks[i].url}" target="_blank">${picks[i].title}</a> - ${picks[i].from}
       </li>`;
   }
 

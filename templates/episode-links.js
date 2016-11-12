@@ -4,7 +4,7 @@ module.exports = function episodeLinks(links) {
   'use strict';
   let linkContent = '';
   for(let i = 0; i < links.length; i++) {
-    linkContent += '<a href="' + links[i].url + '">' + links[i].title + '</a>';
+    linkContent += '<a href="' + links[i].url + '" target="_blank">' + links[i].title + '</a>';
     if(i !== links.length -1) {
       linkContent += ', ';
     }
