@@ -182,19 +182,111 @@ module.exports=[
       },
       {
         "title": "TextMate",
-        "url": ""
+        "url": "https://macromates.com/"
       },
       {
         "title": "Notepad++",
-        "url": ""
+        "url": "https://notepad-plus-plus.org/"
       },
       {
-        "title": "",
-        "url": ""
+        "title": "Dreamweaver",
+        "url": "http://www.adobe.com/products/dreamweaver.html"
       },
       {
-        "title": "",
-        "url": ""
+        "title": "iTerm",
+        "url": "https://www.iterm2.com/"
+      },
+      {
+        "title": "Apple Time Machine backup",
+        "url": "https://www.youtube.com/watch?v=ZLhvEfiOADk"
+      },
+      {
+        "title": "Kaleidoscope",
+        "url": "http://www.kaleidoscopeapp.com/"
+      },
+      {
+        "title": "1Password",
+        "url": "https://1password.com/"
+      },
+      {
+        "title": "Dropbox",
+        "url": "https://www.dropbox.com/"
+      },
+      {
+        "title": "Trello",
+        "url": "https://trello.com/"
+      },
+      {
+        "title": "Chrome",
+        "url": "https://www.google.com/chrome/"
+      },
+      {
+        "title": "Firefox",
+        "url": "https://www.mozilla.org/firefox"
+      },
+      {
+        "title": "LastPass",
+        "url": "https://lastpass.com"
+      },
+      {
+        "title": "Safari",
+        "url": "https://support.apple.com/downloads/#safari"
+      },
+      {
+        "title": "Homebrew",
+        "url": "http://brew.sh/"
+      },
+      {
+        "title": "Node JS",
+        "url": "https://nodejs.org"
+      },
+      {
+        "title": "nvm",
+        "url": "https://github.com/creationix/nvm"
+      },
+      {
+        "title": "Browser Stack",
+        "url": "https://www.browserstack.com/"
+      },
+      {
+        "title": "Alfred",
+        "url": "https://www.alfredapp.com/"
+      },
+      {
+        "title": "Bartender",
+        "url": "https://www.macbartender.com/"
+      },
+      {
+        "title": "Charles Proxy",
+        "url": "https://www.charlesproxy.com/"
+      },
+      {
+        "title": "Screeny",
+        "url": "http://www.screenyapp.com/"
+      },
+      {
+        "title": "Skitch",
+        "url": "https://evernote.com/skitch/"
+      },
+      {
+        "title": "Evernote",
+        "url": "https://evernote.com"
+      },
+      {
+        "title": "Eclipse",
+        "url": "https://www.eclipse.org/"
+      },
+      {
+        "title": "Eslint",
+        "url": "https://github.com/roadhump/SublimeLinter-eslint"
+      },
+      {
+        "title": "Sublime DocBlockr",
+        "url": "https://github.com/Warin/Sublime/tree/master/DocBlockr"
+      },
+      {
+        "title": "Emmet",
+        "url": "http://emmet.io/"
       }
     ],
     "picks": [
