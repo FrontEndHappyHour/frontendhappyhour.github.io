@@ -287,6 +287,50 @@ module.exports=[
       {
         "title": "Emmet",
         "url": "http://emmet.io/"
+      },
+      {
+        "title": "GitGutter",
+        "url": "https://github.com/jisaacks/GitGutter"
+      },
+      {
+        "title": "Vim Nerdtree",
+        "url": "https://github.com/scrooloose/nerdtree"
+      },
+      {
+        "title": "Less",
+        "url": ""
+      },
+      {
+        "title": "Sass",
+        "url": ""
+      },
+      {
+        "title": "Firefox Nightly",
+        "url": "https://nightly.mozilla.org/"
+      },
+      {
+        "title": "JIRA",
+        "url": "https://jira.atlassian.com"
+      },
+      {
+        "title": "Slack",
+        "url": "https://slack.com/"
+      },
+      {
+        "title": "HipChat",
+        "url": "https://www.hipchat.com/"
+      },
+      {
+        "title": "Yammer",
+        "url": "https://www.yammer.com/"
+      },
+      {
+        "title": "Facebook Business",
+        "url": "https://www.facebook.com/business"
+      },
+      {
+        "title": "Microsoft Teams",
+        "url": "https://products.office.com/en-us/microsoft-teams/group-chat-software"
       }
     ],
     "picks": [

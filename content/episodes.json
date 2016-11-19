@@ -177,11 +177,11 @@
       },
       {
         "title": "Less",
-        "url": ""
+        "url": "http://lesscss.org/"
       },
       {
         "title": "Sass",
-        "url": ""
+        "url": "http://sass-lang.com/"
       },
       {
         "title": "Firefox Nightly",
@@ -210,6 +210,22 @@
       {
         "title": "Microsoft Teams",
         "url": "https://products.office.com/en-us/microsoft-teams/group-chat-software"
+      },
+      {
+        "title": "LG 34 inch curved monitor",
+        "url": "https://www.amazon.com/LG-Electronics-34-Inch-LED-Lit-34UC97-S/dp/B00OKSEWL6"
+      },
+      {
+        "title": "Apple Watch",
+        "url": "http://www.apple.com/watch"
+      },
+      {
+        "title": "Treadmill Desk",
+        "url": "https://www.amazon.com/TrekDesk-Treadmill-Desks-TD-01-Desk/dp/B002IYRBI0"
+      },
+      {
+        "title": "Fitbit",
+        "url": "http://www.fitbit.com/"
       }
     ],
     "picks": [
