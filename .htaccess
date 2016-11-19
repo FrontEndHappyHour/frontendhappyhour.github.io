@@ -37,4 +37,4 @@ AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml text/x-js t
 </IfModule>
 
 # Redirects
-Redirect 302 /shirts https://teespring.com/new-front-end-happy-hour
+Redirect 302 http://frontendhappyhour.com/shirts https://teespring.com/new-front-end-happy-hour
