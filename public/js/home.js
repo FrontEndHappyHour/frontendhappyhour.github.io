@@ -123,11 +123,11 @@ module.exports=[
   {
     "episode": "020",
     "title": "Wasted on workflows",
-    "description": "We are lost without our tools. In this episode we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
-    "id": "",
-    "published": "",
+    "description": "We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
+    "id": "294014341",
+    "published": "November 20, 2016",
     "transcribed": false,
-    "category": "",
+    "category": "technical",
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -157,8 +157,12 @@ module.exports=[
         "url": "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx"
       },
       {
-        "title": "Sublime",
+        "title": "Sublime Text",
         "url": "https://www.sublimetext.com/"
+      },
+      {
+        "title": "Sublime Text dev channel (nightly/monthly builds)",
+        "url": "http://www.sublimetext.com/3dev"
       },
       {
         "title": "Emacs",
@@ -289,20 +293,24 @@ module.exports=[
         "url": "http://emmet.io/"
       },
       {
-        "title": "GitGutter",
+        "title": "GitGutter (Sublime)",
         "url": "https://github.com/jisaacks/GitGutter"
       },
       {
-        "title": "Vim Nerdtree",
+        "title": "GitHubinator (Sublime)",
+        "url": "https://github.com/ehamiter/GitHubinator"
+      },
+      {
+        "title": "NERD tree (Vim)",
         "url": "https://github.com/scrooloose/nerdtree"
       },
       {
         "title": "Less",
-        "url": ""
+        "url": "http://lesscss.org/"
       },
       {
         "title": "Sass",
-        "url": ""
+        "url": "http://sass-lang.com/"
       },
       {
         "title": "Firefox Nightly",
@@ -325,12 +333,28 @@ module.exports=[
         "url": "https://www.yammer.com/"
       },
       {
-        "title": "Facebook Business",
-        "url": "https://www.facebook.com/business"
+        "title": "Workplace by Facebook",
+        "url": "https://workplace.fb.com/"
       },
       {
         "title": "Microsoft Teams",
         "url": "https://products.office.com/en-us/microsoft-teams/group-chat-software"
+      },
+      {
+        "title": "LG 34 inch curved monitor",
+        "url": "https://www.amazon.com/LG-Electronics-34-Inch-LED-Lit-34UC97-S/dp/B00OKSEWL6"
+      },
+      {
+        "title": "Apple Watch",
+        "url": "http://www.apple.com/watch"
+      },
+      {
+        "title": "Treadmill Desk",
+        "url": "https://www.amazon.com/TrekDesk-Treadmill-Desks-TD-01-Desk/dp/B002IYRBI0"
+      },
+      {
+        "title": "Fitbit",
+        "url": "http://www.fitbit.com/"
       }
     ],
     "picks": [
