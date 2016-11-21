@@ -36,8 +36,12 @@
         "url": "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx"
       },
       {
-        "title": "Sublime",
+        "title": "Sublime Text",
         "url": "https://www.sublimetext.com/"
+      },
+      {
+        "title": "Sublime Text dev channel (nightly/monthly builds)",
+        "url": "http://www.sublimetext.com/3dev"
       },
       {
         "title": "Emacs",
@@ -168,11 +172,15 @@
         "url": "http://emmet.io/"
       },
       {
-        "title": "GitGutter",
+        "title": "GitGutter (Sublime)",
         "url": "https://github.com/jisaacks/GitGutter"
       },
       {
-        "title": "Vim Nerdtree",
+        "title": "GitHubinator (Sublime)",
+        "url": "https://github.com/ehamiter/GitHubinator"
+      },
+      {
+        "title": "NERD tree (Vim)",
         "url": "https://github.com/scrooloose/nerdtree"
       },
       {
@@ -204,8 +212,8 @@
         "url": "https://www.yammer.com/"
       },
       {
-        "title": "Facebook Business",
-        "url": "https://www.facebook.com/business"
+        "title": "Workplace by Facebook",
+        "url": "https://workplace.fb.com/"
       },
       {
         "title": "Microsoft Teams",
