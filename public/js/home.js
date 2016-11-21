@@ -121,10 +121,271 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"./episodes":3,"react":174,"react-dom":6}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "020",
+    "title": "Wasted on workflows",
+    "description": "We are lost without our tools. In this episode we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Brian Holt",
+      "Mars Jullian"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "MacOS",
+        "url": "http://www.apple.com/macos"
+      },
+      {
+        "title": "Windows",
+        "url": "https://www.microsoft.com/en-us/windows-10"
+      },
+      {
+        "title": "Ubuntu",
+        "url": "https://www.ubuntu.com/"
+      },
+      {
+        "title": ".NET",
+        "url": "https://www.microsoft.com/net"
+      },
+      {
+        "title": "C#",
+        "url": "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx"
+      },
+      {
+        "title": "Sublime",
+        "url": "https://www.sublimetext.com/"
+      },
+      {
+        "title": "Emacs",
+        "url": "https://emacsformacosx.com/"
+      },
+      {
+        "title": "Atom",
+        "url": "https://atom.io/"
+      },
+      {
+        "title": "Vim",
+        "url": "http://www.vim.org/"
+      },
+      {
+        "title": "Eclipse",
+        "url": "https://eclipse.org/"
+      },
+      {
+        "title": "Visual Code",
+        "url": "https://code.visualstudio.com/"
+      },
+      {
+        "title": "TextMate",
+        "url": "https://macromates.com/"
+      },
+      {
+        "title": "Notepad++",
+        "url": "https://notepad-plus-plus.org/"
+      },
+      {
+        "title": "Dreamweaver",
+        "url": "http://www.adobe.com/products/dreamweaver.html"
+      },
+      {
+        "title": "iTerm",
+        "url": "https://www.iterm2.com/"
+      },
+      {
+        "title": "Apple Time Machine backup",
+        "url": "https://www.youtube.com/watch?v=ZLhvEfiOADk"
+      },
+      {
+        "title": "Kaleidoscope",
+        "url": "http://www.kaleidoscopeapp.com/"
+      },
+      {
+        "title": "1Password",
+        "url": "https://1password.com/"
+      },
+      {
+        "title": "Dropbox",
+        "url": "https://www.dropbox.com/"
+      },
+      {
+        "title": "Trello",
+        "url": "https://trello.com/"
+      },
+      {
+        "title": "Chrome",
+        "url": "https://www.google.com/chrome/"
+      },
+      {
+        "title": "Firefox",
+        "url": "https://www.mozilla.org/firefox"
+      },
+      {
+        "title": "LastPass",
+        "url": "https://lastpass.com"
+      },
+      {
+        "title": "Safari",
+        "url": "https://support.apple.com/downloads/#safari"
+      },
+      {
+        "title": "Homebrew",
+        "url": "http://brew.sh/"
+      },
+      {
+        "title": "Node JS",
+        "url": "https://nodejs.org"
+      },
+      {
+        "title": "nvm",
+        "url": "https://github.com/creationix/nvm"
+      },
+      {
+        "title": "Browser Stack",
+        "url": "https://www.browserstack.com/"
+      },
+      {
+        "title": "Alfred",
+        "url": "https://www.alfredapp.com/"
+      },
+      {
+        "title": "Bartender",
+        "url": "https://www.macbartender.com/"
+      },
+      {
+        "title": "Charles Proxy",
+        "url": "https://www.charlesproxy.com/"
+      },
+      {
+        "title": "Screeny",
+        "url": "http://www.screenyapp.com/"
+      },
+      {
+        "title": "Skitch",
+        "url": "https://evernote.com/skitch/"
+      },
+      {
+        "title": "Evernote",
+        "url": "https://evernote.com"
+      },
+      {
+        "title": "Eclipse",
+        "url": "https://www.eclipse.org/"
+      },
+      {
+        "title": "Eslint",
+        "url": "https://github.com/roadhump/SublimeLinter-eslint"
+      },
+      {
+        "title": "Sublime DocBlockr",
+        "url": "https://github.com/Warin/Sublime/tree/master/DocBlockr"
+      },
+      {
+        "title": "Emmet",
+        "url": "http://emmet.io/"
+      },
+      {
+        "title": "GitGutter",
+        "url": "https://github.com/jisaacks/GitGutter"
+      },
+      {
+        "title": "Vim Nerdtree",
+        "url": "https://github.com/scrooloose/nerdtree"
+      },
+      {
+        "title": "Less",
+        "url": ""
+      },
+      {
+        "title": "Sass",
+        "url": ""
+      },
+      {
+        "title": "Firefox Nightly",
+        "url": "https://nightly.mozilla.org/"
+      },
+      {
+        "title": "JIRA",
+        "url": "https://jira.atlassian.com"
+      },
+      {
+        "title": "Slack",
+        "url": "https://slack.com/"
+      },
+      {
+        "title": "HipChat",
+        "url": "https://www.hipchat.com/"
+      },
+      {
+        "title": "Yammer",
+        "url": "https://www.yammer.com/"
+      },
+      {
+        "title": "Facebook Business",
+        "url": "https://www.facebook.com/business"
+      },
+      {
+        "title": "Microsoft Teams",
+        "url": "https://products.office.com/en-us/microsoft-teams/group-chat-software"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Reptar",
+        "url": "http://reptar.github.io/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Chance",
+        "url": "http://www.hulu.com/start/?show=chance",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "H.264 is magic",
+        "url": "https://sidbala.com/h-264-is-magic/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "We Rate Dogs",
+        "url": "https://twitter.com/dog_rates",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Jest",
+        "url": "https://facebook.github.io/jest/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "The Naked and Famous - Simple Forms",
+        "url": "https://play.spotify.com/artist/0oeUpvxWsC8bWS6SnpU8b9",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Bose ear buds",
+        "url": "https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "React Devtools",
+        "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Jolene - collaboration with Dolly Parton and Pentatonix",
+        "url": "https://play.spotify.com/track/60PbWX0IWXg10YaE6VlywH",
+        "from": "Mars Jullian"
+      }
+    ]
+  },
+  {
     "episode": "019",
     "title": "Drinking to digital nomads",
     "description": "The idea of working remotely has become more realistic over the past few years, making it easier for engineers to do their work without being tied to a physical location. In this episode, we are joined by Darren Buckner, Founder and CEO of Workfrom, and Sarah Showers from LinkedIn. Both guests will join us to discuss the pros and cons of working from your favorite coffee shop.",
-    "id": "",
+    "id": "291919603",
     "published": "November 7, 2016",
     "transcribed": false,
     "category": "soft",
@@ -408,7 +669,7 @@ module.exports=[
         "from": "Sarah Federman"
       },
       {
-        "title": "Page Weight",
+        "title": "Imgix Page Weight Tool",
         "url": "https://pageweight.imgix.com/",
         "from": "Sarah Federman"
       },
