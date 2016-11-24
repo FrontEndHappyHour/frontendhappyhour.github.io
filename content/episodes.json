@@ -1,5 +1,75 @@
 [
   {
+    "episode": "021",
+    "title": "Mixed drinks and Mixed languages",
+    "description": "Offering content in several languages makes a better experience for your users but it can add many layers of complexity in your application’s design and architecture. In this episode we’ll be discussing the ways we have dealt with supporting multiple languages.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Oliver Stone's Untold History of the United States",
+        "url": "https://www.netflix.com/title/80127995",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Purity Ring - Another Eternity",
+        "url": "https://open.spotify.com/album/4ymjpcGruNuUUUZOeGawLe",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Serge.io",
+        "url": "https://serge.io/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Moral Machine",
+        "url": "http://moralmachine.mit.edu/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "HTC Vive",
+        "url": "https://www.vive.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Crown",
+        "url": "https://www.netflix.com/title/80025678",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Setup",
+        "url": "https://usesthis.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Kitura",
+        "url": "https://github.com/IBM-Swift/Kitura",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "020",
     "title": "Wasted on workflows",
     "description": "We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
