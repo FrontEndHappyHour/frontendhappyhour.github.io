@@ -121,6 +121,118 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"./episodes":3,"react":174,"react-dom":6}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "021",
+    "title": "Mixed drinks and Mixed languages",
+    "description": "Have you had to deal with supporting more than one language in your web application? Offering content in several languages makes a better experience for your users but it can add many layers of complexity in your application’s design and architecture. In this episode we’ll be discussing the ways we have dealt with supporting multiple languages.",
+    "id": "296456619",
+    "published": "December 5, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Google Translate",
+        "url": "https://translate.google.com/"
+      },
+      {
+        "title": "React INTL",
+        "url": "https://github.com/yahoo/react-intl"
+      },
+      {
+        "title": "Weebly",
+        "url": "https://www.weebly.com/"
+      },
+      {
+        "title": "Squarespace",
+        "url": "https://www.squarespace.com/"
+      },
+      {
+        "title": "Jekyll",
+        "url": "https://jekyllrb.com/"
+      },
+      {
+        "title": "Wordpress",
+        "url": "https://wordpress.com"
+      },
+      {
+        "title": "Drupal",
+        "url": "https://www.drupal.org/"
+      },
+      {
+        "title": "Pootle",
+        "url": "http://pootle.translatehouse.org/"
+      },
+      {
+        "title": "Wasted on Workflows",
+        "url": "http://frontendhappyhour.com/episodes/wasted-on-workflows"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Oliver Stone's Untold History of the United States",
+        "url": "https://www.netflix.com/title/80127995",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Purity Ring - Another Eternity",
+        "url": "https://open.spotify.com/album/4ymjpcGruNuUUUZOeGawLe",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Serge.io",
+        "url": "https://serge.io/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Moral Machine",
+        "url": "http://moralmachine.mit.edu/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "HTC Vive",
+        "url": "https://www.vive.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Crown",
+        "url": "https://www.netflix.com/title/80025678",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Setup",
+        "url": "https://usesthis.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Kitura",
+        "url": "https://github.com/IBM-Swift/Kitura",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "SF Chronicle",
+        "url": "http://www.sfchronicle.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Washington Post",
+        "url": "https://www.washingtonpost.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Quick Draw with Google",
+        "url": "https://quickdraw.withgoogle.com/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "020",
     "title": "Wasted on workflows",
     "description": "We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
