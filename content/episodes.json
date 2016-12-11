@@ -68,6 +68,38 @@
             {
                 "title": "Webpack",
                 "url": "https://webpack.github.io/"
+            },
+            {
+                "title": "Ruby",
+                "url": "https://www.ruby-lang.org"
+            },
+            {
+                "title": "Ruby Sass",
+                "url": "https://www.npmjs.com/package/ruby-sass"
+            },
+            {
+                "title": "LibSass",
+                "url": "http://sass-lang.com/libsass"
+            },
+            {
+                "title": "PostCSS",
+                "url": "https://github.com/postcss/postcss"
+            },
+            {
+                "title": "CSS Houdini",
+                "url": "https://github.com/w3c/css-houdini-drafts/wiki"
+            },
+            {
+                "title": "SMACSS",
+                "url": "https://smacss.com/"
+            },
+            {
+                "title": "SassySass",
+                "url": "https://github.com/ryanburgess/sassysass"
+            },
+            {
+                "title": "Wai Lun Poon",
+                "url": "https://twitter.com/monkeytypewritr"
             }
         ],
         "picks": [
