@@ -2,9 +2,9 @@
     {
         "episode": "022",
         "title": "Drinking with more style and less sass",
-        "description": "",
+        "description": "Writing CSS seems pretty straight forward until your project and team starts to grow. CSS has a lot of issues, in this episode we share some advice for making it a little bit easier. We’ll also discuss ways to create a scalable CSS architecture for large projects and teams.",
         "id": "",
-        "published": "",
+        "published": "December 16, 2016",
         "transcribed": false,
         "category": "technical",
         "panel": [
