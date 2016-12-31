@@ -131,7 +131,6 @@ module.exports=[
         "panel": [
             "Ryan Burgess",
             "Derrick Showers",
-            "Ryan Anklam",
             "Brian Holt"
         ],
         "guests": [
@@ -154,8 +153,16 @@ module.exports=[
                 "url": "https://angularjs.org/"
             },
             {
+                "title": "Ember a11y",
+                "url": "https://github.com/ember-a11y/ember-a11y"
+            },
+            {
                 "title": "Ember Fastboot",
                 "url": "https://ember-fastboot.com/"
+            },
+            {
+                "title": "Ember Resolver",
+                "url": "https://github.com/ember-cli/ember-resolver"
             },
             {
                 "title": "Frontend Masters",
@@ -274,43 +281,48 @@ module.exports=[
                 "from": "Ryan Burgess"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "The OA",
+                "url": "https://www.netflix.com/title/80044950",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Ember Twiddle",
+                "url": "https://ember-twiddle.com/",
                 "from": "Derrick Showers"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Dockyard",
+                "url": "https://dockyard.com/",
                 "from": "Derrick Showers"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Ryan Anklam"
+                "title": "Ember Community Slack",
+                "url": "https://ember-community-slackin.herokuapp.com/",
+                "from": "Derrick Showers"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "",
-                "url": "",
+                "title": "Webpack",
+                "url": "https://webpack.github.io/",
                 "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Preact",
+                "url": "https://github.com/developit/preact",
                 "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Mike North",
+                "url": "https://twitter.com/michaellnorth",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "CSS Grid",
+                "url": "http://labs.jensimmons.com/examples/mondrian-2.html",
                 "from": "Stacy London"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Girl Develop It",
+                "url": "https://www.girldevelopit.com",
                 "from": "Stacy London"
             }
         ]
