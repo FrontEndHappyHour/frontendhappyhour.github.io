@@ -1,5 +1,212 @@
 [
     {
+        "episode": "023",
+        "title": "Ember - Gin & Tomcat",
+        "description": "Ember is a growing JavaScript framework that large companies like LinkedIn are using for their web application. In this episode, we are joined by Stacy London from Atlassian to discuss the advantages and disadvantages of leveraging Ember as a JavaScript framework.",
+        "id": "300261378",
+        "published": "December 30, 2016",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Derrick Showers",
+            "Brian Holt"
+        ],
+        "guests": [
+            {
+                "name": "Stacy London",
+                "twitter": "stacylondoner"
+            }
+        ],
+        "links": [
+            {
+                "title": "Ember",
+                "url": "http://emberjs.com/"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Angular",
+                "url": "https://angularjs.org/"
+            },
+            {
+                "title": "Ember a11y",
+                "url": "https://github.com/ember-a11y/ember-a11y"
+            },
+            {
+                "title": "Ember Fastboot",
+                "url": "https://ember-fastboot.com/"
+            },
+            {
+                "title": "Ember Resolver",
+                "url": "https://github.com/ember-cli/ember-resolver"
+            },
+            {
+                "title": "Frontend Masters",
+                "url": "https://frontendmasters.com/"
+            },
+            {
+                "title": "Ember Community Slack",
+                "url": "https://ember-community-slackin.herokuapp.com/"
+            },
+            {
+                "title": "Ember Conf",
+                "url": "http://emberconf.com/"
+            },
+            {
+                "title": "Ember Docs",
+                "url": "http://emberjs.com/api/"
+            },
+            {
+                "title": "Yehuda Katz",
+                "url": "https://twitter.com/wycats"
+            },
+            {
+                "title": "Django",
+                "url": "https://www.djangoproject.com/"
+            },
+            {
+                "title": "Computed Properties",
+                "url": "https://guides.emberjs.com/v2.3.0/object-model/computed-properties/"
+            },
+            {
+                "title": "Obervables",
+                "url": "http://reactivex.io/documentation/observable.html"
+            },
+            {
+                "title": "Firebase",
+                "url": "https://firebase.google.com/"
+            },
+            {
+                "title": "Handlebars",
+                "url": "http://handlebarsjs.com/"
+            },
+            {
+                "title": "Mustache",
+                "url": "https://mustache.github.io/"
+            },
+            {
+                "title": "Backbone",
+                "url": "http://backbonejs.org/"
+            },
+            {
+                "title": "ASP.Net",
+                "url": "https://www.asp.net/"
+            },
+            {
+                "title": "Virtual DOM",
+                "url": "https://medium.com/cardlife-app/what-is-virtual-dom-c0ec6d6a925c"
+            },
+            {
+                "title": "Rust",
+                "url": "https://www.rust-lang.org/"
+            },
+            {
+                "title": "Swift",
+                "url": "https://swift.org/"
+            },
+            {
+                "title": "Tom Dale",
+                "url": "https://twitter.com/tomdale"
+            },
+            {
+                "title": "Kyle Simpson",
+                "url": "https://github.com/getify"
+            },
+            {
+                "title": "Stefan Penner",
+                "url": "https://twitter.com/stefanpenner"
+            },
+            {
+                "title": "Nathan Hammond",
+                "url": "https://twitter.com/nathanhammond"
+            },
+            {
+                "title": "Chad Hietala",
+                "url": "https://twitter.com/chadhietala"
+            },
+            {
+                "title": "Brendan McLoughlin",
+                "url": "https://twitter.com/brenmcl"
+            },
+            {
+                "title": "Lauren Tan (Sugar Pirate)",
+                "url": "https://twitter.com/sugarpirate_"
+            },
+            {
+                "title": "Erik Bryn",
+                "url": "https://twitter.com/ebryn"
+            },
+            {
+                "title": "Jafar Husain",
+                "url": "https://twitter.com/jhusain"
+            },
+            {
+                "title": "Mike North",
+                "url": "https://twitter.com/michaellnorth"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Crimetown",
+                "url": "https://itunes.apple.com/us/podcast/crimetown/id1170959623?mt=2",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Hip-Hop Evolution",
+                "url": "https://www.netflix.com/title/80141782",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "The OA",
+                "url": "https://www.netflix.com/title/80044950",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Ember Twiddle",
+                "url": "https://ember-twiddle.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Dockyard",
+                "url": "https://dockyard.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Ember Community Slack",
+                "url": "https://ember-community-slackin.herokuapp.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Webpack",
+                "url": "https://webpack.github.io/",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Preact",
+                "url": "https://github.com/developit/preact",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Mike North",
+                "url": "https://twitter.com/michaellnorth",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "CSS Grid",
+                "url": "http://labs.jensimmons.com/examples/mondrian-2.html",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Girl Develop It",
+                "url": "https://www.girldevelopit.com",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "022",
         "title": "Drinking with more style and less sass",
         "description": "Writing CSS seems pretty straight forward until your project and team starts to grow. CSS has a lot of issues, in this episode we share some advice for making it a little bit easier. We’ll also discuss ways to create a scalable CSS architecture for large projects and teams.",
