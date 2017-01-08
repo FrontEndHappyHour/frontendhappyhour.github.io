@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Episodes from './episodes';
+import createUrl from '../lib/create-url';
 const episodes = 'http://frontendhappyhour.com/content/episodes.json';
 const epList = [];
 
@@ -80,7 +81,7 @@ const App = React.createClass({
         </div>
         <ul>
           {this.state.episodeList.map((ep, i) => {
-            const url = '/episodes/' + ep.title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
+            const url = createUrl(ep.title);
             i++;
             if(i > this.state.startValue && i <= this.state.listNum) {
               return (

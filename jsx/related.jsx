@@ -1,5 +1,6 @@
 import React from 'react';
 import shuffle from '../lib/shuffle-object';
+import createUrl from '../lib/create-url';
 const episodes = 'http://frontendhappyhour.com/content/episodes.json';
 const obj = [];
 let cat = '';
@@ -31,7 +32,7 @@ const Related = React.createClass({
         for (let ep of shuffledObj) {
           if(ep.category === cat && relatedTitles.length <= 3) {
             const epTitle = ep.title;
-            const url = '/episodes/' + epTitle.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
+            const url = createUrl(ep.title);
             relatedTitles.push({'title': epTitle, 'url': url});
           } 
         }
