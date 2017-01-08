@@ -26,6 +26,8 @@ const expected = `<header>
                 </a>
                 <div class="right-content">
                     <h1><a href="/"><img src="public/img/front-end-happy-hour.svg" alt="Front End Happy Hour"></a></h1>
+                </div>
+                <div class="bottom">
                     <p class="tagline">${strings.tagline}</p>
                     <ul class="feeds">
                         <li><a href="${strings.urls[0].itunes}"><img src="public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
