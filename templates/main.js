@@ -11,6 +11,7 @@ module.exports = function main(pageType, content, title, desc) {
   let path;
   let css;
   let js;
+  const cssVersion = 1;
   const mainTitle = strings.title;
 
   if(desc === undefined || pageType === 'home') {
@@ -30,7 +31,7 @@ module.exports = function main(pageType, content, title, desc) {
   // episode page
   if(pageType === 'episode') {
     path = '../../';
-    css = 'public/css/episode.css?v=1';
+    css = `public/css/episode.css?v=${cssVersion}`;
     pageContent = content;
     pageTitle = title + ' - ';
     js = '<script src="../../public/js/min/episode.min.js" type="text/javascript"></script>';
@@ -39,7 +40,7 @@ module.exports = function main(pageType, content, title, desc) {
   // panelist page
   if(pageType === 'panelist') {
     path = '../../';
-    css = 'public/css/panelist.css?v=1';
+    css = `public/css/panelist.css?v=${cssVersion}`;
     pageContent = content;
     pageTitle = title + ' - ';
     js = '';
@@ -48,7 +49,7 @@ module.exports = function main(pageType, content, title, desc) {
   // mailing list page
   if(pageType === 'mailing') {
     path = '../';
-    css = 'public/css/mailing.css?v=1';
+    css = `public/css/mailing.css?v=${cssVersion}`;
     pageContent = content;
     pageTitle = title + ' - ';
     js = '';
