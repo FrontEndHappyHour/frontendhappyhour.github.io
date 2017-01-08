@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Episodes from './episodes';
-import episodes from '../content/episodes.json';
+const episodes = 'http://frontendhappyhour.com/content/episodes.json';
+const epList = [];
 
 const App = React.createClass({
   getInitialState() {
     return {
-      episodeList: episodes,
+      episodeList: epList,
       startValue: 0,
       listNum: 5,
       numOnPage: 5,
@@ -15,7 +16,20 @@ const App = React.createClass({
     };
   },
   componentDidMount() {
-
+    fetch(episodes).then((response) => {
+      const contentType = response.headers.get('content-type');
+      return response.json().then((json) => {
+        for (let episodeAjax of json) {
+          const title = episodeAjax.title;
+          const desc = episodeAjax.description;
+          const epNum = episodeAjax.episode;
+          const date = episodeAjax.published;
+          // push episode info to object epList
+          epList.push({'title': title, 'published': date, 'description': desc, 'episode': epNum});
+        }
+        this.setState({ episodeList: epList });
+      });
+    });
   },
   showPrevButton(show) {
     this.setState({showPrev: show});
