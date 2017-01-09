@@ -12,5 +12,5 @@ module.exports = function panelistPage(name, bio, twitter, pic) {
   }
 
   return `${pickMarkup}<div class="content"><p><a href="https://twitter.com/${twitter}">@${twitter}</a></p>
-<p>${bio}</p></div>`;
+<p>${bio}</p><div id="target"></div></div>`;
 };

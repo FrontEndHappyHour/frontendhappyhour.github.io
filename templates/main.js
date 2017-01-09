@@ -25,7 +25,7 @@ module.exports = function main(pageType, content, title, desc) {
     pageContent = '<div id="target"></div>';
     heading = 'Episodes';
     css = 'public/css/style.css';
-    js = '<script src="public/js/home.js" type="text/javascript"></script>';
+    js = '<script src="public/js/min/home.min.js" type="text/javascript"></script>';
   }
 
   // episode page
@@ -43,7 +43,7 @@ module.exports = function main(pageType, content, title, desc) {
     css = `public/css/panelist.css?v=${cssVersion}`;
     pageContent = content;
     pageTitle = title + ' - ';
-    js = '';
+    js = '<script src="../../public/js/min/panelist.min.js" type="text/javascript"></script>';
   }
 
   // mailing list page

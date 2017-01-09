@@ -88,6 +88,25 @@ gulp.task('homepage', function() {
     .pipe(gulp.dest('public/js/'));
 });
 
+gulp.task('panelpage', function() {
+ const panelFile = './jsx/panelist.jsx';
+
+  const bundler = browserify({
+    extensions: ['.js', '.jsx'],
+    transform: ['babelify']
+  });
+
+  bundler.add(panelFile);
+
+  const stream = bundler.bundle();
+  stream.on('error', function (err) { console.error(err.toString()); });
+
+  stream
+    .pipe(source(panelFile))
+    .pipe(rename('panelist.js'))
+    .pipe(gulp.dest('public/js/'));
+});
+
 gulp.task('compress', function() {
   return gulp.src('./public/js/*.js')
     .pipe(uglify())
@@ -100,7 +119,7 @@ gulp.task('compress', function() {
 gulp.task('watch', function() {
   gulp.watch('sass/**/*.scss', ['sass']);
   gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'nodeunit']);
-  gulp.watch(['./jsx/**/*'], ['lint', 'homepage', 'episodePage', 'compress']);
+  gulp.watch(['./jsx/**/*'], ['lint', 'homepage', 'episodePage', 'panelpage', 'compress']);
 });
 
 gulp.task('test', ['jsonlint', 'lint', 'nodeunit']);

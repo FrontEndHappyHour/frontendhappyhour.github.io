@@ -1,0 +1,22 @@
+// File Name: _panel-episodes.scss
+// Description: Style panelist page episode list
+// Used by: panelist.scss, 
+// Dependencies: 
+// Date created: 08/01/2017
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+.episodes{
+  margin-top: 30px;
+  li {
+    display: inline-block;
+    vertical-align: text-top;
+    margin-bottom: 10px;
+
+    @include min-breakpoint(940){
+      width: 50%;
+      min-height: 60px;
+      margin-bottom: 0;
+    }
+  }
+}
