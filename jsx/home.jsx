@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Episodes from './episodes';
-import createUrl from '../lib/create-url';
-const episodes = 'http://frontendhappyhour.com/content/episodes.json';
-const epList = [];
+import episodes from '../content/episodes.json';
 
 const App = React.createClass({
   getInitialState() {
     return {
-      episodeList: epList,
+      episodeList: episodes,
       startValue: 0,
       listNum: 5,
       numOnPage: 5,
@@ -17,20 +15,7 @@ const App = React.createClass({
     };
   },
   componentDidMount() {
-    fetch(episodes).then((response) => {
-      const contentType = response.headers.get('content-type');
-      return response.json().then((json) => {
-        for (let episodeAjax of json) {
-          const title = episodeAjax.title;
-          const desc = episodeAjax.description;
-          const epNum = episodeAjax.episode;
-          const date = episodeAjax.published;
-          // push episode info to object epList
-          epList.push({'title': title, 'published': date, 'description': desc, 'episode': epNum});
-        }
-        this.setState({ episodeList: epList });
-      });
-    });
+
   },
   showPrevButton(show) {
     this.setState({showPrev: show});
@@ -81,7 +66,7 @@ const App = React.createClass({
         </div>
         <ul>
           {this.state.episodeList.map((ep, i) => {
-            const url = createUrl(ep.title);
+            const url = '/episodes/' + ep.title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
             i++;
             if(i > this.state.startValue && i <= this.state.listNum) {
               return (
