@@ -133,7 +133,6 @@ module.exports=[
       "Augustus Yuan",
       "Jem Young",
       "Derrick Showers",
-      "Brian Holt",
       "Stacy London"
     ],
     "guests": [],
@@ -178,16 +177,6 @@ module.exports=[
         "title": "",
         "url": "",
         "from": "Derrick Showers"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
       },
       {
         "title": "",
