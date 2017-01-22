@@ -130,8 +130,6 @@ module.exports=[
     "category": "soft",
     "panel": [
       "Ryan Burgess",
-      "Augustus Yuan",
-      "Jem Young",
       "Derrick Showers",
       "Stacy London"
     ],
@@ -147,26 +145,6 @@ module.exports=[
         "title": "Shepard Fairey - We The People",
         "url": "https://obeygiant.com/people-art-avail-download-free/",
         "from": "Ryan Burgess"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Augustus Yuan"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Augustus Yuan"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Jem Young"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Jem Young"
       },
       {
         "title": "",
