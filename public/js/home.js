@@ -123,9 +123,9 @@ module.exports=[
   {
     "episode": "025",
     "title": "From bar-back to frontender",
-    "description": "We’ve all started out somewhere in our career. In previous episodes we’ve talked about various ways we’ve learned front end development, but haven’t touched on mentorship. In this episode we talk about starting out as a junior developer and how mentors helped shape us into senior developers.",
-    "id": "",
-    "published": "",
+    "description": "We’ve all started out somewhere in our career. In previous episodes we’ve talked about various ways we’ve learned front end development, but haven’t touched on mentorship. In this episode we are joined by Sarah Showers to join us in the conversation about starting out as a junior developer and how mentors helped shape us into senior developers.",
+    "id": "304404109",
+    "published": "January 24, 2017",
     "transcribed": false,
     "category": "soft",
     "panel": [
@@ -133,9 +133,24 @@ module.exports=[
       "Derrick Showers",
       "Stacy London"
     ],
-    "guests": [],
+    "guests": [
+      {
+        "name": "Sarah Showers",
+        "twitter": "sarahlshowers"
+      }
+    ],
     "links": [],
     "picks": [
+      {
+        "title": "Girl Develop It",
+        "url": "https://www.girldevelopit.com/",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "Reach LinkedIn",
+        "url": "https://www.linkedin.com/company/reach",
+        "from": "Sarah Showers"
+      },
       {
         "title": "The Investigator",
         "url": "https://www.netflix.com/title/80144148",
@@ -147,23 +162,28 @@ module.exports=[
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Istanbul",
+        "url": "https://en.wikipedia.org/wiki/Istanbul",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Apple EarPods",
+        "url": "http://www.apple.com/shop/product/MD827LL/A/earpods-with-35-mm-headphone-plug",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "LinkedIn redesign",
+        "url": "https://www.linkedin.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Bonobo - Migration",
+        "url": "http://bonobomusic.com/",
         "from": "Stacy London"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Girls In Tech - Mentorship Program",
+        "url": "http://girlsintech.org/programs/git-m/",
         "from": "Stacy London"
       }
     ]
