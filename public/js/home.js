@@ -121,6 +121,124 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"./episodes":3,"react":185,"react-dom":5}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "026",
+    "title": "Design neat",
+    "description": "In this episode, we’re joined by Julie Ann Horvath, a Design Lead at Apple to help us talk about design. We discuss ways to help improve the collaboration between designers and frontend developers.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Julie Ann Horvath",
+        "twitter": "nrrrdcore"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Julie Ann Horvath"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Julie Ann Horvath"
+      },
+      {
+        "title": "Adobe Illustrator",
+        "url": "http://www.adobe.com/products/illustrator.html",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Homebrew Cask",
+        "url": "https://caskroom.github.io/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "U.S. Web Design Standards",
+        "url": "https://standards.usa.gov/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Panda",
+        "url": "http://usepanda.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "025",
     "title": "From bar-back to frontender",
     "description": "We’ve all started out somewhere in our career. In previous episodes, we’ve talked about various ways we’ve learned front end development, but haven’t touched on mentorship. In this episode, Sarah Showers joins us in the conversation about starting out as a junior developer and how mentors helped shape us into senior developers.",
@@ -148,7 +266,7 @@ module.exports=[
       },
       {
         "title": "Reach LinkedIn",
-        "url": "https://www.linkedin.com/company/reach",
+        "url": "https://careers.linkedin.com/reach",
         "from": "Sarah Showers"
       },
       {
