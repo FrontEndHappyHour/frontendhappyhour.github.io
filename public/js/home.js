@@ -135,7 +135,6 @@ module.exports=[
       "Derrick Showers",
       "Ryan Anklam",
       "Brian Holt",
-      "Mars Jullian",
       "Stacy London"
     ],
     "guests": [
@@ -215,16 +214,6 @@ module.exports=[
         "title": "",
         "url": "",
         "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
       },
       {
         "title": "",
