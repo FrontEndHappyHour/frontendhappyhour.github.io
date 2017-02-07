@@ -1,6 +1,7 @@
 // Main Template
 const ga = require('./ga');
 const header = require('./header');
+const footer = require('./footer');
 const strings = require('../content/strings.json');
 
 module.exports = function main(pageType, content, title, desc) {
@@ -11,7 +12,7 @@ module.exports = function main(pageType, content, title, desc) {
   let path;
   let css;
   let js;
-  const cssVersion = 1;
+  const cssVersion = 1.1;
   const mainTitle = strings.title;
 
   if(desc === undefined || pageType === 'home') {
@@ -77,6 +78,7 @@ module.exports = function main(pageType, content, title, desc) {
                   <h2 id="heading">${heading}</h2>
                   ${pageContent}
                   </div>
+                  ${footer(path)}
                   ${js}
               </body>
           </html>`;
