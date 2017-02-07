@@ -122,7 +122,7 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 module.exports=[
   {
     "episode": "026",
-    "title": "Design neat",
+    "title": "Design, neat",
     "description": "In this episode, we’re joined by Julie Horvath, a Design Lead at Apple to help us talk about design. We discuss ways to help improve the collaboration between designers and frontend developers. Julie shares her perspective on building great user experiences for low-bandwidth internet speeds and how taking a progressive enhancement approach can be beneficial to the user.",
     "id": "306587453",
     "published": "February 7, 2017",
