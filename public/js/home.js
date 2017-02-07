@@ -97,7 +97,7 @@ var App = _react2['default'].createClass({
         'ul',
         null,
         this.state.episodeList.map(function (ep, i) {
-          var url = '/episodes/' + ep.title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
+          var url = '/episodes/' + ep.title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').replace(/,/g, '').trim();
           i++;
           if (i > _this.state.startValue && i <= _this.state.listNum) {
             return _react2['default'].createElement(_episodes2['default'], { key: i, epNum: ep.episode, url: url, title: ep.title, date: ep.published, description: ep.description });

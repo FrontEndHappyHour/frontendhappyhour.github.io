@@ -66,7 +66,7 @@ const App = React.createClass({
         </div>
         <ul>
           {this.state.episodeList.map((ep, i) => {
-            const url = '/episodes/' + ep.title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').trim();
+            const url = '/episodes/' + ep.title.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').replace(/,/g, '').trim();
             i++;
             if(i > this.state.startValue && i <= this.state.listNum) {
               return (
