@@ -123,9 +123,9 @@ module.exports=[
   {
     "episode": "026",
     "title": "Design neat",
-    "description": "In this episode, we’re joined by Julie Ann Horvath, a Design Lead at Apple to help us talk about design. We discuss ways to help improve the collaboration between designers and frontend developers.",
-    "id": "",
-    "published": "",
+    "description": "In this episode, we’re joined by Julie Horvath, a Design Lead at Apple to help us talk about design. We discuss ways to help improve the collaboration between designers and frontend developers. Julie shares her perspective on building great user experiences for low-bandwidth internet speeds and how taking a progressive enhancement approach can be beneficial to the user.",
+    "id": "306587453",
+    "published": "February 7, 2017",
     "transcribed": false,
     "category": "technical",
     "panel": [
@@ -139,21 +139,51 @@ module.exports=[
     ],
     "guests": [
       {
-        "name": "Julie Ann Horvath",
+        "name": "Julie Horvath",
         "twitter": "nrrrdcore"
       }
     ],
     "links": [],
     "picks": [
       {
-        "title": "",
-        "url": "",
-        "from": "Julie Ann Horvath"
+        "title": "Middleman",
+        "url": "https://middlemanapp.com/",
+        "from": "Julie Horvath"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Julie Ann Horvath"
+        "title": "CSS Modules",
+        "url": "https://github.com/css-modules/css-modules",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "BEM",
+        "url": "http://getbem.com/introduction/",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "Baskets",
+        "url": "http://www.fxnetworks.com/shows/baskets",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "Long Division",
+        "url": "https://www.amazon.com/Long-Division-Kiese-Laymon/dp/1932841725",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "ACLU",
+        "url": "https://www.aclunc.org",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "East of West",
+        "url": "https://imagecomics.com/comics/series/east-of-west",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "Kehlani - Sweet Sexy Savage",
+        "url": "https://www.youtube.com/watch?v=TRwhfPskEL8",
+        "from": "Julie Horvath"
       },
       {
         "title": "Adobe Illustrator",
@@ -176,53 +206,48 @@ module.exports=[
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "ACLU",
+        "url": "https://www.aclunc.org",
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Frontier",
+        "url": "https://www.netflix.com/title/80099656",
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "InVision",
+        "url": "https://www.invisionapp.com/",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Google Voice",
+        "url": "https://www.google.com/voice",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Smashrun",
+        "url": "http://smashrun.com/",
         "from": "Ryan Anklam"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Rollup JS",
+        "url": "http://rollupjs.org/",
         "from": "Ryan Anklam"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "ACLU",
+        "url": "https://www.aclunc.org",
         "from": "Brian Holt"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "InVision",
+        "url": "https://www.invisionapp.com/",
         "from": "Stacy London"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Ghostly",
+        "url": "http://ghostly.com/",
         "from": "Stacy London"
       }
     ]
