@@ -21,7 +21,7 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   panel = episodes[i].panel;
   const epDate = episodes[i].published;
   const epDesc = episodes[i].description;
-  const link = epTitle.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-');
+  const link = epTitle.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').replace(/,/g, '');
   const id = episodes[i].id;
   const picks = episodes[i].picks;
   const links = episodes[i].links;
