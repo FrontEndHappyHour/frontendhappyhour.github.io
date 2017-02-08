@@ -67,7 +67,7 @@ const App = React.createClass({
         </div>
         <ul>
           {this.state.episodeList.map((ep, i) => {
-            const url = createUrl(ep.title);
+            const url = createUrl('/episodes/' + ep.title);
             i++;
             if(i > this.state.startValue && i <= this.state.listNum) {
               return (

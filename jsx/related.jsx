@@ -32,7 +32,7 @@ const Related = React.createClass({
         for (let ep of shuffledObj) {
           if(ep.category === cat && relatedTitles.length <= 3) {
             const epTitle = ep.title;
-            const url = createUrl(ep.title);
+            const url = createUrl('/episodes/' + ep.title);
             relatedTitles.push({'title': epTitle, 'url': url});
           } 
         }

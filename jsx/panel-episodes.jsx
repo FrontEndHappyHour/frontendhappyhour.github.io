@@ -16,7 +16,7 @@ const PanelEpisodes = React.createClass({
       return response.json().then((json) => {
         for (let episodes of json) {
           const title = episodes.title;
-          const url = createUrl(title);
+          const url = createUrl('/episodes/' + title);
           const panel = episodes.panel;
           // if panelist was on episode push to new array
           if (panel.indexOf(panelist[0]) !== -1) {

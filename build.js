@@ -3,6 +3,7 @@ const mkdirp = require('mkdirp');
 const episodes = require('./content/episodes.json');
 const panelists = require('./content/panelists.json');
 const write = require('./lib/write');
+const createUrl = require('./lib/create-url');
 const ellipsize = require('ellipsize');
 // Templates
 const main = require('./templates/main');
@@ -21,7 +22,7 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   panel = episodes[i].panel;
   const epDate = episodes[i].published;
   const epDesc = episodes[i].description;
-  const link = epTitle.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').replace(/,/g, '');
+  const link = createUrl(epTitle);
   const id = episodes[i].id;
   const picks = episodes[i].picks;
   const links = episodes[i].links;

@@ -101,7 +101,7 @@ var App = _react2['default'].createClass({
         'ul',
         null,
         this.state.episodeList.map(function (ep, i) {
-          var url = (0, _libCreateUrl2['default'])(ep.title);
+          var url = (0, _libCreateUrl2['default'])('/episodes/' + ep.title);
           i++;
           if (i > _this.state.startValue && i <= _this.state.listNum) {
             return _react2['default'].createElement(_episodes2['default'], { key: i, epNum: ep.episode, url: url, title: ep.title, date: ep.published, description: ep.description });
@@ -3901,7 +3901,7 @@ module.exports = Episodes;
 
 module.exports = function createURL(str) {
   'use strict';
-  var url = '/episodes/' + str.replace(/ /g, '-').toLowerCase().replace(/---/g, '-').replace(/:-/g, '-').replace(/,/g, '').trim();
+  var url = str.replace(/ |---|:-/g, '-').toLowerCase().replace(/,|"/g, '').trim();
   return url;
 };
 
