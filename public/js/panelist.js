@@ -136,7 +136,7 @@ module.exports = PanelEpisodes;
 
 module.exports = function createURL(str) {
   'use strict';
-  var url = str.replace(/ |---|:-/g, '-').toLowerCase().replace(/,|"/g, '').trim();
+  var url = str.replace(/ /g, '-').toLowerCase().replace(/---|:-/g, '-').replace(/,|"/g, '').trim();
   return url;
 };
 
