@@ -227,68 +227,78 @@ module.exports=[
                 "from": "Gordon Zhu"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Watch and Code",
+                "url": "https://watchandcode.com/",
                 "from": "Luis Vargas"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Industrial noise blocking headphones",
+                "url": "http://www.homedepot.com/p/Howard-Leight-Thunder-T1-Noise-Blocking-Dielectric-Headband-Earmuffs-1010928/203066854",
                 "from": "Luis Vargas"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Derek Sivers",
+                "url": "https://sivers.org/",
+                "from": "Luis Vargas"
+            },
+            {
+                "title": "Austin Maples - Idle Hand Tattoo",
+                "url": "https://www.instagram.com/austinmaples/",
                 "from": "Ryan Burgess"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Fluid Paint",
+                "url": "http://david.li/paint/",
                 "from": "Ryan Burgess"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Abstract",
+                "url": "https://www.netflix.com/title/80057883",
                 "from": "Ryan Burgess"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "The Expanse",
+                "url": "http://www.syfy.com/theexpanse",
                 "from": "Ryan Anklam"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Kahn Academy - Intro To Storytelling",
+                "url": "https://www.khanacademy.org/partner-content/pixar/storytelling/we-are-all-storytellers/v/storytelling-introb",
                 "from": "Ryan Anklam"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "New Day - Radio Edit by Xavier Eleven",
+                "url": "https://play.spotify.com/track/14bSwsVrw4zCERc0FIvjFn",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "Schiit Fulla",
+                "url": "http://schiit.com/products/fulla",
                 "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Synology",
+                "url": "https://www.synology.com",
                 "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Forward JS",
+                "url": "https://forwardjs.com/",
                 "from": "Mars Jullian"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "",
-                "url": "",
+                "title": "Chrome Canary - Loads CSS Progressively",
+                "url": "https://jakearchibald.com/2016/link-in-body/",
                 "from": "Stacy London"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Code School",
+                "url": "https://www.codeschool.com/",
+                "from": "Stacy London"
+            },
+            {
+                "title": "RVK by Nathan Fake",
+                "url": "https://play.spotify.com/track/1SIthwv67KS6DBqfWplizM",
                 "from": "Stacy London"
             }
         ]

@@ -41,7 +41,7 @@
   "config": {
     "ghooks": {
       "pre-commit": "node build mailing panelists",
-      "pre-push": "gulp homepage sass compress",
+      "pre-push": "gulp homepage episodePage panelpage sass compress",
       "post-merge": "npm install",
       "post-rewrite": "npm install"
     }
