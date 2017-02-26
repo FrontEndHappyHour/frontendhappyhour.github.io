@@ -139,7 +139,16 @@ module.exports=[
             "Mars Jullian",
             "Stacy London"
         ],
-        "guests": [],
+        "guests": [
+            {
+                "name": "Gordon Zhu",
+                "twitter": "gordon_zhu"
+            },
+            {
+                "name": "Luis Vargas",
+                "twitter": ""
+            }
+        ],
         "links": [
             {
                 "title": "ColdFusion",
@@ -147,11 +156,11 @@ module.exports=[
             },
             {
                 "title": "PHP",
-                "url": "http://php.net/manual/en/intro-whatis.php"
+                "url": "http://php.net"
             },
             {
                 "title": "Flash",
-                "url": "https://www.adobe.com/support/flash/downloads.html"
+                "url": "http://www.adobe.com/mt/products/flash.html"
             },
             {
                 "title": "ASP.NET",
@@ -196,9 +205,37 @@ module.exports=[
             {
                 "title": "Speaking JavaScript",
                 "url": "http://speakingjs.com/"
+            },
+            {
+                "title": "CD Baby",
+                "url": "https://www.cdbaby.com/"
+            },
+            {
+                "title": "Frontend Masters",
+                "url": "https://frontendmasters.com/"
             }
         ],
         "picks": [
+            {
+                "title": "Watch and Code",
+                "url": "https://watchandcode.com/",
+                "from": "Gordon Zhu"
+            },
+            {
+                "title": "Ten Things I Have Learned - Milton Glaser",
+                "url": "https://www.miltonglaser.com/files/Essays-10things-8400",
+                "from": "Gordon Zhu"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Luis Vargas"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Luis Vargas"
+            },
             {
                 "title": "",
                 "url": "",
