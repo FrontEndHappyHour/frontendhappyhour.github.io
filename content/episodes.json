@@ -14,19 +14,28 @@
             "Mars Jullian",
             "Stacy London"
         ],
-        "guests": [],
+        "guests": [
+            {
+                "name": "Gordon Zhu",
+                "twitter": "gordon_zhu"
+            },
+            {
+                "name": "Luis Vargas",
+                "twitter": ""
+            }
+        ],
         "links": [
             {
                 "title": "ColdFusion",
-                "url": "http://www.adobe.com/products/coldfusion-family.html"
+                "url": "http://www.adobe.com/products/coldfusion-family"
             },
             {
                 "title": "PHP",
-                "url": "http://php.net/manual/en/intro-whatis.php"
+                "url": "http://php.net"
             },
             {
                 "title": "Flash",
-                "url": "https://www.adobe.com/support/flash/downloads.html"
+                "url": "https://www.adobe.com/support/flash"
             },
             {
                 "title": "ASP.NET",
@@ -71,9 +80,37 @@
             {
                 "title": "Speaking JavaScript",
                 "url": "http://speakingjs.com/"
+            },
+            {
+                "title": "CD Baby",
+                "url": "https://www.cdbaby.com/"
+            },
+            {
+                "title": "Frontend Masters",
+                "url": "https://frontendmasters.com/"
             }
         ],
         "picks": [
+            {
+                "title": "",
+                "url": "",
+                "from": "Gordon Zhu"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Gordon Zhu"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Luis Vargas"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Luis Vargas"
+            },
             {
                 "title": "",
                 "url": "",

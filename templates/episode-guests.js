@@ -8,7 +8,7 @@ module.exports = function episodeGuests(guests) {
   for(let i = 0; i < guests.length; i++) {
     // download profile pics if they don't already exist
     const twitterGuest = guests[i].twitter;
-    if(twitterGuest.indexOf('http') === -1) {
+    if(twitterGuest.indexOf('http') === -1 && twitterGuest !== '') {
       let twitterImage = twitterGuest;
       // if twitter name starts with _ than remove _
       if (twitterImage.substring(0, 1) === '_') {
