@@ -125,6 +125,152 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":181,"react-dom":30}],2:[function(require,module,exports){
 module.exports=[
     {
+        "episode": "029",
+        "title": "Alcoholic Angular",
+        "description": "In this episode, we’re joined by our special guest, Ayşegül Yönet, a Software Engineer Autodesk, who will help us discuss the popular Google JavaScript framework Angular. In the episode, we discuss the benefits of leveraging Angular and what the major differences are from Angular 1 and Angular 2.",
+        "id": "",
+        "published": "",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Jem Young",
+            "Derrick Showers",
+            "Brian Holt",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Ayşegül Yönet",
+                "twitter": "AysSomething"
+            }
+        ],
+        "links": [
+            {
+                "title": "Angular",
+                "url": "https://angularjs.org/"
+            },
+            {
+                "title": "Autodesk",
+                "url": "http://www.autodesk.com/"
+            },
+            {
+                "title": "Reddit",
+                "url": "http://www.reddit.com/"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Scope",
+                "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+            },
+            {
+                "title": "Knockout",
+                "url": "http://knockoutjs.com/"
+            },
+            {
+                "title": "Igor Minar",
+                "url": "https://twitter.com/IgorMinar"
+            },
+            {
+                "title": "ASP.Net",
+                "url": "https://www.asp.net/"
+            },
+            {
+                "title": "Vue JS",
+                "url": "https://vuejs.org/"
+            },
+            {
+                "title": "Laravel",
+                "url": "https://laravel.com/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "",
+                "url": "",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Jem Young"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Jem Young"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Stacy London"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "028",
         "title": "JavaScript Universi-LongIslandIce-ty",
         "description": "We’ve all started somewhere. JavaScript isn’t always an easy language to learn. In this episode, we’re joined by Gordon Zhu, who teaches workshops on JavaScript at Watch and Code. We are also joined by Luis Vargas, a Senior Manager on Global Payments at Netflix who has recently been learning JavaScript and has attended one of Gordon’s workshops. In this episode, we all talk about our journey of learning JavaScript and ways we’ve worked through it.",
