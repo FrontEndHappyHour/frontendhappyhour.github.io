@@ -80,6 +80,22 @@
             {
                 "title": "Zone JS",
                 "url": "https://github.com/angular/zone.js/"
+            },
+            {
+                "title": "Ember",
+                "url": "http://emberjs.com/"
+            },
+            {
+                "title": "TypeScript",
+                "url": "https://www.typescriptlang.org/"
+            },
+            {
+                "title": "Forward JS",
+                "url": "https://forwardjs.com/"
+            },
+            {
+                "title": "RxJS",
+                "url": "http://reactivex.io/rxjs/"
             }
         ],
         "picks": [

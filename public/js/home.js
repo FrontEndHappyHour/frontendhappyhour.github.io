@@ -185,6 +185,26 @@ module.exports=[
             {
                 "title": "Laravel",
                 "url": "https://laravel.com/"
+            },
+            {
+                "title": "PHP",
+                "url": "http://php.net/"
+            },
+            {
+                "title": "Visual Studio",
+                "url": "https://www.visualstudio.com/"
+            },
+            {
+                "title": "Google Wave",
+                "url": "https://en.wikipedia.org/wiki/Apache_Wave"
+            },
+            {
+                "title": "Google Reader",
+                "url": "https://www.google.com/reader"
+            },
+            {
+                "title": "Zone JS",
+                "url": "https://github.com/angular/zone.js/"
             }
         ],
         "picks": [
