@@ -3,8 +3,8 @@
         "episode": "029",
         "title": "Alcoholic Angular",
         "description": "In this episode, we’re joined by our special guest, Ayşegül Yönet, a Software Engineer Autodesk, who will help us discuss the popular Google JavaScript framework Angular. In the episode, we discuss the benefits of leveraging Angular and what the major differences are from Angular 1 and Angular 2.",
-        "id": "",
-        "published": "",
+        "id": "312085888",
+        "published": "March 12, 2017",
         "transcribed": false,
         "category": "technical",
         "panel": [
@@ -96,87 +96,110 @@
             {
                 "title": "RxJS",
                 "url": "http://reactivex.io/rxjs/"
+            },
+            {
+                "title": "Frontend Masters",
+                "url": "https://frontendmasters.com/"
+            },
+            {
+                "title": "Angular.io",
+                "url": "https://angular.io/"
+            },
+            {
+                "title": "Pluralsight",
+                "url": "https://www.pluralsight.com/"
+            },
+            {
+                "title": "John Papa",
+                "url": "https://twitter.com/John_Papa"
+            },
+            {
+                "title": "Angular Style Guide",
+                "url": "https://github.com/johnpapa/angular-styleguide"
+            },
+            {
+                "title": "Angular CLI",
+                "url": "https://github.com/angular/angular-cli"
+            },
+            {
+                "title": "Closure",
+                "url": "https://github.com/google/closure-compiler-js"
             }
         ],
         "picks": [
             {
-                "title": "",
-                "url": "",
+                "title": "Yoga Trapeze Swing",
+                "url": "https://www.amazon.com/YOGABODY-Naturals-Trapeze-Yoga-Inversion-Orange/dp/B0094H756W",
+                "from": "Ayşegül Yönet"
+            },
+            {
+                "title": "Google Home",
+                "url": "https://madeby.google.com/home",
+                "from": "Ayşegül Yönet"
+            },
+            {
+                "title": "Girl Develop It",
+                "url": "https://www.girldevelopit.com/",
+                "from": "Ayşegül Yönet"
+            },
+            {
+                "title": "Annie Cannons",
+                "url": "http://www.anniecannons.com/",
+                "from": "Ayşegül Yönet"
+            },
+            {
+                "title": "NG-Cruise",
+                "url": "https://ngcruise.com/#/",
                 "from": "Ryan Burgess"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Astral",
+                "url": "https://astralapp.com/",
                 "from": "Ryan Burgess"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "",
-                "url": "",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "",
-                "url": "",
+                "title": "Private Internet Access",
+                "url": "https://www.privateinternetaccess.com/",
                 "from": "Jem Young"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Elcomsoft",
+                "url": "https://www.elcomsoft.com",
                 "from": "Jem Young"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Omni",
+                "url": "https://www.beomni.com",
                 "from": "Derrick Showers"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Fernet",
+                "url": "https://en.wikipedia.org/wiki/Fernet",
                 "from": "Derrick Showers"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "",
-                "url": "",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "",
-                "url": "",
+                "title": "Aysegul's Twitter",
+                "url": "https://twitter.com/AysSomething",
                 "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Southern Poverty Law Center",
+                "url": "https://www.splcenter.org/",
                 "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Mars Jullian"
+                "title": "Todd Motto",
+                "url": "https://twitter.com/toddmotto",
+                "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "",
-                "url": "",
+                "title": "Lighthouse",
+                "url": "https://developers.google.com/web/tools/lighthouse/",
                 "from": "Stacy London"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Peak Magnetic by Clark",
+                "url": "https://soundcloud.com/throttleclark/peak-magnetic",
                 "from": "Stacy London"
             }
         ]
