@@ -125,6 +125,211 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":181,"react-dom":30}],2:[function(require,module,exports){
 module.exports=[
     {
+        "episode": "029",
+        "title": "Alcoholic Angular",
+        "description": "In this episode, we’re joined by our special guest, Ayşegül Yönet, a Software Engineer Autodesk, who will help us discuss the popular Google JavaScript framework Angular. In the episode, we discuss the benefits of leveraging Angular and what the major differences are from Angular 1 and Angular 2.",
+        "id": "312085888",
+        "published": "March 12, 2017",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Jem Young",
+            "Derrick Showers",
+            "Brian Holt",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Ayşegül Yönet",
+                "twitter": "AysSomething"
+            }
+        ],
+        "links": [
+            {
+                "title": "Angular",
+                "url": "https://angularjs.org/"
+            },
+            {
+                "title": "Autodesk",
+                "url": "http://www.autodesk.com/"
+            },
+            {
+                "title": "Reddit",
+                "url": "http://www.reddit.com/"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Scope",
+                "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+            },
+            {
+                "title": "Knockout",
+                "url": "http://knockoutjs.com/"
+            },
+            {
+                "title": "Igor Minar",
+                "url": "https://twitter.com/IgorMinar"
+            },
+            {
+                "title": "ASP.Net",
+                "url": "https://www.asp.net/"
+            },
+            {
+                "title": "Vue JS",
+                "url": "https://vuejs.org/"
+            },
+            {
+                "title": "Laravel",
+                "url": "https://laravel.com/"
+            },
+            {
+                "title": "PHP",
+                "url": "http://php.net/"
+            },
+            {
+                "title": "Visual Studio",
+                "url": "https://www.visualstudio.com/"
+            },
+            {
+                "title": "Google Wave",
+                "url": "https://en.wikipedia.org/wiki/Apache_Wave"
+            },
+            {
+                "title": "Google Reader",
+                "url": "https://www.google.com/reader"
+            },
+            {
+                "title": "Zone JS",
+                "url": "https://github.com/angular/zone.js/"
+            },
+            {
+                "title": "Ember",
+                "url": "http://emberjs.com/"
+            },
+            {
+                "title": "TypeScript",
+                "url": "https://www.typescriptlang.org/"
+            },
+            {
+                "title": "Forward JS",
+                "url": "https://forwardjs.com/"
+            },
+            {
+                "title": "RxJS",
+                "url": "http://reactivex.io/rxjs/"
+            },
+            {
+                "title": "Frontend Masters",
+                "url": "https://frontendmasters.com/"
+            },
+            {
+                "title": "Angular.io",
+                "url": "https://angular.io/"
+            },
+            {
+                "title": "Pluralsight",
+                "url": "https://www.pluralsight.com/"
+            },
+            {
+                "title": "John Papa",
+                "url": "https://twitter.com/John_Papa"
+            },
+            {
+                "title": "Angular Style Guide",
+                "url": "https://github.com/johnpapa/angular-styleguide"
+            },
+            {
+                "title": "Angular CLI",
+                "url": "https://github.com/angular/angular-cli"
+            },
+            {
+                "title": "Closure",
+                "url": "https://github.com/google/closure-compiler-js"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Yoga Trapeze Swing",
+                "url": "https://www.amazon.com/YOGABODY-Naturals-Trapeze-Yoga-Inversion-Orange/dp/B0094H756W",
+                "from": "Ayşegül Yönet"
+            },
+            {
+                "title": "Google Home",
+                "url": "https://madeby.google.com/home",
+                "from": "Ayşegül Yönet"
+            },
+            {
+                "title": "Girl Develop It",
+                "url": "https://www.girldevelopit.com/",
+                "from": "Ayşegül Yönet"
+            },
+            {
+                "title": "Annie Cannons",
+                "url": "http://www.anniecannons.com/",
+                "from": "Ayşegül Yönet"
+            },
+            {
+                "title": "NG-Cruise",
+                "url": "https://ngcruise.com/#/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Astral",
+                "url": "https://astralapp.com/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Private Internet Access",
+                "url": "https://www.privateinternetaccess.com/",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Elcomsoft",
+                "url": "https://www.elcomsoft.com",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Omni",
+                "url": "https://www.beomni.com",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Fernet",
+                "url": "https://en.wikipedia.org/wiki/Fernet",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Aysegul's Twitter",
+                "url": "https://twitter.com/AysSomething",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Southern Poverty Law Center",
+                "url": "https://www.splcenter.org/",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Todd Motto",
+                "url": "https://twitter.com/toddmotto",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Lighthouse",
+                "url": "https://developers.google.com/web/tools/lighthouse/",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Peak Magnetic by Clark",
+                "url": "https://soundcloud.com/throttleclark/peak-magnetic",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "028",
         "title": "JavaScript Universi-LongIslandIce-ty",
         "description": "We’ve all started somewhere. JavaScript isn’t always an easy language to learn. In this episode, we’re joined by Gordon Zhu, who teaches workshops on JavaScript at Watch and Code. We are also joined by Luis Vargas, a Senior Manager on Global Payments at Netflix who has recently been learning JavaScript and has attended one of Gordon’s workshops. In this episode, we all talk about our journey of learning JavaScript and ways we’ve worked through it.",
