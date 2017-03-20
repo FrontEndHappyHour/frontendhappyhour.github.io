@@ -150,17 +150,17 @@ module.exports=[
     "picks": [
       {
         "title": "Node 7.6",
-        "url": "",
+        "url": "https://nodejs.org",
         "from": "Harry Wolff"
       },
       {
         "title": "Legion",
-        "url": "",
+        "url": "http://www.fxnetworks.com/shows/legion",
         "from": "Harry Wolff"
       },
       {
         "title": "Calvin Harris - Slide",
-        "url": "",
+        "url": "https://open.spotify.com/track/6gpcs5eMhJwax4mIfKDYQk",
         "from": "Harry Wolff"
       },
       {
@@ -170,7 +170,7 @@ module.exports=[
       },
       {
         "title": "CODE: Debugging the Gender Gap",
-        "url": "",
+        "url": "https://www.netflix.com/title/80130565",
         "from": "Ryan Burgess"
       },
       {
@@ -209,13 +209,8 @@ module.exports=[
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "Home Brewing Beer",
+        "url": "http://www.homebrewing.org/How-to-Make-Your-Own-Beer_ep_32-1.html",
         "from": "Brian Holt"
       },
       {
