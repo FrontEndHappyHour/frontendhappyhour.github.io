@@ -3,8 +3,8 @@
         "episode": "030",
         "title": "Static site generators and dynamic drink drinkers",
         "description": "Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.",
-        "id": "",
-        "published": "",
+        "id": "314267346",
+        "published": "March 24, 2017",
         "transcribed": false,
         "category": "technical",
         "panel": [
@@ -261,7 +261,7 @@
             },
             {
                 "title": "Pac-man Multiplayer",
-                "url": "",
+                "url": "https://en.wikipedia.org/wiki/Pac-Man_Battle_Royale",
                 "from": "Derrick Showers"
             },
             {
