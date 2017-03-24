@@ -1,5 +1,287 @@
 [
     {
+        "episode": "030",
+        "title": "Static site generators and dynamic drink drinkers",
+        "description": "Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.",
+        "id": "314267346",
+        "published": "March 24, 2017",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Jem Young",
+            "Derrick Showers",
+            "Brian Holt",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Harry Wolff",
+                "twitter": "hswolff"
+            }
+        ],
+        "links": [
+            {
+                "title": "Reptar",
+                "url": "https://reptar.github.io/"
+            },
+            {
+                "title": "MongoDB",
+                "url": "https://www.mongodb.com/"
+            },
+            {
+                "title": "Github",
+                "url": "https://github.com/"
+            },
+            {
+                "title": "Jekyll",
+                "url": "https://jekyllrb.com/"
+            },
+            {
+                "title": "Dropbox",
+                "url": "https://www.dropbox.com"
+            },
+            {
+                "title": "Wordpress",
+                "url": "https://wordpress.com/"
+            },
+            {
+                "title": "Markdown",
+                "url": "https://en.wikipedia.org/wiki/Markdown"
+            },
+            {
+                "title": "Atom",
+                "url": "https://atom.io/"
+            },
+            {
+                "title": "AWS",
+                "url": "https://aws.amazon.com/"
+            },
+            {
+                "title": "Express",
+                "url": "https://expressjs.com/"
+            },
+            {
+                "title": "Restify",
+                "url": "http://restify.com/"
+            },
+            {
+                "title": "FTP",
+                "url": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Webpack",
+                "url": "https://webpack.github.io/"
+            },
+            {
+                "title": "Medium",
+                "url": "https://medium.com/"
+            },
+            {
+                "title": "Gist",
+                "url": "https://gist.github.com/"
+            },
+            {
+                "title": "Highlight JS",
+                "url": "https://highlightjs.org/"
+            },
+            {
+                "title": "Prisim",
+                "url": "http://prismjs.com/"
+            },
+            {
+                "title": "Yarn",
+                "url": "https://yarnpkg.com"
+            },
+            {
+                "title": "npm",
+                "url": "https://www.npmjs.com/"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/"
+            },
+            {
+                "title": "Rugrats",
+                "url": "http://www.imdb.com/title/tt0101188/"
+            },
+            {
+                "title": "Ghost",
+                "url": "https://ghost.org/"
+            },
+            {
+                "title": "Metalsmith",
+                "url": "http://www.metalsmith.io/"
+            },
+            {
+                "title": "Segment",
+                "url": "https://segment.com/"
+            },
+            {
+                "title": "Hugo",
+                "url": "https://gohugo.io/"
+            },
+            {
+                "title": "Go",
+                "url": "https://golang.org/"
+            },
+            {
+                "title": "Hexo",
+                "url": "https://hexo.io/"
+            },
+            {
+                "title": "Markdown-it",
+                "url": "https://github.com/markdown-it/markdown-it"
+            },
+            {
+                "title": "YAML",
+                "url": "http://yaml.org/"
+            },
+            {
+                "title": "Joi",
+                "url": "https://github.com/hapijs/joi"
+            },
+            {
+                "title": "Redux",
+                "url": "http://redux.js.org/"
+            },
+            {
+                "title": "StaticGen",
+                "url": "http://www.staticgen.com/"
+            },
+            {
+                "title": "Gatsby JS",
+                "url": "https://github.com/gatsbyjs/gatsby"
+            },
+            {
+                "title": "Nunjucks",
+                "url": "https://mozilla.github.io/nunjucks/"
+            },
+            {
+                "title": "Browserify",
+                "url": "http://browserify.org/"
+            },
+            {
+                "title": "Less",
+                "url": "http://lesscss.org/"
+            },
+            {
+                "title": "Sass",
+                "url": "http://sass-lang.com/"
+            },
+            {
+                "title": "Babel",
+                "url": "https://babeljs.io/"
+            },
+            {
+                "title": "ES2015",
+                "url": "https://babeljs.io/learn-es2015/"
+            },
+            {
+                "title": "Async await",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+            },
+            {
+                "title": "Graph QL",
+                "url": "https://graphql.org/"
+            },
+            {
+                "title": "Relay",
+                "url": "https://facebook.github.io/relay/"
+            },
+            {
+                "title": "Closure",
+                "url": "https://developers.google.com/closure/compiler/"
+            },
+            {
+                "title": "Handlebars",
+                "url": "http://handlebarsjs.com/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Node 7.6",
+                "url": "https://nodejs.org",
+                "from": "Harry Wolff"
+            },
+            {
+                "title": "Legion",
+                "url": "http://www.fxnetworks.com/shows/legion",
+                "from": "Harry Wolff"
+            },
+            {
+                "title": "Calvin Harris - Slide",
+                "url": "https://open.spotify.com/track/6gpcs5eMhJwax4mIfKDYQk",
+                "from": "Harry Wolff"
+            },
+            {
+                "title": "Reptar",
+                "url": "https://reptar.github.io/",
+                "from": "Harry Wolff"
+            },
+            {
+                "title": "CODE: Debugging the Gender Gap",
+                "url": "https://www.netflix.com/title/80130565",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "ZippGo",
+                "url": "https://www.zippgo.com",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Metasmoke",
+                "url": "https://metasmoke.erwaysoftware.com/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Open Source Guides",
+                "url": "https://opensource.guide/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Ultimate Beast Master",
+                "url": "https://www.netflix.com/title/80095299",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Shibesbot",
+                "url": "https://twitter.com/shibbnbot",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Distiller",
+                "url": "https://distiller.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Pac-man Multiplayer",
+                "url": "https://en.wikipedia.org/wiki/Pac-Man_Battle_Royale",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Home Brewing Beer",
+                "url": "http://www.homebrewing.org/How-to-Make-Your-Own-Beer_ep_32-1.html",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Webpackbin",
+                "url": "https://www.webpackbin.com/",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Arthur Russell - Home Away From Home (Andy Stott Refix)",
+                "url": "https://soundcloud.com/modernlove/arthur-russell-home-away-from-home-andy-stott-refix",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "029",
         "title": "Alcoholic Angular",
         "description": "In this episode, we’re joined by our special guest, Ayşegül Yönet, a Software Engineer Autodesk, who will help us discuss the popular Google JavaScript framework Angular. In the episode, we discuss the benefits of leveraging Angular and what the major differences are from Angular 1 and Angular 2.",
