@@ -125,11 +125,105 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":181,"react-dom":30}],2:[function(require,module,exports){
 module.exports=[
     {
+        "episode": "031",
+        "title": "A flaming shot of burnout",
+        "description": "Burnout is not a rare phenomenon that engineers deal with. In this episode, we talk about the ways we’ve been affected by burnout and how we’ve dealt with it. We discuss past experiences that have created burnout for us and ways we can prevent it from happening in the future.",
+        "id": "316918805",
+        "published": "April 9, 2017",
+        "transcribed": false,
+        "category": "soft",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Ryan Anklam",
+            "Brian Holt",
+            "Stacy London"
+        ],
+        "guests": [],
+        "links": [
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com/"
+            },
+            {
+                "title": "Trello",
+                "url": "https://trello.com/"
+            },
+            {
+                "title": "Headspace",
+                "url": "https://www.headspace.com"
+            },
+            {
+                "title": "Fitbit",
+                "url": "https://www.fitbit.com/"
+            },
+            {
+                "title": "Apple Watch",
+                "url": "http://www.apple.com/watch/"
+            },
+            {
+                "title": "Slack",
+                "url": "https://slack.com"
+            },
+            {
+                "title": "Netflix",
+                "url": "https://netflix.com"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Rove",
+                "url": "https://www.instagram.com/rove_cbs/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Charles Proxy",
+                "url": "https://www.charlesproxy.com/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Periscopic.com",
+                "url": "http://Periscopic.com",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "System Design Primer",
+                "url": "https://github.com/donnemartin/system-design-primer",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Hacking Node Seralize",
+                "url": "http://blog.websecurify.com/2017/02/hacking-node-serialize.html",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "Rocket",
+                "url": "http://julianthayn.com/rocket",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "Horizon Zero Dawn",
+                "url": "https://www.amazon.com/Horizon-Zero-Dawn-PlayStation-4/dp/B00ZQC73O8",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Spindrift by Colin Stetson",
+                "url": "https://open.spotify.com/track/3VyfaSBGhMIa6Np02DIf9h",
+                "from": "Stacy London"
+            },
+            {
+                "title": "It's not how many hours of sleep you get...",
+                "url": "https://superyesmore.com/its-not-how-many-hours-of-sleep-you-get-31511419ec81ce17835eeeb6c1a570a5",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "030",
         "title": "Static site generators and dynamic drink drinkers",
         "description": "Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.",
-        "id": "",
-        "published": "",
+        "id": "314267346",
+        "published": "March 24, 2017",
         "transcribed": false,
         "category": "technical",
         "panel": [
@@ -386,7 +480,7 @@ module.exports=[
             },
             {
                 "title": "Pac-man Multiplayer",
-                "url": "",
+                "url": "https://en.wikipedia.org/wiki/Pac-Man_Battle_Royale",
                 "from": "Derrick Showers"
             },
             {
