@@ -50,61 +50,29 @@ gulp.task('nodeunit', function () {
     }));
 });
 
-gulp.task('episodePage', function() {
- const entryFile = './jsx/episode-page.jsx';
-
+// build javascript bundles
+gulp.task('javascript', function() {
+ const jsxPath = './jsx/';
+ const files = ['home', 'panelist', 'episode'];
+ const streams = files.map(function(fileName) {
+  const fullFile = jsxPath + fileName + '.jsx';
   const bundler = browserify({
     extensions: ['.js', '.jsx'],
     transform: ['babelify']
   });
 
-  bundler.add(entryFile);
+  bundler.add(fullFile);
 
   const stream = bundler.bundle();
   stream.on('error', function (err) { console.error(err.toString()); });
 
   stream
-    .pipe(source(entryFile))
-    .pipe(rename('episode.js'))
+    .pipe(source(fullFile))
+    .pipe(rename(fileName + '.js'))
     .pipe(gulp.dest('public/js/'));
-});
-
-gulp.task('homepage', function() {
- const homeFile = './jsx/home.jsx';
-
-  const bundler = browserify({
-    extensions: ['.js', '.jsx'],
-    transform: ['babelify']
-  });
-
-  bundler.add(homeFile);
-
-  const stream = bundler.bundle();
-  stream.on('error', function (err) { console.error(err.toString()); });
-
-  stream
-    .pipe(source(homeFile))
-    .pipe(rename('home.js'))
-    .pipe(gulp.dest('public/js/'));
-});
-
-gulp.task('panelpage', function() {
- const panelFile = './jsx/panelist.jsx';
-
-  const bundler = browserify({
-    extensions: ['.js', '.jsx'],
-    transform: ['babelify']
-  });
-
-  bundler.add(panelFile);
-
-  const stream = bundler.bundle();
-  stream.on('error', function (err) { console.error(err.toString()); });
-
-  stream
-    .pipe(source(panelFile))
-    .pipe(rename('panelist.js'))
-    .pipe(gulp.dest('public/js/'));
+  console.log(`${fileName}.js created`)
+ });
+  
 });
 
 gulp.task('compress', function() {
@@ -119,7 +87,7 @@ gulp.task('compress', function() {
 gulp.task('watch', function() {
   gulp.watch('sass/**/*.scss', ['sass']);
   gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'nodeunit']);
-  gulp.watch(['./jsx/**/*'], ['lint', 'homepage', 'episodePage', 'panelpage', 'compress']);
+  gulp.watch(['./jsx/**/*'], ['lint', 'javascript', 'compress']);
 });
 
 gulp.task('test', ['jsonlint', 'lint', 'nodeunit']);
