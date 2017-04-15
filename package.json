@@ -42,8 +42,8 @@
     "ghooks": {
       "pre-commit": "node build mailing panelists",
       "pre-push": "gulp javascript sass compress",
-      "post-merge": "npm install",
-      "post-rewrite": "npm install"
+      "post-merge": "yarn install",
+      "post-rewrite": "yarn install"
     }
   },
   "dependencies": {
