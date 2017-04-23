@@ -3,8 +3,8 @@
     "episode": "032",
     "title": "Imposter Syndrome - These are not the drinks you're looking for",
     "description": "What’s it like to deal with Imposter Syndrome? In this episode, we are joined by Jessica Grist, a Software Engineer at Adroll to discuss how we’ve all experience Imposter Syndrome in our careers and share ways to help deal with it.",
-    "id": "",
-    "published": "",
+    "id": "319131503",
+    "published": "April 23, 2017",
     "transcribed": false,
     "category": "soft",
     "panel": [
@@ -23,13 +23,8 @@
     "links": [],
     "picks": [
       {
-        "title": "",
-        "url": "",
-        "from": "Jessica Grist"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "Stuff You Missed in History Class",
+        "url": "http://www.missedinhistory.com/",
         "from": "Jessica Grist"
       },
       {
@@ -43,33 +38,33 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Ember Conf 2017",
+        "url": "http://emberconf.com/",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Codepen Projects",
+        "url": "https://codepen.io/pro/projects",
         "from": "Derrick Showers"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Alamo Drafthouse",
+        "url": "https://drafthouse.com",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Full Stack for Front End Engineers",
+        "url": "https://frontendmasters.com/courses/full-stack/",
         "from": "Brian Holt"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Brian Holt"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "Nordic JS",
+        "url": "http://nordicjs.com/",
         "from": "Mars Jullian"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "How I Built This",
+        "url": "http://www.npr.org/podcasts/510313/how-i-built-this",
         "from": "Mars Jullian"
       },
       {
