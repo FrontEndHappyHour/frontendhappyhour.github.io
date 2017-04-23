@@ -122,4677 +122,4758 @@ module.exports = App;
 
 _reactDom2['default'].render(_react2['default'].createElement(App, null), target);
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYnVyZ2Vzcy9Eb2N1bWVudHMvZ2l0aHViL2Zyb250LWVuZC1oYXBweS1ob3VyL2pzeC9ob21lLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O3FCQUFrQixPQUFPOzs7O3dCQUNKLFdBQVc7Ozs7d0JBQ1gsWUFBWTs7OzttQ0FDWiwwQkFBMEI7Ozs7NEJBQ3pCLG1CQUFtQjs7OztBQUV6QyxJQUFNLEdBQUcsR0FBRyxtQkFBTSxXQUFXLENBQUM7OztBQUM1QixpQkFBZSxFQUFBLDJCQUFHO0FBQ2hCLFdBQU87QUFDTCxpQkFBVyxrQ0FBVTtBQUNyQixnQkFBVSxFQUFFLENBQUM7QUFDYixhQUFPLEVBQUUsQ0FBQztBQUNWLGVBQVMsRUFBRSxDQUFDO0FBQ1osY0FBUSxFQUFFLEtBQUs7QUFDZixjQUFRLEVBQUUsSUFBSTtLQUNmLENBQUM7R0FDSDtBQUNELG1CQUFpQixFQUFBLDZCQUFHLEVBRW5CO0FBQ0QsZ0JBQWMsRUFBQSx3QkFBQyxJQUFJLEVBQUU7QUFDbkIsUUFBSSxDQUFDLFFBQVEsQ0FBQyxFQUFDLFFBQVEsRUFBRSxJQUFJLEVBQUMsQ0FBQyxDQUFDO0dBQ2pDO0FBQ0QsZ0JBQWMsRUFBQSx3QkFBQyxJQUFJLEVBQUU7QUFDbkIsUUFBSSxDQUFDLFFBQVEsQ0FBQyxFQUFDLFFBQVEsRUFBRSxJQUFJLEVBQUMsQ0FBQyxDQUFDO0dBQ2pDO0FBQ0QsY0FBWSxFQUFBLHdCQUFHO0FBQ2IsUUFBRyxJQUFJLENBQUMsS0FBSyxDQUFDLFVBQVUsSUFBSSxDQUFDLEVBQUU7QUFDN0IsVUFBSSxDQUFDLFFBQVEsQ0FBQyxFQUFFLFVBQVUsRUFBRSxJQUFJLENBQUMsS0FBSyxDQUFDLFVBQVUsR0FBRyxJQUFJLENBQUMsS0FBSyxDQUFDLFNBQVMsRUFBRSxPQUFPLEVBQUUsSUFBSSxDQUFDLEtBQUssQ0FBQyxPQUFPLEdBQUcsSUFBSSxDQUFDLEtBQUssQ0FBQyxTQUFTLEVBQUUsQ0FBQyxDQUFDO0tBQ2pJOzs7QUFHRCxRQUFJLENBQUMsY0FBYyxDQUFDLElBQUksQ0FBQyxDQUFDOzs7QUFHMUIsUUFBSSxJQUFJLENBQUMsS0FBSyxDQUFDLFVBQVUsSUFBSSxDQUFDLEVBQUU7QUFDOUIsVUFBSSxDQUFDLGNBQWMsQ0FBQyxLQUFLLENBQUMsQ0FBQztLQUM1QjtHQUNGO0FBQ0QsVUFBUSxFQUFBLG9CQUFFO0FBQ1IsUUFBSSxDQUFDLFFBQVEsQ0FBQyxFQUFFLFVBQVUsRUFBRSxJQUFJLENBQUMsS0FBSyxDQUFDLFVBQVUsR0FBRyxJQUFJLENBQUMsS0FBSyxDQUFDLFNBQVMsRUFBRSxPQUFPLEVBQUUsSUFBSSxDQUFDLEtBQUssQ0FBQyxPQUFPLEdBQUcsSUFBSSxDQUFDLEtBQUssQ0FBQyxTQUFTLEVBQUUsQ0FBQyxDQUFDOzs7QUFHaEksUUFBSSxDQUFDLGNBQWMsQ0FBQyxJQUFJLENBQUMsQ0FBQzs7O0FBRzFCLFFBQUksQUFBQyxJQUFJLENBQUMsS0FBSyxDQUFDLFVBQVUsR0FBSSxJQUFJLENBQUMsS0FBSyxDQUFDLFNBQVMsR0FBRyxDQUFDLEFBQUMsSUFBSyxJQUFJLENBQUMsS0FBSyxDQUFDLFdBQVcsQ0FBQyxNQUFNLEVBQUU7QUFDekYsVUFBSSxDQUFDLGNBQWMsQ0FBQyxLQUFLLENBQUMsQ0FBQztLQUM1QjtHQUNGO0FBQ0QsUUFBTSxFQUFBLGtCQUFHOzs7QUFDUCxRQUFJLFVBQVUsWUFBQSxDQUFDO0FBQ2YsUUFBRyxJQUFJLENBQUMsS0FBSyxDQUFDLFFBQVEsS0FBSyxLQUFLLEVBQUU7QUFDaEMsZ0JBQVUsR0FBRzs7VUFBRyxJQUFJLEVBQUMsR0FBRyxFQUFDLFNBQVMsRUFBQyxNQUFNLEVBQUMsT0FBTyxFQUFHLElBQUksQ0FBQyxZQUFZLEFBQUU7O09BQWEsQ0FBQztLQUN0Rjs7QUFFRCxRQUFJLFVBQVUsWUFBQSxDQUFDO0FBQ2YsUUFBRyxJQUFJLENBQUMsS0FBSyxDQUFDLFFBQVEsS0FBSyxLQUFLLEVBQUU7QUFDaEMsZ0JBQVUsR0FBRzs7VUFBRyxJQUFJLEVBQUMsR0FBRyxFQUFDLFNBQVMsRUFBQyxNQUFNLEVBQUMsT0FBTyxFQUFHLElBQUksQ0FBQyxRQUFRLEFBQUU7O09BQVMsQ0FBQztLQUM5RTs7QUFFRCxXQUNFOzs7TUFDRTs7VUFBSyxTQUFTLEVBQUMsUUFBUTtRQUNwQixVQUFVO1FBQ1YsVUFBVTtPQUNQO01BQ047OztRQUNHLElBQUksQ0FBQyxLQUFLLENBQUMsV0FBVyxDQUFDLEdBQUcsQ0FBQyxVQUFDLEVBQUUsRUFBRSxDQUFDLEVBQUs7QUFDckMsY0FBTSxHQUFHLEdBQUcsK0JBQVUsWUFBWSxHQUFHLEVBQUUsQ0FBQyxLQUFLLENBQUMsQ0FBQztBQUMvQyxXQUFDLEVBQUUsQ0FBQztBQUNKLGNBQUcsQ0FBQyxHQUFHLE1BQUssS0FBSyxDQUFDLFVBQVUsSUFBSSxDQUFDLElBQUksTUFBSyxLQUFLLENBQUMsT0FBTyxFQUFFO0FBQ3ZELG1CQUNFLDBEQUFVLEdBQUcsRUFBRSxDQUFDLEFBQUMsRUFBQyxLQUFLLEVBQUUsRUFBRSxDQUFDLE9BQU8sQUFBQyxFQUFDLEdBQUcsRUFBRSxHQUFHLEFBQUMsRUFBQyxLQUFLLEVBQUUsRUFBRSxDQUFDLEtBQUssQUFBQyxFQUFDLElBQUksRUFBRSxFQUFFLENBQUMsU0FBUyxBQUFDLEVBQUMsV0FBVyxFQUFFLEVBQUUsQ0FBQyxXQUFXLEFBQUMsR0FBRyxDQUNwSDtXQUNGO1NBQ0YsQ0FBQztPQUNDO01BQ0w7O1VBQUssU0FBUyxFQUFDLFFBQVE7UUFDcEIsVUFBVTtRQUNWLFVBQVU7T0FDUDtLQUNGLENBQ047R0FDSDtDQUNGLENBQUMsQ0FBQzs7QUFFSCxNQUFNLENBQUMsT0FBTyxHQUFHLEdBQUcsQ0FBQzs7QUFFckIsc0JBQVMsTUFBTSxDQUFDLGlDQUFDLEdBQUcsT0FBRyxFQUFFLE1BQU0sQ0FBQyxDQUFDIiwiZmlsZSI6Ii9Vc2Vycy9yYnVyZ2Vzcy9Eb2N1bWVudHMvZ2l0aHViL2Zyb250LWVuZC1oYXBweS1ob3VyL2pzeC9ob21lLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tJztcbmltcG9ydCBFcGlzb2RlcyBmcm9tICcuL2VwaXNvZGVzJztcbmltcG9ydCBlcGlzb2RlcyBmcm9tICcuLi9jb250ZW50L2VwaXNvZGVzLmpzb24nO1xuaW1wb3J0IGNyZWF0ZVVybCBmcm9tICcuLi9saWIvY3JlYXRlLXVybCdcblxuY29uc3QgQXBwID0gUmVhY3QuY3JlYXRlQ2xhc3Moe1xuICBnZXRJbml0aWFsU3RhdGUoKSB7XG4gICAgcmV0dXJuIHtcbiAgICAgIGVwaXNvZGVMaXN0OiBlcGlzb2RlcyxcbiAgICAgIHN0YXJ0VmFsdWU6IDAsXG4gICAgICBsaXN0TnVtOiA1LFxuICAgICAgbnVtT25QYWdlOiA1LFxuICAgICAgc2hvd1ByZXY6IGZhbHNlLFxuICAgICAgc2hvd05leHQ6IHRydWVcbiAgICB9O1xuICB9LFxuICBjb21wb25lbnREaWRNb3VudCgpIHtcblxuICB9LFxuICBzaG93UHJldkJ1dHRvbihzaG93KSB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7c2hvd1ByZXY6IHNob3d9KTtcbiAgfSxcbiAgc2hvd05leHRCdXR0b24oc2hvdykge1xuICAgIHRoaXMuc2V0U3RhdGUoe3Nob3dOZXh0OiBzaG93fSk7XG4gIH0sXG4gIHByZXZpb3VzTGlzdCgpIHtcbiAgICBpZih0aGlzLnN0YXRlLnN0YXJ0VmFsdWUgPj0gMCkge1xuICAgICAgdGhpcy5zZXRTdGF0ZSh7IHN0YXJ0VmFsdWU6IHRoaXMuc3RhdGUuc3RhcnRWYWx1ZSAtIHRoaXMuc3RhdGUubnVtT25QYWdlLCBsaXN0TnVtOiB0aGlzLnN0YXRlLmxpc3ROdW0gLSB0aGlzLnN0YXRlLm51bU9uUGFnZSB9KTtcbiAgICB9XG5cbiAgICAvLyBzaG93IG5leHQgYnV0dG9uXG4gICAgdGhpcy5zaG93TmV4dEJ1dHRvbih0cnVlKTtcblxuICAgIC8vIGhpZGUgcHJldmlvdXMgYnV0dG9uIGlmIGl0cyB0aGUgZmlyc3QgcGFnZSBpbiB0aGUgbGlzdFxuICAgIGlmICh0aGlzLnN0YXRlLnN0YXJ0VmFsdWUgPD0gNSkge1xuICAgICAgdGhpcy5zaG93UHJldkJ1dHRvbihmYWxzZSk7XG4gICAgfVxuICB9LFxuICBuZXh0TGlzdCgpe1xuICAgIHRoaXMuc2V0U3RhdGUoeyBzdGFydFZhbHVlOiB0aGlzLnN0YXRlLnN0YXJ0VmFsdWUgKyB0aGlzLnN0YXRlLm51bU9uUGFnZSwgbGlzdE51bTogdGhpcy5zdGF0ZS5saXN0TnVtICsgdGhpcy5zdGF0ZS5udW1PblBhZ2UgfSk7XG4gICAgXG4gICAgLy8gc2hvdyBwcmV2aW91cyBidXR0b25cbiAgICB0aGlzLnNob3dQcmV2QnV0dG9uKHRydWUpO1xuXG4gICAgLy8gaGlkZSBuZXh0IGJ1dHRvbiBpZiBpdHMgdGhlIGxhc3QgcGFnZSBpbiB0aGUgbGlzdFxuICAgIGlmICgodGhpcy5zdGF0ZS5zdGFydFZhbHVlICsgKHRoaXMuc3RhdGUubnVtT25QYWdlICogMikpID49IHRoaXMuc3RhdGUuZXBpc29kZUxpc3QubGVuZ3RoKSB7XG4gICAgICB0aGlzLnNob3dOZXh0QnV0dG9uKGZhbHNlKTtcbiAgICB9XG4gIH0sXG4gIHJlbmRlcigpIHtcbiAgICBsZXQgcHJldkJ1dHRvbjtcbiAgICBpZih0aGlzLnN0YXRlLnNob3dQcmV2ICE9PSBmYWxzZSkge1xuICAgICAgcHJldkJ1dHRvbiA9IDxhIGhyZWY9XCIjXCIgY2xhc3NOYW1lPVwicHJldlwiIG9uQ2xpY2s9eyB0aGlzLnByZXZpb3VzTGlzdCB9PlByZXZpb3VzPC9hPjtcbiAgICB9XG5cbiAgICBsZXQgbmV4dEJ1dHRvbjtcbiAgICBpZih0aGlzLnN0YXRlLnNob3dOZXh0ICE9PSBmYWxzZSkge1xuICAgICAgbmV4dEJ1dHRvbiA9IDxhIGhyZWY9XCIjXCIgY2xhc3NOYW1lPVwibmV4dFwiIG9uQ2xpY2s9eyB0aGlzLm5leHRMaXN0IH0+TmV4dDwvYT47XG4gICAgfVxuXG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXY+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicGFnaW5nXCI+XG4gICAgICAgICAge3ByZXZCdXR0b259XG4gICAgICAgICAge25leHRCdXR0b259XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8dWw+XG4gICAgICAgICAge3RoaXMuc3RhdGUuZXBpc29kZUxpc3QubWFwKChlcCwgaSkgPT4ge1xuICAgICAgICAgICAgY29uc3QgdXJsID0gY3JlYXRlVXJsKCcvZXBpc29kZXMvJyArIGVwLnRpdGxlKTtcbiAgICAgICAgICAgIGkrKztcbiAgICAgICAgICAgIGlmKGkgPiB0aGlzLnN0YXRlLnN0YXJ0VmFsdWUgJiYgaSA8PSB0aGlzLnN0YXRlLmxpc3ROdW0pIHtcbiAgICAgICAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgICAgICA8RXBpc29kZXMga2V5PXtpfSBlcE51bT17ZXAuZXBpc29kZX0gdXJsPXt1cmx9IHRpdGxlPXtlcC50aXRsZX0gZGF0ZT17ZXAucHVibGlzaGVkfSBkZXNjcmlwdGlvbj17ZXAuZGVzY3JpcHRpb259IC8+XG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9KX1cbiAgICAgICAgPC91bD5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwYWdpbmdcIj5cbiAgICAgICAgICB7cHJldkJ1dHRvbn1cbiAgICAgICAgICB7bmV4dEJ1dHRvbn1cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59KTtcblxubW9kdWxlLmV4cG9ydHMgPSBBcHA7XG5cblJlYWN0RE9NLnJlbmRlcig8QXBwIC8+LCB0YXJnZXQpOyJdfQ==
-},{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":181,"react-dom":30}],2:[function(require,module,exports){
+},{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":185,"react-dom":34}],2:[function(require,module,exports){
 module.exports=[
-    {
-        "episode": "031",
-        "title": "A flaming shot of burnout",
-        "description": "Burnout is not a rare phenomenon that engineers deal with. In this episode, we talk about the ways we’ve been affected by burnout and how we’ve dealt with it. We discuss past experiences that have created burnout for us and ways we can prevent it from happening in the future.",
-        "id": "316918805",
-        "published": "April 9, 2017",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Ryan Anklam",
-            "Brian Holt",
-            "Stacy London"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Twitter",
-                "url": "https://twitter.com/"
-            },
-            {
-                "title": "Trello",
-                "url": "https://trello.com/"
-            },
-            {
-                "title": "Headspace",
-                "url": "https://www.headspace.com"
-            },
-            {
-                "title": "Fitbit",
-                "url": "https://www.fitbit.com/"
-            },
-            {
-                "title": "Apple Watch",
-                "url": "http://www.apple.com/watch/"
-            },
-            {
-                "title": "Slack",
-                "url": "https://slack.com"
-            },
-            {
-                "title": "Netflix",
-                "url": "https://netflix.com"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Rove",
-                "url": "https://www.instagram.com/rove_cbs/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Charles Proxy",
-                "url": "https://www.charlesproxy.com/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "React Native",
-                "url": "https://facebook.github.io/react-native/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Periscopic.com",
-                "url": "http://Periscopic.com",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "System Design Primer",
-                "url": "https://github.com/donnemartin/system-design-primer",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Hacking Node Seralize",
-                "url": "http://blog.websecurify.com/2017/02/hacking-node-serialize.html",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Rocket",
-                "url": "http://julianthayn.com/rocket",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Horizon Zero Dawn",
-                "url": "https://www.amazon.com/Horizon-Zero-Dawn-PlayStation-4/dp/B00ZQC73O8",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Spindrift by Colin Stetson",
-                "url": "https://open.spotify.com/track/3VyfaSBGhMIa6Np02DIf9h",
-                "from": "Stacy London"
-            },
-            {
-                "title": "It's not how many hours of sleep you get...",
-                "url": "https://superyesmore.com/its-not-how-many-hours-of-sleep-you-get-31511419ec81ce17835eeeb6c1a570a5",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "030",
-        "title": "Static site generators and dynamic drink drinkers",
-        "description": "Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.",
-        "id": "314267346",
-        "published": "March 24, 2017",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Brian Holt",
-            "Stacy London"
-        ],
-        "guests": [
-            {
-                "name": "Harry Wolff",
-                "twitter": "hswolff"
-            }
-        ],
-        "links": [
-            {
-                "title": "Reptar",
-                "url": "https://reptar.github.io/"
-            },
-            {
-                "title": "MongoDB",
-                "url": "https://www.mongodb.com/"
-            },
-            {
-                "title": "Github",
-                "url": "https://github.com/"
-            },
-            {
-                "title": "Jekyll",
-                "url": "https://jekyllrb.com/"
-            },
-            {
-                "title": "Dropbox",
-                "url": "https://www.dropbox.com"
-            },
-            {
-                "title": "Wordpress",
-                "url": "https://wordpress.com/"
-            },
-            {
-                "title": "Markdown",
-                "url": "https://en.wikipedia.org/wiki/Markdown"
-            },
-            {
-                "title": "Atom",
-                "url": "https://atom.io/"
-            },
-            {
-                "title": "AWS",
-                "url": "https://aws.amazon.com/"
-            },
-            {
-                "title": "Express",
-                "url": "https://expressjs.com/"
-            },
-            {
-                "title": "Restify",
-                "url": "http://restify.com/"
-            },
-            {
-                "title": "FTP",
-                "url": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
-            },
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Webpack",
-                "url": "https://webpack.github.io/"
-            },
-            {
-                "title": "Medium",
-                "url": "https://medium.com/"
-            },
-            {
-                "title": "Gist",
-                "url": "https://gist.github.com/"
-            },
-            {
-                "title": "Highlight JS",
-                "url": "https://highlightjs.org/"
-            },
-            {
-                "title": "Prisim",
-                "url": "http://prismjs.com/"
-            },
-            {
-                "title": "Yarn",
-                "url": "https://yarnpkg.com"
-            },
-            {
-                "title": "npm",
-                "url": "https://www.npmjs.com/"
-            },
-            {
-                "title": "Facebook",
-                "url": "https://www.facebook.com/"
-            },
-            {
-                "title": "Rugrats",
-                "url": "http://www.imdb.com/title/tt0101188/"
-            },
-            {
-                "title": "Ghost",
-                "url": "https://ghost.org/"
-            },
-            {
-                "title": "Metalsmith",
-                "url": "http://www.metalsmith.io/"
-            },
-            {
-                "title": "Segment",
-                "url": "https://segment.com/"
-            },
-            {
-                "title": "Hugo",
-                "url": "https://gohugo.io/"
-            },
-            {
-                "title": "Go",
-                "url": "https://golang.org/"
-            },
-            {
-                "title": "Hexo",
-                "url": "https://hexo.io/"
-            },
-            {
-                "title": "Markdown-it",
-                "url": "https://github.com/markdown-it/markdown-it"
-            },
-            {
-                "title": "YAML",
-                "url": "http://yaml.org/"
-            },
-            {
-                "title": "Joi",
-                "url": "https://github.com/hapijs/joi"
-            },
-            {
-                "title": "Redux",
-                "url": "http://redux.js.org/"
-            },
-            {
-                "title": "StaticGen",
-                "url": "http://www.staticgen.com/"
-            },
-            {
-                "title": "Gatsby JS",
-                "url": "https://github.com/gatsbyjs/gatsby"
-            },
-            {
-                "title": "Nunjucks",
-                "url": "https://mozilla.github.io/nunjucks/"
-            },
-            {
-                "title": "Browserify",
-                "url": "http://browserify.org/"
-            },
-            {
-                "title": "Less",
-                "url": "http://lesscss.org/"
-            },
-            {
-                "title": "Sass",
-                "url": "http://sass-lang.com/"
-            },
-            {
-                "title": "Babel",
-                "url": "https://babeljs.io/"
-            },
-            {
-                "title": "ES2015",
-                "url": "https://babeljs.io/learn-es2015/"
-            },
-            {
-                "title": "Async await",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
-            },
-            {
-                "title": "Graph QL",
-                "url": "https://graphql.org/"
-            },
-            {
-                "title": "Relay",
-                "url": "https://facebook.github.io/relay/"
-            },
-            {
-                "title": "Closure",
-                "url": "https://developers.google.com/closure/compiler/"
-            },
-            {
-                "title": "Handlebars",
-                "url": "http://handlebarsjs.com/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Node 7.6",
-                "url": "https://nodejs.org",
-                "from": "Harry Wolff"
-            },
-            {
-                "title": "Legion",
-                "url": "http://www.fxnetworks.com/shows/legion",
-                "from": "Harry Wolff"
-            },
-            {
-                "title": "Calvin Harris - Slide",
-                "url": "https://open.spotify.com/track/6gpcs5eMhJwax4mIfKDYQk",
-                "from": "Harry Wolff"
-            },
-            {
-                "title": "Reptar",
-                "url": "https://reptar.github.io/",
-                "from": "Harry Wolff"
-            },
-            {
-                "title": "CODE: Debugging the Gender Gap",
-                "url": "https://www.netflix.com/title/80130565",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "ZippGo",
-                "url": "https://www.zippgo.com",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Metasmoke",
-                "url": "https://metasmoke.erwaysoftware.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Open Source Guides",
-                "url": "https://opensource.guide/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Ultimate Beast Master",
-                "url": "https://www.netflix.com/title/80095299",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Shibesbot",
-                "url": "https://twitter.com/shibbnbot",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Distiller",
-                "url": "https://distiller.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Pac-man Multiplayer",
-                "url": "https://en.wikipedia.org/wiki/Pac-Man_Battle_Royale",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Home Brewing Beer",
-                "url": "http://www.homebrewing.org/How-to-Make-Your-Own-Beer_ep_32-1.html",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Webpackbin",
-                "url": "https://www.webpackbin.com/",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Arthur Russell - Home Away From Home (Andy Stott Refix)",
-                "url": "https://soundcloud.com/modernlove/arthur-russell-home-away-from-home-andy-stott-refix",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "029",
-        "title": "Alcoholic Angular",
-        "description": "In this episode, we’re joined by our special guest, Ayşegül Yönet, a Software Engineer Autodesk, who will help us discuss the popular Google JavaScript framework Angular. In the episode, we discuss the benefits of leveraging Angular and what the major differences are from Angular 1 and Angular 2.",
-        "id": "312085888",
-        "published": "March 12, 2017",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Jem Young",
-            "Derrick Showers",
-            "Brian Holt",
-            "Stacy London"
-        ],
-        "guests": [
-            {
-                "name": "Ayşegül Yönet",
-                "twitter": "AysSomething"
-            }
-        ],
-        "links": [
-            {
-                "title": "Angular",
-                "url": "https://angularjs.org/"
-            },
-            {
-                "title": "Autodesk",
-                "url": "http://www.autodesk.com/"
-            },
-            {
-                "title": "Reddit",
-                "url": "http://www.reddit.com/"
-            },
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Scope",
-                "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
-            },
-            {
-                "title": "Knockout",
-                "url": "http://knockoutjs.com/"
-            },
-            {
-                "title": "Igor Minar",
-                "url": "https://twitter.com/IgorMinar"
-            },
-            {
-                "title": "ASP.Net",
-                "url": "https://www.asp.net/"
-            },
-            {
-                "title": "Vue JS",
-                "url": "https://vuejs.org/"
-            },
-            {
-                "title": "Laravel",
-                "url": "https://laravel.com/"
-            },
-            {
-                "title": "PHP",
-                "url": "http://php.net/"
-            },
-            {
-                "title": "Visual Studio",
-                "url": "https://www.visualstudio.com/"
-            },
-            {
-                "title": "Google Wave",
-                "url": "https://en.wikipedia.org/wiki/Apache_Wave"
-            },
-            {
-                "title": "Google Reader",
-                "url": "https://www.google.com/reader"
-            },
-            {
-                "title": "Zone JS",
-                "url": "https://github.com/angular/zone.js/"
-            },
-            {
-                "title": "Ember",
-                "url": "http://emberjs.com/"
-            },
-            {
-                "title": "TypeScript",
-                "url": "https://www.typescriptlang.org/"
-            },
-            {
-                "title": "Forward JS",
-                "url": "https://forwardjs.com/"
-            },
-            {
-                "title": "RxJS",
-                "url": "http://reactivex.io/rxjs/"
-            },
-            {
-                "title": "Frontend Masters",
-                "url": "https://frontendmasters.com/"
-            },
-            {
-                "title": "Angular.io",
-                "url": "https://angular.io/"
-            },
-            {
-                "title": "Pluralsight",
-                "url": "https://www.pluralsight.com/"
-            },
-            {
-                "title": "John Papa",
-                "url": "https://twitter.com/John_Papa"
-            },
-            {
-                "title": "Angular Style Guide",
-                "url": "https://github.com/johnpapa/angular-styleguide"
-            },
-            {
-                "title": "Angular CLI",
-                "url": "https://github.com/angular/angular-cli"
-            },
-            {
-                "title": "Closure",
-                "url": "https://github.com/google/closure-compiler-js"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Yoga Trapeze Swing",
-                "url": "https://www.amazon.com/YOGABODY-Naturals-Trapeze-Yoga-Inversion-Orange/dp/B0094H756W",
-                "from": "Ayşegül Yönet"
-            },
-            {
-                "title": "Google Home",
-                "url": "https://madeby.google.com/home",
-                "from": "Ayşegül Yönet"
-            },
-            {
-                "title": "Girl Develop It",
-                "url": "https://www.girldevelopit.com/",
-                "from": "Ayşegül Yönet"
-            },
-            {
-                "title": "Annie Cannons",
-                "url": "http://www.anniecannons.com/",
-                "from": "Ayşegül Yönet"
-            },
-            {
-                "title": "NG-Cruise",
-                "url": "https://ngcruise.com/#/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Astral",
-                "url": "https://astralapp.com/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Private Internet Access",
-                "url": "https://www.privateinternetaccess.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Elcomsoft",
-                "url": "https://www.elcomsoft.com",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Omni",
-                "url": "https://www.beomni.com",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Fernet",
-                "url": "https://en.wikipedia.org/wiki/Fernet",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Aysegul's Twitter",
-                "url": "https://twitter.com/AysSomething",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Southern Poverty Law Center",
-                "url": "https://www.splcenter.org/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Todd Motto",
-                "url": "https://twitter.com/toddmotto",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Lighthouse",
-                "url": "https://developers.google.com/web/tools/lighthouse/",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Peak Magnetic by Clark",
-                "url": "https://soundcloud.com/throttleclark/peak-magnetic",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "028",
-        "title": "JavaScript Universi-LongIslandIce-ty",
-        "description": "We’ve all started somewhere. JavaScript isn’t always an easy language to learn. In this episode, we’re joined by Gordon Zhu, who teaches workshops on JavaScript at Watch and Code. We are also joined by Luis Vargas, a Senior Manager on Global Payments at Netflix who has recently been learning JavaScript and has attended one of Gordon’s workshops. In this episode, we all talk about our journey of learning JavaScript and ways we’ve worked through it.",
-        "id": "309643125",
-        "published": "February 26, 2017",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Ryan Anklam",
-            "Brian Holt",
-            "Mars Jullian",
-            "Stacy London"
-        ],
-        "guests": [
-            {
-                "name": "Gordon Zhu",
-                "twitter": "gordon_zhu"
-            },
-            {
-                "name": "Luis Vargas",
-                "twitter": ""
-            }
-        ],
-        "links": [
-            {
-                "title": "ColdFusion",
-                "url": "http://www.adobe.com/products/coldfusion-family.html"
-            },
-            {
-                "title": "PHP",
-                "url": "http://php.net"
-            },
-            {
-                "title": "Flash",
-                "url": "http://www.adobe.com/mt/products/flash.html"
-            },
-            {
-                "title": "ASP.NET",
-                "url": "https://www.asp.net/"
-            },
-            {
-                "title": "jQuery",
-                "url": "https://jquery.com/"
-            },
-            {
-                "title": "MooTools",
-                "url": "https://mootools.net"
-            },
-            {
-                "title": "Dojo",
-                "url": "https://dojotoolkit.org/"
-            },
-            {
-                "title": "Backbone",
-                "url": "http://backbonejs.org/"
-            },
-            {
-                "title": "Python",
-                "url": "https://www.python.org/"
-            },
-            {
-                "title": "Reddit",
-                "url": "https://www.reddit.com/"
-            },
-            {
-                "title": "Eclipse",
-                "url": "http://www.eclipse.org/"
-            },
-            {
-                "title": "Eloquent JavaScript",
-                "url": "http://eloquentjavascript.net/"
-            },
-            {
-                "title": "You Don't Know JS",
-                "url": "https://github.com/getify/You-Dont-Know-JS"
-            },
-            {
-                "title": "Speaking JavaScript",
-                "url": "http://speakingjs.com/"
-            },
-            {
-                "title": "CD Baby",
-                "url": "https://www.cdbaby.com/"
-            },
-            {
-                "title": "Frontend Masters",
-                "url": "https://frontendmasters.com/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Watch and Code",
-                "url": "https://watchandcode.com/",
-                "from": "Gordon Zhu"
-            },
-            {
-                "title": "Ten Things I Have Learned - Milton Glaser",
-                "url": "https://www.miltonglaser.com/files/Essays-10things-8400",
-                "from": "Gordon Zhu"
-            },
-            {
-                "title": "Watch and Code",
-                "url": "https://watchandcode.com/",
-                "from": "Luis Vargas"
-            },
-            {
-                "title": "Industrial noise blocking headphones",
-                "url": "http://www.homedepot.com/p/Howard-Leight-Thunder-T1-Noise-Blocking-Dielectric-Headband-Earmuffs-1010928/203066854",
-                "from": "Luis Vargas"
-            },
-            {
-                "title": "Derek Sivers",
-                "url": "https://sivers.org/",
-                "from": "Luis Vargas"
-            },
-            {
-                "title": "Austin Maples - Idle Hand Tattoo",
-                "url": "https://www.instagram.com/austinmaples/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Fluid Paint",
-                "url": "http://david.li/paint/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Abstract",
-                "url": "https://www.netflix.com/title/80057883",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "The Expanse",
-                "url": "http://www.syfy.com/theexpanse",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Kahn Academy - Intro To Storytelling",
-                "url": "https://www.khanacademy.org/partner-content/pixar/storytelling/we-are-all-storytellers/v/storytelling-introb",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "New Day - Radio Edit by Xavier Eleven",
-                "url": "https://play.spotify.com/track/14bSwsVrw4zCERc0FIvjFn",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Schiit Fulla",
-                "url": "http://schiit.com/products/fulla",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Synology",
-                "url": "https://www.synology.com",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Forward JS",
-                "url": "https://forwardjs.com/",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "Chrome Canary - Loads CSS Progressively",
-                "url": "https://jakearchibald.com/2016/link-in-body/",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Code School",
-                "url": "https://www.codeschool.com/",
-                "from": "Stacy London"
-            },
-            {
-                "title": "RVK by Nathan Fake",
-                "url": "https://play.spotify.com/track/1SIthwv67KS6DBqfWplizM",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "027",
-        "title": "A drink for the \"Rust\" of us",
-        "description": "Rust is an exciting systems programming language that’s being developed in Mozilla. In this episode, we’re joined by Jafar Husain to talk about the Rust and what the benefits of leveraging a language like Rust. We also talk about why a JavaScript engineer would want to learn Rust and how it can help them in their JavaScript coding.",
-        "id": "307994303",
-        "published": "February 15, 2017",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Jem Young",
-            "Ryan Anklam",
-            "Brian Holt",
-            "Stacy London"
-        ],
-        "guests": [
-            {
-                "name": "Jafar Husain",
-                "twitter": "jhusain"
-            }
-        ],
-        "links": [],
-        "picks": [
-            {
-                "title": "PureScript",
-                "url": "http://www.purescript.org/",
-                "from": "Jafar Husain"
-            },
-            {
-                "title": "Denotational Semantics",
-                "url": "https://en.wikipedia.org/wiki/Denotational_semantics",
-                "from": "Jafar Husain"
-            },
-            {
-                "title": "Santa Clarita Diet",
-                "url": "https://www.netflix.com/title/80095815",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "React Native at Instagram",
-                "url": "https://engineering.instagram.com/react-native-at-instagram-dd828a9a90c7",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Santa Clarita Diet",
-                "url": "https://www.netflix.com/watch/80095815",
-                "from": "Jem Young"
-            },
-            {
-                "title": "What is a Promise?",
-                "url": "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Focal Mobis II Chair",
-                "url": "http://store.focalupright.com/mobis-2-seat-p/ffs-2000.htm",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Hiya",
-                "url": "https://hiya.com/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Stephen Kawaguchi",
-                "url": "https://twitter.com/sak_to",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Ireland",
-                "url": "https://en.wikipedia.org/wiki/Ireland",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Max Cooper - Distant Light - Rival Consoles Remix",
-                "url": "https://soundcloud.com/max-cooper/max-cooper-distant-light-rival-consoles-remix",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Jeremy Geddes' art",
-                "url": "http://www.jeremygeddesart.com/",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Bitbucket Cloud is hiring a Senior Front End Developer ",
-                "url": "https://www.smartrecruiters.com/Atlassian/106404927-senior-front-end-developer-bitbucket?trid=162ef3c2-cdcc-47a9-8327-c69d95269302",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "026",
-        "title": "Design, neat",
-        "description": "In this episode, we’re joined by Julie Horvath, a Design Lead at Apple to help us talk about design. We discuss ways to help improve the collaboration between designers and frontend developers. Julie shares her perspective on building great user experiences for low-bandwidth internet speeds and how taking a progressive enhancement approach can be beneficial to the user.",
-        "id": "306587453",
-        "published": "February 7, 2017",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Ryan Anklam",
-            "Brian Holt",
-            "Stacy London"
-        ],
-        "guests": [
-            {
-                "name": "Julie Horvath",
-                "twitter": "nrrrdcore"
-            }
-        ],
-        "links": [
-            {
-                "title": "USF",
-                "url": "https://www.usfca.edu/"
-            },
-            {
-                "title": "Yammer",
-                "url": "https://www.yammer.com/"
-            },
-            {
-                "title": "CSS Zen Garden",
-                "url": "http://www.csszengarden.com/"
-            },
-            {
-                "title": "CodePen",
-                "url": "https://codepen.io/"
-            },
-            {
-                "title": "Middleman",
-                "url": "https://middlemanapp.com/"
-            },
-            {
-                "title": "Heroku",
-                "url": "https://www.heroku.com/"
-            },
-            {
-                "title": "InVision",
-                "url": "https://www.invisionapp.com/"
-            },
-            {
-                "title": "Sketch",
-                "url": "https://www.sketchapp.com/"
-            },
-            {
-                "title": "Principle",
-                "url": "http://principleformac.com/"
-            },
-            {
-                "title": "Swift",
-                "url": "https://developer.apple.com/swift/"
-            },
-            {
-                "title": "Objective-C",
-                "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
-            },
-            {
-                "title": "Bootstrap",
-                "url": "http://getbootstrap.com/"
-            },
-            {
-                "title": "Photoshop",
-                "url": "http://www.adobe.com/products/photoshop.html"
-            },
-            {
-                "title": "Illustrator",
-                "url": "http://www.adobe.com/products/illustrator.html"
-            },
-            {
-                "title": "Skitch",
-                "url": "https://evernote.com/skitch/"
-            },
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Design For Hackers",
-                "url": "https://www.amazon.com/Design-Hackers-Reverse-Engineering-Beauty/dp/1119998956"
-            },
-            {
-                "title": "Hackdesign.org",
-                "url": "https://hackdesign.org/"
-            },
-            {
-                "title": "Github",
-                "url": "https://github.com/"
-            },
-            {
-                "title": "Graceful degradation",
-                "url": "https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement"
-            },
-            {
-                "title": "CSS Modules",
-                "url": "https://github.com/css-modules/css-modules"
-            },
-            {
-                "title": "CSS3 for Web Designers",
-                "url": "https://www.amazon.com/Css3-Web-Designers-Dan-Cederholm/dp/B005SYVZVQ"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Middleman",
-                "url": "https://middlemanapp.com/",
-                "from": "Julie Horvath"
-            },
-            {
-                "title": "CSS Modules",
-                "url": "https://github.com/css-modules/css-modules",
-                "from": "Julie Horvath"
-            },
-            {
-                "title": "BEM",
-                "url": "http://getbem.com/introduction/",
-                "from": "Julie Horvath"
-            },
-            {
-                "title": "Baskets",
-                "url": "http://www.fxnetworks.com/shows/baskets",
-                "from": "Julie Horvath"
-            },
-            {
-                "title": "Long Division",
-                "url": "https://www.amazon.com/Long-Division-Kiese-Laymon/dp/1932841725",
-                "from": "Julie Horvath"
-            },
-            {
-                "title": "ACLU",
-                "url": "https://www.aclunc.org",
-                "from": "Julie Horvath"
-            },
-            {
-                "title": "East of West",
-                "url": "https://imagecomics.com/comics/series/east-of-west",
-                "from": "Julie Horvath"
-            },
-            {
-                "title": "Kehlani - Sweet Sexy Savage",
-                "url": "https://www.youtube.com/watch?v=TRwhfPskEL8",
-                "from": "Julie Horvath"
-            },
-            {
-                "title": "Adobe Illustrator",
-                "url": "http://www.adobe.com/products/illustrator.html",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Homebrew Cask",
-                "url": "https://caskroom.github.io/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "U.S. Web Design Standards",
-                "url": "https://standards.usa.gov/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Panda",
-                "url": "http://usepanda.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "ACLU",
-                "url": "https://www.aclunc.org",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Frontier",
-                "url": "https://www.netflix.com/title/80099656",
-                "from": "Jem Young"
-            },
-            {
-                "title": "InVision",
-                "url": "https://www.invisionapp.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Google Voice",
-                "url": "https://www.google.com/voice",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Smashrun",
-                "url": "http://smashrun.com/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Rollup JS",
-                "url": "http://rollupjs.org/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "ACLU",
-                "url": "https://www.aclunc.org",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "InVision",
-                "url": "https://www.invisionapp.com/",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Ghostly",
-                "url": "http://ghostly.com/",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "025",
-        "title": "From bar-back to frontender",
-        "description": "We’ve all started out somewhere in our career. In previous episodes, we’ve talked about various ways we’ve learned front end development, but haven’t touched on mentorship. In this episode, Sarah Showers joins us in the conversation about starting out as a junior developer and how mentors helped shape us into senior developers.",
-        "id": "304404109",
-        "published": "January 24, 2017",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Derrick Showers",
-            "Stacy London"
-        ],
-        "guests": [
-            {
-                "name": "Sarah Showers",
-                "twitter": "sarahlshowers"
-            }
-        ],
-        "links": [],
-        "picks": [
-            {
-                "title": "Girl Develop It",
-                "url": "https://www.girldevelopit.com/",
-                "from": "Sarah Showers"
-            },
-            {
-                "title": "Reach LinkedIn",
-                "url": "https://careers.linkedin.com/reach",
-                "from": "Sarah Showers"
-            },
-            {
-                "title": "The Investigator",
-                "url": "https://www.netflix.com/title/80144148",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Shepard Fairey - We The People",
-                "url": "https://obeygiant.com/people-art-avail-download-free/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Istanbul",
-                "url": "https://en.wikipedia.org/wiki/Istanbul",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Apple EarPods",
-                "url": "http://www.apple.com/shop/product/MD827LL/A/earpods-with-35-mm-headphone-plug",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "LinkedIn redesign",
-                "url": "https://www.linkedin.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Bonobo - Migration",
-                "url": "http://bonobomusic.com/",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Girls In Tech - Mentorship Program",
-                "url": "http://girlsintech.org/programs/git-m/",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "024",
-        "title": "The hangover of 2016",
-        "description": "As we look forward to all the great trends and changes that will happen in 2017, in this episode we discuss our thoughts and opinions on the various development trends and notable things that happened in 2016. Looking forward on 2017, we share some of the things we’re excited to see in the new year.",
-        "id": "302948443",
-        "published": "January 15, 2017",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Jem Young",
-            "Ryan Anklam",
-            "Brian Holt",
-            "Mars Jullian",
-            "Stacy London"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Preact",
-                "url": "https://preactjs.com/"
-            },
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Inferno",
-                "url": "https://infernojs.org/"
-            },
-            {
-                "title": "Vue JS",
-                "url": "https://vuejs.org/"
-            },
-            {
-                "title": "Ember",
-                "url": "http://emberjs.com/"
-            },
-            {
-                "title": "Angular",
-                "url": "https://angularjs.org/"
-            },
-            {
-                "title": "Box",
-                "url": "https://www.box.com/"
-            },
-            {
-                "title": "Yarn JS",
-                "url": "https://yarnpkg.com/"
-            },
-            {
-                "title": "Firefox",
-                "url": "https://www.mozilla.org/en-US/firefox/products/"
-            },
-            {
-                "title": "Mozilla",
-                "url": "https://www.mozilla.org"
-            },
-            {
-                "title": "Microsoft",
-                "url": "https://www.microsoft.com"
-            },
-            {
-                "title": "Edge",
-                "url": "https://www.microsoft.com/en-us/windows/microsoft-edge"
-            },
-            {
-                "title": "Chakra",
-                "url": "https://github.com/Microsoft/ChakraCore"
-            },
-            {
-                "title": "Visual Studio Code",
-                "url": "https://code.visualstudio.com/"
-            },
-            {
-                "title": "Flexbox",
-                "url": "http://flexboxgrid.com/"
-            },
-            {
-                "title": "CSS Grid",
-                "url": "http://www.cssgrid.co/"
-            },
-            {
-                "title": "IE",
-                "url": "https://www.microsoft.com/en-us/download/internet-explorer.aspx"
-            },
-            {
-                "title": "TypeScript",
-                "url": "https://www.typescriptlang.org/"
-            },
-            {
-                "title": "Elm",
-                "url": "http://elm-lang.org/"
-            },
-            {
-                "title": "Flow",
-                "url": "https://flowtype.org/"
-            },
-            {
-                "title": "Webpack",
-                "url": "https://webpack.github.io/"
-            },
-            {
-                "title": "Progressive Web Apps",
-                "url": "https://developers.google.com/web/progressive-web-apps/"
-            },
-            {
-                "title": "React Native",
-                "url": "https://facebook.github.io/react-native/"
-            },
-            {
-                "title": "Babel",
-                "url": "https://babeljs.io/"
-            },
-            {
-                "title": "Redux",
-                "url": "http://redux.js.org/"
-            },
-            {
-                "title": "WebKit",
-                "url": "https://webkit.org/"
-            },
-            {
-                "title": "ES6",
-                "url": "http://es6-features.org/"
-            },
-            {
-                "title": "Safari",
-                "url": "http://www.apple.com/safari/"
-            },
-            {
-                "title": "Apple AirPods",
-                "url": "http://www.apple.com/airpods/"
-            },
-            {
-                "title": "Apple MacBook Pro",
-                "url": "http://www.apple.com/macbook-pro/"
-            },
-            {
-                "title": "iPhone 7",
-                "url": "http://www.apple.com/iphone/"
-            },
-            {
-                "title": "Service workers",
-                "url": "https://www.w3.org/TR/service-workers/"
-            },
-            {
-                "title": "Web workers",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
-            },
-            {
-                "title": "Apple Pay",
-                "url": "http://www.apple.com/apple-pay/"
-            },
-            {
-                "title": "WebVR",
-                "url": "https://webvr.info/"
-            },
-            {
-                "title": "React VR",
-                "url": "https://github.com/facebookincubator/react-vr"
-            },
-            {
-                "title": "WebAssembly",
-                "url": "http://webassembly.org/"
-            },
-            {
-                "title": "Dear JavaScript",
-                "url": "https://medium.com/thejameskyle/dear-javascript-7e14ffcae36c"
-            },
-            {
-                "title": "OpenSSL",
-                "url": "https://www.openssl.org/"
-            },
-            {
-                "title": "Wearables",
-                "url": "http://www.wearables.com/"
-            },
-            {
-                "title": "Brexit",
-                "url": "https://en.wikipedia.org/wiki/Brexit"
-            },
-            {
-                "title": "2016 US Election",
-                "url": "https://en.wikipedia.org/wiki/United_States_presidential_election"
-            },
-            {
-                "title": "SMACSS",
-                "url": "https://smacss.com/"
-            },
-            {
-                "title": "BEM",
-                "url": "http://getbem.com/"
-            },
-            {
-                "title": "PostCSS",
-                "url": "http://postcss.org/"
-            },
-            {
-                "title": "CSS Houdini",
-                "url": "https://github.com/w3c/css-houdini-drafts/wiki"
-            },
-            {
-                "title": "Net Neutrality",
-                "url": "https://en.wikipedia.org/wiki/Net_neutrality"
-            },
-            {
-                "title": "Netflix",
-                "url": "https://netflix.com"
-            },
-            {
-                "title": "Atom",
-                "url": "https://atom.io/"
-            },
-            {
-                "title": "Sublime",
-                "url": "https://www.sublimetext.com/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Electric Objects Frame",
-                "url": "https://www.electricobjects.com/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "2017 conference list",
-                "url": "https://github.com/ryanburgess/2017-conferences",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Travelers",
-                "url": "https://www.netflix.com/title/80105699",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Everyone",
-                "url": "http://frontendhappyhour.com",
-                "from": "Jem Young"
-            },
-            {
-                "title": "VIM - devicons",
-                "url": "https://github.com/ryanoasis/vim-devicons",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Runner’s World Podcast",
-                "url": "http://www.runnersworld.com/audio",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Run The Jewels 3",
-                "url": "https://play.spotify.com/album/3v2GjFB9V5kHgrOCXn3sI9?play=true&utm_source=open.spotify.com&utm_medium=open",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Fish Shell",
-                "url": "https://fishshell.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "React Status",
-                "url": "http://react.statuscode.com/",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "Frontend focus",
-                "url": "http://frontendfocus.co/",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "Nuclide",
-                "url": "https://nuclide.io/",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Yarn",
-                "url": "https://yarnpkg.com/",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "023",
-        "title": "Ember - Gin & Tomster",
-        "description": "Ember is a growing JavaScript framework that large companies like LinkedIn are using for their web application. In this episode, we are joined by Stacy London from Atlassian to discuss the advantages and disadvantages of leveraging Ember as a JavaScript framework.",
-        "id": "300261378",
-        "published": "December 30, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Derrick Showers",
-            "Brian Holt"
-        ],
-        "guests": [
-            {
-                "name": "Stacy London",
-                "twitter": "stacylondoner"
-            }
-        ],
-        "links": [
-            {
-                "title": "Ember",
-                "url": "http://emberjs.com/"
-            },
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Angular",
-                "url": "https://angularjs.org/"
-            },
-            {
-                "title": "Ember a11y",
-                "url": "https://github.com/ember-a11y/ember-a11y"
-            },
-            {
-                "title": "Ember Fastboot",
-                "url": "https://ember-fastboot.com/"
-            },
-            {
-                "title": "Ember Resolver",
-                "url": "https://github.com/ember-cli/ember-resolver"
-            },
-            {
-                "title": "Frontend Masters",
-                "url": "https://frontendmasters.com/"
-            },
-            {
-                "title": "Ember Community Slack",
-                "url": "https://ember-community-slackin.herokuapp.com/"
-            },
-            {
-                "title": "Ember Conf",
-                "url": "http://emberconf.com/"
-            },
-            {
-                "title": "Ember Docs",
-                "url": "http://emberjs.com/api/"
-            },
-            {
-                "title": "Yehuda Katz",
-                "url": "https://twitter.com/wycats"
-            },
-            {
-                "title": "Django",
-                "url": "https://www.djangoproject.com/"
-            },
-            {
-                "title": "Computed Properties",
-                "url": "https://guides.emberjs.com/v2.3.0/object-model/computed-properties/"
-            },
-            {
-                "title": "Obervables",
-                "url": "http://reactivex.io/documentation/observable.html"
-            },
-            {
-                "title": "Firebase",
-                "url": "https://firebase.google.com/"
-            },
-            {
-                "title": "Handlebars",
-                "url": "http://handlebarsjs.com/"
-            },
-            {
-                "title": "Mustache",
-                "url": "https://mustache.github.io/"
-            },
-            {
-                "title": "Backbone",
-                "url": "http://backbonejs.org/"
-            },
-            {
-                "title": "ASP.Net",
-                "url": "https://www.asp.net/"
-            },
-            {
-                "title": "Virtual DOM",
-                "url": "https://medium.com/cardlife-app/what-is-virtual-dom-c0ec6d6a925c"
-            },
-            {
-                "title": "Rust",
-                "url": "https://www.rust-lang.org/"
-            },
-            {
-                "title": "Swift",
-                "url": "https://swift.org/"
-            },
-            {
-                "title": "Tom Dale",
-                "url": "https://twitter.com/tomdale"
-            },
-            {
-                "title": "Kyle Simpson",
-                "url": "https://github.com/getify"
-            },
-            {
-                "title": "Stefan Penner",
-                "url": "https://twitter.com/stefanpenner"
-            },
-            {
-                "title": "Nathan Hammond",
-                "url": "https://twitter.com/nathanhammond"
-            },
-            {
-                "title": "Chad Hietala",
-                "url": "https://twitter.com/chadhietala"
-            },
-            {
-                "title": "Brendan McLoughlin",
-                "url": "https://twitter.com/brenmcl"
-            },
-            {
-                "title": "Lauren Tan (Sugar Pirate)",
-                "url": "https://twitter.com/sugarpirate_"
-            },
-            {
-                "title": "Erik Bryn",
-                "url": "https://twitter.com/ebryn"
-            },
-            {
-                "title": "Jafar Husain",
-                "url": "https://twitter.com/jhusain"
-            },
-            {
-                "title": "Mike North",
-                "url": "https://twitter.com/michaellnorth"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Crimetown",
-                "url": "https://itunes.apple.com/us/podcast/crimetown/id1170959623?mt=2",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Hip-Hop Evolution",
-                "url": "https://www.netflix.com/title/80141782",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "The OA",
-                "url": "https://www.netflix.com/title/80044950",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Ember Twiddle",
-                "url": "https://ember-twiddle.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Dockyard",
-                "url": "https://dockyard.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Ember Community Slack",
-                "url": "https://ember-community-slackin.herokuapp.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Webpack",
-                "url": "https://webpack.github.io/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Preact",
-                "url": "https://github.com/developit/preact",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Mike North",
-                "url": "https://twitter.com/michaellnorth",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "CSS Grid",
-                "url": "http://labs.jensimmons.com/examples/mondrian-2.html",
-                "from": "Stacy London"
-            },
-            {
-                "title": "Girl Develop It",
-                "url": "https://www.girldevelopit.com",
-                "from": "Stacy London"
-            }
-        ]
-    },
-    {
-        "episode": "022",
-        "title": "Drinking with more style and less sass",
-        "description": "Writing CSS seems pretty straight forward until your project and team starts to grow. CSS has a lot of issues, in this episode we share some advice for making it a little bit easier. We’ll also discuss ways to create a scalable CSS architecture for large projects and teams.",
-        "id": "298297820",
-        "published": "December 16, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Brian Holt",
-            "Mars Jullian"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Sarah Drasner",
-                "url": "https://twitter.com/sarah_edo"
-            },
-            {
-                "title": "Chris Coyier",
-                "url": "https://twitter.com/chriscoyier"
-            },
-            {
-                "title": "Una Kravets",
-                "url": "https://twitter.com/una"
-            },
-            {
-                "title": "Sass",
-                "url": "http://sass-lang.com/"
-            },
-            {
-                "title": "Less",
-                "url": "http://lesscss.org/"
-            },
-            {
-                "title": "Transpilers episode",
-                "url": "http://frontendhappyhour.com/episodes/transpilers-slow-down-and-drink/"
-            },
-            {
-                "title": "BEM",
-                "url": "http://getbem.com/"
-            },
-            {
-                "title": "Sass-lint",
-                "url": "https://github.com/sasstools/sass-lint"
-            },
-            {
-                "title": "BEM lint",
-                "url": "https://github.com/postcss/postcss-bem-linter"
-            },
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Radium",
-                "url": "https://github.com/FormidableLabs/radium"
-            },
-            {
-                "title": "Aphrodite",
-                "url": "https://github.com/Khan/aphrodite"
-            },
-            {
-                "title": "Webpack",
-                "url": "https://webpack.github.io/"
-            },
-            {
-                "title": "Ruby",
-                "url": "https://www.ruby-lang.org"
-            },
-            {
-                "title": "Ruby Sass",
-                "url": "https://www.npmjs.com/package/ruby-sass"
-            },
-            {
-                "title": "LibSass",
-                "url": "http://sass-lang.com/libsass"
-            },
-            {
-                "title": "PostCSS",
-                "url": "https://github.com/postcss/postcss"
-            },
-            {
-                "title": "CSS Houdini",
-                "url": "https://github.com/w3c/css-houdini-drafts/wiki"
-            },
-            {
-                "title": "SMACSS",
-                "url": "https://smacss.com/"
-            },
-            {
-                "title": "SassySass",
-                "url": "https://github.com/ryanburgess/sassysass"
-            },
-            {
-                "title": "Wai Lun Poon",
-                "url": "https://twitter.com/monkeytypewritr"
-            },
-            {
-                "title": "Dart",
-                "url": "https://www.dartlang.org/"
-            },
-            {
-                "title": "xkcd compiling",
-                "url": "http://xkcd.com/303/"
-            },
-            {
-                "title": "Stylus",
-                "url": "http://stylus-lang.com/"
-            },
-            {
-                "title": "Jade",
-                "url": "https://www.npmjs.com/package/jade"
-            },
-            {
-                "title": "TJ Holowaychuk",
-                "url": "https://twitter.com/tjholowaychuk"
-            },
-            {
-                "title": "Express",
-                "url": "http://expressjs.com/"
-            },
-            {
-                "title": "Koa",
-                "url": "http://koajs.com/"
-            },
-            {
-                "title": "Go",
-                "url": "https://golang.org/"
-            },
-            {
-                "title": "Autoprefixer",
-                "url": "https://autoprefixer.github.io/"
-            },
-            {
-                "title": "Flexbox",
-                "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Art of Readme",
-                "url": "https://github.com/noffle/art-of-Readme",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Nas - Wrote My Way Out",
-                "url": "https://play.spotify.com/track/3QFWe1dM5oUY0O1TTKapUS",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Google Code-in",
-                "url": "https://codein.withgoogle.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "CSS Stats",
-                "url": "http://cssstats.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Sketch",
-                "url": "https://www.sketchapp.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Complete Intro to React",
-                "url": "https://frontendmasters.com/courses/react-intro/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Code Pen",
-                "url": "https://codepen.io/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Nextdoor",
-                "url": "https://nextdoor.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "CSS Wizardry",
-                "url": "http://csswizardry.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "mrmrs",
-                "url": "https://twitter.com/mrmrs_",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Una Kravets",
-                "url": "https://twitter.com/Una",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Sarah Drasner",
-                "url": "https://twitter.com/sarah_edo",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Rachel Nabors",
-                "url": "https://twitter.com/rachelnabors",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "City of Minneapolis",
-                "url": "http://www.ci.minneapolis.mn.us/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Laphroaig Madeira",
-                "url": "http://www.laphroaig.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "cssreference.io",
-                "url": "http://cssreference.io/",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "The Great Dickens Fair",
-                "url": "http://dickensfair.com/",
-                "from": "Mars Jullian"
-            }
-        ]
-    },
-    {
-        "episode": "021",
-        "title": "Mixed drinks and Mixed languages",
-        "description": "Have you had to deal with supporting more than one language in your web application? Offering content in several languages makes a better experience for your users but it can add many layers of complexity in your application’s design and architecture. In this episode we’ll be discussing the ways we have dealt with supporting multiple languages.",
-        "id": "296456619",
-        "published": "December 5, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Brian Holt"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Google Translate",
-                "url": "https://translate.google.com/"
-            },
-            {
-                "title": "React INTL",
-                "url": "https://github.com/yahoo/react-intl"
-            },
-            {
-                "title": "Weebly",
-                "url": "https://www.weebly.com/"
-            },
-            {
-                "title": "Squarespace",
-                "url": "https://www.squarespace.com/"
-            },
-            {
-                "title": "Jekyll",
-                "url": "https://jekyllrb.com/"
-            },
-            {
-                "title": "Wordpress",
-                "url": "https://wordpress.com"
-            },
-            {
-                "title": "Drupal",
-                "url": "https://www.drupal.org/"
-            },
-            {
-                "title": "Pootle",
-                "url": "http://pootle.translatehouse.org/"
-            },
-            {
-                "title": "Wasted on Workflows",
-                "url": "http://frontendhappyhour.com/episodes/wasted-on-workflows"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Oliver Stone's Untold History of the United States",
-                "url": "https://www.netflix.com/title/80127995",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Purity Ring - Another Eternity",
-                "url": "https://open.spotify.com/album/4ymjpcGruNuUUUZOeGawLe",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Serge.io",
-                "url": "https://serge.io/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Moral Machine",
-                "url": "http://moralmachine.mit.edu/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "HTC Vive",
-                "url": "https://www.vive.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "The Crown",
-                "url": "https://www.netflix.com/title/80025678",
-                "from": "Jem Young"
-            },
-            {
-                "title": "The Setup",
-                "url": "https://usesthis.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Kitura",
-                "url": "https://github.com/IBM-Swift/Kitura",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "SF Chronicle",
-                "url": "http://www.sfchronicle.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Washington Post",
-                "url": "https://www.washingtonpost.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Quick Draw with Google",
-                "url": "https://quickdraw.withgoogle.com/",
-                "from": "Brian Holt"
-            }
-        ]
-    },
-    {
-        "episode": "020",
-        "title": "Wasted on workflows",
-        "description": "We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
-        "id": "294014341",
-        "published": "November 20, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Jem Young",
-            "Brian Holt",
-            "Mars Jullian"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "MacOS",
-                "url": "http://www.apple.com/macos"
-            },
-            {
-                "title": "Windows",
-                "url": "https://www.microsoft.com/en-us/windows-10"
-            },
-            {
-                "title": "Ubuntu",
-                "url": "https://www.ubuntu.com/"
-            },
-            {
-                "title": ".NET",
-                "url": "https://www.microsoft.com/net"
-            },
-            {
-                "title": "C#",
-                "url": "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx"
-            },
-            {
-                "title": "Sublime Text",
-                "url": "https://www.sublimetext.com/"
-            },
-            {
-                "title": "Sublime Text dev channel (nightly/monthly builds)",
-                "url": "http://www.sublimetext.com/3dev"
-            },
-            {
-                "title": "Emacs",
-                "url": "https://emacsformacosx.com/"
-            },
-            {
-                "title": "Atom",
-                "url": "https://atom.io/"
-            },
-            {
-                "title": "Vim",
-                "url": "http://www.vim.org/"
-            },
-            {
-                "title": "Eclipse",
-                "url": "https://eclipse.org/"
-            },
-            {
-                "title": "Visual Code",
-                "url": "https://code.visualstudio.com/"
-            },
-            {
-                "title": "TextMate",
-                "url": "https://macromates.com/"
-            },
-            {
-                "title": "Notepad++",
-                "url": "https://notepad-plus-plus.org/"
-            },
-            {
-                "title": "Dreamweaver",
-                "url": "http://www.adobe.com/products/dreamweaver.html"
-            },
-            {
-                "title": "iTerm",
-                "url": "https://www.iterm2.com/"
-            },
-            {
-                "title": "Apple Time Machine backup",
-                "url": "https://www.youtube.com/watch?v=ZLhvEfiOADk"
-            },
-            {
-                "title": "Kaleidoscope",
-                "url": "http://www.kaleidoscopeapp.com/"
-            },
-            {
-                "title": "1Password",
-                "url": "https://1password.com/"
-            },
-            {
-                "title": "Dropbox",
-                "url": "https://www.dropbox.com/"
-            },
-            {
-                "title": "Trello",
-                "url": "https://trello.com/"
-            },
-            {
-                "title": "Chrome",
-                "url": "https://www.google.com/chrome/"
-            },
-            {
-                "title": "Firefox",
-                "url": "https://www.mozilla.org/firefox"
-            },
-            {
-                "title": "LastPass",
-                "url": "https://lastpass.com"
-            },
-            {
-                "title": "Safari",
-                "url": "https://support.apple.com/downloads/#safari"
-            },
-            {
-                "title": "Homebrew",
-                "url": "http://brew.sh/"
-            },
-            {
-                "title": "Node JS",
-                "url": "https://nodejs.org"
-            },
-            {
-                "title": "nvm",
-                "url": "https://github.com/creationix/nvm"
-            },
-            {
-                "title": "Browser Stack",
-                "url": "https://www.browserstack.com/"
-            },
-            {
-                "title": "Alfred",
-                "url": "https://www.alfredapp.com/"
-            },
-            {
-                "title": "Bartender",
-                "url": "https://www.macbartender.com/"
-            },
-            {
-                "title": "Charles Proxy",
-                "url": "https://www.charlesproxy.com/"
-            },
-            {
-                "title": "Screeny",
-                "url": "http://www.screenyapp.com/"
-            },
-            {
-                "title": "Skitch",
-                "url": "https://evernote.com/skitch/"
-            },
-            {
-                "title": "Evernote",
-                "url": "https://evernote.com"
-            },
-            {
-                "title": "Eclipse",
-                "url": "https://www.eclipse.org/"
-            },
-            {
-                "title": "Eslint",
-                "url": "https://github.com/roadhump/SublimeLinter-eslint"
-            },
-            {
-                "title": "Sublime DocBlockr",
-                "url": "https://github.com/Warin/Sublime/tree/master/DocBlockr"
-            },
-            {
-                "title": "Emmet",
-                "url": "http://emmet.io/"
-            },
-            {
-                "title": "GitGutter (Sublime)",
-                "url": "https://github.com/jisaacks/GitGutter"
-            },
-            {
-                "title": "GitHubinator (Sublime)",
-                "url": "https://github.com/ehamiter/GitHubinator"
-            },
-            {
-                "title": "NERD tree (Vim)",
-                "url": "https://github.com/scrooloose/nerdtree"
-            },
-            {
-                "title": "Less",
-                "url": "http://lesscss.org/"
-            },
-            {
-                "title": "Sass",
-                "url": "http://sass-lang.com/"
-            },
-            {
-                "title": "Firefox Nightly",
-                "url": "https://nightly.mozilla.org/"
-            },
-            {
-                "title": "JIRA",
-                "url": "https://jira.atlassian.com"
-            },
-            {
-                "title": "Slack",
-                "url": "https://slack.com/"
-            },
-            {
-                "title": "HipChat",
-                "url": "https://www.hipchat.com/"
-            },
-            {
-                "title": "Yammer",
-                "url": "https://www.yammer.com/"
-            },
-            {
-                "title": "Workplace by Facebook",
-                "url": "https://workplace.fb.com/"
-            },
-            {
-                "title": "Microsoft Teams",
-                "url": "https://products.office.com/en-us/microsoft-teams/group-chat-software"
-            },
-            {
-                "title": "LG 34 inch curved monitor",
-                "url": "https://www.amazon.com/LG-Electronics-34-Inch-LED-Lit-34UC97-S/dp/B00OKSEWL6"
-            },
-            {
-                "title": "Apple Watch",
-                "url": "http://www.apple.com/watch"
-            },
-            {
-                "title": "Treadmill Desk",
-                "url": "https://www.amazon.com/TrekDesk-Treadmill-Desks-TD-01-Desk/dp/B002IYRBI0"
-            },
-            {
-                "title": "Fitbit",
-                "url": "http://www.fitbit.com/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Reptar",
-                "url": "http://reptar.github.io/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Chance",
-                "url": "http://www.hulu.com/start/?show=chance",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "H.264 is magic",
-                "url": "https://sidbala.com/h-264-is-magic/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "We Rate Dogs",
-                "url": "https://twitter.com/dog_rates",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Jest",
-                "url": "https://facebook.github.io/jest/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "The Naked and Famous - Simple Forms",
-                "url": "https://play.spotify.com/artist/0oeUpvxWsC8bWS6SnpU8b9",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Bose ear buds",
-                "url": "https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "React Devtools",
-                "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "Jolene - collaboration with Dolly Parton and Pentatonix",
-                "url": "https://play.spotify.com/track/60PbWX0IWXg10YaE6VlywH",
-                "from": "Mars Jullian"
-            }
-        ]
-    },
-    {
-        "episode": "019",
-        "title": "Drinking to digital nomads",
-        "description": "The idea of working remotely has become more realistic over the past few years, making it easier for engineers to do their work without being tied to a physical location. In this episode, we are joined by Darren Buckner, Founder and CEO of Workfrom, and Sarah Showers from LinkedIn. Both guests will join us to discuss the pros and cons of working from your favorite coffee shop.",
-        "id": "291919603",
-        "published": "November 7, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Brian Holt",
-            "Sarah Federman"
-        ],
-        "guests": [
-            {
-                "name": "Sarah Showers",
-                "twitter": "sarahlshowers"
-            },
-            {
-                "name": "Darren Buckner",
-                "twitter": "darrenbuckner"
-            }
-        ],
-        "links": [
-            {
-                "title": "Impact Hub",
-                "url": "https://saltlake.impacthub.net/"
-            },
-            {
-                "title": "Slack",
-                "url": "https://slack.com/"
-            },
-            {
-                "title": "Google Hangouts",
-                "url": "https://hangouts.google.com/"
-            },
-            {
-                "title": "Project retrospective",
-                "url": "https://en.wikipedia.org/wiki/Retrospective"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Workfrom",
-                "url": "https://workfrom.co/",
-                "from": "Sarah Showers"
-            },
-            {
-                "title": "Coffee Bar SF",
-                "url": "http://www.coffeebarsf.com/",
-                "from": "Sarah Showers"
-            },
-            {
-                "title": "Work Shop Cafe",
-                "url": "http://www.workshopcafe.com/",
-                "from": "Sarah Showers"
-            },
-            {
-                "title": "The 10 Biggest Misconceptions About Remote Work",
-                "url": "http://blog.trello.com/company-remote-work-myths",
-                "from": "Darren Buckner"
-            },
-            {
-                "title": "Toby: manage your tabs",
-                "url": "https://chrome.google.com/webstore/detail/toby-manage-your-tabs/hddnkoipeenegfoeaoibdmnaalmgkpip",
-                "from": "Darren Buckner"
-            },
-            {
-                "title": "Oversight",
-                "url": "https://objective-see.com/products/oversight.html",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "How To Open Locks With Improvised Tools",
-                "url": "https://www.amazon.com/gp/product/0966608712/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Why work doesn’t happen at work TED Talk",
-                "url": "https://www.ted.com/talks/jason_fried_why_work_doesn_t_happen_at_work",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Android 404 page",
-                "url": "https://www.android.com/404/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "On Style Maintenance",
-                "url": "https://css-tricks.com/on-style-maintenance/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Grim Dawn",
-                "url": "http://www.grimdawn.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Going Remote, Staying Effective",
-                "url": "http://www.linkedin.com/pulse/going-remote-staying-effective-james-bake",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Yelp Collections",
-                "url": "https://www.yelpblog.com/2016/10/bookmark-collections-new-back-pocket-resource",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Haelos - Full Circle",
-                "url": "https://play.spotify.com/album/3kE0d3eZX1EjoWMeHQTvXQ",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Track JS",
-                "url": "https://trackjs.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Frontend Masters",
-                "url": "https://frontendmasters.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Indie Hackers Nomad List",
-                "url": "https://www.indiehackers.com/businesses/nomad-list",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Best Practices for Working with Satellite Developers",
-                "url": "http://www.lookthink.com/blog/near-and-far-best-practices-working-satellite-developers",
-                "from": "Sarah Federman"
-            }
-        ]
-    },
-    {
-        "episode": "018",
-        "title": "Shotgunning websites: web performance",
-        "description": "Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important.",
-        "id": "290570478",
-        "published": "October 29, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Derrick Showers",
-            "Sarah Federman"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Amazon found every 100ms of latency cost them 1% in sales",
-                "url": "http://blog.gigaspaces.com/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/"
-            },
-            {
-                "title": "Page speed correlates to business metrics at Walmart.com",
-                "url": "http://www.webperformancetoday.com/2012/02/28/4-awesome-slides-showing-how-page-speed-correlates-to-business-metrics-at-walmart-com/"
-            },
-            {
-                "title": "For Google, 400ms of increased page load time, results in 0,44% lost search sessions",
-                "url": "http://www.cedexis.com/blog/for-google-400ms-of-increased-page-load-time-results-in-044-lost-search-sessions/"
-            },
-            {
-                "title": "The Social Network",
-                "url": "http://www.imdb.com/title/tt1285016/"
-            },
-            {
-                "title": "Large DDoS attacks cause outages at Twitter, Spotify, and other sites",
-                "url": "https://techcrunch.com/2016/10/21/many-sites-including-twitter-and-spotify-suffering-outage/"
-            },
-            {
-                "title": "Google Page Rank",
-                "url": "http://www.prchecker.info/"
-            },
-            {
-                "title": "AMP",
-                "url": "https://www.ampproject.org/"
-            },
-            {
-                "title": "2G Tuesdays",
-                "url": "http://www.theverge.com/2015/10/28/9625062/facebook-2g-tuesdays-slow-internet-developing-world"
-            },
-            {
-                "title": "Gzip",
-                "url": "https://en.wikipedia.org/wiki/Gzip"
-            },
-            {
-                "title": "Wordpress",
-                "url": "https://wordpress.com/"
-            },
-            {
-                "title": "Forward JS",
-                "url": "https://forwardjs.com/"
-            },
-            {
-                "title": "WebPageTest",
-                "url": "https://www.webpagetest.org/"
-            },
-            {
-                "title": "PageSpeed",
-                "url": "https://developers.google.com/speed/pagespeed/"
-            },
-            {
-                "title": "Gulp",
-                "url": "http://gulpjs.com/"
-            },
-            {
-                "title": "Grunt",
-                "url": "http://gruntjs.com/"
-            },
-            {
-                "title": "npm",
-                "url": "https://www.npmjs.com/"
-            },
-            {
-                "title": "Broccoli",
-                "url": "http://broccolijs.com/"
-            },
-            {
-                "title": "Glimmer",
-                "url": "https://github.com/tildeio/glimmer"
-            },
-            {
-                "title": "GWT",
-                "url": "http://www.gwtproject.org/"
-            },
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Ember",
-                "url": "http://emberjs.com/"
-            },
-            {
-                "title": "Angular",
-                "url": "https://angular.io/"
-            },
-            {
-                "title": "Debugging Node.js in Production",
-                "url": "https://www.youtube.com/watch?v=O1YP8QP9gLA"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Caplansky's Deli",
-                "url": "https://www.caplanskys.com/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "React Perf Tool",
-                "url": "https://www.npmjs.com/package/react-perf-tool",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "FlameGraph",
-                "url": "https://github.com/brendangregg/FlameGraph",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Real-time performance audit with Chrome DevTools",
-                "url": "https://www.youtube.com/watch?v=pt4TjbSQz-g",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Week of learning",
-                "url": "https://learning.linkedin.com/week-of-learning",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Black Mirror",
-                "url": "https://www.netflix.com/title/70264888",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Man In The High Castle",
-                "url": "https://www.amazon.com/Man-High-Castle-Season/dp/B00RSGIVVO",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Bridge Troll",
-                "url": "https://www.bridgetroll.org/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Imgix Page Weight Tool",
-                "url": "https://pageweight.imgix.com/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "CSS Triggers",
-                "url": "https://csstriggers.com/",
-                "from": "Sarah Federman"
-            }
-        ]
-    },
-    {
-        "episode": "017",
-        "title": "Managing our drinks",
-        "description": "In this episode, we are joined by Chris Saint-Amant from Netflix to help discuss what it’s like to transition from being an engineer to becoming an engineering manager. We share our thoughts on what engineers expect in their manager and share advice for engineers interested in moving into a management role.",
-        "id": "287594273",
-        "published": "October 13, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Ryan Anklam",
-            "Brian Holt"
-        ],
-        "guests": [
-            {
-                "name": "Chris Saint-Amant",
-                "twitter": "csaintamant"
-            }
-        ],
-        "links": [],
-        "picks": [
-            {
-                "title": "Radical Candor",
-                "url": "http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/",
-                "from": "Chris Saint-Amant"
-            },
-            {
-                "title": "Suuns - Hold/Still",
-                "url": "https://suuns.bandcamp.com/",
-                "from": "Chris Saint-Amant"
-            },
-            {
-                "title": "I'll Sleep When I'm Dead",
-                "url": "https://www.netflix.com/title/80118930",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "The Advantage",
-                "url": "https://www.amazon.com/Summary-Advantage-Patrick-Lencioni-Analysis/dp/1519620314",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Free O’Reilly Books",
-                "url": "https://www.reddit.com/r/learnprogramming/comments/556kxj/oreilly_offering_programming_ebooks_for_free/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Noto font by Google",
-                "url": "https://www.google.com/get/noto/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Infinite Jukebox",
-                "url": "http://labs.echonest.com/Uploader/index.html",
-                "from": "Jem Young"
-            },
-            {
-                "title": "XOXO Soundtrack",
-                "url": "https://play.spotify.com/album/7GII7KZDArYqZ14xcyshb4",
-                "from": "Jem Young"
-            },
-            {
-                "title": "TC-39",
-                "url": "https://github.com/tc39",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Ryan Burgess @ Full Stack Toronto",
-                "url": "http://fsto.co/schedule/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Being a Manager is Hard",
-                "url": "https://www.reddit.com/r/sysadmin/comments/55k4lj/being_a_manager_is_hard/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "The State of JS",
-                "url": "http://stateofjs.com/2016/introduction/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Samsung SmartThings Hub",
-                "url": "https://www.smartthings.com/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Flume - Skin",
-                "url": "https://play.spotify.com/album/6VHCF8ykDo3STafE5JfMAs?play=true&utm_source=open.spotify.com",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Bottle Logic Brewing",
-                "url": "http://bottlelogic.com/",
-                "from": "Brian Holt"
-            }
-        ]
-    },
-    {
-        "episode": "016",
-        "title": "Spilled beer and epic fails",
-        "description": "As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes.",
-        "id": "284642453",
-        "published": "September 25, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Brian Holt",
-            "Sarah Federman"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Flash",
-                "url": "https://www.adobe.com/support/flash/downloads.html"
-            },
-            {
-                "title": "Sass",
-                "url": "http://sass-lang.com/"
-            },
-            {
-                "title": "Python",
-                "url": "https://www.python.org/"
-            },
-            {
-                "title": "PHP",
-                "url": "http://php.net/"
-            },
-            {
-                "title": "Chartbeat",
-                "url": "https://chartbeat.com/"
-            },
-            {
-                "title": "SRE",
-                "url": "https://en.wikipedia.org/wiki/Site_reliability_engineer"
-            },
-            {
-                "title": "Reddit Marketplace",
-                "url": "https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/"
-            },
-            {
-                "title": "Full Stack TO",
-                "url": "https://fsto.co/"
-            },
-            {
-                "title": "Wordpress",
-                "url": "https://wordpress.com"
-            },
-            {
-                "title": "Nagios",
-                "url": "https://exchange.nagios.org/"
-            },
-            {
-                "title": "Jenkins",
-                "url": "https://jenkins.io/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "React plus X: Best Practices for Reusable UI Components - Mars Jullian",
-                "url": "https://www.youtube.com/watch?v=Yy7gFgETp0o",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "React Rally 2016 videos",
-                "url": "https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "I got scammed by a Silicon Valley startup",
-                "url": "https://medium.com/startup-grind/i-got-scammed-by-a-silicon-valley-startup-574ced8acdff",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "React Game Kit",
-                "url": "https://github.com/FormidableLabs/react-game-kit",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "A Very Secret Service",
-                "url": "https://www.youtube.com/watch?v=fwDUguW8Duo",
-                "from": "Jem Young"
-            },
-            {
-                "title": "APEX: The Story of the Hypercar",
-                "url": "https://www.netflix.com/title/80109260",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Polarheart",
-                "url": "https://www.facebook.com/polarheartmusic/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Traveling",
-                "url": "http://frontendhappyhour.com",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "GitHub Universe conference",
-                "url": "https://github.com/universe-2016",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Oh Shit Git",
-                "url": "http://ohshitgit.com/",
-                "from": "Sarah Federman"
-            }
-        ]
-    },
-    {
-        "episode": "015",
-        "title": "A flight of JavaScript frameworks",
-        "description": "In the JavaScript community, we have a lot of amazing frameworks that help us in our day to day work. It can be at times overwhelming to understand what framework is the best one to use. In this episode, we discuss our thoughts and opinions on the various frameworks.",
-        "id": "282673305",
-        "published": "September 12, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Derrick Showers"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Angular",
-                "url": "https://angularjs.org/"
-            },
-            {
-                "title": "Ember",
-                "url": "http://emberjs.com/"
-            },
-            {
-                "title": "JQuery",
-                "url": "https://jquery.com/"
-            },
-            {
-                "title": "Backbone",
-                "url": "http://backbonejs.org/"
-            },
-            {
-                "title": "Marionette",
-                "url": "http://marionettejs.com/"
-            },
-            {
-                "title": "Knockout",
-                "url": "http://knockoutjs.com/"
-            },
-            {
-                "title": "Troop",
-                "url": "http://troopjs.com/"
-            },
-            {
-                "title": "Prototype",
-                "url": "http://prototypejs.org/"
-            },
-            {
-                "title": "YUI",
-                "url": "http://yuilibrary.com/"
-            },
-            {
-                "title": "Webpack",
-                "url": "https://webpack.github.io/"
-            },
-            {
-                "title": "GWT",
-                "url": "http://www.gwtproject.org/"
-            },
-            {
-                "title": "Brian Holt's React & ES6 workshop",
-                "url": "https://btholt.github.io/complete-intro-to-react/"
-            },
-            {
-                "title": "Ghost",
-                "url": "https://ghost.org/"
-            },
-            {
-                "title": "Frontend Masters",
-                "url": "https://frontendmasters.com/"
-            },
-            {
-                "title": "Egghead.io",
-                "url": "https://egghead.io/"
-            },
-            {
-                "title": "Pluralsight",
-                "url": "https://www.pluralsight.com"
-            },
-            {
-                "title": "Linda.com",
-                "url": "https://www.lynda.com/"
-            },
-            {
-                "title": "Ember Slack",
-                "url": "https://ember-community-slackin.herokuapp.com/"
-            },
-            {
-                "title": "Paul Irish",
-                "url": "https://twitter.com/paul_irish"
-            },
-            {
-                "title": "John Lindquist",
-                "url": "https://twitter.com/johnlindquist"
-            }
-        ],
-        "picks": [
-            {
-                "title": "React in 7 minutes",
-                "url": "https://egghead.io/lessons/react-react-in-7-minutes",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Mackup",
-                "url": "https://github.com/lra/mackup",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "AMP Project",
-                "url": "https://www.ampproject.org/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "DoodlesTV",
-                "url": "https://www.youtube.com/channel/UCyArfuouSLqk3cnMoDUUzlQ",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Fidget cube",
-                "url": "https://www.producthunt.com/tech/fidget-cube",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Sully",
-                "url": "http://www.imdb.com/title/tt3263904/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Alamo Drafthouse",
-                "url": "https://drafthouse.com/sf",
-                "from": "Derrick Showers"
-            }
-        ]
-    },
-    {
-        "episode": "014",
-        "title": "Hangovers and hotels: engineer conferences",
-        "description": "Conferences continue to be a great way to learn and grow as an engineer. In the 14th episode of the Front End Happy Hour podcast we discuss the value of conferences and why you might want to attend. It’s a special episode because we recorded at React Rally in Salt Lake City. At the conference we caught up with a lot of great attendees and speakers to hear about their experiences at conferences and the benefits for attending.",
-        "id": "280341137",
-        "published": "August 28, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Jem Young",
-            "Ryan Anklam"
-        ],
-        "guests": [
-            {
-                "name": "Tasha Alfano",
-                "twitter": "TashAlfano"
-            },
-            {
-                "name": "Sumana Mohan",
-                "twitter": "sumana_mohan"
-            },
-            {
-                "name": "Henry Zhu",
-                "twitter": "left_pad"
-            },
-            {
-                "name": "Ryan Wachholz",
-                "twitter": "https://github.com/wachie"
-            },
-            {
-                "name": "Quinn Daniels",
-                "twitter": "https://github.com/aqdaniels"
-            },
-            {
-                "name": "Hani Ahir",
-                "twitter": "HaniAhir"
-            },
-            {
-                "name": "Albert Toledo",
-                "twitter": "toledoalbert"
-            },
-            {
-                "name": "Brian Tice",
-                "twitter": "BrianTice99"
-            }
-        ],
-        "links": [
-            {
-                "title": "React Rally",
-                "url": "http://www.reactrally.com/"
-            },
-            {
-                "title": "Fluent Conference",
-                "url": "http://conferences.oreilly.com/fluent"
-            },
-            {
-                "title": "Scotland JS",
-                "url": "http://scotlandjs.com/"
-            },
-            {
-                "title": "FITC",
-                "url": "http://fitc.ca/"
-            },
-            {
-                "title": "Adobe Max",
-                "url": "https://max.adobe.com/"
-            },
-            {
-                "title": "Jamison Dance",
-                "url": "https://twitter.com/jergason"
-            },
-            {
-                "title": "Matt Zabriskie",
-                "url": "https://twitter.com/mzabriskie"
-            },
-            {
-                "title": "React JS",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Pete Hunt",
-                "url": "https://twitter.com/floydophone"
-            },
-            {
-                "title": "Stranger Things",
-                "url": "https://www.netflix.com/title/80057281"
-            },
-            {
-                "title": "Xoxo",
-                "url": "https://www.netflix.com/title/80057691"
-            },
-            {
-                "title": "Recruiter episode",
-                "url": "http://frontendhappyhour.com/episodes/ninja-rockstar-whiskey-drinker-with-10-years-ipa-experience/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "V-moda m-100 headphones",
-                "url": "https://amzn.com/B00A39PPDK",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Deadmau5 Stranger Things Cover",
-                "url": "http://www.youredm.com/2016/08/15/watch-deadmau5-cover-stranger-things-theme-song/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Emojipedia",
-                "url": "http://emojipedia.org/pile-of-poo/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Tron Legacy Reconfigured",
-                "url": "https://www.youtube.com/user/pr0nyTronLegacyRecon",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Disclosure - You & Me - Flume remix",
-                "url": "https://open.spotify.com/track/1snNAXmmPXCn0dkF9DaPWw",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Zamst Knee Brace",
-                "url": "https://amzn.com/B0093260L4",
-                "from": "Ryan Anklam"
-            }
-        ]
-    },
-    {
-        "episode": "013",
-        "title": "Drinking in the present to learn future JavaScript",
-        "description": "In episode 13 of the Front End Happy Hour podcast, we’re joined by Jafar Husain from Netflix to talk with us about the future of JavaScript. Jafar is part of the TC-39 committee that helps determine the future specs of ECMAScript. Jafar shares a lot of interesting insights into how the committee works and how a feature makes it's way into the spec. Jafar also talks to us about Observables and cancellable promises.",
-        "id": "278757290",
-        "published": "August 17, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Jem Young",
-            "Derrick Showers",
-            "Brian Holt"
-        ],
-        "guests": [
-            {
-                "name": "Jafar Husain",
-                "twitter": "jhusain"
-            }
-        ],
-        "links": [
-            {
-                "title": "TC-39",
-                "url": "http://www.ecma-international.org/memento/TC39.htm"
-            },
-            {
-                "title": "ECMAScript",
-                "url": "https://en.wikipedia.org/wiki/ECMAScript"
-            },
-            {
-                "title": "Iterators and Generators",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"
-            },
-            {
-                "title": "Proxies",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy"
-            },
-            {
-                "title": "Observables",
-                "url": "http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html"
-            },
-            {
-                "title": "Promises",
-                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
-            },
-            {
-                "title": "Evan Czaplicki",
-                "url": "https://twitter.com/czaplic"
-            },
-            {
-                "title": "Yehuda Katz",
-                "url": "https://twitter.com/wycats"
-            },
-            {
-                "title": "Rust Language",
-                "url": "https://www.rust-lang.org/"
-            },
-            {
-                "title": "TypeScript",
-                "url": "https://www.typescriptlang.org/"
-            },
-            {
-                "title": "Elm Language",
-                "url": "http://elm-lang.org/"
-            },
-            {
-                "title": "PureScript",
-                "url": "http://www.purescript.org/"
-            },
-            {
-                "title": "Flow",
-                "url": "https://flowtype.org/"
-            },
-            {
-                "title": "Jay Phelps",
-                "url": "https://twitter.com/_jayphelps"
-            },
-            {
-                "title": "LazyDOM",
-                "url": "https://medium.com/jayphelps/lazydom-an-experiment-to-bring-virtual-dom-to-the-browser-natively-6a2f47096aca"
-            },
-            {
-                "title": "Tracy Lee",
-                "url": "https://twitter.com/ladyleet"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Idris Language",
-                "url": "http://www.idris-lang.org/",
-                "from": "Jafar Husain"
-            },
-            {
-                "title": "Status, process, and documents for ECMA262",
-                "url": "https://github.com/tc39/ecma262",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Octomore Scotch 07.1",
-                "url": "https://www.bruichladdich.com/the-whisky/octomore/octomore-071-208-ppm",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Morbotron",
-                "url": "https://morbotron.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Full Stack Toronto",
-                "url": "https://fsto.co/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Glimmer 2 Deep Dive",
-                "url": "https://www.youtube.com/watch?v=vL8sCi1Bv6E",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Rogue varieties",
-                "url": "http://www.rogue.com/roguebeers/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "I Really Like Angular 2 - Trailer for The Jeff Cross Show on Modern Web feat Jafar Husain",
-                "url": "https://www.youtube.com/watch?v=1NXhOChi54U",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Modern Web Podcast",
-                "url": "http://www.modern-web.org/",
-                "from": "Brian Holt"
-            }
-        ]
-    },
-    {
-        "episode": "012",
-        "title": "Ninja Rockstar Whiskey Drinker With 10 Years IPA Experience",
-        "description": "As an engineer or developer we currently fortunate enough to have a wide selection of amazing jobs and companies to work for. Although we have a wide selection of jobs, finding the right one is extremely important and may require some additional work. In this episode, we are joined by the guests Chrissy Running and Alayna Ketner who are both talented recruiters at Netflix. Chrissy and Alayna have a lot of experience working with engineers to help find the ideal role. We’ll discuss types of things companies are looking for and how you can best leverage competitive offers in your job searches.",
-        "id": "277345887",
-        "published": "August 8, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Ryan Anklam",
-            "Sarah Federman"
-        ],
-        "guests": [
-            {
-                "name": "Chrissy Running",
-                "twitter": "ChrissyRunning"
-            },
-            {
-                "name": "Alayna Ketner",
-                "twitter": "AlaynaSK"
-            }
-        ],
-        "links": [
-            {
-                "title": "Firebase",
-                "url": "https://firebase.google.com/"
-            },
-            {
-                "title": "Glassdoor",
-                "url": "https://www.glassdoor.com"
-            },
-            {
-                "title": "Ted Talk - Power pose",
-                "url": "https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are"
-            },
-            {
-                "title": "Ten Rules for Negotiating a Job Offer",
-                "url": "https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6"
-            },
-            {
-                "title": "Salary Negotiation",
-                "url": "http://www.kalzumeus.com/2012/01/23/salary-negotiation/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Culture Map",
-                "url": "https://www.amazon.com/Culture-Map-Breaking-Invisible-Boundaries/dp/1610392507",
-                "from": "Chrissy Running"
-            },
-            {
-                "title": "The Night Of",
-                "url": "http://www.hbo.com/the-night-of",
-                "from": "Chrissy Running"
-            },
-            {
-                "title": "The Fundamentals of Caring",
-                "url": "https://www.netflix.com/title/80097349",
-                "from": "Alayna Ketner"
-            },
-            {
-                "title": "Song Exploder",
-                "url": "http://songexploder.net/",
-                "from": "Alayna Ketner"
-            },
-            {
-                "title": "React CLI tool",
-                "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Young, Wild & Free - Snoop Dogg, Wiz Khalifa, Bruno Mars",
-                "url": "https://play.spotify.com/track/5HQVUIKwCEXpe7JIHyY734?play=true",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "a.singlediv.com",
-                "url": "http://a.singlediv.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "httpoxy",
-                "url": "https://httpoxy.org/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Jon Hopkins",
-                "url": "https://www.youtube.com/watch?v=8XtqUOegCv8",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Star Trek Beyond (sucks)",
-                "url": "http://www.imdb.com/title/tt2660888/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "STS 121 Launch",
-                "url": "https://www.youtube.com/watch?v=OnoNITE-CLc",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Bojack Horseman - Season 3, episode 4",
-                "url": "https://www.netflix.com/title/70300800",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Full Width Containers in Limited Width Parents",
-                "url": "https://css-tricks.com/full-width-containers-limited-width-parents/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "The Macro - Interviews",
-                "url": "http://themacro.com/interviews/",
-                "from": "Sarah Federman"
-            }
-        ]
-    },
-    {
-        "episode": "011",
-        "title": "Transpilers - slow down and drink",
-        "description": "Leveraging transpilers is extremely helpful in allowing us to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
-        "id": "275723253",
-        "published": "July 27, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Ryan Anklam",
-            "Brian Holt",
-            "Sarah Federman"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Babel",
-                "url": "https://babeljs.io/"
-            },
-            {
-                "title": "CoffeeScript",
-                "url": "http://coffeescript.org/"
-            },
-            {
-                "title": "TypeScript",
-                "url": "https://www.typescriptlang.org/"
-            },
-            {
-                "title": "Traceur",
-                "url": "https://github.com/google/traceur-compiler"
-            },
-            {
-                "title": "Sass",
-                "url": "http://sass-lang.com/"
-            },
-            {
-                "title": "Less",
-                "url": "http://lesscss.org/"
-            },
-            {
-                "title": "Stylus",
-                "url": "http://stylus-lang.com/"
-            },
-            {
-                "title": "Chrome V8",
-                "url": "https://developers.google.com/v8/"
-            },
-            {
-                "title": "Firefox SpiderMonkey",
-                "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey"
-            },
-            {
-                "title": "IE Chakra",
-                "url": "https://github.com/Microsoft/ChakraCore"
-            },
-            {
-                "title": "TC39 Committee",
-                "url": "http://www.ecma-international.org/memento/TC39.htm"
-            },
-            {
-                "title": "React CLI",
-                "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html"
-            },
-            {
-                "title": "ClojureScript",
-                "url": "https://github.com/clojure/clojurescript"
-            },
-            {
-                "title": "Ohm",
-                "url": "https://github.com/cdglabs/ohm"
-            },
-            {
-                "title": "CodePen",
-                "url": "http://codepen.io/"
-            },
-            {
-                "title": "Racket",
-                "url": "https://racket-lang.org/"
-            },
-            {
-                "title": "Erlang",
-                "url": "https://www.erlang.org/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Stranger Things",
-                "url": "https://www.netflix.com/title/80057281",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Jem Young - Transpilers: not so fast my friend - Empire JS",
-                "url": "https://www.youtube.com/watch?v=L3JJ8qSIg2k",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Github Go to Definition Chrome Extension",
-                "url": "https://github.com/capablemonkey/github-go-to-definition",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "StackOverflow’s Documentation Beta",
-                "url": "http://stackoverflow.com/documentation",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Explosions in the Sky - The Wilderness",
-                "url": "https://explosionsinthesky.bandcamp.com",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Digital Ocean",
-                "url": "https://www.digitalocean.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Babel Try It Out",
-                "url": "https://babeljs.io/repl/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Google Inbox",
-                "url": "https://inbox.google.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Google Keep",
-                "url": "https://keep.google.com/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Wafia - Heartburn Felix Cartel Remix",
-                "url": "https://play.spotify.com/track/6ZtO6PJglJjcqpGeiDcxyV?play=true",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "HyperTerm",
-                "url": "https://hyperterm.org/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Visual Studio Code",
-                "url": "https://code.visualstudio.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Elle - Women in Tech 2016",
-                "url": "http://www.elle.com/culture/tech/a35725/women-in-tech-2016/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Less: The World’s Most Misunderstood CSS Pre-processor*",
-                "url": "https://getcrunch.co/2015/10/08/less-the-worlds-most-misunderstood-css-pre-processor/",
-                "from": "Sarah Federman"
-            }
-        ]
-    },
-    {
-        "episode": "010",
-        "title": "Raise your glass to women in tech",
-        "description": "In the technology industry we’re continually trying to grow the diversity of people who are working in the space. Most recently there have been a lot of great efforts made to increase the number of women in tech. In this episode we are joined by two talented women working at large tech companies in the Bay Area, Lisa Burgess (Uber) and Mars Jullian (Netflix). We discuss what it’s like to be a women working in tech and talk about ways we can help foster a more inclusive industry.",
-        "id": "273424836",
-        "published": "July 12, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Brian Holt"
-        ],
-        "guests": [
-            {
-                "name": "Mars Jullian",
-                "twitter": "marsjosephine"
-            },
-            {
-                "name": "Lisa Burgess",
-                "twitter": "_lisaburgess"
-            }
-        ],
-        "links": [
-            {
-                "title": "Apple diversity report",
-                "url": "http://www.apple.com/diversity/"
-            },
-            {
-                "title": "Netflix diversity report",
-                "url": "https://jobs.netflix.com/diversity"
-            },
-            {
-                "title": "LinkedIn diversity report",
-                "url": "https://blog.linkedin.com/2015/06/08/linkedins-2015-workforce-diversity"
-            },
-            {
-                "title": "Google diversity report",
-                "url": "https://www.google.com/diversity/"
-            },
-            {
-                "title": "Facebook diversity report",
-                "url": "http://newsroom.fb.com/news/2015/06/driving-diversity-at-facebook/"
-            },
-            {
-                "title": "Thoughts on Gender and Radical Candor",
-                "url": "http://firstround.com/review/thoughts-on-gender-and-radical-candor/"
-            },
-            {
-                "title": "Vague Feedback Is Holding Women Back",
-                "url": "https://hbr.org/2016/04/research-vague-feedback-is-holding-women-back"
-            },
-            {
-                "title": "Textio",
-                "url": "https://textio.com/"
-            },
-            {
-                "title": "State of Girls and Women in STEM",
-                "url": "https://ngcproject.org/statistics"
-            },
-            {
-                "title": "Unconscious Gender Bias",
-                "url": "http://www.huffingtonpost.com/lisa-marie-jenkins/unconscious-gender-bias-e_b_7447524.html"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Sift Dessert Bar",
-                "url": "http://siftdessertbar.com/",
-                "from": "Lisa Burgess"
-            },
-            {
-                "title": "Shiny",
-                "url": "http://shiny.rstudio.com/",
-                "from": "Lisa Burgess"
-            },
-            {
-                "title": "99% Invisible",
-                "url": "http://99percentinvisible.org/",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "Invisiblia",
-                "url": "http://www.npr.org/podcasts/510307/invisibilia",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "TED Radio",
-                "url": "http://www.npr.org/programs/ted-radio-hour/",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "High West Rendezvous Rye",
-                "url": "http://www.highwest.com/products/rendezvous-rye.php",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Snak the Ripper - From the Dirt",
-                "url": "https://open.spotify.com/album/4b1X1UthWT1ldnw8PWMUZs",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Blameless Post Mortems",
-                "url": "https://www.kennorton.com/newsletter/2016-04-20-bringing-the-donuts.html",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Ava",
-                "url": "https://github.com/avajs/ava",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Music for Programming",
-                "url": "http://musicforprogramming.net/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Women in tech for the past 50 years!",
-                "url": "http://frontendhappyhour.com/episodes/raise-your-glass-to-women-in-tech/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "High West Silver Whiskey",
-                "url": "http://www.highwest.com/products/silver-whiskey-western-oat.php",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "WWDC iOS 10",
-                "url": "http://www.apple.com/ios/ios10-preview/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Mr Robot",
-                "url": "http://www.usanetwork.com/mrrobot",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Project Include",
-                "url": "http://projectinclude.org/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "elk-cli",
-                "url": "https://github.com/btholt/elk-cli",
-                "from": "Brian Holt"
-            }
-        ]
-    },
-    {
-        "episode": "009",
-        "title": "Scotch makes us animated",
-        "description": "In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information.",
-        "id": "267920775",
-        "published": "June 6, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Derrick Showers",
-            "Sarah Federman"
-        ],
-        "guests": [
-            {
-                "name": "Sarah Drasner",
-                "twitter": "sarah_edo"
-            }
-        ],
-        "links": [
-            {
-                "title": "Coin",
-                "url": "https://onlycoin.com/"
-            },
-            {
-                "title": "GreenSock",
-                "url": "https://greensock.com/"
-            },
-            {
-                "title": "Weighing SVG Animation Techniques (with Benchmarks)",
-                "url": "https://css-tricks.com/weighing-svg-animation-techniques-benchmarks/"
-            },
-            {
-                "title": "Mac Pro parallax",
-                "url": "http://www.apple.com/mac-pro/"
-            },
-            {
-                "title": "Mo.js",
-                "url": "http://mojs.io/"
-            },
-            {
-                "title": "Lego Mushroom",
-                "url": "http://legomushroom.com/"
-            },
-            {
-                "title": "SnapSvg",
-                "url": "http://snapsvg.io/"
-            },
-            {
-                "title": "D3",
-                "url": "https://d3js.org/"
-            },
-            {
-                "title": "Sara Soueidan",
-                "url": "https://twitter.com/sarasoueidan"
-            },
-            {
-                "title": "React Motion",
-                "url": "https://github.com/chenglou/react-motion"
-            },
-            {
-                "title": "Sarah Drasner's CodePen",
-                "url": "http://codepen.io/sdras/"
-            },
-            {
-                "title": "Framer JS",
-                "url": "http://framerjs.com/"
-            },
-            {
-                "title": "React Training",
-                "url": "https://reactjs-training.com/"
-            },
-            {
-                "title": "A Comparison of Animation Technologies",
-                "url": "https://css-tricks.com/comparison-animation-technologies/"
-            },
-            {
-                "title": "SVGOMG",
-                "url": "https://jakearchibald.github.io/svgomg/"
-            },
-            {
-                "title": "SVGO",
-                "url": "https://github.com/svg/svgo"
-            },
-            {
-                "title": "IcoMoon",
-                "url": "https://icomoon.io/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Val Head's book",
-                "url": "https://twitter.com/vlh",
-                "from": "Sarah Drasner"
-            },
-            {
-                "title": "Valio Con",
-                "url": "http://valiocon.com/",
-                "from": "Sarah Drasner"
-            },
-            {
-                "title": "Sleep no more",
-                "url": "http://www.sleepnomore.com/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Internet trends 2016",
-                "url": "http://www.kpcb.com/internet-trends",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Jankfree.org",
-                "url": "http://jankfree.org",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Icon System with SVG sprites",
-                "url": "https://css-tricks.com/svg-sprites-use-better-icon-fonts/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "how2",
-                "url": "https://www.npmjs.com/package/how2",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Werker",
-                "url": "http://wercker.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Transitions and Animations in CSS",
-                "url": "http://shop.oreilly.com/product/0636920041658.do",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Alexa / Pebble Core integration",
-                "url": "https://blog.getpebble.com/2016/06/02/ks3u03/",
-                "from": "Sarah Federman"
-            }
-        ]
-    },
-    {
-        "episode": "008",
-        "title": "A Shot of Silicon Valley",
-        "description": "Working in Silicon Valley is very unique. We work in a bubble, immersed in technology. There are billboards about frameworks, technology, and gadgets. Coffee shops are filled with people on Macbooks covered in stickers. Conversations on the train, coffee shops and on the streets are about programming languages. There’s a unique culture from other places we’ve all lived. In this episode, we share our thoughts and experiences living and working in Silicon Valley.",
-        "id": "265692287",
-        "published": "May 24, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers",
-            "Ryan Anklam",
-            "Sarah Federman"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Silicon Valley",
-                "url": "https://en.wikipedia.org/wiki/Silicon_Valley"
-            },
-            {
-                "title": "Chelsea Handler Does",
-                "url": "https://www.netflix.com/title/80073486"
-            },
-            {
-                "title": "Skam",
-                "url": "https://www.instagram.com/skamoney/"
-            },
-            {
-                "title": "Rover",
-                "url": "https://www.rover.com/"
-            },
-            {
-                "title": "Sushirrito",
-                "url": "http://www.sushirrito.com/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Philz coffee",
-                "url": "http://www.philzcoffee.com/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Allbirds shoes",
-                "url": "https://www.allbirds.com/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "City and Colour",
-                "url": "https://www.youtube.com/watch?v=yuJ4wm_HTAc",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Tinyletter",
-                "url": "http://tinyletter.com/site/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "ES6 Compatibility table",
-                "url": "http://kangax.github.io/compat-table/es6/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Music for programming",
-                "url": "http://musicforprogramming.net/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Rapping, deconstructed",
-                "url": "https://www.youtube.com/watch?v=QWveXdj6oZU",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Periscope",
-                "url": "https://www.periscope.tv/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Firebase",
-                "url": "https://firebase.google.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Dash app",
-                "url": "https://kapeli.com/dash",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "TypeScript",
-                "url": "https://www.typescriptlang.org/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Bjork - Army of Me",
-                "url": "https://www.youtube.com/watch?v=LyEJxzQM24Q",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Sensel Morph",
-                "url": "https://www.kickstarter.com/projects/1152958674/the-sensel-morph-interaction-evolved",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "OnHub & IFTTT",
-                "url": "https://on.google.com/hub/blog/2016-04-28/onhubifttt/",
-                "from": "Sarah Federman"
-            }
-        ]
-    },
-    {
-        "episode": "007",
-        "title": "a11y Cocktail",
-        "description": "In this episode, we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users. We also talk about Global Accessibility Awareness Day (GAAD) coming up on May 19th. Find out how you can participate.",
-        "id": "264282122",
-        "published": "May 15, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Derrick Showers",
-            "Sarah Federman"
-        ],
-        "guests": [
-            {
-                "name": "Jennison Asuncion",
-                "twitter": "Jennison"
-            }
-        ],
-        "links": [
-            {
-                "title": "Global Accessibility Awareness Day",
-                "url": "http://www.globalaccessibilityawarenessday.org/"
-            },
-            {
-                "title": "Using VoiceOver to Evaluate Web Accessibility",
-                "url": "http://webaim.org/articles/voiceover/"
-            },
-            {
-                "title": "AccessLint",
-                "url": "http://accesslint.com/"
-            },
-            {
-                "title": "axe Core",
-                "url": "https://github.com/dequelabs/axe-core"
-            },
-            {
-                "title": "Tenon",
-                "url": "http://www.tenon.io/"
-            },
-            {
-                "title": "Chrome Accessibility Developer Tools",
-                "url": "https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en"
-            },
-            {
-                "title": "list of Meetups on accessibility",
-                "url": "http://www.meetup.com/find/?allMeetups=false&keywords=a11y&radius=Infinity"
-            },
-            {
-                "title": "Apps For All: Coding Accessible Web Applications eBook",
-                "url": "https://shop.smashingmagazine.com/products/apps-for-all"
-            },
-            {
-                "title": "International Technology and Persons with Disabilities Conference (CSUN Conference)",
-                "url": "http://www.csunconference.org"
-            },
-            {
-                "title": "Accessibility Camp Bay Area (Fall 2016)",
-                "url": "http://www.accessibilitycampbay.org"
-            },
-            {
-                "title": "Boston Accessibility Conference (Fall 2016)",
-                "url": "http://a11y-bos.org/"
-            },
-            {
-                "title": "Accessibility Camp Toronto (Fall 2016)",
-                "url": "http://www.accessibilitycampto.org/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Square Cash",
-                "url": "https://cash.me/",
-                "from": "Jennison Asuncion"
-            },
-            {
-                "title": "The Points Guy",
-                "url": "http://thepointsguy.com/",
-                "from": "Jennison Asuncion"
-            },
-            {
-                "title": "Jazz FM",
-                "url": "http://www.jazz.fm/",
-                "from": "Jennison Asuncion"
-            },
-            {
-                "title": "React a11y",
-                "url": "https://github.com/reactjs/react-a11y",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "The Gaslight Anthem",
-                "url": "https://www.youtube.com/watch?v=9ybyowORfEc",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Sweet Jesus Ice Cream",
-                "url": "http://www.sweetjesus4life.com/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "A11y Command-line Tools",
-                "url": "https://addyosmani.com/a11y/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "YNAB",
-                "url": "http://www.youneedabudget.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Wakatime",
-                "url": "https://wakatime.com/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Hackster.io",
-                "url": "https://www.hackster.io/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Losant (previously Structure)",
-                "url": "https://www.losant.com/",
-                "from": "Sarah Federman"
-            }
-        ]
-    },
-    {
-        "episode": "006",
-        "title": "Unit testing and whiskey tasting",
-        "description": "We’ve all heard unit testing is good, but how do you get started writing unit tests? In this episode of Front End Happy Hour we share our experiences and advice writing unit tests. We discuss why it’s important and beneficial to have unit tests in your JavaScript. We share how we’ve approached unit tests and what a good unit test looks like. We also talk about the various tools and frameworks available to get your code properly tested.",
-        "id": "260918790",
-        "published": "April 25, 2015",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Ryan Burgess",
-            "Augustus Yuan",
-            "Jem Young",
-            "Derrick Showers"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Selenium",
-                "url": "http://www.seleniumhq.org/"
-            },
-            {
-                "title": "Black-box testing",
-                "url": "https://en.wikipedia.org/wiki/Black-box_testing"
-            },
-            {
-                "title": "White-box testing",
-                "url": "https://en.wikipedia.org/wiki/White-box_testing"
-            },
-            {
-                "title": "Ember guides",
-                "url": "https://guides.emberjs.com/v2.5.0/"
-            },
-            {
-                "title": "Mocha",
-                "url": "https://mochajs.org/"
-            },
-            {
-                "title": "Jasmine",
-                "url": "http://jasmine.github.io/"
-            },
-            {
-                "title": "QUnit",
-                "url": "https://qunitjs.com/"
-            },
-            {
-                "title": "Tape",
-                "url": "https://github.com/substack/tape"
-            },
-            {
-                "title": "Jest",
-                "url": "https://facebook.github.io/jest/"
-            },
-            {
-                "title": "Webpack",
-                "url": "https://webpack.github.io/"
-            },
-            {
-                "title": "5 Questions Every Unit Test Must Answer",
-                "url": "https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d"
-            },
-            {
-                "title": "Ember CLI",
-                "url": "http://ember-cli.com/"
-            },
-            {
-                "title": "React CLI",
-                "url": "https://www.npmjs.com/package/react-cli"
-            },
-            {
-                "title": "Karma",
-                "url": "https://karma-runner.github.io/0.13/index.html"
-            },
-            {
-                "title": "What is the difference between a test runner, testing framwork, assertion library, and a testing plugin?",
-                "url": "http://amzotti.github.io/testing/2015/03/16/what-is-the-difference-between-a-test-runner-testing-framework-assertion-library-and-a-testing-plugin/"
-            },
-            {
-                "title": "Ember Guides introduction to Unit Testing",
-                "url": "https://guides.emberjs.com/v2.5.0/testing/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Caffeine for Mac",
-                "url": "https://itunes.apple.com/us/app/caffeine/id411246225?mt=12",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Odesza",
-                "url": "https://www.youtube.com/user/odeszamusic",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Google Doodles",
-                "url": "http://www.google.com/doodles",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "OSSU Computer Science curriculum",
-                "url": "https://github.com/open-source-society/computer-science",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Mura Masa - What If I Go?",
-                "url": "https://www.youtube.com/watch?v=pLuQ0MGLBXU",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "teamLab: Living Digital Space and Future Parks",
-                "url": "http://www.eventbrite.com/e/teamlab-living-digital-space-and-future-parks-tickets-19952168473",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Flume - the mixtape",
-                "url": "https://www.youtube.com/watch?v=rPhoBRbqZeE",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Programming Sucks",
-                "url": "http://www.stilldrinking.org/programming-sucks",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Hype Machine",
-                "url": "http://hypem.com/popular?workaround=lol",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Google Calendar goals",
-                "url": "https://googleblog.blogspot.com/2016/04/find-time-goals-google-calendar.html",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "$13 bluetooth headset",
-                "url": "https://amzn.com/B00Z0ME68A",
-                "from": "Derrick Showers"
-            }
-        ]
-    },
-    {
-        "episode": "005",
-        "title": "Interviews make us drink",
-        "description": "In order to work professionally as a front end developer, there is always an intense interview process. In this episode, we share our experiences and thoughts on the interviews we’ve done in the past. Not only have we had experience being interviewed, we’ve also had a lot of experience interviewing other engineers for jobs at our companies. We share things we’re looking for when we interview candidates to join our teams.",
-        "id": "259108189",
-        "published": "April 14, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Derrick Showers",
-            "Jem Young",
-            "Ryan Anklam",
-            "Ryan Burgess",
-            "Brian Holt",
-            "Augustus Yuan",
-            "Sarah Federman"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Eclipse",
-                "url": "https://eclipse.org/"
-            },
-            {
-                "title": "Othello",
-                "url": "http://www.amazon.com/Mattel-B3165-Othello/dp/B00004TQMQ"
-            },
-            {
-                "title": "Big O notation",
-                "url": "https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/"
-            },
-            {
-                "title": "FizzBuzz",
-                "url": "https://gist.github.com/jaysonrowe/1592432"
-            },
-            {
-                "title": "Ryan Anklams famous t-shirt",
-                "url": "http://store.taylorswift.com/mm5/graphics/00000001/RedIheartTStee_1000x979.jpg"
-            },
-            {
-                "title": "War of the Worlds radio broadcast",
-                "url": "http://www.history.com/this-day-in-history/welles-scares-nation"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Aerial screensaver",
-                "url": "https://github.com/JohnCoates/Aerial",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Amazon Dash Buttons",
-                "url": "https://www.amazon.com/Dash-Buttons/b?ie=UTF8&node=10667898011",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Front End Happy Hour Playlist",
-                "url": "https://open.spotify.com/user/1294287391/playlist/6mpuF87VHAcog1cOwQqnfl",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Escape app",
-                "url": "https://itunes.apple.com/us/app/escape-by-focuslist-track/id1090969894?mt=12",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Best of Old Time Radio Podcast",
-                "url": "https://itunes.apple.com/us/podcast/best-of-old-time-radio/id288417478?mt=2",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Dusty Kid - Beyond That Hill",
-                "url": "https://open.spotify.com/album/0xDGKYCBTBZtOBa4DeKaTw",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Lindsey Stirling",
-                "url": "http://www.lindseystirling.com/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "SizeUp (osx windows management)",
-                "url": "http://www.irradiatedsoftware.com/sizeup/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "EmpireJS",
-                "url": "http://2016.empirejs.org/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Aphex Swift",
-                "url": "https://www.youtube.com/watch?v=pbMF7_LEh1g&list=PL3JScfXyyxathZuXzNzSQhDyQZ_qoNt8g&nohtml5=False",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Netflix Menus",
-                "url": "http://www.netflixmenus.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Code Climate",
-                "url": "https://codeclimate.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Slack themes",
-                "url": "http://slackthemes.net/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Massdrop",
-                "url": "https://www.massdrop.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Elevator Saga",
-                "url": "http://play.elevatorsaga.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Pretty Thoughts Alina Baraz & Galimatias",
-                "url": "https://www.youtube.com/watch?v=JrHw9BDa3OE",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "AtHack!",
-                "url": "http://www.athackit.org/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Annie Cannons",
-                "url": "https://twitter.com/anniecannons",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Scroobius Pip",
-                "url": "http://www.scroobiuspip.co.uk/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Baths",
-                "url": "https://en.wikipedia.org/wiki/Baths_musician",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "M83",
-                "url": "http://ilovem83.com/",
-                "from": "Brian Holt"
-            }
-        ]
-    },
-    {
-        "episode": "004",
-        "title": "ES6 and a Six Pack",
-        "description": "ECMAScript 6 was a major release for the JavaScript language. There’s a lot of great new features that have been added. In this episode we discuss how you can start using ES6 today and what we’ll start seeing in the next year for the latest update to ECMAScript. We share our favorite features and the best ways to learn and stay up to date with new features.",
-        "id": "257371209",
-        "published": "April 04, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Derrick Showers",
-            "Jem Young",
-            "Ryan Anklam",
-            "Ryan Burgess",
-            "Brian Holt",
-            "Augustus Yuan",
-            "Sarah Federman"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "ESNext",
-                "url": "https://github.com/esnext/esnext"
-            },
-            {
-                "title": "Ben Lesh - Netflix JavaScript Talks - RxJS Version 5",
-                "url": "https://www.youtube.com/watch?v=COviCoUtwx4"
-            },
-            {
-                "title": "Ponyfoo blog",
-                "url": "https://ponyfoo.com/"
-            },
-            {
-                "title": "5 Minutes of JavaScript",
-                "url": "https://fivejs.codeschool.com/"
-            },
-            {
-                "title": "Compat Table ES6",
-                "url": "https://kangax.github.io/compat-table/es6/"
-            },
-            {
-                "title": "Facebook Codemod",
-                "url": "https://github.com/facebook/codemod"
-            }
-        ],
-        "picks": [
-            {
-                "title": "1Password",
-                "url": "https://1password.com/features/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Vim Tabular",
-                "url": "https://github.com/godlygeek/tabular",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "90s Hip Hop",
-                "url": "https://open.spotify.com/user/bittersweetryan/playlist/2Fz6VlYg8ff2lZJro6SrPD",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Elegant React with ES6 (and a bit of ES7) - React Rally",
-                "url": "https://www.youtube.com/watch?v=GzChMXy-Es0",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Lot 40 Whiskey",
-                "url": "http://thewhiskeywash.com/2015/12/14/whisky-review-lot-40/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "HTML5 Please",
-                "url": "http://html5please.com/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Death Medieval",
-                "url": "https://twitter.com/DeathMedieval/status/715759543389708288",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "Microsoft AI Bot",
-                "url": "http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/",
-                "from": "Sarah Federman"
-            },
-            {
-                "title": "ES6 Cheatsheet",
-                "url": "http://exploringjs.com/es6/ch_overviews.html",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Cult of the Party Parrot",
-                "url": "http://cultofthepartyparrot.com",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Babel’s “try it out”",
-                "url": "https://babeljs.io/repl/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Latest greatest webapp",
-                "url": "https://github.com/derrickshowers/generator-latest-greatest-webapp",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Trello",
-                "url": "https://trello.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Tilt Brush",
-                "url": "https://www.tiltbrush.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Cotton Bureau",
-                "url": "https://cottonbureau.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "Spacemacs",
-                "url": "https://github.com/syl20bnr/spacemacs",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "The little Schemer",
-                "url": "https://mitpress.mit.edu/books/little-schemer",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Frontend Masters",
-                "url": "https://frontendmasters.com/",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "Ellee",
-                "url": "https://www.youtube.com/user/elleeduke",
-                "from": "Brian Holt"
-            }
-        ]
-    },
-    {
-        "episode": "003",
-        "title": "From head to footer",
-        "description": "In this ever changing industry of front end development, developers are constantly learning. In this episode of Front End Happy Hour we discuss everything from our school backgrounds and what lead us to front end development. We also share ways we stay up to date with the ever-changing landscape of new technologies. Along with our usual panelists, we are joined by guest Sarah Showers, a front end developer from Apple.",
-        "id": "254905107",
-        "published": "March 24, 2016",
-        "transcribed": false,
-        "category": "soft",
-        "panel": [
-            "Derrick Showers",
-            "Jem Young",
-            "Ryan Anklam",
-            "Ryan Burgess"
-        ],
-        "guests": [
-            {
-                "name": "Sarah Showers",
-                "twitter": "sarahlshowers"
-            }
-        ],
-        "links": [],
-        "picks": [
-            {
-                "title": "Hamilton",
-                "url": "https://www.youtube.com/watch?v=Zp9HUc9HraQ&list=PLUSRfoOcUe4avCXPg6tPgdZzu--hBXUYx",
-                "from": "Sarah Showers"
-            },
-            {
-                "title": "Massive Attack-  Angel",
-                "url": "https://www.youtube.com/watch?v=hbe3CQamF8k",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Apple Music",
-                "url": "http://www.apple.com/music/radio/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Scotland JS",
-                "url": "http://scotlandjs.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Explosions in the Sky",
-                "url": "https://www.youtube.com/watch?v=lsSIyk026P8",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Tycho",
-                "url": "https://www.youtube.com/watch?v=Z6ih1aKeETk",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Comeback Kid",
-                "url": "https://www.youtube.com/watch?v=BHJEb6T9UKU",
-                "from": "Ryan Burgess"
-            }
-        ]
-    },
-    {
-        "episode": "002",
-        "title": "RxJS - Async and Drink",
-        "description": "In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.",
-        "id": "252127996",
-        "published": "March 16, 2016",
-        "transcribed": false,
-        "category": "technical",
-        "panel": [
-            "Brian Holt",
-            "Jem Young",
-            "Ryan Anklam",
-            "Ryan Burgess"
-        ],
-        "guests": [
-            {
-                "name": "Ben Lesh",
-                "twitter": "BenLesh"
-            }
-        ],
-        "links": [
-            {
-                "title": "Rx Marbles",
-                "url": "http://rxmarbles.com/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Egghead.io",
-                "url": "https://egghead.io/",
-                "from": "Ben Lesh"
-            },
-            {
-                "title": "Egghead.io - RxJS Creating Observables from Scratch",
-                "url": "https://egghead.io/lessons/rxjs-creating-observable-from-scratch",
-                "from": "Ben Lesh"
-            },
-            {
-                "title": "Netflix UIE YouTube Channel",
-                "url": "https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Amazon Echo",
-                "url": "http://www.amazon.com/Amazon-SK705DI-Echo/dp/B00X4WHP5E",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "Tilt Brush",
-                "url": "https://www.tiltbrush.com/",
-                "from": "Augustus Yuan"
-            },
-            {
-                "title": "EcmaScript Proposals",
-                "url": "https://github.com/tc39/ecma262",
-                "from": "Jem Young"
-            },
-            {
-                "title": "VimCasts",
-                "url": "http://vimcasts.org/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Ready Player One Audibook",
-                "url": "http://www.audible.com/pd/Sci-Fi-Fantasy/Ready-Player-One-Audiobook/B005FRGT44/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Factorio",
-                "url": "https://www.factorio.com/",
-                "from": "Brian Holt"
-            }
-        ]
-    },
-    {
-        "episode": "001",
-        "title": "The State of Web Development",
-        "description": "For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
-        "id": "249593158",
-        "published": "February 29, 2016",
-        "transcribed": true,
-        "category": "technical",
-        "panel": [
-            "Augustus Yuan",
-            "Derrick Showers",
-            "Jem Young",
-            "Ryan Anklam",
-            "Ryan Burgess"
-        ],
-        "guests": [],
-        "links": [
-            {
-                "title": "Gulp",
-                "url": "http://gulpjs.com/"
-            },
-            {
-                "title": "Grunt",
-                "url": "http://gruntjs.com/"
-            },
-            {
-                "title": "Broccoli JS",
-                "url": "http://broccolijs.com/"
-            },
-            {
-                "title": "npm",
-                "url": "https://www.npmjs.com/"
-            },
-            {
-                "title": "Babel",
-                "url": "https://babeljs.io/"
-            },
-            {
-                "title": "Sass",
-                "url": "http://sass-lang.com/"
-            },
-            {
-                "title": "PostCSS",
-                "url": "http://postcss.org/"
-            },
-            {
-                "title": "React",
-                "url": "https://facebook.github.io/react/"
-            },
-            {
-                "title": "Ember",
-                "url": "http://emberjs.com/"
-            },
-            {
-                "title": "Angular",
-                "url": "https://angularjs.org/"
-            }
-        ],
-        "picks": [
-            {
-                "title": "Viking & Lumberjack Series",
-                "url": "https://www.youtube.com/playlist?list=PL95LOQw9SLWwWL7TOgTf5m3d6B8FPF56x",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "O’Reilly Fluent Conference",
-                "url": "http://conferences.oreilly.com/fluent/",
-                "from": "Ryan Burgess"
-            },
-            {
-                "title": "frinkiac.com",
-                "url": "https://frinkiac.com/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Red Rising Trilogy",
-                "url": "http://www.redrisingbook.com/",
-                "from": "Ryan Anklam"
-            },
-            {
-                "title": "Syntax Con",
-                "url": "https://2016.syntaxcon.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Planet Money",
-                "url": "http://www.npr.org/sections/money/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "MacBook Selfie Stick",
-                "url": "http://macbookselfiestick.com/",
-                "from": "Jem Young"
-            },
-            {
-                "title": "Let’s Encrypt",
-                "url": "https://letsencrypt.org/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Product Hunt",
-                "url": "https://www.producthunt.com/",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "Github Scientist",
-                "url": "http://githubengineering.com/scientist/",
-                "from": "Augustus Yuan"
-            }
-        ]
-    }
+  {
+    "episode": "032",
+    "title": "Imposter Syndrome - These are not the drinks you're looking for",
+    "description": "What’s it like to deal with Imposter Syndrome? In this episode, we are joined by Jessica Grist, a Software Engineer at Adroll to discuss how we’ve all experience Imposter Syndrome in our careers and share ways to help deal with it.",
+    "id": "319131503",
+    "published": "April 23, 2017",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Mars Jullian",
+      "Stacy London",
+      "Derrick Showers",
+      "Brian Holt"
+    ],
+    "guests": [
+        {
+            "name": "Jessica Grist",
+            "twitter": "thehackstress"
+        }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Stuff You Missed in History Class",
+        "url": "http://www.missedinhistory.com/",
+        "from": "Jessica Grist"
+      },
+      {
+        "title": "React Conf 2017 videos",
+        "url": "https://www.youtube.com/playlist?list=PLb0IAmt7-GS3fZ46IGFirdqKTIxlws7e0",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Iron Fist",
+        "url": "https://www.netflix.com/title/80002612",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Ember Conf 2017",
+        "url": "http://emberconf.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Codepen Projects",
+        "url": "https://codepen.io/pro/projects",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Alamo Drafthouse",
+        "url": "https://drafthouse.com",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Full Stack for Front End Engineers",
+        "url": "https://frontendmasters.com/courses/full-stack/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Nordic JS",
+        "url": "http://nordicjs.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "How I Built This",
+        "url": "http://www.npr.org/podcasts/510313/how-i-built-this",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Glitch",
+        "url": "https://glitch.com/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Empty Promise by Butane",
+        "url": "https://play.spotify.com/track/5cdREWsCkB3G0Zulvt6DGk",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "031",
+    "title": "A flaming shot of burnout",
+    "description": "Burnout is not a rare phenomenon that engineers deal with. In this episode, we talk about the ways we’ve been affected by burnout and how we’ve dealt with it. We discuss past experiences that have created burnout for us and ways we can prevent it from happening in the future.",
+    "id": "316918805",
+    "published": "April 9, 2017",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "title": "Trello",
+        "url": "https://trello.com/"
+      },
+      {
+        "title": "Headspace",
+        "url": "https://www.headspace.com"
+      },
+      {
+        "title": "Fitbit",
+        "url": "https://www.fitbit.com/"
+      },
+      {
+        "title": "Apple Watch",
+        "url": "http://www.apple.com/watch/"
+      },
+      {
+        "title": "Slack",
+        "url": "https://slack.com"
+      },
+      {
+        "title": "Netflix",
+        "url": "https://netflix.com"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Rove",
+        "url": "https://www.instagram.com/rove_cbs/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Charles Proxy",
+        "url": "https://www.charlesproxy.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "React Native",
+        "url": "https://facebook.github.io/react-native/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Periscopic.com",
+        "url": "http://Periscopic.com",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "System Design Primer",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Hacking Node Seralize",
+        "url": "http://blog.websecurify.com/2017/02/hacking-node-serialize.html",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Rocket",
+        "url": "http://julianthayn.com/rocket",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Horizon Zero Dawn",
+        "url": "https://www.amazon.com/Horizon-Zero-Dawn-PlayStation-4/dp/B00ZQC73O8",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Spindrift by Colin Stetson",
+        "url": "https://open.spotify.com/track/3VyfaSBGhMIa6Np02DIf9h",
+        "from": "Stacy London"
+      },
+      {
+        "title": "It's not how many hours of sleep you get...",
+        "url": "https://superyesmore.com/its-not-how-many-hours-of-sleep-you-get-31511419ec81ce17835eeeb6c1a570a5",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "030",
+    "title": "Static site generators and dynamic drink drinkers",
+    "description": "Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.",
+    "id": "314267346",
+    "published": "March 24, 2017",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Harry Wolff",
+        "twitter": "hswolff"
+      }
+    ],
+    "links": [
+      {
+        "title": "Reptar",
+        "url": "https://reptar.github.io/"
+      },
+      {
+        "title": "MongoDB",
+        "url": "https://www.mongodb.com/"
+      },
+      {
+        "title": "Github",
+        "url": "https://github.com/"
+      },
+      {
+        "title": "Jekyll",
+        "url": "https://jekyllrb.com/"
+      },
+      {
+        "title": "Dropbox",
+        "url": "https://www.dropbox.com"
+      },
+      {
+        "title": "Wordpress",
+        "url": "https://wordpress.com/"
+      },
+      {
+        "title": "Markdown",
+        "url": "https://en.wikipedia.org/wiki/Markdown"
+      },
+      {
+        "title": "Atom",
+        "url": "https://atom.io/"
+      },
+      {
+        "title": "AWS",
+        "url": "https://aws.amazon.com/"
+      },
+      {
+        "title": "Express",
+        "url": "https://expressjs.com/"
+      },
+      {
+        "title": "Restify",
+        "url": "http://restify.com/"
+      },
+      {
+        "title": "FTP",
+        "url": "https://en.wikipedia.org/wiki/File_Transfer_Protocol"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/"
+      },
+      {
+        "title": "Medium",
+        "url": "https://medium.com/"
+      },
+      {
+        "title": "Gist",
+        "url": "https://gist.github.com/"
+      },
+      {
+        "title": "Highlight JS",
+        "url": "https://highlightjs.org/"
+      },
+      {
+        "title": "Prisim",
+        "url": "http://prismjs.com/"
+      },
+      {
+        "title": "Yarn",
+        "url": "https://yarnpkg.com"
+      },
+      {
+        "title": "npm",
+        "url": "https://www.npmjs.com/"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/"
+      },
+      {
+        "title": "Rugrats",
+        "url": "http://www.imdb.com/title/tt0101188/"
+      },
+      {
+        "title": "Ghost",
+        "url": "https://ghost.org/"
+      },
+      {
+        "title": "Metalsmith",
+        "url": "http://www.metalsmith.io/"
+      },
+      {
+        "title": "Segment",
+        "url": "https://segment.com/"
+      },
+      {
+        "title": "Hugo",
+        "url": "https://gohugo.io/"
+      },
+      {
+        "title": "Go",
+        "url": "https://golang.org/"
+      },
+      {
+        "title": "Hexo",
+        "url": "https://hexo.io/"
+      },
+      {
+        "title": "Markdown-it",
+        "url": "https://github.com/markdown-it/markdown-it"
+      },
+      {
+        "title": "YAML",
+        "url": "http://yaml.org/"
+      },
+      {
+        "title": "Joi",
+        "url": "https://github.com/hapijs/joi"
+      },
+      {
+        "title": "Redux",
+        "url": "http://redux.js.org/"
+      },
+      {
+        "title": "StaticGen",
+        "url": "http://www.staticgen.com/"
+      },
+      {
+        "title": "Gatsby JS",
+        "url": "https://github.com/gatsbyjs/gatsby"
+      },
+      {
+        "title": "Nunjucks",
+        "url": "https://mozilla.github.io/nunjucks/"
+      },
+      {
+        "title": "Browserify",
+        "url": "http://browserify.org/"
+      },
+      {
+        "title": "Less",
+        "url": "http://lesscss.org/"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "Babel",
+        "url": "https://babeljs.io/"
+      },
+      {
+        "title": "ES2015",
+        "url": "https://babeljs.io/learn-es2015/"
+      },
+      {
+        "title": "Async await",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+      },
+      {
+        "title": "Graph QL",
+        "url": "https://graphql.org/"
+      },
+      {
+        "title": "Relay",
+        "url": "https://facebook.github.io/relay/"
+      },
+      {
+        "title": "Closure",
+        "url": "https://developers.google.com/closure/compiler/"
+      },
+      {
+        "title": "Handlebars",
+        "url": "http://handlebarsjs.com/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Node 7.6",
+        "url": "https://nodejs.org",
+        "from": "Harry Wolff"
+      },
+      {
+        "title": "Legion",
+        "url": "http://www.fxnetworks.com/shows/legion",
+        "from": "Harry Wolff"
+      },
+      {
+        "title": "Calvin Harris - Slide",
+        "url": "https://open.spotify.com/track/6gpcs5eMhJwax4mIfKDYQk",
+        "from": "Harry Wolff"
+      },
+      {
+        "title": "Reptar",
+        "url": "https://reptar.github.io/",
+        "from": "Harry Wolff"
+      },
+      {
+        "title": "CODE: Debugging the Gender Gap",
+        "url": "https://www.netflix.com/title/80130565",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "ZippGo",
+        "url": "https://www.zippgo.com",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Metasmoke",
+        "url": "https://metasmoke.erwaysoftware.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Open Source Guides",
+        "url": "https://opensource.guide/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Ultimate Beast Master",
+        "url": "https://www.netflix.com/title/80095299",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Shibesbot",
+        "url": "https://twitter.com/shibbnbot",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Distiller",
+        "url": "https://distiller.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Pac-man Multiplayer",
+        "url": "https://en.wikipedia.org/wiki/Pac-Man_Battle_Royale",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Home Brewing Beer",
+        "url": "http://www.homebrewing.org/How-to-Make-Your-Own-Beer_ep_32-1.html",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Webpackbin",
+        "url": "https://www.webpackbin.com/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Arthur Russell - Home Away From Home (Andy Stott Refix)",
+        "url": "https://soundcloud.com/modernlove/arthur-russell-home-away-from-home-andy-stott-refix",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "029",
+    "title": "Alcoholic Angular",
+    "description": "In this episode, we’re joined by our special guest, Ayşegül Yönet, a Software Engineer Autodesk, who will help us discuss the popular Google JavaScript framework Angular. In the episode, we discuss the benefits of leveraging Angular and what the major differences are from Angular 1 and Angular 2.",
+    "id": "312085888",
+    "published": "March 12, 2017",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Ayşegül Yönet",
+        "twitter": "AysSomething"
+      }
+    ],
+    "links": [
+      {
+        "title": "Angular",
+        "url": "https://angularjs.org/"
+      },
+      {
+        "title": "Autodesk",
+        "url": "http://www.autodesk.com/"
+      },
+      {
+        "title": "Reddit",
+        "url": "http://www.reddit.com/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Scope",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+      },
+      {
+        "title": "Knockout",
+        "url": "http://knockoutjs.com/"
+      },
+      {
+        "title": "Igor Minar",
+        "url": "https://twitter.com/IgorMinar"
+      },
+      {
+        "title": "ASP.Net",
+        "url": "https://www.asp.net/"
+      },
+      {
+        "title": "Vue JS",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "title": "Laravel",
+        "url": "https://laravel.com/"
+      },
+      {
+        "title": "PHP",
+        "url": "http://php.net/"
+      },
+      {
+        "title": "Visual Studio",
+        "url": "https://www.visualstudio.com/"
+      },
+      {
+        "title": "Google Wave",
+        "url": "https://en.wikipedia.org/wiki/Apache_Wave"
+      },
+      {
+        "title": "Google Reader",
+        "url": "https://www.google.com/reader"
+      },
+      {
+        "title": "Zone JS",
+        "url": "https://github.com/angular/zone.js/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "title": "Forward JS",
+        "url": "https://forwardjs.com/"
+      },
+      {
+        "title": "RxJS",
+        "url": "http://reactivex.io/rxjs/"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/"
+      },
+      {
+        "title": "Angular.io",
+        "url": "https://angular.io/"
+      },
+      {
+        "title": "Pluralsight",
+        "url": "https://www.pluralsight.com/"
+      },
+      {
+        "title": "John Papa",
+        "url": "https://twitter.com/John_Papa"
+      },
+      {
+        "title": "Angular Style Guide",
+        "url": "https://github.com/johnpapa/angular-styleguide"
+      },
+      {
+        "title": "Angular CLI",
+        "url": "https://github.com/angular/angular-cli"
+      },
+      {
+        "title": "Closure",
+        "url": "https://github.com/google/closure-compiler-js"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Yoga Trapeze Swing",
+        "url": "https://www.amazon.com/YOGABODY-Naturals-Trapeze-Yoga-Inversion-Orange/dp/B0094H756W",
+        "from": "Ayşegül Yönet"
+      },
+      {
+        "title": "Google Home",
+        "url": "https://madeby.google.com/home",
+        "from": "Ayşegül Yönet"
+      },
+      {
+        "title": "Girl Develop It",
+        "url": "https://www.girldevelopit.com/",
+        "from": "Ayşegül Yönet"
+      },
+      {
+        "title": "Annie Cannons",
+        "url": "http://www.anniecannons.com/",
+        "from": "Ayşegül Yönet"
+      },
+      {
+        "title": "NG-Cruise",
+        "url": "https://ngcruise.com/#/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Astral",
+        "url": "https://astralapp.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Private Internet Access",
+        "url": "https://www.privateinternetaccess.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Elcomsoft",
+        "url": "https://www.elcomsoft.com",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Omni",
+        "url": "https://www.beomni.com",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Fernet",
+        "url": "https://en.wikipedia.org/wiki/Fernet",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Aysegul's Twitter",
+        "url": "https://twitter.com/AysSomething",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Southern Poverty Law Center",
+        "url": "https://www.splcenter.org/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Todd Motto",
+        "url": "https://twitter.com/toddmotto",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Lighthouse",
+        "url": "https://developers.google.com/web/tools/lighthouse/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Peak Magnetic by Clark",
+        "url": "https://soundcloud.com/throttleclark/peak-magnetic",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "028",
+    "title": "JavaScript Universi-LongIslandIce-ty",
+    "description": "We’ve all started somewhere. JavaScript isn’t always an easy language to learn. In this episode, we’re joined by Gordon Zhu, who teaches workshops on JavaScript at Watch and Code. We are also joined by Luis Vargas, a Senior Manager on Global Payments at Netflix who has recently been learning JavaScript and has attended one of Gordon’s workshops. In this episode, we all talk about our journey of learning JavaScript and ways we’ve worked through it.",
+    "id": "309643125",
+    "published": "February 26, 2017",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Gordon Zhu",
+        "twitter": "gordon_zhu"
+      },
+      {
+        "name": "Luis Vargas",
+        "twitter": ""
+      }
+    ],
+    "links": [
+      {
+        "title": "ColdFusion",
+        "url": "http://www.adobe.com/products/coldfusion-family.html"
+      },
+      {
+        "title": "PHP",
+        "url": "http://php.net"
+      },
+      {
+        "title": "Flash",
+        "url": "http://www.adobe.com/mt/products/flash.html"
+      },
+      {
+        "title": "ASP.NET",
+        "url": "https://www.asp.net/"
+      },
+      {
+        "title": "jQuery",
+        "url": "https://jquery.com/"
+      },
+      {
+        "title": "MooTools",
+        "url": "https://mootools.net"
+      },
+      {
+        "title": "Dojo",
+        "url": "https://dojotoolkit.org/"
+      },
+      {
+        "title": "Backbone",
+        "url": "http://backbonejs.org/"
+      },
+      {
+        "title": "Python",
+        "url": "https://www.python.org/"
+      },
+      {
+        "title": "Reddit",
+        "url": "https://www.reddit.com/"
+      },
+      {
+        "title": "Eclipse",
+        "url": "http://www.eclipse.org/"
+      },
+      {
+        "title": "Eloquent JavaScript",
+        "url": "http://eloquentjavascript.net/"
+      },
+      {
+        "title": "You Don't Know JS",
+        "url": "https://github.com/getify/You-Dont-Know-JS"
+      },
+      {
+        "title": "Speaking JavaScript",
+        "url": "http://speakingjs.com/"
+      },
+      {
+        "title": "CD Baby",
+        "url": "https://www.cdbaby.com/"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Watch and Code",
+        "url": "https://watchandcode.com/",
+        "from": "Gordon Zhu"
+      },
+      {
+        "title": "Ten Things I Have Learned - Milton Glaser",
+        "url": "https://www.miltonglaser.com/files/Essays-10things-8400",
+        "from": "Gordon Zhu"
+      },
+      {
+        "title": "Watch and Code",
+        "url": "https://watchandcode.com/",
+        "from": "Luis Vargas"
+      },
+      {
+        "title": "Industrial noise blocking headphones",
+        "url": "http://www.homedepot.com/p/Howard-Leight-Thunder-T1-Noise-Blocking-Dielectric-Headband-Earmuffs-1010928/203066854",
+        "from": "Luis Vargas"
+      },
+      {
+        "title": "Derek Sivers",
+        "url": "https://sivers.org/",
+        "from": "Luis Vargas"
+      },
+      {
+        "title": "Austin Maples - Idle Hand Tattoo",
+        "url": "https://www.instagram.com/austinmaples/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Fluid Paint",
+        "url": "http://david.li/paint/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Abstract",
+        "url": "https://www.netflix.com/title/80057883",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Expanse",
+        "url": "http://www.syfy.com/theexpanse",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Kahn Academy - Intro To Storytelling",
+        "url": "https://www.khanacademy.org/partner-content/pixar/storytelling/we-are-all-storytellers/v/storytelling-introb",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "New Day - Radio Edit by Xavier Eleven",
+        "url": "https://play.spotify.com/track/14bSwsVrw4zCERc0FIvjFn",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Schiit Fulla",
+        "url": "http://schiit.com/products/fulla",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Synology",
+        "url": "https://www.synology.com",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Forward JS",
+        "url": "https://forwardjs.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Chrome Canary - Loads CSS Progressively",
+        "url": "https://jakearchibald.com/2016/link-in-body/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Code School",
+        "url": "https://www.codeschool.com/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "RVK by Nathan Fake",
+        "url": "https://play.spotify.com/track/1SIthwv67KS6DBqfWplizM",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "027",
+    "title": "A drink for the \"Rust\" of us",
+    "description": "Rust is an exciting systems programming language that’s being developed in Mozilla. In this episode, we’re joined by Jafar Husain to talk about the Rust and what the benefits of leveraging a language like Rust. We also talk about why a JavaScript engineer would want to learn Rust and how it can help them in their JavaScript coding.",
+    "id": "307994303",
+    "published": "February 15, 2017",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Jafar Husain",
+        "twitter": "jhusain"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "PureScript",
+        "url": "http://www.purescript.org/",
+        "from": "Jafar Husain"
+      },
+      {
+        "title": "Denotational Semantics",
+        "url": "https://en.wikipedia.org/wiki/Denotational_semantics",
+        "from": "Jafar Husain"
+      },
+      {
+        "title": "Santa Clarita Diet",
+        "url": "https://www.netflix.com/title/80095815",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "React Native at Instagram",
+        "url": "https://engineering.instagram.com/react-native-at-instagram-dd828a9a90c7",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Santa Clarita Diet",
+        "url": "https://www.netflix.com/watch/80095815",
+        "from": "Jem Young"
+      },
+      {
+        "title": "What is a Promise?",
+        "url": "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Focal Mobis II Chair",
+        "url": "http://store.focalupright.com/mobis-2-seat-p/ffs-2000.htm",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Hiya",
+        "url": "https://hiya.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Stephen Kawaguchi",
+        "url": "https://twitter.com/sak_to",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Ireland",
+        "url": "https://en.wikipedia.org/wiki/Ireland",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Max Cooper - Distant Light - Rival Consoles Remix",
+        "url": "https://soundcloud.com/max-cooper/max-cooper-distant-light-rival-consoles-remix",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Jeremy Geddes' art",
+        "url": "http://www.jeremygeddesart.com/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Bitbucket Cloud is hiring a Senior Front End Developer ",
+        "url": "https://www.smartrecruiters.com/Atlassian/106404927-senior-front-end-developer-bitbucket?trid=162ef3c2-cdcc-47a9-8327-c69d95269302",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "026",
+    "title": "Design, neat",
+    "description": "In this episode, we’re joined by Julie Horvath, a Design Lead at Apple to help us talk about design. We discuss ways to help improve the collaboration between designers and frontend developers. Julie shares her perspective on building great user experiences for low-bandwidth internet speeds and how taking a progressive enhancement approach can be beneficial to the user.",
+    "id": "306587453",
+    "published": "February 7, 2017",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Julie Horvath",
+        "twitter": "nrrrdcore"
+      }
+    ],
+    "links": [
+      {
+        "title": "USF",
+        "url": "https://www.usfca.edu/"
+      },
+      {
+        "title": "Yammer",
+        "url": "https://www.yammer.com/"
+      },
+      {
+        "title": "CSS Zen Garden",
+        "url": "http://www.csszengarden.com/"
+      },
+      {
+        "title": "CodePen",
+        "url": "https://codepen.io/"
+      },
+      {
+        "title": "Middleman",
+        "url": "https://middlemanapp.com/"
+      },
+      {
+        "title": "Heroku",
+        "url": "https://www.heroku.com/"
+      },
+      {
+        "title": "InVision",
+        "url": "https://www.invisionapp.com/"
+      },
+      {
+        "title": "Sketch",
+        "url": "https://www.sketchapp.com/"
+      },
+      {
+        "title": "Principle",
+        "url": "http://principleformac.com/"
+      },
+      {
+        "title": "Swift",
+        "url": "https://developer.apple.com/swift/"
+      },
+      {
+        "title": "Objective-C",
+        "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+      },
+      {
+        "title": "Bootstrap",
+        "url": "http://getbootstrap.com/"
+      },
+      {
+        "title": "Photoshop",
+        "url": "http://www.adobe.com/products/photoshop.html"
+      },
+      {
+        "title": "Illustrator",
+        "url": "http://www.adobe.com/products/illustrator.html"
+      },
+      {
+        "title": "Skitch",
+        "url": "https://evernote.com/skitch/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Design For Hackers",
+        "url": "https://www.amazon.com/Design-Hackers-Reverse-Engineering-Beauty/dp/1119998956"
+      },
+      {
+        "title": "Hackdesign.org",
+        "url": "https://hackdesign.org/"
+      },
+      {
+        "title": "Github",
+        "url": "https://github.com/"
+      },
+      {
+        "title": "Graceful degradation",
+        "url": "https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement"
+      },
+      {
+        "title": "CSS Modules",
+        "url": "https://github.com/css-modules/css-modules"
+      },
+      {
+        "title": "CSS3 for Web Designers",
+        "url": "https://www.amazon.com/Css3-Web-Designers-Dan-Cederholm/dp/B005SYVZVQ"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Middleman",
+        "url": "https://middlemanapp.com/",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "CSS Modules",
+        "url": "https://github.com/css-modules/css-modules",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "BEM",
+        "url": "http://getbem.com/introduction/",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "Baskets",
+        "url": "http://www.fxnetworks.com/shows/baskets",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "Long Division",
+        "url": "https://www.amazon.com/Long-Division-Kiese-Laymon/dp/1932841725",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "ACLU",
+        "url": "https://www.aclunc.org",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "East of West",
+        "url": "https://imagecomics.com/comics/series/east-of-west",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "Kehlani - Sweet Sexy Savage",
+        "url": "https://www.youtube.com/watch?v=TRwhfPskEL8",
+        "from": "Julie Horvath"
+      },
+      {
+        "title": "Adobe Illustrator",
+        "url": "http://www.adobe.com/products/illustrator.html",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Homebrew Cask",
+        "url": "https://caskroom.github.io/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "U.S. Web Design Standards",
+        "url": "https://standards.usa.gov/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Panda",
+        "url": "http://usepanda.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "ACLU",
+        "url": "https://www.aclunc.org",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Frontier",
+        "url": "https://www.netflix.com/title/80099656",
+        "from": "Jem Young"
+      },
+      {
+        "title": "InVision",
+        "url": "https://www.invisionapp.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Google Voice",
+        "url": "https://www.google.com/voice",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Smashrun",
+        "url": "http://smashrun.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Rollup JS",
+        "url": "http://rollupjs.org/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "ACLU",
+        "url": "https://www.aclunc.org",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "InVision",
+        "url": "https://www.invisionapp.com/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Ghostly",
+        "url": "http://ghostly.com/",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "025",
+    "title": "From bar-back to frontender",
+    "description": "We’ve all started out somewhere in our career. In previous episodes, we’ve talked about various ways we’ve learned front end development, but haven’t touched on mentorship. In this episode, Sarah Showers joins us in the conversation about starting out as a junior developer and how mentors helped shape us into senior developers.",
+    "id": "304404109",
+    "published": "January 24, 2017",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Derrick Showers",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Showers",
+        "twitter": "sarahlshowers"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Girl Develop It",
+        "url": "https://www.girldevelopit.com/",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "Reach LinkedIn",
+        "url": "https://careers.linkedin.com/reach",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "The Investigator",
+        "url": "https://www.netflix.com/title/80144148",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Shepard Fairey - We The People",
+        "url": "https://obeygiant.com/people-art-avail-download-free/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Istanbul",
+        "url": "https://en.wikipedia.org/wiki/Istanbul",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Apple EarPods",
+        "url": "http://www.apple.com/shop/product/MD827LL/A/earpods-with-35-mm-headphone-plug",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "LinkedIn redesign",
+        "url": "https://www.linkedin.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Bonobo - Migration",
+        "url": "http://bonobomusic.com/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Girls In Tech - Mentorship Program",
+        "url": "http://girlsintech.org/programs/git-m/",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "024",
+    "title": "The hangover of 2016",
+    "description": "As we look forward to all the great trends and changes that will happen in 2017, in this episode we discuss our thoughts and opinions on the various development trends and notable things that happened in 2016. Looking forward on 2017, we share some of the things we’re excited to see in the new year.",
+    "id": "302948443",
+    "published": "January 15, 2017",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Preact",
+        "url": "https://preactjs.com/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Inferno",
+        "url": "https://infernojs.org/"
+      },
+      {
+        "title": "Vue JS",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "Angular",
+        "url": "https://angularjs.org/"
+      },
+      {
+        "title": "Box",
+        "url": "https://www.box.com/"
+      },
+      {
+        "title": "Yarn JS",
+        "url": "https://yarnpkg.com/"
+      },
+      {
+        "title": "Firefox",
+        "url": "https://www.mozilla.org/en-US/firefox/products/"
+      },
+      {
+        "title": "Mozilla",
+        "url": "https://www.mozilla.org"
+      },
+      {
+        "title": "Microsoft",
+        "url": "https://www.microsoft.com"
+      },
+      {
+        "title": "Edge",
+        "url": "https://www.microsoft.com/en-us/windows/microsoft-edge"
+      },
+      {
+        "title": "Chakra",
+        "url": "https://github.com/Microsoft/ChakraCore"
+      },
+      {
+        "title": "Visual Studio Code",
+        "url": "https://code.visualstudio.com/"
+      },
+      {
+        "title": "Flexbox",
+        "url": "http://flexboxgrid.com/"
+      },
+      {
+        "title": "CSS Grid",
+        "url": "http://www.cssgrid.co/"
+      },
+      {
+        "title": "IE",
+        "url": "https://www.microsoft.com/en-us/download/internet-explorer.aspx"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "title": "Elm",
+        "url": "http://elm-lang.org/"
+      },
+      {
+        "title": "Flow",
+        "url": "https://flowtype.org/"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/"
+      },
+      {
+        "title": "Progressive Web Apps",
+        "url": "https://developers.google.com/web/progressive-web-apps/"
+      },
+      {
+        "title": "React Native",
+        "url": "https://facebook.github.io/react-native/"
+      },
+      {
+        "title": "Babel",
+        "url": "https://babeljs.io/"
+      },
+      {
+        "title": "Redux",
+        "url": "http://redux.js.org/"
+      },
+      {
+        "title": "WebKit",
+        "url": "https://webkit.org/"
+      },
+      {
+        "title": "ES6",
+        "url": "http://es6-features.org/"
+      },
+      {
+        "title": "Safari",
+        "url": "http://www.apple.com/safari/"
+      },
+      {
+        "title": "Apple AirPods",
+        "url": "http://www.apple.com/airpods/"
+      },
+      {
+        "title": "Apple MacBook Pro",
+        "url": "http://www.apple.com/macbook-pro/"
+      },
+      {
+        "title": "iPhone 7",
+        "url": "http://www.apple.com/iphone/"
+      },
+      {
+        "title": "Service workers",
+        "url": "https://www.w3.org/TR/service-workers/"
+      },
+      {
+        "title": "Web workers",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
+      },
+      {
+        "title": "Apple Pay",
+        "url": "http://www.apple.com/apple-pay/"
+      },
+      {
+        "title": "WebVR",
+        "url": "https://webvr.info/"
+      },
+      {
+        "title": "React VR",
+        "url": "https://github.com/facebookincubator/react-vr"
+      },
+      {
+        "title": "WebAssembly",
+        "url": "http://webassembly.org/"
+      },
+      {
+        "title": "Dear JavaScript",
+        "url": "https://medium.com/thejameskyle/dear-javascript-7e14ffcae36c"
+      },
+      {
+        "title": "OpenSSL",
+        "url": "https://www.openssl.org/"
+      },
+      {
+        "title": "Wearables",
+        "url": "http://www.wearables.com/"
+      },
+      {
+        "title": "Brexit",
+        "url": "https://en.wikipedia.org/wiki/Brexit"
+      },
+      {
+        "title": "2016 US Election",
+        "url": "https://en.wikipedia.org/wiki/United_States_presidential_election"
+      },
+      {
+        "title": "SMACSS",
+        "url": "https://smacss.com/"
+      },
+      {
+        "title": "BEM",
+        "url": "http://getbem.com/"
+      },
+      {
+        "title": "PostCSS",
+        "url": "http://postcss.org/"
+      },
+      {
+        "title": "CSS Houdini",
+        "url": "https://github.com/w3c/css-houdini-drafts/wiki"
+      },
+      {
+        "title": "Net Neutrality",
+        "url": "https://en.wikipedia.org/wiki/Net_neutrality"
+      },
+      {
+        "title": "Netflix",
+        "url": "https://netflix.com"
+      },
+      {
+        "title": "Atom",
+        "url": "https://atom.io/"
+      },
+      {
+        "title": "Sublime",
+        "url": "https://www.sublimetext.com/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Electric Objects Frame",
+        "url": "https://www.electricobjects.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "2017 conference list",
+        "url": "https://github.com/ryanburgess/2017-conferences",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Travelers",
+        "url": "https://www.netflix.com/title/80105699",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Everyone",
+        "url": "http://frontendhappyhour.com",
+        "from": "Jem Young"
+      },
+      {
+        "title": "VIM - devicons",
+        "url": "https://github.com/ryanoasis/vim-devicons",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Runner’s World Podcast",
+        "url": "http://www.runnersworld.com/audio",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Run The Jewels 3",
+        "url": "https://play.spotify.com/album/3v2GjFB9V5kHgrOCXn3sI9?play=true&utm_source=open.spotify.com&utm_medium=open",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Fish Shell",
+        "url": "https://fishshell.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "React Status",
+        "url": "http://react.statuscode.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Frontend focus",
+        "url": "http://frontendfocus.co/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Nuclide",
+        "url": "https://nuclide.io/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Yarn",
+        "url": "https://yarnpkg.com/",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "023",
+    "title": "Ember - Gin & Tomster",
+    "description": "Ember is a growing JavaScript framework that large companies like LinkedIn are using for their web application. In this episode, we are joined by Stacy London from Atlassian to discuss the advantages and disadvantages of leveraging Ember as a JavaScript framework.",
+    "id": "300261378",
+    "published": "December 30, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Derrick Showers",
+      "Brian Holt"
+    ],
+    "guests": [
+      {
+        "name": "Stacy London",
+        "twitter": "stacylondoner"
+      }
+    ],
+    "links": [
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Angular",
+        "url": "https://angularjs.org/"
+      },
+      {
+        "title": "Ember a11y",
+        "url": "https://github.com/ember-a11y/ember-a11y"
+      },
+      {
+        "title": "Ember Fastboot",
+        "url": "https://ember-fastboot.com/"
+      },
+      {
+        "title": "Ember Resolver",
+        "url": "https://github.com/ember-cli/ember-resolver"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/"
+      },
+      {
+        "title": "Ember Community Slack",
+        "url": "https://ember-community-slackin.herokuapp.com/"
+      },
+      {
+        "title": "Ember Conf",
+        "url": "http://emberconf.com/"
+      },
+      {
+        "title": "Ember Docs",
+        "url": "http://emberjs.com/api/"
+      },
+      {
+        "title": "Yehuda Katz",
+        "url": "https://twitter.com/wycats"
+      },
+      {
+        "title": "Django",
+        "url": "https://www.djangoproject.com/"
+      },
+      {
+        "title": "Computed Properties",
+        "url": "https://guides.emberjs.com/v2.3.0/object-model/computed-properties/"
+      },
+      {
+        "title": "Obervables",
+        "url": "http://reactivex.io/documentation/observable.html"
+      },
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/"
+      },
+      {
+        "title": "Handlebars",
+        "url": "http://handlebarsjs.com/"
+      },
+      {
+        "title": "Mustache",
+        "url": "https://mustache.github.io/"
+      },
+      {
+        "title": "Backbone",
+        "url": "http://backbonejs.org/"
+      },
+      {
+        "title": "ASP.Net",
+        "url": "https://www.asp.net/"
+      },
+      {
+        "title": "Virtual DOM",
+        "url": "https://medium.com/cardlife-app/what-is-virtual-dom-c0ec6d6a925c"
+      },
+      {
+        "title": "Rust",
+        "url": "https://www.rust-lang.org/"
+      },
+      {
+        "title": "Swift",
+        "url": "https://swift.org/"
+      },
+      {
+        "title": "Tom Dale",
+        "url": "https://twitter.com/tomdale"
+      },
+      {
+        "title": "Kyle Simpson",
+        "url": "https://github.com/getify"
+      },
+      {
+        "title": "Stefan Penner",
+        "url": "https://twitter.com/stefanpenner"
+      },
+      {
+        "title": "Nathan Hammond",
+        "url": "https://twitter.com/nathanhammond"
+      },
+      {
+        "title": "Chad Hietala",
+        "url": "https://twitter.com/chadhietala"
+      },
+      {
+        "title": "Brendan McLoughlin",
+        "url": "https://twitter.com/brenmcl"
+      },
+      {
+        "title": "Lauren Tan (Sugar Pirate)",
+        "url": "https://twitter.com/sugarpirate_"
+      },
+      {
+        "title": "Erik Bryn",
+        "url": "https://twitter.com/ebryn"
+      },
+      {
+        "title": "Jafar Husain",
+        "url": "https://twitter.com/jhusain"
+      },
+      {
+        "title": "Mike North",
+        "url": "https://twitter.com/michaellnorth"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Crimetown",
+        "url": "https://itunes.apple.com/us/podcast/crimetown/id1170959623?mt=2",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Hip-Hop Evolution",
+        "url": "https://www.netflix.com/title/80141782",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The OA",
+        "url": "https://www.netflix.com/title/80044950",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Ember Twiddle",
+        "url": "https://ember-twiddle.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Dockyard",
+        "url": "https://dockyard.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Ember Community Slack",
+        "url": "https://ember-community-slackin.herokuapp.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Preact",
+        "url": "https://github.com/developit/preact",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Mike North",
+        "url": "https://twitter.com/michaellnorth",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "CSS Grid",
+        "url": "http://labs.jensimmons.com/examples/mondrian-2.html",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Girl Develop It",
+        "url": "https://www.girldevelopit.com",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "022",
+    "title": "Drinking with more style and less sass",
+    "description": "Writing CSS seems pretty straight forward until your project and team starts to grow. CSS has a lot of issues, in this episode we share some advice for making it a little bit easier. We’ll also discuss ways to create a scalable CSS architecture for large projects and teams.",
+    "id": "298297820",
+    "published": "December 16, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt",
+      "Mars Jullian"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Sarah Drasner",
+        "url": "https://twitter.com/sarah_edo"
+      },
+      {
+        "title": "Chris Coyier",
+        "url": "https://twitter.com/chriscoyier"
+      },
+      {
+        "title": "Una Kravets",
+        "url": "https://twitter.com/una"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "Less",
+        "url": "http://lesscss.org/"
+      },
+      {
+        "title": "Transpilers episode",
+        "url": "http://frontendhappyhour.com/episodes/transpilers-slow-down-and-drink/"
+      },
+      {
+        "title": "BEM",
+        "url": "http://getbem.com/"
+      },
+      {
+        "title": "Sass-lint",
+        "url": "https://github.com/sasstools/sass-lint"
+      },
+      {
+        "title": "BEM lint",
+        "url": "https://github.com/postcss/postcss-bem-linter"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Radium",
+        "url": "https://github.com/FormidableLabs/radium"
+      },
+      {
+        "title": "Aphrodite",
+        "url": "https://github.com/Khan/aphrodite"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/"
+      },
+      {
+        "title": "Ruby",
+        "url": "https://www.ruby-lang.org"
+      },
+      {
+        "title": "Ruby Sass",
+        "url": "https://www.npmjs.com/package/ruby-sass"
+      },
+      {
+        "title": "LibSass",
+        "url": "http://sass-lang.com/libsass"
+      },
+      {
+        "title": "PostCSS",
+        "url": "https://github.com/postcss/postcss"
+      },
+      {
+        "title": "CSS Houdini",
+        "url": "https://github.com/w3c/css-houdini-drafts/wiki"
+      },
+      {
+        "title": "SMACSS",
+        "url": "https://smacss.com/"
+      },
+      {
+        "title": "SassySass",
+        "url": "https://github.com/ryanburgess/sassysass"
+      },
+      {
+        "title": "Wai Lun Poon",
+        "url": "https://twitter.com/monkeytypewritr"
+      },
+      {
+        "title": "Dart",
+        "url": "https://www.dartlang.org/"
+      },
+      {
+        "title": "xkcd compiling",
+        "url": "http://xkcd.com/303/"
+      },
+      {
+        "title": "Stylus",
+        "url": "http://stylus-lang.com/"
+      },
+      {
+        "title": "Jade",
+        "url": "https://www.npmjs.com/package/jade"
+      },
+      {
+        "title": "TJ Holowaychuk",
+        "url": "https://twitter.com/tjholowaychuk"
+      },
+      {
+        "title": "Express",
+        "url": "http://expressjs.com/"
+      },
+      {
+        "title": "Koa",
+        "url": "http://koajs.com/"
+      },
+      {
+        "title": "Go",
+        "url": "https://golang.org/"
+      },
+      {
+        "title": "Autoprefixer",
+        "url": "https://autoprefixer.github.io/"
+      },
+      {
+        "title": "Flexbox",
+        "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Art of Readme",
+        "url": "https://github.com/noffle/art-of-Readme",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Nas - Wrote My Way Out",
+        "url": "https://play.spotify.com/track/3QFWe1dM5oUY0O1TTKapUS",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Google Code-in",
+        "url": "https://codein.withgoogle.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "CSS Stats",
+        "url": "http://cssstats.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Sketch",
+        "url": "https://www.sketchapp.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Complete Intro to React",
+        "url": "https://frontendmasters.com/courses/react-intro/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Code Pen",
+        "url": "https://codepen.io/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Nextdoor",
+        "url": "https://nextdoor.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "CSS Wizardry",
+        "url": "http://csswizardry.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "mrmrs",
+        "url": "https://twitter.com/mrmrs_",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Una Kravets",
+        "url": "https://twitter.com/Una",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Sarah Drasner",
+        "url": "https://twitter.com/sarah_edo",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Rachel Nabors",
+        "url": "https://twitter.com/rachelnabors",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "City of Minneapolis",
+        "url": "http://www.ci.minneapolis.mn.us/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Laphroaig Madeira",
+        "url": "http://www.laphroaig.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "cssreference.io",
+        "url": "http://cssreference.io/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "The Great Dickens Fair",
+        "url": "http://dickensfair.com/",
+        "from": "Mars Jullian"
+      }
+    ]
+  },
+  {
+    "episode": "021",
+    "title": "Mixed drinks and Mixed languages",
+    "description": "Have you had to deal with supporting more than one language in your web application? Offering content in several languages makes a better experience for your users but it can add many layers of complexity in your application’s design and architecture. In this episode we’ll be discussing the ways we have dealt with supporting multiple languages.",
+    "id": "296456619",
+    "published": "December 5, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Google Translate",
+        "url": "https://translate.google.com/"
+      },
+      {
+        "title": "React INTL",
+        "url": "https://github.com/yahoo/react-intl"
+      },
+      {
+        "title": "Weebly",
+        "url": "https://www.weebly.com/"
+      },
+      {
+        "title": "Squarespace",
+        "url": "https://www.squarespace.com/"
+      },
+      {
+        "title": "Jekyll",
+        "url": "https://jekyllrb.com/"
+      },
+      {
+        "title": "Wordpress",
+        "url": "https://wordpress.com"
+      },
+      {
+        "title": "Drupal",
+        "url": "https://www.drupal.org/"
+      },
+      {
+        "title": "Pootle",
+        "url": "http://pootle.translatehouse.org/"
+      },
+      {
+        "title": "Wasted on Workflows",
+        "url": "http://frontendhappyhour.com/episodes/wasted-on-workflows"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Oliver Stone's Untold History of the United States",
+        "url": "https://www.netflix.com/title/80127995",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Purity Ring - Another Eternity",
+        "url": "https://open.spotify.com/album/4ymjpcGruNuUUUZOeGawLe",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Serge.io",
+        "url": "https://serge.io/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Moral Machine",
+        "url": "http://moralmachine.mit.edu/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "HTC Vive",
+        "url": "https://www.vive.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Crown",
+        "url": "https://www.netflix.com/title/80025678",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Setup",
+        "url": "https://usesthis.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Kitura",
+        "url": "https://github.com/IBM-Swift/Kitura",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "SF Chronicle",
+        "url": "http://www.sfchronicle.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Washington Post",
+        "url": "https://www.washingtonpost.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Quick Draw with Google",
+        "url": "https://quickdraw.withgoogle.com/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "020",
+    "title": "Wasted on workflows",
+    "description": "We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
+    "id": "294014341",
+    "published": "November 20, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Brian Holt",
+      "Mars Jullian"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "MacOS",
+        "url": "http://www.apple.com/macos"
+      },
+      {
+        "title": "Windows",
+        "url": "https://www.microsoft.com/en-us/windows-10"
+      },
+      {
+        "title": "Ubuntu",
+        "url": "https://www.ubuntu.com/"
+      },
+      {
+        "title": ".NET",
+        "url": "https://www.microsoft.com/net"
+      },
+      {
+        "title": "C#",
+        "url": "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx"
+      },
+      {
+        "title": "Sublime Text",
+        "url": "https://www.sublimetext.com/"
+      },
+      {
+        "title": "Sublime Text dev channel (nightly/monthly builds)",
+        "url": "http://www.sublimetext.com/3dev"
+      },
+      {
+        "title": "Emacs",
+        "url": "https://emacsformacosx.com/"
+      },
+      {
+        "title": "Atom",
+        "url": "https://atom.io/"
+      },
+      {
+        "title": "Vim",
+        "url": "http://www.vim.org/"
+      },
+      {
+        "title": "Eclipse",
+        "url": "https://eclipse.org/"
+      },
+      {
+        "title": "Visual Code",
+        "url": "https://code.visualstudio.com/"
+      },
+      {
+        "title": "TextMate",
+        "url": "https://macromates.com/"
+      },
+      {
+        "title": "Notepad++",
+        "url": "https://notepad-plus-plus.org/"
+      },
+      {
+        "title": "Dreamweaver",
+        "url": "http://www.adobe.com/products/dreamweaver.html"
+      },
+      {
+        "title": "iTerm",
+        "url": "https://www.iterm2.com/"
+      },
+      {
+        "title": "Apple Time Machine backup",
+        "url": "https://www.youtube.com/watch?v=ZLhvEfiOADk"
+      },
+      {
+        "title": "Kaleidoscope",
+        "url": "http://www.kaleidoscopeapp.com/"
+      },
+      {
+        "title": "1Password",
+        "url": "https://1password.com/"
+      },
+      {
+        "title": "Dropbox",
+        "url": "https://www.dropbox.com/"
+      },
+      {
+        "title": "Trello",
+        "url": "https://trello.com/"
+      },
+      {
+        "title": "Chrome",
+        "url": "https://www.google.com/chrome/"
+      },
+      {
+        "title": "Firefox",
+        "url": "https://www.mozilla.org/firefox"
+      },
+      {
+        "title": "LastPass",
+        "url": "https://lastpass.com"
+      },
+      {
+        "title": "Safari",
+        "url": "https://support.apple.com/downloads/#safari"
+      },
+      {
+        "title": "Homebrew",
+        "url": "http://brew.sh/"
+      },
+      {
+        "title": "Node JS",
+        "url": "https://nodejs.org"
+      },
+      {
+        "title": "nvm",
+        "url": "https://github.com/creationix/nvm"
+      },
+      {
+        "title": "Browser Stack",
+        "url": "https://www.browserstack.com/"
+      },
+      {
+        "title": "Alfred",
+        "url": "https://www.alfredapp.com/"
+      },
+      {
+        "title": "Bartender",
+        "url": "https://www.macbartender.com/"
+      },
+      {
+        "title": "Charles Proxy",
+        "url": "https://www.charlesproxy.com/"
+      },
+      {
+        "title": "Screeny",
+        "url": "http://www.screenyapp.com/"
+      },
+      {
+        "title": "Skitch",
+        "url": "https://evernote.com/skitch/"
+      },
+      {
+        "title": "Evernote",
+        "url": "https://evernote.com"
+      },
+      {
+        "title": "Eclipse",
+        "url": "https://www.eclipse.org/"
+      },
+      {
+        "title": "Eslint",
+        "url": "https://github.com/roadhump/SublimeLinter-eslint"
+      },
+      {
+        "title": "Sublime DocBlockr",
+        "url": "https://github.com/Warin/Sublime/tree/master/DocBlockr"
+      },
+      {
+        "title": "Emmet",
+        "url": "http://emmet.io/"
+      },
+      {
+        "title": "GitGutter (Sublime)",
+        "url": "https://github.com/jisaacks/GitGutter"
+      },
+      {
+        "title": "GitHubinator (Sublime)",
+        "url": "https://github.com/ehamiter/GitHubinator"
+      },
+      {
+        "title": "NERD tree (Vim)",
+        "url": "https://github.com/scrooloose/nerdtree"
+      },
+      {
+        "title": "Less",
+        "url": "http://lesscss.org/"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "Firefox Nightly",
+        "url": "https://nightly.mozilla.org/"
+      },
+      {
+        "title": "JIRA",
+        "url": "https://jira.atlassian.com"
+      },
+      {
+        "title": "Slack",
+        "url": "https://slack.com/"
+      },
+      {
+        "title": "HipChat",
+        "url": "https://www.hipchat.com/"
+      },
+      {
+        "title": "Yammer",
+        "url": "https://www.yammer.com/"
+      },
+      {
+        "title": "Workplace by Facebook",
+        "url": "https://workplace.fb.com/"
+      },
+      {
+        "title": "Microsoft Teams",
+        "url": "https://products.office.com/en-us/microsoft-teams/group-chat-software"
+      },
+      {
+        "title": "LG 34 inch curved monitor",
+        "url": "https://www.amazon.com/LG-Electronics-34-Inch-LED-Lit-34UC97-S/dp/B00OKSEWL6"
+      },
+      {
+        "title": "Apple Watch",
+        "url": "http://www.apple.com/watch"
+      },
+      {
+        "title": "Treadmill Desk",
+        "url": "https://www.amazon.com/TrekDesk-Treadmill-Desks-TD-01-Desk/dp/B002IYRBI0"
+      },
+      {
+        "title": "Fitbit",
+        "url": "http://www.fitbit.com/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Reptar",
+        "url": "http://reptar.github.io/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Chance",
+        "url": "http://www.hulu.com/start/?show=chance",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "H.264 is magic",
+        "url": "https://sidbala.com/h-264-is-magic/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "We Rate Dogs",
+        "url": "https://twitter.com/dog_rates",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Jest",
+        "url": "https://facebook.github.io/jest/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "The Naked and Famous - Simple Forms",
+        "url": "https://play.spotify.com/artist/0oeUpvxWsC8bWS6SnpU8b9",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Bose ear buds",
+        "url": "https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "React Devtools",
+        "url": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Jolene - collaboration with Dolly Parton and Pentatonix",
+        "url": "https://play.spotify.com/track/60PbWX0IWXg10YaE6VlywH",
+        "from": "Mars Jullian"
+      }
+    ]
+  },
+  {
+    "episode": "019",
+    "title": "Drinking to digital nomads",
+    "description": "The idea of working remotely has become more realistic over the past few years, making it easier for engineers to do their work without being tied to a physical location. In this episode, we are joined by Darren Buckner, Founder and CEO of Workfrom, and Sarah Showers from LinkedIn. Both guests will join us to discuss the pros and cons of working from your favorite coffee shop.",
+    "id": "291919603",
+    "published": "November 7, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Showers",
+        "twitter": "sarahlshowers"
+      },
+      {
+        "name": "Darren Buckner",
+        "twitter": "darrenbuckner"
+      }
+    ],
+    "links": [
+      {
+        "title": "Impact Hub",
+        "url": "https://saltlake.impacthub.net/"
+      },
+      {
+        "title": "Slack",
+        "url": "https://slack.com/"
+      },
+      {
+        "title": "Google Hangouts",
+        "url": "https://hangouts.google.com/"
+      },
+      {
+        "title": "Project retrospective",
+        "url": "https://en.wikipedia.org/wiki/Retrospective"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Workfrom",
+        "url": "https://workfrom.co/",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "Coffee Bar SF",
+        "url": "http://www.coffeebarsf.com/",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "Work Shop Cafe",
+        "url": "http://www.workshopcafe.com/",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "The 10 Biggest Misconceptions About Remote Work",
+        "url": "http://blog.trello.com/company-remote-work-myths",
+        "from": "Darren Buckner"
+      },
+      {
+        "title": "Toby: manage your tabs",
+        "url": "https://chrome.google.com/webstore/detail/toby-manage-your-tabs/hddnkoipeenegfoeaoibdmnaalmgkpip",
+        "from": "Darren Buckner"
+      },
+      {
+        "title": "Oversight",
+        "url": "https://objective-see.com/products/oversight.html",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "How To Open Locks With Improvised Tools",
+        "url": "https://www.amazon.com/gp/product/0966608712/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Why work doesn’t happen at work TED Talk",
+        "url": "https://www.ted.com/talks/jason_fried_why_work_doesn_t_happen_at_work",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Android 404 page",
+        "url": "https://www.android.com/404/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "On Style Maintenance",
+        "url": "https://css-tricks.com/on-style-maintenance/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Grim Dawn",
+        "url": "http://www.grimdawn.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Going Remote, Staying Effective",
+        "url": "http://www.linkedin.com/pulse/going-remote-staying-effective-james-bake",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Yelp Collections",
+        "url": "https://www.yelpblog.com/2016/10/bookmark-collections-new-back-pocket-resource",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Haelos - Full Circle",
+        "url": "https://play.spotify.com/album/3kE0d3eZX1EjoWMeHQTvXQ",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Track JS",
+        "url": "https://trackjs.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Indie Hackers Nomad List",
+        "url": "https://www.indiehackers.com/businesses/nomad-list",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Best Practices for Working with Satellite Developers",
+        "url": "http://www.lookthink.com/blog/near-and-far-best-practices-working-satellite-developers",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "018",
+    "title": "Shotgunning websites: web performance",
+    "description": "Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important.",
+    "id": "290570478",
+    "published": "October 29, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Derrick Showers",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Amazon found every 100ms of latency cost them 1% in sales",
+        "url": "http://blog.gigaspaces.com/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/"
+      },
+      {
+        "title": "Page speed correlates to business metrics at Walmart.com",
+        "url": "http://www.webperformancetoday.com/2012/02/28/4-awesome-slides-showing-how-page-speed-correlates-to-business-metrics-at-walmart-com/"
+      },
+      {
+        "title": "For Google, 400ms of increased page load time, results in 0,44% lost search sessions",
+        "url": "http://www.cedexis.com/blog/for-google-400ms-of-increased-page-load-time-results-in-044-lost-search-sessions/"
+      },
+      {
+        "title": "The Social Network",
+        "url": "http://www.imdb.com/title/tt1285016/"
+      },
+      {
+        "title": "Large DDoS attacks cause outages at Twitter, Spotify, and other sites",
+        "url": "https://techcrunch.com/2016/10/21/many-sites-including-twitter-and-spotify-suffering-outage/"
+      },
+      {
+        "title": "Google Page Rank",
+        "url": "http://www.prchecker.info/"
+      },
+      {
+        "title": "AMP",
+        "url": "https://www.ampproject.org/"
+      },
+      {
+        "title": "2G Tuesdays",
+        "url": "http://www.theverge.com/2015/10/28/9625062/facebook-2g-tuesdays-slow-internet-developing-world"
+      },
+      {
+        "title": "Gzip",
+        "url": "https://en.wikipedia.org/wiki/Gzip"
+      },
+      {
+        "title": "Wordpress",
+        "url": "https://wordpress.com/"
+      },
+      {
+        "title": "Forward JS",
+        "url": "https://forwardjs.com/"
+      },
+      {
+        "title": "WebPageTest",
+        "url": "https://www.webpagetest.org/"
+      },
+      {
+        "title": "PageSpeed",
+        "url": "https://developers.google.com/speed/pagespeed/"
+      },
+      {
+        "title": "Gulp",
+        "url": "http://gulpjs.com/"
+      },
+      {
+        "title": "Grunt",
+        "url": "http://gruntjs.com/"
+      },
+      {
+        "title": "npm",
+        "url": "https://www.npmjs.com/"
+      },
+      {
+        "title": "Broccoli",
+        "url": "http://broccolijs.com/"
+      },
+      {
+        "title": "Glimmer",
+        "url": "https://github.com/tildeio/glimmer"
+      },
+      {
+        "title": "GWT",
+        "url": "http://www.gwtproject.org/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "Angular",
+        "url": "https://angular.io/"
+      },
+      {
+        "title": "Debugging Node.js in Production",
+        "url": "https://www.youtube.com/watch?v=O1YP8QP9gLA"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Caplansky's Deli",
+        "url": "https://www.caplanskys.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "React Perf Tool",
+        "url": "https://www.npmjs.com/package/react-perf-tool",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "FlameGraph",
+        "url": "https://github.com/brendangregg/FlameGraph",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Real-time performance audit with Chrome DevTools",
+        "url": "https://www.youtube.com/watch?v=pt4TjbSQz-g",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Week of learning",
+        "url": "https://learning.linkedin.com/week-of-learning",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Black Mirror",
+        "url": "https://www.netflix.com/title/70264888",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Man In The High Castle",
+        "url": "https://www.amazon.com/Man-High-Castle-Season/dp/B00RSGIVVO",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Bridge Troll",
+        "url": "https://www.bridgetroll.org/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Imgix Page Weight Tool",
+        "url": "https://pageweight.imgix.com/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "CSS Triggers",
+        "url": "https://csstriggers.com/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "017",
+    "title": "Managing our drinks",
+    "description": "In this episode, we are joined by Chris Saint-Amant from Netflix to help discuss what it’s like to transition from being an engineer to becoming an engineering manager. We share our thoughts on what engineers expect in their manager and share advice for engineers interested in moving into a management role.",
+    "id": "287594273",
+    "published": "October 13, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt"
+    ],
+    "guests": [
+      {
+        "name": "Chris Saint-Amant",
+        "twitter": "csaintamant"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Radical Candor",
+        "url": "http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/",
+        "from": "Chris Saint-Amant"
+      },
+      {
+        "title": "Suuns - Hold/Still",
+        "url": "https://suuns.bandcamp.com/",
+        "from": "Chris Saint-Amant"
+      },
+      {
+        "title": "I'll Sleep When I'm Dead",
+        "url": "https://www.netflix.com/title/80118930",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Advantage",
+        "url": "https://www.amazon.com/Summary-Advantage-Patrick-Lencioni-Analysis/dp/1519620314",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Free O’Reilly Books",
+        "url": "https://www.reddit.com/r/learnprogramming/comments/556kxj/oreilly_offering_programming_ebooks_for_free/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Noto font by Google",
+        "url": "https://www.google.com/get/noto/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Infinite Jukebox",
+        "url": "http://labs.echonest.com/Uploader/index.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "XOXO Soundtrack",
+        "url": "https://play.spotify.com/album/7GII7KZDArYqZ14xcyshb4",
+        "from": "Jem Young"
+      },
+      {
+        "title": "TC-39",
+        "url": "https://github.com/tc39",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Ryan Burgess @ Full Stack Toronto",
+        "url": "http://fsto.co/schedule/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Being a Manager is Hard",
+        "url": "https://www.reddit.com/r/sysadmin/comments/55k4lj/being_a_manager_is_hard/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "The State of JS",
+        "url": "http://stateofjs.com/2016/introduction/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Samsung SmartThings Hub",
+        "url": "https://www.smartthings.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Flume - Skin",
+        "url": "https://play.spotify.com/album/6VHCF8ykDo3STafE5JfMAs?play=true&utm_source=open.spotify.com",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Bottle Logic Brewing",
+        "url": "http://bottlelogic.com/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "016",
+    "title": "Spilled beer and epic fails",
+    "description": "As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes.",
+    "id": "284642453",
+    "published": "September 25, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Brian Holt",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Flash",
+        "url": "https://www.adobe.com/support/flash/downloads.html"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "Python",
+        "url": "https://www.python.org/"
+      },
+      {
+        "title": "PHP",
+        "url": "http://php.net/"
+      },
+      {
+        "title": "Chartbeat",
+        "url": "https://chartbeat.com/"
+      },
+      {
+        "title": "SRE",
+        "url": "https://en.wikipedia.org/wiki/Site_reliability_engineer"
+      },
+      {
+        "title": "Reddit Marketplace",
+        "url": "https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/"
+      },
+      {
+        "title": "Full Stack TO",
+        "url": "https://fsto.co/"
+      },
+      {
+        "title": "Wordpress",
+        "url": "https://wordpress.com"
+      },
+      {
+        "title": "Nagios",
+        "url": "https://exchange.nagios.org/"
+      },
+      {
+        "title": "Jenkins",
+        "url": "https://jenkins.io/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "React plus X: Best Practices for Reusable UI Components - Mars Jullian",
+        "url": "https://www.youtube.com/watch?v=Yy7gFgETp0o",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "React Rally 2016 videos",
+        "url": "https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "I got scammed by a Silicon Valley startup",
+        "url": "https://medium.com/startup-grind/i-got-scammed-by-a-silicon-valley-startup-574ced8acdff",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "React Game Kit",
+        "url": "https://github.com/FormidableLabs/react-game-kit",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "A Very Secret Service",
+        "url": "https://www.youtube.com/watch?v=fwDUguW8Duo",
+        "from": "Jem Young"
+      },
+      {
+        "title": "APEX: The Story of the Hypercar",
+        "url": "https://www.netflix.com/title/80109260",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Polarheart",
+        "url": "https://www.facebook.com/polarheartmusic/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Traveling",
+        "url": "http://frontendhappyhour.com",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "GitHub Universe conference",
+        "url": "https://github.com/universe-2016",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Oh Shit Git",
+        "url": "http://ohshitgit.com/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "015",
+    "title": "A flight of JavaScript frameworks",
+    "description": "In the JavaScript community, we have a lot of amazing frameworks that help us in our day to day work. It can be at times overwhelming to understand what framework is the best one to use. In this episode, we discuss our thoughts and opinions on the various frameworks.",
+    "id": "282673305",
+    "published": "September 12, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Derrick Showers"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Angular",
+        "url": "https://angularjs.org/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "JQuery",
+        "url": "https://jquery.com/"
+      },
+      {
+        "title": "Backbone",
+        "url": "http://backbonejs.org/"
+      },
+      {
+        "title": "Marionette",
+        "url": "http://marionettejs.com/"
+      },
+      {
+        "title": "Knockout",
+        "url": "http://knockoutjs.com/"
+      },
+      {
+        "title": "Troop",
+        "url": "http://troopjs.com/"
+      },
+      {
+        "title": "Prototype",
+        "url": "http://prototypejs.org/"
+      },
+      {
+        "title": "YUI",
+        "url": "http://yuilibrary.com/"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/"
+      },
+      {
+        "title": "GWT",
+        "url": "http://www.gwtproject.org/"
+      },
+      {
+        "title": "Brian Holt's React & ES6 workshop",
+        "url": "https://btholt.github.io/complete-intro-to-react/"
+      },
+      {
+        "title": "Ghost",
+        "url": "https://ghost.org/"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/"
+      },
+      {
+        "title": "Egghead.io",
+        "url": "https://egghead.io/"
+      },
+      {
+        "title": "Pluralsight",
+        "url": "https://www.pluralsight.com"
+      },
+      {
+        "title": "Linda.com",
+        "url": "https://www.lynda.com/"
+      },
+      {
+        "title": "Ember Slack",
+        "url": "https://ember-community-slackin.herokuapp.com/"
+      },
+      {
+        "title": "Paul Irish",
+        "url": "https://twitter.com/paul_irish"
+      },
+      {
+        "title": "John Lindquist",
+        "url": "https://twitter.com/johnlindquist"
+      }
+    ],
+    "picks": [
+      {
+        "title": "React in 7 minutes",
+        "url": "https://egghead.io/lessons/react-react-in-7-minutes",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Mackup",
+        "url": "https://github.com/lra/mackup",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "AMP Project",
+        "url": "https://www.ampproject.org/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "DoodlesTV",
+        "url": "https://www.youtube.com/channel/UCyArfuouSLqk3cnMoDUUzlQ",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Fidget cube",
+        "url": "https://www.producthunt.com/tech/fidget-cube",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Sully",
+        "url": "http://www.imdb.com/title/tt3263904/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Alamo Drafthouse",
+        "url": "https://drafthouse.com/sf",
+        "from": "Derrick Showers"
+      }
+    ]
+  },
+  {
+    "episode": "014",
+    "title": "Hangovers and hotels: engineer conferences",
+    "description": "Conferences continue to be a great way to learn and grow as an engineer. In the 14th episode of the Front End Happy Hour podcast we discuss the value of conferences and why you might want to attend. It’s a special episode because we recorded at React Rally in Salt Lake City. At the conference we caught up with a lot of great attendees and speakers to hear about their experiences at conferences and the benefits for attending.",
+    "id": "280341137",
+    "published": "August 28, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam"
+    ],
+    "guests": [
+      {
+        "name": "Tasha Alfano",
+        "twitter": "TashAlfano"
+      },
+      {
+        "name": "Sumana Mohan",
+        "twitter": "sumana_mohan"
+      },
+      {
+        "name": "Henry Zhu",
+        "twitter": "left_pad"
+      },
+      {
+        "name": "Ryan Wachholz",
+        "twitter": "https://github.com/wachie"
+      },
+      {
+        "name": "Quinn Daniels",
+        "twitter": "https://github.com/aqdaniels"
+      },
+      {
+        "name": "Hani Ahir",
+        "twitter": "HaniAhir"
+      },
+      {
+        "name": "Albert Toledo",
+        "twitter": "toledoalbert"
+      },
+      {
+        "name": "Brian Tice",
+        "twitter": "BrianTice99"
+      }
+    ],
+    "links": [
+      {
+        "title": "React Rally",
+        "url": "http://www.reactrally.com/"
+      },
+      {
+        "title": "Fluent Conference",
+        "url": "http://conferences.oreilly.com/fluent"
+      },
+      {
+        "title": "Scotland JS",
+        "url": "http://scotlandjs.com/"
+      },
+      {
+        "title": "FITC",
+        "url": "http://fitc.ca/"
+      },
+      {
+        "title": "Adobe Max",
+        "url": "https://max.adobe.com/"
+      },
+      {
+        "title": "Jamison Dance",
+        "url": "https://twitter.com/jergason"
+      },
+      {
+        "title": "Matt Zabriskie",
+        "url": "https://twitter.com/mzabriskie"
+      },
+      {
+        "title": "React JS",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Pete Hunt",
+        "url": "https://twitter.com/floydophone"
+      },
+      {
+        "title": "Stranger Things",
+        "url": "https://www.netflix.com/title/80057281"
+      },
+      {
+        "title": "Xoxo",
+        "url": "https://www.netflix.com/title/80057691"
+      },
+      {
+        "title": "Recruiter episode",
+        "url": "http://frontendhappyhour.com/episodes/ninja-rockstar-whiskey-drinker-with-10-years-ipa-experience/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "V-moda m-100 headphones",
+        "url": "https://amzn.com/B00A39PPDK",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Deadmau5 Stranger Things Cover",
+        "url": "http://www.youredm.com/2016/08/15/watch-deadmau5-cover-stranger-things-theme-song/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Emojipedia",
+        "url": "http://emojipedia.org/pile-of-poo/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Tron Legacy Reconfigured",
+        "url": "https://www.youtube.com/user/pr0nyTronLegacyRecon",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Disclosure - You & Me - Flume remix",
+        "url": "https://open.spotify.com/track/1snNAXmmPXCn0dkF9DaPWw",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Zamst Knee Brace",
+        "url": "https://amzn.com/B0093260L4",
+        "from": "Ryan Anklam"
+      }
+    ]
+  },
+  {
+    "episode": "013",
+    "title": "Drinking in the present to learn future JavaScript",
+    "description": "In episode 13 of the Front End Happy Hour podcast, we’re joined by Jafar Husain from Netflix to talk with us about the future of JavaScript. Jafar is part of the TC-39 committee that helps determine the future specs of ECMAScript. Jafar shares a lot of interesting insights into how the committee works and how a feature makes it's way into the spec. Jafar also talks to us about Observables and cancellable promises.",
+    "id": "278757290",
+    "published": "August 17, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt"
+    ],
+    "guests": [
+      {
+        "name": "Jafar Husain",
+        "twitter": "jhusain"
+      }
+    ],
+    "links": [
+      {
+        "title": "TC-39",
+        "url": "http://www.ecma-international.org/memento/TC39.htm"
+      },
+      {
+        "title": "ECMAScript",
+        "url": "https://en.wikipedia.org/wiki/ECMAScript"
+      },
+      {
+        "title": "Iterators and Generators",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"
+      },
+      {
+        "title": "Proxies",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy"
+      },
+      {
+        "title": "Observables",
+        "url": "http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html"
+      },
+      {
+        "title": "Promises",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+      },
+      {
+        "title": "Evan Czaplicki",
+        "url": "https://twitter.com/czaplic"
+      },
+      {
+        "title": "Yehuda Katz",
+        "url": "https://twitter.com/wycats"
+      },
+      {
+        "title": "Rust Language",
+        "url": "https://www.rust-lang.org/"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "title": "Elm Language",
+        "url": "http://elm-lang.org/"
+      },
+      {
+        "title": "PureScript",
+        "url": "http://www.purescript.org/"
+      },
+      {
+        "title": "Flow",
+        "url": "https://flowtype.org/"
+      },
+      {
+        "title": "Jay Phelps",
+        "url": "https://twitter.com/_jayphelps"
+      },
+      {
+        "title": "LazyDOM",
+        "url": "https://medium.com/jayphelps/lazydom-an-experiment-to-bring-virtual-dom-to-the-browser-natively-6a2f47096aca"
+      },
+      {
+        "title": "Tracy Lee",
+        "url": "https://twitter.com/ladyleet"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Idris Language",
+        "url": "http://www.idris-lang.org/",
+        "from": "Jafar Husain"
+      },
+      {
+        "title": "Status, process, and documents for ECMA262",
+        "url": "https://github.com/tc39/ecma262",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Octomore Scotch 07.1",
+        "url": "https://www.bruichladdich.com/the-whisky/octomore/octomore-071-208-ppm",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Morbotron",
+        "url": "https://morbotron.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Full Stack Toronto",
+        "url": "https://fsto.co/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Glimmer 2 Deep Dive",
+        "url": "https://www.youtube.com/watch?v=vL8sCi1Bv6E",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Rogue varieties",
+        "url": "http://www.rogue.com/roguebeers/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "I Really Like Angular 2 - Trailer for The Jeff Cross Show on Modern Web feat Jafar Husain",
+        "url": "https://www.youtube.com/watch?v=1NXhOChi54U",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Modern Web Podcast",
+        "url": "http://www.modern-web.org/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "012",
+    "title": "Ninja Rockstar Whiskey Drinker With 10 Years IPA Experience",
+    "description": "As an engineer or developer we currently fortunate enough to have a wide selection of amazing jobs and companies to work for. Although we have a wide selection of jobs, finding the right one is extremely important and may require some additional work. In this episode, we are joined by the guests Chrissy Running and Alayna Ketner who are both talented recruiters at Netflix. Chrissy and Alayna have a lot of experience working with engineers to help find the ideal role. We’ll discuss types of things companies are looking for and how you can best leverage competitive offers in your job searches.",
+    "id": "277345887",
+    "published": "August 8, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Ryan Anklam",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Chrissy Running",
+        "twitter": "ChrissyRunning"
+      },
+      {
+        "name": "Alayna Ketner",
+        "twitter": "AlaynaSK"
+      }
+    ],
+    "links": [
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/"
+      },
+      {
+        "title": "Glassdoor",
+        "url": "https://www.glassdoor.com"
+      },
+      {
+        "title": "Ted Talk - Power pose",
+        "url": "https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are"
+      },
+      {
+        "title": "Ten Rules for Negotiating a Job Offer",
+        "url": "https://medium.freecodecamp.com/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6"
+      },
+      {
+        "title": "Salary Negotiation",
+        "url": "http://www.kalzumeus.com/2012/01/23/salary-negotiation/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Culture Map",
+        "url": "https://www.amazon.com/Culture-Map-Breaking-Invisible-Boundaries/dp/1610392507",
+        "from": "Chrissy Running"
+      },
+      {
+        "title": "The Night Of",
+        "url": "http://www.hbo.com/the-night-of",
+        "from": "Chrissy Running"
+      },
+      {
+        "title": "The Fundamentals of Caring",
+        "url": "https://www.netflix.com/title/80097349",
+        "from": "Alayna Ketner"
+      },
+      {
+        "title": "Song Exploder",
+        "url": "http://songexploder.net/",
+        "from": "Alayna Ketner"
+      },
+      {
+        "title": "React CLI tool",
+        "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Young, Wild & Free - Snoop Dogg, Wiz Khalifa, Bruno Mars",
+        "url": "https://play.spotify.com/track/5HQVUIKwCEXpe7JIHyY734?play=true",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "a.singlediv.com",
+        "url": "http://a.singlediv.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "httpoxy",
+        "url": "https://httpoxy.org/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Jon Hopkins",
+        "url": "https://www.youtube.com/watch?v=8XtqUOegCv8",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Star Trek Beyond (sucks)",
+        "url": "http://www.imdb.com/title/tt2660888/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "STS 121 Launch",
+        "url": "https://www.youtube.com/watch?v=OnoNITE-CLc",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Bojack Horseman - Season 3, episode 4",
+        "url": "https://www.netflix.com/title/70300800",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Full Width Containers in Limited Width Parents",
+        "url": "https://css-tricks.com/full-width-containers-limited-width-parents/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "The Macro - Interviews",
+        "url": "http://themacro.com/interviews/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "011",
+    "title": "Transpilers - slow down and drink",
+    "description": "Leveraging transpilers is extremely helpful in allowing us to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
+    "id": "275723253",
+    "published": "July 27, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Brian Holt",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Babel",
+        "url": "https://babeljs.io/"
+      },
+      {
+        "title": "CoffeeScript",
+        "url": "http://coffeescript.org/"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "title": "Traceur",
+        "url": "https://github.com/google/traceur-compiler"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "Less",
+        "url": "http://lesscss.org/"
+      },
+      {
+        "title": "Stylus",
+        "url": "http://stylus-lang.com/"
+      },
+      {
+        "title": "Chrome V8",
+        "url": "https://developers.google.com/v8/"
+      },
+      {
+        "title": "Firefox SpiderMonkey",
+        "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey"
+      },
+      {
+        "title": "IE Chakra",
+        "url": "https://github.com/Microsoft/ChakraCore"
+      },
+      {
+        "title": "TC39 Committee",
+        "url": "http://www.ecma-international.org/memento/TC39.htm"
+      },
+      {
+        "title": "React CLI",
+        "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html"
+      },
+      {
+        "title": "ClojureScript",
+        "url": "https://github.com/clojure/clojurescript"
+      },
+      {
+        "title": "Ohm",
+        "url": "https://github.com/cdglabs/ohm"
+      },
+      {
+        "title": "CodePen",
+        "url": "http://codepen.io/"
+      },
+      {
+        "title": "Racket",
+        "url": "https://racket-lang.org/"
+      },
+      {
+        "title": "Erlang",
+        "url": "https://www.erlang.org/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Stranger Things",
+        "url": "https://www.netflix.com/title/80057281",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Jem Young - Transpilers: not so fast my friend - Empire JS",
+        "url": "https://www.youtube.com/watch?v=L3JJ8qSIg2k",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Github Go to Definition Chrome Extension",
+        "url": "https://github.com/capablemonkey/github-go-to-definition",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "StackOverflow’s Documentation Beta",
+        "url": "http://stackoverflow.com/documentation",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Explosions in the Sky - The Wilderness",
+        "url": "https://explosionsinthesky.bandcamp.com",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Digital Ocean",
+        "url": "https://www.digitalocean.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Babel Try It Out",
+        "url": "https://babeljs.io/repl/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Google Inbox",
+        "url": "https://inbox.google.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Google Keep",
+        "url": "https://keep.google.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Wafia - Heartburn Felix Cartel Remix",
+        "url": "https://play.spotify.com/track/6ZtO6PJglJjcqpGeiDcxyV?play=true",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "HyperTerm",
+        "url": "https://hyperterm.org/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Visual Studio Code",
+        "url": "https://code.visualstudio.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Elle - Women in Tech 2016",
+        "url": "http://www.elle.com/culture/tech/a35725/women-in-tech-2016/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Less: The World’s Most Misunderstood CSS Pre-processor*",
+        "url": "https://getcrunch.co/2015/10/08/less-the-worlds-most-misunderstood-css-pre-processor/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "010",
+    "title": "Raise your glass to women in tech",
+    "description": "In the technology industry we’re continually trying to grow the diversity of people who are working in the space. Most recently there have been a lot of great efforts made to increase the number of women in tech. In this episode we are joined by two talented women working at large tech companies in the Bay Area, Lisa Burgess (Uber) and Mars Jullian (Netflix). We discuss what it’s like to be a women working in tech and talk about ways we can help foster a more inclusive industry.",
+    "id": "273424836",
+    "published": "July 12, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Brian Holt"
+    ],
+    "guests": [
+      {
+        "name": "Mars Jullian",
+        "twitter": "marsjosephine"
+      },
+      {
+        "name": "Lisa Burgess",
+        "twitter": "_lisaburgess"
+      }
+    ],
+    "links": [
+      {
+        "title": "Apple diversity report",
+        "url": "http://www.apple.com/diversity/"
+      },
+      {
+        "title": "Netflix diversity report",
+        "url": "https://jobs.netflix.com/diversity"
+      },
+      {
+        "title": "LinkedIn diversity report",
+        "url": "https://blog.linkedin.com/2015/06/08/linkedins-2015-workforce-diversity"
+      },
+      {
+        "title": "Google diversity report",
+        "url": "https://www.google.com/diversity/"
+      },
+      {
+        "title": "Facebook diversity report",
+        "url": "http://newsroom.fb.com/news/2015/06/driving-diversity-at-facebook/"
+      },
+      {
+        "title": "Thoughts on Gender and Radical Candor",
+        "url": "http://firstround.com/review/thoughts-on-gender-and-radical-candor/"
+      },
+      {
+        "title": "Vague Feedback Is Holding Women Back",
+        "url": "https://hbr.org/2016/04/research-vague-feedback-is-holding-women-back"
+      },
+      {
+        "title": "Textio",
+        "url": "https://textio.com/"
+      },
+      {
+        "title": "State of Girls and Women in STEM",
+        "url": "https://ngcproject.org/statistics"
+      },
+      {
+        "title": "Unconscious Gender Bias",
+        "url": "http://www.huffingtonpost.com/lisa-marie-jenkins/unconscious-gender-bias-e_b_7447524.html"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Sift Dessert Bar",
+        "url": "http://siftdessertbar.com/",
+        "from": "Lisa Burgess"
+      },
+      {
+        "title": "Shiny",
+        "url": "http://shiny.rstudio.com/",
+        "from": "Lisa Burgess"
+      },
+      {
+        "title": "99% Invisible",
+        "url": "http://99percentinvisible.org/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Invisiblia",
+        "url": "http://www.npr.org/podcasts/510307/invisibilia",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "TED Radio",
+        "url": "http://www.npr.org/programs/ted-radio-hour/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "High West Rendezvous Rye",
+        "url": "http://www.highwest.com/products/rendezvous-rye.php",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Snak the Ripper - From the Dirt",
+        "url": "https://open.spotify.com/album/4b1X1UthWT1ldnw8PWMUZs",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Blameless Post Mortems",
+        "url": "https://www.kennorton.com/newsletter/2016-04-20-bringing-the-donuts.html",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Ava",
+        "url": "https://github.com/avajs/ava",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Music for Programming",
+        "url": "http://musicforprogramming.net/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Women in tech for the past 50 years!",
+        "url": "http://frontendhappyhour.com/episodes/raise-your-glass-to-women-in-tech/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "High West Silver Whiskey",
+        "url": "http://www.highwest.com/products/silver-whiskey-western-oat.php",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "WWDC iOS 10",
+        "url": "http://www.apple.com/ios/ios10-preview/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Mr Robot",
+        "url": "http://www.usanetwork.com/mrrobot",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Project Include",
+        "url": "http://projectinclude.org/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "elk-cli",
+        "url": "https://github.com/btholt/elk-cli",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "009",
+    "title": "Scotch makes us animated",
+    "description": "In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information.",
+    "id": "267920775",
+    "published": "June 6, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Derrick Showers",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Drasner",
+        "twitter": "sarah_edo"
+      }
+    ],
+    "links": [
+      {
+        "title": "Coin",
+        "url": "https://onlycoin.com/"
+      },
+      {
+        "title": "GreenSock",
+        "url": "https://greensock.com/"
+      },
+      {
+        "title": "Weighing SVG Animation Techniques (with Benchmarks)",
+        "url": "https://css-tricks.com/weighing-svg-animation-techniques-benchmarks/"
+      },
+      {
+        "title": "Mac Pro parallax",
+        "url": "http://www.apple.com/mac-pro/"
+      },
+      {
+        "title": "Mo.js",
+        "url": "http://mojs.io/"
+      },
+      {
+        "title": "Lego Mushroom",
+        "url": "http://legomushroom.com/"
+      },
+      {
+        "title": "SnapSvg",
+        "url": "http://snapsvg.io/"
+      },
+      {
+        "title": "D3",
+        "url": "https://d3js.org/"
+      },
+      {
+        "title": "Sara Soueidan",
+        "url": "https://twitter.com/sarasoueidan"
+      },
+      {
+        "title": "React Motion",
+        "url": "https://github.com/chenglou/react-motion"
+      },
+      {
+        "title": "Sarah Drasner's CodePen",
+        "url": "http://codepen.io/sdras/"
+      },
+      {
+        "title": "Framer JS",
+        "url": "http://framerjs.com/"
+      },
+      {
+        "title": "React Training",
+        "url": "https://reactjs-training.com/"
+      },
+      {
+        "title": "A Comparison of Animation Technologies",
+        "url": "https://css-tricks.com/comparison-animation-technologies/"
+      },
+      {
+        "title": "SVGOMG",
+        "url": "https://jakearchibald.github.io/svgomg/"
+      },
+      {
+        "title": "SVGO",
+        "url": "https://github.com/svg/svgo"
+      },
+      {
+        "title": "IcoMoon",
+        "url": "https://icomoon.io/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Val Head's book",
+        "url": "https://twitter.com/vlh",
+        "from": "Sarah Drasner"
+      },
+      {
+        "title": "Valio Con",
+        "url": "http://valiocon.com/",
+        "from": "Sarah Drasner"
+      },
+      {
+        "title": "Sleep no more",
+        "url": "http://www.sleepnomore.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Internet trends 2016",
+        "url": "http://www.kpcb.com/internet-trends",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Jankfree.org",
+        "url": "http://jankfree.org",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Icon System with SVG sprites",
+        "url": "https://css-tricks.com/svg-sprites-use-better-icon-fonts/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "how2",
+        "url": "https://www.npmjs.com/package/how2",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Werker",
+        "url": "http://wercker.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Transitions and Animations in CSS",
+        "url": "http://shop.oreilly.com/product/0636920041658.do",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Alexa / Pebble Core integration",
+        "url": "https://blog.getpebble.com/2016/06/02/ks3u03/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "008",
+    "title": "A Shot of Silicon Valley",
+    "description": "Working in Silicon Valley is very unique. We work in a bubble, immersed in technology. There are billboards about frameworks, technology, and gadgets. Coffee shops are filled with people on Macbooks covered in stickers. Conversations on the train, coffee shops and on the streets are about programming languages. There’s a unique culture from other places we’ve all lived. In this episode, we share our thoughts and experiences living and working in Silicon Valley.",
+    "id": "265692287",
+    "published": "May 24, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers",
+      "Ryan Anklam",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Silicon Valley",
+        "url": "https://en.wikipedia.org/wiki/Silicon_Valley"
+      },
+      {
+        "title": "Chelsea Handler Does",
+        "url": "https://www.netflix.com/title/80073486"
+      },
+      {
+        "title": "Skam",
+        "url": "https://www.instagram.com/skamoney/"
+      },
+      {
+        "title": "Rover",
+        "url": "https://www.rover.com/"
+      },
+      {
+        "title": "Sushirrito",
+        "url": "http://www.sushirrito.com/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Philz coffee",
+        "url": "http://www.philzcoffee.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Allbirds shoes",
+        "url": "https://www.allbirds.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "City and Colour",
+        "url": "https://www.youtube.com/watch?v=yuJ4wm_HTAc",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tinyletter",
+        "url": "http://tinyletter.com/site/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "ES6 Compatibility table",
+        "url": "http://kangax.github.io/compat-table/es6/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Music for programming",
+        "url": "http://musicforprogramming.net/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Rapping, deconstructed",
+        "url": "https://www.youtube.com/watch?v=QWveXdj6oZU",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Periscope",
+        "url": "https://www.periscope.tv/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Firebase",
+        "url": "https://firebase.google.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Dash app",
+        "url": "https://kapeli.com/dash",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "TypeScript",
+        "url": "https://www.typescriptlang.org/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Bjork - Army of Me",
+        "url": "https://www.youtube.com/watch?v=LyEJxzQM24Q",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Sensel Morph",
+        "url": "https://www.kickstarter.com/projects/1152958674/the-sensel-morph-interaction-evolved",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "OnHub & IFTTT",
+        "url": "https://on.google.com/hub/blog/2016-04-28/onhubifttt/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "007",
+    "title": "a11y Cocktail",
+    "description": "In this episode, we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users. We also talk about Global Accessibility Awareness Day (GAAD) coming up on May 19th. Find out how you can participate.",
+    "id": "264282122",
+    "published": "May 15, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Derrick Showers",
+      "Sarah Federman"
+    ],
+    "guests": [
+      {
+        "name": "Jennison Asuncion",
+        "twitter": "Jennison"
+      }
+    ],
+    "links": [
+      {
+        "title": "Global Accessibility Awareness Day",
+        "url": "http://www.globalaccessibilityawarenessday.org/"
+      },
+      {
+        "title": "Using VoiceOver to Evaluate Web Accessibility",
+        "url": "http://webaim.org/articles/voiceover/"
+      },
+      {
+        "title": "AccessLint",
+        "url": "http://accesslint.com/"
+      },
+      {
+        "title": "axe Core",
+        "url": "https://github.com/dequelabs/axe-core"
+      },
+      {
+        "title": "Tenon",
+        "url": "http://www.tenon.io/"
+      },
+      {
+        "title": "Chrome Accessibility Developer Tools",
+        "url": "https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en"
+      },
+      {
+        "title": "list of Meetups on accessibility",
+        "url": "http://www.meetup.com/find/?allMeetups=false&keywords=a11y&radius=Infinity"
+      },
+      {
+        "title": "Apps For All: Coding Accessible Web Applications eBook",
+        "url": "https://shop.smashingmagazine.com/products/apps-for-all"
+      },
+      {
+        "title": "International Technology and Persons with Disabilities Conference (CSUN Conference)",
+        "url": "http://www.csunconference.org"
+      },
+      {
+        "title": "Accessibility Camp Bay Area (Fall 2016)",
+        "url": "http://www.accessibilitycampbay.org"
+      },
+      {
+        "title": "Boston Accessibility Conference (Fall 2016)",
+        "url": "http://a11y-bos.org/"
+      },
+      {
+        "title": "Accessibility Camp Toronto (Fall 2016)",
+        "url": "http://www.accessibilitycampto.org/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Square Cash",
+        "url": "https://cash.me/",
+        "from": "Jennison Asuncion"
+      },
+      {
+        "title": "The Points Guy",
+        "url": "http://thepointsguy.com/",
+        "from": "Jennison Asuncion"
+      },
+      {
+        "title": "Jazz FM",
+        "url": "http://www.jazz.fm/",
+        "from": "Jennison Asuncion"
+      },
+      {
+        "title": "React a11y",
+        "url": "https://github.com/reactjs/react-a11y",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Gaslight Anthem",
+        "url": "https://www.youtube.com/watch?v=9ybyowORfEc",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Sweet Jesus Ice Cream",
+        "url": "http://www.sweetjesus4life.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "A11y Command-line Tools",
+        "url": "https://addyosmani.com/a11y/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "YNAB",
+        "url": "http://www.youneedabudget.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Wakatime",
+        "url": "https://wakatime.com/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Hackster.io",
+        "url": "https://www.hackster.io/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Losant (previously Structure)",
+        "url": "https://www.losant.com/",
+        "from": "Sarah Federman"
+      }
+    ]
+  },
+  {
+    "episode": "006",
+    "title": "Unit testing and whiskey tasting",
+    "description": "We’ve all heard unit testing is good, but how do you get started writing unit tests? In this episode of Front End Happy Hour we share our experiences and advice writing unit tests. We discuss why it’s important and beneficial to have unit tests in your JavaScript. We share how we’ve approached unit tests and what a good unit test looks like. We also talk about the various tools and frameworks available to get your code properly tested.",
+    "id": "260918790",
+    "published": "April 25, 2015",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Derrick Showers"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Selenium",
+        "url": "http://www.seleniumhq.org/"
+      },
+      {
+        "title": "Black-box testing",
+        "url": "https://en.wikipedia.org/wiki/Black-box_testing"
+      },
+      {
+        "title": "White-box testing",
+        "url": "https://en.wikipedia.org/wiki/White-box_testing"
+      },
+      {
+        "title": "Ember guides",
+        "url": "https://guides.emberjs.com/v2.5.0/"
+      },
+      {
+        "title": "Mocha",
+        "url": "https://mochajs.org/"
+      },
+      {
+        "title": "Jasmine",
+        "url": "http://jasmine.github.io/"
+      },
+      {
+        "title": "QUnit",
+        "url": "https://qunitjs.com/"
+      },
+      {
+        "title": "Tape",
+        "url": "https://github.com/substack/tape"
+      },
+      {
+        "title": "Jest",
+        "url": "https://facebook.github.io/jest/"
+      },
+      {
+        "title": "Webpack",
+        "url": "https://webpack.github.io/"
+      },
+      {
+        "title": "5 Questions Every Unit Test Must Answer",
+        "url": "https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d"
+      },
+      {
+        "title": "Ember CLI",
+        "url": "http://ember-cli.com/"
+      },
+      {
+        "title": "React CLI",
+        "url": "https://www.npmjs.com/package/react-cli"
+      },
+      {
+        "title": "Karma",
+        "url": "https://karma-runner.github.io/0.13/index.html"
+      },
+      {
+        "title": "What is the difference between a test runner, testing framwork, assertion library, and a testing plugin?",
+        "url": "http://amzotti.github.io/testing/2015/03/16/what-is-the-difference-between-a-test-runner-testing-framework-assertion-library-and-a-testing-plugin/"
+      },
+      {
+        "title": "Ember Guides introduction to Unit Testing",
+        "url": "https://guides.emberjs.com/v2.5.0/testing/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Caffeine for Mac",
+        "url": "https://itunes.apple.com/us/app/caffeine/id411246225?mt=12",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Odesza",
+        "url": "https://www.youtube.com/user/odeszamusic",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Google Doodles",
+        "url": "http://www.google.com/doodles",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "OSSU Computer Science curriculum",
+        "url": "https://github.com/open-source-society/computer-science",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Mura Masa - What If I Go?",
+        "url": "https://www.youtube.com/watch?v=pLuQ0MGLBXU",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "teamLab: Living Digital Space and Future Parks",
+        "url": "http://www.eventbrite.com/e/teamlab-living-digital-space-and-future-parks-tickets-19952168473",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Flume - the mixtape",
+        "url": "https://www.youtube.com/watch?v=rPhoBRbqZeE",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Programming Sucks",
+        "url": "http://www.stilldrinking.org/programming-sucks",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Hype Machine",
+        "url": "http://hypem.com/popular?workaround=lol",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Google Calendar goals",
+        "url": "https://googleblog.blogspot.com/2016/04/find-time-goals-google-calendar.html",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "$13 bluetooth headset",
+        "url": "https://amzn.com/B00Z0ME68A",
+        "from": "Derrick Showers"
+      }
+    ]
+  },
+  {
+    "episode": "005",
+    "title": "Interviews make us drink",
+    "description": "In order to work professionally as a front end developer, there is always an intense interview process. In this episode, we share our experiences and thoughts on the interviews we’ve done in the past. Not only have we had experience being interviewed, we’ve also had a lot of experience interviewing other engineers for jobs at our companies. We share things we’re looking for when we interview candidates to join our teams.",
+    "id": "259108189",
+    "published": "April 14, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess",
+      "Brian Holt",
+      "Augustus Yuan",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Eclipse",
+        "url": "https://eclipse.org/"
+      },
+      {
+        "title": "Othello",
+        "url": "http://www.amazon.com/Mattel-B3165-Othello/dp/B00004TQMQ"
+      },
+      {
+        "title": "Big O notation",
+        "url": "https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/"
+      },
+      {
+        "title": "FizzBuzz",
+        "url": "https://gist.github.com/jaysonrowe/1592432"
+      },
+      {
+        "title": "Ryan Anklams famous t-shirt",
+        "url": "http://store.taylorswift.com/mm5/graphics/00000001/RedIheartTStee_1000x979.jpg"
+      },
+      {
+        "title": "War of the Worlds radio broadcast",
+        "url": "http://www.history.com/this-day-in-history/welles-scares-nation"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Aerial screensaver",
+        "url": "https://github.com/JohnCoates/Aerial",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Amazon Dash Buttons",
+        "url": "https://www.amazon.com/Dash-Buttons/b?ie=UTF8&node=10667898011",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Front End Happy Hour Playlist",
+        "url": "https://open.spotify.com/user/1294287391/playlist/6mpuF87VHAcog1cOwQqnfl",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Escape app",
+        "url": "https://itunes.apple.com/us/app/escape-by-focuslist-track/id1090969894?mt=12",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Best of Old Time Radio Podcast",
+        "url": "https://itunes.apple.com/us/podcast/best-of-old-time-radio/id288417478?mt=2",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Dusty Kid - Beyond That Hill",
+        "url": "https://open.spotify.com/album/0xDGKYCBTBZtOBa4DeKaTw",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Lindsey Stirling",
+        "url": "http://www.lindseystirling.com/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "SizeUp (osx windows management)",
+        "url": "http://www.irradiatedsoftware.com/sizeup/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "EmpireJS",
+        "url": "http://2016.empirejs.org/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Aphex Swift",
+        "url": "https://www.youtube.com/watch?v=pbMF7_LEh1g&list=PL3JScfXyyxathZuXzNzSQhDyQZ_qoNt8g&nohtml5=False",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Netflix Menus",
+        "url": "http://www.netflixmenus.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Code Climate",
+        "url": "https://codeclimate.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Slack themes",
+        "url": "http://slackthemes.net/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Massdrop",
+        "url": "https://www.massdrop.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Elevator Saga",
+        "url": "http://play.elevatorsaga.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Pretty Thoughts Alina Baraz & Galimatias",
+        "url": "https://www.youtube.com/watch?v=JrHw9BDa3OE",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "AtHack!",
+        "url": "http://www.athackit.org/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Annie Cannons",
+        "url": "https://twitter.com/anniecannons",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Scroobius Pip",
+        "url": "http://www.scroobiuspip.co.uk/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Baths",
+        "url": "https://en.wikipedia.org/wiki/Baths_musician",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "M83",
+        "url": "http://ilovem83.com/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "004",
+    "title": "ES6 and a Six Pack",
+    "description": "ECMAScript 6 was a major release for the JavaScript language. There’s a lot of great new features that have been added. In this episode we discuss how you can start using ES6 today and what we’ll start seeing in the next year for the latest update to ECMAScript. We share our favorite features and the best ways to learn and stay up to date with new features.",
+    "id": "257371209",
+    "published": "April 04, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess",
+      "Brian Holt",
+      "Augustus Yuan",
+      "Sarah Federman"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "ESNext",
+        "url": "https://github.com/esnext/esnext"
+      },
+      {
+        "title": "Ben Lesh - Netflix JavaScript Talks - RxJS Version 5",
+        "url": "https://www.youtube.com/watch?v=COviCoUtwx4"
+      },
+      {
+        "title": "Ponyfoo blog",
+        "url": "https://ponyfoo.com/"
+      },
+      {
+        "title": "5 Minutes of JavaScript",
+        "url": "https://fivejs.codeschool.com/"
+      },
+      {
+        "title": "Compat Table ES6",
+        "url": "https://kangax.github.io/compat-table/es6/"
+      },
+      {
+        "title": "Facebook Codemod",
+        "url": "https://github.com/facebook/codemod"
+      }
+    ],
+    "picks": [
+      {
+        "title": "1Password",
+        "url": "https://1password.com/features/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Vim Tabular",
+        "url": "https://github.com/godlygeek/tabular",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "90s Hip Hop",
+        "url": "https://open.spotify.com/user/bittersweetryan/playlist/2Fz6VlYg8ff2lZJro6SrPD",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Elegant React with ES6 (and a bit of ES7) - React Rally",
+        "url": "https://www.youtube.com/watch?v=GzChMXy-Es0",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Lot 40 Whiskey",
+        "url": "http://thewhiskeywash.com/2015/12/14/whisky-review-lot-40/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "HTML5 Please",
+        "url": "http://html5please.com/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Death Medieval",
+        "url": "https://twitter.com/DeathMedieval/status/715759543389708288",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "Microsoft AI Bot",
+        "url": "http://www.telegraph.co.uk/technology/2016/03/24/microsofts-teen-girl-ai-turns-into-a-hitler-loving-sex-robot-wit/",
+        "from": "Sarah Federman"
+      },
+      {
+        "title": "ES6 Cheatsheet",
+        "url": "http://exploringjs.com/es6/ch_overviews.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Cult of the Party Parrot",
+        "url": "http://cultofthepartyparrot.com",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Babel’s “try it out”",
+        "url": "https://babeljs.io/repl/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Latest greatest webapp",
+        "url": "https://github.com/derrickshowers/generator-latest-greatest-webapp",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Trello",
+        "url": "https://trello.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Tilt Brush",
+        "url": "https://www.tiltbrush.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Cotton Bureau",
+        "url": "https://cottonbureau.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Spacemacs",
+        "url": "https://github.com/syl20bnr/spacemacs",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "The little Schemer",
+        "url": "https://mitpress.mit.edu/books/little-schemer",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Ellee",
+        "url": "https://www.youtube.com/user/elleeduke",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "003",
+    "title": "From head to footer",
+    "description": "In this ever changing industry of front end development, developers are constantly learning. In this episode of Front End Happy Hour we discuss everything from our school backgrounds and what lead us to front end development. We also share ways we stay up to date with the ever-changing landscape of new technologies. Along with our usual panelists, we are joined by guest Sarah Showers, a front end developer from Apple.",
+    "id": "254905107",
+    "published": "March 24, 2016",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Showers",
+        "twitter": "sarahlshowers"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Hamilton",
+        "url": "https://www.youtube.com/watch?v=Zp9HUc9HraQ&list=PLUSRfoOcUe4avCXPg6tPgdZzu--hBXUYx",
+        "from": "Sarah Showers"
+      },
+      {
+        "title": "Massive Attack-  Angel",
+        "url": "https://www.youtube.com/watch?v=hbe3CQamF8k",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Apple Music",
+        "url": "http://www.apple.com/music/radio/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Scotland JS",
+        "url": "http://scotlandjs.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Explosions in the Sky",
+        "url": "https://www.youtube.com/watch?v=lsSIyk026P8",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Tycho",
+        "url": "https://www.youtube.com/watch?v=Z6ih1aKeETk",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Comeback Kid",
+        "url": "https://www.youtube.com/watch?v=BHJEb6T9UKU",
+        "from": "Ryan Burgess"
+      }
+    ]
+  },
+  {
+    "episode": "002",
+    "title": "RxJS - Async and Drink",
+    "description": "In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.",
+    "id": "252127996",
+    "published": "March 16, 2016",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Brian Holt",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Ben Lesh",
+        "twitter": "BenLesh"
+      }
+    ],
+    "links": [
+      {
+        "title": "Rx Marbles",
+        "url": "http://rxmarbles.com/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Egghead.io",
+        "url": "https://egghead.io/",
+        "from": "Ben Lesh"
+      },
+      {
+        "title": "Egghead.io - RxJS Creating Observables from Scratch",
+        "url": "https://egghead.io/lessons/rxjs-creating-observable-from-scratch",
+        "from": "Ben Lesh"
+      },
+      {
+        "title": "Netflix UIE YouTube Channel",
+        "url": "https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Amazon Echo",
+        "url": "http://www.amazon.com/Amazon-SK705DI-Echo/dp/B00X4WHP5E",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tilt Brush",
+        "url": "https://www.tiltbrush.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "EcmaScript Proposals",
+        "url": "https://github.com/tc39/ecma262",
+        "from": "Jem Young"
+      },
+      {
+        "title": "VimCasts",
+        "url": "http://vimcasts.org/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Ready Player One Audibook",
+        "url": "http://www.audible.com/pd/Sci-Fi-Fantasy/Ready-Player-One-Audiobook/B005FRGT44/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Factorio",
+        "url": "https://www.factorio.com/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "001",
+    "title": "The State of Web Development",
+    "description": "For our very first episode of the Front End Happy Hour podcast, we have our panelists (Augustus Yuan, Derrick Showers, Jem Young, Ryan Anklam and Ryan Burgess) discuss their opinions on the Medium article posted in early January, titled \"The Sad State of Web Development\", written by Drew Hamlett. The panel shares their thoughts on front end tools and how they view the current state of web development.",
+    "id": "249593158",
+    "published": "February 29, 2016",
+    "transcribed": true,
+    "category": "technical",
+    "panel": [
+      "Augustus Yuan",
+      "Derrick Showers",
+      "Jem Young",
+      "Ryan Anklam",
+      "Ryan Burgess"
+    ],
+    "guests": [],
+    "links": [
+      {
+        "title": "Gulp",
+        "url": "http://gulpjs.com/"
+      },
+      {
+        "title": "Grunt",
+        "url": "http://gruntjs.com/"
+      },
+      {
+        "title": "Broccoli JS",
+        "url": "http://broccolijs.com/"
+      },
+      {
+        "title": "npm",
+        "url": "https://www.npmjs.com/"
+      },
+      {
+        "title": "Babel",
+        "url": "https://babeljs.io/"
+      },
+      {
+        "title": "Sass",
+        "url": "http://sass-lang.com/"
+      },
+      {
+        "title": "PostCSS",
+        "url": "http://postcss.org/"
+      },
+      {
+        "title": "React",
+        "url": "https://facebook.github.io/react/"
+      },
+      {
+        "title": "Ember",
+        "url": "http://emberjs.com/"
+      },
+      {
+        "title": "Angular",
+        "url": "https://angularjs.org/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Viking & Lumberjack Series",
+        "url": "https://www.youtube.com/playlist?list=PL95LOQw9SLWwWL7TOgTf5m3d6B8FPF56x",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "O’Reilly Fluent Conference",
+        "url": "http://conferences.oreilly.com/fluent/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "frinkiac.com",
+        "url": "https://frinkiac.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Red Rising Trilogy",
+        "url": "http://www.redrisingbook.com/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Syntax Con",
+        "url": "https://2016.syntaxcon.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Planet Money",
+        "url": "http://www.npr.org/sections/money/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "MacBook Selfie Stick",
+        "url": "http://macbookselfiestick.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Let’s Encrypt",
+        "url": "https://letsencrypt.org/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Product Hunt",
+        "url": "https://www.producthunt.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Github Scientist",
+        "url": "http://githubengineering.com/scientist/",
+        "from": "Augustus Yuan"
+      }
+    ]
+  }
 ]
+
 },{}],3:[function(require,module,exports){
 'use strict';
 
@@ -4838,7 +4919,7 @@ var Episodes = _react2['default'].createClass({
 
 module.exports = Episodes;
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYnVyZ2Vzcy9Eb2N1bWVudHMvZ2l0aHViL2Zyb250LWVuZC1oYXBweS1ob3VyL2pzeC9lcGlzb2Rlcy5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztxQkFBa0IsT0FBTzs7OztBQUV6QixJQUFNLFFBQVEsR0FBRyxtQkFBTSxXQUFXLENBQUM7QUFDakMsYUFBVyxFQUFFLFVBQVU7QUFDdkIsUUFBTSxFQUFBLGtCQUFHO0FBQ1AsV0FDRTs7O01BQ0U7O1VBQUcsSUFBSSxFQUFFLElBQUksQ0FBQyxLQUFLLENBQUMsR0FBRyxBQUFDO1FBQ3RCOztZQUFNLFNBQVMsRUFBQyxnQkFBZ0I7VUFBRSxJQUFJLENBQUMsS0FBSyxDQUFDLEtBQUs7U0FBUTtRQUMxRDs7O1VBQUssSUFBSSxDQUFDLEtBQUssQ0FBQyxLQUFLO1NBQU07UUFDM0I7OztVQUFJLElBQUksQ0FBQyxLQUFLLENBQUMsSUFBSTtTQUFLO1FBQ3hCOzs7VUFBSSxJQUFJLENBQUMsS0FBSyxDQUFDLFdBQVc7U0FBSztPQUM3QjtLQUNELENBQ0w7R0FDSDtDQUNGLENBQUMsQ0FBQzs7QUFFSCxNQUFNLENBQUMsT0FBTyxHQUFHLFFBQVEsQ0FBQyIsImZpbGUiOiIvVXNlcnMvcmJ1cmdlc3MvRG9jdW1lbnRzL2dpdGh1Yi9mcm9udC1lbmQtaGFwcHktaG91ci9qc3gvZXBpc29kZXMuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcblxuY29uc3QgRXBpc29kZXMgPSBSZWFjdC5jcmVhdGVDbGFzcyh7XG4gIGRpc3BsYXlOYW1lOiAnRXBpc29kZXMnLFxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxsaT5cbiAgICAgICAgPGEgaHJlZj17dGhpcy5wcm9wcy51cmx9PlxuICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImVwaXNvZGUtbnVtYmVyXCI+e3RoaXMucHJvcHMuZXBOdW19PC9zcGFuPlxuICAgICAgICAgIDxoMz57dGhpcy5wcm9wcy50aXRsZX08L2gzPlxuICAgICAgICAgIDxwPnt0aGlzLnByb3BzLmRhdGV9PC9wPlxuICAgICAgICAgIDxwPnt0aGlzLnByb3BzLmRlc2NyaXB0aW9ufTwvcD5cbiAgICAgICAgPC9hPlxuICAgICAgPC9saT5cbiAgICApO1xuICB9XG59KTtcblxubW9kdWxlLmV4cG9ydHMgPSBFcGlzb2RlczsiXX0=
-},{"react":181}],4:[function(require,module,exports){
+},{"react":185}],4:[function(require,module,exports){
 // Create episode URLs
 'use strict';
 
@@ -4849,6 +4930,66 @@ module.exports = function createURL(str) {
 };
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yYnVyZ2Vzcy9Eb2N1bWVudHMvZ2l0aHViL2Zyb250LWVuZC1oYXBweS1ob3VyL2xpYi9jcmVhdGUtdXJsLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUNBLE1BQU0sQ0FBQyxPQUFPLEdBQUcsU0FBUyxTQUFTLENBQUMsR0FBRyxFQUFFO0FBQ3ZDLGNBQVksQ0FBQztBQUNiLE1BQU0sR0FBRyxHQUFHLEdBQUcsQ0FBQyxPQUFPLENBQUMsSUFBSSxFQUFFLEdBQUcsQ0FBQyxDQUFDLFdBQVcsRUFBRSxDQUFDLE9BQU8sQ0FBQyxTQUFTLEVBQUUsR0FBRyxDQUFDLENBQUMsT0FBTyxDQUFDLE1BQU0sRUFBRSxFQUFFLENBQUMsQ0FBQyxJQUFJLEVBQUUsQ0FBQztBQUNwRyxTQUFPLEdBQUcsQ0FBQztDQUNaLENBQUMiLCJmaWxlIjoiL1VzZXJzL3JidXJnZXNzL0RvY3VtZW50cy9naXRodWIvZnJvbnQtZW5kLWhhcHB5LWhvdXIvbGliL2NyZWF0ZS11cmwuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBDcmVhdGUgZXBpc29kZSBVUkxzXG5tb2R1bGUuZXhwb3J0cyA9IGZ1bmN0aW9uIGNyZWF0ZVVSTChzdHIpIHtcbiAgJ3VzZSBzdHJpY3QnO1xuICBjb25zdCB1cmwgPSBzdHIucmVwbGFjZSgvIC9nLCAnLScpLnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvLS0tfDotL2csICctJykucmVwbGFjZSgvLHxcIi9nLCAnJykudHJpbSgpO1xuICByZXR1cm4gdXJsO1xufTsiXX0=
 },{}],5:[function(require,module,exports){
+// shim for using process in browser
+
+var process = module.exports = {};
+var queue = [];
+var draining = false;
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    draining = true;
+    var currentQueue;
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        var i = -1;
+        while (++i < len) {
+            currentQueue[i]();
+        }
+        len = queue.length;
+    }
+    draining = false;
+}
+process.nextTick = function (fun) {
+    queue.push(fun);
+    if (!draining) {
+        setTimeout(drainQueue, 0);
+    }
+};
+
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+// TODO(shtylman)
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
+
+},{}],6:[function(require,module,exports){
 'use strict';
 
 /**
@@ -4932,7 +5073,7 @@ var EventListener = {
 };
 
 module.exports = EventListener;
-},{"./emptyFunction":12}],6:[function(require,module,exports){
+},{"./emptyFunction":13}],7:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -4968,7 +5109,7 @@ var ExecutionEnvironment = {
 };
 
 module.exports = ExecutionEnvironment;
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 "use strict";
 
 /**
@@ -5000,7 +5141,7 @@ function camelize(string) {
 }
 
 module.exports = camelize;
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5040,7 +5181,7 @@ function camelizeStyleName(string) {
 }
 
 module.exports = camelizeStyleName;
-},{"./camelize":7}],9:[function(require,module,exports){
+},{"./camelize":8}],10:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5080,7 +5221,7 @@ function containsNode(outerNode, innerNode) {
 }
 
 module.exports = containsNode;
-},{"./isTextNode":22}],10:[function(require,module,exports){
+},{"./isTextNode":23}],11:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5207,7 +5348,7 @@ function createArrayFromMixed(obj) {
 }
 
 module.exports = createArrayFromMixed;
-},{"./invariant":20}],11:[function(require,module,exports){
+},{"./invariant":21}],12:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5291,7 +5432,7 @@ function createNodesFromMarkup(markup, handleScript) {
 }
 
 module.exports = createNodesFromMarkup;
-},{"./ExecutionEnvironment":6,"./createArrayFromMixed":10,"./getMarkupWrap":16,"./invariant":20}],12:[function(require,module,exports){
+},{"./ExecutionEnvironment":7,"./createArrayFromMixed":11,"./getMarkupWrap":17,"./invariant":21}],13:[function(require,module,exports){
 "use strict";
 
 /**
@@ -5330,7 +5471,7 @@ emptyFunction.thatReturnsArgument = function (arg) {
 };
 
 module.exports = emptyFunction;
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5350,7 +5491,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = emptyObject;
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5377,7 +5518,7 @@ function focusNode(node) {
 }
 
 module.exports = focusNode;
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5399,20 +5540,24 @@ module.exports = focusNode;
  *
  * The activeElement will be null only if the document or document body is not
  * yet defined.
+ *
+ * @param {?DOMDocument} doc Defaults to current document.
+ * @return {?DOMElement}
  */
-function getActiveElement() /*?DOMElement*/{
-  if (typeof document === 'undefined') {
+function getActiveElement(doc) /*?DOMElement*/{
+  doc = doc || (typeof document !== 'undefined' ? document : undefined);
+  if (typeof doc === 'undefined') {
     return null;
   }
   try {
-    return document.activeElement || document.body;
+    return doc.activeElement || doc.body;
   } catch (e) {
-    return document.body;
+    return doc.body;
   }
 }
 
 module.exports = getActiveElement;
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5507,7 +5652,7 @@ function getMarkupWrap(nodeName) {
 }
 
 module.exports = getMarkupWrap;
-},{"./ExecutionEnvironment":6,"./invariant":20}],17:[function(require,module,exports){
+},{"./ExecutionEnvironment":7,"./invariant":21}],18:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5533,10 +5678,10 @@ module.exports = getMarkupWrap;
  */
 
 function getUnboundedScrollPosition(scrollable) {
-  if (scrollable === window) {
+  if (scrollable.Window && scrollable instanceof scrollable.Window) {
     return {
-      x: window.pageXOffset || document.documentElement.scrollLeft,
-      y: window.pageYOffset || document.documentElement.scrollTop
+      x: scrollable.pageXOffset || scrollable.document.documentElement.scrollLeft,
+      y: scrollable.pageYOffset || scrollable.document.documentElement.scrollTop
     };
   }
   return {
@@ -5546,7 +5691,7 @@ function getUnboundedScrollPosition(scrollable) {
 }
 
 module.exports = getUnboundedScrollPosition;
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5579,7 +5724,7 @@ function hyphenate(string) {
 }
 
 module.exports = hyphenate;
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5618,7 +5763,7 @@ function hyphenateStyleName(string) {
 }
 
 module.exports = hyphenateStyleName;
-},{"./hyphenate":18}],20:[function(require,module,exports){
+},{"./hyphenate":19}],21:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5674,7 +5819,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 }
 
 module.exports = invariant;
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5693,11 +5838,13 @@ module.exports = invariant;
  * @return {boolean} Whether or not the object is a DOM node.
  */
 function isNode(object) {
-  return !!(object && (typeof Node === 'function' ? object instanceof Node : typeof object === 'object' && typeof object.nodeType === 'number' && typeof object.nodeName === 'string'));
+  var doc = object ? object.ownerDocument || object : document;
+  var defaultView = doc.defaultView || window;
+  return !!(object && (typeof defaultView.Node === 'function' ? object instanceof defaultView.Node : typeof object === 'object' && typeof object.nodeType === 'number' && typeof object.nodeName === 'string'));
 }
 
 module.exports = isNode;
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5722,7 +5869,7 @@ function isTextNode(object) {
 }
 
 module.exports = isTextNode;
-},{"./isNode":21}],23:[function(require,module,exports){
+},{"./isNode":22}],24:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5752,7 +5899,7 @@ function memoizeStringOnly(callback) {
 }
 
 module.exports = memoizeStringOnly;
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5775,7 +5922,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = performance || {};
-},{"./ExecutionEnvironment":6}],25:[function(require,module,exports){
+},{"./ExecutionEnvironment":7}],26:[function(require,module,exports){
 'use strict';
 
 /**
@@ -5809,7 +5956,7 @@ if (performance.now) {
 }
 
 module.exports = performanceNow;
-},{"./performance":24}],26:[function(require,module,exports){
+},{"./performance":25}],27:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5877,7 +6024,7 @@ function shallowEqual(objA, objB) {
 }
 
 module.exports = shallowEqual;
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -5944,7 +6091,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = warning;
-},{"./emptyFunction":12}],28:[function(require,module,exports){
+},{"./emptyFunction":13}],29:[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -6036,72 +6183,598 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],29:[function(require,module,exports){
-// shim for using process in browser
-
-var process = module.exports = {};
-var queue = [];
-var draining = false;
-
-function drainQueue() {
-    if (draining) {
-        return;
-    }
-    draining = true;
-    var currentQueue;
-    var len = queue.length;
-    while(len) {
-        currentQueue = queue;
-        queue = [];
-        var i = -1;
-        while (++i < len) {
-            currentQueue[i]();
-        }
-        len = queue.length;
-    }
-    draining = false;
-}
-process.nextTick = function (fun) {
-    queue.push(fun);
-    if (!draining) {
-        setTimeout(drainQueue, 0);
-    }
-};
-
-process.title = 'browser';
-process.browser = true;
-process.env = {};
-process.argv = [];
-process.version = ''; // empty string to avoid regexp issues
-process.versions = {};
-
-function noop() {}
-
-process.on = noop;
-process.addListener = noop;
-process.once = noop;
-process.off = noop;
-process.removeListener = noop;
-process.removeAllListeners = noop;
-process.emit = noop;
-
-process.binding = function (name) {
-    throw new Error('process.binding is not supported');
-};
-
-// TODO(shtylman)
-process.cwd = function () { return '/' };
-process.chdir = function (dir) {
-    throw new Error('process.chdir is not supported');
-};
-process.umask = function() { return 0; };
-
 },{}],30:[function(require,module,exports){
+(function (process){
+/**
+ * Copyright 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+'use strict';
+
+if (process.env.NODE_ENV !== 'production') {
+  var invariant = require('fbjs/lib/invariant');
+  var warning = require('fbjs/lib/warning');
+  var ReactPropTypesSecret = require('./lib/ReactPropTypesSecret');
+  var loggedTypeFailures = {};
+}
+
+/**
+ * Assert that the values match with the type specs.
+ * Error messages are memorized and will only be shown once.
+ *
+ * @param {object} typeSpecs Map of name to a ReactPropType
+ * @param {object} values Runtime values that need to be type-checked
+ * @param {string} location e.g. "prop", "context", "child context"
+ * @param {string} componentName Name of the component for error messages.
+ * @param {?Function} getStack Returns the component stack.
+ * @private
+ */
+function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
+  if (process.env.NODE_ENV !== 'production') {
+    for (var typeSpecName in typeSpecs) {
+      if (typeSpecs.hasOwnProperty(typeSpecName)) {
+        var error;
+        // Prop type validation may throw. In case they do, we don't want to
+        // fail the render phase where it didn't fail before. So we log it.
+        // After these have been cleaned up, we'll let them throw.
+        try {
+          // This is intentionally an invariant that gets caught. It's the same
+          // behavior as without this statement except with a better message.
+          invariant(typeof typeSpecs[typeSpecName] === 'function', '%s: %s type `%s` is invalid; it must be a function, usually from ' + 'React.PropTypes.', componentName || 'React class', location, typeSpecName);
+          error = typeSpecs[typeSpecName](values, typeSpecName, componentName, location, null, ReactPropTypesSecret);
+        } catch (ex) {
+          error = ex;
+        }
+        warning(!error || error instanceof Error, '%s: type specification of %s `%s` is invalid; the type checker ' + 'function must return `null` or an `Error` but returned a %s. ' + 'You may have forgotten to pass an argument to the type checker ' + 'creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and ' + 'shape all require an argument).', componentName || 'React class', location, typeSpecName, typeof error);
+        if (error instanceof Error && !(error.message in loggedTypeFailures)) {
+          // Only monitor this failure once because there tends to be a lot of the
+          // same error.
+          loggedTypeFailures[error.message] = true;
+
+          var stack = getStack ? getStack() : '';
+
+          warning(false, 'Failed %s type: %s%s', location, error.message, stack != null ? stack : '');
+        }
+      }
+    }
+  }
+}
+
+module.exports = checkPropTypes;
+
+}).call(this,require('_process'))
+},{"./lib/ReactPropTypesSecret":33,"_process":5,"fbjs/lib/invariant":21,"fbjs/lib/warning":28}],31:[function(require,module,exports){
+/**
+ * Copyright 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+'use strict';
+
+// React 15.5 references this module, and assumes PropTypes are still callable in production.
+// Therefore we re-export development-only version with all the PropTypes checks here.
+// However if one is migrating to the `prop-types` npm library, they will go through the
+// `index.js` entry point, and it will branch depending on the environment.
+var factory = require('./factoryWithTypeCheckers');
+module.exports = function(isValidElement) {
+  // It is still allowed in 15.5.
+  var throwOnDirectAccess = false;
+  return factory(isValidElement, throwOnDirectAccess);
+};
+
+},{"./factoryWithTypeCheckers":32}],32:[function(require,module,exports){
+(function (process){
+/**
+ * Copyright 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+'use strict';
+
+var emptyFunction = require('fbjs/lib/emptyFunction');
+var invariant = require('fbjs/lib/invariant');
+var warning = require('fbjs/lib/warning');
+
+var ReactPropTypesSecret = require('./lib/ReactPropTypesSecret');
+var checkPropTypes = require('./checkPropTypes');
+
+module.exports = function(isValidElement, throwOnDirectAccess) {
+  /* global Symbol */
+  var ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
+  var FAUX_ITERATOR_SYMBOL = '@@iterator'; // Before Symbol spec.
+
+  /**
+   * Returns the iterator method function contained on the iterable object.
+   *
+   * Be sure to invoke the function with the iterable as context:
+   *
+   *     var iteratorFn = getIteratorFn(myIterable);
+   *     if (iteratorFn) {
+   *       var iterator = iteratorFn.call(myIterable);
+   *       ...
+   *     }
+   *
+   * @param {?object} maybeIterable
+   * @return {?function}
+   */
+  function getIteratorFn(maybeIterable) {
+    var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+    if (typeof iteratorFn === 'function') {
+      return iteratorFn;
+    }
+  }
+
+  /**
+   * Collection of methods that allow declaration and validation of props that are
+   * supplied to React components. Example usage:
+   *
+   *   var Props = require('ReactPropTypes');
+   *   var MyArticle = React.createClass({
+   *     propTypes: {
+   *       // An optional string prop named "description".
+   *       description: Props.string,
+   *
+   *       // A required enum prop named "category".
+   *       category: Props.oneOf(['News','Photos']).isRequired,
+   *
+   *       // A prop named "dialog" that requires an instance of Dialog.
+   *       dialog: Props.instanceOf(Dialog).isRequired
+   *     },
+   *     render: function() { ... }
+   *   });
+   *
+   * A more formal specification of how these methods are used:
+   *
+   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
+   *   decl := ReactPropTypes.{type}(.isRequired)?
+   *
+   * Each and every declaration produces a function with the same signature. This
+   * allows the creation of custom validation functions. For example:
+   *
+   *  var MyLink = React.createClass({
+   *    propTypes: {
+   *      // An optional string or URI prop named "href".
+   *      href: function(props, propName, componentName) {
+   *        var propValue = props[propName];
+   *        if (propValue != null && typeof propValue !== 'string' &&
+   *            !(propValue instanceof URI)) {
+   *          return new Error(
+   *            'Expected a string or an URI for ' + propName + ' in ' +
+   *            componentName
+   *          );
+   *        }
+   *      }
+   *    },
+   *    render: function() {...}
+   *  });
+   *
+   * @internal
+   */
+
+  var ANONYMOUS = '<<anonymous>>';
+
+  // Important!
+  // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
+  var ReactPropTypes = {
+    array: createPrimitiveTypeChecker('array'),
+    bool: createPrimitiveTypeChecker('boolean'),
+    func: createPrimitiveTypeChecker('function'),
+    number: createPrimitiveTypeChecker('number'),
+    object: createPrimitiveTypeChecker('object'),
+    string: createPrimitiveTypeChecker('string'),
+    symbol: createPrimitiveTypeChecker('symbol'),
+
+    any: createAnyTypeChecker(),
+    arrayOf: createArrayOfTypeChecker,
+    element: createElementTypeChecker(),
+    instanceOf: createInstanceTypeChecker,
+    node: createNodeChecker(),
+    objectOf: createObjectOfTypeChecker,
+    oneOf: createEnumTypeChecker,
+    oneOfType: createUnionTypeChecker,
+    shape: createShapeTypeChecker
+  };
+
+  /**
+   * inlined Object.is polyfill to avoid requiring consumers ship their own
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+   */
+  /*eslint-disable no-self-compare*/
+  function is(x, y) {
+    // SameValue algorithm
+    if (x === y) {
+      // Steps 1-5, 7-10
+      // Steps 6.b-6.e: +0 != -0
+      return x !== 0 || 1 / x === 1 / y;
+    } else {
+      // Step 6.a: NaN == NaN
+      return x !== x && y !== y;
+    }
+  }
+  /*eslint-enable no-self-compare*/
+
+  /**
+   * We use an Error-like object for backward compatibility as people may call
+   * PropTypes directly and inspect their output. However, we don't use real
+   * Errors anymore. We don't inspect their stack anyway, and creating them
+   * is prohibitively expensive if they are created too often, such as what
+   * happens in oneOfType() for any type before the one that matched.
+   */
+  function PropTypeError(message) {
+    this.message = message;
+    this.stack = '';
+  }
+  // Make `instanceof Error` still work for returned errors.
+  PropTypeError.prototype = Error.prototype;
+
+  function createChainableTypeChecker(validate) {
+    if (process.env.NODE_ENV !== 'production') {
+      var manualPropTypeCallCache = {};
+      var manualPropTypeWarningCount = 0;
+    }
+    function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+      componentName = componentName || ANONYMOUS;
+      propFullName = propFullName || propName;
+
+      if (secret !== ReactPropTypesSecret) {
+        if (throwOnDirectAccess) {
+          // New behavior only for users of `prop-types` package
+          invariant(
+            false,
+            'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+            'Use `PropTypes.checkPropTypes()` to call them. ' +
+            'Read more at http://fb.me/use-check-prop-types'
+          );
+        } else if (process.env.NODE_ENV !== 'production' && typeof console !== 'undefined') {
+          // Old behavior for people using React.PropTypes
+          var cacheKey = componentName + ':' + propName;
+          if (
+            !manualPropTypeCallCache[cacheKey] &&
+            // Avoid spamming the console because they are often not actionable except for lib authors
+            manualPropTypeWarningCount < 3
+          ) {
+            warning(
+              false,
+              'You are manually calling a React.PropTypes validation ' +
+              'function for the `%s` prop on `%s`. This is deprecated ' +
+              'and will throw in the standalone `prop-types` package. ' +
+              'You may be seeing this warning due to a third-party PropTypes ' +
+              'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.',
+              propFullName,
+              componentName
+            );
+            manualPropTypeCallCache[cacheKey] = true;
+            manualPropTypeWarningCount++;
+          }
+        }
+      }
+      if (props[propName] == null) {
+        if (isRequired) {
+          if (props[propName] === null) {
+            return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required ' + ('in `' + componentName + '`, but its value is `null`.'));
+          }
+          return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required in ' + ('`' + componentName + '`, but its value is `undefined`.'));
+        }
+        return null;
+      } else {
+        return validate(props, propName, componentName, location, propFullName);
+      }
+    }
+
+    var chainedCheckType = checkType.bind(null, false);
+    chainedCheckType.isRequired = checkType.bind(null, true);
+
+    return chainedCheckType;
+  }
+
+  function createPrimitiveTypeChecker(expectedType) {
+    function validate(props, propName, componentName, location, propFullName, secret) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== expectedType) {
+        // `propValue` being instance of, say, date/regexp, pass the 'object'
+        // check, but we can offer a more precise error message here rather than
+        // 'of type `object`'.
+        var preciseType = getPreciseType(propValue);
+
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createAnyTypeChecker() {
+    return createChainableTypeChecker(emptyFunction.thatReturnsNull);
+  }
+
+  function createArrayOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
+      }
+      var propValue = props[propName];
+      if (!Array.isArray(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
+      }
+      for (var i = 0; i < propValue.length; i++) {
+        var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret);
+        if (error instanceof Error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!isValidElement(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createInstanceTypeChecker(expectedClass) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!(props[propName] instanceof expectedClass)) {
+        var expectedClassName = expectedClass.name || ANONYMOUS;
+        var actualClassName = getClassName(props[propName]);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createEnumTypeChecker(expectedValues) {
+    if (!Array.isArray(expectedValues)) {
+      process.env.NODE_ENV !== 'production' ? warning(false, 'Invalid argument supplied to oneOf, expected an instance of array.') : void 0;
+      return emptyFunction.thatReturnsNull;
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      for (var i = 0; i < expectedValues.length; i++) {
+        if (is(propValue, expectedValues[i])) {
+          return null;
+        }
+      }
+
+      var valuesString = JSON.stringify(expectedValues);
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createObjectOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
+      }
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
+      }
+      for (var key in propValue) {
+        if (propValue.hasOwnProperty(key)) {
+          var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+          if (error instanceof Error) {
+            return error;
+          }
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createUnionTypeChecker(arrayOfTypeCheckers) {
+    if (!Array.isArray(arrayOfTypeCheckers)) {
+      process.env.NODE_ENV !== 'production' ? warning(false, 'Invalid argument supplied to oneOfType, expected an instance of array.') : void 0;
+      return emptyFunction.thatReturnsNull;
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+        var checker = arrayOfTypeCheckers[i];
+        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+          return null;
+        }
+      }
+
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createNodeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!isNode(props[propName])) {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      for (var key in shapeTypes) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          continue;
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function isNode(propValue) {
+    switch (typeof propValue) {
+      case 'number':
+      case 'string':
+      case 'undefined':
+        return true;
+      case 'boolean':
+        return !propValue;
+      case 'object':
+        if (Array.isArray(propValue)) {
+          return propValue.every(isNode);
+        }
+        if (propValue === null || isValidElement(propValue)) {
+          return true;
+        }
+
+        var iteratorFn = getIteratorFn(propValue);
+        if (iteratorFn) {
+          var iterator = iteratorFn.call(propValue);
+          var step;
+          if (iteratorFn !== propValue.entries) {
+            while (!(step = iterator.next()).done) {
+              if (!isNode(step.value)) {
+                return false;
+              }
+            }
+          } else {
+            // Iterator will provide entry [k,v] tuples rather than values.
+            while (!(step = iterator.next()).done) {
+              var entry = step.value;
+              if (entry) {
+                if (!isNode(entry[1])) {
+                  return false;
+                }
+              }
+            }
+          }
+        } else {
+          return false;
+        }
+
+        return true;
+      default:
+        return false;
+    }
+  }
+
+  function isSymbol(propType, propValue) {
+    // Native Symbol.
+    if (propType === 'symbol') {
+      return true;
+    }
+
+    // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
+    if (propValue['@@toStringTag'] === 'Symbol') {
+      return true;
+    }
+
+    // Fallback for non-spec compliant Symbols which are polyfilled.
+    if (typeof Symbol === 'function' && propValue instanceof Symbol) {
+      return true;
+    }
+
+    return false;
+  }
+
+  // Equivalent of `typeof` but with special handling for array and regexp.
+  function getPropType(propValue) {
+    var propType = typeof propValue;
+    if (Array.isArray(propValue)) {
+      return 'array';
+    }
+    if (propValue instanceof RegExp) {
+      // Old webkits (at least until Android 4.0) return 'function' rather than
+      // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
+      // passes PropTypes.object.
+      return 'object';
+    }
+    if (isSymbol(propType, propValue)) {
+      return 'symbol';
+    }
+    return propType;
+  }
+
+  // This handles more types than `getPropType`. Only used for error messages.
+  // See `createPrimitiveTypeChecker`.
+  function getPreciseType(propValue) {
+    var propType = getPropType(propValue);
+    if (propType === 'object') {
+      if (propValue instanceof Date) {
+        return 'date';
+      } else if (propValue instanceof RegExp) {
+        return 'regexp';
+      }
+    }
+    return propType;
+  }
+
+  // Returns class name of the object, if any.
+  function getClassName(propValue) {
+    if (!propValue.constructor || !propValue.constructor.name) {
+      return ANONYMOUS;
+    }
+    return propValue.constructor.name;
+  }
+
+  ReactPropTypes.checkPropTypes = checkPropTypes;
+  ReactPropTypes.PropTypes = ReactPropTypes;
+
+  return ReactPropTypes;
+};
+
+}).call(this,require('_process'))
+},{"./checkPropTypes":30,"./lib/ReactPropTypesSecret":33,"_process":5,"fbjs/lib/emptyFunction":13,"fbjs/lib/invariant":21,"fbjs/lib/warning":28}],33:[function(require,module,exports){
+/**
+ * Copyright 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+'use strict';
+
+var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
+
+module.exports = ReactPropTypesSecret;
+
+},{}],34:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/ReactDOM');
 
-},{"./lib/ReactDOM":60}],31:[function(require,module,exports){
+},{"./lib/ReactDOM":64}],35:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -6175,7 +6848,7 @@ var ARIADOMPropertyConfig = {
 };
 
 module.exports = ARIADOMPropertyConfig;
-},{}],32:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -6199,7 +6872,7 @@ var AutoFocusUtils = {
 };
 
 module.exports = AutoFocusUtils;
-},{"./ReactDOMComponentTree":63,"fbjs/lib/focusNode":14}],33:[function(require,module,exports){
+},{"./ReactDOMComponentTree":67,"fbjs/lib/focusNode":15}],37:[function(require,module,exports){
 /**
  * Copyright 2013-present Facebook, Inc.
  * All rights reserved.
@@ -6584,7 +7257,7 @@ var BeforeInputEventPlugin = {
 };
 
 module.exports = BeforeInputEventPlugin;
-},{"./EventPropagators":49,"./FallbackCompositionState":50,"./SyntheticCompositionEvent":114,"./SyntheticInputEvent":118,"fbjs/lib/ExecutionEnvironment":6}],34:[function(require,module,exports){
+},{"./EventPropagators":53,"./FallbackCompositionState":54,"./SyntheticCompositionEvent":118,"./SyntheticInputEvent":122,"fbjs/lib/ExecutionEnvironment":7}],38:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -6732,7 +7405,7 @@ var CSSProperty = {
 };
 
 module.exports = CSSProperty;
-},{}],35:[function(require,module,exports){
+},{}],39:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -6941,7 +7614,7 @@ var CSSPropertyOperations = {
 };
 
 module.exports = CSSPropertyOperations;
-},{"./CSSProperty":34,"./ReactInstrumentation":92,"./dangerousStyleValue":131,"fbjs/lib/ExecutionEnvironment":6,"fbjs/lib/camelizeStyleName":8,"fbjs/lib/hyphenateStyleName":19,"fbjs/lib/memoizeStringOnly":23,"fbjs/lib/warning":27}],36:[function(require,module,exports){
+},{"./CSSProperty":38,"./ReactInstrumentation":96,"./dangerousStyleValue":135,"fbjs/lib/ExecutionEnvironment":7,"fbjs/lib/camelizeStyleName":9,"fbjs/lib/hyphenateStyleName":20,"fbjs/lib/memoizeStringOnly":24,"fbjs/lib/warning":28}],40:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -7060,7 +7733,7 @@ var CallbackQueue = function () {
 }();
 
 module.exports = PooledClass.addPoolingTo(CallbackQueue);
-},{"./PooledClass":54,"./reactProdInvariant":150,"fbjs/lib/invariant":20}],37:[function(require,module,exports){
+},{"./PooledClass":58,"./reactProdInvariant":153,"fbjs/lib/invariant":21}],41:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -7328,6 +8001,26 @@ function getTargetInstForClickEvent(topLevelType, targetInst) {
   }
 }
 
+function handleControlledInputBlur(inst, node) {
+  // TODO: In IE, inst is occasionally null. Why?
+  if (inst == null) {
+    return;
+  }
+
+  // Fiber and ReactDOM keep wrapper state in separate places
+  var state = inst._wrapperState || node._wrapperState;
+
+  if (!state || !state.controlled || node.type !== 'number') {
+    return;
+  }
+
+  // If controlled, assign the value attribute to the current value on blur
+  var value = '' + node.value;
+  if (node.getAttribute('value') !== value) {
+    node.setAttribute('value', value);
+  }
+}
+
 /**
  * This plugin creates an `onChange` event that normalizes change events
  * across form elements. This event fires at a time when it's possible to
@@ -7376,12 +8069,17 @@ var ChangeEventPlugin = {
     if (handleEventFunc) {
       handleEventFunc(topLevelType, targetNode, targetInst);
     }
+
+    // When blurring, set the value attribute for number inputs
+    if (topLevelType === 'topBlur') {
+      handleControlledInputBlur(targetInst, targetNode);
+    }
   }
 
 };
 
 module.exports = ChangeEventPlugin;
-},{"./EventPluginHub":46,"./EventPropagators":49,"./ReactDOMComponentTree":63,"./ReactUpdates":107,"./SyntheticEvent":116,"./getEventTarget":139,"./isEventSupported":147,"./isTextInputElement":148,"fbjs/lib/ExecutionEnvironment":6}],38:[function(require,module,exports){
+},{"./EventPluginHub":50,"./EventPropagators":53,"./ReactDOMComponentTree":67,"./ReactUpdates":111,"./SyntheticEvent":120,"./getEventTarget":143,"./isEventSupported":150,"./isTextInputElement":151,"fbjs/lib/ExecutionEnvironment":7}],42:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -7606,7 +8304,7 @@ var DOMChildrenOperations = {
 };
 
 module.exports = DOMChildrenOperations;
-},{"./DOMLazyTree":39,"./Danger":43,"./ReactDOMComponentTree":63,"./ReactInstrumentation":92,"./createMicrosoftUnsafeLocalFunction":130,"./setInnerHTML":152,"./setTextContent":153}],39:[function(require,module,exports){
+},{"./DOMLazyTree":43,"./Danger":47,"./ReactDOMComponentTree":67,"./ReactInstrumentation":96,"./createMicrosoftUnsafeLocalFunction":134,"./setInnerHTML":155,"./setTextContent":156}],43:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -7724,7 +8422,7 @@ DOMLazyTree.queueHTML = queueHTML;
 DOMLazyTree.queueText = queueText;
 
 module.exports = DOMLazyTree;
-},{"./DOMNamespaces":40,"./createMicrosoftUnsafeLocalFunction":130,"./setInnerHTML":152,"./setTextContent":153}],40:[function(require,module,exports){
+},{"./DOMNamespaces":44,"./createMicrosoftUnsafeLocalFunction":134,"./setInnerHTML":155,"./setTextContent":156}],44:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -7744,7 +8442,7 @@ var DOMNamespaces = {
 };
 
 module.exports = DOMNamespaces;
-},{}],41:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -7954,7 +8652,7 @@ var DOMProperty = {
 };
 
 module.exports = DOMProperty;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],42:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],46:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8191,7 +8889,7 @@ var DOMPropertyOperations = {
 };
 
 module.exports = DOMPropertyOperations;
-},{"./DOMProperty":41,"./ReactDOMComponentTree":63,"./ReactInstrumentation":92,"./quoteAttributeValueForBrowser":149,"fbjs/lib/warning":27}],43:[function(require,module,exports){
+},{"./DOMProperty":45,"./ReactDOMComponentTree":67,"./ReactInstrumentation":96,"./quoteAttributeValueForBrowser":152,"fbjs/lib/warning":28}],47:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8239,7 +8937,7 @@ var Danger = {
 };
 
 module.exports = Danger;
-},{"./DOMLazyTree":39,"./reactProdInvariant":150,"fbjs/lib/ExecutionEnvironment":6,"fbjs/lib/createNodesFromMarkup":11,"fbjs/lib/emptyFunction":12,"fbjs/lib/invariant":20}],44:[function(require,module,exports){
+},{"./DOMLazyTree":43,"./reactProdInvariant":153,"fbjs/lib/ExecutionEnvironment":7,"fbjs/lib/createNodesFromMarkup":12,"fbjs/lib/emptyFunction":13,"fbjs/lib/invariant":21}],48:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8265,7 +8963,7 @@ module.exports = Danger;
 var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'TapEventPlugin', 'EnterLeaveEventPlugin', 'ChangeEventPlugin', 'SelectEventPlugin', 'BeforeInputEventPlugin'];
 
 module.exports = DefaultEventPluginOrder;
-},{}],45:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8365,7 +9063,7 @@ var EnterLeaveEventPlugin = {
 };
 
 module.exports = EnterLeaveEventPlugin;
-},{"./EventPropagators":49,"./ReactDOMComponentTree":63,"./SyntheticMouseEvent":120}],46:[function(require,module,exports){
+},{"./EventPropagators":53,"./ReactDOMComponentTree":67,"./SyntheticMouseEvent":124}],50:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8643,7 +9341,7 @@ var EventPluginHub = {
 };
 
 module.exports = EventPluginHub;
-},{"./EventPluginRegistry":47,"./EventPluginUtils":48,"./ReactErrorUtils":83,"./accumulateInto":127,"./forEachAccumulated":135,"./reactProdInvariant":150,"fbjs/lib/invariant":20}],47:[function(require,module,exports){
+},{"./EventPluginRegistry":51,"./EventPluginUtils":52,"./ReactErrorUtils":87,"./accumulateInto":131,"./forEachAccumulated":139,"./reactProdInvariant":153,"fbjs/lib/invariant":21}],51:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -8898,7 +9596,7 @@ var EventPluginRegistry = {
 };
 
 module.exports = EventPluginRegistry;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],48:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],52:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9124,7 +9822,7 @@ var EventPluginUtils = {
 };
 
 module.exports = EventPluginUtils;
-},{"./ReactErrorUtils":83,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"fbjs/lib/warning":27}],49:[function(require,module,exports){
+},{"./ReactErrorUtils":87,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"fbjs/lib/warning":28}],53:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9258,7 +9956,7 @@ var EventPropagators = {
 };
 
 module.exports = EventPropagators;
-},{"./EventPluginHub":46,"./EventPluginUtils":48,"./accumulateInto":127,"./forEachAccumulated":135,"fbjs/lib/warning":27}],50:[function(require,module,exports){
+},{"./EventPluginHub":50,"./EventPluginUtils":52,"./accumulateInto":131,"./forEachAccumulated":139,"fbjs/lib/warning":28}],54:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9353,7 +10051,7 @@ _assign(FallbackCompositionState.prototype, {
 PooledClass.addPoolingTo(FallbackCompositionState);
 
 module.exports = FallbackCompositionState;
-},{"./PooledClass":54,"./getTextContentAccessor":144,"object-assign":28}],51:[function(require,module,exports){
+},{"./PooledClass":58,"./getTextContentAccessor":147,"object-assign":29}],55:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9561,11 +10259,35 @@ var HTMLDOMPropertyConfig = {
     htmlFor: 'for',
     httpEquiv: 'http-equiv'
   },
-  DOMPropertyNames: {}
+  DOMPropertyNames: {},
+  DOMMutationMethods: {
+    value: function (node, value) {
+      if (value == null) {
+        return node.removeAttribute('value');
+      }
+
+      // Number inputs get special treatment due to some edge cases in
+      // Chrome. Let everything else assign the value attribute as normal.
+      // https://github.com/facebook/react/issues/7253#issuecomment-236074326
+      if (node.type !== 'number' || node.hasAttribute('value') === false) {
+        node.setAttribute('value', '' + value);
+      } else if (node.validity && !node.validity.badInput && node.ownerDocument.activeElement !== node) {
+        // Don't assign an attribute if validation reports bad
+        // input. Chrome will clear the value. Additionally, don't
+        // operate on inputs that have focus, otherwise Chrome might
+        // strip off trailing decimal places and cause the user's
+        // cursor position to jump to the beginning of the input.
+        //
+        // In ReactDOMInput, we have an onBlur event that will trigger
+        // this function again when focus is lost.
+        node.setAttribute('value', '' + value);
+      }
+    }
+  }
 };
 
 module.exports = HTMLDOMPropertyConfig;
-},{"./DOMProperty":41}],52:[function(require,module,exports){
+},{"./DOMProperty":45}],56:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9624,7 +10346,7 @@ var KeyEscapeUtils = {
 };
 
 module.exports = KeyEscapeUtils;
-},{}],53:[function(require,module,exports){
+},{}],57:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9639,8 +10361,11 @@ module.exports = KeyEscapeUtils;
 
 var _prodInvariant = require('./reactProdInvariant');
 
-var React = require('react/lib/React');
 var ReactPropTypesSecret = require('./ReactPropTypesSecret');
+var propTypesFactory = require('prop-types/factory');
+
+var React = require('react/lib/React');
+var PropTypes = propTypesFactory(React.isValidElement);
 
 var invariant = require('fbjs/lib/invariant');
 var warning = require('fbjs/lib/warning');
@@ -9681,7 +10406,7 @@ var propTypes = {
     }
     return new Error('You provided a `checked` prop to a form field without an ' + '`onChange` handler. This will render a read-only field. If ' + 'the field should be mutable use `defaultChecked`. Otherwise, ' + 'set either `onChange` or `readOnly`.');
   },
-  onChange: React.PropTypes.func
+  onChange: PropTypes.func
 };
 
 var loggedTypeFailures = {};
@@ -9759,7 +10484,7 @@ var LinkedValueUtils = {
 };
 
 module.exports = LinkedValueUtils;
-},{"./ReactPropTypesSecret":100,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"react/lib/React":159}],54:[function(require,module,exports){
+},{"./ReactPropTypesSecret":104,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"prop-types/factory":31,"react/lib/React":162}],58:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9871,7 +10596,7 @@ var PooledClass = {
 };
 
 module.exports = PooledClass;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],55:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],59:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -10199,7 +10924,7 @@ var ReactBrowserEventEmitter = _assign({}, ReactEventEmitterMixin, {
 });
 
 module.exports = ReactBrowserEventEmitter;
-},{"./EventPluginRegistry":47,"./ReactEventEmitterMixin":84,"./ViewportMetrics":126,"./getVendorPrefixedEventName":145,"./isEventSupported":147,"object-assign":28}],56:[function(require,module,exports){
+},{"./EventPluginRegistry":51,"./ReactEventEmitterMixin":88,"./ViewportMetrics":130,"./getVendorPrefixedEventName":148,"./isEventSupported":150,"object-assign":29}],60:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -10355,7 +11080,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":52,"./ReactReconciler":102,"./instantiateReactComponent":146,"./shouldUpdateReactComponent":154,"./traverseAllChildren":155,"_process":29,"fbjs/lib/warning":27,"react/lib/ReactComponentTreeHook":163}],57:[function(require,module,exports){
+},{"./KeyEscapeUtils":56,"./ReactReconciler":106,"./instantiateReactComponent":149,"./shouldUpdateReactComponent":157,"./traverseAllChildren":158,"_process":5,"fbjs/lib/warning":28,"react/lib/ReactComponentTreeHook":166}],61:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -10385,7 +11110,7 @@ var ReactComponentBrowserEnvironment = {
 };
 
 module.exports = ReactComponentBrowserEnvironment;
-},{"./DOMChildrenOperations":38,"./ReactDOMIDOperations":67}],58:[function(require,module,exports){
+},{"./DOMChildrenOperations":42,"./ReactDOMIDOperations":71}],62:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -10431,7 +11156,7 @@ var ReactComponentEnvironment = {
 };
 
 module.exports = ReactComponentEnvironment;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],59:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],63:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -10948,7 +11673,7 @@ var ReactCompositeComponent = {
     if (childContext) {
       !(typeof Component.childContextTypes === 'object') ? "development" !== 'production' ? invariant(false, '%s.getChildContext(): childContextTypes must be defined in order to use getChildContext().', this.getName() || 'ReactCompositeComponent') : _prodInvariant('107', this.getName() || 'ReactCompositeComponent') : void 0;
       if ("development" !== 'production') {
-        this._checkContextTypes(Component.childContextTypes, childContext, 'childContext');
+        this._checkContextTypes(Component.childContextTypes, childContext, 'child context');
       }
       for (var name in childContext) {
         !(name in Component.childContextTypes) ? "development" !== 'production' ? invariant(false, '%s.getChildContext(): key "%s" is not defined in childContextTypes.', this.getName() || 'ReactCompositeComponent', name) : _prodInvariant('108', this.getName() || 'ReactCompositeComponent', name) : void 0;
@@ -11333,7 +12058,7 @@ var ReactCompositeComponent = {
 };
 
 module.exports = ReactCompositeComponent;
-},{"./ReactComponentEnvironment":58,"./ReactErrorUtils":83,"./ReactInstanceMap":91,"./ReactInstrumentation":92,"./ReactNodeTypes":97,"./ReactReconciler":102,"./checkReactTypeSpec":129,"./reactProdInvariant":150,"./shouldUpdateReactComponent":154,"fbjs/lib/emptyObject":13,"fbjs/lib/invariant":20,"fbjs/lib/shallowEqual":26,"fbjs/lib/warning":27,"object-assign":28,"react/lib/React":159,"react/lib/ReactCurrentOwner":164}],60:[function(require,module,exports){
+},{"./ReactComponentEnvironment":62,"./ReactErrorUtils":87,"./ReactInstanceMap":95,"./ReactInstrumentation":96,"./ReactNodeTypes":101,"./ReactReconciler":106,"./checkReactTypeSpec":133,"./reactProdInvariant":153,"./shouldUpdateReactComponent":157,"fbjs/lib/emptyObject":14,"fbjs/lib/invariant":21,"fbjs/lib/shallowEqual":27,"fbjs/lib/warning":28,"object-assign":29,"react/lib/React":162,"react/lib/ReactCurrentOwner":167}],64:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -11444,7 +12169,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = ReactDOM;
-},{"./ReactDOMComponentTree":63,"./ReactDOMInvalidARIAHook":69,"./ReactDOMNullInputValuePropHook":70,"./ReactDOMUnknownPropertyHook":77,"./ReactDefaultInjection":80,"./ReactInstrumentation":92,"./ReactMount":95,"./ReactReconciler":102,"./ReactUpdates":107,"./ReactVersion":108,"./findDOMNode":133,"./getHostComponentFromComposite":140,"./renderSubtreeIntoContainer":151,"fbjs/lib/ExecutionEnvironment":6,"fbjs/lib/warning":27}],61:[function(require,module,exports){
+},{"./ReactDOMComponentTree":67,"./ReactDOMInvalidARIAHook":73,"./ReactDOMNullInputValuePropHook":74,"./ReactDOMUnknownPropertyHook":81,"./ReactDefaultInjection":84,"./ReactInstrumentation":96,"./ReactMount":99,"./ReactReconciler":106,"./ReactUpdates":111,"./ReactVersion":112,"./findDOMNode":137,"./getHostComponentFromComposite":144,"./renderSubtreeIntoContainer":154,"fbjs/lib/ExecutionEnvironment":7,"fbjs/lib/warning":28}],65:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12445,7 +13170,7 @@ ReactDOMComponent.Mixin = {
 _assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mixin);
 
 module.exports = ReactDOMComponent;
-},{"./AutoFocusUtils":32,"./CSSPropertyOperations":35,"./DOMLazyTree":39,"./DOMNamespaces":40,"./DOMProperty":41,"./DOMPropertyOperations":42,"./EventPluginHub":46,"./EventPluginRegistry":47,"./ReactBrowserEventEmitter":55,"./ReactDOMComponentFlags":62,"./ReactDOMComponentTree":63,"./ReactDOMInput":68,"./ReactDOMOption":71,"./ReactDOMSelect":72,"./ReactDOMTextarea":75,"./ReactInstrumentation":92,"./ReactMultiChild":96,"./ReactServerRenderingTransaction":104,"./escapeTextContentForBrowser":132,"./isEventSupported":147,"./reactProdInvariant":150,"./validateDOMNesting":156,"fbjs/lib/emptyFunction":12,"fbjs/lib/invariant":20,"fbjs/lib/shallowEqual":26,"fbjs/lib/warning":27,"object-assign":28}],62:[function(require,module,exports){
+},{"./AutoFocusUtils":36,"./CSSPropertyOperations":39,"./DOMLazyTree":43,"./DOMNamespaces":44,"./DOMProperty":45,"./DOMPropertyOperations":46,"./EventPluginHub":50,"./EventPluginRegistry":51,"./ReactBrowserEventEmitter":59,"./ReactDOMComponentFlags":66,"./ReactDOMComponentTree":67,"./ReactDOMInput":72,"./ReactDOMOption":75,"./ReactDOMSelect":76,"./ReactDOMTextarea":79,"./ReactInstrumentation":96,"./ReactMultiChild":100,"./ReactServerRenderingTransaction":108,"./escapeTextContentForBrowser":136,"./isEventSupported":150,"./reactProdInvariant":153,"./validateDOMNesting":159,"fbjs/lib/emptyFunction":13,"fbjs/lib/invariant":21,"fbjs/lib/shallowEqual":27,"fbjs/lib/warning":28,"object-assign":29}],66:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -12463,7 +13188,7 @@ var ReactDOMComponentFlags = {
 };
 
 module.exports = ReactDOMComponentFlags;
-},{}],63:[function(require,module,exports){
+},{}],67:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12658,7 +13383,7 @@ var ReactDOMComponentTree = {
 };
 
 module.exports = ReactDOMComponentTree;
-},{"./DOMProperty":41,"./ReactDOMComponentFlags":62,"./reactProdInvariant":150,"fbjs/lib/invariant":20}],64:[function(require,module,exports){
+},{"./DOMProperty":45,"./ReactDOMComponentFlags":66,"./reactProdInvariant":153,"fbjs/lib/invariant":21}],68:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12691,7 +13416,7 @@ function ReactDOMContainerInfo(topLevelWrapper, node) {
 }
 
 module.exports = ReactDOMContainerInfo;
-},{"./validateDOMNesting":156}],65:[function(require,module,exports){
+},{"./validateDOMNesting":159}],69:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -12751,7 +13476,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 });
 
 module.exports = ReactDOMEmptyComponent;
-},{"./DOMLazyTree":39,"./ReactDOMComponentTree":63,"object-assign":28}],66:[function(require,module,exports){
+},{"./DOMLazyTree":43,"./ReactDOMComponentTree":67,"object-assign":29}],70:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12770,7 +13495,7 @@ var ReactDOMFeatureFlags = {
 };
 
 module.exports = ReactDOMFeatureFlags;
-},{}],67:[function(require,module,exports){
+},{}],71:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12804,7 +13529,7 @@ var ReactDOMIDOperations = {
 };
 
 module.exports = ReactDOMIDOperations;
-},{"./DOMChildrenOperations":38,"./ReactDOMComponentTree":63}],68:[function(require,module,exports){
+},{"./DOMChildrenOperations":42,"./ReactDOMComponentTree":67}],72:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12919,12 +13644,9 @@ var ReactDOMInput = {
       initialChecked: props.checked != null ? props.checked : props.defaultChecked,
       initialValue: props.value != null ? props.value : defaultValue,
       listeners: null,
-      onChange: _handleChange.bind(inst)
+      onChange: _handleChange.bind(inst),
+      controlled: isControlled(props)
     };
-
-    if ("development" !== 'production') {
-      inst._wrapperState.controlled = isControlled(props);
-    }
   },
 
   updateWrapper: function (inst) {
@@ -12953,14 +13675,24 @@ var ReactDOMInput = {
     var node = ReactDOMComponentTree.getNodeFromInstance(inst);
     var value = LinkedValueUtils.getValue(props);
     if (value != null) {
+      if (value === 0 && node.value === '') {
+        node.value = '0';
+        // Note: IE9 reports a number inputs as 'text', so check props instead.
+      } else if (props.type === 'number') {
+        // Simulate `input.valueAsNumber`. IE9 does not support it
+        var valueAsNumber = parseFloat(node.value, 10) || 0;
 
-      // Cast `value` to a string to ensure the value is set correctly. While
-      // browsers typically do this as necessary, jsdom doesn't.
-      var newValue = '' + value;
-
-      // To avoid side effects (such as losing text selection), only set value if changed
-      if (newValue !== node.value) {
-        node.value = newValue;
+        // eslint-disable-next-line
+        if (value != valueAsNumber) {
+          // Cast `value` to a string to ensure the value is set correctly. While
+          // browsers typically do this as necessary, jsdom doesn't.
+          node.value = '' + value;
+        }
+        // eslint-disable-next-line
+      } else if (value != node.value) {
+        // Cast `value` to a string to ensure the value is set correctly. While
+        // browsers typically do this as necessary, jsdom doesn't.
+        node.value = '' + value;
       }
     } else {
       if (props.value == null && props.defaultValue != null) {
@@ -13082,7 +13814,7 @@ function _handleChange(event) {
 }
 
 module.exports = ReactDOMInput;
-},{"./DOMPropertyOperations":42,"./LinkedValueUtils":53,"./ReactDOMComponentTree":63,"./ReactUpdates":107,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"object-assign":28}],69:[function(require,module,exports){
+},{"./DOMPropertyOperations":46,"./LinkedValueUtils":57,"./ReactDOMComponentTree":67,"./ReactUpdates":111,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"object-assign":29}],73:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13175,7 +13907,7 @@ var ReactDOMInvalidARIAHook = {
 };
 
 module.exports = ReactDOMInvalidARIAHook;
-},{"./DOMProperty":41,"fbjs/lib/warning":27,"react/lib/ReactComponentTreeHook":163}],70:[function(require,module,exports){
+},{"./DOMProperty":45,"fbjs/lib/warning":28,"react/lib/ReactComponentTreeHook":166}],74:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13218,7 +13950,7 @@ var ReactDOMNullInputValuePropHook = {
 };
 
 module.exports = ReactDOMNullInputValuePropHook;
-},{"fbjs/lib/warning":27,"react/lib/ReactComponentTreeHook":163}],71:[function(require,module,exports){
+},{"fbjs/lib/warning":28,"react/lib/ReactComponentTreeHook":166}],75:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13341,7 +14073,7 @@ var ReactDOMOption = {
 };
 
 module.exports = ReactDOMOption;
-},{"./ReactDOMComponentTree":63,"./ReactDOMSelect":72,"fbjs/lib/warning":27,"object-assign":28,"react/lib/React":159}],72:[function(require,module,exports){
+},{"./ReactDOMComponentTree":67,"./ReactDOMSelect":76,"fbjs/lib/warning":28,"object-assign":29,"react/lib/React":162}],76:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13541,7 +14273,7 @@ function _handleChange(event) {
 }
 
 module.exports = ReactDOMSelect;
-},{"./LinkedValueUtils":53,"./ReactDOMComponentTree":63,"./ReactUpdates":107,"fbjs/lib/warning":27,"object-assign":28}],73:[function(require,module,exports){
+},{"./LinkedValueUtils":57,"./ReactDOMComponentTree":67,"./ReactUpdates":111,"fbjs/lib/warning":28,"object-assign":29}],77:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13753,7 +14485,7 @@ var ReactDOMSelection = {
 };
 
 module.exports = ReactDOMSelection;
-},{"./getNodeForCharacterOffset":143,"./getTextContentAccessor":144,"fbjs/lib/ExecutionEnvironment":6}],74:[function(require,module,exports){
+},{"./getNodeForCharacterOffset":146,"./getTextContentAccessor":147,"fbjs/lib/ExecutionEnvironment":7}],78:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13917,7 +14649,7 @@ _assign(ReactDOMTextComponent.prototype, {
 });
 
 module.exports = ReactDOMTextComponent;
-},{"./DOMChildrenOperations":38,"./DOMLazyTree":39,"./ReactDOMComponentTree":63,"./escapeTextContentForBrowser":132,"./reactProdInvariant":150,"./validateDOMNesting":156,"fbjs/lib/invariant":20,"object-assign":28}],75:[function(require,module,exports){
+},{"./DOMChildrenOperations":42,"./DOMLazyTree":43,"./ReactDOMComponentTree":67,"./escapeTextContentForBrowser":136,"./reactProdInvariant":153,"./validateDOMNesting":159,"fbjs/lib/invariant":21,"object-assign":29}],79:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -14077,7 +14809,7 @@ function _handleChange(event) {
 }
 
 module.exports = ReactDOMTextarea;
-},{"./LinkedValueUtils":53,"./ReactDOMComponentTree":63,"./ReactUpdates":107,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"object-assign":28}],76:[function(require,module,exports){
+},{"./LinkedValueUtils":57,"./ReactDOMComponentTree":67,"./ReactUpdates":111,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"object-assign":29}],80:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -14213,7 +14945,7 @@ module.exports = {
   traverseTwoPhase: traverseTwoPhase,
   traverseEnterLeave: traverseEnterLeave
 };
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],77:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],81:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -14325,7 +15057,7 @@ var ReactDOMUnknownPropertyHook = {
 };
 
 module.exports = ReactDOMUnknownPropertyHook;
-},{"./DOMProperty":41,"./EventPluginRegistry":47,"fbjs/lib/warning":27,"react/lib/ReactComponentTreeHook":163}],78:[function(require,module,exports){
+},{"./DOMProperty":45,"./EventPluginRegistry":51,"fbjs/lib/warning":28,"react/lib/ReactComponentTreeHook":166}],82:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -14506,9 +15238,7 @@ function resumeCurrentLifeCycleTimer() {
 }
 
 var lastMarkTimeStamp = 0;
-var canUsePerformanceMeasure =
-// $FlowFixMe https://github.com/facebook/flow/issues/2345
-typeof performance !== 'undefined' && typeof performance.mark === 'function' && typeof performance.clearMarks === 'function' && typeof performance.measure === 'function' && typeof performance.clearMeasures === 'function';
+var canUsePerformanceMeasure = typeof performance !== 'undefined' && typeof performance.mark === 'function' && typeof performance.clearMarks === 'function' && typeof performance.measure === 'function' && typeof performance.clearMeasures === 'function';
 
 function shouldMark(debugID) {
   if (!isProfiling || !canUsePerformanceMeasure) {
@@ -14686,7 +15416,7 @@ if (/[?&]react_perf\b/.test(url)) {
 }
 
 module.exports = ReactDebugTool;
-},{"./ReactHostOperationHistoryHook":88,"./ReactInvalidSetStateWarningHook":93,"fbjs/lib/ExecutionEnvironment":6,"fbjs/lib/performanceNow":25,"fbjs/lib/warning":27,"react/lib/ReactComponentTreeHook":163}],79:[function(require,module,exports){
+},{"./ReactHostOperationHistoryHook":92,"./ReactInvalidSetStateWarningHook":97,"fbjs/lib/ExecutionEnvironment":7,"fbjs/lib/performanceNow":26,"fbjs/lib/warning":28,"react/lib/ReactComponentTreeHook":166}],83:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -14754,7 +15484,7 @@ var ReactDefaultBatchingStrategy = {
 };
 
 module.exports = ReactDefaultBatchingStrategy;
-},{"./ReactUpdates":107,"./Transaction":125,"fbjs/lib/emptyFunction":12,"object-assign":28}],80:[function(require,module,exports){
+},{"./ReactUpdates":111,"./Transaction":129,"fbjs/lib/emptyFunction":13,"object-assign":29}],84:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -14840,7 +15570,7 @@ function inject() {
 module.exports = {
   inject: inject
 };
-},{"./ARIADOMPropertyConfig":31,"./BeforeInputEventPlugin":33,"./ChangeEventPlugin":37,"./DefaultEventPluginOrder":44,"./EnterLeaveEventPlugin":45,"./HTMLDOMPropertyConfig":51,"./ReactComponentBrowserEnvironment":57,"./ReactDOMComponent":61,"./ReactDOMComponentTree":63,"./ReactDOMEmptyComponent":65,"./ReactDOMTextComponent":74,"./ReactDOMTreeTraversal":76,"./ReactDefaultBatchingStrategy":79,"./ReactEventListener":85,"./ReactInjection":89,"./ReactReconcileTransaction":101,"./SVGDOMPropertyConfig":109,"./SelectEventPlugin":110,"./SimpleEventPlugin":111}],81:[function(require,module,exports){
+},{"./ARIADOMPropertyConfig":35,"./BeforeInputEventPlugin":37,"./ChangeEventPlugin":41,"./DefaultEventPluginOrder":48,"./EnterLeaveEventPlugin":49,"./HTMLDOMPropertyConfig":55,"./ReactComponentBrowserEnvironment":61,"./ReactDOMComponent":65,"./ReactDOMComponentTree":67,"./ReactDOMEmptyComponent":69,"./ReactDOMTextComponent":78,"./ReactDOMTreeTraversal":80,"./ReactDefaultBatchingStrategy":83,"./ReactEventListener":89,"./ReactInjection":93,"./ReactReconcileTransaction":105,"./SVGDOMPropertyConfig":113,"./SelectEventPlugin":114,"./SimpleEventPlugin":115}],85:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -14860,7 +15590,7 @@ module.exports = {
 var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol['for']('react.element') || 0xeac7;
 
 module.exports = REACT_ELEMENT_TYPE;
-},{}],82:[function(require,module,exports){
+},{}],86:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -14890,7 +15620,7 @@ var ReactEmptyComponent = {
 ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 
 module.exports = ReactEmptyComponent;
-},{}],83:[function(require,module,exports){
+},{}],87:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -14958,7 +15688,6 @@ if ("development" !== 'production') {
       var evtType = 'react-' + name;
       fakeNode.addEventListener(evtType, boundFunc, false);
       var evt = document.createEvent('Event');
-      // $FlowFixMe https://github.com/facebook/flow/issues/2336
       evt.initEvent(evtType, false, false);
       fakeNode.dispatchEvent(evt);
       fakeNode.removeEventListener(evtType, boundFunc, false);
@@ -14967,7 +15696,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = ReactErrorUtils;
-},{}],84:[function(require,module,exports){
+},{}],88:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15000,7 +15729,7 @@ var ReactEventEmitterMixin = {
 };
 
 module.exports = ReactEventEmitterMixin;
-},{"./EventPluginHub":46}],85:[function(require,module,exports){
+},{"./EventPluginHub":50}],89:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15155,7 +15884,7 @@ var ReactEventListener = {
 };
 
 module.exports = ReactEventListener;
-},{"./PooledClass":54,"./ReactDOMComponentTree":63,"./ReactUpdates":107,"./getEventTarget":139,"fbjs/lib/EventListener":5,"fbjs/lib/ExecutionEnvironment":6,"fbjs/lib/getUnboundedScrollPosition":17,"object-assign":28}],86:[function(require,module,exports){
+},{"./PooledClass":58,"./ReactDOMComponentTree":67,"./ReactUpdates":111,"./getEventTarget":143,"fbjs/lib/EventListener":6,"fbjs/lib/ExecutionEnvironment":7,"fbjs/lib/getUnboundedScrollPosition":18,"object-assign":29}],90:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15177,7 +15906,7 @@ var ReactFeatureFlags = {
 };
 
 module.exports = ReactFeatureFlags;
-},{}],87:[function(require,module,exports){
+},{}],91:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -15245,7 +15974,7 @@ var ReactHostComponent = {
 };
 
 module.exports = ReactHostComponent;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],88:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],92:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -15279,7 +16008,7 @@ var ReactHostOperationHistoryHook = {
 };
 
 module.exports = ReactHostOperationHistoryHook;
-},{}],89:[function(require,module,exports){
+},{}],93:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15313,7 +16042,7 @@ var ReactInjection = {
 };
 
 module.exports = ReactInjection;
-},{"./DOMProperty":41,"./EventPluginHub":46,"./EventPluginUtils":48,"./ReactBrowserEventEmitter":55,"./ReactComponentEnvironment":58,"./ReactEmptyComponent":82,"./ReactHostComponent":87,"./ReactUpdates":107}],90:[function(require,module,exports){
+},{"./DOMProperty":45,"./EventPluginHub":50,"./EventPluginUtils":52,"./ReactBrowserEventEmitter":59,"./ReactComponentEnvironment":62,"./ReactEmptyComponent":86,"./ReactHostComponent":91,"./ReactUpdates":111}],94:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15437,7 +16166,7 @@ var ReactInputSelection = {
 };
 
 module.exports = ReactInputSelection;
-},{"./ReactDOMSelection":73,"fbjs/lib/containsNode":9,"fbjs/lib/focusNode":14,"fbjs/lib/getActiveElement":15}],91:[function(require,module,exports){
+},{"./ReactDOMSelection":77,"fbjs/lib/containsNode":10,"fbjs/lib/focusNode":15,"fbjs/lib/getActiveElement":16}],95:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15485,7 +16214,7 @@ var ReactInstanceMap = {
 };
 
 module.exports = ReactInstanceMap;
-},{}],92:[function(require,module,exports){
+},{}],96:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -15509,7 +16238,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = { debugTool: debugTool };
-},{"./ReactDebugTool":78}],93:[function(require,module,exports){
+},{"./ReactDebugTool":82}],97:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -15546,7 +16275,7 @@ var ReactInvalidSetStateWarningHook = {
 };
 
 module.exports = ReactInvalidSetStateWarningHook;
-},{"fbjs/lib/warning":27}],94:[function(require,module,exports){
+},{"fbjs/lib/warning":28}],98:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15596,7 +16325,7 @@ var ReactMarkupChecksum = {
 };
 
 module.exports = ReactMarkupChecksum;
-},{"./adler32":128}],95:[function(require,module,exports){
+},{"./adler32":132}],99:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16134,7 +16863,7 @@ var ReactMount = {
 };
 
 module.exports = ReactMount;
-},{"./DOMLazyTree":39,"./DOMProperty":41,"./ReactBrowserEventEmitter":55,"./ReactDOMComponentTree":63,"./ReactDOMContainerInfo":64,"./ReactDOMFeatureFlags":66,"./ReactFeatureFlags":86,"./ReactInstanceMap":91,"./ReactInstrumentation":92,"./ReactMarkupChecksum":94,"./ReactReconciler":102,"./ReactUpdateQueue":106,"./ReactUpdates":107,"./instantiateReactComponent":146,"./reactProdInvariant":150,"./setInnerHTML":152,"./shouldUpdateReactComponent":154,"fbjs/lib/emptyObject":13,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"react/lib/React":159,"react/lib/ReactCurrentOwner":164}],96:[function(require,module,exports){
+},{"./DOMLazyTree":43,"./DOMProperty":45,"./ReactBrowserEventEmitter":59,"./ReactDOMComponentTree":67,"./ReactDOMContainerInfo":68,"./ReactDOMFeatureFlags":70,"./ReactFeatureFlags":90,"./ReactInstanceMap":95,"./ReactInstrumentation":96,"./ReactMarkupChecksum":98,"./ReactReconciler":106,"./ReactUpdateQueue":110,"./ReactUpdates":111,"./instantiateReactComponent":149,"./reactProdInvariant":153,"./setInnerHTML":155,"./shouldUpdateReactComponent":157,"fbjs/lib/emptyObject":14,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"react/lib/React":162,"react/lib/ReactCurrentOwner":167}],100:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16584,7 +17313,7 @@ var ReactMultiChild = {
 };
 
 module.exports = ReactMultiChild;
-},{"./ReactChildReconciler":56,"./ReactComponentEnvironment":58,"./ReactInstanceMap":91,"./ReactInstrumentation":92,"./ReactReconciler":102,"./flattenChildren":134,"./reactProdInvariant":150,"fbjs/lib/emptyFunction":12,"fbjs/lib/invariant":20,"react/lib/ReactCurrentOwner":164}],97:[function(require,module,exports){
+},{"./ReactChildReconciler":60,"./ReactComponentEnvironment":62,"./ReactInstanceMap":95,"./ReactInstrumentation":96,"./ReactReconciler":106,"./flattenChildren":138,"./reactProdInvariant":153,"fbjs/lib/emptyFunction":13,"fbjs/lib/invariant":21,"react/lib/ReactCurrentOwner":167}],101:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16624,7 +17353,7 @@ var ReactNodeTypes = {
 };
 
 module.exports = ReactNodeTypes;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20,"react/lib/React":159}],98:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21,"react/lib/React":162}],102:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16718,7 +17447,7 @@ var ReactOwner = {
 };
 
 module.exports = ReactOwner;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],99:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],103:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16743,7 +17472,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = ReactPropTypeLocationNames;
-},{}],100:[function(require,module,exports){
+},{}],104:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16760,7 +17489,7 @@ module.exports = ReactPropTypeLocationNames;
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
-},{}],101:[function(require,module,exports){
+},{}],105:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16938,7 +17667,7 @@ _assign(ReactReconcileTransaction.prototype, Transaction, Mixin);
 PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
-},{"./CallbackQueue":36,"./PooledClass":54,"./ReactBrowserEventEmitter":55,"./ReactInputSelection":90,"./ReactInstrumentation":92,"./ReactUpdateQueue":106,"./Transaction":125,"object-assign":28}],102:[function(require,module,exports){
+},{"./CallbackQueue":40,"./PooledClass":58,"./ReactBrowserEventEmitter":59,"./ReactInputSelection":94,"./ReactInstrumentation":96,"./ReactUpdateQueue":110,"./Transaction":129,"object-assign":29}],106:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -17106,7 +17835,7 @@ var ReactReconciler = {
 };
 
 module.exports = ReactReconciler;
-},{"./ReactInstrumentation":92,"./ReactRef":103,"fbjs/lib/warning":27}],103:[function(require,module,exports){
+},{"./ReactInstrumentation":96,"./ReactRef":107,"fbjs/lib/warning":28}],107:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -17195,7 +17924,7 @@ ReactRef.detachRefs = function (instance, element) {
 };
 
 module.exports = ReactRef;
-},{"./ReactOwner":98}],104:[function(require,module,exports){
+},{"./ReactOwner":102}],108:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -17285,7 +18014,7 @@ _assign(ReactServerRenderingTransaction.prototype, Transaction, Mixin);
 PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
-},{"./PooledClass":54,"./ReactInstrumentation":92,"./ReactServerUpdateQueue":105,"./Transaction":125,"object-assign":28}],105:[function(require,module,exports){
+},{"./PooledClass":58,"./ReactInstrumentation":96,"./ReactServerUpdateQueue":109,"./Transaction":129,"object-assign":29}],109:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -17424,7 +18153,7 @@ var ReactServerUpdateQueue = function () {
 }();
 
 module.exports = ReactServerUpdateQueue;
-},{"./ReactUpdateQueue":106,"fbjs/lib/warning":27}],106:[function(require,module,exports){
+},{"./ReactUpdateQueue":110,"fbjs/lib/warning":28}],110:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -17595,7 +18324,7 @@ var ReactUpdateQueue = {
    * @param {object} completeState Next state.
    * @internal
    */
-  enqueueReplaceState: function (publicInstance, completeState) {
+  enqueueReplaceState: function (publicInstance, completeState, callback) {
     var internalInstance = getInternalInstanceReadyForUpdate(publicInstance, 'replaceState');
 
     if (!internalInstance) {
@@ -17604,6 +18333,16 @@ var ReactUpdateQueue = {
 
     internalInstance._pendingStateQueue = [completeState];
     internalInstance._pendingReplaceState = true;
+
+    // Future-proof 15.5
+    if (callback !== undefined && callback !== null) {
+      ReactUpdateQueue.validateCallback(callback, 'replaceState');
+      if (internalInstance._pendingCallbacks) {
+        internalInstance._pendingCallbacks.push(callback);
+      } else {
+        internalInstance._pendingCallbacks = [callback];
+      }
+    }
 
     enqueueUpdate(internalInstance);
   },
@@ -17650,7 +18389,7 @@ var ReactUpdateQueue = {
 };
 
 module.exports = ReactUpdateQueue;
-},{"./ReactInstanceMap":91,"./ReactInstrumentation":92,"./ReactUpdates":107,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"react/lib/ReactCurrentOwner":164}],107:[function(require,module,exports){
+},{"./ReactInstanceMap":95,"./ReactInstrumentation":96,"./ReactUpdates":111,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"react/lib/ReactCurrentOwner":167}],111:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -17901,7 +18640,7 @@ var ReactUpdates = {
 };
 
 module.exports = ReactUpdates;
-},{"./CallbackQueue":36,"./PooledClass":54,"./ReactFeatureFlags":86,"./ReactReconciler":102,"./Transaction":125,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"object-assign":28}],108:[function(require,module,exports){
+},{"./CallbackQueue":40,"./PooledClass":58,"./ReactFeatureFlags":90,"./ReactReconciler":106,"./Transaction":129,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"object-assign":29}],112:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -17914,8 +18653,8 @@ module.exports = ReactUpdates;
 
 'use strict';
 
-module.exports = '15.4.2';
-},{}],109:[function(require,module,exports){
+module.exports = '15.5.4';
+},{}],113:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18217,7 +18956,7 @@ Object.keys(ATTRS).forEach(function (key) {
 });
 
 module.exports = SVGDOMPropertyConfig;
-},{}],110:[function(require,module,exports){
+},{}],114:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18408,7 +19147,7 @@ var SelectEventPlugin = {
 };
 
 module.exports = SelectEventPlugin;
-},{"./EventPropagators":49,"./ReactDOMComponentTree":63,"./ReactInputSelection":90,"./SyntheticEvent":116,"./isTextInputElement":148,"fbjs/lib/ExecutionEnvironment":6,"fbjs/lib/getActiveElement":15,"fbjs/lib/shallowEqual":26}],111:[function(require,module,exports){
+},{"./EventPropagators":53,"./ReactDOMComponentTree":67,"./ReactInputSelection":94,"./SyntheticEvent":120,"./isTextInputElement":151,"fbjs/lib/ExecutionEnvironment":7,"fbjs/lib/getActiveElement":16,"fbjs/lib/shallowEqual":27}],115:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18636,7 +19375,7 @@ var SimpleEventPlugin = {
 };
 
 module.exports = SimpleEventPlugin;
-},{"./EventPropagators":49,"./ReactDOMComponentTree":63,"./SyntheticAnimationEvent":112,"./SyntheticClipboardEvent":113,"./SyntheticDragEvent":115,"./SyntheticEvent":116,"./SyntheticFocusEvent":117,"./SyntheticKeyboardEvent":119,"./SyntheticMouseEvent":120,"./SyntheticTouchEvent":121,"./SyntheticTransitionEvent":122,"./SyntheticUIEvent":123,"./SyntheticWheelEvent":124,"./getEventCharCode":136,"./reactProdInvariant":150,"fbjs/lib/EventListener":5,"fbjs/lib/emptyFunction":12,"fbjs/lib/invariant":20}],112:[function(require,module,exports){
+},{"./EventPropagators":53,"./ReactDOMComponentTree":67,"./SyntheticAnimationEvent":116,"./SyntheticClipboardEvent":117,"./SyntheticDragEvent":119,"./SyntheticEvent":120,"./SyntheticFocusEvent":121,"./SyntheticKeyboardEvent":123,"./SyntheticMouseEvent":124,"./SyntheticTouchEvent":125,"./SyntheticTransitionEvent":126,"./SyntheticUIEvent":127,"./SyntheticWheelEvent":128,"./getEventCharCode":140,"./reactProdInvariant":153,"fbjs/lib/EventListener":6,"fbjs/lib/emptyFunction":13,"fbjs/lib/invariant":21}],116:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18675,7 +19414,7 @@ function SyntheticAnimationEvent(dispatchConfig, dispatchMarker, nativeEvent, na
 SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 
 module.exports = SyntheticAnimationEvent;
-},{"./SyntheticEvent":116}],113:[function(require,module,exports){
+},{"./SyntheticEvent":120}],117:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18713,7 +19452,7 @@ function SyntheticClipboardEvent(dispatchConfig, dispatchMarker, nativeEvent, na
 SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 
 module.exports = SyntheticClipboardEvent;
-},{"./SyntheticEvent":116}],114:[function(require,module,exports){
+},{"./SyntheticEvent":120}],118:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18749,7 +19488,7 @@ function SyntheticCompositionEvent(dispatchConfig, dispatchMarker, nativeEvent, 
 SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface);
 
 module.exports = SyntheticCompositionEvent;
-},{"./SyntheticEvent":116}],115:[function(require,module,exports){
+},{"./SyntheticEvent":120}],119:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18785,7 +19524,7 @@ function SyntheticDragEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeE
 SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
-},{"./SyntheticMouseEvent":120}],116:[function(require,module,exports){
+},{"./SyntheticMouseEvent":124}],120:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19053,7 +19792,7 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
     "development" !== 'production' ? warning(warningCondition, 'This synthetic event is reused for performance reasons. If you\'re seeing this, ' + 'you\'re %s `%s` on a released/nullified synthetic event. %s. ' + 'If you must keep the original synthetic event around, use event.persist(). ' + 'See https://fb.me/react-event-pooling for more information.', action, propName, result) : void 0;
   }
 }
-},{"./PooledClass":54,"fbjs/lib/emptyFunction":12,"fbjs/lib/warning":27,"object-assign":28}],117:[function(require,module,exports){
+},{"./PooledClass":58,"fbjs/lib/emptyFunction":13,"fbjs/lib/warning":28,"object-assign":29}],121:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19089,7 +19828,7 @@ function SyntheticFocusEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
-},{"./SyntheticUIEvent":123}],118:[function(require,module,exports){
+},{"./SyntheticUIEvent":127}],122:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19126,7 +19865,7 @@ function SyntheticInputEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 
 module.exports = SyntheticInputEvent;
-},{"./SyntheticEvent":116}],119:[function(require,module,exports){
+},{"./SyntheticEvent":120}],123:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19210,7 +19949,7 @@ function SyntheticKeyboardEvent(dispatchConfig, dispatchMarker, nativeEvent, nat
 SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
-},{"./SyntheticUIEvent":123,"./getEventCharCode":136,"./getEventKey":137,"./getEventModifierState":138}],120:[function(require,module,exports){
+},{"./SyntheticUIEvent":127,"./getEventCharCode":140,"./getEventKey":141,"./getEventModifierState":142}],124:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19282,7 +20021,7 @@ function SyntheticMouseEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
-},{"./SyntheticUIEvent":123,"./ViewportMetrics":126,"./getEventModifierState":138}],121:[function(require,module,exports){
+},{"./SyntheticUIEvent":127,"./ViewportMetrics":130,"./getEventModifierState":142}],125:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19327,7 +20066,7 @@ function SyntheticTouchEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
-},{"./SyntheticUIEvent":123,"./getEventModifierState":138}],122:[function(require,module,exports){
+},{"./SyntheticUIEvent":127,"./getEventModifierState":142}],126:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19366,7 +20105,7 @@ function SyntheticTransitionEvent(dispatchConfig, dispatchMarker, nativeEvent, n
 SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 
 module.exports = SyntheticTransitionEvent;
-},{"./SyntheticEvent":116}],123:[function(require,module,exports){
+},{"./SyntheticEvent":120}],127:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19425,7 +20164,7 @@ function SyntheticUIEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeEve
 SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
-},{"./SyntheticEvent":116,"./getEventTarget":139}],124:[function(require,module,exports){
+},{"./SyntheticEvent":120,"./getEventTarget":143}],128:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19479,7 +20218,7 @@ function SyntheticWheelEvent(dispatchConfig, dispatchMarker, nativeEvent, native
 SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
-},{"./SyntheticMouseEvent":120}],125:[function(require,module,exports){
+},{"./SyntheticMouseEvent":124}],129:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19704,7 +20443,7 @@ var TransactionImpl = {
 };
 
 module.exports = TransactionImpl;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],126:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],130:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19731,7 +20470,7 @@ var ViewportMetrics = {
 };
 
 module.exports = ViewportMetrics;
-},{}],127:[function(require,module,exports){
+},{}],131:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -19789,7 +20528,7 @@ function accumulateInto(current, next) {
 }
 
 module.exports = accumulateInto;
-},{"./reactProdInvariant":150,"fbjs/lib/invariant":20}],128:[function(require,module,exports){
+},{"./reactProdInvariant":153,"fbjs/lib/invariant":21}],132:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19833,7 +20572,7 @@ function adler32(data) {
 }
 
 module.exports = adler32;
-},{}],129:[function(require,module,exports){
+},{}],133:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -19922,7 +20661,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocationNames":99,"./ReactPropTypesSecret":100,"./reactProdInvariant":150,"_process":29,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"react/lib/ReactComponentTreeHook":163}],130:[function(require,module,exports){
+},{"./ReactPropTypeLocationNames":103,"./ReactPropTypesSecret":104,"./reactProdInvariant":153,"_process":5,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"react/lib/ReactComponentTreeHook":166}],134:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -19954,7 +20693,7 @@ var createMicrosoftUnsafeLocalFunction = function (func) {
 };
 
 module.exports = createMicrosoftUnsafeLocalFunction;
-},{}],131:[function(require,module,exports){
+},{}],135:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20033,7 +20772,7 @@ function dangerousStyleValue(name, value, component) {
 }
 
 module.exports = dangerousStyleValue;
-},{"./CSSProperty":34,"fbjs/lib/warning":27}],132:[function(require,module,exports){
+},{"./CSSProperty":38,"fbjs/lib/warning":28}],136:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -20156,7 +20895,7 @@ function escapeTextContentForBrowser(text) {
 }
 
 module.exports = escapeTextContentForBrowser;
-},{}],133:[function(require,module,exports){
+},{}],137:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20216,7 +20955,7 @@ function findDOMNode(componentOrElement) {
 }
 
 module.exports = findDOMNode;
-},{"./ReactDOMComponentTree":63,"./ReactInstanceMap":91,"./getHostComponentFromComposite":140,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"react/lib/ReactCurrentOwner":164}],134:[function(require,module,exports){
+},{"./ReactDOMComponentTree":67,"./ReactInstanceMap":95,"./getHostComponentFromComposite":144,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"react/lib/ReactCurrentOwner":167}],138:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -20294,7 +21033,7 @@ function flattenChildren(children, selfDebugID) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":52,"./traverseAllChildren":155,"_process":29,"fbjs/lib/warning":27,"react/lib/ReactComponentTreeHook":163}],135:[function(require,module,exports){
+},{"./KeyEscapeUtils":56,"./traverseAllChildren":158,"_process":5,"fbjs/lib/warning":28,"react/lib/ReactComponentTreeHook":166}],139:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20325,7 +21064,7 @@ function forEachAccumulated(arr, cb, scope) {
 }
 
 module.exports = forEachAccumulated;
-},{}],136:[function(require,module,exports){
+},{}],140:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20375,7 +21114,7 @@ function getEventCharCode(nativeEvent) {
 }
 
 module.exports = getEventCharCode;
-},{}],137:[function(require,module,exports){
+},{}],141:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20477,7 +21216,7 @@ function getEventKey(nativeEvent) {
 }
 
 module.exports = getEventKey;
-},{"./getEventCharCode":136}],138:[function(require,module,exports){
+},{"./getEventCharCode":140}],142:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20520,7 +21259,7 @@ function getEventModifierState(nativeEvent) {
 }
 
 module.exports = getEventModifierState;
-},{}],139:[function(require,module,exports){
+},{}],143:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20555,7 +21294,7 @@ function getEventTarget(nativeEvent) {
 }
 
 module.exports = getEventTarget;
-},{}],140:[function(require,module,exports){
+},{}],144:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20585,7 +21324,7 @@ function getHostComponentFromComposite(inst) {
 }
 
 module.exports = getHostComponentFromComposite;
-},{"./ReactNodeTypes":97}],141:[function(require,module,exports){
+},{"./ReactNodeTypes":101}],145:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20626,28 +21365,7 @@ function getIteratorFn(maybeIterable) {
 }
 
 module.exports = getIteratorFn;
-},{}],142:[function(require,module,exports){
-/**
- * Copyright 2013-present, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
- * 
- */
-
-'use strict';
-
-var nextDebugID = 1;
-
-function getNextDebugID() {
-  return nextDebugID++;
-}
-
-module.exports = getNextDebugID;
-},{}],143:[function(require,module,exports){
+},{}],146:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20721,7 +21439,7 @@ function getNodeForCharacterOffset(root, offset) {
 }
 
 module.exports = getNodeForCharacterOffset;
-},{}],144:[function(require,module,exports){
+},{}],147:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20754,7 +21472,7 @@ function getTextContentAccessor() {
 }
 
 module.exports = getTextContentAccessor;
-},{"fbjs/lib/ExecutionEnvironment":6}],145:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":7}],148:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20855,7 +21573,7 @@ function getVendorPrefixedEventName(eventName) {
 }
 
 module.exports = getVendorPrefixedEventName;
-},{"fbjs/lib/ExecutionEnvironment":6}],146:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":7}],149:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -20875,7 +21593,7 @@ var ReactCompositeComponent = require('./ReactCompositeComponent');
 var ReactEmptyComponent = require('./ReactEmptyComponent');
 var ReactHostComponent = require('./ReactHostComponent');
 
-var getNextDebugID = require('./getNextDebugID');
+var getNextDebugID = require('react/lib/getNextDebugID');
 var invariant = require('fbjs/lib/invariant');
 var warning = require('fbjs/lib/warning');
 
@@ -20883,9 +21601,6 @@ var warning = require('fbjs/lib/warning');
 var ReactCompositeComponentWrapper = function (element) {
   this.construct(element);
 };
-_assign(ReactCompositeComponentWrapper.prototype, ReactCompositeComponent, {
-  _instantiateReactComponent: instantiateReactComponent
-});
 
 function getDeclarationErrorAddendum(owner) {
   if (owner) {
@@ -20982,8 +21697,12 @@ function instantiateReactComponent(node, shouldHaveDebugID) {
   return instance;
 }
 
+_assign(ReactCompositeComponentWrapper.prototype, ReactCompositeComponent, {
+  _instantiateReactComponent: instantiateReactComponent
+});
+
 module.exports = instantiateReactComponent;
-},{"./ReactCompositeComponent":59,"./ReactEmptyComponent":82,"./ReactHostComponent":87,"./getNextDebugID":142,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"object-assign":28}],147:[function(require,module,exports){
+},{"./ReactCompositeComponent":63,"./ReactEmptyComponent":86,"./ReactHostComponent":91,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"object-assign":29,"react/lib/getNextDebugID":181}],150:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21043,7 +21762,7 @@ function isEventSupported(eventNameSuffix, capture) {
 }
 
 module.exports = isEventSupported;
-},{"fbjs/lib/ExecutionEnvironment":6}],148:[function(require,module,exports){
+},{"fbjs/lib/ExecutionEnvironment":7}],151:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21094,7 +21813,7 @@ function isTextInputElement(elem) {
 }
 
 module.exports = isTextInputElement;
-},{}],149:[function(require,module,exports){
+},{}],152:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21120,7 +21839,7 @@ function quoteAttributeValueForBrowser(value) {
 }
 
 module.exports = quoteAttributeValueForBrowser;
-},{"./escapeTextContentForBrowser":132}],150:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":136}],153:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21159,7 +21878,7 @@ function reactProdInvariant(code) {
 }
 
 module.exports = reactProdInvariant;
-},{}],151:[function(require,module,exports){
+},{}],154:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21175,7 +21894,7 @@ module.exports = reactProdInvariant;
 var ReactMount = require('./ReactMount');
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
-},{"./ReactMount":95}],152:[function(require,module,exports){
+},{"./ReactMount":99}],155:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21273,7 +21992,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = setInnerHTML;
-},{"./DOMNamespaces":40,"./createMicrosoftUnsafeLocalFunction":130,"fbjs/lib/ExecutionEnvironment":6}],153:[function(require,module,exports){
+},{"./DOMNamespaces":44,"./createMicrosoftUnsafeLocalFunction":134,"fbjs/lib/ExecutionEnvironment":7}],156:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21325,7 +22044,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 
 module.exports = setTextContent;
-},{"./escapeTextContentForBrowser":132,"./setInnerHTML":152,"fbjs/lib/ExecutionEnvironment":6}],154:[function(require,module,exports){
+},{"./escapeTextContentForBrowser":136,"./setInnerHTML":155,"fbjs/lib/ExecutionEnvironment":7}],157:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21367,7 +22086,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 }
 
 module.exports = shouldUpdateReactComponent;
-},{}],155:[function(require,module,exports){
+},{}],158:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21543,7 +22262,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 }
 
 module.exports = traverseAllChildren;
-},{"./KeyEscapeUtils":52,"./ReactElementSymbol":81,"./getIteratorFn":141,"./reactProdInvariant":150,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"react/lib/ReactCurrentOwner":164}],156:[function(require,module,exports){
+},{"./KeyEscapeUtils":56,"./ReactElementSymbol":85,"./getIteratorFn":145,"./reactProdInvariant":153,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"react/lib/ReactCurrentOwner":167}],159:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -21770,16 +22489,11 @@ if ("development" !== 'production') {
       case 'section':
       case 'summary':
       case 'ul':
-
       case 'pre':
       case 'listing':
-
       case 'table':
-
       case 'hr':
-
       case 'xmp':
-
       case 'h1':
       case 'h2':
       case 'h3':
@@ -21925,11 +22639,11 @@ if ("development" !== 'production') {
 }
 
 module.exports = validateDOMNesting;
-},{"fbjs/lib/emptyFunction":12,"fbjs/lib/warning":27,"object-assign":28}],157:[function(require,module,exports){
-arguments[4][52][0].apply(exports,arguments)
-},{"dup":52}],158:[function(require,module,exports){
-arguments[4][54][0].apply(exports,arguments)
-},{"./reactProdInvariant":179,"dup":54,"fbjs/lib/invariant":20}],159:[function(require,module,exports){
+},{"fbjs/lib/emptyFunction":13,"fbjs/lib/warning":28,"object-assign":29}],160:[function(require,module,exports){
+arguments[4][56][0].apply(exports,arguments)
+},{"dup":56}],161:[function(require,module,exports){
+arguments[4][58][0].apply(exports,arguments)
+},{"./reactProdInvariant":183,"dup":58,"fbjs/lib/invariant":21}],162:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -21961,7 +22675,9 @@ var createFactory = ReactElement.createFactory;
 var cloneElement = ReactElement.cloneElement;
 
 if ("development" !== 'production') {
+  var canDefineProperty = require('./canDefineProperty');
   var ReactElementValidator = require('./ReactElementValidator');
+  var didWarnPropTypesDeprecated = false;
   createElement = ReactElementValidator.createElement;
   createFactory = ReactElementValidator.createFactory;
   cloneElement = ReactElementValidator.cloneElement;
@@ -22017,8 +22733,21 @@ var React = {
   __spread: __spread
 };
 
+// TODO: Fix tests so that this deprecation warning doesn't cause failures.
+if ("development" !== 'production') {
+  if (canDefineProperty) {
+    Object.defineProperty(React, 'PropTypes', {
+      get: function () {
+        "development" !== 'production' ? warning(didWarnPropTypesDeprecated, 'Accessing PropTypes via the main React package is deprecated. Use ' + 'the prop-types package from npm instead.') : void 0;
+        didWarnPropTypesDeprecated = true;
+        return ReactPropTypes;
+      }
+    });
+  }
+}
+
 module.exports = React;
-},{"./ReactChildren":160,"./ReactClass":161,"./ReactComponent":162,"./ReactDOMFactories":165,"./ReactElement":166,"./ReactElementValidator":168,"./ReactPropTypes":171,"./ReactPureComponent":173,"./ReactVersion":174,"./onlyChild":178,"fbjs/lib/warning":27,"object-assign":28}],160:[function(require,module,exports){
+},{"./ReactChildren":163,"./ReactClass":164,"./ReactComponent":165,"./ReactDOMFactories":168,"./ReactElement":169,"./ReactElementValidator":171,"./ReactPropTypes":174,"./ReactPureComponent":176,"./ReactVersion":177,"./canDefineProperty":178,"./onlyChild":182,"fbjs/lib/warning":28,"object-assign":29}],163:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -22209,7 +22938,7 @@ var ReactChildren = {
 };
 
 module.exports = ReactChildren;
-},{"./PooledClass":158,"./ReactElement":166,"./traverseAllChildren":180,"fbjs/lib/emptyFunction":12}],161:[function(require,module,exports){
+},{"./PooledClass":161,"./ReactElement":169,"./traverseAllChildren":184,"fbjs/lib/emptyFunction":13}],164:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -22363,7 +23092,6 @@ var ReactClassInterface = {
    *   }
    *
    * @return {ReactComponent}
-   * @nosideeffects
    * @required
    */
   render: 'DEFINE_ONCE',
@@ -22819,6 +23547,8 @@ var ReactClassMixin = {
 var ReactClassComponent = function () {};
 _assign(ReactClassComponent.prototype, ReactComponent.prototype, ReactClassMixin);
 
+var didWarnDeprecated = false;
+
 /**
  * Module for creating composite components.
  *
@@ -22835,6 +23565,11 @@ var ReactClass = {
    * @public
    */
   createClass: function (spec) {
+    if ("development" !== 'production') {
+      "development" !== 'production' ? warning(didWarnDeprecated, '%s: React.createClass is deprecated and will be removed in version 16. ' + 'Use plain JavaScript classes instead. If you\'re not yet ready to ' + 'migrate, create-react-class is available on npm as a ' + 'drop-in replacement.', spec && spec.displayName || 'A Component') : void 0;
+      didWarnDeprecated = true;
+    }
+
     // To keep our warnings more understandable, we'll use a little hack here to
     // ensure that Constructor.name !== 'Constructor'. This makes sure we don't
     // unnecessarily identify a class without displayName as 'Constructor'.
@@ -22926,7 +23661,7 @@ var ReactClass = {
 };
 
 module.exports = ReactClass;
-},{"./ReactComponent":162,"./ReactElement":166,"./ReactNoopUpdateQueue":169,"./ReactPropTypeLocationNames":170,"./reactProdInvariant":179,"fbjs/lib/emptyObject":13,"fbjs/lib/invariant":20,"fbjs/lib/warning":27,"object-assign":28}],162:[function(require,module,exports){
+},{"./ReactComponent":165,"./ReactElement":169,"./ReactNoopUpdateQueue":172,"./ReactPropTypeLocationNames":173,"./reactProdInvariant":183,"fbjs/lib/emptyObject":14,"fbjs/lib/invariant":21,"fbjs/lib/warning":28,"object-assign":29}],165:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -23044,7 +23779,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = ReactComponent;
-},{"./ReactNoopUpdateQueue":169,"./canDefineProperty":175,"./reactProdInvariant":179,"fbjs/lib/emptyObject":13,"fbjs/lib/invariant":20,"fbjs/lib/warning":27}],163:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":172,"./canDefineProperty":178,"./reactProdInvariant":183,"fbjs/lib/emptyObject":14,"fbjs/lib/invariant":21,"fbjs/lib/warning":28}],166:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -23378,7 +24113,7 @@ var ReactComponentTreeHook = {
 };
 
 module.exports = ReactComponentTreeHook;
-},{"./ReactCurrentOwner":164,"./reactProdInvariant":179,"fbjs/lib/invariant":20,"fbjs/lib/warning":27}],164:[function(require,module,exports){
+},{"./ReactCurrentOwner":167,"./reactProdInvariant":183,"fbjs/lib/invariant":21,"fbjs/lib/warning":28}],167:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -23409,7 +24144,7 @@ var ReactCurrentOwner = {
 };
 
 module.exports = ReactCurrentOwner;
-},{}],165:[function(require,module,exports){
+},{}],168:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -23579,7 +24314,7 @@ var ReactDOMFactories = {
 };
 
 module.exports = ReactDOMFactories;
-},{"./ReactElement":166,"./ReactElementValidator":168}],166:[function(require,module,exports){
+},{"./ReactElement":169,"./ReactElementValidator":171}],169:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -23920,9 +24655,9 @@ ReactElement.isValidElement = function (object) {
 };
 
 module.exports = ReactElement;
-},{"./ReactCurrentOwner":164,"./ReactElementSymbol":167,"./canDefineProperty":175,"fbjs/lib/warning":27,"object-assign":28}],167:[function(require,module,exports){
-arguments[4][81][0].apply(exports,arguments)
-},{"dup":81}],168:[function(require,module,exports){
+},{"./ReactCurrentOwner":167,"./ReactElementSymbol":170,"./canDefineProperty":178,"fbjs/lib/warning":28,"object-assign":29}],170:[function(require,module,exports){
+arguments[4][85][0].apply(exports,arguments)
+},{"dup":85}],171:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -23958,6 +24693,16 @@ function getDeclarationErrorAddendum() {
     if (name) {
       return ' Check the render method of `' + name + '`.';
     }
+  }
+  return '';
+}
+
+function getSourceInfoErrorAddendum(elementProps) {
+  if (elementProps !== null && elementProps !== undefined && elementProps.__source !== undefined) {
+    var source = elementProps.__source;
+    var fileName = source.fileName.replace(/^.*[\\\/]/, '');
+    var lineNumber = source.lineNumber;
+    return ' Check your code at ' + fileName + ':' + lineNumber + '.';
   }
   return '';
 }
@@ -24092,7 +24837,16 @@ var ReactElementValidator = {
         if (type === undefined || typeof type === 'object' && type !== null && Object.keys(type).length === 0) {
           info += ' You likely forgot to export your component from the file ' + 'it\'s defined in.';
         }
-        info += getDeclarationErrorAddendum();
+
+        var sourceInfo = getSourceInfoErrorAddendum(props);
+        if (sourceInfo) {
+          info += sourceInfo;
+        } else {
+          info += getDeclarationErrorAddendum();
+        }
+
+        info += ReactComponentTreeHook.getCurrentStackAddendum();
+
         "development" !== 'production' ? warning(false, 'React.createElement: type is invalid -- expected a string (for ' + 'built-in components) or a class/function (for composite ' + 'components) but got: %s.%s', type == null ? type : typeof type, info) : void 0;
       }
     }
@@ -24156,7 +24910,7 @@ var ReactElementValidator = {
 };
 
 module.exports = ReactElementValidator;
-},{"./ReactComponentTreeHook":163,"./ReactCurrentOwner":164,"./ReactElement":166,"./canDefineProperty":175,"./checkReactTypeSpec":176,"./getIteratorFn":177,"fbjs/lib/warning":27}],169:[function(require,module,exports){
+},{"./ReactComponentTreeHook":166,"./ReactCurrentOwner":167,"./ReactElement":169,"./canDefineProperty":178,"./checkReactTypeSpec":179,"./getIteratorFn":180,"fbjs/lib/warning":28}],172:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -24252,9 +25006,9 @@ var ReactNoopUpdateQueue = {
 };
 
 module.exports = ReactNoopUpdateQueue;
-},{"fbjs/lib/warning":27}],170:[function(require,module,exports){
-arguments[4][99][0].apply(exports,arguments)
-},{"dup":99}],171:[function(require,module,exports){
+},{"fbjs/lib/warning":28}],173:[function(require,module,exports){
+arguments[4][103][0].apply(exports,arguments)
+},{"dup":103}],174:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -24267,430 +25021,15 @@ arguments[4][99][0].apply(exports,arguments)
 
 'use strict';
 
-var ReactElement = require('./ReactElement');
-var ReactPropTypeLocationNames = require('./ReactPropTypeLocationNames');
-var ReactPropTypesSecret = require('./ReactPropTypesSecret');
+var _require = require('./ReactElement'),
+    isValidElement = _require.isValidElement;
 
-var emptyFunction = require('fbjs/lib/emptyFunction');
-var getIteratorFn = require('./getIteratorFn');
-var warning = require('fbjs/lib/warning');
+var factory = require('prop-types/factory');
 
-/**
- * Collection of methods that allow declaration and validation of props that are
- * supplied to React components. Example usage:
- *
- *   var Props = require('ReactPropTypes');
- *   var MyArticle = React.createClass({
- *     propTypes: {
- *       // An optional string prop named "description".
- *       description: Props.string,
- *
- *       // A required enum prop named "category".
- *       category: Props.oneOf(['News','Photos']).isRequired,
- *
- *       // A prop named "dialog" that requires an instance of Dialog.
- *       dialog: Props.instanceOf(Dialog).isRequired
- *     },
- *     render: function() { ... }
- *   });
- *
- * A more formal specification of how these methods are used:
- *
- *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
- *   decl := ReactPropTypes.{type}(.isRequired)?
- *
- * Each and every declaration produces a function with the same signature. This
- * allows the creation of custom validation functions. For example:
- *
- *  var MyLink = React.createClass({
- *    propTypes: {
- *      // An optional string or URI prop named "href".
- *      href: function(props, propName, componentName) {
- *        var propValue = props[propName];
- *        if (propValue != null && typeof propValue !== 'string' &&
- *            !(propValue instanceof URI)) {
- *          return new Error(
- *            'Expected a string or an URI for ' + propName + ' in ' +
- *            componentName
- *          );
- *        }
- *      }
- *    },
- *    render: function() {...}
- *  });
- *
- * @internal
- */
-
-var ANONYMOUS = '<<anonymous>>';
-
-var ReactPropTypes = {
-  array: createPrimitiveTypeChecker('array'),
-  bool: createPrimitiveTypeChecker('boolean'),
-  func: createPrimitiveTypeChecker('function'),
-  number: createPrimitiveTypeChecker('number'),
-  object: createPrimitiveTypeChecker('object'),
-  string: createPrimitiveTypeChecker('string'),
-  symbol: createPrimitiveTypeChecker('symbol'),
-
-  any: createAnyTypeChecker(),
-  arrayOf: createArrayOfTypeChecker,
-  element: createElementTypeChecker(),
-  instanceOf: createInstanceTypeChecker,
-  node: createNodeChecker(),
-  objectOf: createObjectOfTypeChecker,
-  oneOf: createEnumTypeChecker,
-  oneOfType: createUnionTypeChecker,
-  shape: createShapeTypeChecker
-};
-
-/**
- * inlined Object.is polyfill to avoid requiring consumers ship their own
- * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
- */
-/*eslint-disable no-self-compare*/
-function is(x, y) {
-  // SameValue algorithm
-  if (x === y) {
-    // Steps 1-5, 7-10
-    // Steps 6.b-6.e: +0 != -0
-    return x !== 0 || 1 / x === 1 / y;
-  } else {
-    // Step 6.a: NaN == NaN
-    return x !== x && y !== y;
-  }
-}
-/*eslint-enable no-self-compare*/
-
-/**
- * We use an Error-like object for backward compatibility as people may call
- * PropTypes directly and inspect their output. However we don't use real
- * Errors anymore. We don't inspect their stack anyway, and creating them
- * is prohibitively expensive if they are created too often, such as what
- * happens in oneOfType() for any type before the one that matched.
- */
-function PropTypeError(message) {
-  this.message = message;
-  this.stack = '';
-}
-// Make `instanceof Error` still work for returned errors.
-PropTypeError.prototype = Error.prototype;
-
-function createChainableTypeChecker(validate) {
-  if ("development" !== 'production') {
-    var manualPropTypeCallCache = {};
-  }
-  function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
-    componentName = componentName || ANONYMOUS;
-    propFullName = propFullName || propName;
-    if ("development" !== 'production') {
-      if (secret !== ReactPropTypesSecret && typeof console !== 'undefined') {
-        var cacheKey = componentName + ':' + propName;
-        if (!manualPropTypeCallCache[cacheKey]) {
-          "development" !== 'production' ? warning(false, 'You are manually calling a React.PropTypes validation ' + 'function for the `%s` prop on `%s`. This is deprecated ' + 'and will not work in production with the next major version. ' + 'You may be seeing this warning due to a third-party PropTypes ' + 'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.', propFullName, componentName) : void 0;
-          manualPropTypeCallCache[cacheKey] = true;
-        }
-      }
-    }
-    if (props[propName] == null) {
-      var locationName = ReactPropTypeLocationNames[location];
-      if (isRequired) {
-        if (props[propName] === null) {
-          return new PropTypeError('The ' + locationName + ' `' + propFullName + '` is marked as required ' + ('in `' + componentName + '`, but its value is `null`.'));
-        }
-        return new PropTypeError('The ' + locationName + ' `' + propFullName + '` is marked as required in ' + ('`' + componentName + '`, but its value is `undefined`.'));
-      }
-      return null;
-    } else {
-      return validate(props, propName, componentName, location, propFullName);
-    }
-  }
-
-  var chainedCheckType = checkType.bind(null, false);
-  chainedCheckType.isRequired = checkType.bind(null, true);
-
-  return chainedCheckType;
-}
-
-function createPrimitiveTypeChecker(expectedType) {
-  function validate(props, propName, componentName, location, propFullName, secret) {
-    var propValue = props[propName];
-    var propType = getPropType(propValue);
-    if (propType !== expectedType) {
-      var locationName = ReactPropTypeLocationNames[location];
-      // `propValue` being instance of, say, date/regexp, pass the 'object'
-      // check, but we can offer a more precise error message here rather than
-      // 'of type `object`'.
-      var preciseType = getPreciseType(propValue);
-
-      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
-    }
-    return null;
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function createAnyTypeChecker() {
-  return createChainableTypeChecker(emptyFunction.thatReturns(null));
-}
-
-function createArrayOfTypeChecker(typeChecker) {
-  function validate(props, propName, componentName, location, propFullName) {
-    if (typeof typeChecker !== 'function') {
-      return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
-    }
-    var propValue = props[propName];
-    if (!Array.isArray(propValue)) {
-      var locationName = ReactPropTypeLocationNames[location];
-      var propType = getPropType(propValue);
-      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
-    }
-    for (var i = 0; i < propValue.length; i++) {
-      var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret);
-      if (error instanceof Error) {
-        return error;
-      }
-    }
-    return null;
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function createElementTypeChecker() {
-  function validate(props, propName, componentName, location, propFullName) {
-    var propValue = props[propName];
-    if (!ReactElement.isValidElement(propValue)) {
-      var locationName = ReactPropTypeLocationNames[location];
-      var propType = getPropType(propValue);
-      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
-    }
-    return null;
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function createInstanceTypeChecker(expectedClass) {
-  function validate(props, propName, componentName, location, propFullName) {
-    if (!(props[propName] instanceof expectedClass)) {
-      var locationName = ReactPropTypeLocationNames[location];
-      var expectedClassName = expectedClass.name || ANONYMOUS;
-      var actualClassName = getClassName(props[propName]);
-      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
-    }
-    return null;
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function createEnumTypeChecker(expectedValues) {
-  if (!Array.isArray(expectedValues)) {
-    "development" !== 'production' ? warning(false, 'Invalid argument supplied to oneOf, expected an instance of array.') : void 0;
-    return emptyFunction.thatReturnsNull;
-  }
-
-  function validate(props, propName, componentName, location, propFullName) {
-    var propValue = props[propName];
-    for (var i = 0; i < expectedValues.length; i++) {
-      if (is(propValue, expectedValues[i])) {
-        return null;
-      }
-    }
-
-    var locationName = ReactPropTypeLocationNames[location];
-    var valuesString = JSON.stringify(expectedValues);
-    return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function createObjectOfTypeChecker(typeChecker) {
-  function validate(props, propName, componentName, location, propFullName) {
-    if (typeof typeChecker !== 'function') {
-      return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
-    }
-    var propValue = props[propName];
-    var propType = getPropType(propValue);
-    if (propType !== 'object') {
-      var locationName = ReactPropTypeLocationNames[location];
-      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
-    }
-    for (var key in propValue) {
-      if (propValue.hasOwnProperty(key)) {
-        var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
-        if (error instanceof Error) {
-          return error;
-        }
-      }
-    }
-    return null;
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function createUnionTypeChecker(arrayOfTypeCheckers) {
-  if (!Array.isArray(arrayOfTypeCheckers)) {
-    "development" !== 'production' ? warning(false, 'Invalid argument supplied to oneOfType, expected an instance of array.') : void 0;
-    return emptyFunction.thatReturnsNull;
-  }
-
-  function validate(props, propName, componentName, location, propFullName) {
-    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
-      var checker = arrayOfTypeCheckers[i];
-      if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
-        return null;
-      }
-    }
-
-    var locationName = ReactPropTypeLocationNames[location];
-    return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function createNodeChecker() {
-  function validate(props, propName, componentName, location, propFullName) {
-    if (!isNode(props[propName])) {
-      var locationName = ReactPropTypeLocationNames[location];
-      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
-    }
-    return null;
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function createShapeTypeChecker(shapeTypes) {
-  function validate(props, propName, componentName, location, propFullName) {
-    var propValue = props[propName];
-    var propType = getPropType(propValue);
-    if (propType !== 'object') {
-      var locationName = ReactPropTypeLocationNames[location];
-      return new PropTypeError('Invalid ' + locationName + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
-    }
-    for (var key in shapeTypes) {
-      var checker = shapeTypes[key];
-      if (!checker) {
-        continue;
-      }
-      var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
-      if (error) {
-        return error;
-      }
-    }
-    return null;
-  }
-  return createChainableTypeChecker(validate);
-}
-
-function isNode(propValue) {
-  switch (typeof propValue) {
-    case 'number':
-    case 'string':
-    case 'undefined':
-      return true;
-    case 'boolean':
-      return !propValue;
-    case 'object':
-      if (Array.isArray(propValue)) {
-        return propValue.every(isNode);
-      }
-      if (propValue === null || ReactElement.isValidElement(propValue)) {
-        return true;
-      }
-
-      var iteratorFn = getIteratorFn(propValue);
-      if (iteratorFn) {
-        var iterator = iteratorFn.call(propValue);
-        var step;
-        if (iteratorFn !== propValue.entries) {
-          while (!(step = iterator.next()).done) {
-            if (!isNode(step.value)) {
-              return false;
-            }
-          }
-        } else {
-          // Iterator will provide entry [k,v] tuples rather than values.
-          while (!(step = iterator.next()).done) {
-            var entry = step.value;
-            if (entry) {
-              if (!isNode(entry[1])) {
-                return false;
-              }
-            }
-          }
-        }
-      } else {
-        return false;
-      }
-
-      return true;
-    default:
-      return false;
-  }
-}
-
-function isSymbol(propType, propValue) {
-  // Native Symbol.
-  if (propType === 'symbol') {
-    return true;
-  }
-
-  // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
-  if (propValue['@@toStringTag'] === 'Symbol') {
-    return true;
-  }
-
-  // Fallback for non-spec compliant Symbols which are polyfilled.
-  if (typeof Symbol === 'function' && propValue instanceof Symbol) {
-    return true;
-  }
-
-  return false;
-}
-
-// Equivalent of `typeof` but with special handling for array and regexp.
-function getPropType(propValue) {
-  var propType = typeof propValue;
-  if (Array.isArray(propValue)) {
-    return 'array';
-  }
-  if (propValue instanceof RegExp) {
-    // Old webkits (at least until Android 4.0) return 'function' rather than
-    // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
-    // passes PropTypes.object.
-    return 'object';
-  }
-  if (isSymbol(propType, propValue)) {
-    return 'symbol';
-  }
-  return propType;
-}
-
-// This handles more types than `getPropType`. Only used for error messages.
-// See `createPrimitiveTypeChecker`.
-function getPreciseType(propValue) {
-  var propType = getPropType(propValue);
-  if (propType === 'object') {
-    if (propValue instanceof Date) {
-      return 'date';
-    } else if (propValue instanceof RegExp) {
-      return 'regexp';
-    }
-  }
-  return propType;
-}
-
-// Returns class name of the object, if any.
-function getClassName(propValue) {
-  if (!propValue.constructor || !propValue.constructor.name) {
-    return ANONYMOUS;
-  }
-  return propValue.constructor.name;
-}
-
-module.exports = ReactPropTypes;
-},{"./ReactElement":166,"./ReactPropTypeLocationNames":170,"./ReactPropTypesSecret":172,"./getIteratorFn":177,"fbjs/lib/emptyFunction":12,"fbjs/lib/warning":27}],172:[function(require,module,exports){
-arguments[4][100][0].apply(exports,arguments)
-},{"dup":100}],173:[function(require,module,exports){
+module.exports = factory(isValidElement);
+},{"./ReactElement":169,"prop-types/factory":31}],175:[function(require,module,exports){
+arguments[4][104][0].apply(exports,arguments)
+},{"dup":104}],176:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -24732,9 +25071,9 @@ _assign(ReactPureComponent.prototype, ReactComponent.prototype);
 ReactPureComponent.prototype.isPureReactComponent = true;
 
 module.exports = ReactPureComponent;
-},{"./ReactComponent":162,"./ReactNoopUpdateQueue":169,"fbjs/lib/emptyObject":13,"object-assign":28}],174:[function(require,module,exports){
-arguments[4][108][0].apply(exports,arguments)
-},{"dup":108}],175:[function(require,module,exports){
+},{"./ReactComponent":165,"./ReactNoopUpdateQueue":172,"fbjs/lib/emptyObject":14,"object-assign":29}],177:[function(require,module,exports){
+arguments[4][112][0].apply(exports,arguments)
+},{"dup":112}],178:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -24760,7 +25099,7 @@ if ("development" !== 'production') {
 }
 
 module.exports = canDefineProperty;
-},{}],176:[function(require,module,exports){
+},{}],179:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -24849,9 +25188,30 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":163,"./ReactPropTypeLocationNames":170,"./ReactPropTypesSecret":172,"./reactProdInvariant":179,"_process":29,"fbjs/lib/invariant":20,"fbjs/lib/warning":27}],177:[function(require,module,exports){
-arguments[4][141][0].apply(exports,arguments)
-},{"dup":141}],178:[function(require,module,exports){
+},{"./ReactComponentTreeHook":166,"./ReactPropTypeLocationNames":173,"./ReactPropTypesSecret":175,"./reactProdInvariant":183,"_process":5,"fbjs/lib/invariant":21,"fbjs/lib/warning":28}],180:[function(require,module,exports){
+arguments[4][145][0].apply(exports,arguments)
+},{"dup":145}],181:[function(require,module,exports){
+/**
+ * Copyright 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * 
+ */
+
+'use strict';
+
+var nextDebugID = 1;
+
+function getNextDebugID() {
+  return nextDebugID++;
+}
+
+module.exports = getNextDebugID;
+},{}],182:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -24889,9 +25249,9 @@ function onlyChild(children) {
 }
 
 module.exports = onlyChild;
-},{"./ReactElement":166,"./reactProdInvariant":179,"fbjs/lib/invariant":20}],179:[function(require,module,exports){
-arguments[4][150][0].apply(exports,arguments)
-},{"dup":150}],180:[function(require,module,exports){
+},{"./ReactElement":169,"./reactProdInvariant":183,"fbjs/lib/invariant":21}],183:[function(require,module,exports){
+arguments[4][153][0].apply(exports,arguments)
+},{"dup":153}],184:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -25067,9 +25427,9 @@ function traverseAllChildren(children, callback, traverseContext) {
 }
 
 module.exports = traverseAllChildren;
-},{"./KeyEscapeUtils":157,"./ReactCurrentOwner":164,"./ReactElementSymbol":167,"./getIteratorFn":177,"./reactProdInvariant":179,"fbjs/lib/invariant":20,"fbjs/lib/warning":27}],181:[function(require,module,exports){
+},{"./KeyEscapeUtils":160,"./ReactCurrentOwner":167,"./ReactElementSymbol":170,"./getIteratorFn":180,"./reactProdInvariant":183,"fbjs/lib/invariant":21,"fbjs/lib/warning":28}],185:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
 
-},{"./lib/React":159}]},{},[1]);
+},{"./lib/React":162}]},{},[1]);
