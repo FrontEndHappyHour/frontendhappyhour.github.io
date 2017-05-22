@@ -1,5 +1,202 @@
 [
     {
+        "episode": "034",
+        "title": "npm install beer --save-in-mouth",
+        "description": "In this episode, we are joined by Laurie Voss, the COO and former CTO at npm. Npm, also known as Node Package Manager has been an important tool in the JavaScript community and has helped engineers share their code. In today’s episode, we’ll be discussing how we leverage npm and find out what we can expect from npm 5. Laurie also teaches us some cool tricks that exist in the npm cli.",
+        "id": "323991388",
+        "published": "May 22, 2017",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Jem Young",
+            "Derrick Showers",
+            "Mars Jullian"
+        ],
+        "guests": [
+            {
+                "name": "Laurie Voss",
+                "twitter": "seldo"
+            }
+        ],
+        "links": [
+            {
+                "title": "Node",
+                "url": "https://nodejs.org/en/"
+            },
+            {
+                "title": "npm",
+                "url": "https://www.npmjs.com/"
+            },
+            {
+                "title": "Ruby",
+                "url": "https://www.ruby-lang.org/en/"
+            },
+            {
+                "title": "Python",
+                "url": "https://www.python.org/"
+            },
+            {
+                "title": "Java",
+                "url": "http://docs.oracle.com/javase/7/docs/technotes/guides/language/"
+            },
+            {
+                "title": "Back End Happy Hour",
+                "url": "http://backendhappyhour.com"
+            },
+            {
+                "title": "CommonJS",
+                "url": "https://en.wikipedia.org/wiki/CommonJS"
+            },
+            {
+                "title": "CocoaPods",
+                "url": "https://cocoapods.org/"
+            },
+            {
+                "title": "Stack Overflow",
+                "url": "https://stackoverflow.com/"
+            },
+            {
+                "title": "Github",
+                "url": "https://github.com/"
+            },
+            {
+                "title": "Babel",
+                "url": "https://babeljs.io/"
+            },
+            {
+                "title": "Webpack",
+                "url": "https://webpack.github.io/"
+            },
+            {
+                "title": "Closure Compiler",
+                "url": "https://github.com/google/closure-compiler-js"
+            },
+            {
+                "title": "Rollup",
+                "url": "https://rollupjs.org/"
+            },
+            {
+                "title": "Browserify",
+                "url": "http://browserify.org/"
+            },
+            {
+                "title": "Yarn",
+                "url": "https://yarnpkg.com"
+            },
+            {
+                "title": "npm Enterprise",
+                "url": "https://www.npmjs.com/enterprise"
+            },
+            {
+                "title": "Left-pad",
+                "url": "https://www.npmjs.com/package/left-pad"
+            },
+            {
+                "title": "Express",
+                "url": "https://expressjs.com/"
+            },
+            {
+                "title": "Google",
+                "url": "https://google.com/"
+            },
+            {
+                "title": "Monster Cable",
+                "url": "https://www.monsterproducts.com/"
+            },
+            {
+                "title": "Gold Apple Watch",
+                "url": "https://www.cnet.com/news/why-10000-price-tag-on-gold-apple-watch-edition-wouldnt-be-crazy/"
+            },
+            {
+                "title": "I am rich",
+                "url": "https://en.wikipedia.org/wiki/I_Am_Rich"
+            },
+            {
+                "title": "Semver.org",
+                "url": "http://semver.org/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "npm 5",
+                "url": "http://blog.npmjs.org/post/154473364440/npm5-specifications-and-our-rfc-process",
+                "from": "Laurie Voss"
+            },
+            {
+                "title": "Slides.com",
+                "url": "https://slides.com/",
+                "from": "Laurie Voss"
+            },
+            {
+                "title": "Next.js",
+                "url": "https://github.com/zeit/next.js",
+                "from": "Laurie Voss"
+            },
+            {
+                "title": "Moment Lens",
+                "url": "https://www.shopmoment.com/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Lin Clark - A Cartoon into Fiber - React Conf 2017",
+                "url": "https://www.youtube.com/watch?v=ZCuYPiUIONs",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "The Founder",
+                "url": "http://www.imdb.com/title/tt4276820/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Deco IDE",
+                "url": "https://github.com/decosoftware/deco-ide",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Mocktails Mixer by Deeplocal",
+                "url": "http://deeplocal.com/mocktailsmixer/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Aviation",
+                "url": "http://www.liquor.com/recipes/aviation/",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Music to Draw To: Satellite",
+                "url": "https://play.spotify.com/album/2OivTtlyiYIK7GY2cJ1MPh?play=true&utm_source=open.spotify.com&utm_medium=open",
+                "from": "Jem Young"
+            },
+            {
+                "title": "How I built this podcast",
+                "url": "http://www.npr.org/podcasts/510313/how-i-built-this",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Containers podcast",
+                "url": "https://soundcloud.com/containersfmg",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Jackbox TV",
+                "url": "http://jackbox.tv/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Spotify Mood playlists",
+                "url": "https://open.spotify.com/genre/mood",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "SkyGuru",
+                "url": "http://myskyguru.com/",
+                "from": "Mars Jullian"
+            }
+        ]
+    },
+    {
         "episode": "033",
         "title": "One part beer, three parts web components. Add lemon to taste",
         "description": "In this episode, we are joined by Trey Shugart who is a front-end developer (Principal Developer) at Atlassian, proponent of web components, and author of SkateJS to talk about Web Components.",
