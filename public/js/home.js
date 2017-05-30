@@ -125,10 +125,262 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":185,"react-dom":34}],2:[function(require,module,exports){
 module.exports=[
     {
+        "episode": "035",
+        "title": "Top shelf style guides",
+        "description": "In this episode, we’re joined by Jyri Tuulos and Josh London to help discuss reusable components and building style guides. Jyri is a Staff Engineer at AdRoll and Josh is a Senior Designer at Netflix. We discuss best practices companies are leveraging style guides and reusable components. We also share the positives and negatives to having a style guide.",
+        "id": "",
+        "published": "",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Jem Young",
+            "Derrick Showers",
+            "Mars Jullian",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Jyri Tuulos",
+                "twitter": "jtuulos"
+            },
+            {
+                "name": "Josh London",
+                "twitter": "joshualondon"
+            }
+        ],
+        "links": [
+            {
+                "title": "AdRoll",
+                "url": "https://www.adroll.com/"
+            },
+            {
+                "title": "Netflix",
+                "url": "https://www.netflix.com/"
+            },
+            {
+                "title": "JavaScript",
+                "url": "https://en.wikipedia.org/wiki/JavaScript"
+            },
+            {
+                "title": "CSS",
+                "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+            },
+            {
+                "title": "CSS Preprocessor",
+                "url": "http://learn.shayhowe.com/advanced-html-css/preprocessors/"
+            },
+            {
+                "title": "PHP",
+                "url": "https://en.wikipedia.org/wiki/PHP"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/"
+            },
+            {
+                "title": "LinkedIn Learning",
+                "url": "https://www.linkedin.com/learning/"
+            },
+            {
+                "title": "Jennison Asuncion",
+                "url": "https://twitter.com/Jennison"
+            },
+            {
+                "title": "Accessibility episode",
+                "url": "http://frontendhappyhour.com/episodes/a11y-cocktail/"
+            },
+            {
+                "title": "Atlassian",
+                "url": "https://www.atlassian.com"
+            },
+            {
+                "title": "Bitbucket",
+                "url": "https://bitbucket.org/"
+            },
+            {
+                "title": "Evernote",
+                "url": "https://evernote.com/"
+            },
+            {
+                "title": "Storybook",
+                "url": "https://github.com/storybooks/storybook"
+            },
+            {
+                "title": "npm",
+                "url": "https://www.npmjs.com/"
+            },
+            {
+                "title": "Slack",
+                "url": "https://slack.com"
+            },
+            {
+                "title": "Laurie Voss",
+                "url": "https://twitter.com/seldo"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Angular",
+                "url": "https://angular.io/"
+            },
+            {
+                "title": "React plus X: Best Practices for Reusable UI Components",
+                "url": "https://www.youtube.com/watch?v=Yy7gFgETp0o"
+            },
+            {
+                "title": "Forward JS",
+                "url": "https://forwardjs.com/"
+            },
+            {
+                "title": "React Style Guide Generator",
+                "url": "https://github.com/styleguidist/react-styleguidist"
+            },
+            {
+                "title": "Pattern Lab",
+                "url": "http://patternlab.io/"
+            },
+            {
+                "title": "Brad Frost",
+                "url": "https://twitter.com/brad_frost"
+            },
+            {
+                "title": "Dave Olson",
+                "url": "https://twitter.com/dmolsen"
+            },
+            {
+                "title": "Atomic Design",
+                "url": "http://bradfrost.com/blog/post/atomic-web-design/"
+            },
+            {
+                "title": "JQuery",
+                "url": "https://jquery.com/"
+            },
+            {
+                "title": "JQuery Widgets",
+                "url": "https://jqueryui.com/widget/"
+            },
+            {
+                "title": "Sketch",
+                "url": "https://www.sketchapp.com/"
+            },
+            {
+                "title": "SASS",
+                "url": "http://sass-lang.com/"
+            },
+            {
+                "title": "Bootstrap",
+                "url": "http://getbootstrap.com/2.3.2/"
+            },
+            {
+                "title": "React Bootstrap",
+                "url": "https://react-bootstrap.github.io/"
+            },
+            {
+                "title": "Starbucks Style Guide",
+                "url": "https://www.starbucks.com/static/reference/styleguide/"
+            },
+            {
+                "title": "Styleguides.io",
+                "url": "http://styleguides.io/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "AdRoll style guide",
+                "url": "http://ux.adroll.com/",
+                "from": "Jyri Tuulos"
+            },
+            {
+                "title": "Reasonably Sound",
+                "url": "http://reasonablysound.com/",
+                "from": "Jyri Tuulos"
+            },
+            {
+                "title": "InspiRock",
+                "url": "https://www.inspirock.com/",
+                "from": "Josh London"
+            },
+            {
+                "title": "React Sketch App",
+                "url": "http://airbnb.io/react-sketchapp/",
+                "from": "Josh London"
+            },
+            {
+                "title": "XLR8 Connect Diaper Backpack",
+                "url": "https://www.amazon.com/XLR8-Connect-Back-Pack-Diaper/dp/B019DHBWEI/ref=sr_1_1_a_it",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Bosch",
+                "url": "https://www.amazon.com/gp/video/detail/B06WVFKQCY",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Quick Draw! Google Dataset",
+                "url": "https://quickdraw.withgoogle.com/data",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Style Guides",
+                "url": "http://styleguides.io/ ",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Google I/O videos",
+                "url": "https://events.google.com/io/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Why did the chicken cross the road",
+                "url": "http://philosophy.eserver.org/chicken.txt",
+                "from": "Jem Young"
+            },
+            {
+                "title": "ES6 Proxies and Reflection",
+                "url": "https://hacks.mozilla.org/2015/07/es6-in-depth-proxies-and-reflect/",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Instacart",
+                "url": "https://www.instacart.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Blue Apron",
+                "url": "https://www.blueapron.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Single Div",
+                "url": "http://a.singlediv.com/",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "Detour",
+                "url": "https://www.detour.com/",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "AtlasKit",
+                "url": "https://atlaskit.atlassian.com/",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Actually Smiling by Geotic",
+                "url": "https://play.spotify.com/track/6yKY9ZvPD78Mj7oawITNIQ",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "034",
         "title": "npm install beer --save-in-mouth",
         "description": "In this episode, we are joined by Laurie Voss, the COO and former CTO at npm. Npm, also known as Node Package Manager has been an important tool in the JavaScript community and has helped engineers share their code. In today’s episode, we’ll be discussing how we leverage npm and find out what we can expect from npm 5. Laurie also teaches us some cool tricks that exist in the npm cli.",
-        "id": "",
+        "id": "323991388",
         "published": "May 22, 2017",
         "transcribed": false,
         "category": "technical",
