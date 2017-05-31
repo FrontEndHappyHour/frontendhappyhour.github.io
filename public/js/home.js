@@ -128,7 +128,7 @@ module.exports=[
         "episode": "034",
         "title": "npm install beer --save-in-mouth",
         "description": "In this episode, we are joined by Laurie Voss, the COO and former CTO at npm. Npm, also known as Node Package Manager has been an important tool in the JavaScript community and has helped engineers share their code. In today’s episode, we’ll be discussing how we leverage npm and find out what we can expect from npm 5. Laurie also teaches us some cool tricks that exist in the npm cli.",
-        "id": "",
+        "id": "323991388",
         "published": "May 22, 2017",
         "transcribed": false,
         "category": "technical",
