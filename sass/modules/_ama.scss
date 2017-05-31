@@ -17,10 +17,16 @@ h2 {
     background: $darkBlue;
     padding: 10px 15px;
     color: $chalk;
+    border: none;
     text-decoration: none;
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
         border-radius: 5px;
+
+    &:hover, &:focus {
+      border: none;
+      color: white;
+    }
   }
 }
 
