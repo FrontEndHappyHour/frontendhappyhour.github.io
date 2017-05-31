@@ -5,13 +5,16 @@
 // Date created: 05/30/2017
 // SassySass v1.3.1
 // ------------------------------------------------------------
-
-h2 {
-  margin-top: 40px;
-  font-size: 40px;
-}
-svg {
-  max-width: 900px;
+.ama{
+  text-align: center;
+  
+  h2 {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  svg {
+    max-width: 900px;
+  }
 }
 .cta {
   text-align: center;
@@ -34,6 +37,8 @@ svg {
 }
 
 .legal-content{
+  text-align: left;
+
   h3 {
     font-size: 16px;
     margin-top: 30px;
