@@ -12,7 +12,7 @@ module.exports = function main(pageType, content, title, desc) {
   let path;
   let css;
   let js;
-  const cssVersion = 1.1;
+  const cssVersion = 1.2;
   const mainTitle = strings.title;
 
   if(desc === undefined || pageType === 'home') {

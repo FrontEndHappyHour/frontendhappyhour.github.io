@@ -4,6 +4,30 @@ footer {
   background: $darkBlue;
   padding: 20px 0;
   margin-top: 30px;
+
+  .legal{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+
+    li{
+      display: inline-block;
+      padding: 0 10px;
+
+      &:first-child{
+        border-right: 1px solid $chalk;
+      }
+    }
+  }
+
+  a{
+    color: $chalk;
+    text-decoration: none;
+
+    &:hover, &:focus{
+      border-bottom: 1px solid $chalk;
+    }
+  }
 }
 
 .heart {

@@ -15,6 +15,10 @@ module.exports = function footer(path) {
         </symbol>
       </svg>
       <div class="row">${strings.footer.replace('_LOVE_', svgHeart)}</div>
+      <ul class="legal">
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+      </ul>
   </footer>`;
 
   return template;
