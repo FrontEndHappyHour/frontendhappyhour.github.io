@@ -19,13 +19,3 @@ h3 {
 p{
   margin-bottom: 15px;
 }
-
-a{
-  text-decoration: none;
-  border-bottom: 1px solid $darkBlue;
-  color: $darkBlue;
-
-  &:hover, &:focus {
-    border:none;
-  }
-}
