@@ -1,0 +1,36 @@
+// File Name: _ama.scss
+// Description: styles for the ama page
+// Used by: ama.scss,
+// Dependencies:
+// Date created: 05/30/2017
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+h2 {
+  margin-top: 40px;
+  font-size: 40px;
+}
+.cta {
+  text-align: center;
+  margin: 50px 0;
+  a {
+    background: $darkBlue;
+    padding: 10px 15px;
+    color: $chalk;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+        border-radius: 5px;
+  }
+}
+
+.legal-content{
+  h3 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+}
