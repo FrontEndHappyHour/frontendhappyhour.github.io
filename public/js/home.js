@@ -128,8 +128,8 @@ module.exports=[
         "episode": "035",
         "title": "Top shelf style guides",
         "description": "In this episode, we’re joined by Jyri Tuulos and Josh London to help discuss reusable components and building style guides. Jyri is a Staff Engineer at AdRoll and Josh is a Senior Designer at Netflix. We discuss best practices companies are leveraging style guides and reusable components. We also share the positives and negatives to having a style guide.",
-        "id": "",
-        "published": "",
+        "id": "325998461",
+        "published": "June 4, 2017",
         "transcribed": false,
         "category": "technical",
         "panel": [
