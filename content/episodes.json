@@ -1,5 +1,125 @@
 [
     {
+        "episode": "036",
+        "title": "",
+        "description": "",
+        "id": "",
+        "published": "",
+        "transcribed": false,
+        "category": "",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Ryan Anklam",
+            "Stacy London"
+        ],
+        "guests": [],
+        "links": [
+            {
+                "title": "Evernote",
+                "url": "https://evernote.com/"
+            },
+            {
+                "title": "MySQL",
+                "url": "https://www.mysql.com/"
+            },
+            {
+                "title": "Brew",
+                "url": "https://brew.sh/"
+            },
+            {
+                "title": "Tomcat",
+                "url": "http://tomcat.apache.org/"
+            },
+            {
+                "title": "Atlassian",
+                "url": "https://www.atlassian.com/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "",
+                "url": "",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Jem Young"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Jem Young"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Stacy London"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "035",
         "title": "Top shelf style guides",
         "description": "In this episode, we’re joined by Jyri Tuulos and Josh London to help discuss reusable components and building style guides. Jyri is a Staff Engineer at AdRoll and Josh is a Senior Designer at Netflix. We discuss best practices companies are leveraging style guides and reusable components. We also share the positives and negatives to having a style guide.",
