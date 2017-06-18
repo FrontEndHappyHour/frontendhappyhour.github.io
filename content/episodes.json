@@ -1,12 +1,12 @@
 [
     {
         "episode": "036",
-        "title": "",
-        "description": "",
-        "id": "",
-        "published": "",
+        "title": "First drink at a new bar",
+        "description": "Starting a new job is never easy, but a good onboarding process can make all the difference. In this episode, we talk about our experiences with onboarding at companies we’ve worked at and share our thoughts on what makes a good experience when starting a new job.",
+        "id": "328740369",
+        "published": "June 18, 2017",
         "transcribed": false,
-        "category": "",
+        "category": "soft",
         "panel": [
             "Ryan Burgess",
             "Augustus Yuan",
@@ -34,87 +34,99 @@
             {
                 "title": "Atlassian",
                 "url": "https://www.atlassian.com/"
+            },
+            {
+                "title": "Docker",
+                "url": "https://www.docker.com/"
+            },
+            {
+                "title": "Reed Hastings",
+                "url": "https://en.wikipedia.org/wiki/Reed_Hastings"
+            },
+            {
+                "title": "Java",
+                "url": "https://www.java.com/en/"
+            },
+            {
+                "title": "Struts",
+                "url": "https://struts.apache.org/"
+            },
+            {
+                "title": "Stash",
+                "url": "https://confluence.atlassian.com/bamboo/stash-590257906.html"
+            },
+            {
+                "title": "Gulp",
+                "url": "http://gulpjs.com/"
+            },
+            {
+                "title": "npm",
+                "url": "https://www.npmjs.com/"
+            },
+            {
+                "title": "Bitbucket",
+                "url": "https://bitbucket.org/"
+            },
+            {
+                "title": "Confluence",
+                "url": "https://www.atlassian.com/software/confluence"
+            },
+            {
+                "title": "PostgreSQL",
+                "url": "https://www.postgresql.org/"
+            },
+            {
+                "title": "Django",
+                "url": "https://www.djangoproject.com/"
+            },
+            {
+                "title": "Python",
+                "url": "https://www.python.org/"
+            },
+            {
+                "title": "Accidently destroyed production database",
+                "url": "https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/"
             }
         ],
         "picks": [
             {
-                "title": "",
-                "url": "",
+                "title": "Masters of Scale",
+                "url": "https://mastersofscale.com/",
                 "from": "Ryan Burgess"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Mr. Chilly",
+                "url": "https://itunes.apple.com/us/app/mr-chilly/id933759132?mt=8",
                 "from": "Ryan Burgess"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Stockstream",
+                "url": "https://www.twitch.tv/stockstream",
                 "from": "Augustus Yuan"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Scrimba",
+                "url": "https://scrimba.com/",
                 "from": "Augustus Yuan"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Jem Young"
-            },
-            {
-                "title": "",
-                "url": "",
-                "from": "Jem Young"
-            },
-            {
-                "title": "",
-                "url": "",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "",
-                "url": "",
-                "from": "Derrick Showers"
-            },
-            {
-                "title": "",
-                "url": "",
+                "title": "Sam Felt’s House Party Playlist",
+                "url": "https://play.spotify.com/user/spotify/playlist/37i9dQZF1DWZpxQttCP3Ig",
                 "from": "Ryan Anklam"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Yarn determinism",
+                "url": "https://yarnpkg.com/blog/2017/05/31/determinism/",
                 "from": "Ryan Anklam"
             },
             {
-                "title": "",
-                "url": "",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "",
-                "url": "",
-                "from": "Brian Holt"
-            },
-            {
-                "title": "",
-                "url": "",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "",
-                "url": "",
-                "from": "Mars Jullian"
-            },
-            {
-                "title": "",
-                "url": "",
+                "title": "A Unified Styling Language",
+                "url": "https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660",
                 "from": "Stacy London"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Outgoing Society by Shed",
+                "url": "https://play.spotify.com/track/0TQpy8pYB3jPYaxTRnW5O6",
                 "from": "Stacy London"
             }
         ]
