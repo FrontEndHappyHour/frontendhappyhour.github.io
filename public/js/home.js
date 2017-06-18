@@ -125,6 +125,138 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":185,"react-dom":34}],2:[function(require,module,exports){
 module.exports=[
     {
+        "episode": "036",
+        "title": "First drink at a new bar",
+        "description": "Starting a new job is never easy, but a good onboarding process can make all the difference. In this episode, we talk about our experiences with onboarding at companies we’ve worked at and share our thoughts on what makes a good experience when starting a new job.",
+        "id": "328740369",
+        "published": "June 18, 2017",
+        "transcribed": false,
+        "category": "soft",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Ryan Anklam",
+            "Stacy London"
+        ],
+        "guests": [],
+        "links": [
+            {
+                "title": "Evernote",
+                "url": "https://evernote.com/"
+            },
+            {
+                "title": "MySQL",
+                "url": "https://www.mysql.com/"
+            },
+            {
+                "title": "Brew",
+                "url": "https://brew.sh/"
+            },
+            {
+                "title": "Tomcat",
+                "url": "http://tomcat.apache.org/"
+            },
+            {
+                "title": "Atlassian",
+                "url": "https://www.atlassian.com/"
+            },
+            {
+                "title": "Docker",
+                "url": "https://www.docker.com/"
+            },
+            {
+                "title": "Reed Hastings",
+                "url": "https://en.wikipedia.org/wiki/Reed_Hastings"
+            },
+            {
+                "title": "Java",
+                "url": "https://www.java.com/en/"
+            },
+            {
+                "title": "Struts",
+                "url": "https://struts.apache.org/"
+            },
+            {
+                "title": "Stash",
+                "url": "https://confluence.atlassian.com/bamboo/stash-590257906.html"
+            },
+            {
+                "title": "Gulp",
+                "url": "http://gulpjs.com/"
+            },
+            {
+                "title": "npm",
+                "url": "https://www.npmjs.com/"
+            },
+            {
+                "title": "Bitbucket",
+                "url": "https://bitbucket.org/"
+            },
+            {
+                "title": "Confluence",
+                "url": "https://www.atlassian.com/software/confluence"
+            },
+            {
+                "title": "PostgreSQL",
+                "url": "https://www.postgresql.org/"
+            },
+            {
+                "title": "Django",
+                "url": "https://www.djangoproject.com/"
+            },
+            {
+                "title": "Python",
+                "url": "https://www.python.org/"
+            },
+            {
+                "title": "Accidently destroyed production database",
+                "url": "https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Masters of Scale",
+                "url": "https://mastersofscale.com/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Mr. Chilly",
+                "url": "https://itunes.apple.com/us/app/mr-chilly/id933759132?mt=8",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Stockstream",
+                "url": "https://www.twitch.tv/stockstream",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Scrimba",
+                "url": "https://scrimba.com/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Sam Felt’s House Party Playlist",
+                "url": "https://play.spotify.com/user/spotify/playlist/37i9dQZF1DWZpxQttCP3Ig",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "Yarn determinism",
+                "url": "https://yarnpkg.com/blog/2017/05/31/determinism/",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "A Unified Styling Language",
+                "url": "https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Outgoing Society by Shed",
+                "url": "https://play.spotify.com/track/0TQpy8pYB3jPYaxTRnW5O6",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "035",
         "title": "Top shelf style guides",
         "description": "In this episode, we’re joined by Jyri Tuulos and Josh London to help discuss reusable components and building style guides. Jyri is a Staff Engineer at AdRoll and Josh is a Senior Designer at Netflix. We discuss best practices companies are leveraging style guides and reusable components. We also share the positives and negatives to having a style guide.",
