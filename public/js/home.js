@@ -125,6 +125,224 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":185,"react-dom":34}],2:[function(require,module,exports){
 module.exports=[
     {
+        "episode": "037",
+        "title": "Amazing Manhattans Anywhere",
+        "description": "We’ve received a lot of great questions from our listeners and wanted to take the time to answer them as an AMA (Ask Me Anything) episode. Thank you all for the great questions, we had a lot of fun answering them.",
+        "id": "331751524",
+        "published": "July 5, 2017",
+        "transcribed": false,
+        "category": "soft",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Jem Young",
+            "Derrick Showers",
+            "Ryan Anklam",
+            "Brian Holt",
+            "Mars Jullian",
+            "Stacy London"
+        ],
+        "guests": [],
+        "links": [
+            {
+                "title": "Mark Rothko",
+                "url": "https://en.wikipedia.org/wiki/Mark_Rothko"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/"
+            },
+            {
+                "title": "Microsoft",
+                "url": "https://www.microsoft.com/"
+            },
+            {
+                "title": "Reddit",
+                "url": "https://www.reddit.com"
+            },
+            {
+                "title": "Netflix",
+                "url": "https://www.netflix.com"
+            },
+            {
+                "title": "Ruby on Rails",
+                "url": "http://rubyonrails.org/"
+            },
+            {
+                "title": "Twitter",
+                "url": "https://twitter.com"
+            },
+            {
+                "title": "Meetups",
+                "url": "https://www.meetup.com/"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Ember",
+                "url": "https://emberjs.com/"
+            },
+            {
+                "title": "Angular",
+                "url": "https://angular.io/"
+            },
+            {
+                "title": "SugarPirate",
+                "url": "https://twitter.com/sugarpirate_"
+            },
+            {
+                "title": "Hiring without whiteboards",
+                "url": "https://github.com/poteto/hiring-without-whiteboards"
+            },
+            {
+                "title": "This Dot",
+                "url": "https://www.thisdot.co/"
+            },
+            {
+                "title": "Sarah Showers",
+                "url": "https://twitter.com/sarahlshowers"
+            },
+            {
+                "title": "Atlassian Git Tutorials",
+                "url": "https://www.atlassian.com/git/tutorials"
+            },
+            {
+                "title": "Epic fails episode",
+                "url": "http://frontendhappyhour.com/episodes/spilled-beer-and-epic-fails/"
+            },
+            {
+                "title": "Onboarding episode",
+                "url": "http://frontendhappyhour.com/episodes/first-drink-at-a-new-bar/"
+            },
+            {
+                "title": "Reddit post ",
+                "url": "https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/"
+            },
+            {
+                "title": "PetSmart",
+                "url": "http://www.petsmart.com/"
+            },
+            {
+                "title": "Webpack",
+                "url": "https://webpack.github.io/"
+            },
+            {
+                "title": "Rollup",
+                "url": "https://rollupjs.org/"
+            },
+            {
+                "title": "Babel",
+                "url": "https://babeljs.io/"
+            },
+            {
+                "title": "Gulp",
+                "url": "http://gulpjs.com/"
+            },
+            {
+                "title": "Grunt",
+                "url": "https://gruntjs.com/"
+            },
+            {
+                "title": "Yeoman",
+                "url": "http://yeoman.io/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Breaker app",
+                "url": "https://itunes.apple.com/us/app/breaker/id1215095006?mt=8",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "PhoneSoap",
+                "url": "https://www.amazon.com/dp/B016NGFY3C",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Front End Guide",
+                "url": "https://github.com/grab/front-end-guide",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Summer sale on Steam",
+                "url": "http://store.steampowered.com/app/485890/Summer_Sale/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "A crash course in memory management",
+                "url": "https://hacks.mozilla.org/2017/06/a-crash-course-in-memory-management/",
+                "from": "Jem Young"
+            },
+            {
+                "title": "The Discovery",
+                "url": "https://www.netflix.com/title/80115857",
+                "from": "Jem Young"
+            },
+            {
+                "title": "The Obesity Code",
+                "url": "https://www.amazon.com/dp/B01C6D0LCK/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Headspace",
+                "url": "https://www.headspace.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Children of Time Book",
+                "url": "https://www.amazon.com/Children-Time-Adrian-Tchaikovsky-ebook/dp/B00SN93AHU",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "Darigold Old Fashioned Chocolate Milk",
+                "url": "http://www.darigold.com/products/milk/old-fashioned-chocolate-milk-half-gallon",
+                "from": "Ryan Anklam"
+            },
+            {
+                "title": "Bing",
+                "url": "http://www.bing.com/",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "OneNote",
+                "url": "https://www.onenote.com/",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Regina LC Tattoo",
+                "url": "https://www.instagram.com/rex_ttt/",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "City Pups SF",
+                "url": "http://www.citypupssf.com/",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Clif nut butter filled bars",
+                "url": "http://www.clifbar.com/products/clif/nut-butter-filled",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "iShows app",
+                "url": "https://itunes.apple.com/us/app/ishows-tv-tv-show-tracker-powered-by-trakt-tv/id992387872",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "Green Machine rolls at Bamboo in Portland",
+                "url": "http://bamboosushi.com/menus/food/",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Hands Down (feat. jennylee) by Trentemøller",
+                "url": "https://play.spotify.com/track/10rNGCWcYPR3Oq3LT5FDxm",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "036",
         "title": "First drink at a new bar",
         "description": "Starting a new job is never easy, but a good onboarding process can make all the difference. In this episode, we talk about our experiences with onboarding at companies we’ve worked at and share our thoughts on what makes a good experience when starting a new job.",
