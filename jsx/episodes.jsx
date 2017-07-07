@@ -6,10 +6,12 @@ const Episodes = React.createClass({
     return (
       <li>
         <a href={this.props.url}>
-          <span className="episode-number">{this.props.epNum}</span>
-          <h3>{this.props.title}</h3>
-          <p>{this.props.date}</p>
-          <p>{this.props.description}</p>
+          <div className="container">
+            <span className="episode-number">{this.props.epNum}</span>
+            <p>{this.props.date}</p>
+            <h3>{this.props.title}</h3>
+            <p>{this.props.description}</p>
+          </div>
         </a>
       </li>
     );

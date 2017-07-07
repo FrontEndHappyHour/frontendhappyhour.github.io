@@ -11,6 +11,6 @@ module.exports = function panelistPage(name, bio, twitter, pic) {
     pickMarkup = `<img src="../../public/img/panel/${twitter}.jpg" alt="${name} profile picture" />`;
   }
 
-  return `${pickMarkup}<div class="content"><p><a href="https://twitter.com/${twitter}">@${twitter}</a></p>
-<p>${bio}</p><div id="target"></div></div>`;
+  return `<div class="container">${pickMarkup}<div class="content"><p><a href="https://twitter.com/${twitter}">@${twitter}</a></p>
+<p>${bio}</p><div id="target"></div></div></div>`;
 };

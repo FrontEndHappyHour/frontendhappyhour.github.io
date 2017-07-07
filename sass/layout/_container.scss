@@ -7,12 +7,20 @@
 .container{
   @extend %clearfix;
   @extend %marginAuto;
-  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
   color: $darkBlue;
+  line-height: 26px;
+
+  @include min-breakpoint(940){
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 h3 {
   font-size: 22px;
+  line-height: 38px;
 }
 
 p{

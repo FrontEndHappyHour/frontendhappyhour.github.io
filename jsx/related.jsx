@@ -43,7 +43,7 @@ const Related = React.createClass({
   },
   render() {
     return (
-      <div className='related'>
+      <div className='related container'>
         <h2>Related episodes</h2>
         <ul>
           {relatedTitles.map(function(episode, i) {

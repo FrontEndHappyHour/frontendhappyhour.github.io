@@ -7,7 +7,12 @@
 // ------------------------------------------------------------
 
 .feeds{
-  float: right;
+  text-align: center;
+
+  @include min-breakpoint(480){
+    float: right;
+    margin: 0;
+  }
   
   li{
     display: inline-block;
