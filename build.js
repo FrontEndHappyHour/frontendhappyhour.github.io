@@ -7,6 +7,7 @@ const createUrl = require('./lib/create-url');
 const ellipsize = require('ellipsize');
 const mailing = require('./lib/mailing');
 const panelistPage = require('./lib/panelists');
+
 // Templates
 const main = require('./templates/main');
 const episodeList = require('./templates/episode-list');
@@ -15,6 +16,7 @@ const episodeGuests = require('./templates/episode-guests');
 const episodeLinks = require('./templates/episode-links');
 const episodePicks = require('./templates/episode-picks');
 const episodePanel = require('./templates/episode-panel');
+const ama = require('./templates/ama');
 
 let mainOutput = '';
 
@@ -85,3 +87,6 @@ mailing();
 
 // create paenlist pages
 panelistPage();
+
+// create ama page
+ama();

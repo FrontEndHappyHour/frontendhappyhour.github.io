@@ -56,6 +56,16 @@ module.exports = function main(pageType, content, title, desc) {
     js = '';
   }
 
+  // ama page
+  if(pageType === 'ama') {
+    path = '../';
+    css = `public/css/ama.css?v=${cssVersion}`;
+    pageContent = content;
+    pageTitle = title + ' - ';
+    js = '';
+    heading = '';
+  }
+
   return `<!DOCTYPE html>
           <html>
               <head>

@@ -1,44 +1,15 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>AMA - Front End Happy Hour</title>
-                  <meta name="description" content="We'd love to answer questions from our listeners. Leave us a message with your questions and we'll answer them in a future episode.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                  <meta property="og:image"
-                   content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg">
-                  <link rel="icon" href="http://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="http://frontendhappyhour.com/">
-                  <link rel="stylesheet" href="../public/css/ama.css?v=1.2" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../public/img/front-end-happy-hour.svg" alt="Front End Happy Hour" class="logo"></h1></a>
-                <div class="bottom">
-                    <ul class="feeds">
-                        <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="../public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>
-                        <li><a href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="../public/img/rss.svg" alt="Subscripe to RSS feed"></a></li>
-                        <li><a href="https://twitter.com/frontendhh"><img src="../public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
-                        <li><a href="https://facebook.com/frontendhappyhour"><img src="../public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
-                        <li><a href="http://frontendhappyhour.com/mailing-list"><img src="../public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-                  <div class="episodes">
-                  <h2 id="heading" class="container"></h2>
-                  <div class="episodes container">
+'use strict';
+const mkdirp = require('mkdirp');
+const write = require('../lib/write');
+// Templates
+const main = require('./main');
+
+// ama page
+module.exports = function ama() {
+  const title = 'AMA';
+  const desc = `We'd love to answer questions from our listeners. Leave us a message with your questions and we'll answer them in a future episode.`;
+
+  const content = `<div class="episodes container">
           <div class="ama">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 772 448.733" style="enable-background:new 0 0 772 448.733;" xml:space="preserve">
@@ -818,21 +789,11 @@
             <p>Although sections of the Website may be viewed simply by visiting the Website, in order to access some Content and/or additional features offered at the Website, you may need to sign on as a guest or register as a member. If you create an account on the Website, you may be asked to supply your name, address, a User ID and password. You are responsible for maintaining the confidentiality of the password and account and are fully responsible for all activities that occur in connection with your password or account. You agree to immediately notify us of any unauthorized use of either your password or account or any other breach of security. You further agree that you will not permit others, including those whose accounts have been terminated, to access the Website using your account or User ID. You grant the Operators and all other persons or entities involved in the operation of the Website the right to transmit, monitor, retrieve, store, and use your information in connection with the operation of the Website and in the provision of services to you. The Operators cannot and do not assume any responsibility or liability for any information you submit, or your or third parties’ use or misuse of information transmitted or received using website. To learn more about how we protect the privacy of the personal information in your account, please visit our <a href="/privacy">Privacy Policy</a>.</p>
           </div>
       </div>
-      </div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+      </div>`;
+
+  // create ama directory
+  mkdirp.sync(`./ama/`);
+
+  // create index.html for ama page
+  write(`./ama/index.html`, main('ama', content, title, desc));
+};
