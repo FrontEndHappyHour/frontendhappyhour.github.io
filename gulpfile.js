@@ -86,7 +86,7 @@ gulp.task('compress', function() {
 
 gulp.task('watch', function() {
   gulp.watch('sass/**/*.scss', ['sass']);
-  gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'nodeunit']);
+  //gulp.watch(['**/*.js', '!node_modules/**'], ['lint', 'nodeunit']);
   gulp.watch(['./jsx/**/*'], ['lint', 'javascript', 'compress']);
 });
 

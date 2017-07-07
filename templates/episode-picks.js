@@ -9,7 +9,7 @@ module.exports = function episodePicks(picks) {
       </li>`;
   }
 
-  return `<div class="picks">
+  return `<div class="picks container">
           <h3>Picks</h3>
           <ul>
           ${picksContent}

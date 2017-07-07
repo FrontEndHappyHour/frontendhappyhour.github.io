@@ -61,10 +61,6 @@ const App = React.createClass({
 
     return (
       <div>
-        <div className="paging">
-          {prevButton}
-          {nextButton}
-        </div>
         <ul>
           {this.state.episodeList.map((ep, i) => {
             const url = createUrl('/episodes/' + ep.title);
@@ -76,7 +72,7 @@ const App = React.createClass({
             }
           })}
         </ul>
-        <div className="paging">
+        <div className="paging container">
           {prevButton}
           {nextButton}
         </div>

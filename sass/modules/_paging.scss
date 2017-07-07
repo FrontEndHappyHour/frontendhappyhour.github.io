@@ -9,15 +9,22 @@
 .paging {
   text-align: right;
   display: block;
+  margin-top: 30px;
+
+  .prev {
+    margin-right: 20px;
+  }
 
   a {
     display: inline;
-    padding: 5px 10px;
-    margin: 10px 0;
+    color: $chalk;
+    background: $darkBlue;
+    padding: 8px 15px;
+    text-transform: uppercase;
 
     &:hover, &:focus {
-      color: $chalk;
-      background: $darkBlue;
+      color: $darkBlue;
+      background: $chalk;
     }
   }
 }

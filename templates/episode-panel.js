@@ -34,7 +34,7 @@ module.exports = function episodePanel(panelists, panel) {
     }
   }
 
-  return `<div class="panel">
+  return `<div class="panel container">
           <h3>Panel</h3>
           <ul>
           ${content}

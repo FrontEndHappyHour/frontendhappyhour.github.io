@@ -7,12 +7,17 @@
 // ------------------------------------------------------------
 
 .panel{
+  ul {
+    max-width: 800px;
+    margin-top: 20px;
+  }
 
   li{
     display: inline-block;
     text-align: center;
     margin-bottom: 50px;
-    max-width: 145px;
+    //max-width: 145px;
+    width: 180px;
   }
 
   a{

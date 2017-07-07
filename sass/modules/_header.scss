@@ -8,7 +8,6 @@
 
 header{
   background: $darkBlue;
-  min-height: 300px;
   color: $chalk;
   margin-bottom: 30px;
 
@@ -18,40 +17,14 @@ header{
   }
 
   .logo{
+    max-width: 150px;
+    padding: 15px 0;
     margin: 0 auto;
-    width: 100%;
+    display: block;
 
-    @include min-breakpoint(940){
-      float:left;
-    }
-  }
-
-  .bottom {
-    clear: both;
-    margin: 0 auto;
-    float:left;
-  }
-
-  .tagline{
-    color: $chalk;
-    @include rem("font-size", 18);
-    line-height: 42px;
-
-    @include min-breakpoint(940){
-      @include rem("font-size", 24);
-    }
-  }
-
-  .right-content{
-    float: left;
-    width: 100%;
-    text-align: center;
-    color: $chalk;
-
-    @include min-breakpoint(940){
-      width: 50%;
-      margin: 20px 0 0 50px;
-      text-align: left;
+    @include min-breakpoint(480){
+      float: left;
+      margin: 0;
     }
   }
 }

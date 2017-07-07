@@ -10,7 +10,7 @@ module.exports = function episodeLinks(links) {
     }
   }
 
-  return `<div class="links picks">
+  return `<div class="links picks container">
           <h3>Items mentioned in the episode</h3>
           <p>${linkContent}</p>
           </div>`;

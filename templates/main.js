@@ -74,8 +74,8 @@ module.exports = function main(pageType, content, title, desc) {
               </head>
               <body>
                   ${header(path)}
-                  <div class="episodes container">
-                  <h2 id="heading">${heading}</h2>
+                  <div class="episodes">
+                  <h2 id="heading" class="container">${heading}</h2>
                   ${pageContent}
                   </div>
                   ${footer(path)}
