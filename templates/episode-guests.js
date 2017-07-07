@@ -34,7 +34,7 @@ module.exports = function episodeGuests(guests) {
     }
   }
 
-  return `<div class="guests picks">
+  return `<div class="guests picks container">
           <h3>Guests</h3>
           <ul>
           ${guestList}
