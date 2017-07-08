@@ -16,7 +16,12 @@ const episodeGuests = require('./templates/episode-guests');
 const episodeLinks = require('./templates/episode-links');
 const episodePicks = require('./templates/episode-picks');
 const episodePanel = require('./templates/episode-panel');
-const ama = require('./templates/ama');
+const contentPage = require('./templates/content-page');
+
+// content
+const privacyContent = require('./content/privacy');
+const termsContent = require('./content/terms');
+const amaContent = require('./content/ama');
 
 let mainOutput = '';
 
@@ -89,4 +94,12 @@ mailing();
 panelistPage();
 
 // create ama page
-ama();
+const AmaTitle = 'AMA';
+const AmaDesc = `We'd love to answer questions from our listeners. Leave us a message with your questions and we'll answer them in a future episode.`;
+contentPage('ama', amaContent, AmaTitle, AmaDesc);
+
+//create privacy page
+contentPage('privacy', privacyContent, 'Privacy Policy');
+
+//create terms page
+contentPage('terms', termsContent, 'Terms of Use');

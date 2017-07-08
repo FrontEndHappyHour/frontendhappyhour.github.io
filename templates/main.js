@@ -66,6 +66,15 @@ module.exports = function main(pageType, content, title, desc) {
     heading = '';
   }
 
+  // legal pages
+  if(pageType === 'privacy' || pageType === 'terms') {
+    path = '../';
+    css = `public/css/legal.css?v=${cssVersion}`;
+    pageContent = content;
+    pageTitle = title + ' - ';
+    js = '';
+  }
+
   return `<!DOCTYPE html>
           <html>
               <head>

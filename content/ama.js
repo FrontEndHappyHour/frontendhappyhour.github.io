@@ -1,16 +1,6 @@
 'use strict';
-const mkdirp = require('mkdirp');
-const write = require('../lib/write');
-// Templates
-const main = require('./main');
 
-// ama page
-module.exports = function ama() {
-  const title = 'AMA';
-  const desc = `We'd love to answer questions from our listeners. Leave us a message with your questions and we'll answer them in a future episode.`;
-
-  const content = `<div class="episodes container">
-          <div class="ama">
+module.exports = `<div class="ama">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 772 448.733" style="enable-background:new 0 0 772 448.733;" xml:space="preserve">
 <style type="text/css">
@@ -788,12 +778,4 @@ module.exports = function ama() {
 
             <p>Although sections of the Website may be viewed simply by visiting the Website, in order to access some Content and/or additional features offered at the Website, you may need to sign on as a guest or register as a member. If you create an account on the Website, you may be asked to supply your name, address, a User ID and password. You are responsible for maintaining the confidentiality of the password and account and are fully responsible for all activities that occur in connection with your password or account. You agree to immediately notify us of any unauthorized use of either your password or account or any other breach of security. You further agree that you will not permit others, including those whose accounts have been terminated, to access the Website using your account or User ID. You grant the Operators and all other persons or entities involved in the operation of the Website the right to transmit, monitor, retrieve, store, and use your information in connection with the operation of the Website and in the provision of services to you. The Operators cannot and do not assume any responsibility or liability for any information you submit, or your or third parties’ use or misuse of information transmitted or received using website. To learn more about how we protect the privacy of the personal information in your account, please visit our <a href="/privacy">Privacy Policy</a>.</p>
           </div>
-      </div>
-      </div>`;
-
-  // create ama directory
-  mkdirp.sync(`./ama/`);
-
-  // create index.html for ama page
-  write(`./ama/index.html`, main('ama', content, title, desc));
-};
+      </div>`
