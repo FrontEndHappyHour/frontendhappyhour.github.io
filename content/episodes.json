@@ -3,8 +3,8 @@
         "episode": "038",
         "title": "Plotting our drinks",
         "description": "In this episode, we’re joined by Shirley Wu, a Freelance Software Engineer who focuses on Data Visualization. Shirley shares a lot of knowledge about Data Visualization using JavaScript.",
-        "id": "",
-        "published": "",
+        "id": "333683478",
+        "published": "July 17, 2017",
         "transcribed": false,
         "category": "technical",
         "panel": [
@@ -69,8 +69,76 @@
                 "url": "https://angularjs.org/"
             },
             {
-                "title": "React ",
+                "title": "React",
                 "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Highcharts",
+                "url": "https://www.highcharts.com/"
+            },
+            {
+                "title": "Chartbeat",
+                "url": "https://chartbeat.com/"
+            },
+            {
+                "title": "Ember",
+                "url": "https://emberjs.com/"
+            },
+            {
+                "title": "React Faux DOM",
+                "url": "https://github.com/Olical/react-faux-dom"
+            },
+            {
+                "title": "Bl.ocks.org",
+                "url": "https://bl.ocks.org"
+            },
+            {
+                "title": "Susie Lu",
+                "url": "https://twitter.com/DataToViz"
+            },
+            {
+                "title": "Elijah Meeks",
+                "url": "https://twitter.com/Elijah_Meeks"
+            },
+            {
+                "title": "Data Visualization About Evictions in San Francisco",
+                "url": "http://www.antievictionmappingproject.net/ellis.html"
+            },
+            {
+                "title": "Shirley's Frontend Masters Workshop on D3",
+                "url": "https://frontendmasters.com/workshops/d3-js-v4/"
+            },
+            {
+                "title": "Bay Area d3 User Group",
+                "url": "https://www.meetup.com/Bay-Area-d3-User-Group/"
+            },
+            {
+                "title": "Interactive Data Visualization for the Web",
+                "url": "https://www.amazon.com/gp/product/1449339735/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449339735&linkCode=as2&tag=frontendhappy-20&linkId=a4279b3503e7507b6fbd1bce170e9ac9"
+            },
+            {
+                "title": "D3.js in Action",
+                "url": "https://www.amazon.com/gp/product/1617294489/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617294489&linkCode=as2&tag=frontendhappy-20&linkId=fa2abbf22202f1bf006610dafb474db3"
+            },
+            {
+                "title": "Visual Cinnamon",
+                "url": "https://www.visualcinnamon.com/"
+            },
+            {
+                "title": "Edward Tufte Books",
+                "url": "https://www.edwardtufte.com/tufte/books_vdqi"
+            },
+            {
+                "title": "FlowingData",
+                "url": "http://flowingdata.com/"
+            },
+            {
+                "title": "R",
+                "url": "https://www.r-project.org/"
+            },
+            {
+                "title": "Visualising Data",
+                "url": "http://www.visualisingdata.com/"
             }
         ],
         "picks": [

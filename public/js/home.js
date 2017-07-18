@@ -119,6 +119,216 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":185,"react-dom":34}],2:[function(require,module,exports){
 module.exports=[
     {
+        "episode": "038",
+        "title": "Plotting our drinks",
+        "description": "In this episode, we’re joined by Shirley Wu, a Freelance Software Engineer who focuses on Data Visualization. Shirley shares a lot of knowledge about Data Visualization using JavaScript.",
+        "id": "333683478",
+        "published": "July 17, 2017",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Jem Young",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Shirley Wu",
+                "twitter": "sxywu"
+            }
+        ],
+        "links": [
+            {
+                "title": "An Interactive Visualization of Every Line in Hamilton",
+                "url": "https://pudding.cool/2017/03/hamilton/index.html"
+            },
+            {
+                "title": "Evernote",
+                "url": "https://evernote.com"
+            },
+            {
+                "title": "D3",
+                "url": "https://d3js.org/"
+            },
+            {
+                "title": "Drupal",
+                "url": "https://www.drupal.org/"
+            },
+            {
+                "title": "Workday",
+                "url": "https://www.workday.com/"
+            },
+            {
+                "title": "Mike Bostock",
+                "url": "https://bost.ocks.org/"
+            },
+            {
+                "title": "Raphaël",
+                "url": "http://dmitrybaranovskiy.github.io/raphael/"
+            },
+            {
+                "title": "Victory",
+                "url": "https://formidable.com/open-source/victory/"
+            },
+            {
+                "title": "Web Components episode",
+                "url": "http://frontendhappyhour.com/episodes/one-part-beer-three-parts-web-components-add-lemon-to-taste/"
+            },
+            {
+                "title": "Smoothie Charts",
+                "url": "http://smoothiecharts.org/"
+            },
+            {
+                "title": "Backbone",
+                "url": "http://backbonejs.org/"
+            },
+            {
+                "title": "Angular",
+                "url": "https://angularjs.org/"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Highcharts",
+                "url": "https://www.highcharts.com/"
+            },
+            {
+                "title": "Chartbeat",
+                "url": "https://chartbeat.com/"
+            },
+            {
+                "title": "Ember",
+                "url": "https://emberjs.com/"
+            },
+            {
+                "title": "React Faux DOM",
+                "url": "https://github.com/Olical/react-faux-dom"
+            },
+            {
+                "title": "Bl.ocks.org",
+                "url": "https://bl.ocks.org"
+            },
+            {
+                "title": "Susie Lu",
+                "url": "https://twitter.com/DataToViz"
+            },
+            {
+                "title": "Elijah Meeks",
+                "url": "https://twitter.com/Elijah_Meeks"
+            },
+            {
+                "title": "Data Visualization About Evictions in San Francisco",
+                "url": "http://www.antievictionmappingproject.net/ellis.html"
+            },
+            {
+                "title": "Shirley's Frontend Masters Workshop on D3",
+                "url": "https://frontendmasters.com/workshops/d3-js-v4/"
+            },
+            {
+                "title": "Bay Area d3 User Group",
+                "url": "https://www.meetup.com/Bay-Area-d3-User-Group/"
+            },
+            {
+                "title": "Interactive Data Visualization for the Web",
+                "url": "https://www.amazon.com/gp/product/1449339735/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449339735&linkCode=as2&tag=frontendhappy-20&linkId=a4279b3503e7507b6fbd1bce170e9ac9"
+            },
+            {
+                "title": "D3.js in Action",
+                "url": "https://www.amazon.com/gp/product/1617294489/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617294489&linkCode=as2&tag=frontendhappy-20&linkId=fa2abbf22202f1bf006610dafb474db3"
+            },
+            {
+                "title": "Visual Cinnamon",
+                "url": "https://www.visualcinnamon.com/"
+            },
+            {
+                "title": "Edward Tufte Books",
+                "url": "https://www.edwardtufte.com/tufte/books_vdqi"
+            },
+            {
+                "title": "FlowingData",
+                "url": "http://flowingdata.com/"
+            },
+            {
+                "title": "R",
+                "url": "https://www.r-project.org/"
+            },
+            {
+                "title": "Visualising Data",
+                "url": "http://www.visualisingdata.com/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Domestic Data Streamers",
+                "url": "http://domesticstreamers.com/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "Openviz",
+                "url": "https://openvisconf.com/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "D3 Unconf",
+                "url": "http://visfest.com/d3unconf-2017/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "Data Stories Podcast",
+                "url": "http://datastori.es/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "Shop Talk Show - React with Netflix",
+                "url": "http://shoptalkshow.com/episodes/264-react-netflix/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Amplifi",
+                "url": "https://amplifi.com/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "svgomg",
+                "url": "https://jakearchibald.github.io/svgomg/",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Ellen Allien’s new album Nost",
+                "url": "https://play.spotify.com/album/0XgRkMvWp5sF3RRIpKnC3o",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Pokemon Terminal",
+                "url": "https://github.com/LazoCoder/Pokemon-Terminal",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "How Selections Work",
+                "url": "https://bost.ocks.org/mike/selection/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "D3-Annotation",
+                "url": "http://d3-annotation.susielu.com/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Web Typography for Non-Designers",
+                "url": "https://www.presslabs.com/blog/web-typography-for-non-designers/",
+                "from": "Jem Young"
+            },
+            {
+                "title": "The Story of O.J.",
+                "url": "https://www.youtube.com/watch?v=RM7lw0Ovzq0",
+                "from": "Jem Young"
+            }
+        ]
+    },
+    {
         "episode": "037",
         "title": "Amazing Manhattans Anywhere",
         "description": "We’ve received a lot of great questions from our listeners and wanted to take the time to answer them as an AMA (Ask Me Anything) episode. Thank you all for the great questions, we had a lot of fun answering them.",
@@ -251,7 +461,7 @@ module.exports=[
             },
             {
                 "title": "PhoneSoap",
-                "url": "https://www.amazon.com/dp/B016NGFY3C",
+                "url": "https://www.amazon.com/gp/product/B016NGFY3C/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B016NGFY3C&linkCode=as2&tag=frontendhappy-20&linkId=58aac0a86dc92b708edac4db2e6e9fb3",
                 "from": "Ryan Burgess"
             },
             {
@@ -276,7 +486,7 @@ module.exports=[
             },
             {
                 "title": "The Obesity Code",
-                "url": "https://www.amazon.com/dp/B01C6D0LCK/",
+                "url": "https://www.amazon.com/gp/product/1771641258/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1771641258&linkCode=as2&tag=frontendhappy-20&linkId=fcf0954b2026da2776d055cba01ab42f",
                 "from": "Derrick Showers"
             },
             {
@@ -286,7 +496,7 @@ module.exports=[
             },
             {
                 "title": "Children of Time Book",
-                "url": "https://www.amazon.com/Children-Time-Adrian-Tchaikovsky-ebook/dp/B00SN93AHU",
+                "url": "https://www.amazon.com/gp/product/1447273303/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1447273303&linkCode=as2&tag=frontendhappy-20&linkId=8d23afb6d0f810c9d36ff3dfab567456",
                 "from": "Ryan Anklam"
             },
             {
@@ -655,7 +865,7 @@ module.exports=[
             },
             {
                 "title": "XLR8 Connect Diaper Backpack",
-                "url": "https://www.amazon.com/XLR8-Connect-Back-Pack-Diaper/dp/B019DHBWEI/ref=sr_1_1_a_it",
+                "url": "https://www.amazon.com/gp/product/B019DHBWEI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019DHBWEI&linkCode=as2&tag=frontendhappy-20&linkId=7020af0e5a1b1b4bdb01ae1ee4b9ae99",
                 "from": "Ryan Burgess"
             },
             {
@@ -1098,7 +1308,7 @@ module.exports=[
             },
             {
                 "title": "Ancillary Justice",
-                "url": "https://www.amazon.com/Ancillary-Justice-Imperial-Radch-Leckie/dp/031624662X",
+                "url": "https://www.amazon.com/gp/product/031624662X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=031624662X&linkCode=as2&tag=frontendhappy-20&linkId=815c6677ab5863d495a4744ea783421b",
                 "from": "Ryan Anklam"
             },
             {
@@ -1292,7 +1502,7 @@ module.exports=[
             },
             {
                 "title": "Horizon Zero Dawn",
-                "url": "https://www.amazon.com/Horizon-Zero-Dawn-PlayStation-4/dp/B00ZQC73O8",
+                "url": "https://www.amazon.com/gp/product/B00ZQC73O8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00ZQC73O8&linkCode=as2&tag=frontendhappy-20&linkId=7f9b3ee13ad0fcba60f9f506ba28c769",
                 "from": "Brian Holt"
             },
             {
@@ -1719,7 +1929,7 @@ module.exports=[
         "picks": [
             {
                 "title": "Yoga Trapeze Swing",
-                "url": "https://www.amazon.com/YOGABODY-Naturals-Trapeze-Yoga-Inversion-Orange/dp/B0094H756W",
+                "url": "https://www.amazon.com/gp/product/B0094H756W/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0094H756W&linkCode=as2&tag=frontendhappy-20&linkId=8f274f069b13efdf95370a9832051bdd",
                 "from": "Ayşegül Yönet"
             },
             {
@@ -2153,7 +2363,7 @@ module.exports=[
             },
             {
                 "title": "Design For Hackers",
-                "url": "https://www.amazon.com/Design-Hackers-Reverse-Engineering-Beauty/dp/1119998956"
+                "url": "https://www.amazon.com/gp/product/1119998956/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1119998956&linkCode=as2&tag=frontendhappy-20&linkId=b0dd9b463def8df371f3322d099023aa"
             },
             {
                 "title": "Hackdesign.org",
@@ -2173,7 +2383,7 @@ module.exports=[
             },
             {
                 "title": "CSS3 for Web Designers",
-                "url": "https://www.amazon.com/Css3-Web-Designers-Dan-Cederholm/dp/B005SYVZVQ"
+                "url": "https://www.amazon.com/gp/product/0984442529/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0984442529&linkCode=as2&tag=frontendhappy-20&linkId=713ccb9b023d4e561528990135ee9113"
             }
         ],
         "picks": [
@@ -2199,7 +2409,7 @@ module.exports=[
             },
             {
                 "title": "Long Division",
-                "url": "https://www.amazon.com/Long-Division-Kiese-Laymon/dp/1932841725",
+                "url": "https://www.amazon.com/gp/product/1932841725/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1932841725&linkCode=as2&tag=frontendhappy-20&linkId=30de272cadf662c4affe287b4ecbc361",
                 "from": "Julie Horvath"
             },
             {
@@ -3406,7 +3616,7 @@ module.exports=[
             },
             {
                 "title": "LG 34 inch curved monitor",
-                "url": "https://www.amazon.com/LG-Electronics-34-Inch-LED-Lit-34UC97-S/dp/B00OKSEWL6"
+                "url": "https://www.amazon.com/gp/product/B019O78DPS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019O78DPS&linkCode=as2&tag=frontendhappy-20&linkId=487affb8bad849b0918b4b79e433b03e"
             },
             {
                 "title": "Apple Watch",
@@ -3414,7 +3624,7 @@ module.exports=[
             },
             {
                 "title": "Treadmill Desk",
-                "url": "https://www.amazon.com/TrekDesk-Treadmill-Desks-TD-01-Desk/dp/B002IYRBI0"
+                "url": "https://www.amazon.com/gp/product/B002IYRBI0/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B002IYRBI0&linkCode=as2&tag=frontendhappy-20&linkId=12d5d8ce79364e07d3a2b65d4fb1d815"
             },
             {
                 "title": "Fitbit",
@@ -3546,7 +3756,7 @@ module.exports=[
             },
             {
                 "title": "How To Open Locks With Improvised Tools",
-                "url": "https://www.amazon.com/gp/product/0966608712/",
+                "url": "https://www.amazon.com/gp/product/0966608712/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0966608712&linkCode=as2&tag=frontendhappy-20&linkId=74e565103ce898cd6dee8bab01809f32",
                 "from": "Ryan Burgess"
             },
             {
@@ -3809,7 +4019,7 @@ module.exports=[
             },
             {
                 "title": "The Advantage",
-                "url": "https://www.amazon.com/Summary-Advantage-Patrick-Lencioni-Analysis/dp/1519620314",
+                "url": "https://www.amazon.com/gp/product/0470941529/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0470941529&linkCode=as2&tag=frontendhappy-20&linkId=70321ba90431558538768345dedca4d4",
                 "from": "Ryan Burgess"
             },
             {
@@ -4436,7 +4646,7 @@ module.exports=[
         "picks": [
             {
                 "title": "Culture Map",
-                "url": "https://www.amazon.com/Culture-Map-Breaking-Invisible-Boundaries/dp/1610392507",
+                "url": "https://www.amazon.com/gp/product/1610392507/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1610392507&linkCode=as2&tag=frontendhappy-20&linkId=d0e03b2bd8cd6243c93daffa4732335a",
                 "from": "Chrissy Running"
             },
             {
@@ -5363,7 +5573,7 @@ module.exports=[
             },
             {
                 "title": "Othello",
-                "url": "http://www.amazon.com/Mattel-B3165-Othello/dp/B00004TQMQ"
+                "url": "https://www.amazon.com/gp/product/B01MXWTYLF/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MXWTYLF&linkCode=as2&tag=frontendhappy-20&linkId=f3cd75c6eedb1a9f418583870e59bf86"
             },
             {
                 "title": "Big O notation",
@@ -5735,7 +5945,7 @@ module.exports=[
             },
             {
                 "title": "Amazon Echo",
-                "url": "http://www.amazon.com/Amazon-SK705DI-Echo/dp/B00X4WHP5E",
+                "url": "https://www.amazon.com/gp/product/B00X4WHP5E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00X4WHP5E&linkCode=as2&tag=frontendhappy-20&linkId=bd58bc7d5a3f4206f94673b2f57edcca",
                 "from": "Ryan Burgess"
             },
             {
