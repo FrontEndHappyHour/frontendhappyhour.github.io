@@ -26,7 +26,7 @@ prompt.start();
 
 // prompt questions
 prompt.get(schema, function (err, result) {
-   const obj = {'title': result.title, 'url': result.url};
+   const obj = {'title': result.title.trim(), 'url': result.url.trim()};
    fullList[0].links.push(obj);
    fs.writeFileSync('./content/episodes.json', JSON.stringify(fullList, null, 4));
    console.log('New link added!');

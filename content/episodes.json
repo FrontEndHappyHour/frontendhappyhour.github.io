@@ -1,5 +1,215 @@
 [
     {
+        "episode": "038",
+        "title": "Plotting our drinks",
+        "description": "In this episode, we’re joined by Shirley Wu, a Freelance Software Engineer who focuses on Data Visualization. Shirley shares a lot of knowledge about Data Visualization using JavaScript.",
+        "id": "333683478",
+        "published": "July 17, 2017",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Jem Young",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Shirley Wu",
+                "twitter": "sxywu"
+            }
+        ],
+        "links": [
+            {
+                "title": "An Interactive Visualization of Every Line in Hamilton",
+                "url": "https://pudding.cool/2017/03/hamilton/index.html"
+            },
+            {
+                "title": "Evernote",
+                "url": "https://evernote.com"
+            },
+            {
+                "title": "D3",
+                "url": "https://d3js.org/"
+            },
+            {
+                "title": "Drupal",
+                "url": "https://www.drupal.org/"
+            },
+            {
+                "title": "Workday",
+                "url": "https://www.workday.com/"
+            },
+            {
+                "title": "Mike Bostock",
+                "url": "https://bost.ocks.org/"
+            },
+            {
+                "title": "Raphaël",
+                "url": "http://dmitrybaranovskiy.github.io/raphael/"
+            },
+            {
+                "title": "Victory",
+                "url": "https://formidable.com/open-source/victory/"
+            },
+            {
+                "title": "Web Components episode",
+                "url": "http://frontendhappyhour.com/episodes/one-part-beer-three-parts-web-components-add-lemon-to-taste/"
+            },
+            {
+                "title": "Smoothie Charts",
+                "url": "http://smoothiecharts.org/"
+            },
+            {
+                "title": "Backbone",
+                "url": "http://backbonejs.org/"
+            },
+            {
+                "title": "Angular",
+                "url": "https://angularjs.org/"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Highcharts",
+                "url": "https://www.highcharts.com/"
+            },
+            {
+                "title": "Chartbeat",
+                "url": "https://chartbeat.com/"
+            },
+            {
+                "title": "Ember",
+                "url": "https://emberjs.com/"
+            },
+            {
+                "title": "React Faux DOM",
+                "url": "https://github.com/Olical/react-faux-dom"
+            },
+            {
+                "title": "Bl.ocks.org",
+                "url": "https://bl.ocks.org"
+            },
+            {
+                "title": "Susie Lu",
+                "url": "https://twitter.com/DataToViz"
+            },
+            {
+                "title": "Elijah Meeks",
+                "url": "https://twitter.com/Elijah_Meeks"
+            },
+            {
+                "title": "Data Visualization About Evictions in San Francisco",
+                "url": "http://www.antievictionmappingproject.net/ellis.html"
+            },
+            {
+                "title": "Shirley's Frontend Masters Workshop on D3",
+                "url": "https://frontendmasters.com/workshops/d3-js-v4/"
+            },
+            {
+                "title": "Bay Area d3 User Group",
+                "url": "https://www.meetup.com/Bay-Area-d3-User-Group/"
+            },
+            {
+                "title": "Interactive Data Visualization for the Web",
+                "url": "https://www.amazon.com/gp/product/1449339735/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449339735&linkCode=as2&tag=frontendhappy-20&linkId=a4279b3503e7507b6fbd1bce170e9ac9"
+            },
+            {
+                "title": "D3.js in Action",
+                "url": "https://www.amazon.com/gp/product/1617294489/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617294489&linkCode=as2&tag=frontendhappy-20&linkId=fa2abbf22202f1bf006610dafb474db3"
+            },
+            {
+                "title": "Visual Cinnamon",
+                "url": "https://www.visualcinnamon.com/"
+            },
+            {
+                "title": "Edward Tufte Books",
+                "url": "https://www.edwardtufte.com/tufte/books_vdqi"
+            },
+            {
+                "title": "FlowingData",
+                "url": "http://flowingdata.com/"
+            },
+            {
+                "title": "R",
+                "url": "https://www.r-project.org/"
+            },
+            {
+                "title": "Visualising Data",
+                "url": "http://www.visualisingdata.com/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Domestic Data Streamers",
+                "url": "http://domesticstreamers.com/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "Openviz",
+                "url": "https://openvisconf.com/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "D3 Unconf",
+                "url": "http://visfest.com/d3unconf-2017/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "Data Stories Podcast",
+                "url": "http://datastori.es/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "Shop Talk Show - React with Netflix",
+                "url": "http://shoptalkshow.com/episodes/264-react-netflix/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Amplifi",
+                "url": "https://amplifi.com/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "svgomg",
+                "url": "https://jakearchibald.github.io/svgomg/",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Ellen Allien’s new album Nost",
+                "url": "https://play.spotify.com/album/0XgRkMvWp5sF3RRIpKnC3o",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Pokemon Terminal",
+                "url": "https://github.com/LazoCoder/Pokemon-Terminal",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "How Selections Work",
+                "url": "https://bost.ocks.org/mike/selection/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "D3-Annotation",
+                "url": "http://d3-annotation.susielu.com/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Web Typography for Non-Designers",
+                "url": "https://www.presslabs.com/blog/web-typography-for-non-designers/",
+                "from": "Jem Young"
+            },
+            {
+                "title": "The Story of O.J.",
+                "url": "https://www.youtube.com/watch?v=RM7lw0Ovzq0",
+                "from": "Jem Young"
+            }
+        ]
+    },
+    {
         "episode": "037",
         "title": "Amazing Manhattans Anywhere",
         "description": "We’ve received a lot of great questions from our listeners and wanted to take the time to answer them as an AMA (Ask Me Anything) episode. Thank you all for the great questions, we had a lot of fun answering them.",
