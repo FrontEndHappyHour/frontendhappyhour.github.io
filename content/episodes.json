@@ -1,5 +1,164 @@
 [
     {
+        "episode": "039",
+        "title": "Smashed after a Swift shot",
+        "description": "In this episode, we’re joined by Stefan Stumpfl, a mobile software engineer at LinkedIn working on LinkedIn Learning. During the past 5 years as an iOS developer, he has experience ranging from building his own app on a small 2-person team to larger teams like his current role at LinkedIn. In this episode, we will discuss the Swift programming language – how it compares to languages like Javascript and some of the advantages and disadvantages to writing and learning it.",
+        "id": "335464434",
+        "published": "July 30, 2017",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Jem Young",
+            "Derrick Showers",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Stefan Stumpfl",
+                "twitter": "sust86"
+            }
+        ],
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://linkedin.com"
+            },
+            {
+                "title": "Swift",
+                "url": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0"
+            },
+            {
+                "title": "WWDC",
+                "url": "https://developer.apple.com/wwdc/"
+            },
+            {
+                "title": "Chris Lattner",
+                "url": "https://twitter.com/clattner_llvm"
+            },
+            {
+                "title": "Uber",
+                "url": "https://www.uber.com/"
+            },
+            {
+                "title": "Tesla",
+                "url": "https://www.tesla.com/"
+            },
+            {
+                "title": "Obejective-C",
+                "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+            },
+            {
+                "title": "IBM",
+                "url": "https://www.ibm.com"
+            },
+            {
+                "title": "ESLint",
+                "url": "http://eslint.org/"
+            },
+            {
+                "title": "Java",
+                "url": "https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html"
+            },
+            {
+                "title": "Ember",
+                "url": "https://emberjs.com/"
+            },
+            {
+                "title": "Cocoapods",
+                "url": "https://cocoapods.org/"
+            },
+            {
+                "title": "React Native",
+                "url": "https://facebook.github.io/react-native/"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://facebook.com"
+            },
+            {
+                "title": "PhoneGap",
+                "url": "https://phonegap.com/"
+            },
+            {
+                "title": "Cordova",
+                "url": "https://cordova.apache.org/"
+            }  
+        ],
+        "picks": [
+            {
+                "title": "Natasha the Robot",
+                "url": "https://www.natashatherobot.com/",
+                "from": "Stefan Stumpfl"
+            },
+            {
+                "title": "Turner’s Kitchen",
+                "url": "https://www.yelp.com/biz/turners-kitchen-san-francisco",
+                "from": "Stefan Stumpfl"
+            },
+            {
+                "title": "The Pitch",
+                "url": "https://gimletmedia.com/thepitch/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Ng-Atlanta",
+                "url": "http://ng-atl.org/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Moment",
+                "url": "https://itunes.apple.com/us/app/moment-screen-time-tracker/id771541926?mt=8",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Plume Wifi",
+                "url": "https://www.plumewifi.com/",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Injury Reserve - ttktv",
+                "url": "https://open.spotify.com/track/6U8wLl0pMsgS1Lcql3nQjH",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Gullivers Travels",
+                "url": "http://www.gutenberg.org/ebooks/829?msg=welcome_stranger",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Swift Playgrounds",
+                "url": "https://www.apple.com/swift/playgrounds/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Swift Unwrapped",
+                "url": "https://spec.fm/podcasts/swift-unwrapped",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Curious Incident of the Dog in the Nighttime",
+                "url": "http://curiousonbroadway.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Watermelon Funk",
+                "url": "http://21st-amendment.com/beers/watermelon-funk/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Linting styled-components",
+                "url": "https://github.com/styled-components/stylelint-processor-styled-components",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Weak by Maya Jane Coles",
+                "url": "https://play.spotify.com/track/4NVpzUUoNWl7L8ZXYW8MlB",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "038",
         "title": "Plotting our drinks",
         "description": "In this episode, we’re joined by Shirley Wu, a Freelance Software Engineer who focuses on Data Visualization. Shirley shares a lot of knowledge about Data Visualization using JavaScript.",
