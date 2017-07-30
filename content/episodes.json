@@ -1,12 +1,12 @@
 [
     {
         "episode": "039",
-        "title": "Smashed after a Swift Shot",
+        "title": "Smashed after a Swift shot",
         "description": "In this episode, we’re joined by Stefan Stumpfl, a mobile software engineer at LinkedIn working on LinkedIn Learning. During the past 5 years as an iOS developer, he has experience ranging from building his own app on a small 2-person team to larger teams like his current role at LinkedIn. In this episode, we will discuss the Swift programming language – how it compares to languages like Javascript and some of the advantages and disadvantages to writing and learning it.",
-        "id": "",
-        "published": "",
+        "id": "335464434",
+        "published": "July 30, 2017",
         "transcribed": false,
-        "category": "",
+        "category": "technical",
         "panel": [
             "Ryan Burgess",
             "Jem Young",
