@@ -1,5 +1,244 @@
 [
     {
+        "episode": "040",
+        "title": "React Native - Mix Once, Drink Everywhere",
+        "description": "In this episode, we’re joined by Naoufal Kadhom, a Software Engineer from Netflix who’s also just released a payment library for React Native. In the episode, we’ll be discussing React Native and what it’s like to leverage it for Android and iOS applications.",
+        "id": "337930501",
+        "published": "August 14, 2017",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Jem Young",
+            "Augustus Yuan",
+            "Derrick Showers",
+            "Brian Holt",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Naoufal Kadhom",
+                "twitter": "naoufal"
+            }
+        ],
+        "links": [
+            {
+                "title": "React Native",
+                "url": "https://facebook.github.io/react-native/"
+            },
+            {
+                "title": "Lodash",
+                "url": "https://lodash.com/"
+            },
+            {
+                "title": "Moment",
+                "url": "https://momentjs.com/"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/"
+            },
+            {
+                "title": "App Store",
+                "url": "https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&path=appstore"
+            },
+            {
+                "title": "Google Play",
+                "url": "https://play.google.com/store?hl=en"
+            },
+            {
+                "title": "Redux",
+                "url": "http://redux.js.org/"
+            },
+            {
+                "title": "React Native Web",
+                "url": "https://github.com/necolas/react-native-web"
+            },
+            {
+                "title": "React Primitives",
+                "url": "https://github.com/lelandrichardson/react-primitives"
+            },
+            {
+                "title": "Leland Richardson",
+                "url": "https://twitter.com/intelligibabble"
+            },
+            {
+                "title": "Cordova",
+                "url": "https://cordova.apache.org/"
+            },
+            {
+                "title": "Spotify",
+                "url": "https://www.spotify.com"
+            },
+            {
+                "title": "Apple",
+                "url": "https://www.apple.com/"
+            },
+            {
+                "title": "Hacker News",
+                "url": "https://news.ycombinator.com/"
+            },
+            {
+                "title": "Google",
+                "url": "https://www.google.com/"
+            },
+            {
+                "title": "Xcode",
+                "url": "https://developer.apple.com/xcode/"
+            },
+            {
+                "title": "eval()",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval"
+            },
+            {
+                "title": "AirBnB",
+                "url": "https://www.airbnb.com/"
+            },
+            {
+                "title": "Tesla",
+                "url": "https://www.airbnb.com/"
+            },
+            {
+                "title": "Github",
+                "url": "https://github.com/"
+            },
+            {
+                "title": "Native Modules",
+                "url": "https://facebook.github.io/react-native/docs/native-modules-ios.html"
+            },
+            {
+                "title": "Evernote",
+                "url": "https://evernote.com/"
+            },
+            {
+                "title": "Objective-C",
+                "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+            },
+            {
+                "title": "Swift",
+                "url": "https://developer.apple.com/swift/"
+            },
+            {
+                "title": "Apple Pay",
+                "url": "https://www.apple.com/apple-pay/"
+            },
+            {
+                "title": "Stripe",
+                "url": "https://stripe.com/"
+            },
+            {
+                "title": "PayPal",
+                "url": "https://www.paypal.com"
+            },
+            {
+                "title": "React Native Payments",
+                "url": "https://github.com/naoufal/react-native-payments"
+            },
+            {
+                "title": "Braintree",
+                "url": "https://www.braintreepayments.com/"
+            },
+            {
+                "title": "PhoneGap",
+                "url": "https://phonegap.com/"
+            },
+            {
+                "title": "Kotlin",
+                "url": "https://developer.android.com/kotlin/index.html"
+            },
+            {
+                "title": "Material Design",
+                "url": "https://material.io/"
+            },
+            {
+                "title": "ReactXP",
+                "url": "https://microsoft.github.io/reactxp/"
+            },
+            {
+                "title": "Microsoft",
+                "url": "https://www.microsoft.com"
+            },
+            {
+                "title": "Create React Native App",
+                "url": "https://facebook.github.io/react-native/blog/2017/03/13/introducing-create-react-native-app.html"
+            },
+            {
+                "title": "Create React App",
+                "url": "https://github.com/facebookincubator/create-react-app"
+            },
+            {
+                "title": "Expo",
+                "url": "https://expo.io/"
+            },
+            {
+                "title": "Snack.expo",
+                "url": "https://snack.expo.io/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Detour",
+                "url": "https://www.detour.com/",
+                "from": "Naoufal Kadhom"
+            },
+            {
+                "title": "React Native Europe",
+                "url": "https://react-native.eu/",
+                "from": "Naoufal Kadhom"
+            },
+            {
+                "title": "React Native Payments",
+                "url": "https://github.com/naoufal/react-native-payments",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Robinhood",
+                "url": "https://robinhood.com/referral/ryanb1470/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Lottie",
+                "url": "https://airbnb.design/lottie/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Pismo Beach ATV sand dunes",
+                "url": "http://www.classiccalifornia.com/atv-rentals-in-pismo-beach/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Realm Academy",
+                "url": "https://academy.realm.io/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Py App",
+                "url": "https://www.downloadpy.com/",
+                "from": "Derrick Showers"
+            },
+            {
+                "title": "Hackages",
+                "url": "https://hackages.io/",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "Prettier + eslint-config-airbnb + Flowtype is the ultimate workflow for writing JS",
+                "url": "https://twitter.com/holtbt/status/893932312269791232",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "CodeSandbox",
+                "url": "https://codesandbox.io/",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Slow Motion by Lusine",
+                "url": "https://open.spotify.com/track/17IeZrHH0ogSDFNTHbb1fC",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "039",
         "title": "Smashed after a Swift shot",
         "description": "In this episode, we’re joined by Stefan Stumpfl, a mobile software engineer at LinkedIn working on LinkedIn Learning. During the past 5 years as an iOS developer, he has experience ranging from building his own app on a small 2-person team to larger teams like his current role at LinkedIn. In this episode, we will discuss the Swift programming language – how it compares to languages like Javascript and some of the advantages and disadvantages to writing and learning it.",
@@ -83,7 +322,7 @@
             {
                 "title": "Cordova",
                 "url": "https://cordova.apache.org/"
-            }  
+            }
         ],
         "picks": [
             {
