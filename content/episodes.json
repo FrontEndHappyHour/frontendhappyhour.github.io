@@ -1,5 +1,165 @@
 [
     {
+        "episode": "041",
+        "title": "Maintaining a healthy buzz",
+        "description": "Maintaining and scaling code is an important aspect of our careers. In this episode, we discuss and share ideas to help keep a healthy code base that will scale with your company.",
+        "id": "339805012",
+        "published": "August 27, 2017",
+        "transcribed": false,
+        "category": "technical",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Stacy London",
+            "Jem Young",
+            "Mars Jullian"
+        ],
+        "guests": [],
+        "links": [
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Angular",
+                "url": "https://angular.io/"
+            },
+            {
+                "title": "Vue",
+                "url": "https://vuejs.org/"
+            },
+            {
+                "title": "Netflix",
+                "url": "https://www.netflix.com/"
+            },
+            {
+                "title": "Git Blame",
+                "url": "https://git-scm.com/docs/git-blame"
+            },
+            {
+                "title": "Chesterton's fence",
+                "url": "https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence"
+            },
+            {
+                "title": "Lodash",
+                "url": "https://lodash.com/"
+            },
+            {
+                "title": "Browserify",
+                "url": "http://browserify.org/"
+            },
+            {
+                "title": "Webpack",
+                "url": "https://webpack.github.io/"
+            },
+            {
+                "title": "Sindre Sorhus",
+                "url": "https://github.com/sindresorhus"
+            },
+            {
+                "title": "npm",
+                "url": "https://npmjs.com"
+            },
+            {
+                "title": "Maintainable JavaScript",
+                "url": "http://shop.oreilly.com/product/0636920025245.do"
+            },
+            {
+                "title": "SMACSS",
+                "url": "https://smacss.com/"
+            },
+            {
+                "title": "jQuery",
+                "url": "https://npmjs.com"
+            },
+            {
+                "title": "Regular Expressions",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"
+            },
+            {
+                "title": "Perl",
+                "url": "https://www.perl.org/"
+            },
+            {
+                "title": "Ecma TC39",
+                "url": "https://github.com/tc39"
+            },
+            {
+                "title": "PostCSS",
+                "url": "http://postcss.org/"
+            },
+            {
+                "title": "BitBucket",
+                "url": "https://bitbucket.org/"
+            },
+            {
+                "title": "Atlassian",
+                "url": "https://www.atlassian.com/"
+            },
+            {
+                "title": "Evernote",
+                "url": "https://www.evernote.com/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "Brazil JS - Jem’s talk on code maintenance",
+                "url": "https://braziljs.org/conf/",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Senior UI Engineer at Netflix",
+                "url": "https://jobs.netflix.com/jobs/864767",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "Ali Wong",
+                "url": "https://www.netflix.com/title/80101493",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "AI with DeepMind and Blizzard",
+                "url": "https://deepmind.com/blog/deepmind-and-blizzard-open-starcraft-ii-ai-research-environment/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "Blurred by Kiasmos",
+                "url": "https://open.spotify.com/track/28u92L77wqbWYXMnw0nPIW",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Particles by Ólafur Arnalds",
+                "url": "https://open.spotify.com/track/0Qk4wUSuCRkpIdTYuqhYaT",
+                "from": "Stacy London"
+            },
+            {
+                "title": "Stacy’s haircut",
+                "url": "https://twitter.com/stacylondoner",
+                "from": "Jem Young"
+            },
+            {
+                "title": "The Defenders - Episode 3",
+                "url": "https://www.netflix.com/title/80002566",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Best Practices for Reusable Components",
+                "url": "http://nordicjs.com/speakers#mars-jullian",
+                "from": "Jem Young"
+            },
+            {
+                "title": "Plant nanny",
+                "url": "https://itunes.apple.com/us/app/plant-nanny-water-reminder-with-cute-plants/id590216134?mt=8",
+                "from": "Mars Jullian"
+            },
+            {
+                "title": "MindNode",
+                "url": "https://mindnode.com/",
+                "from": "Mars Jullian"
+            }
+        ]
+    },
+    {
         "episode": "040",
         "title": "React Native - Mix Once, Drink Everywhere",
         "description": "In this episode, we’re joined by Naoufal Kadhom, a Software Engineer from Netflix who’s also just released a payment library for React Native. In the episode, we’ll be discussing React Native and what it’s like to leverage it for Android and iOS applications.",
