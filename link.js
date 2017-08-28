@@ -10,16 +10,16 @@ const popular = require('./content/popular-links.json');
 const schema = {
   properties: {
     title: {
-      description: 'Link title',
-      pattern: /([^\s]+)/g,
-      message: 'Name must be only letters, spaces, or dashes',
-      required: true
+      description: 'Link title', // prompt displayed to user
+      pattern: /([^\s]+)/g, // check for a string that contains only letters, spaces, or dashes
+      message: 'Name must be only letters, spaces, or dashes', // error message if a valid string does not contain only letters, spaces, or dashes
+      required: true // this prompt question requires an answer
     },
     url: {
-      description: 'Link URL',
-      pattern: /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/,
-      message: 'Must be a valid URL',
-      required: true
+      description: 'Link URL', // prompt displayed to user
+      pattern: /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/, // check for a valid URL
+      message: 'Must be a valid URL', // error message if a valid URL was not inputted correctly
+      required: true // this prompt question requires an answer
     }
   }
 };
@@ -35,6 +35,7 @@ const write = (title, url) => {
   console.log(`${title} link added!`);
 };
 
+// start questions for adding a new link
 const promptQuestions = () => {
   prompt.start();
 

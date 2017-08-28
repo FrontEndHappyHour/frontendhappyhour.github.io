@@ -38,5 +38,13 @@
   "github": {
     "name": "Github",
     "url": "https://github.com/"
+  },
+  "npm": {
+    "name": "npm",
+    "url": "https://npmjs.com"
+  },
+  "jquery": {
+    "name": "jQuery",
+    "url": "https://npmjs.com"
   }
 }
