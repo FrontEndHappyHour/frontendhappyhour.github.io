@@ -27,6 +27,34 @@
             {
                 "title": "Vue",
                 "url": "https://vuejs.org/"
+            },
+            {
+                "title": "Netflix",
+                "url": "https://www.netflix.com/"
+            },
+            {
+                "title": "Git Blame",
+                "url": "https://git-scm.com/docs/git-blame"
+            },
+            {
+                "title": "Chesterton's fence",
+                "url": "https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence"
+            },
+            {
+                "title": "Lodash",
+                "url": "https://lodash.com/"
+            },
+            {
+                "title": "Browserify",
+                "url": "http://browserify.org/"
+            },
+            {
+                "title": "Webpack",
+                "url": "https://webpack.github.io/"
+            },
+            {
+                "title": "Sindre Sorhus",
+                "url": "https://github.com/sindresorhus"
             }
         ],
         "picks": [

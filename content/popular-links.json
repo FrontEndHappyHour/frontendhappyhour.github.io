@@ -1,0 +1,42 @@
+{
+  "react": {
+    "name": "React",
+    "url": "https://facebook.github.io/react/"
+  },
+  "angular": {
+    "name": "Angular",
+    "url": "https://angular.io/"
+  },
+  "ember": {
+    "name": "Ember",
+    "url": "https://emberjs.com/"
+  },
+  "vue": {
+    "name": "Vue",
+    "url": "https://vuejs.org/"
+  },
+  "netflix": {
+    "name": "Netflix",
+    "url": "https://www.netflix.com/"
+  },
+  "linkedin": {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/"
+  },
+  "evernote": {
+    "name": "Evernote",
+    "url": "https://www.evernote.com/"
+  },
+  "atlassian": {
+    "name": "Atlassian",
+    "url": "https://www.atlassian.com/"
+  },
+  "lodash": {
+    "name": "Lodash",
+    "url": "https://lodash.com/"
+  },
+  "github": {
+    "name": "Github",
+    "url": "https://github.com/"
+  }
+}

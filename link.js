@@ -3,42 +3,8 @@ const prompt = require('prompt');
 const episodes = fs.readFileSync('./content/episodes.json');
 const fullList = JSON.parse(episodes);
 const linkName = process.argv.slice(2)[0];
-
 // an object of regularly used links that can be called without having to prompt questions
-const popular = {
-  react: {
-    name: 'React',
-    url: 'https://facebook.github.io/react/'
-  },
-  angular: {
-    name: 'Angular',
-    url: 'https://angular.io/'
-  },
-  ember: {
-    name: 'Ember',
-    url: 'https://emberjs.com/'
-  },
-  vue: {
-    name: 'Vue',
-    url: 'https://vuejs.org/'
-  },
-  netflix: {
-    name: 'Netflix',
-    url: 'https://www.netflix.com/'
-  },
-  linkedin: {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/'
-  },
-  evernote: {
-    name: 'Evernote',
-    url: 'https://www.evernote.com/'
-  },
-  atlassian: {
-    name: 'Atlassian',
-    url: 'https://www.atlassian.com/'
-  }
-}
+const popular = require('./content/popular-links.json');
 
 // prompt schema for questions
 const schema = {
@@ -66,11 +32,10 @@ const write = (title, url) => {
   fullList[0].links.push(obj);
   // sync the new object to the links in episodes.json
   fs.writeFileSync('./content/episodes.json', JSON.stringify(fullList, null, 4));
-  console.log('New link added!');
+  console.log(`${title} link added!`);
 };
 
-// start prompt
-if (linkName === undefined) {
+const promptQuestions = () => {
   prompt.start();
 
   // prompt questions
@@ -78,9 +43,23 @@ if (linkName === undefined) {
     // pass title and url to write function
     write(result.title.trim(), result.url.trim());
   });
+};
+
+// start prompt
+if (linkName === undefined) {
+  promptQuestions();
 }else {
-  // pass title and url to write function
-  write(popular[linkName].name, popular[linkName].url);
+  // check to see if key exists in popular object before trying to write to links
+  if (popular.hasOwnProperty(linkName)) {
+    // pass title and url to write function
+    write(popular[linkName].name, popular[linkName].url);
+  }else {
+    // if the key doesn't exist in popular object than start prompt for questions to add a new link
+    console.log(`${linkName} isn't available yet. Add a new link instead.`);
+    // start prompt to add a new link
+    promptQuestions();
+  }
+  
 }
 
 
