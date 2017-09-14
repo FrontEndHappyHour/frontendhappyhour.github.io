@@ -23,6 +23,7 @@ const privacyContent = require('./content/privacy');
 const termsContent = require('./content/terms');
 const amaContent = require('./content/ama');
 
+// store the output of HTML markup
 let mainOutput = '';
 
 let panel;
@@ -50,17 +51,19 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   // add episode content info
   episodeOutput += episodePage(epDate, id, epDesc);
 
+  // if a guest exists add heading and guest info
   if(guests.length !== 0) {
     // add episode guests
     episodeOutput += episodeGuests(guests);
   }
 
+  // if there are episode links available add them to the page with a links heading
   if(links.length !== 0) {
     // add episode links
     episodeOutput += episodeLinks(links);
   }
 
-  // if picks add picks
+  // if there are picks for the episode add picks section
   if(picks.length !== 0) {
     // add pick links
     episodeOutput += episodePicks(picks);
