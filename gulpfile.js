@@ -10,6 +10,7 @@ const browserify = require('browserify');
 const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
 const source = require('vinyl-source-stream');
+const envify = require('envify/custom');
 
 gulp.task('sass', function () {
   return gulp.src('sass/**/*.scss')
@@ -59,7 +60,11 @@ gulp.task('javascript', function() {
   const bundler = browserify({
     extensions: ['.js', '.jsx'],
     transform: ['babelify']
-  });
+  })
+    .transform(envify({
+      NODE_ENV: () => (process.env.NODE_ENV === 'production' ? 'production' : 'development')
+    }), { global: true })
+    .transform('uglifyify', { global: true });
 
   bundler.add(fullFile);
 
@@ -72,7 +77,7 @@ gulp.task('javascript', function() {
     .pipe(gulp.dest('public/js/'));
   console.log(`${fileName}.js created`)
  });
-  
+
 });
 
 gulp.task('compress', function() {

@@ -21,6 +21,7 @@
     "babel-eslint": "^6.0.2",
     "babelify": "^6.0.2",
     "browserify": "^9.0.8",
+    "envify": "^4.1.0",
     "eslint": "^2.7.0",
     "eslint-plugin-babel": "^3.2.0",
     "ghooks": "^1.0.3",
@@ -36,12 +37,13 @@
     "jshint-stylish": "^2.1.0",
     "prompt": "^1.0.0",
     "tape": "^4.5.1",
+    "uglifyify": "^4.0.3",
     "vinyl-source-stream": "^1.1.0"
   },
   "config": {
     "ghooks": {
       "pre-commit": "node build mailing panelists",
-      "pre-push": "gulp javascript sass compress",
+      "pre-push": "NODE_ENV='production' gulp javascript sass compress",
       "post-merge": "yarn install",
       "post-rewrite": "yarn install"
     }
