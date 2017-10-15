@@ -119,6 +119,145 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":185,"react-dom":34}],2:[function(require,module,exports){
 module.exports=[
     {
+        "episode": "044",
+        "title": "Champagne ideas and caviar dreams",
+        "description": "Writing great code isn’t always the only part of our jobs. In order to impact changes on our teams or the business, we need to be able to persuade others to buy into your ideas. This could be in the form of migrating to a new technology, process or even adding a new feature to a product. In this episode, we are joined by Shirley Wu to help us discuss how we can best sell our ideas and make an impact for our teams or clients.",
+        "id": "347024361",
+        "published": "October 15, 2017",
+        "transcribed": false,
+        "category": "soft",
+        "panel": [
+            "Ryan Burgess",
+            "Augustus Yuan",
+            "Brian Holt",
+            "Stacy London"
+        ],
+        "guests": [
+            {
+                "name": "Shirley Wu",
+                "twitter": "sxywu"
+            }
+        ],
+        "links": [
+            {
+                "title": "Episode 38",
+                "url": "http://frontendhappyhour.com/episodes/plotting-our-drinks/"
+            },
+            {
+                "title": "Prettier",
+                "url": "https://github.com/prettier/prettier"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/"
+            },
+            {
+                "title": "Netflix",
+                "url": "https://www.netflix.com/"
+            },
+            {
+                "title": "Evernote",
+                "url": "https://www.evernote.com/"
+            },
+            {
+                "title": "GWT",
+                "url": "http://www.gwtproject.org/doc/latest/DevGuideCodingBasicsJSNI.html"
+            },
+            {
+                "title": "Backbone",
+                "url": "http://backbonejs.org/"
+            },
+            {
+                "title": "Angular",
+                "url": "https://angular.io/"
+            },
+            {
+                "title": "React",
+                "url": "https://facebook.github.io/react/"
+            },
+            {
+                "title": "Meteor",
+                "url": "https://www.meteor.com/"
+            },
+            {
+                "title": "React Flux",
+                "url": "https://facebook.github.io/flux/"
+            },
+            {
+                "title": "Ryan Anklam",
+                "url": "https://twitter.com/bittersweetryan"
+            },
+            {
+                "title": "Ember",
+                "url": "https://emberjs.com/"
+            },
+            {
+                "title": "Evernote",
+                "url": "https://www.evernote.com/"
+            },
+            {
+                "title": "Sass",
+                "url": "http://sass-lang.com/"
+            },
+            {
+                "title": "less",
+                "url": "http://lesscss.org/"
+            }
+        ],
+        "picks": [
+            {
+                "title": "D3 Unconf",
+                "url": "http://visfest.com/d3unconf-2017/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "The Stormlight Archive",
+                "url": "https://brandonsanderson.com/books/the-stormlight-archive/",
+                "from": "Shirley Wu"
+            },
+            {
+                "title": "Social Network soundtrack",
+                "url": "https://open.spotify.com/album/1ijkFiMeHopKkHyvQCWxUa",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": "American Vandal",
+                "url": "https://www.netflix.com/title/80117545",
+                "from": "Ryan Burgess"
+            },
+            {
+                "title": " Essential Image Optimization",
+                "url": "https://images.guide/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "LeetCode Articles",
+                "url": "https://leetcode.com/articles/",
+                "from": "Augustus Yuan"
+            },
+            {
+                "title": "size-limit",
+                "url": "https://www.npmjs.com/package/size-limit",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Brian Holt"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Stacy London"
+            },
+            {
+                "title": "",
+                "url": "",
+                "from": "Stacy London"
+            }
+        ]
+    },
+    {
         "episode": "043",
         "title": "Our first drink",
         "description": "We all had to start somewhere. In this episode, we are joined by Preethi Kasireddy to talk with us about her and our experiences of being a beginner to coding.",
@@ -137,8 +276,7 @@ module.exports=[
                 "twitter": "iam_preethi"
             }
         ],
-        "links": [
-        ],
+        "links": [],
         "picks": [
             {
                 "title": "Front End Happy Hour",
