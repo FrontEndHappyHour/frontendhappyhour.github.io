@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = 
+module.exports =
 `<p>Last updated: May 31, 2017</p>
 
       <p>Front End Happy Hour ("us", "we", or "our") operates the http://frontendhappyhour.com website (the "Service").</p>
