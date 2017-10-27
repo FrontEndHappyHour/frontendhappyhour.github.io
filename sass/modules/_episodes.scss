@@ -11,8 +11,20 @@
   margin-bottom: 30px;
 
   .episode-number{
-    display: block;
+    display: inline-block;
     font-size: 28px;
+    background: $darkBlue;
+    color: white;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 70px;
+  }
+
+  p{
+    width: 100%;
+    margin-left: 85px;
   }
 
   h2{
@@ -32,11 +44,22 @@
     &:hover, &:focus{
       background: $chalk;
     }
+
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
   }
 
-  h3{
+  .title{
     font-size: 36px;
-    margin-top: 20px;
+    margin: 0 0 0 15px;
+    width: calc(100% - 85px);
+  }
+
+  .date {
+    font-style: italic;
   }
 
   ul, ol{
@@ -46,6 +69,33 @@
       &:last-child{
         border-bottom: none;
       }
+    }
+  }
+
+  @media (max-width: 450px) {
+    .episode-number {
+      margin: 0 10px 0 0;
+      order: 1;
+      font-size: 14px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+    .title {
+      order: 3;
+      margin: 15px 0;
+    }
+    .date {
+      order: 2;
+      margin-bottom: 0;
+      line-height: 40px;
+      width: calc(100% - 50px);
+    }
+    .description {
+      order: 4;
+    }
+    p {
+      margin-left: 0;
     }
   }
 }
