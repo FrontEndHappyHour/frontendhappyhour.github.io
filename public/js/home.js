@@ -241,18 +241,18 @@ module.exports=[
                 "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Choir of the Mind by Emily Haines & The Soft Skeleton",
+                "url": "https://open.spotify.com/album/00lyG12Yb79SNS4InddHvs",
                 "from": "Brian Holt"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Vallis Alps - Oceans",
+                "url": "https://open.spotify.com/track/2suCvIjriPQrcYHGmWjFh8",
                 "from": "Stacy London"
             },
             {
-                "title": "",
-                "url": "",
+                "title": "Beeple",
+                "url": "https://www.instagram.com/beeple_crap/",
                 "from": "Stacy London"
             }
         ]
