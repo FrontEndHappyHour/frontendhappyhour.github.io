@@ -40,7 +40,7 @@ const promptQuestions = () => {
   prompt.start();
 
   // prompt questions
-  prompt.get(schema, function (err, result) {
+  prompt.get(schema, function (error, result) {
     // pass title and url to write function
     write(result.title.trim(), result.url.trim());
   });
@@ -49,18 +49,12 @@ const promptQuestions = () => {
 // start prompt
 if (linkName === undefined) {
   promptQuestions();
-}else {
-  // check to see if key exists in popular object before trying to write to links
-  if (popular.hasOwnProperty(linkName)) {
-    // pass title and url to write function
-    write(popular[linkName].name, popular[linkName].url);
-  }else {
-    // if the key doesn't exist in popular object than start prompt for questions to add a new link
-    console.log(`${linkName} isn't available yet. Add a new link instead.`);
-    // start prompt to add a new link
-    promptQuestions();
-  }
-  
+} else if (popular.hasOwnProperty(linkName)) {
+  // pass title and url to write function
+  write(popular[linkName].name, popular[linkName].url);
+}	else {
+  // if the key doesn't exist in popular object than start prompt for questions to add a new link
+  console.log(`${linkName} isn't available yet. Add a new link instead.`);
+  // start prompt to add a new link
+  promptQuestions();
 }
-
-

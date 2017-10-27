@@ -70,9 +70,8 @@ gulp.task('javascript', function() {
     .pipe(source(fullFile))
     .pipe(rename(fileName + '.js'))
     .pipe(gulp.dest('public/js/'));
-  console.log(`${fileName}.js created`)
+  console.log(`${fileName}.js created`);
  });
-  
 });
 
 gulp.task('compress', function() {
