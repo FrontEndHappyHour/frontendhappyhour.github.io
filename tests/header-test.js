@@ -42,7 +42,5 @@ const expected = `<header>
 
 test('Test header template', function (t) {
   t.equal(header(), expected, 'header template is correct');
-  t.comment('header template is working as expected');
-
   t.end();
 });

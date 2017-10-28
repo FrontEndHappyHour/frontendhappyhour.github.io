@@ -11,7 +11,6 @@ test('Test contains function', function (t) {
   t.equal(arrayStrings.contains('node'), false, 'Array does not contain the string node');
   t.equal(numberArray.contains(151), true, 'Array contains the number 151');
   t.equal(numberArray.contains(33), false, 'Array does not contain the number 33');
-  t.comment('Contains is working as expected');
 
   t.end();
 });
