@@ -5,7 +5,11 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "gulp test",
-    "build": "node build"
+    "build": "node build",
+    "precommit": "node build mailing panelists",
+    "prepush": "gulp javascript sass compress",
+    "postmerge": "yarn install",
+    "postrewrite": "yarn install"
   },
   "repository": {
     "type": "git",
@@ -23,7 +27,6 @@
     "browserify": "^9.0.8",
     "eslint": "^2.7.0",
     "eslint-plugin-babel": "^3.2.0",
-    "ghooks": "^1.0.3",
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.1.1",
     "gulp-jsonlint": "^1.1.1",
@@ -33,18 +36,11 @@
     "gulp-sass": "^2.3.1",
     "gulp-svgmin": "^1.2.2",
     "gulp-uglify": "^2.0.0",
+    "husky": "^0.14.3",
     "jshint-stylish": "^2.1.0",
     "prompt": "^1.0.0",
     "tape": "^4.5.1",
     "vinyl-source-stream": "^1.1.0"
-  },
-  "config": {
-    "ghooks": {
-      "pre-commit": "node build mailing panelists",
-      "pre-push": "gulp javascript sass compress",
-      "post-merge": "yarn install",
-      "post-rewrite": "yarn install"
-    }
   },
   "dependencies": {
     "cheerio": "^0.20.0",
