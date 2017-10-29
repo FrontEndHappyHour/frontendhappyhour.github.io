@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = 
+module.exports =
 `<p>Last updated: May 31, 2017</p>
 
           <p>Please read these Terms of Use ("Terms", "Terms of Use") carefully before using the http://frontendhappyhour.com/ website (the "Service") operated by Front End Happy Hour ("us", "we", or "our").</p>

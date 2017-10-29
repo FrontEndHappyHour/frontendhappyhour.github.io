@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Episodes from './episodes';
 import episodes from '../content/episodes.json';
-import createUrl from '../lib/create-url'
+import createUrl from '../lib/create-url';
 
 const App = React.createClass({
   getInitialState() {
@@ -37,9 +37,9 @@ const App = React.createClass({
       this.showPrevButton(false);
     }
   },
-  nextList(){
+  nextList() {
     this.setState({ startValue: this.state.startValue + this.state.numOnPage, listNum: this.state.listNum + this.state.numOnPage });
-    
+
     // show previous button
     this.showPrevButton(true);
 
@@ -68,8 +68,9 @@ const App = React.createClass({
             if(i > this.state.startValue && i <= this.state.listNum) {
               return (
                 <Episodes key={i} epNum={ep.episode} url={url} title={ep.title} date={ep.published} description={ep.description} />
-              )
+              );
             }
+            return null;
           })}
         </ul>
         <div className="paging container">
