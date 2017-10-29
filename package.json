@@ -4,12 +4,13 @@
   "description": "Front End Happy Hour website",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp test",
     "build": "node build",
+    "postmerge": "yarn install",
+    "postrewrite": "yarn install",
     "precommit": "node build mailing panelists",
     "prepush": "gulp javascript sass compress",
-    "postmerge": "yarn install",
-    "postrewrite": "yarn install"
+    "start": "gulp",
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
