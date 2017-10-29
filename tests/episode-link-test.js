@@ -35,11 +35,13 @@ test('Test URLs', function (t) {
 
   if (invalidPicks.length > 0) {
     t.comment('Invalid Pick URLs:');
-    t.comment(invalidPicks.join('\n'));
-  } else if (invalidLinks.length > 0) {
+    t.comment(`"${invalidPicks.join('"\n"')}"`);
+  }
+	if (invalidLinks.length > 0) {
     t.comment('Invalid Link URLs:');
-    t.comment(invalidLinks.join('\n'));
-  } else {
+    t.comment(`"${invalidLinks.join('"\n"')}"`);
+  }
+	if (invalidPicks.length === 0 && invalidLinks.length === 0) {
     t.comment('All Picks and Links all valid');
   }
 
