@@ -37,11 +37,11 @@ test('Test URLs', function (t) {
     t.comment('Invalid Pick URLs:');
     t.comment(`"${invalidPicks.join('"\n"')}"`);
   }
-	if (invalidLinks.length > 0) {
+  if (invalidLinks.length > 0) {
     t.comment('Invalid Link URLs:');
     t.comment(`"${invalidLinks.join('"\n"')}"`);
   }
-	if (invalidPicks.length === 0 && invalidLinks.length === 0) {
+  if (invalidPicks.length === 0 && invalidLinks.length === 0) {
     t.comment('All Picks and Links all valid');
   }
 
