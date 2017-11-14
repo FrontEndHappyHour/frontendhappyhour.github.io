@@ -5,22 +5,45 @@ const isURL = require('../lib/is-url');
 
 //test URLs in strings.json to make sure they are valid URLs
 test('Test URLs', function (t) {
+  const invalidPicks = [];
+  const invalidLinks = [];
   // loop through list of URLs
   for (let i = 0; i < episodes.length; i++) {
-      const picks = episodes[i].picks;
-      const links = episodes[i].links;
+    const picks = episodes[i].picks;
+    const links = episodes[i].links;
 
-      for (const pick of picks) {
-        const pickUrlTest = isURL(pick.url);
-        t.equal(pickUrlTest, true, `${pick.url} = PASSED`);
-      }
+    for (const pick of picks) {
+      const pickUrlTest = isURL(pick.url);
+      t.equal(pickUrlTest, true, `"${pick.url}" is valid`);
 
-      for (const link of links) {
-        const linkUrlTest = isURL(link.url);
-        t.equal(linkUrlTest, true, `${link.url} = PASSED`);
+      // Add Invalid URLs to array for easier debugging
+      if (!pickUrlTest) {
+        invalidPicks.push(pick.url);
       }
     }
-  t.comment('URLs are all valid');
+
+    for (const link of links) {
+      const linkUrlTest = isURL(link.url);
+      t.equal(linkUrlTest, true, `"${link.url}" is valid`);
+
+      // Add Invalid URLs to array for easier debugging
+      if (!linkUrlTest) {
+        invalidLinks.push(link.url);
+      }
+    }
+  }
+
+  if (invalidPicks.length > 0) {
+    t.comment('Invalid Pick URLs:');
+    t.comment(`"${invalidPicks.join('"\n"')}"`);
+  }
+  if (invalidLinks.length > 0) {
+    t.comment('Invalid Link URLs:');
+    t.comment(`"${invalidLinks.join('"\n"')}"`);
+  }
+  if (invalidPicks.length === 0 && invalidLinks.length === 0) {
+    t.comment('All Picks and Links all valid');
+  }
 
   t.end();
 });

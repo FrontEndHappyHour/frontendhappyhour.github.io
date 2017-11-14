@@ -81,7 +81,6 @@
     "no-caller": 1,
     "no-div-regex": 1,
     "no-else-return": 1,
-    "no-empty-label": 1,
     "no-eq-null": 0,
     "no-eval": 1,
     "no-extra-bind": 1,
