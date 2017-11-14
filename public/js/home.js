@@ -120,6 +120,70 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":185,"react-dom":34}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "046",
+    "title": "Locking down the liquor",
+    "description": "In this episode of the Front End Happy Hour podcast, we discuss how as front end engineers we can impact security vulnerabilities in the applications and websites we are creating.",
+    "id": "355654436",
+    "published": "November 14, 2017",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Derrick Showers",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Engineer Manager Resources",
+        "url": "https://github.com/ryanburgess/engineer-manager",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Netflix JavaScript Talks - Building Performant Signup Flows in React",
+        "url": "https://youtu.be/V8oTJ8OZ5S0?t=9m50s",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Puppeteer",
+        "url": "https://github.com/GoogleChrome/puppeteer",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Stranger Things",
+        "url": "https://www.netflix.com/title/80057281",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Certbot",
+        "url": "https://certbot.eff.org/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Airbnb Experiences",
+        "url": "https://www.airbnb.com/experiences",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "DripDrop",
+        "url": "https://dripdrop.com/",
+        "from": "Derrick Showers"
+      },
+      {
+        "title": "Lisbon, Portugal",
+        "url": "https://www.tripadvisor.com/Tourism-g189158-Lisbon_Lisbon_District_Central_Portugal-Vacations.html",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Girl in a Band by Kim Gordon",
+        "url": "https://www.amazon.com/gp/product/006229590X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=006229590X&linkCode=as2&tag=frontendhappy-20&linkId=57605bd62405de7dd904f495cdbc16c6",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "045",
     "title": "Getting the bartender's attention",
     "description": "In a previous episode, we discussed working with a recruiter during a job interview process. In this episode, we’re joined by Netflix recruiter, Bianca Bortolussi to discuss ways to help your engineering profile stand out to recruiters and hiring managers.",
@@ -134,10 +198,10 @@ module.exports=[
       "Mars Jullian"
     ],
     "guests": [
-        {
-            "name": "Bianca Bortolussi",
-            "twitter": "biancabmorey"
-        }
+      {
+        "name": "Bianca Bortolussi",
+        "twitter": "biancabmorey"
+      }
     ],
     "links": [],
     "picks": [
@@ -181,7 +245,6 @@ module.exports=[
         "url": "https://speakerdeck.com/smashingmag/dirty-tricks-from-the-dark-corners-of-front-end",
         "from": "Ryan Anklam"
       },
-
       {
         "title": "November 17th HTML5 Meetup",
         "url": "https://www.meetup.com/sfhtml5/events/244074642/",
