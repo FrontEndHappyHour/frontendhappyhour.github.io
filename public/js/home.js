@@ -120,6 +120,76 @@ _reactDom2['default'].render(_react2['default'].createElement(App, null), target
 },{"../content/episodes.json":2,"../lib/create-url":4,"./episodes":3,"react":185,"react-dom":34}],2:[function(require,module,exports){
 module.exports=[
   {
+    "episode": "047",
+    "title": "Speak(easy)",
+    "description": "Often times in our careers we’ve wanted to speak at conferences, meetups or even within our companies. It’s been a great way to share ideas and things we’ve learned. Giving a tech talk isn’t always the easiest thing. In this episode, we’ll be discussing what we’ve learned from our experiences and share advice on ways to help improve your next talk.",
+    "id": "361357727",
+    "published": "November 26, 2017",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Obey Giant Documentary",
+        "url": "https://www.hulu.com/watch/1170629",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Southpaw",
+        "url": "http://www.southpawbbqsf.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Seashells.io",
+        "url": "https://seashells.io/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "The Working Man (animation)",
+        "url": "https://www.youtube.com/watch?v=OYxEBxmZEUo",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "The Room",
+        "url": "http://www.theroommovie.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Firefox Quantum",
+        "url": "https://www.mozilla.org",
+        "from": "Jem Young"
+      },
+      {
+        "title": "HTML5 Meetup",
+        "url": "https://www.meetup.com/sfhtml5/events/244074642/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Dickens Fair",
+        "url": "https://dickensfair.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Illumina by Lamb",
+        "url": "https://open.spotify.com/track/5YMypqZz3fJAoltYpBLzTW",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Rodent by Burial",
+        "url": "https://open.spotify.com/track/6tLrODUVVwClg1EhuXwk2i",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "046",
     "title": "Locking down the liquor",
     "description": "In this episode of the Front End Happy Hour podcast, we discuss how as front end engineers we can impact security vulnerabilities in the applications and websites we are creating.",
@@ -1878,7 +1948,7 @@ module.exports=[
       },
       {
         "title": "Style Guides",
-        "url": "http://styleguides.io/ ",
+        "url": "http://styleguides.io/",
         "from": "Augustus Yuan"
       },
       {
