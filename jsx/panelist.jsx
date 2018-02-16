@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Episodes from './panel-episodes';
 
-const App = React.createClass({
-  getInitialState() {
-    return {};
-  },
+class App extends React.Component {
+  state = {};
+
   componentDidMount() {
-  },
+  }
+
   render() {
     return (
       <div>
@@ -15,8 +15,8 @@ const App = React.createClass({
       </div>
     );
   }
-});
+}
 
 module.exports = App;
 
-ReactDOM.render(<App />, target);
+ReactDOM.render(<App />, document.getElementById('target'));

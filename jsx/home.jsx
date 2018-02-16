@@ -4,9 +4,10 @@ import Episodes from './episodes';
 import episodes from '../content/episodes.json';
 import createUrl from '../lib/create-url';
 
-const App = React.createClass({
-  getInitialState() {
-    return {
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
       episodeList: episodes,
       startValue: 0,
       listNum: 5,
@@ -14,17 +15,17 @@ const App = React.createClass({
       showPrev: false,
       showNext: true
     };
-  },
-  componentDidMount() {
+  }
 
-  },
-  showPrevButton(show) {
+  showPrevButton = (show) => {
     this.setState({showPrev: show});
-  },
-  showNextButton(show) {
+  };
+
+  showNextButton = (show) => {
     this.setState({showNext: show});
-  },
-  previousList() {
+  };
+
+  previousList = () => {
     if(this.state.startValue >= 0) {
       this.setState({ startValue: this.state.startValue - this.state.numOnPage, listNum: this.state.listNum - this.state.numOnPage });
     }
@@ -36,8 +37,9 @@ const App = React.createClass({
     if (this.state.startValue <= 5) {
       this.showPrevButton(false);
     }
-  },
-  nextList() {
+  };
+
+  nextList = () => {
     this.setState({ startValue: this.state.startValue + this.state.numOnPage, listNum: this.state.listNum + this.state.numOnPage });
 
     // show previous button
@@ -47,7 +49,8 @@ const App = React.createClass({
     if ((this.state.startValue + (this.state.numOnPage * 2)) >= this.state.episodeList.length) {
       this.showNextButton(false);
     }
-  },
+  };
+
   render() {
     let prevButton;
     if(this.state.showPrev !== false) {
@@ -80,8 +83,8 @@ const App = React.createClass({
       </div>
     );
   }
-});
+}
 
 module.exports = App;
 
-ReactDOM.render(<App />, target);
+ReactDOM.render(<App />, document.getElementById('target'));

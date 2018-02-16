@@ -3,11 +3,10 @@ import createUrl from '../lib/create-url';
 const episodes = 'http://frontendhappyhour.com/content/episodes.json';
 const onEps = [];
 
-const PanelEpisodes = React.createClass({
-  displayName: 'Panelist Episodes',
-  getInitialState() {
-    return {};
-  },
+class PanelEpisodes extends React.Component {
+  static displayName = 'Panelist Episodes';
+  state = {};
+
   componentDidMount() {
     fetch(episodes).then((response) => {
       
@@ -27,7 +26,8 @@ const PanelEpisodes = React.createClass({
         this.setState({ eps: onEps });
       });
     });
-  },
+  }
+
   render() {
     return (
       <div className='episodes'>
@@ -41,6 +41,6 @@ const PanelEpisodes = React.createClass({
       </div>
     );
   }
-});
+}
 
 module.exports = PanelEpisodes;
