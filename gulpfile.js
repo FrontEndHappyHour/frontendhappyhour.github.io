@@ -58,7 +58,7 @@ gulp.task('javascript', function() {
   const fullFile = jsxPath + fileName + '.jsx';
   const bundler = browserify({
     extensions: ['.js', '.jsx'],
-    transform: ['babelify']
+    transform: [['babelify', { presets: ['react', 'es2015'], plugins: ['transform-class-properties'] }]]
   });
 
   bundler.add(fullFile);

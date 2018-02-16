@@ -3,13 +3,7 @@ import ReactDOM from 'react-dom';
 import Related from './related';
 
 // main react app class
-const App = React.createClass({
-  getInitialState() {
-    return {
-    };
-  },
-  componentDidMount() {
-  },
+class App extends React.Component {
   render() {
     return (
       <div>
@@ -17,8 +11,8 @@ const App = React.createClass({
       </div>
     );
   }
-});
+}
 
 module.exports = App;
 
-ReactDOM.render(<App />, target);
+ReactDOM.render(<App />, document.getElementById("target"));

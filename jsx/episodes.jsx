@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Episodes = React.createClass({
-  displayName: 'Episodes',
+class Episodes extends React.Component {
+  static displayName = 'Episodes';
+
   render() {
     return (
       <li>
@@ -16,6 +17,6 @@ const Episodes = React.createClass({
       </li>
     );
   }
-});
+}
 
 module.exports = Episodes;

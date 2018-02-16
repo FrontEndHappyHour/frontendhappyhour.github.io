@@ -5,11 +5,11 @@ const episodes = 'http://frontendhappyhour.com/content/episodes.json';
 const obj = [];
 let cat = '';
 const relatedTitles = [];
-const Related = React.createClass({
-  displayName: 'Related',
-  getInitialState() {
-    return {};
-  },
+
+class Related extends React.Component {
+  static displayName = 'Related';
+  state = {};
+
   componentDidMount() {
     const component = this;
     const episodeTitle = document.getElementById('heading').innerHTML;
@@ -40,7 +40,8 @@ const Related = React.createClass({
         component.setState({ related: relatedTitles });
       });
     });
-  },
+  }
+
   render() {
     return (
       <div className='related container'>
@@ -54,6 +55,6 @@ const Related = React.createClass({
       </div>
     );
   }
-});
+}
 
 module.exports = Related;
