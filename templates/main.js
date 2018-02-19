@@ -35,7 +35,8 @@ module.exports = function main(pageType, content, title, desc) {
     css = `public/css/episode.css?v=${cssVersion}`;
     pageContent = content;
     pageTitle = title + ' - ';
-    js = '<script src="../../public/js/min/episode.min.js" type="text/javascript"></script>';
+    js = '';
+    //js = '<script src="../../public/js/min/episode.min.js" type="text/javascript"></script>';
   }
 
   // panelist page
