@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Episodes from './episodes';
-import episodes from '../content/episodes.json';
+import episodes from '../content/episode-list.json';
 import createUrl from '../lib/create-url';
 
 class App extends React.Component {

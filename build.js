@@ -7,6 +7,7 @@ const createUrl = require('./lib/create-url');
 const ellipsize = require('ellipsize');
 const mailing = require('./lib/mailing');
 const panelistPage = require('./lib/panelists');
+const epList = require('./lib/episode-json');
 
 // Templates
 const main = require('./templates/main');
@@ -86,6 +87,9 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   // create index.html for each episode
   write(`./episodes/${link}/index.html`, main('episode', episodeOutput, epTitle, epDesc));
 }
+
+// output slimmed down version of main episode JSON
+epList();
 
 // update index.html
 write('index.html', main('home', mainOutput));
