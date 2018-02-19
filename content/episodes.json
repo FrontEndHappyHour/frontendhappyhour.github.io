@@ -1,5 +1,75 @@
 [
   {
+    "episode": "050",
+    "title": "Gin and toxic culture",
+    "description": "In this episode, we’ll be discussing things we’ve noticed in companies that have unhealthy culture, shady business practices, moving business targets and more. We talk about ways to avoid an unhealthy culture and how to help improve one.",
+    "id": "401747517",
+    "published": "February 18, 2018",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Altered Carbon",
+        "url": "https://www.netflix.com/title/80097140",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Framework Summit",
+        "url": "https://www.frameworksummit.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Year in Pixels",
+        "url": "https://year-in-pixels.glitch.me/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Haven",
+        "url": "https://github.com/guardianproject/haven",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Uphill Conf",
+        "url": "https://uphillconf.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Bitcoin",
+        "url": "https://bitcoin.org",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Grand Tour",
+        "url": "https://www.amazon.com/dp/B01J94A5GQ",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "The noun project",
+        "url": "https://thenounproject.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Carbon.now.sh",
+        "url": "https://carbon.now.sh/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Sunder by Nathan Fake",
+        "url": "https://nathanfake.bandcamp.com/album/sunder",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "049",
     "title": "Independent taste testing",
     "description": "We are back in 2018, for the first episode of the New Year we have two special guests, Shirley Wu and Amy Wibowo to talk with us about freelancing and running your own business. We discuss how to start freelance work, how to manage clients and how to handle difficult clients.",
