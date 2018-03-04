@@ -1,5 +1,29 @@
 [
   {
+    "episode": "052",
+    "title": "Looking Forward to a drink",
+    "description": "In this episode, we recorded live on stage at Forward JS conference in San Francisco. We were joined by our special guest, Allen Wirfs-Brock to talk about how the web has changed over the years and how JavaScript has been a large influence.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "technical ",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Brian Holt",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+         "name": "Allen Wirfs-Brock",
+         "twitter": "awbjs"
+      }
+    ],
+    "links": [],
+    "picks": []
+  },
+  {
     "episode": "051",
     "title": "Gin and toxic culture",
     "description": "In this episode, we’ll be discussing things we’ve noticed in companies that have unhealthy culture, shady business practices, moving business targets and more. We talk about ways to avoid an unhealthy culture and how to help improve one.",
@@ -600,11 +624,6 @@
         "title": "SFO",
         "url": "https://github.com/btholt/sfo",
         "from": "Brian Holt"
-      },
-      {
-        "title": "SFO",
-        "url": "https://github.com/btholt/sfo",
-        "from": "Brian Holt"
       }
     ]
   },
@@ -819,7 +838,7 @@
   {
     "episode": "044",
     "title": "Champagne ideas and caviar dreams",
-    "description": "Writing great code isn’t always the only part of our jobs. In order to impact changes on our teams or the business, we need to be able to persuade others to buy into your ideas. This could be in the form of migrating to a new technology, process or even adding a new feature to a product. In this episode, we are joined by Shirley Wu to help us discuss how we can best sell our ideas and make an impact for our teams or clients.",
+    "description": "Writing great code isn’t always the only part of our jobs. In order to impact changes on our teams or the business, we need to be able to persuade others to buy into your ideas. This could be in the form of migrating to a new technology, process or even adding a new feature to a product. In this episode, we are joined by Shirley Wu to help us discuss how we can best sell our ideas and make an impact on our teams or clients.",
     "id": "347024361",
     "published": "October 15, 2017",
     "transcribed": false,
