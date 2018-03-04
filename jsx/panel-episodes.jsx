@@ -1,6 +1,7 @@
 import React from 'react';
 import createUrl from '../lib/create-url';
-const episodes = 'http://frontendhappyhour.com/content/episodes.json';
+const episodes =
+  "https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/master/content/episodes.json";
 const onEps = [];
 
 class PanelEpisodes extends React.Component {
