@@ -4,11 +4,14 @@ import Episodes from './episodes';
 import episodes from '../content/episode-list.json';
 import createUrl from '../lib/create-url';
 
+const epList = Array.prototype.reverse.call(episodes);
+
 class App extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      episodeList: episodes,
+      episodeList: epList,
       startValue: 0,
       listNum: 5,
       numOnPage: 5,
