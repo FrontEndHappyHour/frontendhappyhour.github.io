@@ -12,6 +12,7 @@ function createDetails(num) {
 
   epNum = episodes[num].episode;
   epTitle = episodes[num].title;
+
   fullTitle = `Episode ${epNum} - ${epTitle}`;
 
   // desctription details
