@@ -10,12 +10,18 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+    const numOnPage = 5;
+    const pageNumberRegex = RegExp('[0-9]+');
+    const matches = pageNumberRegex.exec(window.location.hash);
+    const startValue = matches ? matches[0] * numOnPage : 0;
+    const listNum = matches ? matches[0] * (numOnPage + 1) : 5;
+
     this.state = {
       episodeList: epList,
-      startValue: 0,
-      listNum: 5,
-      numOnPage: 5,
-      showPrev: false,
+      startValue,
+      listNum,
+      numOnPage,
+      showPrev: startValue !== 0,
       showNext: true
     };
   }
