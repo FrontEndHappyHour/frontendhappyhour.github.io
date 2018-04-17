@@ -1,5 +1,84 @@
 [
   {
+    "episode": "055",
+    "title": "A mixologist's tools",
+    "description": "In this episode, we discuss how we stay productive in our jobs. To help us with the discussion, we’re joined by Ellen Chisa, CEO, and Cofounder of Dark. We talk about tools and strategies we’ve found useful to help stay productive.",
+    "id": "430831533",
+    "published": "April 16, 2018",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Ellen Chisa",
+        "twitter": "ellenchisa"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Dark - Frontend Engineer",
+        "url": "https://darklang.com/",
+        "from": "Ellen Chisa"
+      },
+      {
+        "title": "SkeletonCSS",
+        "url": "http://getskeleton.com/",
+        "from": "Ellen Chisa"
+      },
+      {
+        "title": "Manual.is",
+        "url": "http://www.manual.is/",
+        "from": "Ellen Chisa"
+      },
+      {
+        "title": "Soapbox",
+        "url": "https://wistia.com/soapbox",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tales from the Script",
+        "url": "http://www.tftscript.com/ab5b259e",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "NPM Compare",
+        "url": "https://npmcompare.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Raw Water",
+        "url": "https://www.vox.com/science-and-health/2018/1/4/16846048/raw-water-trend-silicon-valley",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Texture",
+        "url": "https://www.texture.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "PseudoLocalizer",
+        "url": "https://chrome.google.com/webstore/detail/pseudolocalizer/cemecdhgfjmgndjdnlofnenhiekppnep",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Bolt",
+        "url": "http://boltpkg.com/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Emerald Rush by Jon Hopkins",
+        "url": "https://open.spotify.com/track/5Pw45Vda5KA0kHxxMR8wRM?si=V-dQ06XzR1i1v3BwUSMlFg",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "054",
     "title": "Wasted on Elm",
     "description": "In this episode, we are joined by Richard Feldman to talk about the functional language Elm, which compiles to JavaScript. In the episode, we learn about the benefits to leveraging Elm and how to get started.",
