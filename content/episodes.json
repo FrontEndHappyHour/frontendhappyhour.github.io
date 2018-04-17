@@ -1,5 +1,79 @@
 [
   {
+    "episode": "054",
+    "title": "Wasted on Elm",
+    "description": "In this episode, we are joined by Richard Feldman to talk about the functional language Elm, which compiles to JavaScript. In the episode, we learn about the benefits to leveraging Elm and how to get started.",
+    "id": "423376479",
+    "published": "April 1, 2018",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Brian Holt",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Richard Feldman",
+        "twitter": "rtfeldman"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Predictably Irrational",
+        "url": "https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248",
+        "from": "Richard Feldman"
+      },
+      {
+        "title": "Richard Feldman: CSS as Bytecode",
+        "url": "https://www.youtube.com/watch?v=bt1TzVngOqY",
+        "from": "Richard Feldman"
+      },
+      {
+        "title": "Elm Town",
+        "url": "https://elmtown.audio/",
+        "from": "Richard Feldman"
+      },
+      {
+        "title": "Absentia",
+        "url": "https://www.amazon.com/Absentia-Season-1/dp/B0788VPT5Y",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Seven Seconds",
+        "url": "https://www.netflix.com/title/80117555",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Workbox",
+        "url": "https://github.com/GoogleChrome/workbox",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Evernote Spaces",
+        "url": "http://evernote.com/spaces",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Secret of Mana",
+        "url": "https://store.playstation.com/en-us/product/UP0082-CUSA09565_00-SECRETOFMANAPS40",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Kubo and the Two Strings",
+        "url": "https://www.youtube.com/watch?v=9nSSk7spa2M&feature=youtu.be",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Fever Ray’s new album Plunge",
+        "url": "https://open.spotify.com/album/3UHMhYzYnfTBEuDxb1JmxC?si=369DuRroTkmvWNdU12W2IQ",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "053",
     "title": "Bar-tending to your codebase",
     "description": "In this episode, we recorded live at SacJS event in Sacramento, California. On stage, we discuss the challenges of migrating a codebase and when to make the decision its the right time to refactor. We share lessons we’ve learned from past experiences.",
