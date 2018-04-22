@@ -32,7 +32,7 @@ class App extends React.Component {
   };
 
   previousList = () => {
-    if(this.state.startValue >= 0) { 
+    if(this.state.startValue >= 0) {
       this.setState({ startValue: this.state.startValue - this.state.numOnPage, listNum: this.state.listNum - this.state.numOnPage });
     }
 
