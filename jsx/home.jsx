@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Episodes from './episodes';
 import episodes from '../content/episode-list.json';
 import createUrl from '../lib/create-url';
+import pageUrlData from '../lib/page-url-data';
 
 const epList = Array.prototype.reverse.call(episodes);
 
@@ -10,12 +11,14 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+    const numOnPage = 5;
+    const pageData = pageUrlData(numOnPage);
     this.state = {
       episodeList: epList,
-      startValue: 0,
-      listNum: 5,
-      numOnPage: 5,
-      showPrev: false,
+      startValue: pageData.startValue,
+      listNum: pageData.listNum,
+      numOnPage,
+      showPrev: pageData.startValue !== 0,
       showNext: true
     };
   }
@@ -57,12 +60,18 @@ class App extends React.Component {
   render() {
     let prevButton;
     if(this.state.showPrev !== false) {
-      prevButton = <a href="#" className="prev" onClick={ this.previousList }>Previous</a>;
+      const prevButtonHref = `#/page=${(this.state.startValue - this.state.numOnPage) / this.state.numOnPage}`;
+      prevButton = <a key={prevButtonHref} href={prevButtonHref} className="prev" onClick={ this.previousList }>
+        Previous
+      </a>;
     }
 
     let nextButton;
     if(this.state.showNext !== false) {
-      nextButton = <a href="#" className="next" onClick={ this.nextList }>Next</a>;
+      const nextButtonHref = `#/page=${(this.state.startValue + this.state.numOnPage) / this.state.numOnPage}`;
+      nextButton = <a key={nextButtonHref} href={nextButtonHref} className="next" onClick={ this.nextList }>
+        Next
+      </a>;
     }
 
     return (
