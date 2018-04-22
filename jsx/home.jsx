@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Episodes from './episodes';
 import episodes from '../content/episode-list.json';
 import createUrl from '../lib/create-url';
+import pageUrlData from '../lib/page-url-data';
 
 const epList = Array.prototype.reverse.call(episodes);
 
@@ -11,17 +12,13 @@ class App extends React.Component {
     super(props);
 
     const numOnPage = 5;
-    const pageNumberRegex = RegExp('[0-9]+');
-    const matches = pageNumberRegex.exec(window.location.hash);
-    const startValue = matches ? matches[0] * numOnPage : 0;
-    const listNum = matches ? matches[0] * (numOnPage + 1) : 5;
-
+    const pageData = pageUrlData(numOnPage);
     this.state = {
       episodeList: epList,
-      startValue,
-      listNum,
+      startValue: pageData.startValue,
+      listNum: pageData.listNum,
       numOnPage,
-      showPrev: startValue !== 0,
+      showPrev: pageData.startValue !== 0,
       showNext: true
     };
   }
@@ -35,7 +32,7 @@ class App extends React.Component {
   };
 
   previousList = () => {
-    if(this.state.startValue >= 0) {
+    if(this.state.startValue >= 0) { 
       this.setState({ startValue: this.state.startValue - this.state.numOnPage, listNum: this.state.listNum - this.state.numOnPage });
     }
 
@@ -63,12 +60,18 @@ class App extends React.Component {
   render() {
     let prevButton;
     if(this.state.showPrev !== false) {
-      prevButton = <a href="#" className="prev" onClick={ this.previousList }>Previous</a>;
+      const prevButtonHref = `#/page=${(this.state.startValue - this.state.numOnPage) / this.state.numOnPage}`;
+      prevButton = <a key={prevButtonHref} href={prevButtonHref} className="prev" onClick={ this.previousList }>
+        Previous
+      </a>;
     }
 
     let nextButton;
     if(this.state.showNext !== false) {
-      nextButton = <a href="#" className="next" onClick={ this.nextList }>Next</a>;
+      const nextButtonHref = `#/page=${(this.state.startValue + this.state.numOnPage) / this.state.numOnPage}`;
+      nextButton = <a key={nextButtonHref} href={nextButtonHref} className="next" onClick={ this.nextList }>
+        Next
+      </a>;
     }
 
     return (
