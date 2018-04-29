@@ -1,5 +1,24 @@
 [
   {
+    "episode": "056",
+    "title": "Drink-a-thon onstage at Reactathon",
+    "description": "In this episode, we were live on stage at Reactathon conference in San Francisco discussing how to scale a React application. We share our thoughts on to best approaches to creating a good structure for your codebase at scale. We also share our experiences we’ve learned over the years how to scale our React applications.",
+    "id": "436927488",
+    "published": "April 29, 2018",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Derrick Showers",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "055",
     "title": "A mixologist's tools",
     "description": "In this episode, we discuss how we stay productive in our jobs. To help us with the discussion, we’re joined by Ellen Chisa, CEO, and Cofounder of Dark. We talk about tools and strategies we’ve found useful to help stay productive.",
