@@ -1,5 +1,78 @@
 [
   {
+    "episode": "057",
+    "title": "Falcor - Modeling our drinks",
+    "description": "In this episode, we’re joined by the Netflix Software Engineer, Anup Bishnoi to talk with us about the Netflix, open source, virtual JSON graph library, Falcor.",
+    "id": "443709084",
+    "published": "April 13, 2018",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young", 
+      "Ryan Anklam"
+    ],
+    "guests": [
+      {
+        "name": "Anup Bishnoi",
+        "twitter": "asyncanup"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "IPFS",
+        "url": "https://www.sitepoint.com/http-vs-ipfs-is-peer-to-peer-sharing-the-future-of-the-web/",
+        "from": "Anup Bishnoi"
+      },
+      {
+        "title": "Everything Sucks",
+        "url": "https://www.netflix.com/title/80117551",
+        "from": "Anup Bishnoi"
+      },
+      {
+        "title": "The Daily",
+        "url": "https://www.nytimes.com/podcasts/the-daily",
+        "from": "Anup Bishnoi"
+      },
+      {
+        "title": "Up Next",
+        "url": "https://itunes.apple.com/us/app/up-next/id1355117041?ls=1&mt=12",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Electron",
+        "url": "https://electronjs.org/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Comply Ear Plugs",
+        "url": "https://www.complyfoam.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Jarv Nmotion ear buds",
+        "url": "https://www.amazon.com/Jarv-NMotion-Bluetooth-Headphones-Black/dp/B00JAAJ1F6",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Fastest Car",
+        "url": "https://www.netflix.com/title/80190009",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Orphan Master’s Son",
+        "url": "https://www.amazon.com/Orphan-Masters-Son-Pulitzer-Fiction/dp/0812982622",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Barkley Marathons - The Race that Eats its Young",
+        "url": "http://barkleymovie.com/",
+        "from": "Ryan Anklam"
+      }
+    ]
+  },
+  {
     "episode": "056",
     "title": "Drink-a-thon onstage at Reactathon",
     "description": "In this episode, we were live on stage at Reactathon conference in San Francisco discussing how to scale a React application. We share our thoughts on to best approaches to creating a good structure for your codebase at scale. We also share our experiences we’ve learned over the years how to scale our React applications.",
@@ -15,8 +88,7 @@
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "055",
