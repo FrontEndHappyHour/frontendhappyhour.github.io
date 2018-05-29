@@ -1,5 +1,53 @@
 [
   {
+    "episode": "058",
+    "title": "User testing - Even a drunk person can do it",
+    "description": "A lot of the work we do impacts the people using the product or application we’ve made and it’s important to understand how our users resonate with the products we create. A great way to better understand what works for a user is by doing user testing. In this episode, we’ll be discussing user testing.",
+    "id": "450238047",
+    "published": "May 28, 2018",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "3M Command Strips",
+        "url": "https://www.amazon.com/Command-Picture-Hanging-8-Medium-17203-ES/dp/B000OF6X48",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Sonos speakers",
+        "url": "https://www.sonos.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Talk to Books",
+        "url": "https://books.google.com/talktobooks/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Pocket Developer Dice",
+        "url": "https://pretendstore.co/products/pocket-developer",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "The Little Prince",
+        "url": "https://www.netflix.com/title/80057578",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Slack incubator",
+        "url": "https://slack.com/developers/fund",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "057",
     "title": "Falcor - Modeling our drinks",
     "description": "In this episode, we’re joined by the Netflix Software Engineer, Anup Bishnoi to talk with us about the Netflix, open source, virtual JSON graph library, Falcor.",
@@ -9,7 +57,7 @@
     "category": "technical",
     "panel": [
       "Ryan Burgess",
-      "Jem Young", 
+      "Jem Young",
       "Ryan Anklam"
     ],
     "guests": [
