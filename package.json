@@ -8,7 +8,7 @@
     "postmerge": "yarn install",
     "postrewrite": "yarn install",
     "precommit": "node build mailing panelists",
-    "prepush": "gulp javascript sass compress",
+    "prepush": "NODE_ENV=production gulp javascript sass compress",
     "start": "gulp",
     "test": "gulp test"
   },

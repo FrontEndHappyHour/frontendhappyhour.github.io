@@ -10,9 +10,15 @@ header{
   background: $darkBlue;
   color: $chalk;
   margin-bottom: 30px;
+  height: 200px;
+
+  @include max-breakpoint(480) {
+    height: auto;
+  }
 
   h1{
     color:$teal;
+    margin: 0;
     @include rem("font-size", 42);
   }
 
