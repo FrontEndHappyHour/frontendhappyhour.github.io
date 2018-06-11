@@ -1,5 +1,63 @@
 [
   {
+    "episode": "059",
+    "title": "A/B testing - Ale or Bourbon?",
+    "description": "In our previous episode, we talked about user testing and to better understand how a product or application resonates with users. In this episode, we’re joined by Lisa Burgess to help talk with us about another great way to get user feedback, A/B testing.",
+    "id": "",
+    "published": "June 10, 2018",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Lisa Burgess",
+        "twitter": "_lisaburgess"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Ali Wong: Hard Knock Wife",
+        "url": "https://www.netflix.com/title/80186940",
+        "from": "Lisa Burgess"
+      },
+      {
+        "title": "Safe",
+        "url": "https://www.netflix.com/title/80240177",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Hiya",
+        "url": "https://hiya.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Syre",
+        "url": "https://open.spotify.com/album/4IFpj2jyRcugt1yzH82m3E",
+        "from": "Jem Young"
+      },
+      {
+        "title": "American Hero",
+        "url": "https://www.netflix.com/title/80081379",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "058",
     "title": "User testing - Even a drunk person can do it",
     "description": "A lot of the work we do impacts the people using the product or application we’ve made and it’s important to understand how our users resonate with the products we create. A great way to better understand what works for a user is by doing user testing. In this episode, we’ll be discussing user testing.",
