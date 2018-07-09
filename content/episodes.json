@@ -1,5 +1,72 @@
 [
   {
+    "episode": "061",
+    "title": "Build tooling - brewing complex bundles",
+    "description": "The front end ecosystem of build tooling continues to grow and become more powerful over the years. In this episode, we’re joined by Jamie Kyle and Maia Teegarden to talk with us about the power of build tools.",
+    "id": "469190895",
+    "published": "July 8, 2018",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Jamie Kyle",
+        "twitter": "jamiebuilds"
+      },
+      {
+        "name": "Maia Teegarden",
+        "twitter": "padmaia"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Queer Eye",
+        "url": "https://www.netflix.com/title/80160037",
+        "from": "Jamie Kyle"
+      },
+      {
+        "title": "The Break with Michelle Wolf",
+        "url": "https://www.netflix.com/title/80239459",
+        "from": "Maia Teegarden"
+      },
+      {
+        "title": "Wild Wild Country",
+        "url": "https://www.netflix.com/title/80145240",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Rise Against - House on Fire",
+        "url": "https://open.spotify.com/track/1dxtwB6QHEZoTzw0GBMisa?si=fp7OOOAZTRSOXXbFFkLUZw",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "AllBirds Tree Runners",
+        "url": "https://www.allbirds.com/products/mens-tree-runners",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Figma",
+        "url": "https://www.figma.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Horizon - Poolside Remix by Tycho, Poolside",
+        "url": "https://open.spotify.com/track/1pZLRkzmhVCNMtvsSNq4Bp?si=9LJJPCO2SkiK_6fAih-P1g",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Echospace Island by Robert Babicz (Bab-itch)",
+        "url": "https://open.spotify.com/track/6X94jPitFlcpz6qTUQzZvi?si=WTvSWMt-TDKk3Kc04mvbog",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "060",
     "title": "Shots to growlers - finding the right size drink",
     "description": "In this episode, we are joined by Shirley Wu and Brian Holt to talk with us about the various experiences we’ve had with startups, large companies, agencies, and freelance work.",
