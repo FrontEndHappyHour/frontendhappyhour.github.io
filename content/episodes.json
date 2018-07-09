@@ -1,5 +1,94 @@
 [
   {
+    "episode": "060",
+    "title": "Shots to growlers - finding the right size drink",
+    "description": "In this episode, we are joined by Shirley Wu and Brian Holt to talk with us about the various experiences we’ve had with startups, large companies, agencies, and freelance work.",
+    "id": "463065417",
+    "published": "June 24, 2018",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Shirley Wu",
+        "twitter": "sxywu"
+      },
+      {
+        "name": "Brian Holt",
+        "twitter": "holtbt"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Team Lab",
+        "url": "https://www.teamlab.art/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Kubernetes",
+        "url": "https://kubernetes.io/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Evil Genius",
+        "url": "https://www.netflix.com/title/80158319",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Model Zoo",
+        "url": "https://modelzoo.co/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Human Benchark",
+        "url": "https://www.humanbenchmark.com/tests/reactiontime/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Google Doubleclick Mozilla",
+        "url": "http://yuhongbao.blogspot.com/2018/04/google-doubleclick-mozilla-essay-final.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Strong Web",
+        "url": "https://thestrongweb.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Hiya",
+        "url": "https://hiya.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Explained on Netflix",
+        "url": "https://www.netflix.com/title/80216752",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "CSS Conf - Laura Schneck algorithms of CSS talk",
+        "url": "https://notlaura.com/algorithms-of-css-sources/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "JS Conf EU - Beaker browser by Tara Vancil",
+        "url": "http://jsconfeu-taravancil.hashbase.io/slides.pdf",
+        "from": "Stacy London"
+      },
+      {
+        "title": "JS Conf EU - Empathy driven development by Marcy Sutton",
+        "url": "https://youtu.be/l95VFLj3e2w",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "059",
     "title": "A/B testing - Ale or Bourbon?",
     "description": "In our previous episode, we talked about user testing and to better understand how a product or application resonates with users. In this episode, we’re joined by Lisa Burgess to help talk with us about another great way to get user feedback, A/B testing.",
