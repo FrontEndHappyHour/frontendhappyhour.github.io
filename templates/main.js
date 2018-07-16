@@ -9,6 +9,7 @@ module.exports = function main(pageType, content, title, desc) {
   let heading = title;
   let pageContent;
   let pageTitle;
+  let pageOG;
   let path;
   let css;
   let js;
@@ -17,6 +18,13 @@ module.exports = function main(pageType, content, title, desc) {
 
   if(desc === undefined || pageType === 'home') {
     desc = strings.desc;
+  }
+
+  // set OG image
+  if (pageType === 'shirts') {
+    pageOG = 'http://frontendhappyhour.com/public/img/shirts.jpg';
+  }else {
+    pageOG = 'http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
   }
 
   // homepage
@@ -76,6 +84,15 @@ module.exports = function main(pageType, content, title, desc) {
     js = '';
   }
 
+  // shirts page
+  if (pageType === 'shirts') {
+    path = '../';
+    css = `public/css/shirts.css?v=${cssVersion}`;
+    pageContent = content;
+    pageTitle = title + ' - ';
+    js = '';
+  }
+
   return `<!DOCTYPE html>
           <html>
               <head>
@@ -86,7 +103,7 @@ module.exports = function main(pageType, content, title, desc) {
                   <link rel="alternate" type="application/rss+xml"
                    href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
                   <meta property="og:image"
-                   content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg">
+                   content="${pageOG}">
                   <link rel="icon" href="http://frontendhappyhour.com/favicon.ico" type="image/x-icon">
                   <link rel="canonical" href="http://frontendhappyhour.com/">
                   <link rel="stylesheet" href="${path}${css}" type="text/css" media="screen">

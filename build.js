@@ -17,6 +17,7 @@ const episodeGuests = require('./templates/episode-guests');
 const episodeLinks = require('./templates/episode-links');
 const episodePicks = require('./templates/episode-picks');
 const episodePanel = require('./templates/episode-panel');
+const shirtPage = require('./templates/shirts-page');
 const contentPage = require('./templates/content-page');
 
 // content
@@ -110,3 +111,6 @@ contentPage('privacy', privacyContent, 'Privacy Policy');
 
 //create terms page
 contentPage('terms', termsContent, 'Terms of Use');
+
+//create shirt page
+shirtPage('shirts', 'T-Shirts', 'Purchase Front End Happy Hour t-shirts and clothing.');
