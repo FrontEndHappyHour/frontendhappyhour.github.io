@@ -13,8 +13,8 @@ const temp = [];
 // create panelist list for new episode
 Object.keys(panelists).forEach(function(key) {
   let name = panelists[key].name;
-  // get all panelist names except Sarah Federman and create emptpy picks object
-  if(name !== 'Sarah Federman') {
+  // get all panelist names except Sarah Federman, Brian Holt, Derrick Showers and create emptpy picks object
+  if(name !== 'Sarah Federman' && name !== 'Brian Holt' && name !== 'Derrick Showers') {
     names.push(name);
     picks.push({'title': '', 'url': '', 'from': name });
     picks.push({'title': '', 'url': '', 'from': name });
