@@ -1,5 +1,81 @@
 [
   {
+    "episode": "065",
+    "title": "Recruiting - do you have time for a quick beer?",
+    "description": "We’ve had a lot of great recruiting discussions on previous episodes. In this episode, we’re joined by 3 recruiters, Matt Stephenson, Zack Skelly, and Chris Ahsing from 3 different startups to talk with us about how to stand out as an engineer, and what questions to ask recruiters about opportunities.",
+    "id": "494442459",
+    "published": "September 2, 2018",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Matt Stephenson",
+        "twitter": ""
+      },
+      {
+        "name": "Zack Skelly",
+        "twitter": "zorkary"
+      },
+      {
+        "name": "Chris Ahsing",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "interviewing.io",
+        "url": "https://interviewing.io/",
+        "from": "Matt"
+      },
+      {
+        "title": "Y Combinator Podcast",
+        "url": "https://itunes.apple.com/us/podcast/y-combinator/id1236907421?mt=2",
+        "from": "Zack"
+      },
+      {
+        "title": "Crypto Canon",
+        "url": "https://a16z.com/2018/02/10/crypto-readings-resources/",
+        "from": "Zack"
+      },
+      {
+        "title": "Front End Happy Hour at React Rally",
+        "url": "https://www.youtube.com/watch?v=X4t7kxC2e04",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Ken Wheeler - Love Songs for Your Mother",
+        "url": "https://open.spotify.com/album/5SYR1HJgrsFqHCDkLgZP8p?si=zpnJb8BqTDKWqZukbbWr-w",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "NDB",
+        "url": "https://www.npmjs.com/package/ndb",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Godspeed You! Black Emperor",
+        "url": "https://open.spotify.com/artist/4svpOyfmQKuWpHLjgy4cdK?autoplay=true&v=A",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Somewhere Else by Elsa Hewitt",
+        "url": "https://open.spotify.com/track/1A6wgK3Sf6BZHzJH29MeQU?si=OzrvtvRiRZycYKjy_qOiGQ",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Visualize your NPM package dependencies",
+        "url": "https://beta.observablehq.com/@mbostock/package-dependencies",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "064",
     "title": "Librations - JavaScript libraries",
     "description": "In this episode, we’ll be discussing JavaScript libraries. We talk about when to use a library and when it might not be that practical.",
