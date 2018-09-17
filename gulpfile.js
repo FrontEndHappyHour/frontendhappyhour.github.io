@@ -53,7 +53,7 @@ gulp.task('nodeunit', function () {
 // build javascript bundles
 gulp.task('javascript', function() {
  const jsxPath = './jsx/';
- const files = ['home', 'panelist'/*, 'episode'*/];
+ const files = ['home', /*'panelist', 'episode'*/];
  const streams = files.map(function(fileName) {
   const fullFile = jsxPath + fileName + '.jsx';
   const bundler = browserify({

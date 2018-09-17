@@ -1,5 +1,92 @@
 [
   {
+    "episode": "066",
+    "title": "Type systems - a static drink list",
+    "description": "Static type systems in JavaScript provide a lot of value and have been growing in popularity. In this episode, we’re joined by Lauren Tan and Kunal Bohra to talk with us about the benefits of leveraging a type system in your codebase.",
+    "id": "500982759",
+    "published": "September 16, 2018",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam"
+    ],
+    "guests": [
+      {
+        "name": "Lauren Tan",
+        "twitter": "sugarpirate_"
+      },
+      {
+        "name": "Kunal Bohra",
+        "twitter": "do_i_need_1"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Marvel's Spider-Man",
+        "url": "https://store.playstation.com/en-us/product/UP9000-CUSA02299_00-MARVELSSPIDERMAN",
+        "from": "Lauren Tan"
+      },
+      {
+        "title": "Ken Wheeler - Love Songs For your Mother",
+        "url": "https://open.spotify.com/album/5SYR1HJgrsFqHCDkLgZP8p?si=EjYRXo5iTOuGMAXJGqtLSQ",
+        "from": "Lauren Tan"
+      },
+      {
+        "title": "The Seventh Seal",
+        "url": "https://www.imdb.com/title/tt0050976/",
+        "from": "Kunal Bohra"
+      },
+      {
+        "title": "What I Talk About When I Talk About Running",
+        "url": "https://www.amazon.com/What-Talk-About-When-Running/dp/0307389839",
+        "from": "Kunal Bohra"
+      },
+      {
+        "title": "Toddler Tattoos",
+        "url": "https://toddlertattoos.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Ozark",
+        "url": "https://www.netflix.com/title/80117552",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Stay Here",
+        "url": "https://www.netflix.com/title/80201870",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Lauren Tan's talk at React Rally",
+        "url": "https://www.youtube.com/watch?v=y3uXazpAdwo",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Kill or Cure",
+        "url": "http://kill-or-cure.herokuapp.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Luke Cage",
+        "url": "https://www.netflix.com/title/80002537",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Infinite",
+        "url": "https://www.amazon.com/Infinite-Jeremy-Robinson/dp/1941539335",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Panic Cord Remix",
+        "url": "https://open.spotify.com/track/7s61CkW9KFKc4E4R0BVoiq?si=xaGr80kcRuC_ljMIvNqtqg",
+        "from": "Ryan Anklam"
+      }
+    ]
+  },
+  {
     "episode": "065",
     "title": "Recruiting - do you have time for a quick beer?",
     "description": "We’ve had a lot of great recruiting discussions on previous episodes. In this episode, we’re joined by 3 recruiters, Matt Stephenson, Zack Skelly, and Chris Ahsing from 3 different startups to talk with us about how to stand out as an engineer, and what questions to ask recruiters about opportunities.",
