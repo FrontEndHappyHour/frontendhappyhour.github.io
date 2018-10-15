@@ -1,5 +1,94 @@
 [
   {
+    "episode": "068",
+    "title": "Progressive Web Apps - Pale Wheat Ale",
+    "description": "Progressive Web Apps have been hailed as the next big leap forward in building web applications. In this episode we’re joined by Aaron Gustafson from Microsoft to talk all about PWA’s and the future of the web.",
+    "id": "514458312",
+    "published": "October 14, 2018",
+    "transcribed": false,
+    "category": "",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Aaron Gustafson",
+        "twitter": "AaronGustafson"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Seeing White",
+        "url": "http://www.sceneonradio.org/seeing-white/",
+        "from": "Aaron Gustafson"
+      },
+      {
+        "title": "Uncivil",
+        "url": "http://www.gimletmedia.com/uncivil",
+        "from": "Aaron Gustafson"
+      },
+      {
+        "title": "Homegoing",
+        "url": "https://www.amazon.com/Homegoing-Yaa-Gyasi/dp/1101971061",
+        "from": "Aaron Gustafson"
+      },
+      {
+        "title": "Ng-Atlanta",
+        "url": "http://ng-atl.org",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Culture Code",
+        "url": "https://www.amazon.com/Culture-Code-Secrets-Highly-Successful/dp/0525492461",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Celeste",
+        "url": "http://www.celestegame.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Bao",
+        "url": "https://en.wikipedia.org/wiki/Bao_(film)",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Supreme Brick",
+        "url": "https://www.stadiumgoods.com/brick-red-su1187",
+        "from": "Jem Young"
+      },
+      {
+        "title": "LoFi Hip Hop",
+        "url": "https://www.youtube.com/watch?v=hHW1oY26kxQ",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Farfetch",
+        "url": "https://www.farfetch.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Wrong Days by Sun Glitters",
+        "url": "https://open.spotify.com/track/0spbJHJ3IgpLWMQj7S3lYS?si=WTOlUIx9RBiN9hSRdZ9Ubw",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Atome de danse by Mark Romboy",
+        "url": "https://open.spotify.com/track/0Xb6O0wdhcL9dthiWNgsFc?si=2d0etOJEQnOPj0oGULhQ-g",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Aaron Gustafson",
+        "url": "https://www.aaron-gustafson.com/",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "067",
     "title": "Ethics - to drink or not to drink?",
     "description": "In this episode, we recorded a special live discussion on ethics in software development. The panel discussion was part of Certified Fresh Events with host Brian Rinaldi.",
@@ -17,8 +106,7 @@
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "066",
