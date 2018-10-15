@@ -1,5 +1,26 @@
 [
   {
+    "episode": "067",
+    "title": "Ethics - to drink or not to drink?",
+    "description": "In this episode, we recorded a special live discussion on ethics in software development. The panel discussion was part of Certified Fresh Events with host Brian Rinaldi.",
+    "id": "507681750",
+    "published": "September 30, 2018",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Ryan Anklam",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "066",
     "title": "Type systems - a static drink list",
     "description": "Static type systems in JavaScript provide a lot of value and have been growing in popularity. In this episode, we’re joined by Lauren Tan and Kunal Bohra to talk with us about the benefits of leveraging a type system in your codebase.",
