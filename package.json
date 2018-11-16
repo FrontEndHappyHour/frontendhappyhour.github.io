@@ -43,7 +43,7 @@
     "gulp-uglify": "^2.1.2",
     "husky": "^0.14.3",
     "jshint-stylish": "^2.1.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.9.4",
     "prompt": "^1.0.0",
     "tape": "^4.5.1",
     "vinyl-source-stream": "^1.1.0"
@@ -54,7 +54,6 @@
     "jsonfile": "^2.2.3",
     "lodash": "^4.6.1",
     "mkdirp": "^0.5.1",
-    "node-sass": "^4.7.2",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "request": "^2.72.0"
