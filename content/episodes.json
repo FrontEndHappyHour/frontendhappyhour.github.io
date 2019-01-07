@@ -1,5 +1,71 @@
 [
   {
+    "episode": "072",
+    "title": "Engineering Performance",
+    "description": "Creating performant websites and applications continues to be really important, but what about engineering performance. How do we make sure we are improving our productivity as engineers. In this episode, we are joined Jacques Favreau and Michael Paulson from Netflix to hear more about their thoughts on being more productive.",
+    "id": "555198558",
+    "published": "January 6, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Jacques Favreau",
+        "twitter": "betaorbust"
+      },
+      {
+        "name": "Michael Paulson",
+        "twitter": "ThePrimeagen"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Netflix JS Talks",
+        "url": "https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA",
+        "from": "Jacques Favreau"
+      },
+      {
+        "title": "Fatherhood",
+        "url": "",
+        "from": "Michael Paulson"
+      },
+      {
+        "title": "Public speaker",
+        "url": "",
+        "from": "Michael Paulson"
+      },
+      {
+        "title": "Bad Blood",
+        "url": "https://www.netflix.com/title/80221787",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Robin Sushi",
+        "url": "http://www.robinsanfrancisco.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Measure the Change You Want to See in the World",
+        "url": "https://www.youtube.com/watch?v=f_wbCaSApFg",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Approachable Performance",
+        "url": "https://www.youtube.com/watch?v=sB5dwHjSRFc&t=2s",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Matt Levine",
+        "url": "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "071",
     "title": "Web Performance - Chugging our drinks down fast",
     "description": "Creating performant websites and applications continue to be more and more important. In this episode, we are joined by Addy Osmani to talk with us about web performance and some future web platform APIs that help improve performance.",
@@ -15,10 +81,10 @@
       "Stacy London"
     ],
     "guests": [
-        {
-          "name": "Addy Osmani",
-          "twitter": "addyosmani"
-        }
+      {
+        "name": "Addy Osmani",
+        "twitter": "addyosmani"
+      }
     ],
     "links": [],
     "picks": [
