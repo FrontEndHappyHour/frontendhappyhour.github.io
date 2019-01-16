@@ -104,7 +104,7 @@ module.exports = function main(pageType, content, title, desc) {
                    href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
                   <meta property="og:image"
                    content="${pageOG}">
-                  <link rel="icon" href="http://frontendhappyhour.com/favicon.ico" type="image/x-icon">
+                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
                   <link rel="canonical" href="http://frontendhappyhour.com/">
                   <link rel="stylesheet" href="${path}${css}" type="text/css" media="screen">
                   ${ga('UA-74493735-1')}

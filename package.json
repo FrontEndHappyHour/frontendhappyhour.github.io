@@ -7,8 +7,6 @@
     "build": "node build",
     "postmerge": "yarn install",
     "postrewrite": "yarn install",
-    "precommit": "node build mailing panelists",
-    "prepush": "NODE_ENV=production gulp javascript sass compress",
     "start": "gulp",
     "test": "gulp test"
   },
@@ -43,7 +41,7 @@
     "gulp-uglify": "^2.1.2",
     "husky": "^0.14.3",
     "jshint-stylish": "^2.1.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.9.4",
     "prompt": "^1.0.0",
     "tape": "^4.5.1",
     "vinyl-source-stream": "^2.0.0"

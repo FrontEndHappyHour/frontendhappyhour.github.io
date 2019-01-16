@@ -1,5 +1,293 @@
 [
   {
+    "episode": "072",
+    "title": "Pacing our drinks - Engineering Performance",
+    "description": "Creating performant websites and applications continues to be really important, but what about engineering performance. How do we make sure we are improving our productivity as engineers. In this episode, we are joined Jacques Favreau and Michael Paulson from Netflix to hear more about their thoughts on being more productive.",
+    "id": "555198558",
+    "published": "January 6, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Jacques Favreau",
+        "twitter": "betaorbust"
+      },
+      {
+        "name": "Michael Paulson",
+        "twitter": "ThePrimeagen"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Netflix JS Talks",
+        "url": "https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA",
+        "from": "Jacques Favreau"
+      },
+      {
+        "title": "Fatherhood",
+        "url": "",
+        "from": "Michael Paulson"
+      },
+      {
+        "title": "Public speaker",
+        "url": "",
+        "from": "Michael Paulson"
+      },
+      {
+        "title": "Bad Blood",
+        "url": "https://www.netflix.com/title/80221787",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Robin Sushi",
+        "url": "http://www.robinsanfrancisco.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Measure the Change You Want to See in the World",
+        "url": "https://www.youtube.com/watch?v=f_wbCaSApFg",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Approachable Performance",
+        "url": "https://www.youtube.com/watch?v=sB5dwHjSRFc&t=2s",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Matt Levine",
+        "url": "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
+    "episode": "071",
+    "title": "Web Performance - Chugging our drinks down fast",
+    "description": "Creating performant websites and applications continue to be more and more important. In this episode, we are joined by Addy Osmani to talk with us about web performance and some future web platform APIs that help improve performance.",
+    "id": "542365323",
+    "published": "December 9, 2018",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Addy Osmani",
+        "twitter": "addyosmani"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Great British Baking Show",
+        "url": "https://www.netflix.com/title/80063224",
+        "from": "Addy Osmani"
+      },
+      {
+        "title": "Chrome User Experience Report",
+        "url": "https://developers.google.com/web/tools/chrome-user-experience-report/",
+        "from": "Addy Osmani"
+      },
+      {
+        "title": "Addy’s Netflix Case study",
+        "url": "https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "PhotoPills",
+        "url": "https://www.photopills.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Final Table",
+        "url": "https://www.netflix.com/title/80201866",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Yoshi App",
+        "url": "https://www.startyoshi.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Ballad of Buster Scruggs",
+        "url": "https://www.netflix.com/title/80200267",
+        "from": "Jem Young"
+      },
+      {
+        "title": "All Systems Red",
+        "url": "https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/0765397536/ref=sr_1_1?s=books&ie=UTF8&qid=1543530699&sr=1-1&keywords=all+systems+red",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Android Call Screening",
+        "url": "https://www.androidcentral.com/call-screening-starts-appearing-some-google-pixel-and-pixel-xl-phones",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Guides by Lonely Planet",
+        "url": "https://itunes.apple.com/us/app/guides-by-lonely-planet/id1045791869?mt=8",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "React Profiler",
+        "url": "https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Daydream by Shelf Nunny",
+        "url": "https://open.spotify.com/album/381HbSeGGBmKitijpeDz7h",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "070",
+    "title": "Senior Engineer - Master Brewer",
+    "description": "We are often asked, what makes you a Senior Software Engineer. It’s not an easy answer, there are a lot of interesting thoughts and responses. In this episode, we are joined by Lauren Tan to help discuss our thoughts on what makes someone be a Senior Software Engineer over a Software Engineer.",
+    "id": "535541859",
+    "published": "November 25, 2018",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam"
+    ],
+    "guests": [
+      {
+        "name": "Lauren Tan",
+        "twitter": "sugarpirate_"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "DotJS",
+        "url": "https://www.dotjs.io/",
+        "from": "Lauren Tan"
+      },
+      {
+        "title": "React JS Hooks - Harry Wolff",
+        "url": "https://www.youtube.com/watch?v=jd8R0a2Ur8Q",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Joy Buolamwini: How I'm fighting bias in algorithms",
+        "url": "https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Haunting of Hill House",
+        "url": "https://www.netflix.com/title/80189221",
+        "from": "Jem Young"
+      },
+      {
+        "title": "El Mal Querer",
+        "url": "https://open.spotify.com/album/355bjCHzRJztCzaG5Za4gq?si=9DRfAsKTRaebWZXn8lbMrg",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Fifth Season",
+        "url": "https://www.amazon.com/Fifth-Season-Broken-Earth/dp/0316229296",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Code Runner plugin for VSCode",
+        "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Redux Sagas",
+        "url": "https://redux-saga.js.org/",
+        "from": "Ryan Anklam"
+      }
+    ]
+  },
+  {
+    "episode": "069",
+    "title": "Internships - Intern-sips",
+    "description": "Starting your career is a daunting task. You’ve learned these brand new skills, but how do you apply them and get experience? In this episode, we are joined by Moira Huang, to help us talk about internships and how best leverage an internship into a full time job.",
+    "id": "521388957",
+    "published": "October 28, 2018",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Ryan Anklam",
+      "Mars Jullian"
+    ],
+    "guests": [
+      {
+        "name": "Moira Huang",
+        "twitter": "MoiraHuang_"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Chihuly Garden",
+        "url": "https://www.chihulygardenandglass.com/",
+        "from": "Moira Huang"
+      },
+      {
+        "title": "Priscilla Chan",
+        "url": "https://www.youtube.com/watch?v=s8fN8HqoCMk",
+        "from": "Moira Huang"
+      },
+      {
+        "title": "Tales by Light",
+        "url": "https://www.netflix.com/title/80133187",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Github Actions",
+        "url": "https://css-tricks.com/introducing-github-actions/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Code Black",
+        "url": "https://www.cbs.com/shows/code-black/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "The Mentorship",
+        "url": "https://medium.com/@augburto/the-menternship-why-mentoring-isnt-a-chore-54c04e75335f",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Recovery - August Bell",
+        "url": "https://open.spotify.com/album/0NIvB8XXPj1sp1V2vJfid3",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Nike Air Zoom Pegasus 35",
+        "url": "https://www.nike.com/t/air-zoom-pegasus-35-mens-running-shoe-kX9NZL",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Spotify workday lounge playlist",
+        "url": "https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWT5lkChsPmpy?si=9GpUgHf1QZCHgjPCqdJb3Q",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Moleskine Voyageur notebook",
+        "url": "https://us.moleskine.com/voyageur-notebook-coffee-brown/p1329?ftm=8058647620381&gclid=Cj0KCQjw08XeBRC0ARIsAP_gaQCzfY9u-20qFc0vVExsyNaIWnE4-QCLOezOkrw135oXN7eaLv4EP84aAk-qEALw_wcB",
+        "from": "Mars Jullian"
+      }
+    ]
+  },
+  {
     "episode": "068",
     "title": "Progressive Web Apps - Pale Wheat Ale",
     "description": "Progressive Web Apps have been hailed as the next big leap forward in building web applications. In this episode we’re joined by Aaron Gustafson from Microsoft to talk all about PWA’s and the future of the web.",
