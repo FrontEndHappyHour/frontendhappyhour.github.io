@@ -4,6 +4,7 @@
   "tagline": "A podcast featuring a panel of Software Engineers from Netflix, Evernote, Atlassian & LinkedIn talking over drinks about all things Front End development.",
   "urls": [
     {
+      "spotify": "https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2",
       "itunes": "https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2",
       "rss": "https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss",
       "twitter": "https://twitter.com/frontendhh",
