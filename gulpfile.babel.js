@@ -51,22 +51,25 @@ gulp.task('nodeunit', () => gulp.src('tests/**/*.js')
 gulp.task('javascript', done => {
   const jsxPath = './jsx/';
   const files = ['home'];
-  return merge(files.map(fileName => {
+  const streams = files.map(fileName => {
     const fullFile = jsxPath + fileName + '.jsx';
     const bundler = browserify({
       extensions: ['.js', '.jsx'],
       transform: [['babelify', { presets: ['react', 'es2015'], plugins: ['transform-class-properties'] }]]
     });
-
-    bundler.on('error', err => { log.error(err.toString()); });
-
-    log.info(`Compiling File '${fileName}.jsx'.`);
-
-    return bundler.bundle()
+  
+    bundler.add(fullFile);
+  
+    const stream = bundler.bundle();
+    stream.on('error', function (err) { console.error(err.toString()); });
+  
+    stream
       .pipe(source(fullFile))
       .pipe(rename(fileName + '.js'))
       .pipe(gulp.dest('public/js/'));
-  }));
+    console.log(`${fileName}.js created`);
+   });
+   done();
 });
 
 gulp.task('compress', () => gulp.src('./public/js/*.js')
