@@ -12,7 +12,7 @@ module.exports = function content(page, title, desc) {
   // create directory
   mkdirp.sync(`./${page}/`);
 
-  console.log(' length ' + clothingContent.length)
+  console.log(' length ' + clothingContent.length);
 
   let mens = '';
   let womens = '';
@@ -31,7 +31,6 @@ module.exports = function content(page, title, desc) {
       }
     }
   }
-
 
   // create index.html for page
   write(`./${page}/index.html`, main(page, `<div class="container"><h2>Mens</h2><ul class="shirts">${mens}</ul><h2>Womens</h2><ul class="shirts">${womens}</ul></div>`, title, desc));

@@ -89,9 +89,7 @@ if (identifier !== undefined) {
       createDetails(ep);
     }
   }
-// if there wasn't an argument passed find the last episode details  
+// if there wasn't an argument passed find the last episode details
 } else {
   createDetails(0);
 }
-
-
