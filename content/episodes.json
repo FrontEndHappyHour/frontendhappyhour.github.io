@@ -1,5 +1,57 @@
 [
   {
+    "episode": "073",
+    "title": "Drinks to go - Native mobile solutions",
+    "description": "There are a lot of great solutions available to support a native mobile experience for your application, but what’s the best option? In this episode we are joined by Jordanna Kwok from Netflix, to talk with us about some of the solutions and how to think through the best solution.",
+    "id": "",
+    "published": "January 20, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Jordanna Kwok",
+        "twitter": "jordeewok"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Veronica Lewis Birdbox Tweet",
+        "url": "https://twitter.com/veron4ica/status/1081636644753674240",
+        "from": "Jordanna Kwok"
+      },
+      {
+        "title": "You",
+        "url": "https://www.netflix.com/title/80211991",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Black Mirror Bandersnatch",
+        "url": "https://www.netflix.com/title/80988062",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Netflix UIE JavaScript Talk Bandersnatch",
+        "url": "https://javascripttalks2019.splashthat.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Gymkhana Files",
+        "url": "https://www.amazon.com/The-Gymkhana-Files-Season-1/dp/B07J5H8PZV",
+        "from": "Jem Young"
+      },
+      {
+        "title": "ForwardJS",
+        "url": "https://forwardjs.com/",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "072",
     "title": "Pacing our drinks - Engineering Performance",
     "description": "Creating performant websites and applications continues to be really important, but what about engineering performance? How do we make sure we are improving our productivity as engineers? In this episode, we are joined Jacques Favreau and Michael Paulson from Netflix to hear more about their thoughts on being more productive.",
