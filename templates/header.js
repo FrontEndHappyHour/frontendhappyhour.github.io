@@ -14,6 +14,7 @@ module.exports = function header(path) {
                     <ul class="feeds">
                         <li><a href="${strings.urls[0].spotify}"><img src="${path}public/img/spotify.svg" alt="Follow our Spotify podcast"></a></li>
                         <li><a href="${strings.urls[0].itunes}"><img src="${path}public/img/podcast.svg" alt="Subscribe to iTunes Podcast"></a></li>
+                        <li><a href="${strings.urls[0].googlepodcasts}"><img src="${path}public/img/googlepodcasts.svg" alt="Follow us on Google Podcasts"></a></li>
                         <li><a href="${strings.urls[0].rss}"><img src="${path}public/img/rss.svg" alt="Subscribe to RSS feed"></a></li>
                         <li><a href="${strings.urls[0].twitter}"><img src="${path}public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
                         <li><a href="${strings.urls[0].facebook}"><img src="${path}public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
