@@ -1,3 +1,8 @@
+/*
+ * Episodes component that shows a component in the Episodes list on the
+ * homepage.
+ */
+
 import React from 'react';
 
 class Episodes extends React.Component {
