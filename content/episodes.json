@@ -1,5 +1,79 @@
 [
   {
+    "episode": "074",
+    "title": "Beer money - negotiating salaries",
+    "description": "We’ve talked about interviewing for engineering jobs, but once you have an offer, how do you negotiate the salary? In this episode, we’re joined by Matthew Gerstman, an engineer from Dropbox to talk with us about salaries, and stock.",
+    "id": "569783553",
+    "published": "February 3, 2019",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Matthew Gerstman",
+        "twitter": "MatthewGerstman"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Be More Chill Musical",
+        "url": "http://bemorechillmusical.com/",
+        "from": "Matthew Gerstman"
+      },
+      {
+        "title": "Puffs the play",
+        "url": "http://www.puffstheplay.com/",
+        "from": "Matthew Gerstman"
+      },
+      {
+        "title": "Double your salary with this one simple trick - Matthew Gerstman",
+        "url": "https://www.youtube.com/watch?v=m1XdasrstCc",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Engineering Management: The Pendulum or the ladder",
+        "url": "https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Fearless Salary Negotiation",
+        "url": "https://fearlesssalarynegotiation.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Project Alias",
+        "url": "https://www.producthunt.com/posts/project-alias",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "2018 Logo Trends",
+        "url": "https://www.logolounge.com/articles/2018-logo-trends",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Hired",
+        "url": "https://hired.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "2nd World by HVOB",
+        "url": "https://open.spotify.com/album/7abnLAJGMdl7uNXkR047dY",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Phaedra - 1995 Remaster by Tangerine Dream",
+        "url": "https://open.spotify.com/album/7KRXWeJYBkyUmwOFTayiQk",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "073",
     "title": "Drinks to go - Native mobile solutions",
     "description": "There are a lot of great solutions available to support a native mobile experience for your application, but what’s the best option? In this episode we are joined by Jordanna Kwok from Netflix, to talk with us about some of the solutions and how to think through the best solution.",
