@@ -77,7 +77,7 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   // transcript
   if(transcript === true) {
     const transcriptContent = require('./transcripts/' + episodeNum)();
-    episodeOutput += '<div class="transcript"><h3>Episode transcript</h3>';
+    episodeOutput += '<div class="transcript container"><h3>Episode transcript</h3>';
     episodeOutput += transcriptContent;
     episodeOutput += '</div>';
   }
