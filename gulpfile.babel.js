@@ -1,17 +1,17 @@
-const gulp = require('gulp');
-const sass = require('gulp-sass');
-const minifyCSS = require('gulp-minify-css');
-const nodeunit = require('gulp-nodeunit');
-const jshintStyle = require('jshint-stylish');
-const jsonlint = require('gulp-jsonlint');
-const eslint = require('gulp-eslint');
-const svgmin = require('gulp-svgmin');
-const browserify = require('browserify');
-const uglify = require('gulp-uglify');
-const rename = require('gulp-rename');
-const source = require('vinyl-source-stream');
-const merge = require('merge-stream');
-const log = require('fancy-log');
+import gulp from 'gulp';
+import sass from 'gulp-sass';
+import minifyCSS from 'gulp-minify-css';
+import nodeunit from 'gulp-nodeunit';
+import jshintStyle from 'jshint-stylish';
+import jsonlint from 'gulp-jsonlint';
+import eslint from 'gulp-eslint';
+import svgmin from 'gulp-svgmin';
+import browserify from 'browserify';
+import uglify from 'gulp-uglify';
+import rename from 'gulp-rename';
+import source from 'vinyl-source-stream';
+import merge from 'merge-stream';
+import log from 'fancy-log';
 
 gulp.task('sass', () => gulp.src('sass/**/*.scss')
     .pipe(sass())
@@ -51,33 +51,43 @@ gulp.task('nodeunit', () => gulp.src('tests/**/*.js')
 gulp.task('javascript', done => {
   const jsxPath = './jsx/';
   const files = ['home'];
-  return merge(files.map(fileName => {
+  let i = 0;
+  const streams = files.map(fileName => {
     const fullFile = jsxPath + fileName + '.jsx';
     const bundler = browserify({
       extensions: ['.js', '.jsx'],
       transform: [['babelify', { presets: ['react', 'es2015'], plugins: ['transform-class-properties'] }]]
     });
 
-    bundler.on('error', err => { log.error(err.toString()); });
+    bundler.add(fullFile);
 
-    log.info(`Compiling File '${fileName}.jsx'.`);
+    const stream = bundler.bundle();
+    stream.on('error', err => log.error(err));
 
-    return bundler.bundle()
+    stream
       .pipe(source(fullFile))
       .pipe(rename(fileName + '.js'))
       .pipe(gulp.dest('public/js/'));
-  }));
+    log(`${fileName}.js created`);
+    i++;
+    if (i === files.length) {
+      done();
+    }
+   });
 });
 
-gulp.task('compress', () => gulp.src('./public/js/*.js')
+gulp.task('compress', done => {
+  gulp.src('./public/js/*.js')
     .pipe(uglify())
+    .on('error', err => log.error(err))
     .pipe(rename({
        extname: '.min.js'
      }))
-    .pipe(gulp.dest('./public/js/min/'))
-);
+    .pipe(gulp.dest('./public/js/min/'));
+    done();
+  });
 
-gulp.task('scripts', gulp.parallel(['lint', 'javascript', 'compress']));
+gulp.task('scripts', gulp.series(['lint', 'javascript', 'compress']));
 
 gulp.task('watch', done => {
   gulp.watch('sass/**/*.scss', gulp.series(['sass']));
