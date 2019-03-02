@@ -1,5 +1,90 @@
 [
   {
+    "episode": "076",
+    "title": "Bandersnatching our drinks",
+    "description": "Bandersnatch is an exciting Netflix interactive film that’s not only an amazing story, it has seamless experience that Netflix engineering teams have created. In this episode, we are joined by engineering managers, Maria Kazandjieva, Maxine Cheung, and Courtney Kennedy to talk about the work their teams have done to make Bandersnatch possible.",
+    "id": "",
+    "published": "March 3, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Maria Kazandjieva",
+        "twitter": "stranger_quark"
+      },
+      {
+        "name": "Maxine Cheung",
+        "twitter": ""
+      },
+      {
+        "name": "Courtney Kennedy",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Tidying Up with  Marie Kondo",
+        "url": "https://www.netflix.com/title/80209379",
+        "from": "Maxine Cheung"
+      },
+      {
+        "title": "Sour Beer - Alvarado Street Brewing",
+        "url": "http://www.alvaradostreetbrewery.com/",
+        "from": "Maria Kazandjieva"
+      },
+      {
+        "title": "Autotune Cats",
+        "url": "https://www.youtube.com/watch?v=vanP07y1Xgw",
+        "from": "Maria Kazandjieva"
+      },
+      {
+        "title": "Amusing Ourselves to Death",
+        "url": "https://www.amazon.com/Amusing-Ourselves-Death-Discourse-Business/dp/014303653X",
+        "from": "Maria Kazandjieva"
+      },
+      {
+        "title": "Arctic Monkeys - Tranquility Base Hotel & Casino",
+        "url": "https://open.spotify.com/album/1jeMiSeSnNS0Oys375qegp",
+        "from": "Maria Kazandjieva"
+      },
+      {
+        "title": "Scott Manley",
+        "url": "https://www.youtube.com/channel/UCxzC4EngIsMrPmbm6Nxvb-A",
+        "from": "Maria Kazandjieva"
+      },
+      {
+        "title": "Quincy Documentary",
+        "url": "https://www.netflix.com/title/80102952",
+        "from": "Courtney Kennedy"
+      },
+      {
+        "title": "The Upside of Stress",
+        "url": "https://www.amazon.com/Upside-Stress-Why-Good-You/dp/1101982934",
+        "from": "Courtney Kennedy"
+      },
+      {
+        "title": "Foam Back Roller",
+        "url": "https://www.amazon.com/Inch-Length-Round-Eco-Friendly-Flexibility/dp/B00NVNHOQQ?ref_=fsclp_pl_dp_6",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Umbrella Academy",
+        "url": "https://www.netflix.com/title/80186863",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Young Blood",
+        "url": "https://www.theverge.com/platform/amp/2019/2/19/18231673/young-blood-fda-warning-aging-plasma",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "075",
     "title": "Component libraries - sharing our drinks",
     "description": "In this episode, we are joined by Jeeyun Linn, and Cole Turner to talk with us about building and using component libraries in a company.",
