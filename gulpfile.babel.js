@@ -56,7 +56,7 @@ gulp.task('javascript', done => {
     const fullFile = jsxPath + fileName + '.jsx';
     const bundler = browserify({
       extensions: ['.js', '.jsx'],
-      transform: [['babelify', { presets: ['react', 'es2015'], plugins: ['transform-class-properties'] }]]
+      transform: [['babelify', { presets: ['react', 'es2015'], plugins: ['transform-class-properties', 'syntax-dynamic-import'] }]]
     });
 
     bundler.add(fullFile);
@@ -74,6 +74,7 @@ gulp.task('javascript', done => {
       done();
     }
    });
+   return merge.apply(streams);
 });
 
 gulp.task('compress', done => {

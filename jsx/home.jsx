@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Episodes from './episodes';
-import episodes from '../content/episode-list.json';
+import EpisodeList from './episode-list';
 import createUrl from '../lib/create-url';
 import pageUrlData from '../lib/page-url-data';
 
-const epList = Array.prototype.reverse.call(episodes);
+const episodeListURL = 
+  "https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/master/content/episode-list.json";
 
 class App extends React.Component {
   constructor(props) {
@@ -14,13 +15,27 @@ class App extends React.Component {
     const numOnPage = 5;
     const pageData = pageUrlData(numOnPage);
     this.state = {
-      episodeList: epList,
+      isLoading: true,
+      episodeList: [],
       startValue: pageData.startValue,
       listNum: pageData.listNum,
       numOnPage,
       showPrev: pageData.startValue !== 0,
-      showNext: true
+      showNext: false
     };
+  }
+
+  componentDidMount() {
+    fetch(episodeListURL).then(response => {
+      response.json().then(responseJSON => {
+        const epList = Array.prototype.reverse.call(responseJSON);
+        this.setState({
+          episodeList: epList,
+          isLoading: false,
+          showNext: epList.length > 0
+        });
+      });
+    });
   }
 
   showPrevButton = (show) => {
@@ -33,7 +48,10 @@ class App extends React.Component {
 
   previousList = () => {
     if(this.state.startValue >= 0) {
-      this.setState({ startValue: this.state.startValue - this.state.numOnPage, listNum: this.state.listNum - this.state.numOnPage });
+      this.setState({
+        startValue: this.state.startValue - this.state.numOnPage,
+        listNum: this.state.listNum - this.state.numOnPage
+      });
     }
 
     // show next button
@@ -74,20 +92,15 @@ class App extends React.Component {
       </a>;
     }
 
+    // pass only the episodes relevant for rendering
+    const episodes = this.state.episodeList.slice(this.state.startValue, this.state.listNum);
     return (
       <div>
-        <ul>
-          {this.state.episodeList.map((ep, i) => {
-            const url = createUrl('/episodes/' + ep.title);
-            i++;
-            if(i > this.state.startValue && i <= this.state.listNum) {
-              return (
-                <Episodes key={i} epNum={ep.episode} url={url} title={ep.title} date={ep.published} description={ep.description} />
-              );
-            }
-            return null;
-          })}
-        </ul>
+        <EpisodeList
+          episodes={episodes}
+          listNum={this.state.listNum}
+          isLoading={this.state.isLoading}
+        />
         <div className="paging container">
           {prevButton}
           {nextButton}
