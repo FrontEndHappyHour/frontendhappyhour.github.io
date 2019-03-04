@@ -6,31 +6,19 @@
 // SassySass v1.3.1
 // ------------------------------------------------------------
 
-.episodes{
+.episodes {
   margin-top: 30px;
   margin-bottom: 30px;
 
-  .episode-number{
-    display: inline-block;
-    font-size: 28px;
-    background: $darkBlue;
-    color: white;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    border-radius: 70px;
+  h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
   }
 
   p{
     width: 100%;
     margin-left: 85px;
-  }
-
-  h2{
-    font-size: 32px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
   }
 
   a{
@@ -52,16 +40,6 @@
     }
   }
 
-  .title{
-    font-size: 36px;
-    margin: 0 0 0 15px;
-    width: calc(100% - 85px);
-  }
-
-  .date {
-    font-style: italic;
-  }
-
   ul, ol{
     li{
       position: relative;
@@ -71,8 +49,31 @@
       }
     }
   }
+}
 
-  @media (max-width: 450px) {
+.episode {
+  .episode-number{
+    display: inline-block;
+    font-size: 28px;
+    background: $darkBlue;
+    color: white;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 70px;
+  }
+
+  .title{
+    font-size: 36px;
+    width: calc(100% - 85px);
+  }
+
+  .date {
+    font-style: italic;
+  }
+
+  @media (max-width: 600px) {
     .episode-number {
       margin: 0 10px 0 0;
       order: 1;

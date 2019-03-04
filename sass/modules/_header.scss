@@ -12,7 +12,7 @@ header{
   margin-bottom: 30px;
   height: 200px;
 
-  @include max-breakpoint(480) {
+  @include max-breakpoint(600) {
     height: auto;
   }
 
@@ -28,7 +28,7 @@ header{
     margin: 0 auto;
     display: block;
 
-    @include min-breakpoint(480){
+    @include min-breakpoint(600){
       float: left;
       margin: 0;
     }

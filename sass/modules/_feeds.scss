@@ -9,7 +9,7 @@
 .feeds {
   text-align: center;
 
-  @include min-breakpoint(480){
+  @include min-breakpoint(600){
     float: right;
     margin: 0;
   }
@@ -27,7 +27,7 @@
         opacity: 0.7;
       }
 
-      @include min-breakpoint(480) {
+      @include min-breakpoint(600) {
         width: 30px;
         height: 30px;
       }
