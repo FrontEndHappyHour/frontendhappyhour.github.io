@@ -4,7 +4,7 @@
   "description": "Front End Happy Hour website",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "node build",
+    "build": "node build && gulp beautify-html",
     "postmerge": "yarn install",
     "postrewrite": "yarn install",
     "start": "gulp",
@@ -32,6 +32,7 @@
     "eslint": "^2.7.0",
     "eslint-plugin-babel": "^3.2.0",
     "gulp": "^4.0.0",
+    "gulp-beautify": "^3.0.0",
     "gulp-eslint": "^2.1.0",
     "gulp-jsonlint": "^1.1.1",
     "gulp-minify-css": "^1.2.1",
