@@ -9,6 +9,7 @@ import svgmin from 'gulp-svgmin';
 import browserify from 'browserify';
 import uglify from 'gulp-uglify';
 import rename from 'gulp-rename';
+import beautify from 'gulp-beautify';
 import source from 'vinyl-source-stream';
 import merge from 'merge-stream';
 import log from 'fancy-log';
@@ -45,6 +46,11 @@ gulp.task('nodeunit', () => gulp.src('tests/**/*.js')
         output: 'test-output'
       }
     }))
+);
+
+gulp.task('beautify-html', () => gulp.src('./**/*.html')
+  .pipe(beautify.html({ indent_size: 2 }))
+  .pipe(gulp.dest('.'))
 );
 
 // build javascript bundles
@@ -99,6 +105,6 @@ gulp.task('watch', done => {
 
 gulp.task('test', gulp.series(['jsonlint', 'lint', 'nodeunit']));
 
-gulp.task('build', gulp.parallel(['scripts', 'sass', 'svgmin']));
+gulp.task('build', gulp.parallel(['scripts', 'sass', 'svgmin', 'beautify-html']));
 
 gulp.task('default', gulp.series(['build', 'test', 'watch']));
