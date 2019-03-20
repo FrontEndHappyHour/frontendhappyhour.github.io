@@ -21,8 +21,8 @@ const EpisodeList = ({
   if (isLoading || episodes.length === 0) {
     return (
       <ul>
-        {Array(listNum).fill().map((empty) => {
-          return <PlaceholderEpisodes />;
+        {Array(listNum).fill().map((empty, i) => {
+          return <PlaceholderEpisodes key={i} />;
         })}
       </ul>
     );

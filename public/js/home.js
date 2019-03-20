@@ -42,8 +42,8 @@ var EpisodeList = function EpisodeList(_ref) {
     return _react2.default.createElement(
       'ul',
       null,
-      Array(listNum).fill().map(function (empty) {
-        return _react2.default.createElement(_placeholderEpisodes2.default, null);
+      Array(listNum).fill().map(function (empty, i) {
+        return _react2.default.createElement(_placeholderEpisodes2.default, { key: i });
       })
     );
   }
