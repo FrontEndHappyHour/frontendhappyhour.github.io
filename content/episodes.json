@@ -17,43 +17,58 @@
     "links": [],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "Photos with iCloud",
+        "url": "https://support.apple.com/en-us/HT204264",
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Workin’ Moms",
+        "url": "https://www.netflix.com/title/80198991",
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "The OA season 2",
+        "url": "https://www.netflix.com/title/80044950",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Silicon Valley Smash",
+        "url": "https://svsmash.splashthat.com/",
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Chrome 73 update (installing PWAs via Chrome in Mac!)",
+        "url": "https://developers.google.com/web/updates/2019/03/nic73",
         "from": "Augustus Yuan"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "three.js/editor",
+        "url": "https://threejs.org/editor/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Casper Glow",
+        "url": "https://casper.com/glow-light/",
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Oakley Prizm",
+        "url": "https://www.oakley.com/en-us/prizm",
         "from": "Jem Young"
       },
       {
-        "title": "",
+        "title": "Love, Death, and Robots",
+        "url": "https://www.netflix.com/title/80174608",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Screenshots in Chrome (Cmd+Shift+P with DevTools open then type ‘screenshot’)",
         "url": "",
         "from": "Stacy London"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Daniel Avery’s Song for Alpha album",
+        "url": "https://open.spotify.com/album/2ZJvD9UiI3NcoPS8K7IF5i?si=HguMqn6PSiq_hjqEHiR4dQ",
         "from": "Stacy London"
       }
     ]
