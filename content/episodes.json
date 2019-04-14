@@ -1,5 +1,37 @@
 [
   {
+    "episode": "078",
+    "title": "Our drinking is overrated",
+    "description": "In this episode, Jem and Ryan each toss out frontend terms, languages, technologies, and patterns to debate if they are underrated or overrated.",
+    "id": "605964183",
+    "published": "April 14, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Martha & Bros. Coffee",
+        "url": "https://www.marthabros.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "True Detective Season 3",
+        "url": "https://www.hbo.com/true-detective/season-3/season-3-everything-you-need-to-know-cast-trailer",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Losers",
+        "url": "https://www.netflix.com/title/80198306",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "077",
     "title": "Career growth - beers and careers",
     "description": "In past episodes, we’ve shared our thoughts on helping others grow or how to help interns in your company, but we haven’t discussed our thoughts on our own career growth. In this episode, we’ll share our thoughts and opinions on career growth.",
