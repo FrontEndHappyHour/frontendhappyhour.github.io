@@ -1,5 +1,109 @@
 [
   {
+    "episode": "079",
+    "title": "Home-brewing front end culture",
+    "description": "In this episode, we are joined by Katie Sylor-Miller, a Staff Software Engineer from Etsy, to talk with us about ways to help build and foster a frontend culture within your companies.",
+    "id": "612772302",
+    "published": "April 28, 2019",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Katie Sylor-Miller",
+        "twitter": "ksylor"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Fascinating Chimera Project",
+        "url": "https://thefascinatingchimeraproject.bandcamp.com/",
+        "from": "Katie Sylor-Miller"
+      },
+      {
+        "title": "Karbon.now.sh",
+        "url": "https://karbon.now.sh/",
+        "from": "Katie Sylor-Miller"
+      },
+      {
+        "title": "Tiki bar - Pagan Idol",
+        "url": "https://www.paganidol.com/",
+        "from": "Katie Sylor-Miller"
+      },
+      {
+        "title": "Tiki bar - Tonga room",
+        "url": "https://www.tongaroom.com/",
+        "from": "Katie Sylor-Miller"
+      },
+      {
+        "title": "Tiki bar - Smugglers Cove",
+        "url": "http://www.smugglerscovesf.com/",
+        "from": "Katie Sylor-Miller"
+      },
+      {
+        "title": "Tiki bar - Last Rites",
+        "url": "https://www.lastritesbar.com/",
+        "from": "Katie Sylor-Miller"
+      },
+      {
+        "title": "Tiki bar - Frankie’s Tiki room",
+        "url": "http://www.frankiestikiroom.com/",
+        "from": "Katie Sylor-Miller"
+      },
+      {
+        "title": "Skywalk.er",
+        "url": "https://www.instagram.com/skywalk.er/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Humza Deas",
+        "url": "https://www.instagram.com/humzadeas/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Spiderman: Into the spider-verse",
+        "url": "https://www.imdb.com/title/tt4633694/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Deadpool 2",
+        "url": "https://www.imdb.com/title/tt5463162/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Plus codes",
+        "url": "https://plus.codes/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Inside deals",
+        "url": "https://inside.com/deals",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Routing with React hooks",
+        "url": "https://parastudios.de/modern-and-clean-routing-with-hooks/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Stimulation by Ellen Allien",
+        "url": "https://open.spotify.com/track/5FN7GiTllKfK1qSyWytFmp?si=EKcFcXojTLKFk3l9IZ-1Aw",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Pour by Recondite",
+        "url": "https://open.spotify.com/album/5DudjTM01Qm2l4GB6IVsz2",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "078",
     "title": "Our drinking is overrated",
     "description": "In this episode, Jem and Ryan each toss out frontend terms, languages, technologies, and patterns to debate if they are underrated or overrated.",
