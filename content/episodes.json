@@ -1,5 +1,78 @@
 [
   {
+    "episode": "081",
+    "title": "CSS - continually sipping sazeracs",
+    "description": "In this episode, we are joined by Tyler Childs, a Senior Software Engineer at Netflix to talk with us about building out scalable CSS and share some of the exciting new features in the latest version of CSS.",
+    "id": "627064941",
+    "published": "May 26, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam"
+    ],
+    "guests": [
+      {
+        "name": "Tyler Childs",
+        "twitter": "TylerChilds"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Fantasy Survivor Game.com",
+        "url": "",
+        "from": "Tyler Childs"
+      },
+      {
+        "title": "Laphroaig Triple Wood Whisky",
+        "url": "https://www.laphroaig.com/product/triple-wood",
+        "from": "Tyler Childs"
+      },
+      {
+        "title": "Marvel 1602",
+        "url": "https://www.amazon.com/Marvel-1602-Neil-Gaiman/dp/0785141340",
+        "from": "Tyler Childs"
+      },
+      {
+        "title": "Batman Hush",
+        "url": "https://www.amazon.com/Batman-Hush-Jeph-Loeb/dp/1401223176",
+        "from": "Tyler Childs"
+      },
+      {
+        "title": "The Wake",
+        "url": "https://www.amazon.com/Wake-Scott-Snyder/dp/1401254918",
+        "from": "Tyler Childs"
+      },
+      {
+        "title": "The Five Dysfunctions of a Team: A Leadership Fable",
+        "url": "https://www.amazon.com/Overcoming-Five-Dysfunctions-Team-first/dp/B004O2JWHC",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Pathfinding with A*",
+        "url": "http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Writing a game loop",
+        "url": "https://isaacsukin.com/news/2015/01/detailed-explanation-javascript-game-loops-and-timing",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Hooka Speedgoat",
+        "url": "https://www.hokaoneone.com/speedgoat/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Milwaukee Bucks",
+        "url": "https://www.nba.com/bucks/?tmd=1",
+        "from": "Ryan Anklam"
+      }
+    ]
+  },
+  {
     "episode": "080",
     "title": "User experience - what if users are drunk?",
     "description": "In this episode, we are joined by Randall Koutnik, a Senior Software Engineer at Slack to talk with us about how we should be thinking about ways to build better user experiences.",
