@@ -1,5 +1,63 @@
 [
   {
+    "episode": "086",
+    "title": "A new brand of bourbon - code migrations",
+    "description": "We’ve all faced some form of code migration in the past and wanted to share some of the things we’ve learned. In this episode, we’re joined by Micah Ransdell, a Software Engineering Manager at Netflix to talk with us about migrating a codebase.",
+    "id": "667804070",
+    "published": "August 18, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam"
+    ],
+    "guests": [
+      {
+        "name": "Micah Ransdell",
+        "twitter": "micahransdell"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "React Rally",
+        "url": "https://www.reactrally.com/",
+        "from": "Micah Ransdell"
+      },
+      {
+        "title": "Wemo light switches",
+        "url": "https://www.belkin.com/us/p/P-F7C030/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "How Brokerages Make Money",
+        "url": "https://www.kalzumeus.com/2019/6/26/how-brokerages-make-money/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Managing Yourself",
+        "url": "https://hbr.org/2010/05/managing-yourself-bringing-out-the-best-in-your-people",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Forge",
+        "url": "https://firstbuild.com/products/forge/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Conditional types in TypeScript",
+        "url": "https://artsy.github.io/blog/2018/11/21/conditional-types-in-typescript/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Roomba",
+        "url": "https://www.irobot.com/?gclid=EAIaIQobChMIga_u87zd4wIVVuDtCh1RzAE2EAAYASAAEgJpvPD_BwE",
+        "from": "Ryan Anklam"
+      }
+    ]
+  },
+  {
     "episode": "085",
     "title": "The art of mixology - creative coding",
     "description": "In this episode, we are joined by a returning guest, Shirley Wu to talk with us about the combination of code and art.",
