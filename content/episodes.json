@@ -1,5 +1,53 @@
 [
   {
+    "episode": "087",
+    "title": "Open bar - all things open source",
+    "description": "As engineers we have a lot of excellent tools and resources to help us do our jobs well, one of those resources is open source code. In this episode, we will be talking about all things open source.",
+    "id": "681710153",
+    "published": "September 15, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Mars Jullian"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Hyperdrive",
+        "url": "https://www.netflix.com/title/80189648",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Unbelievable",
+        "url": "https://www.netflix.com/title/80153467",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Boys",
+        "url": "https://www.amazon.com/dp/B07QQQ52B3/ref=dvm_us_dl_sl_go_ast_19BOY_TLe%7Cc_375798336448_m_lravi60A-dc_s__?gclid=CjwKCAjwwvfrBRBIEiwA2nFiPdVNJ1nQGkHf4yqgHo1UlDTJVZg7UAVIyEQ5f-wIMkbmaL7yiyU40RoCqlEQAvD_BwE",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Hamilton",
+        "url": "https://hamiltonmusical.com/new-york/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Queer Eye - Japan",
+        "url": "https://www.netflix.com/title/81075744",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Blue Star Donuts Portland",
+        "url": "https://www.bluestardonuts.com/",
+        "from": "Mars Jullian"
+      }
+    ]
+  },
+  {
     "episode": "086",
     "title": "A new brand of bourbon - code migrations",
     "description": "We’ve all faced some form of code migration in the past and wanted to share some of the things we’ve learned. In this episode, we’re joined by Micah Ransdell, a Software Engineering Manager at Netflix to talk with us about migrating a codebase.",
