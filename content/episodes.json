@@ -1,5 +1,99 @@
 [
   {
+    "episode": "088",
+    "title": "Tech lead engineer - herding cats & drinks",
+    "description": "We often talk a lot about growth path as engineers. One of those growth paths could be a tech lead engineer. In this episode, we are joined by Tony Edwards to help talk with us about what the role and responsibilities of a lead engineer are.",
+    "id": "688777228",
+    "published": "September 29, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Tony Edwards",
+        "twitter": "tedwards947"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Lana Del Rey: Norman Fucking Rockwell",
+        "url": "https://open.spotify.com/album/5XpEKORZ4y6OrCZSKsi46A",
+        "from": "Tony Edwards"
+      },
+      {
+        "title": "The Indicator from Planet Money",
+        "url": "https://www.npr.org/podcasts/510325/the-indicator-from-planet-money",
+        "from": "Tony Edwards"
+      },
+      {
+        "title": "Steve1989MREInfo",
+        "url": "https://www.youtube.com/channel/UC2I6Et1JkidnnbWgJFiMeHA",
+        "from": "Tony Edwards"
+      },
+      {
+        "title": "Everybody Matters",
+        "url": "https://www.amazon.com/Everybody-Matters-Extraordinary-Caring-People-ebook/dp/B00SI02E5S/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Super Pumped: The Battle for Uber",
+        "url": "https://www.amazon.com/Super-Pumped-Battle-Uber/dp/B07RT152TJ/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Abstract Season 2",
+        "url": "https://www.netflix.com/title/80057883",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Great British Baking Show",
+        "url": "https://www.netflix.com/title/80063224",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Duer Jeans",
+        "url": "https://shopduer.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Frontend Masters - Full Stack",
+        "url": "https://frontendmasters.com/learn/fullstack/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Airbnb open homes program",
+        "url": "https://www.airbnb.com/openhomes",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "catalogchoice.org",
+        "url": "https://catalogchoice.org",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Fear Inoculum by Tool",
+        "url": "https://open.spotify.com/album/7acEciVtnuTzmwKptkjth5?si=a8TGIu0QTQeoNabOVaV4YQ",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Blood Year by Russian Circles",
+        "url": "https://open.spotify.com/album/1LWWmVyhDxFAxBmQe3ecZb?si=PKx_SK51QG6tjVUfXmrboA",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Unending by Cloudkicker",
+        "url": "https://open.spotify.com/album/0tPKMMTGWdnB5LyWEj74tX?si=nqOc-5HYSZGbtWrXaeLovw",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "087",
     "title": "Open bar - all things open source",
     "description": "As engineers we have a lot of excellent tools and resources to help us do our jobs well, one of those resources is open source code. In this episode, we will be talking about all things open source.",
