@@ -47,7 +47,7 @@ Object.keys(episodes).forEach(function(key) {
 jsonfile.writeFile('./content/episodes.json', temp, {spaces: 2}, function(err) {
   if(err) {
     console.log(err);
-  }else {
+  }else{
     console.log(`Episodes updated with episode ${epNum}`);
   }
 });

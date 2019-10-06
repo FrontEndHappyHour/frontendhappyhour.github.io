@@ -49,7 +49,7 @@ gulp.task('nodeunit', () => gulp.src('tests/**/*.js')
 );
 
 gulp.task('beautify-html', () => gulp.src('./**/*.html')
-  .pipe(beautify.html({ indent_size: 2 }))
+  .pipe(beautify.html({ indent_size: 2 })) // eslint-disable-line camelcase
   .pipe(gulp.dest('.'))
 );
 
@@ -76,11 +76,11 @@ gulp.task('javascript', done => {
       .pipe(gulp.dest('public/js/'));
     log(`${fileName}.js created`);
     i++;
-    if (i === files.length) {
+    if(i === files.length) {
       done();
     }
-   });
-   return merge.apply(streams);
+  });
+  return merge.apply(streams);
 });
 
 gulp.task('compress', done => {
@@ -88,8 +88,8 @@ gulp.task('compress', done => {
     .pipe(uglify())
     .on('error', err => log.error(err))
     .pipe(rename({
-       extname: '.min.js'
-     }))
+      extname: '.min.js'
+    }))
     .pipe(gulp.dest('./public/js/min/'));
     done();
   });

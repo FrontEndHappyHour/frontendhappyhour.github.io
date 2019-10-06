@@ -1,103 +1,133 @@
 <!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Web Components - Shots of shadow dom - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode, we talk with Ravi Srinivas and Erick Purino from Netflix to share how they are leveraging Web Components to create dynamic advertisements across the web.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                  <meta property="og:image"
-                   content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg">
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="http://frontendhappyhour.com/">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=1.2" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg" alt="Front End Happy Hour" class="logo"></h1></a>
-                <div class="bottom">
-                    <ul class="feeds">
-                        <li><a href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2"><img src="../../public/img/spotify.svg" alt="Follow our Spotify podcast"></a></li>
-                        <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="../../public/img/podcast.svg" alt="Subscribe to iTunes Podcast"></a></li>
-                        <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjIwNjEzNzM2NS9zb3VuZHMucnNz"><img src="../../public/img/googlepodcasts.svg" alt="Follow us on Google Podcasts"></a></li>
-                        <li><a href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="../../public/img/rss.svg" alt="Subscribe to RSS feed"></a></li>
-                        <li><a href="https://twitter.com/frontendhh"><img src="../../public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
-                        <li><a href="https://facebook.com/frontendhappyhour"><img src="../../public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
-                        <li><a href="http://frontendhappyhour.com/mailing-list"><img src="../../public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-                  <div class="episodes">
-                  <h2 id="heading" class="container">Web Components - Shots of shadow dom</h2>
-                  <div class="container"><p>Published July 22, 2018</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/475383849&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode, we talk with Ravi Srinivas and Erick Purino from Netflix to share how they are leveraging Web Components to create dynamic advertisements across the web.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/ducktyped.jpg" alt="Ravi Srinivas profile picture"><div><a href="https://twitter.com/ducktyped">Ravi Srinivas</a></div></li><li><img src="../../public/img/guests/superbokbok.jpg" alt="Erick Purino profile picture"><div><a href="https://twitter.com/superbokbok">Erick Purino</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://muzzleapp.com/" target="_blank">Muzzle App</a> - Ravi Srinivas
-      </li><li>
-      <a href="https://en.wikipedia.org/wiki/Osaka" target="_blank">Osaka, Japan</a> - Erick Purino
-      </li><li>
-      <a href="https://open.spotify.com/track/6cvP3wZCKR7OArNNhjsU8w?si=YPtUo3ACSkq6uVW5U9TuWw" target="_blank">The Gaslight Anthem - God’s Gonna Cut You Down</a> - Ryan Burgess
-      </li><li>
-      <a href="https://nest.com/lock/nest-yale-lock-key-free-smart-lock/overview/" target="_blank">Nest + Yale Smart Lock</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.dyson.com/fans-and-heaters/dyson-cool-overview.html" target="_blank">Valley Silicon: Dyson Fans</a> - Jem Young
-      </li><li>
-      <a href="https://open.spotify.com/track/0KsB4TwgATg88aXCMBoO3Y?si=DFT108WWTl2z0aezqmxMTw" target="_blank">Jak Jones - Breath</a> - Ryan Anklam
-      </li><li>
-      <a href="https://github.com/jiahaog/nativefier" target="_blank">Nativefier</a> - Ryan Anklam
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/ryan-anklam"><img src="../../public/img/ryan.jpg" alt="Ryan Anklam profile picture" /></a>
-      <span class="name">Ryan Anklam</span>
-      <a href="https://twitter.com/bittersweetryan" class="twitter">@bittersweetryan</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
+<html>
+
+<head>
+  <title>Web Components - Shots of shadow dom - Front End Happy Hour</title>
+  <meta name="description" content="In this episode, we talk with Ravi Srinivas and Erick Purino from Netflix to share how they are leveraging Web Components to create dynamic advertisements across the web.">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
+  <meta property="og:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg">
+  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="http://frontendhappyhour.com/">
+  <link rel="stylesheet" href="../../public/css/episode.css?v=1.2" type="text/css" media="screen">
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-74493735-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="/">
+        <h1><img src="../../public/img/front-end-happy-hour.svg" alt="Front End Happy Hour" class="logo"></h1>
+      </a>
+      <div class="bottom">
+        <ul class="feeds">
+          <li><a href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2"><img src="../../public/img/spotify.svg" alt="Follow our Spotify podcast"></a></li>
+          <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="../../public/img/podcast.svg" alt="Subscribe to iTunes Podcast"></a></li>
+          <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjIwNjEzNzM2NS9zb3VuZHMucnNz"><img src="../../public/img/googlepodcasts.svg" alt="Follow us on Google Podcasts"></a></li>
+          <li><a href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="../../public/img/rss.svg" alt="Subscribe to RSS feed"></a></li>
+          <li><a href="https://twitter.com/frontendhh"><img src="../../public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
+          <li><a href="https://facebook.com/frontendhappyhour"><img src="../../public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
+          <li><a href="http://frontendhappyhour.com/mailing-list"><img src="../../public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="episodes">
+    <h2 id="heading" class="container">Web Components - Shots of shadow dom</h2>
+    <div class="container">
+      <p>Published July 22, 2018</p>
+      <div class="audio">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/475383849&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      </div>
+      <p>In this episode, we talk with Ravi Srinivas and Erick Purino from Netflix to share how they are leveraging Web Components to create dynamic advertisements across the web.</p>
+    </div>
+    <div class="guests picks container">
+      <h3>Guests</h3>
+      <ul>
+        <li><img src="../../public/img/guests/ducktyped.jpg" alt="Ravi Srinivas profile picture">
+          <div><a href="https://twitter.com/ducktyped">Ravi Srinivas</a></div>
+        </li>
+        <li><img src="../../public/img/guests/superbokbok.jpg" alt="Erick Purino profile picture">
+          <div><a href="https://twitter.com/superbokbok">Erick Purino</a></div>
+        </li>
       </ul>
+    </div>
+    <div class="picks container">
+      <h3>Picks</h3>
+      <ul>
+        <li>
+          <a href="https://muzzleapp.com/" target="_blank">Muzzle App</a> - Ravi Srinivas
+        </li>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Osaka" target="_blank">Osaka, Japan</a> - Erick Purino
+        </li>
+        <li>
+          <a href="https://open.spotify.com/track/6cvP3wZCKR7OArNNhjsU8w?si=YPtUo3ACSkq6uVW5U9TuWw" target="_blank">The Gaslight Anthem - God’s Gonna Cut You Down</a> - Ryan Burgess
+        </li>
+        <li>
+          <a href="https://nest.com/lock/nest-yale-lock-key-free-smart-lock/overview/" target="_blank">Nest + Yale Smart Lock</a> - Ryan Burgess
+        </li>
+        <li>
+          <a href="https://www.dyson.com/fans-and-heaters/dyson-cool-overview.html" target="_blank">Valley Silicon: Dyson Fans</a> - Jem Young
+        </li>
+        <li>
+          <a href="https://open.spotify.com/track/0KsB4TwgATg88aXCMBoO3Y?si=DFT108WWTl2z0aezqmxMTw" target="_blank">Jak Jones - Breath</a> - Ryan Anklam
+        </li>
+        <li>
+          <a href="https://github.com/jiahaog/nativefier" target="_blank">Nativefier</a> - Ryan Anklam
+        </li>
+      </ul>
+    </div>
+    <div class="panel container">
+      <h3>Panel</h3>
+      <ul>
+        <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
+          <span class="name">Ryan Burgess</span>
+          <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
+        </li>
+        <li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
+          <span class="name">Jem Young</span>
+          <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
+        </li>
+        <li><a href="/panelists/ryan-anklam"><img src="../../public/img/ryan.jpg" alt="Ryan Anklam profile picture" /></a>
+          <span class="name">Ryan Anklam</span>
+          <a href="https://twitter.com/bittersweetryan" class="twitter">@bittersweetryan</a>
+        </li>
+      </ul>
+    </div>
+    <div id="target"></div>
+  </div>
+  <footer>
+    <svg style="display: none;">
+      <symbol id="heart" viewBox="0 0 32 29.6">
+        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+      </symbol>
+    </svg>
+    <div class="row">Made with <svg class="heart">
+        <use xlink:href="#heart"></use>
+      </svg> by Front End Happy Hour</div>
+    <ul class="legal">
+      <li><a href="/terms">Terms</a></li>
+      <li><a href="/privacy">Privacy</a></li>
+    </ul>
   </footer>
-                  
-              </body>
-          </html>
+
+</body>
+
+</html>

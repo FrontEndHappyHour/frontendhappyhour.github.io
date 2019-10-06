@@ -181,7 +181,11 @@
     "space-before-blocks": [1, "always"],
     //"space-before-function-paren": [1, "never"],
     "space-in-parens": [1, "never"],
-    "space-return-throw-case": 1,
+    "keyword-spacing": [1, { "after": false, "overrides": {
+      "return": { "after": true },
+      "else": { "before": false, "after": false },
+      "from": { "before": true, "after": true }
+    }}],
     "space-unary-ops": 0,
     //"spaced-comment": [1, "always"],
     "wrap-regex": 1,
