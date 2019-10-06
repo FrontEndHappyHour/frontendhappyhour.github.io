@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import sass from 'gulp-sass';
-import minifyCSS from 'gulp-minify-css';
+import cleanCSS from 'gulp-clean-css';
 import nodeunit from 'gulp-nodeunit';
 import jshintStyle from 'jshint-stylish';
 import jsonlint from 'gulp-jsonlint';
@@ -16,7 +16,7 @@ import log from 'fancy-log';
 
 gulp.task('sass', () => gulp.src('sass/**/*.scss')
     .pipe(sass())
-    .pipe(minifyCSS())
+    .pipe(cleanCSS())
     .pipe(gulp.dest('./public/css/'))
 );
 
