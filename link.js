@@ -47,12 +47,12 @@ const promptQuestions = () => {
 };
 
 // start prompt
-if (linkName === undefined) {
+if(linkName === undefined) {
   promptQuestions();
-} else if (popular.hasOwnProperty(linkName)) {
+}else if(popular.hasOwnProperty(linkName)) {
   // pass title and url to write function
   write(popular[linkName].name, popular[linkName].url);
-}	else {
+}else{
   // if the key doesn't exist in popular object than start prompt for questions to add a new link
   console.log(`${linkName} isn't available yet. Add a new link instead.`);
   // start prompt to add a new link

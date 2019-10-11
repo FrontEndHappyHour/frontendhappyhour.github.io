@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import sass from 'gulp-sass';
-import minifyCSS from 'gulp-minify-css';
+import cleanCSS from 'gulp-clean-css';
 import nodeunit from 'gulp-nodeunit';
 import jshintStyle from 'jshint-stylish';
 import jsonlint from 'gulp-jsonlint';
@@ -16,7 +16,7 @@ import log from 'fancy-log';
 
 gulp.task('sass', () => gulp.src('sass/**/*.scss')
     .pipe(sass())
-    .pipe(minifyCSS())
+    .pipe(cleanCSS())
     .pipe(gulp.dest('./public/css/'))
 );
 
@@ -49,7 +49,7 @@ gulp.task('nodeunit', () => gulp.src('tests/**/*.js')
 );
 
 gulp.task('beautify-html', () => gulp.src('./**/*.html')
-  .pipe(beautify.html({ indent_size: 2 }))
+  .pipe(beautify.html({ indent_size: 2 })) // eslint-disable-line camelcase
   .pipe(gulp.dest('.'))
 );
 
@@ -76,11 +76,11 @@ gulp.task('javascript', done => {
       .pipe(gulp.dest('public/js/'));
     log(`${fileName}.js created`);
     i++;
-    if (i === files.length) {
+    if(i === files.length) {
       done();
     }
-   });
-   return merge.apply(streams);
+  });
+  return merge.apply(streams);
 });
 
 gulp.task('compress', done => {
@@ -88,8 +88,8 @@ gulp.task('compress', done => {
     .pipe(uglify())
     .on('error', err => log.error(err))
     .pipe(rename({
-       extname: '.min.js'
-     }))
+      extname: '.min.js'
+    }))
     .pipe(gulp.dest('./public/js/min/'));
     done();
   });

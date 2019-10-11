@@ -16,19 +16,19 @@ module.exports = function main(pageType, content, title, desc) {
   const cssVersion = 1.2;
   const mainTitle = strings.title;
 
-  if (desc === undefined || pageType === 'home') {
+  if(desc === undefined || pageType === 'home') {
     desc = strings.desc;
   }
 
   // set OG image
-  if (pageType === 'shirts') {
+  if(pageType === 'shirts') {
     pageOG = 'http://frontendhappyhour.com/public/img/shirts.jpg';
-  } else {
+  }else{
     pageOG = 'http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
   }
 
   // homepage
-  if (pageType === 'home') {
+  if(pageType === 'home') {
     path = '';
     pageTitle = '';
     pageContent =
@@ -86,7 +86,7 @@ module.exports = function main(pageType, content, title, desc) {
   }
 
   // episode page
-  if (pageType === 'episode') {
+  if(pageType === 'episode') {
     path = '../../';
     css = `public/css/episode.css?v=${cssVersion}`;
     pageContent = content;
@@ -96,7 +96,7 @@ module.exports = function main(pageType, content, title, desc) {
   }
 
   // panelist page
-  if (pageType === 'panelist') {
+  if(pageType === 'panelist') {
     path = '../../';
     css = `public/css/panelist.css?v=${cssVersion}`;
     pageContent = content;
@@ -105,7 +105,7 @@ module.exports = function main(pageType, content, title, desc) {
   }
 
   // mailing list page
-  if (pageType === 'mailing') {
+  if(pageType === 'mailing') {
     path = '../';
     css = `public/css/mailing.css?v=${cssVersion}`;
     pageContent = content;
@@ -114,7 +114,7 @@ module.exports = function main(pageType, content, title, desc) {
   }
 
   // ama page
-  if (pageType === 'ama') {
+  if(pageType === 'ama') {
     path = '../';
     css = `public/css/ama.css?v=${cssVersion}`;
     pageContent = content;
@@ -124,7 +124,7 @@ module.exports = function main(pageType, content, title, desc) {
   }
 
   // legal pages
-  if (pageType === 'privacy' || pageType === 'terms') {
+  if(pageType === 'privacy' || pageType === 'terms') {
     path = '../';
     css = `public/css/legal.css?v=${cssVersion}`;
     pageContent = content;
@@ -133,7 +133,7 @@ module.exports = function main(pageType, content, title, desc) {
   }
 
   // shirts page
-  if (pageType === 'shirts') {
+  if(pageType === 'shirts') {
     path = '../';
     css = `public/css/shirts.css?v=${cssVersion}`;
     pageContent = content;

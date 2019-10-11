@@ -7,7 +7,7 @@ module.exports = function panelistPage(name, bio, twitter, pic) {
   let pickMarkup = '';
   if(_.startsWith(pic, 'http') || _.startsWith(pic, '/')) {
     pickMarkup = `<img src="../../public${pic}" alt="${name} profile picture" />`;
-  }else {
+  }else{
     pickMarkup = `<img src="../../public/img/panel/${twitter}.jpg" alt="${name} profile picture" />`;
   }
 

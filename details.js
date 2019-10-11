@@ -25,7 +25,7 @@ Object.keys(episodes).forEach(function(key) {
   epNum++;
   if(cat === 'soft') {
     soft++;
-  }else {
+  }else{
     tech++;
   }
   numGuests = numGuests + guests.length;

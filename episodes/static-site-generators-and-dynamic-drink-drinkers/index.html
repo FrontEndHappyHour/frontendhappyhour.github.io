@@ -1,131 +1,170 @@
 <!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Static site generators and dynamic drink drinkers - Front End Happy Hour</title>
-                  <meta name="description" content="Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                  <meta property="og:image"
-                   content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg">
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="http://frontendhappyhour.com/">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=1.2" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg" alt="Front End Happy Hour" class="logo"></h1></a>
-                <div class="bottom">
-                    <ul class="feeds">
-                        <li><a href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2"><img src="../../public/img/spotify.svg" alt="Follow our Spotify podcast"></a></li>
-                        <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="../../public/img/podcast.svg" alt="Subscribe to iTunes Podcast"></a></li>
-                        <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjIwNjEzNzM2NS9zb3VuZHMucnNz"><img src="../../public/img/googlepodcasts.svg" alt="Follow us on Google Podcasts"></a></li>
-                        <li><a href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="../../public/img/rss.svg" alt="Subscribe to RSS feed"></a></li>
-                        <li><a href="https://twitter.com/frontendhh"><img src="../../public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
-                        <li><a href="https://facebook.com/frontendhappyhour"><img src="../../public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
-                        <li><a href="http://frontendhappyhour.com/mailing-list"><img src="../../public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
-                  <div class="episodes">
-                  <h2 id="heading" class="container">Static site generators and dynamic drink drinkers</h2>
-                  <div class="container"><p>Published March 24, 2017</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314267346&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/hswolff.jpg" alt="Harry Wolff profile picture"><div><a href="https://twitter.com/hswolff">Harry Wolff</a></div></li>
-          </ul>
-          </div><div class="links picks container">
-          <h3>Items mentioned in the episode</h3>
-          <p><a href="https://reptar.github.io/" target="_blank">Reptar</a>, <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>, <a href="https://github.com/" target="_blank">Github</a>, <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="https://www.dropbox.com" target="_blank">Dropbox</a>, <a href="https://wordpress.com/" target="_blank">Wordpress</a>, <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown</a>, <a href="https://atom.io/" target="_blank">Atom</a>, <a href="https://aws.amazon.com/" target="_blank">AWS</a>, <a href="https://expressjs.com/" target="_blank">Express</a>, <a href="http://restify.com/" target="_blank">Restify</a>, <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank">FTP</a>, <a href="https://facebook.github.io/react/" target="_blank">React</a>, <a href="https://webpack.github.io/" target="_blank">Webpack</a>, <a href="https://medium.com/" target="_blank">Medium</a>, <a href="https://gist.github.com/" target="_blank">Gist</a>, <a href="https://highlightjs.org/" target="_blank">Highlight JS</a>, <a href="http://prismjs.com/" target="_blank">Prisim</a>, <a href="https://yarnpkg.com" target="_blank">Yarn</a>, <a href="https://www.npmjs.com/" target="_blank">npm</a>, <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="http://www.imdb.com/title/tt0101188/" target="_blank">Rugrats</a>, <a href="https://ghost.org/" target="_blank">Ghost</a>, <a href="http://www.metalsmith.io/" target="_blank">Metalsmith</a>, <a href="https://segment.com/" target="_blank">Segment</a>, <a href="https://gohugo.io/" target="_blank">Hugo</a>, <a href="https://golang.org/" target="_blank">Go</a>, <a href="https://hexo.io/" target="_blank">Hexo</a>, <a href="https://github.com/markdown-it/markdown-it" target="_blank">Markdown-it</a>, <a href="http://yaml.org/" target="_blank">YAML</a>, <a href="https://github.com/hapijs/joi" target="_blank">Joi</a>, <a href="http://redux.js.org/" target="_blank">Redux</a>, <a href="http://www.staticgen.com/" target="_blank">StaticGen</a>, <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby JS</a>, <a href="https://mozilla.github.io/nunjucks/" target="_blank">Nunjucks</a>, <a href="http://browserify.org/" target="_blank">Browserify</a>, <a href="http://lesscss.org/" target="_blank">Less</a>, <a href="http://sass-lang.com/" target="_blank">Sass</a>, <a href="https://babeljs.io/" target="_blank">Babel</a>, <a href="https://babeljs.io/learn-es2015/" target="_blank">ES2015</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function" target="_blank">Async await</a>, <a href="https://graphql.org/" target="_blank">Graph QL</a>, <a href="https://facebook.github.io/relay/" target="_blank">Relay</a>, <a href="https://developers.google.com/closure/compiler/" target="_blank">Closure</a>, <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a></p>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://nodejs.org" target="_blank">Node 7.6</a> - Harry Wolff
-      </li><li>
-      <a href="http://www.fxnetworks.com/shows/legion" target="_blank">Legion</a> - Harry Wolff
-      </li><li>
-      <a href="https://open.spotify.com/track/6gpcs5eMhJwax4mIfKDYQk" target="_blank">Calvin Harris - Slide</a> - Harry Wolff
-      </li><li>
-      <a href="https://reptar.github.io/" target="_blank">Reptar</a> - Harry Wolff
-      </li><li>
-      <a href="https://www.netflix.com/title/80130565" target="_blank">CODE: Debugging the Gender Gap</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.zippgo.com" target="_blank">ZippGo</a> - Ryan Burgess
-      </li><li>
-      <a href="https://metasmoke.erwaysoftware.com/" target="_blank">Metasmoke</a> - Augustus Yuan
-      </li><li>
-      <a href="https://opensource.guide/" target="_blank">Open Source Guides</a> - Augustus Yuan
-      </li><li>
-      <a href="https://www.netflix.com/title/80095299" target="_blank">Ultimate Beast Master</a> - Jem Young
-      </li><li>
-      <a href="https://twitter.com/shibbnbot" target="_blank">Shibesbot</a> - Jem Young
-      </li><li>
-      <a href="https://distiller.com/" target="_blank">Distiller</a> - Derrick Showers
-      </li><li>
-      <a href="https://en.wikipedia.org/wiki/Pac-Man_Battle_Royale" target="_blank">Pac-man Multiplayer</a> - Derrick Showers
-      </li><li>
-      <a href="http://www.homebrewing.org/How-to-Make-Your-Own-Beer_ep_32-1.html" target="_blank">Home Brewing Beer</a> - Brian Holt
-      </li><li>
-      <a href="https://www.webpackbin.com/" target="_blank">Webpackbin</a> - Stacy London
-      </li><li>
-      <a href="https://soundcloud.com/modernlove/arthur-russell-home-away-from-home-andy-stott-refix" target="_blank">Arthur Russell - Home Away From Home (Andy Stott Refix)</a> - Stacy London
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
-      <span class="name">Augustus Yuan</span>
-      <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/derrick-showers"><img src="../../public/img/derrick.jpg" alt="Derrick Showers profile picture" /></a>
-      <span class="name">Derrick Showers</span>
-      <a href="https://twitter.com/derrickshowers" class="twitter">@derrickshowers</a>
-      </li><li><a href="/panelists/brian-holt"><img src="../../public/img/panel/holtbt.jpg" alt="Brian Holt profile picture" /></a>
-      <span class="name">Brian Holt</span>
-      <a href="https://twitter.com/holtbt" class="twitter">@holtbt</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
+<html>
+
+<head>
+  <title>Static site generators and dynamic drink drinkers - Front End Happy Hour</title>
+  <meta name="description" content="Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="alternate" type="application/rss+xml" href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
+  <meta property="og:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg">
+  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="http://frontendhappyhour.com/">
+  <link rel="stylesheet" href="../../public/css/episode.css?v=1.2" type="text/css" media="screen">
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-74493735-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="/">
+        <h1><img src="../../public/img/front-end-happy-hour.svg" alt="Front End Happy Hour" class="logo"></h1>
+      </a>
+      <div class="bottom">
+        <ul class="feeds">
+          <li><a href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2"><img src="../../public/img/spotify.svg" alt="Follow our Spotify podcast"></a></li>
+          <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="../../public/img/podcast.svg" alt="Subscribe to iTunes Podcast"></a></li>
+          <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjIwNjEzNzM2NS9zb3VuZHMucnNz"><img src="../../public/img/googlepodcasts.svg" alt="Follow us on Google Podcasts"></a></li>
+          <li><a href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="../../public/img/rss.svg" alt="Subscribe to RSS feed"></a></li>
+          <li><a href="https://twitter.com/frontendhh"><img src="../../public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
+          <li><a href="https://facebook.com/frontendhappyhour"><img src="../../public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
+          <li><a href="http://frontendhappyhour.com/mailing-list"><img src="../../public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="episodes">
+    <h2 id="heading" class="container">Static site generators and dynamic drink drinkers</h2>
+    <div class="container">
+      <p>Published March 24, 2017</p>
+      <div class="audio">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314267346&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      </div>
+      <p>Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.</p>
+    </div>
+    <div class="guests picks container">
+      <h3>Guests</h3>
+      <ul>
+        <li><img src="../../public/img/guests/hswolff.jpg" alt="Harry Wolff profile picture">
+          <div><a href="https://twitter.com/hswolff">Harry Wolff</a></div>
+        </li>
       </ul>
+    </div>
+    <div class="links picks container">
+      <h3>Items mentioned in the episode</h3>
+      <p><a href="https://reptar.github.io/" target="_blank">Reptar</a>, <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>, <a href="https://github.com/" target="_blank">Github</a>, <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="https://www.dropbox.com" target="_blank">Dropbox</a>, <a href="https://wordpress.com/" target="_blank">Wordpress</a>, <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown</a>, <a href="https://atom.io/" target="_blank">Atom</a>, <a href="https://aws.amazon.com/" target="_blank">AWS</a>, <a href="https://expressjs.com/" target="_blank">Express</a>, <a href="http://restify.com/" target="_blank">Restify</a>, <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol" target="_blank">FTP</a>, <a href="https://facebook.github.io/react/" target="_blank">React</a>, <a href="https://webpack.github.io/" target="_blank">Webpack</a>, <a href="https://medium.com/" target="_blank">Medium</a>, <a href="https://gist.github.com/" target="_blank">Gist</a>, <a href="https://highlightjs.org/" target="_blank">Highlight JS</a>, <a href="http://prismjs.com/" target="_blank">Prisim</a>, <a href="https://yarnpkg.com" target="_blank">Yarn</a>, <a href="https://www.npmjs.com/" target="_blank">npm</a>, <a href="https://www.facebook.com/" target="_blank">Facebook</a>, <a href="http://www.imdb.com/title/tt0101188/" target="_blank">Rugrats</a>, <a href="https://ghost.org/" target="_blank">Ghost</a>, <a href="http://www.metalsmith.io/" target="_blank">Metalsmith</a>, <a href="https://segment.com/" target="_blank">Segment</a>, <a href="https://gohugo.io/" target="_blank">Hugo</a>, <a href="https://golang.org/" target="_blank">Go</a>, <a href="https://hexo.io/" target="_blank">Hexo</a>, <a href="https://github.com/markdown-it/markdown-it" target="_blank">Markdown-it</a>, <a href="http://yaml.org/" target="_blank">YAML</a>, <a href="https://github.com/hapijs/joi" target="_blank">Joi</a>, <a href="http://redux.js.org/" target="_blank">Redux</a>, <a href="http://www.staticgen.com/" target="_blank">StaticGen</a>, <a href="https://github.com/gatsbyjs/gatsby" target="_blank">Gatsby JS</a>, <a href="https://mozilla.github.io/nunjucks/" target="_blank">Nunjucks</a>, <a href="http://browserify.org/" target="_blank">Browserify</a>, <a href="http://lesscss.org/" target="_blank">Less</a>, <a href="http://sass-lang.com/" target="_blank">Sass</a>, <a href="https://babeljs.io/" target="_blank">Babel</a>, <a href="https://babeljs.io/learn-es2015/" target="_blank">ES2015</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function" target="_blank">Async await</a>, <a href="https://graphql.org/" target="_blank">Graph QL</a>, <a href="https://facebook.github.io/relay/" target="_blank">Relay</a>, <a href="https://developers.google.com/closure/compiler/" target="_blank">Closure</a>, <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a></p>
+    </div>
+    <div class="picks container">
+      <h3>Picks</h3>
+      <ul>
+        <li>
+          <a href="https://nodejs.org" target="_blank">Node 7.6</a> - Harry Wolff
+        </li>
+        <li>
+          <a href="http://www.fxnetworks.com/shows/legion" target="_blank">Legion</a> - Harry Wolff
+        </li>
+        <li>
+          <a href="https://open.spotify.com/track/6gpcs5eMhJwax4mIfKDYQk" target="_blank">Calvin Harris - Slide</a> - Harry Wolff
+        </li>
+        <li>
+          <a href="https://reptar.github.io/" target="_blank">Reptar</a> - Harry Wolff
+        </li>
+        <li>
+          <a href="https://www.netflix.com/title/80130565" target="_blank">CODE: Debugging the Gender Gap</a> - Ryan Burgess
+        </li>
+        <li>
+          <a href="https://www.zippgo.com" target="_blank">ZippGo</a> - Ryan Burgess
+        </li>
+        <li>
+          <a href="https://metasmoke.erwaysoftware.com/" target="_blank">Metasmoke</a> - Augustus Yuan
+        </li>
+        <li>
+          <a href="https://opensource.guide/" target="_blank">Open Source Guides</a> - Augustus Yuan
+        </li>
+        <li>
+          <a href="https://www.netflix.com/title/80095299" target="_blank">Ultimate Beast Master</a> - Jem Young
+        </li>
+        <li>
+          <a href="https://twitter.com/shibbnbot" target="_blank">Shibesbot</a> - Jem Young
+        </li>
+        <li>
+          <a href="https://distiller.com/" target="_blank">Distiller</a> - Derrick Showers
+        </li>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Pac-Man_Battle_Royale" target="_blank">Pac-man Multiplayer</a> - Derrick Showers
+        </li>
+        <li>
+          <a href="http://www.homebrewing.org/How-to-Make-Your-Own-Beer_ep_32-1.html" target="_blank">Home Brewing Beer</a> - Brian Holt
+        </li>
+        <li>
+          <a href="https://www.webpackbin.com/" target="_blank">Webpackbin</a> - Stacy London
+        </li>
+        <li>
+          <a href="https://soundcloud.com/modernlove/arthur-russell-home-away-from-home-andy-stott-refix" target="_blank">Arthur Russell - Home Away From Home (Andy Stott Refix)</a> - Stacy London
+        </li>
+      </ul>
+    </div>
+    <div class="panel container">
+      <h3>Panel</h3>
+      <ul>
+        <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
+          <span class="name">Ryan Burgess</span>
+          <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
+        </li>
+        <li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
+          <span class="name">Augustus Yuan</span>
+          <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
+        </li>
+        <li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
+          <span class="name">Jem Young</span>
+          <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
+        </li>
+        <li><a href="/panelists/derrick-showers"><img src="../../public/img/derrick.jpg" alt="Derrick Showers profile picture" /></a>
+          <span class="name">Derrick Showers</span>
+          <a href="https://twitter.com/derrickshowers" class="twitter">@derrickshowers</a>
+        </li>
+        <li><a href="/panelists/brian-holt"><img src="../../public/img/panel/holtbt.jpg" alt="Brian Holt profile picture" /></a>
+          <span class="name">Brian Holt</span>
+          <a href="https://twitter.com/holtbt" class="twitter">@holtbt</a>
+        </li>
+        <li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
+          <span class="name">Stacy London</span>
+          <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
+        </li>
+      </ul>
+    </div>
+    <div id="target"></div>
+  </div>
+  <footer>
+    <svg style="display: none;">
+      <symbol id="heart" viewBox="0 0 32 29.6">
+        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+      </symbol>
+    </svg>
+    <div class="row">Made with <svg class="heart">
+        <use xlink:href="#heart"></use>
+      </svg> by Front End Happy Hour</div>
+    <ul class="legal">
+      <li><a href="/terms">Terms</a></li>
+      <li><a href="/privacy">Privacy</a></li>
+    </ul>
   </footer>
-                  
-              </body>
-          </html>
+
+</body>
+
+</html>

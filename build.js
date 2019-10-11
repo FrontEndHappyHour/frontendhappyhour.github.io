@@ -103,7 +103,7 @@ panelistPage();
 
 // create ama page
 const AmaTitle = 'AMA';
-const AmaDesc = `We'd love to answer questions from our listeners. Leave us a message with your questions and we'll answer them in a future episode.`;
+const AmaDesc = 'We\'d love to answer questions from our listeners. Leave us a message with your questions and we\'ll answer them in a future episode.';
 contentPage('ama', amaContent, AmaTitle, AmaDesc);
 
 //create privacy page

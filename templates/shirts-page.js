@@ -16,17 +16,17 @@ module.exports = function content(page, title, desc) {
 
   let mens = '';
   let womens = '';
-  for (let item in clothingContent) {
+  for(let item in clothingContent) {
     const itemTitle = clothingContent[item].title;
     const itemImage = clothingContent[item].image;
     const itemPrice = clothingContent[item].price;
     const itemUrl = clothingContent[item].url;
     const sex = clothingContent[item].sex;
 
-    if (itemTitle !== undefined) {
-      if (sex === 'male') {
+    if(itemTitle !== undefined) {
+      if(sex === 'male') {
         mens += `<li><a href="${itemUrl}"><img src="/public/img/shirts/${itemImage}" alt="${itemTitle} t-shirt" /><h3>${itemTitle}</h3><p>${itemPrice}</p></a></li>`;
-      }else {
+      }else{
         womens += `<li><a href="${itemUrl}"><img src="/public/img/shirts/${itemImage}" alt="${itemTitle} t-shirt" /><h3>${itemTitle}</h3><p>${itemPrice}</p></a></li>`;
       }
     }

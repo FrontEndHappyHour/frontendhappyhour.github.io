@@ -6,7 +6,7 @@ module.exports = function footer(path) {
   if(path === undefined) {
     path = '';
   }
-  const svgHeart = `<svg class="heart"><use xlink:href="#heart"></use></svg>`;
+  const svgHeart = '<svg class="heart"><use xlink:href="#heart"></use></svg>';
   const template = `<footer>
       <svg style="display: none;">
         <symbol id="heart" viewBox="0 0 32 29.6">
