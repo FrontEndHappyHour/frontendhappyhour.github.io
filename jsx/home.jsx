@@ -5,8 +5,8 @@ import EpisodeList from './episode-list';
 import createUrl from '../lib/create-url';
 import pageUrlData from '../lib/page-url-data';
 
-const episodeListURL = 
-  "https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/master/content/episode-list.json";
+const episodeListURL =
+  'https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/master/content/episode-list.json';
 
 class App extends React.Component {
   constructor(props) {
@@ -80,7 +80,7 @@ class App extends React.Component {
     if(this.state.showPrev !== false) {
       const prevButtonHref = `#/page=${(this.state.startValue - this.state.numOnPage) / this.state.numOnPage}`;
       prevButton = <a key={prevButtonHref} href={prevButtonHref} className="prev" onClick={ this.previousList }>
-        Previous
+        Newer
       </a>;
     }
 
@@ -88,7 +88,7 @@ class App extends React.Component {
     if(this.state.showNext !== false) {
       const nextButtonHref = `#/page=${(this.state.startValue + this.state.numOnPage) / this.state.numOnPage}`;
       nextButton = <a key={nextButtonHref} href={nextButtonHref} className="next" onClick={ this.nextList }>
-        Next
+        Older
       </a>;
     }
 
