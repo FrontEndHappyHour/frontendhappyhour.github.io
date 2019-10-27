@@ -1,5 +1,71 @@
 [
   {
+    "episode": "089",
+    "title": "Hollywood Martinis - Netflix Studio Engineering",
+    "description": "In today’s episode, we are going to be talking with Priyankaa Vijayakumar and Lauren Tan about an interesting engineering effort their teams at Netflix are working on. Netflix continues to create its own content and Hollywood is an interesting world with a ton of opportunities for engineering to integrate technology to make things more efficient. Priyankaa and Lauren will be telling us more about those engineering challenges.",
+    "id": "702624484",
+    "published": "October 27, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Priyankaa Vijayakumar",
+        "twitter": "priyankaavj"
+      },
+      {
+        "name": "Lauren Tan",
+        "twitter": "sugarpirate_"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Living with Yourself",
+        "url": "https://www.netflix.com/title/80178724",
+        "from": "Priyankaa Vijayakumar"
+      },
+      {
+        "title": "Harry Potter the Play",
+        "url": "https://www.harrypottertheplay.com/",
+        "from": "Priyankaa Vijayakumar"
+      },
+      {
+        "title": "TSConf",
+        "url": "https://tsconf.io",
+        "from": "Lauren Tan"
+      },
+      {
+        "title": "The Meta-conversation",
+        "url": "https://medium.com/the-year-of-the-looking-glass/the-meta-conversation-9f9abe16c6ac",
+        "from": "Lauren Tan"
+      },
+      {
+        "title": "El Camino",
+        "url": "https://www.netflix.com/title/81078819",
+        "from": "Lauren Tan"
+      },
+      {
+        "title": "Watchmen",
+        "url": "https://www.hbo.com/order/watchmen",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "$100 toothpaste",
+        "url": "https://intothegloss.com/2014/06/chocolate-toothpaste/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Politician",
+        "url": "https://www.netflix.com/title/80241248",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "088",
     "title": "Tech lead engineer - herding cats & drinks",
     "description": "We often talk a lot about growth paths as engineers. One of those growth paths could be a tech lead engineer. In this episode, we are joined by Tony Edwards to help talk with us about what the role and responsibilities of a lead engineer are.",

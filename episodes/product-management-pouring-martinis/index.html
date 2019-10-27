@@ -1,156 +1,116 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <title>Product management - Pouring Martinis - Front End Happy Hour</title>
-  <meta name="description" content="In this episode, we’re joined by product managers, Michael Spiegelman, Cathy Conk, and Eddy Wu from Netflix to talk with us about the relationship between engineers and product managers.">
-  <meta name="viewport" content="width=device-width">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link rel="alternate" type="application/rss+xml" href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-  <meta property="og:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg">
-  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-  <link rel="canonical" href="http://frontendhappyhour.com/">
-  <link rel="stylesheet" href="../../public/css/episode.css?v=1.2" type="text/css" media="screen">
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-74493735-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <a href="/">
-        <h1><img src="../../public/img/front-end-happy-hour.svg" alt="Front End Happy Hour" class="logo"></h1>
-      </a>
-      <div class="bottom">
-        <ul class="feeds">
-          <li><a href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2"><img src="../../public/img/spotify.svg" alt="Follow our Spotify podcast"></a></li>
-          <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="../../public/img/podcast.svg" alt="Subscribe to iTunes Podcast"></a></li>
-          <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjIwNjEzNzM2NS9zb3VuZHMucnNz"><img src="../../public/img/googlepodcasts.svg" alt="Follow us on Google Podcasts"></a></li>
-          <li><a href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="../../public/img/rss.svg" alt="Subscribe to RSS feed"></a></li>
-          <li><a href="https://twitter.com/frontendhh"><img src="../../public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
-          <li><a href="https://facebook.com/frontendhappyhour"><img src="../../public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
-          <li><a href="http://frontendhappyhour.com/mailing-list"><img src="../../public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <div class="episodes">
-    <h2 id="heading" class="container">Product management - Pouring Martinis</h2>
-    <div class="container">
-      <p>Published June 9, 2019</p>
-      <div class="audio">
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/634154634&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-      </div>
-      <p>In this episode, we’re joined by product managers, Michael Spiegelman, Cathy Conk, and Eddy Wu from Netflix to talk with us about the relationship between engineers and product managers.</p>
-    </div>
-    <div class="guests picks container">
-      <h3>Guests</h3>
-      <ul>
-        <li><img src="../../public/img/guests/mspiegelman.jpg" alt="Michael Spiegelman profile picture">
-          <div><a href="https://twitter.com/mspiegelman">Michael Spiegelman</a></div>
-        </li>
-        <li><img src="../../public/img/guests/CathyConk.jpg" alt="Cathy Conk profile picture">
-          <div><a href="https://twitter.com/CathyConk">Cathy Conk</a></div>
-        </li>
-        <li><img src="../../public/img/guests/eddy-wu.jpg" alt="Eddy Wu profile picture">
-          <div><a href="">Eddy Wu</a></div>
-        </li>
+          <html>
+              <head>
+                  <title>Product management - Pouring Martinis - Front End Happy Hour</title>
+                  <meta name="description" content="In this episode, we’re joined by product managers, Michael Spiegelman, Cathy Conk, and Eddy Wu from Netflix to talk with us about the relationship between engineers and product managers.">
+                  <meta name="viewport" content="width=device-width">
+                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                  <link rel="alternate" type="application/rss+xml"
+                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
+                  <meta property="og:image"
+                   content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg">
+                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
+                  <link rel="canonical" href="http://frontendhappyhour.com/">
+                  <link rel="stylesheet" href="../../public/css/episode.css?v=1.2" type="text/css" media="screen">
+                  <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                    ga('create', 'UA-74493735-1', 'auto');
+                    ga('send', 'pageview');
+                  </script>
+              </head>
+              <body>
+                  <header>
+            <div class="container">
+                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg" alt="Front End Happy Hour" class="logo"></h1></a>
+                <div class="bottom">
+                    <ul class="feeds">
+                        <li><a href="https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2"><img src="../../public/img/spotify.svg" alt="Follow our Spotify podcast"></a></li>
+                        <li><a href="https://itunes.apple.com/us/podcast/front-end-happy-hour/id1089047924?mt=2"><img src="../../public/img/podcast.svg" alt="Subscribe to iTunes Podcast"></a></li>
+                        <li><a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjIwNjEzNzM2NS9zb3VuZHMucnNz"><img src="../../public/img/googlepodcasts.svg" alt="Follow us on Google Podcasts"></a></li>
+                        <li><a href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss"><img src="../../public/img/rss.svg" alt="Subscribe to RSS feed"></a></li>
+                        <li><a href="https://twitter.com/frontendhh"><img src="../../public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
+                        <li><a href="https://facebook.com/frontendhappyhour"><img src="../../public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
+                        <li><a href="http://frontendhappyhour.com/mailing-list"><img src="../../public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+                  <div class="episodes">
+                  <h2 id="heading" class="container">Product management - Pouring Martinis</h2>
+                  <div class="container"><p>Published June 9, 2019</p>
+<div class="audio">
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/634154634&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+<p>In this episode, we’re joined by product managers, Michael Spiegelman, Cathy Conk, and Eddy Wu from Netflix to talk with us about the relationship between engineers and product managers.</p></div><div class="guests picks container">
+          <h3>Guests</h3>
+          <ul>
+          <li><img src="../../public/img/guests/mspiegelman.jpg" alt="Michael Spiegelman profile picture"><div><a href="https://twitter.com/mspiegelman">Michael Spiegelman</a></div></li><li><img src="../../public/img/guests/CathyConk.jpg" alt="Cathy Conk profile picture"><div><a href="https://twitter.com/CathyConk">Cathy Conk</a></div></li><li><img src="../../public/img/guests/eddy-wu.jpg" alt="Eddy Wu profile picture"><div><a href="">Eddy Wu</a></div></li>
+          </ul>
+          </div><div class="picks container">
+          <h3>Picks</h3>
+          <ul>
+          <li>
+      <a href="https://www.amazon.com/Everybody-Matters-Extraordinary-Caring-People/dp/1591847796" target="_blank">Everybody Matters</a> - Cathy Conk
+      </li><li>
+      <a href="https://www.amazon.com/Severance-Novel-Ling-Ma/dp/0374261598" target="_blank">Severance</a> - Cathy Conk
+      </li><li>
+      <a href="https://www.netflix.com/title/80044950" target="_blank">The OA</a> - Cathy Conk
+      </li><li>
+      <a href="https://www.imdb.com/title/tt2395469/" target="_blank">Gully Boy</a> - Eddy Wu
+      </li><li>
+      <a href="http://www.highwaterbrewing.com/campfire-stout/" target="_blank">Campfire Stout</a> - Eddy Wu
+      </li><li>
+      <a href="https://www.amazon.com/Rust-Longest-War-Jonathan-Waldman/dp/1451691602" target="_blank">Rust: the longest war</a> - Eddy Wu
+      </li><li>
+      <a href="https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" target="_blank">Thinking Fast and Slow</a> - Michael Spiegelman
+      </li><li>
+      <a href="https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248" target="_blank">Predictably Irrational</a> - Michael Spiegelman
+      </li><li>
+      <a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316117/ref=sr_1_1?gclid=Cj0KCQjw3PLnBRCpARIsAKaUbguJJx3PLwN-gQUJa7yA7ZkO3RBHMNNP9rWmjgqD-Kq3Qvjd63buy5UaAiFTEALw_wcB&hvadid=241894695810&hvdev=c&hvlocphy=9061273&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=18291623973545407828&hvtargid=kwd-269114732332&hydadcr=22532_10344436&keywords=sapiens+books&qid=1560106894&s=gateway&sr=8-1" target="_blank">Sapiens</a> - Michael Spiegelman
+      </li><li>
+      <a href="https://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404" target="_blank">The world until yesterday</a> - Michael Spiegelman
+      </li><li>
+      <a href="https://www.amazon.com/Quiet-Power-Introverts-World-Talking/dp/B00714PZMQ/ref=sr_1_1?crid=3F11FGB2793BJ&keywords=quiet+the+power+of+introverts+in+a+world+that+can%27t+stop+talking&qid=1556898368&s=gateway&sprefix=quiet+%2Caps%2C347&sr=8-1" target="_blank">Quiet: The Power of Introverts in a World That Can't Stop Talking</a> - Ryan Burgess
+      </li><li>
+      <a href="https://reactnewyork.com/" target="_blank">React Day New York</a> - Ryan Burgess
+      </li><li>
+      <a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform" target="_blank">Fast Fourier Transform</a> - Jem Young
+      </li><li>
+      <a href="https://viteramen.com/" target="_blank">Vite Ramen</a> - Jem Young
+      </li><li>
+      <a href="https://www.marketwatch.com/story/chewy-is-going-public-5-things-to-know-about-the-pet-humanization-products-seller-2019-05-03" target="_blank">Chewie IPO</a> - Jem Young
+      </li>
+          </ul>
+          </div><div class="panel container">
+          <h3>Panel</h3>
+          <ul>
+          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
+      <span class="name">Ryan Burgess</span>
+      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
+      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
+      <span class="name">Jem Young</span>
+      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
+      </li>
+          </ul>
+          </div>
+          <div id="target"></div>
+                  </div>
+                  <footer>
+      <svg style="display: none;">
+        <symbol id="heart" viewBox="0 0 32 29.6">
+          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+        </symbol>
+      </svg>
+      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
+      <ul class="legal">
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/privacy">Privacy</a></li>
       </ul>
-    </div>
-    <div class="picks container">
-      <h3>Picks</h3>
-      <ul>
-        <li>
-          <a href="https://www.amazon.com/Everybody-Matters-Extraordinary-Caring-People/dp/1591847796" target="_blank">Everybody Matters</a> - Cathy Conk
-        </li>
-        <li>
-          <a href="https://www.amazon.com/Severance-Novel-Ling-Ma/dp/0374261598" target="_blank">Severance</a> - Cathy Conk
-        </li>
-        <li>
-          <a href="https://www.netflix.com/title/80044950" target="_blank">The OA</a> - Cathy Conk
-        </li>
-        <li>
-          <a href="https://www.imdb.com/title/tt2395469/" target="_blank">Gully Boy</a> - Eddy Wu
-        </li>
-        <li>
-          <a href="http://www.highwaterbrewing.com/campfire-stout/" target="_blank">Campfire Stout</a> - Eddy Wu
-        </li>
-        <li>
-          <a href="https://www.amazon.com/Rust-Longest-War-Jonathan-Waldman/dp/1451691602" target="_blank">Rust: the longest war</a> - Eddy Wu
-        </li>
-        <li>
-          <a href="https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555" target="_blank">Thinking Fast and Slow</a> - Michael Spiegelman
-        </li>
-        <li>
-          <a href="https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248" target="_blank">Predictably Irrational</a> - Michael Spiegelman
-        </li>
-        <li>
-          <a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316117/ref=sr_1_1?gclid=Cj0KCQjw3PLnBRCpARIsAKaUbguJJx3PLwN-gQUJa7yA7ZkO3RBHMNNP9rWmjgqD-Kq3Qvjd63buy5UaAiFTEALw_wcB&hvadid=241894695810&hvdev=c&hvlocphy=9061273&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=18291623973545407828&hvtargid=kwd-269114732332&hydadcr=22532_10344436&keywords=sapiens+books&qid=1560106894&s=gateway&sr=8-1" target="_blank">Sapiens</a> - Michael Spiegelman
-        </li>
-        <li>
-          <a href="https://www.amazon.com/World-Until-Yesterday-Traditional-Societies/dp/0143124404" target="_blank">The world until yesterday</a> - Michael Spiegelman
-        </li>
-        <li>
-          <a href="https://www.amazon.com/Quiet-Power-Introverts-World-Talking/dp/B00714PZMQ/ref=sr_1_1?crid=3F11FGB2793BJ&keywords=quiet+the+power+of+introverts+in+a+world+that+can%27t+stop+talking&qid=1556898368&s=gateway&sprefix=quiet+%2Caps%2C347&sr=8-1" target="_blank">Quiet: The Power of Introverts in a World That Can't Stop Talking</a> - Ryan Burgess
-        </li>
-        <li>
-          <a href="https://reactnewyork.com/" target="_blank">React Day New York</a> - Ryan Burgess
-        </li>
-        <li>
-          <a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform" target="_blank">Fast Fourier Transform</a> - Jem Young
-        </li>
-        <li>
-          <a href="https://viteramen.com/" target="_blank">Vite Ramen</a> - Jem Young
-        </li>
-        <li>
-          <a href="https://www.marketwatch.com/story/chewy-is-going-public-5-things-to-know-about-the-pet-humanization-products-seller-2019-05-03" target="_blank">Chewie IPO</a> - Jem Young
-        </li>
-      </ul>
-    </div>
-    <div class="panel container">
-      <h3>Panel</h3>
-      <ul>
-        <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-          <span class="name">Ryan Burgess</span>
-          <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-        </li>
-        <li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-          <span class="name">Jem Young</span>
-          <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-        </li>
-      </ul>
-    </div>
-    <div id="target"></div>
-  </div>
-  <footer>
-    <svg style="display: none;">
-      <symbol id="heart" viewBox="0 0 32 29.6">
-        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
-      </symbol>
-    </svg>
-    <div class="row">Made with <svg class="heart">
-        <use xlink:href="#heart"></use>
-      </svg> by Front End Happy Hour</div>
-    <ul class="legal">
-      <li><a href="/terms">Terms</a></li>
-      <li><a href="/privacy">Privacy</a></li>
-    </ul>
   </footer>
-
-</body>
-
-</html>
+                  
+              </body>
+          </html>
