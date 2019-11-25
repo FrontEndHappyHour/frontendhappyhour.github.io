@@ -1,5 +1,88 @@
 [
   {
+    "episode": "090",
+    "title": "Sipping our drinks, enjoying the Vue - Vue JS",
+    "description": "In this episode, we are joined by Sarah Drasner and Gift Egwuenu to talk with us about the popular JavaScript framework, VueJS.",
+    "id": "",
+    "published": "November 24, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Drasner",
+        "twitter": "sarah_edo"
+      },
+      {
+        "name": "Gift Egwuenu",
+        "twitter": "lauragift21"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Greensock v3",
+        "url": "https://greensock.com/3",
+        "from": "Sarah Drasner"
+      },
+      {
+        "title": "Harry Potter and the Escape from Gringotts Ride",
+        "url": "https://www.universalorlando.com/web/en/us/things-to-do/rides-attractions/harry-potter-and-the-escape-from-gringotts",
+        "from": "Gift Egwuenu"
+      },
+      {
+        "title": "Nigerian Playlist",
+        "url": "https://www.youtube.com/watch?v=WUAp2EKbAJs&list=RDMMWUAp2EKbAJs&start_radio=1",
+        "from": "Gift Egwuenu"
+      },
+      {
+        "title": "Mike Giant podcast",
+        "url": "https://mikegiantpodcast.fireside.fm/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tombow Dual Brush pens",
+        "url": "https://www.tombowusa.com/dual-brush-pen.html",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "React adaptive hooks",
+        "url": "https://github.com/GoogleChromeLabs/react-adaptive-hooks",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Trader Joe’s Cauliflower Ravioli",
+        "url": "https://www.traderjoes.com/recipes/lunch/roasted-cauliflower-mezzelune-fried-basil",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Buffet Lines",
+        "url": "https://erikbern.com/2019/10/16/buffet-lines-are-terrible.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Hap and Leonard",
+        "url": "https://www.sundancetv.com/shows/hap-and-leonard",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Yearning for the Infinite - Max Cooper",
+        "url": "https://open.spotify.com/album/2qOai8aBLM3813p4luleGt?si=VBx4xz6TSPWK7T8_U5ILxQ",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Immerse - Alex Banks",
+        "url": "https://open.spotify.com/track/2MO7kZINKTTFZfCccM9GTy?si=1KDZcAWCSLGxO8zuI9ieuQ",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "089",
     "title": "Hollywood Martinis - Netflix Studio Engineering",
     "description": "In this episode, we are going to be talking with Priyankaa Vijayakumar and Lauren Tan about an interesting engineering effort their teams at Netflix are working on. Netflix continues to create its own content and Hollywood is an interesting world with a ton of opportunities for engineering to integrate technology to make things more efficient. Priyankaa and Lauren will be telling us more about those engineering challenges.",
