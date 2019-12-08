@@ -1,5 +1,118 @@
 [
   {
+    "episode": "091",
+    "title": "Balancing your drinks & belonging - Inclusion & Diversity in Tech",
+    "description": "It is really important to make sure our community is an inclusive environment for everyone to feel like they belong. In this episode, we are joined by Cher and Henry Zhu to talk with us about inclusion and diversity.",
+    "id": "724613233",
+    "published": "December 8, 2019",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Cher",
+        "twitter": "cherdotdev"
+      },
+      {
+        "name": "Henry Zhu",
+        "twitter": "left_pad"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Stamped from the Beginning",
+        "url": "https://www.amazon.com/Stamped-Beginning-Definitive-History-National/dp/1568585985",
+        "from": "Cher"
+      },
+      {
+        "title": "Magdalene - FKA twigs",
+        "url": "https://open.spotify.com/album/2w8Wshbp9RCPJdPU1iOpaY",
+        "from": "Cher"
+      },
+      {
+        "title": "Modern Figures",
+        "url": "http://modernfigurespodcast.com/",
+        "from": "Cher"
+      },
+      {
+        "title": "Megan Rapinoe",
+        "url": "https://www.glamour.com/video/watch/women-of-the-year-megan-rapinoe-s-acceptance-speech-2019-women-of-the-year",
+        "from": "Cher"
+      },
+      {
+        "title": "Programming as theory building",
+        "url": "http://pages.cs.wisc.edu/~remzi/Naur.pdf",
+        "from": "Henry Zhu"
+      },
+      {
+        "title": "Tools for conviviality",
+        "url": "https://www.amazon.com/Tools-Conviviality-Ivan-Illich/dp/1842300113",
+        "from": "Henry Zhu"
+      },
+      {
+        "title": "Blog post by Henry - Seeking Serendipity",
+        "url": "https://www.henryzoo.com/serendipity/",
+        "from": "Henry Zhu"
+      },
+      {
+        "title": "Brene Brown: The Anatomy of Trust",
+        "url": "https://brenebrown.com/videos/anatomy-trust-video/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "How to build (and rebuild) trust",
+        "url": "https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Better Allies newsletter",
+        "url": "https://betterallies.com/more-content/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Cyclismo cafe",
+        "url": "http://www.cyclismocafe.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Black Sugar Boba",
+        "url": "https://www.blacksugarboba.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Arcs of Seniority",
+        "url": "https://www.stevanpopovic.com/arcs-of-seniority/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Uncluded",
+        "url": "https://rhymesayers.com/artists/theuncluded",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Henry Zhu",
+        "url": "https://github.com/hzoo",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Proud by the Nunnery",
+        "url": "https://open.spotify.com/album/65gSPsIKvfvmyKGwebMUhZ?highlight=spotify:track:1kCJsgHV3oOAIxWlLj9ZSk",
+        "from": "Stacy London"
+      },
+      {
+        "title": "16 Psyche by Chelsea Wolfe",
+        "url": "https://open.spotify.com/album/1nnenAgIzIipcodyg879Vx",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "090",
     "title": "Sipping our drinks, enjoying the Vue - Vue JS",
     "description": "In this episode, we are joined by Sarah Drasner and Gift Egwuenu to talk with us about the popular JavaScript framework, VueJS.",
