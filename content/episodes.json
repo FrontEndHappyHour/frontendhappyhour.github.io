@@ -1,5 +1,74 @@
 [
   {
+    "episode": "092",
+    "title": "Keeping the taps on - Holiday code freeze",
+    "description": "Happy Holidays! In this episode, we talk about supporting large applications over the holidays and what the best practices are in order to make sure your customers have 100% availability over the holidays.",
+    "id": "732642541",
+    "published": "December 22, 2019",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Jay-z on Spotify",
+        "url": "https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB?si=yDf8X1sBTlyJwNZD-N27gg",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Nest Hello Doorbell",
+        "url": "https://store.google.com/us/product/nest_hello_doorbell",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Irishman",
+        "url": "https://www.netflix.com/title/80175798",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Pixel 4",
+        "url": "https://arstechnica.com/gadgets/2019/11/google-pixel-4-review-overpriced-uncompetitive-and-out-of-touch/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Efficiency destroying magic of tidying up",
+        "url": "https://florentcrivello.com/index.php/2019/09/04/the-efficiency-destroying-magic-of-tidying-up/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "TC39",
+        "url": "https://tc39.es/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Love Island",
+        "url": "https://www.cbs.com/shows/love-island/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Bay Curious podcast",
+        "url": "https://www.kqed.org/podcasts/baycurious",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Dust Circles by Loscil",
+        "url": "https://open.spotify.com/album/5yOWC5VU94C69zUYliMGwy?highlight=spotify:track:1aP2qFyy1QUYJkWryKypCv",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Luminous Spaces by Jon Hopkins, Kelly Lee Owens",
+        "url": "https://open.spotify.com/album/7E1ug6ydBki9DydefZzG9F?highlight=spotify:track:7nbLUoUimkbWVQqsZ1mkp8",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "091",
     "title": "Balancing your drinks & belonging - Inclusion & Diversity in Tech",
     "description": "It is really important to make sure our community is an inclusive environment for everyone to feel like they belong. In this episode, we are joined by Cher and Henry Zhu to talk with us about inclusion and diversity.",
