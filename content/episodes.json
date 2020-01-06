@@ -1,5 +1,79 @@
 [
   {
+    "episode": "093",
+    "title": "Beers and Careers - Career Management",
+    "description": "It can be really important to think about what you want in your career. In this episode, we are joined by Michael Gaskill to talk with us about career management.",
+    "id": "739062463",
+    "published": "January 5, 2020",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Michael Gaskill",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Code Radio by freecodecamp",
+        "url": "https://coderadio.freecodecamp.org/",
+        "from": "Michael Gaskill"
+      },
+      {
+        "title": "Marengo",
+        "url": "https://www.marengosf.com/",
+        "from": "Michael Gaskill"
+      },
+      {
+        "title": "The Pivot Point",
+        "url": "https://medium.com/swlh/the-pivot-point-3fb8bdde884",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Radical Candor",
+        "url": "https://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Uber Go Style Guide",
+        "url": "https://github.com/uber-go/guide/blob/master/style.md",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Open Diablo 2",
+        "url": "https://github.com/OpenDiablo2/OpenDiablo2",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "CSS units explained",
+        "url": "https://alligator.io/css/css-units-explained/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Theodent Toothpaste",
+        "url": "https://theodent.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "It Should Be Us by Andy Stott",
+        "url": "https://open.spotify.com/album/2b4RNCznna9U13uXza9jdl?si=CsQRkxIHQy6MnvctG978YA",
+        "from": "Stacy London"
+      },
+      {
+        "title": "The Center Won't Hold by Sleater-Kinney",
+        "url": "https://open.spotify.com/album/6ArjrXMlLegKiAPOp34K58?si=dvTDwPRHS8GFNJmmLUS43g",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "092",
     "title": "Keeping the taps on - Holiday code freeze",
     "description": "Happy Holidays! In this episode, we talk about supporting large applications over the holidays and what the best practices are in order to make sure your customers have 100% availability over the holidays.",
