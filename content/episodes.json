@@ -1,5 +1,95 @@
 [
   {
+    "episode": "094",
+    "title": "Will code for wine - Civic hacking",
+    "description": "It’s always great to be able to put our skills to good use. In this episode, we are joined by Sarah Yu to talk with us about civic hacking.",
+    "id": "746905783",
+    "published": "January 20, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Yu",
+        "twitter": ""
+      }
+    ],
+    "links": [
+      {
+        "title": "Tools for Government Data Archiving",
+        "url": "https://github.com/edgi-govdata-archiving"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Code for America",
+        "url": "https://www.codeforamerica.org/",
+        "from": "Sarah Yu"
+      },
+      {
+        "title": "Pat McGrath labs",
+        "url": "https://www.patmcgrath.com/",
+        "from": "Sarah Yu"
+      },
+      {
+        "title": "You season 2",
+        "url": "https://www.netflix.com/title/80211991",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Dirty John",
+        "url": "https://www.netflix.com/title/80241855",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Devocion Coffee - Williamsburg, Brooklyn",
+        "url": "https://www.devocion.com/pages/devocion-cafe-williamsburg-brooklyn-ny",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "data.gov",
+        "url": "https://www.data.gov/open-gov/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Valley Silicon: Hidrate Spark",
+        "url": "https://hidratespark.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Messiah Season 1",
+        "url": "https://www.netflix.com/title/80117557",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Theragun",
+        "url": "https://www.theragun.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Code for America",
+        "url": "https://www.codeforamerica.org/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Wild by Tourist",
+        "url": "https://open.spotify.com/track/3HZcmaxzwPF0bXXPUdTJQ2?si=RskPhwnETqu_GV2m9afljg",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Radical by Amtrac & Totally Enormous Extinct Dinosaurs",
+        "url": "https://open.spotify.com/track/1MvLmHeLkaNgUScgbUVnWJ?si=cmIuzmF7TQKPHlyfn_nw_A",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "093",
     "title": "Beers and Careers - Career Management",
     "description": "It can be really important to think about what you want in your career. In this episode, we are joined by Michael Gaskill to talk with us about career management.",
