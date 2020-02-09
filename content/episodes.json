@@ -1,5 +1,64 @@
 [
   {
+    "episode": "095",
+    "title": "Shot for Shot - One on Ones",
+    "description": "",
+    "id": "",
+    "published": "February 16, 2020",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "SkyCandy app",
+        "url": "https://skycandy.app/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Conference list",
+        "url": "https://github.com/ryanburgess/2020-conferences",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "AWS in plain English",
+        "url": "https://expeditedsecurity.com/aws-in-plain-english/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Play Wright",
+        "url": "https://github.com/microsoft/playwright",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Stylex (Facebook CSS in JS framework)",
+        "url": "https://www.youtube.com/watch?v=9JZHodNR184&feature=youtu.be&t=209",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Pet Playlist by Spotify",
+        "url": "https://pets.byspotify.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Lara Hogan - Manager handoffs",
+        "url": "https://larahogan.me/blog/manager-handoffs/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Illusion of Time by Daniel Avery & Alessandro Cortini",
+        "url": "https://open.spotify.com/track/2QuXTxQ8PGGVXPRAkSHyKS?si=QlOB9V3yS4WNTpq9Wmz2iQ",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "094",
     "title": "Will code for wine - Civic hacking",
     "description": "It’s always great to be able to put our skills to good use. In this episode, we are joined by Sarah Yu to talk with us about civic hacking.",
