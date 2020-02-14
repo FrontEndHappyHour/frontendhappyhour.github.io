@@ -2,7 +2,7 @@
   {
     "episode": "095",
     "title": "Shot for Shot - One on Ones",
-    "description": "",
+    "description": "As engineers we spend a lot of our time coding, but we also spend a lot of time in meetings. A typical meeting we are in, is one on one meeings. In this episode, we talk about ways to get the most out of one on one meetings and avoid having bad ones.",
     "id": "",
     "published": "February 16, 2020",
     "transcribed": false,
@@ -22,7 +22,7 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "Conference list",
+        "title": "2020 conference list",
         "url": "https://github.com/ryanburgess/2020-conferences",
         "from": "Ryan Burgess"
       },
