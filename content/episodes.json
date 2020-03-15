@@ -135,7 +135,8 @@
     "guests": [
       {
         "name": "Sarah Yu",
-        "twitter": ""
+        "twitter": "",
+        "company": "LinkedIn"
       }
     ],
     "links": [
@@ -224,7 +225,8 @@
     "guests": [
       {
         "name": "Michael Gaskill",
-        "twitter": ""
+        "twitter": "",
+        "company": "LendingHome"
       }
     ],
     "links": [],
@@ -367,11 +369,13 @@
     "guests": [
       {
         "name": "Cher",
-        "twitter": "cherdotdev"
+        "twitter": "cherdotdev",
+        "company": "Webflow"
       },
       {
         "name": "Henry Zhu",
-        "twitter": "left_pad"
+        "twitter": "left_pad",
+        "company": ""
       }
     ],
     "links": [],
@@ -480,11 +484,13 @@
     "guests": [
       {
         "name": "Sarah Drasner",
-        "twitter": "sarah_edo"
+        "twitter": "sarah_edo",
+        "company": ""
       },
       {
         "name": "Gift Egwuenu",
-        "twitter": "lauragift21"
+        "twitter": "lauragift21",
+        "company": ""
       }
     ],
     "links": [],
@@ -561,11 +567,13 @@
     "guests": [
       {
         "name": "Priyankaa Vijayakumar",
-        "twitter": "priyankaavj"
+        "twitter": "priyankaavj",
+        "company": "Netflix"
       },
       {
         "name": "Lauren Tan",
-        "twitter": "sugarpirate_"
+        "twitter": "sugarpirate_",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -629,7 +637,8 @@
     "guests": [
       {
         "name": "Tony Edwards",
-        "twitter": "tedwards947"
+        "twitter": "tedwards947",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -770,7 +779,8 @@
     "guests": [
       {
         "name": "Micah Ransdell",
-        "twitter": "micahransdell"
+        "twitter": "micahransdell",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -829,7 +839,8 @@
     "guests": [
       {
         "name": "Shirley Wu",
-        "twitter": "sxywu"
+        "twitter": "sxywu",
+        "company": "Self-employed"
       }
     ],
     "links": [],
@@ -995,11 +1006,13 @@
     "guests": [
       {
         "name": "Ujjwal Tyagi",
-        "twitter": "urstyagi"
+        "twitter": "urstyagi",
+        "company": "Netflix"
       },
       {
         "name": "Eric Eiswerth",
-        "twitter": "eeiswerth"
+        "twitter": "eeiswerth",
+        "company": "Netflix"
       }
     ],
     "links": [
@@ -1081,15 +1094,18 @@
     "guests": [
       {
         "name": "Michael Spiegelman",
-        "twitter": "mspiegelman"
+        "twitter": "mspiegelman",
+        "company": "Netflix"
       },
       {
         "name": "Cathy Conk",
-        "twitter": "CathyConk"
+        "twitter": "CathyConk",
+        "company": "Netflix"
       },
       {
         "name": "Eddy Wu",
-        "twitter": ""
+        "twitter": "",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -1187,7 +1203,8 @@
     "guests": [
       {
         "name": "Tyler Childs",
-        "twitter": "TylerChilds"
+        "twitter": "TylerChilds",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -1262,7 +1279,8 @@
     "guests": [
       {
         "name": "Randall Koutnik",
-        "twitter": "rkoutnik"
+        "twitter": "rkoutnik",
+        "company": "Slack"
       }
     ],
     "links": [],
@@ -1356,7 +1374,8 @@
     "guests": [
       {
         "name": "Katie Sylor-Miller",
-        "twitter": "ksylor"
+        "twitter": "ksylor",
+        "company": "Etsy"
       }
     ],
     "links": [],
@@ -1564,15 +1583,18 @@
     "guests": [
       {
         "name": "Maria Kazandjieva",
-        "twitter": "stranger_quark"
+        "twitter": "stranger_quark",
+        "company": "Netflix"
       },
       {
         "name": "Maxine Cheung",
-        "twitter": ""
+        "twitter": "",
+        "company": "Netflix"
       },
       {
         "name": "Courtney Kennedy",
-        "twitter": ""
+        "twitter": "",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -1650,11 +1672,13 @@
     "guests": [
       {
         "name": "Jeeyun Linn",
-        "twitter": "jeeyunit"
+        "twitter": "jeeyunit",
+        "company": "VMWare"
       },
       {
         "name": "Cole Turner",
-        "twitter": "coleturner"
+        "twitter": "coleturner",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -1723,7 +1747,8 @@
     "guests": [
       {
         "name": "Matthew Gerstman",
-        "twitter": "MatthewGerstman"
+        "twitter": "MatthewGerstman",
+        "company": "Dropbox"
       }
     ],
     "links": [],
@@ -1795,7 +1820,8 @@
     "guests": [
       {
         "name": "Jordanna Kwok",
-        "twitter": "jordeewok"
+        "twitter": "jordeewok",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -1847,11 +1873,13 @@
     "guests": [
       {
         "name": "Jacques Favreau",
-        "twitter": "betaorbust"
+        "twitter": "betaorbust",
+        "company": "Netflix"
       },
       {
         "name": "Michael Paulson",
-        "twitter": "ThePrimeagen"
+        "twitter": "ThePrimeagen",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -1916,7 +1944,8 @@
     "guests": [
       {
         "name": "Addy Osmani",
-        "twitter": "addyosmani"
+        "twitter": "addyosmani",
+        "company": "Google"
       }
     ],
     "links": [],
@@ -1999,7 +2028,8 @@
     "guests": [
       {
         "name": "Lauren Tan",
-        "twitter": "sugarpirate_"
+        "twitter": "sugarpirate_",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -2063,7 +2093,8 @@
     "guests": [
       {
         "name": "Moira Huang",
-        "twitter": "MoiraHuang_"
+        "twitter": "MoiraHuang_",
+        "company": "PayPal"
       }
     ],
     "links": [],
@@ -2137,7 +2168,8 @@
     "guests": [
       {
         "name": "Aaron Gustafson",
-        "twitter": "AaronGustafson"
+        "twitter": "AaronGustafson",
+        "company": "Microsoft"
       }
     ],
     "links": [],
@@ -2245,11 +2277,13 @@
     "guests": [
       {
         "name": "Lauren Tan",
-        "twitter": "sugarpirate_"
+        "twitter": "sugarpirate_",
+        "company": "Netflix"
       },
       {
         "name": "Kunal Bohra",
-        "twitter": "do_i_need_1"
+        "twitter": "do_i_need_1",
+        "company": "Jopari Solutions Inc."
       }
     ],
     "links": [],
@@ -2337,15 +2371,18 @@
     "guests": [
       {
         "name": "Matt Stephenson",
-        "twitter": ""
+        "twitter": "",
+        "company": ""
       },
       {
         "name": "Zack Skelly",
-        "twitter": "zorkary"
+        "twitter": "zorkary",
+        "company": ""
       },
       {
         "name": "Chris Ahsing",
-        "twitter": ""
+        "twitter": "",
+        "company": ""
       }
     ],
     "links": [],
@@ -2472,7 +2509,8 @@
     "guests": [
       {
         "name": "Sarah Showers",
-        "twitter": "sarahlshowers"
+        "twitter": "sarahlshowers",
+        "company": "LinkedIn"
       }
     ],
     "links": [],
@@ -2550,11 +2588,13 @@
     "guests": [
       {
         "name": "Ravi Srinivas",
-        "twitter": "ducktyped"
+        "twitter": "ducktyped",
+        "company": "Netflix"
       },
       {
         "name": "Erick Purino",
-        "twitter": "superbokbok"
+        "twitter": "superbokbok",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -2612,11 +2652,13 @@
     "guests": [
       {
         "name": "Jamie Kyle",
-        "twitter": "jamiebuilds"
+        "twitter": "jamiebuilds",
+        "company": "Atlassian"
       },
       {
         "name": "Maia Teegarden",
-        "twitter": "padmaia"
+        "twitter": "padmaia",
+        "company": "Atlassian"
       }
     ],
     "links": [],
@@ -2681,11 +2723,13 @@
     "guests": [
       {
         "name": "Shirley Wu",
-        "twitter": "sxywu"
+        "twitter": "sxywu",
+        "company": "Self-employed"
       },
       {
         "name": "Brian Holt",
-        "twitter": "holtbt"
+        "twitter": "holtbt",
+        "company": "Microsoft"
       }
     ],
     "links": [],
@@ -2768,7 +2812,8 @@
     "guests": [
       {
         "name": "Lisa Burgess",
-        "twitter": "_lisaburgess"
+        "twitter": "_lisaburgess",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -2874,7 +2919,8 @@
     "guests": [
       {
         "name": "Anup Bishnoi",
-        "twitter": "asyncanup"
+        "twitter": "asyncanup",
+        "company": "Netflix"
       }
     ],
     "links": [],
@@ -3045,7 +3091,8 @@
     "guests": [
       {
         "name": "Richard Feldman",
-        "twitter": "rtfeldman"
+        "twitter": "rtfeldman",
+        "company": "NoRedInk"
       }
     ],
     "links": [],
@@ -3216,7 +3263,8 @@
     "guests": [
       {
         "name": "Allen Wirfs-Brock",
-        "twitter": "awbjs"
+        "twitter": "awbjs",
+        "company": "Wirfs-Brock Associates"
       }
     ],
     "links": [],
@@ -3307,19 +3355,23 @@
     "guests": [
       {
         "name": "Aimee Knight",
-        "twitter": "Aimee_Knight"
+        "twitter": "Aimee_Knight",
+        "company": "Built Technologies"
       },
       {
         "name": "Simona Cotin",
-        "twitter": "simona_cotin"
+        "twitter": "simona_cotin",
+        "company": "Microsoft"
       },
       {
         "name": "John Papa",
-        "twitter": "John_Papa"
+        "twitter": "John_Papa",
+        "company": "Microsoft"
       },
       {
         "name": "April Wensel",
-        "twitter": "aprilwensel"
+        "twitter": "aprilwensel",
+        "company": "Compassionate Coding"
       }
     ],
     "links": [],
@@ -3420,11 +3472,13 @@
     "guests": [
       {
         "name": "Shirley Wu",
-        "twitter": "sxywu"
+        "twitter": "sxywu",
+        "company": "Self-employed"
       },
       {
         "name": "Amy Wibowo",
-        "twitter": "sailorhg"
+        "twitter": "sailorhg",
+        "company": "Airbnb"
       }
     ],
     "links": [],
