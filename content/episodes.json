@@ -1,5 +1,30 @@
 [
   {
+    "episode": "097",
+    "title": "Cocktail recipes - Design systems",
+    "description": "In this episode, we recorded live on stage at Root Insurance in Columbus, Ohio. We were joined by Jibran Kutik and Oliver Farshi to talk with about design systems and how engineers and designers collaborate.",
+    "id": "776866075",
+    "published": "March 15, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Jibran Kutik",
+        "twitter": ""
+      },
+      {
+        "name": "Oliver Farshi",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": []
+  },
+  {
     "episode": "096",
     "title": "Our preferred beverages - Work preferences",
     "description": "There’s a constant debate on what the preferred work environment is, in office, remote, or work from home. In this episode, we talk about our preferences and some of the pros and cons of each work option.",
