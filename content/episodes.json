@@ -14,11 +14,13 @@
     "guests": [
       {
         "name": "Jibran Kutik",
-        "twitter": ""
+        "twitter": "",
+        "company": "Root Insurance"
       },
       {
         "name": "Oliver Farshi",
-        "twitter": ""
+        "twitter": "",
+        "company": "Kiva"
       }
     ],
     "links": [],
