@@ -1,5 +1,122 @@
 [
   {
+    "episode": "098",
+    "title": "Drinking alone? Together? - Working from home",
+    "description": "With the COVID-19 situation, we are all confined to our homes. In this episode, we thought it’d be an excellent opportunity to talk through our experiences working from home during this time.",
+    "id": "780077998",
+    "published": "March 20, 2020",
+    "transcribed": false,
+    "category": "soft",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Ryan Anklam",
+      "Mars Jullian",
+      "Stacy London",
+      "Brian Holt"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Bare Bottle",
+        "url": "https://www.barebottle.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Coffivitity",
+        "url": "https://coffitivity.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "ncov2019.live",
+        "url": "https://ncov2019.live/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "14-Day Quarantine Workout Plan",
+        "url": "https://www.blogilates.com/14-day-quarantine-workout-plan/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Avenue 5",
+        "url": "https://www.hbo.com/avenue-5",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Joe Pera Talks With You",
+        "url": "https://www.adultswim.com/videos/joe-pera-talks-with-you/joe-pera-helps-you-find-the-perfect-christmas-tree",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Lazy recruiters",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Change/Opportunity",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Mastermind Book",
+        "url": "https://www.penguinrandomhouse.com/books/549566/the-mastermind-by-evan-ratliff/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Ace Sweatpants",
+        "url": "https://mackweldon.com/products/ace-sweatpant?utm_source=googlecpc&utm_medium=sem&utm_campaign=ne_google_search_brand_Specific_Exact_l_All&utm_term=kwd-303076422639_-_414799782613&utm_content=9159804636_-_99530706384&gclid=Cj0KCQjw6sHzBRCbARIsAF8FMpWPyGmtc63oJdGdiPTrKUu8FuRkYXtU42rSnR3bYGfmhhhC3LjpEQYaAl-vEALw_wcB",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Reply All: The Case of The Missing Hit",
+        "url": "https://gimletmedia.com/shows/reply-all/o2h8bx",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Anecdote Candles",
+        "url": "https://anecdotecandles.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "San Francisco Restaurants That Are Open For Delivery",
+        "url": "https://sf.eater.com/2020/3/17/21184129/san-francisco-takeout-delivery-coronavirus",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Check in on your friends & family",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Psychic Data by TVAM",
+        "url": "https://www.youtube.com/watch?v=vRkwVxXsmK8",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Shedding Layers by Rob Clouth",
+        "url": "https://open.spotify.com/track/0vHSZ0ASWja0MvdabS8JLE?si=3F7xY7XPT42M2EJKtN5NnQ",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Talking to Strangers by Malcolm Gladwell",
+        "url": "https://www.amazon.com/Talking-Strangers-Should-about-People-ebook/dp/B07NDKVWZW",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Gift cards to local restaurants and bars",
+        "url": "",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Folding@home",
+        "url": "https://en.wikipedia.org/wiki/Folding@home",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "097",
     "title": "Cocktail recipes - Design systems",
     "description": "In this episode, we recorded live on stage at Root Insurance in Columbus, Ohio. We were joined by Jibran Kutik and Oliver Farshi to talk with about design systems and how engineers and designers collaborate.",
