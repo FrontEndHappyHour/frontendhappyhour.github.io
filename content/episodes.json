@@ -1,5 +1,100 @@
 [
   {
+    "episode": "099",
+    "title": "",
+    "description": "",
+    "id": "",
+    "published": "March 29, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Shruti Kapoor", 
+        "twitter": "shrutikapoor08",
+        "company": "PayPal"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Complete developers guide to GraphQL - Udemy",
+        "url": "https://www.udemy.com/course/graphql-with-react-course/",
+        "from": "Shruti Kapoor"
+      },
+      {
+        "title": "GraphQL playground + Graphical",
+        "url": "https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/",
+        "from": "Shruti Kapoor"
+      },
+      {
+        "title": "Big Magic: Creative Living Beyond Fear",
+        "url": "https://www.amazon.com/Big-Magic-Creative-Living-Beyond/dp/1594634726",
+        "from": "Shruti Kapoor"
+      },
+      {
+        "title": "Revlon One-Step Hair Dryer & Volumizer",
+        "url": "https://www.amazon.com/Revlon-One-Step-Dryer-Volumizer-Brush/dp/B01LSUQSB0",
+        "from": "Shruti Kapoor"
+      },
+      {
+        "title": "Dark",
+        "url": "https://www.netflix.com/title/80100172",
+        "from": "Shruti Kapoor"
+      },
+      {
+        "title": "Heist Podcast",
+        "url": "https://www.heistpodcast.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Oh crap I have a toddler",
+        "url": "https://www.amazon.com/Crap-Have-Toddler-Time-outs-Parenting/dp/1982109734",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "USB Switch selector",
+        "url": "https://www.amazon.com/UGREEN-Selector-Computers-Peripheral-One-Button/dp/B01MXXQKGM?ref_=fsclp_pl_dp_1",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "GoReplay",
+        "url": "https://github.com/buger/goreplay",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Dev Jokes",
+        "url": "https://github.com/shrutikapoor08/devjoke",
+        "from": "Jem Young"
+      },
+      {
+        "title": "This foot does not exist",
+        "url": "https://thisfootdoesnotexist.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon - Iniegogo",
+        "url": "https://www.indiegogo.com/campaign_collections/production-ready",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Song For The Passing by Shelf Nunny",
+        "url": "https://open.spotify.com/track/2VJ9QjicKJB97yMUI6J42Y?si=VBdNr-eST06UvANNphKyOg",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Meneerea by Erased",
+        "url": "https://open.spotify.com/track/4akqPnWyCOWL0QNxQsXsNk?si=Tq4Im5y1QnGuHz3MDZ_aSA",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "098",
     "title": "Drinking alone? Together? - Working from home",
     "description": "With the COVID-19 situation, we are all confined to our homes. In this episode, we thought it’d be an excellent opportunity to talk through our experiences working from home during this time.",
