@@ -1,1 +1,13 @@
 .container{margin-left:auto;margin-right:auto}:root{box-sizing:border-box}*,::after,::before{box-sizing:inherit}html{font-size:62.5%}body{margin:0;padding:0;width:100%;font-size:16px;font-size:1.6rem;font-family:Helvetica,Arial,sans-serif;line-height:1.3}ul{list-style:none;margin:0;padding:0}ul li{margin:0;padding:0}ol{margin:0;padding:0}p{padding:0;margin:0 0 5px 0;margin:0 0 .5rem 0}h1,h2,h3,h4,h5,h6{padding:0;margin:0 0 10px 0;margin:0 0 1rem 0;font-weight:400}fieldset{border:none;margin:0;padding:0}button{cursor:pointer}.container{padding-left:20px;padding-right:20px;color:#2d363f;line-height:26px}@media only screen and (min-width:940px){.container{width:80%;margin:0 auto}}h3{font-size:22px;line-height:38px}p{margin-bottom:15px}body{background:#fff}header{background:#2d363f;color:#d6d8d7;margin-bottom:30px;height:200px}@media only screen and (max-width:600px){header{height:auto}}header h1{color:#8ba4a9;margin:0;font-size:42px;font-size:4.2rem}header .logo{max-width:150px;padding:15px 0;margin:0 auto;display:block}@media only screen and (min-width:600px){header .logo{float:left;margin:0}}.feeds{text-align:center}@media only screen and (min-width:600px){.feeds{float:right;margin:0}}.feeds li{display:inline-block}.feeds li img{width:25px;height:25px;margin:15px 10px}.feeds li img:focus,.feeds li img:hover{opacity:.7}@media only screen and (min-width:600px){.feeds li img{width:30px;height:30px}}.logo{max-width:400px}footer{clear:both;text-align:center;color:#d6d8d7;background:#2d363f;padding:20px 0;margin-top:30px}footer .legal{text-align:center;font-size:12px;margin-top:15px}footer .legal li{display:inline-block;padding:0 10px;border-left:1px solid #d6d8d7}footer .legal li:first-child{border-left:none}footer a{color:#d6d8d7;text-decoration:none}footer a:focus,footer a:hover{border-bottom:1px solid #d6d8d7}.heart{fill:red;top:2px;width:20px;height:15px;position:relative;animation:pulse 1s ease infinite}@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.3)}100%{transform:scale(1)}}.virtual-happy-hour{text-align:center}.virtual-happy-hour h2{margin-top:40px;font-size:40px}.virtual-happy-hour svg{max-width:900px}.virtual-happy-hour a{text-decoration:none;border-bottom:1px solid #2d363f;color:#2d363f}.virtual-happy-hour a:focus,.virtual-happy-hour a:hover{border:none}.cta{text-align:center;margin:50px 0}.cta a{background:#2d363f;padding:10px 15px;color:#d6d8d7;border:none;text-decoration:none;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.cta a:focus,.cta a:hover{border:none;color:#fff}
+.virtual-happy-hour{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.virtual-happy-hour img{
+    max-width: 800px;
+    width: 90%;
+}
+
+.virtual-happy-hour h2 {
+    line-height: 40px;
+}
