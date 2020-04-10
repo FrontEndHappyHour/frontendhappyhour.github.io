@@ -23,6 +23,8 @@ module.exports = function main(pageType, content, title, desc) {
   // set OG image
   if (pageType === 'shirts') {
     pageOG = 'http://frontendhappyhour.com/public/img/shirts.jpg';
+  } else if (pageType === 'virtual-happy-hour') {
+    pageOG = 'https://i.imgur.com/doWONo7.png';
   } else {
     pageOG = 'http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
   }
@@ -113,7 +115,7 @@ module.exports = function main(pageType, content, title, desc) {
     js = '';
   }
 
-  // ama page
+  // virtual happy hour page
   if (pageType === 'virtual-happy-hour') {
     path = '../';
     css = `public/css/virtual-happy-hour.css?v=${cssVersion}`;
