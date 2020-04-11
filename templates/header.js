@@ -17,8 +17,6 @@ module.exports = function header(path) {
                         <li><a href="${strings.urls[0].googlepodcasts}"><img src="${path}public/img/googlepodcasts.svg" alt="Follow us on Google Podcasts"></a></li>
                         <li><a href="${strings.urls[0].rss}"><img src="${path}public/img/rss.svg" alt="Subscribe to RSS feed"></a></li>
                         <li><a href="${strings.urls[0].twitter}"><img src="${path}public/img/twitter.svg" alt="Follow us on Twitter"></a></li>
-                        <li><a href="${strings.urls[0].facebook}"><img src="${path}public/img/facebook.svg" alt="Follow us on Facebook"></a></li>
-                        <li><a href="${strings.urls[0].mailing}"><img src="${path}public/img/mail.svg" alt="Subscribe to our mailing list" class="mail"></a></li>
                     </ul>
                 </div>
             </div>
