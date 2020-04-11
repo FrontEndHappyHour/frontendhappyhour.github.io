@@ -47,6 +47,7 @@ class App extends React.Component {
   };
 
   previousList = () => {
+    window.scrollTo(500, 0);
     if(this.state.startValue >= 0) {
       this.setState({
         startValue: this.state.startValue - this.state.numOnPage,
@@ -64,6 +65,7 @@ class App extends React.Component {
   };
 
   nextList = () => {
+    window.scrollTo(500, 0);
     this.setState({ startValue: this.state.startValue + this.state.numOnPage, listNum: this.state.listNum + this.state.numOnPage });
 
     // show previous button

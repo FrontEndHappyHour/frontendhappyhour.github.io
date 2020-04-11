@@ -198,6 +198,7 @@ var App = function (_React$Component) {
     };
 
     _this.previousList = function () {
+      window.scrollTo(500, 0);
       if (_this.state.startValue >= 0) {
         _this.setState({
           startValue: _this.state.startValue - _this.state.numOnPage,
@@ -215,6 +216,7 @@ var App = function (_React$Component) {
     };
 
     _this.nextList = function () {
+      window.scrollTo(500, 0);
       _this.setState({ startValue: _this.state.startValue + _this.state.numOnPage, listNum: _this.state.listNum + _this.state.numOnPage });
 
       // show previous button
