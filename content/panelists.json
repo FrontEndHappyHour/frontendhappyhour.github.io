@@ -52,5 +52,11 @@
     "twitter": "stacylondoner",
     "profile_pic": "/img/panel/stacylondoner.jpg",
     "bio": "Stacy is a Senior Front-End Engineer at Atlassian working on Bitbucket Cloud.  In addition to front-end dev, she's into art, being a musicophile, making //TODO lists, and traveling."
+  },
+  {
+    "name": "Jem Young",
+    "twitter": "jemyoung",
+    "profile_pic": "/img/jem.jpg",
+    "bio": "Jem is a Senior Software Engineer at Netflix. He loves dogs, reading, and clean code. He believes that empathy is the key to building an effective UI and when he’s not at the gym or chasing his cat, you can find him hassling other engineers to write more tests."
   }
 ]
