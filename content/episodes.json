@@ -425,7 +425,7 @@
       "Mars Jullian",
       "Stacy London"
     ],
-    "guests": [],
+    "guests": ["meetings"],
     "links": [],
     "picks": [
       {
