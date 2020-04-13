@@ -30,6 +30,7 @@ const object = {
   'published': '',
   'transcribed': false,
   'category': '',
+  'tags': [],
   'panel': names,
   'guests': guests,
   'links': links,
