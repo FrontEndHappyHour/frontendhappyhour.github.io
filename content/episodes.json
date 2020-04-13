@@ -7,6 +7,7 @@
     "published": "April 12, 2020",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -115,6 +116,7 @@
     "published": "March 29, 2020",
     "transcribed": false,
     "category": "technical",
+    "tags": ["graphql"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -210,6 +212,7 @@
     "published": "March 20, 2020",
     "transcribed": false,
     "category": "soft",
+    "tags": ["remote", "wfh"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -327,6 +330,7 @@
     "published": "March 15, 2020",
     "transcribed": false,
     "category": "technical",
+    "tags": ["design"],
     "panel": [
       "Ryan Burgess",
       "Stacy London"
@@ -354,6 +358,7 @@
     "published": "March 1, 2020",
     "transcribed": false,
     "category": "soft",
+    "tags": ["remote", "wfh"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -413,6 +418,7 @@
     "published": "February 16, 2020",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -472,6 +478,7 @@
     "published": "January 20, 2020",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -563,6 +570,7 @@
     "published": "January 5, 2020",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -638,6 +646,7 @@
     "published": "December 22, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -707,6 +716,7 @@
     "published": "December 8, 2019",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -822,6 +832,7 @@
     "published": "November 24, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -907,6 +918,7 @@
     "published": "October 27, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -975,6 +987,7 @@
     "published": "September 29, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1070,6 +1083,7 @@
     "published": "September 15, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1118,6 +1132,7 @@
     "published": "August 18, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1177,6 +1192,7 @@
     "published": "August 4, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1277,6 +1293,7 @@
     "published": "July 21, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1346,6 +1363,7 @@
     "published": "June 23, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1434,6 +1452,7 @@
     "published": "June 9, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1542,6 +1561,7 @@
     "published": "May 26, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1616,6 +1636,7 @@
     "published": "May 14, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1712,6 +1733,7 @@
     "published": "April 28, 2019",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1817,6 +1839,7 @@
     "published": "April 14, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1849,6 +1872,7 @@
     "published": "March 31, 2019",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1923,6 +1947,7 @@
     "published": "March 3, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2011,6 +2036,7 @@
     "published": "February 18, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2085,6 +2111,7 @@
     "published": "February 3, 2019",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2160,6 +2187,7 @@
     "published": "January 20, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2213,6 +2241,7 @@
     "published": "January 6, 2019",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2281,6 +2310,7 @@
     "published": "December 9, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2367,6 +2397,7 @@
     "published": "November 25, 2018",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2431,6 +2462,7 @@
     "published": "October 28, 2018",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2506,6 +2538,7 @@
     "published": "October 14, 2018",
     "transcribed": false,
     "category": "",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2596,6 +2629,7 @@
     "published": "September 30, 2018",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2616,6 +2650,7 @@
     "published": "September 16, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2710,6 +2745,7 @@
     "published": "September 2, 2018",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2789,6 +2825,7 @@
     "published": "August 19, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2847,6 +2884,7 @@
     "published": "August 5, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2927,6 +2965,7 @@
     "published": "July 22, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2991,6 +3030,7 @@
     "published": "July 8, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3060,6 +3100,7 @@
     "published": "June 24, 2018",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3151,6 +3192,7 @@
     "published": "June 10, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3210,6 +3252,7 @@
     "published": "May 28, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3258,6 +3301,7 @@
     "published": "April 13, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3332,6 +3376,7 @@
     "published": "April 29, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3350,6 +3395,7 @@
     "published": "April 16, 2018",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3429,6 +3475,7 @@
     "published": "April 1, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3504,6 +3551,7 @@
     "published": "March 18, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Jem Young",
       "Augustus Yuan",
@@ -3600,6 +3648,7 @@
     "published": "March 4, 2018",
     "transcribed": false,
     "category": "technical ",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3625,6 +3674,7 @@
     "published": "February 18, 2018",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3695,6 +3745,7 @@
     "published": "February 5, 2018",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -3808,6 +3859,7 @@
     "published": "January 21, 2018",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3940,6 +3992,7 @@
     "published": "December 18, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4235,6 +4288,7 @@
     "published": "November 26, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4305,6 +4359,7 @@
     "published": "November 14, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -4369,6 +4424,7 @@
     "published": "October 29, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -4443,6 +4499,7 @@
     "published": "October 15, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4582,6 +4639,7 @@
     "published": "October 1, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Derrick Showers",
@@ -4670,6 +4728,7 @@
     "published": "September 13, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4744,6 +4803,7 @@
     "published": "August 27, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4904,6 +4964,7 @@
     "published": "August 14, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -5143,6 +5204,7 @@
     "published": "July 30, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -5302,6 +5364,7 @@
     "published": "July 17, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -5512,6 +5575,7 @@
     "published": "July 5, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -5730,6 +5794,7 @@
     "published": "June 18, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -5862,6 +5927,7 @@
     "published": "June 4, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -6114,6 +6180,7 @@
     "published": "May 22, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -6311,6 +6378,7 @@
     "published": "May 7, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Jem Young",
       "Ryan Anklam",
@@ -6522,6 +6590,7 @@
     "published": "April 23, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Mars Jullian",
@@ -6602,6 +6671,7 @@
     "published": "April 9, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -6701,6 +6771,7 @@
     "published": "March 24, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -6983,6 +7054,7 @@
     "published": "March 12, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -7188,6 +7260,7 @@
     "published": "February 26, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Ryan Anklam",
@@ -7367,6 +7440,7 @@
     "published": "February 15, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -7457,6 +7531,7 @@
     "published": "February 7, 2017",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -7678,6 +7753,7 @@
     "published": "January 24, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Derrick Showers",
@@ -7746,6 +7822,7 @@
     "published": "January 15, 2017",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -8028,6 +8105,7 @@
     "published": "December 30, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Derrick Showers",
@@ -8235,6 +8313,7 @@
     "published": "December 16, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -8466,6 +8545,7 @@
     "published": "December 5, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -8578,6 +8658,7 @@
     "published": "November 20, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -8863,6 +8944,7 @@
     "published": "November 7, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -9000,6 +9082,7 @@
     "published": "October 29, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -9162,6 +9245,7 @@
     "published": "October 13, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -9263,6 +9347,7 @@
     "published": "September 25, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -9378,6 +9463,7 @@
     "published": "September 12, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -9516,6 +9602,7 @@
     "published": "August 28, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -9646,6 +9733,7 @@
     "published": "August 17, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -9780,6 +9868,7 @@
     "published": "August 8, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -9900,6 +9989,7 @@
     "published": "July 27, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -10061,6 +10151,7 @@
     "published": "July 12, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -10211,6 +10302,7 @@
     "published": "June 6, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -10354,6 +10446,7 @@
     "published": "May 24, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -10466,6 +10559,7 @@
     "published": "May 15, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Derrick Showers",
@@ -10593,6 +10687,7 @@
     "published": "April 25, 2015",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -10732,6 +10827,7 @@
     "published": "April 14, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -10884,6 +10980,7 @@
     "published": "April 04, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -11026,6 +11123,7 @@
     "published": "March 24, 2016",
     "transcribed": false,
     "category": "soft",
+    "tags": [],
     "panel": [
       "Derrick Showers",
       "Jem Young",
@@ -11085,6 +11183,7 @@
     "published": "March 16, 2016",
     "transcribed": false,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Brian Holt",
       "Jem Young",
@@ -11159,6 +11258,7 @@
     "published": "February 29, 2016",
     "transcribed": true,
     "category": "technical",
+    "tags": [],
     "panel": [
       "Augustus Yuan",
       "Derrick Showers",
