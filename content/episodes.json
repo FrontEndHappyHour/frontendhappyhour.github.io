@@ -7,7 +7,7 @@
     "published": "April 12, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["recap"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -330,7 +330,7 @@
     "published": "March 15, 2020",
     "transcribed": false,
     "category": "technical",
-    "tags": ["design"],
+    "tags": ["design", "live", "columbus", "ohio"],
     "panel": [
       "Ryan Burgess",
       "Stacy London"
@@ -358,7 +358,7 @@
     "published": "March 1, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["remote", "wfh"],
+    "tags": ["remote", "wfh", "setup", "tools"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -418,14 +418,14 @@
     "published": "February 16, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["meetings"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
       "Mars Jullian",
       "Stacy London"
     ],
-    "guests": ["meetings"],
+    "guests": [],
     "links": [],
     "picks": [
       {
@@ -478,7 +478,7 @@
     "published": "January 20, 2020",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["hacking", "civic", "volunteering"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -570,7 +570,7 @@
     "published": "January 5, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["careers", "growth"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -646,7 +646,7 @@
     "published": "December 22, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["holidays", "releases", "freeze", "code"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -716,7 +716,7 @@
     "published": "December 8, 2019",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["diversity", "inclusion", "wit"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -832,7 +832,7 @@
     "published": "November 24, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["vue", "vuejs", "framework", "react", "javascript"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -918,7 +918,7 @@
     "published": "October 27, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["netflix", "studio", "engineering"],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -987,7 +987,7 @@
     "published": "September 29, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["leader", "growth", "manager", "management"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1083,7 +1083,7 @@
     "published": "September 15, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["open", "source"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1132,7 +1132,7 @@
     "published": "August 18, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["code", "migrations"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1192,7 +1192,7 @@
     "published": "August 4, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["creative", "art", "code", "coding"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1293,7 +1293,7 @@
     "published": "July 21, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["development", "process", "engineering", "tools"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1363,7 +1363,7 @@
     "published": "June 23, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["backend", "frontend", "collaboration", "netflix"],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1452,7 +1452,7 @@
     "published": "June 9, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["product", "management", "manager", "netflix"],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1561,7 +1561,7 @@
     "published": "May 26, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["css", "code", "engineering", "netflix"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1636,7 +1636,7 @@
     "published": "May 14, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["user", "experience", "design"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1733,7 +1733,7 @@
     "published": "April 28, 2019",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["frontend", "culture"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1839,7 +1839,7 @@
     "published": "April 14, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["frontend", "terms", "technologies", "javascript"],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1872,7 +1872,7 @@
     "published": "March 31, 2019",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["careers", "career", "growth"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1947,7 +1947,7 @@
     "published": "March 3, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["interactive", "studio", "netflix"],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2036,7 +2036,7 @@
     "published": "February 18, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["libraries", "component", "components", "frameworks", "design"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2111,7 +2111,7 @@
     "published": "February 3, 2019",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["salary", "jobs", "negotiating", "offers"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2187,7 +2187,7 @@
     "published": "January 20, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["mobile", "native", "react", "swift", "kotlin"],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2241,7 +2241,7 @@
     "published": "January 6, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["performance", "engineering", "javascript", "netflix"],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2310,7 +2310,7 @@
     "published": "December 9, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["performance", "javascript"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2397,7 +2397,7 @@
     "published": "November 25, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["senior", "engineer", "engineering", "growth"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2462,7 +2462,7 @@
     "published": "October 28, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["internships", "growth", "career", "careers"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2538,7 +2538,7 @@
     "published": "October 14, 2018",
     "transcribed": false,
     "category": "",
-    "tags": [],
+    "tags": ["pwa", "progressive", "web", "apps"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2629,7 +2629,7 @@
     "published": "September 30, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["ethics", "culture"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2650,7 +2650,7 @@
     "published": "September 16, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["type", "systems", "typescript", "flow"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2745,7 +2745,7 @@
     "published": "September 2, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["recruiting", "hiring", "jobs", "networking"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2825,7 +2825,7 @@
     "published": "August 19, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["javascript", "libraries", "framework", "frameworks"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2884,7 +2884,7 @@
     "published": "August 5, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["iot", "internet", "hardware", "javascript"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2965,7 +2965,7 @@
     "published": "July 22, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["web", "components", "javascript"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3030,7 +3030,7 @@
     "published": "July 8, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["tooling", "tools", "builds", "releases"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3100,7 +3100,7 @@
     "published": "June 24, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["companies", "startups", "careers", "jobs"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3192,7 +3192,7 @@
     "published": "June 10, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["ab", "testing", "data", "product"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3252,7 +3252,7 @@
     "published": "May 28, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["testing", "user"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3301,7 +3301,7 @@
     "published": "April 13, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["netflix", "falcor", "graphql", "modeling"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3376,7 +3376,7 @@
     "published": "April 29, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["reactathon", "live", "conference", "react", "javascript", "scale"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3395,7 +3395,7 @@
     "published": "April 16, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["tools", "tooling"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3475,7 +3475,7 @@
     "published": "April 1, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["elm"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3551,7 +3551,7 @@
     "published": "March 18, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["scale", "code", "migrations", "live"],
     "panel": [
       "Jem Young",
       "Augustus Yuan",
@@ -3648,7 +3648,7 @@
     "published": "March 4, 2018",
     "transcribed": false,
     "category": "technical ",
-    "tags": [],
+    "tags": ["forwardjs", "forward", "live", "javascript", "conference"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3674,7 +3674,7 @@
     "published": "February 18, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["culture", "jobs"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3745,7 +3745,7 @@
     "published": "February 5, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["live", "conference", "ngAtl", "angular", "atlanta"],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -3859,7 +3859,7 @@
     "published": "January 21, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["jobs", "freelance"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3992,7 +3992,7 @@
     "published": "December 18, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["tools", "frameworks", "engineering", "frameworks"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4288,7 +4288,7 @@
     "published": "November 26, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["speaking", "conference", "growth", "careers"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4359,7 +4359,7 @@
     "published": "November 14, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["security", "frontend"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -4424,7 +4424,7 @@
     "published": "October 29, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["recruiting", "jobs", "careers"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -4499,7 +4499,7 @@
     "published": "October 15, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["growth", "jobs", "careers"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4639,7 +4639,7 @@
     "published": "October 1, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["jobs", "new", "job", "careers"],
     "panel": [
       "Ryan Burgess",
       "Derrick Showers",
@@ -4728,7 +4728,7 @@
     "published": "September 13, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["jobs", "work", "life", "balanace", "careers", "culture"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4803,7 +4803,7 @@
     "published": "August 27, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["code", "scale"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4964,7 +4964,7 @@
     "published": "August 14, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["react", "native", "javascript", "frameworks"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -5204,7 +5204,7 @@
     "published": "July 30, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["swift", "ios", "mobile"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -5364,7 +5364,7 @@
     "published": "July 17, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["data", "javascript"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -5575,7 +5575,7 @@
     "published": "July 5, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["ama", "careers", "growth"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -5794,7 +5794,7 @@
     "published": "June 18, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": [],
+    "tags": ["new", "jobs", "careers"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
