@@ -29,8 +29,8 @@ module.exports = function main(pageType, content, title, desc) {
     pageOG = 'http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
   }
 
-  // homepage
-  if (pageType === 'home') {
+  // homepage and episode list
+  if (pageType === 'home' || pageType === 'episodelist') {
     path = '';
     pageTitle = '';
     pageContent =
@@ -85,6 +85,13 @@ module.exports = function main(pageType, content, title, desc) {
     heading = 'Episodes';
     css = 'public/css/style.css';
     js = '<script src="public/js/min/home.min.js" type="text/javascript"></script>';
+  }
+
+  // episode list page
+  if (pageType === 'episodelist') {
+    path = '../';
+    css = `public/css/style.css?v=${cssVersion}`;
+    js = '<script src="../public/js/min/home.min.js" type="text/javascript"></script>';
   }
 
   // episode page

@@ -96,6 +96,9 @@ epList();
 // update index.html
 write('index.html', main('home', mainOutput));
 
+// update episodes list
+write('./episodes/index.html', main('episodelist', mainOutput));
+
 // create mailing list page
 mailing();
 
