@@ -54,33 +54,36 @@
 .episode {
   .episode-number{
     display: inline-block;
-    font-size: 28px;
-    background: $darkBlue;
-    color: white;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    font-size: 24px;
+    border: 3px solid $darkBlue;
+    color: $darkBlue;
+    width: 85px;
+    height: 85px;
+    line-height: 80px;
     text-align: center;
-    border-radius: 70px;
+    border-radius: 85px;
   }
 
   .title{
-    font-size: 36px;
-    width: calc(100% - 85px);
+    font-size: 18px;
+    width: calc(100% - 105px);
   }
 
   .date {
     font-style: italic;
+    color: $grey;
+    font-size: 12px;
+    width: calc(100% - 105px);
   }
 
   @media (max-width: 600px) {
     .episode-number {
       margin: 0 10px 0 0;
       order: 1;
-      font-size: 14px;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
+      font-size: 18px;
+      width: 60px;
+      height: 60px;
+      line-height: 55px;
     }
     .title {
       order: 3;
