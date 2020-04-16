@@ -18,7 +18,7 @@
 
   p{
     width: 100%;
-    margin-left: 85px;
+    margin-left: 105px;
   }
 
   a{
@@ -52,6 +52,8 @@
 }
 
 .episode {
+  position: relative;
+
   .episode-number{
     display: inline-block;
     font-size: 24px;
@@ -67,6 +69,7 @@
   .title{
     font-size: 18px;
     width: calc(100% - 105px);
+    font-weight: bold;
   }
 
   .date {
@@ -74,6 +77,12 @@
     color: $grey;
     font-size: 12px;
     width: calc(100% - 105px);
+    position: absolute;
+    left: 120px;
+    top: 0;
+  }
+
+  .description {
   }
 
   @media (max-width: 600px) {
@@ -93,7 +102,7 @@
       order: 2;
       margin-bottom: 0;
       line-height: 40px;
-      width: calc(100% - 50px);
+      line-height: 10px;
     }
     .description {
       order: 4;
