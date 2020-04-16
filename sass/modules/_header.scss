@@ -7,17 +7,18 @@
 // ------------------------------------------------------------
 
 header{
-  background: $darkBlue;
-  color: $chalk;
-  margin-bottom: 30px;
-  height: 200px;
+  color: $darkBlue;
+  padding: 40px 0 20px 0;
+  position: relative;
+  @include clearfix();
+  width: 100%;
 
   @include max-breakpoint(600) {
     height: auto;
   }
 
   h1{
-    color:$teal;
+    color:$darkBlue;
     margin: 0;
     @include rem("font-size", 42);
   }
