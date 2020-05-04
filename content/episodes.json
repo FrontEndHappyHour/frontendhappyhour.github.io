@@ -1,5 +1,81 @@
 [
   {
+    "episode": "102",
+    "title": "",
+    "description": "",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "tech",
+    "tags": ["scale", "migrations", "code"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Drasner",
+        "twitter": "sarah_edo",
+        "company": "Netlify"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Handmaid’s Tale",
+        "url": "https://www.hulu.com/series/the-handmaids-tale-565d8976-9d26-4e63-866c-40f8a137ce5f",
+        "from": "Sarah Drasner"
+      },
+      {
+        "title": "Don’t F**K with Cats",
+        "url": "https://www.netflix.com/title/81031373",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Spotify: Failed #SquadGoals",
+        "url": "https://www.jeremiahlee.com/posts/failed-squad-goals/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Last Dance",
+        "url": "https://www.netflix.com/gb/title/80203144",
+        "from": "Jem Young"
+      },
+      {
+        "title": "On Being a Senior Engineer",
+        "url": "https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Effective TypeScript",
+        "url": "https://www.amazon.com/Effective-TypeScript-Specific-Ways-Improve/dp/1492053740",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Powerblock weight set",
+        "url": "https://powerblock.com/product/sport/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Leaving the Grid by Ital Tek",
+        "url": "https://open.spotify.com/track/2u1hLuyPC4QfSAsbG2e9mT?si=8LmLniJGRTGTOyFk2IH_Cg",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Video for Leaving the Grid by Ruben Fro",
+        "url": "https://youtu.be/4UuwLrcEtvg",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Under the Table by Fiona Apple",
+        "url": "https://open.spotify.com/track/12WhIX6MvI93bS3wPSStSY?si=vjpcQ8lyR7-eQNDrY22I2w",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "101",
     "title": "Showing off our personal bars - Personal projects",
     "description": "We all focus a lot of our time on engineering work for large companies, but we’ve each had our side projects we’ve worked on in our careers. In this episode, we share our side projects we’ve done in the past.",
@@ -7,7 +83,10 @@
     "published": "April 26, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["projects", "learning"],
+    "tags": [
+      "projects",
+      "learning"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
