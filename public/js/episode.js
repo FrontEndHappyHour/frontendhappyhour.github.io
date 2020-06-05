@@ -219,7 +219,7 @@ module.exports = Related;
 module.exports = function createURL(str) {
   'use strict';
 
-  var url = str.replace(/ /g, '-').toLowerCase().replace(/---|:-/g, '-').replace(/,|"|\./g, '').replace(/'/g, '').replace(/\?/g, '').replace(/a\/b/g, 'ab').trim();
+  var url = str.replace(/ /g, '-').toLowerCase().replace(/---|:-/g, '-').replace(/,|"|\./g, '').replace(/#|"|\./g, '').replace(/'/g, '').replace(/\?/g, '').replace(/a\/b/g, 'ab').trim();
   return url;
 };
 
