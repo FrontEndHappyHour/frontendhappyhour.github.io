@@ -1,5 +1,97 @@
 [
   {
+    "episode": "105",
+    "title": "A parcel of drinks - Parcel",
+    "description": "In previous episodes, we’ve talked a lot about bundling JavaScript, but we haven’t talked a lot about Parcel. In this episode, we are joined by Maia Teegarden, Will Binns-Smith, and Devon Govett to talk with us about Parcel JS.",
+    "id": "840123745",
+    "published": "June 14, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["builds", "packager", "parcel"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Maia Teegarden",
+        "twitter": "padmaia"
+      },
+      {
+        "name": "Will Binns-Smith",
+        "twitter": "wbinnssmith"
+      },
+      {
+        "name": "Devon Govett",
+        "twitter": "devongovett"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Don’t Let Get You Down by Wajatta",
+        "url": "https://open.spotify.com/album/4JZjID5JmCUCvR8pu8RGUw?si=KDZ3MMfoSa2HoSnHBZbw1A",
+        "from": "Maia Teegarden"
+      },
+      {
+        "title": "It Is What It Is by Thundercat",
+        "url": "https://open.spotify.com/album/59GRmAvlGs7KjLizFnV7Y9?si=0rlBEDHfRdGTXbO1bQUfUg",
+        "from": "Maia Teegarden"
+      },
+      {
+        "title": "Take a break - PTO WFH",
+        "url": "",
+        "from": "Will Binns-Smith"
+      },
+      {
+        "title": "Dokku",
+        "url": "https://github.com/dokku/dokku",
+        "from": "Will Binns-Smith"
+      },
+      {
+        "title": "Breville Bambino+",
+        "url": "https://www.breville.com/us/en/products/espresso/bes500.html",
+        "from": "Devon Govett"
+      },
+      {
+        "title": "Fork",
+        "url": "https://git-fork.com/",
+        "from": "Devon Govett"
+      },
+      {
+        "title": "Kim's Convenience",
+        "url": "https://www.netflix.com/title/80199128",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Master Class",
+        "url": "https://www.masterclass.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Half of It",
+        "url": "https://www.netflix.com/title/81005150",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Parcel T-Shirt",
+        "url": "https://cottonbureau.com/products/parcel-t-shirt#/1592149/tee-men-standard-tee-vintage-navy-tri-blend-s",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Uunnrreeaall by Sun Glitters",
+        "url": "https://open.spotify.com/track/1ljgMQYhJTjphiEm9kYk1m?si=ValbG_LtQ6iFbtSYIead_w",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Breathtaker by Geotic",
+        "url": "https://open.spotify.com/track/1jA5GvGUsGqNNe4cdzXHdO?si=lb-HugsIQLi1U3rteByMMw",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "104",
     "title": "#BlackLivesMatter",
     "description": "Instead of listening to an episode of Front End Happy Hour this week, we want to encourage you to use the hour to check out educational materials about the long history of structural racism and injustice Black people continue to face as well as learn how you can be actively anti-racist to affect real change. In our show notes, we’ve provided a list of picks that includes podcasts, videos, books, and articles available for you to learn more. The list of resources will be in the show notes. Simply put, Black lives matter.",
@@ -7,9 +99,10 @@
     "published": "June 5, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["culture"],
-    "panel": [
+    "tags": [
+      "culture"
     ],
+    "panel": [],
     "guests": [],
     "links": [],
     "picks": [
