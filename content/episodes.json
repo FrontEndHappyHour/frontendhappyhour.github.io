@@ -1,5 +1,69 @@
 [
   {
+    "episode": "107",
+    "title": "",
+    "description": "Whether you’re giving a presentation to a large audience at a conference, your team or articulating an idea, public speaking is an important skill set. In this episode, we are joined by Anne Ricketts to talk with us to share ways to be a strong presenter.",
+    "id": "",
+    "published": "",
+    "transcribed": false,
+    "category": "soft",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Mars Jullian"
+    ],
+    "guests": [
+      {
+        "name": "Anne Ricketts",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Unorthodox",
+        "url": "https://www.netflix.com/title/81019069",
+        "from": "Anne Ricketts"
+      },
+      {
+        "title": "Fresh Air",
+        "url": "https://www.npr.org/podcasts/381444908/fresh-air",
+        "from": "Anne Ricketts"
+      },
+      {
+        "title": "How to Make Clear and Concise Points",
+        "url": "https://www.youtube.com/watch?v=jOiI3O8l6AQ",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Blue Yeti Mic",
+        "url": "https://www.amazon.com/Blue-Yeti-USB-Microphone-Silver/dp/B002VA464S",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Midnight Gospel",
+        "url": "https://www.netflix.com/title/80987903",
+        "from": "Jem Young"
+      },
+      {
+        "title": "What do executives do?",
+        "url": "https://apenwarr.ca/log/?m=201909",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Suvie",
+        "url": "https://www.suvie.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Companion Wine Company Skin Contact Pinot Gris",
+        "url": "https://companionwine.shop/products/2019-pinot-gris",
+        "from": "Mars Jullian"
+      }
+    ]
+  },
+  {
     "episode": "106",
     "title": "Carefully Sipping Sangria - CSS",
     "description": "Writing CSS is quick to learn, but writing strong CSS patterns that can scale is a lot more challenging. In this episode, we are joined by Brad Frost to discuss useful patterns in CSS and the future of CSS.",
@@ -7,7 +71,11 @@
     "published": "June 28, 2020",
     "transcribed": false,
     "category": "technical",
-    "tags": ["css", "engineering", "scale"],
+    "tags": [
+      "css",
+      "engineering",
+      "scale"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
