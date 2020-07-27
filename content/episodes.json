@@ -1,5 +1,79 @@
 [
   {
+    "episode": "108",
+    "title": "Whiteboarding for our drinks - The coding interview",
+    "description": "We’ve all been there, coding interviews always have their challenges. In this episode, we are joined by Emma Bostian to talk with us about the technical coding interview. We share our experiences and thoughts on what we like and dislike about the various coding interviews.",
+    "id": "865209937",
+    "published": "July 26, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["interviews", "recruiting"],
+    "panel": [
+      "Ryan Burgess",
+      "Ryan Anklam",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Emma Bostian",
+        "twitter": "EmmaBostian"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Developer's Guide to Book Publishing",
+        "url": "https://www.developersguidetocontent.com/book-publishing-guide",
+        "from": "Emma Bostian"
+      },
+      {
+        "title": "Launch",
+        "url": "https://www.audible.com/pd/Launch-Audiobook/B01ETNAEE0?ds_rl=1262685&ds_rl=1263561&ds_rl=1260658&source_code=GO1GB907OSH060513&gclid=CjwKCAjw0_T4BRBlEiwAwoEiAXEf0teLi80KrzRFPaJr60MUw4yQscd-bFZ6hg8dTt4zCgHS2HJ6OBoCJu0QAvD_BwE&gclsrc=aw.ds",
+        "from": "Emma Bostian"
+      },
+      {
+        "title": "Bus Simulator",
+        "url": "https://store.playstation.com/en-us/product/UP2565-CUSA12261_00-BUSSIMXXXXXXXXXX",
+        "from": "Emma Bostian"
+      },
+      {
+        "title": "De-Coding The Technical Interview Process",
+        "url": "https://gumroad.com/l/aUVXY#:~:text=Emma%20Bostian%20%F0%9F%90%9E,writing%20for%20all%20of%20you.",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Nomad List",
+        "url": "https://nomadlist.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Pixel Buds 2",
+        "url": "https://store.google.com/us/product/pixel_buds",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "The Last Dance Playlist",
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DX45xYefy6tIi?si=UWU6vFQzT-S7w5nPEew0NQ",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "MagicaVoxel",
+        "url": "https://ephtracy.github.io/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Leicester by Lambert",
+        "url": "https://open.spotify.com/track/3xNGLXWGtyFsDREQJqhV8s?si=IgrOSLQARTyUEBFqqAag8A",
+        "from": "Stacy London"
+      },
+      {
+        "title": "I Feel Better by Ghost Culture & Kiwi",
+        "url": "https://open.spotify.com/track/55oJX0JIBpsvr7I3zvkglz?si=Nut91SKtQFWzYc95oDVqlw",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "107",
     "title": "Public speakeasy - Public speaking",
     "description": "Whether you’re giving a presentation to a large audience at a conference, your team, or articulating an idea, public speaking is an important skill set. In this episode, we are joined by Anne Ricketts to talk with us to share ways to be a strong presenter.",
@@ -7,7 +81,11 @@
     "published": "July 12, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["career", "speaking", "conference"],
+    "tags": [
+      "career",
+      "speaking",
+      "conference"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
