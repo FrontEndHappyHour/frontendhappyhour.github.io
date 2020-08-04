@@ -175,7 +175,7 @@ module.exports = function main(pageType, content, title, desc, link) {
                   <meta property="og:image"
                    content="${pageOG}">
                   <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="http://frontendhappyhour.com/${urlCanonical}">
+                  <link rel="canonical" href="https://frontendhappyhour.com/${urlCanonical}">
                   <link rel="stylesheet" href="${path}${css}" type="text/css" media="screen">
                   ${ga('UA-74493735-1')}
               </head>
