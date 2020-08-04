@@ -87,7 +87,7 @@ for (let i = episodes.length - 1; i >= 0; i--) {
   mkdirp.sync(`./episodes/${link}`);
 
   // create index.html for each episode
-  write(`./episodes/${link}/index.html`, main('episode', episodeOutput, epTitle, epDesc));
+  write(`./episodes/${link}/index.html`, main('episode', episodeOutput, epTitle, epDesc, link));
 }
 
 // output slimmed down version of main episode JSON
