@@ -3,8 +3,8 @@
     "episode": "109",
     "title": "Quick pour - Web Performance",
     "description": "Web performance continues to be an input factor to prioritize when building web applications. In this episode, we speak with Google engineers, Kristofer Baxtor, and Jason Miller about the latest best practices in web performance.",
-    "id": "",
-    "published": "August 10, 2020",
+    "id": "873197536",
+    "published": "August 09, 2020",
     "transcribed": false,
     "category": "technical",
     "tags": ["performance", "web", "javascript", "css", "technologies"],
@@ -57,7 +57,7 @@
         "from": "Jason Miller"
       },
       {
-        "title": "Pink Panther Jewelry heist in mall in Dubai",
+        "title": "Pink Panther Jewelry heist in a mall in Dubai",
         "url": "https://www.youtube.com/watch?v=pG1jx7WhaAQ",
         "from": "Ryan Burgess"
       },
@@ -87,13 +87,18 @@
         "from": "Mars Jullian"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Mutt's Sauce",
+        "url": "https://www.muttssauce.com/",
         "from": "Brian Holt"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Vets who code",
+        "url": "https://vetswhocode.io/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Black Visions Minnesota",
+        "url": "https://www.blackvisionsmn.org/",
         "from": "Brian Holt"
       }
     ]
