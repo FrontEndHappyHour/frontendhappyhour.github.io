@@ -7,13 +7,14 @@
 // ------------------------------------------------------------
 
 .episodes {
+  clear:both;
   margin-top: 30px;
   margin-bottom: 30px;
 
   h2 {
     font-size: 32px;
-    text-transform: uppercase;
     margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   p{
@@ -100,6 +101,7 @@
       margin-bottom: 0;
       line-height: 40px;
       line-height: 10px;
+      top: -15px;
     }
     .description {
       order: 4;

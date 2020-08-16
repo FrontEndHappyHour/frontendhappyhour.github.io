@@ -1,7 +1,10 @@
 {
   "title": "Front End Happy Hour",
+  "welcome": "Welcome to the Front End Happy Hour podcast!",
   "desc": "A podcast featuring a panel of Software Engineers from Netflix, Twitch, & Atlassian talking over drinks about all things Front End development.",
   "tagline": "A podcast featuring a panel of Software Engineers from Netflix, Twitch, & Atlassian talking over drinks about all things Front End development.",
+  "about": "<p>Front End Happy Hour is a podcast that first started in February 2016. The podcast consists of a regular group of panelists from Silicon Valley companies, Netflix, Twitch, Atlassian, Evernote, and LinkedIn who are often joined by guests that get together over drinks to discuss a variety of topics for frontend development, software development, and career development.</p><p>The Front End Happy Hour podcast is recorded on a regular basis and releases new episodes on a bi-weekly basis. The panelists record in-person around a table in one location to help create a casual conversation on each of the topics.</p>",
+  "subscribe": "The Front End Happy Hour podcast is available on all the great podcast services you like to listen to your podcasts on. Make sure to subscribe to get the latest episodes!",
   "urls": [
     {
       "spotify": "https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2",
