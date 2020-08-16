@@ -25,10 +25,8 @@
     h1 {
         font-size: 24px;
 
-        @include min-breakpoint(600){
-            
+        @include min-breakpoint(600){  
             font-size: 30px;
-            border:1px solid red;
         }
     }
 
