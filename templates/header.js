@@ -9,7 +9,7 @@ module.exports = function header(path) {
 
   const template = `<header>
             <div class="container">
-                <a href="/"><h1><img src="${path}public/img/front-end-happy-hour.svg" alt="Front End Happy Hour" class="logo"></h1></a>
+                <a href="/"><h1><img src="${path}public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
                 <ul class="nav">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about/">About</a></li>

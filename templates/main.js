@@ -22,10 +22,10 @@ module.exports = function main(pageType, content, title, desc, link) {
   const subscribeList = `<div class="container">
   <p>${strings.subscribe}</p>
   <url class="subscribe-list">
-    <li><a href="${strings.urls[0].spotify}"><img src="../public/img/spotify.svg" alt="Follow our Spotify podcast"><span>Spotify</span></a></li>
-    <li><a href="${strings.urls[0].itunes}"><img src="../public/img/podcast.svg" alt="Follow our Apple podcast"><span>Apple</span></a></li>
-    <li><a href="${strings.urls[0].googlepodcasts}"><img src="../public/img/googlepodcasts.svg" alt="Follow our Google podcast"><span>Google</span></a></li>
-    <li><a href="${strings.urls[0].rss}"><img src="../public/img/rss.svg" alt="Subscribe to our RSS feed"><span>RSS</span></a></li>
+    <li><a href="${strings.urls[0].spotify}"><img src="../public/img/spotify.svg?v2" alt="Follow our Spotify podcast"><span>Spotify</span></a></li>
+    <li><a href="${strings.urls[0].itunes}"><img src="../public/img/podcast.svg?v2" alt="Follow our Apple podcast"><span>Apple</span></a></li>
+    <li><a href="${strings.urls[0].googlepodcasts}"><img src="../public/img/googlepodcasts.svg?v2" alt="Follow our Google podcast"><span>Google</span></a></li>
+    <li><a href="${strings.urls[0].rss}"><img src="../public/img/rss.svg?v2" alt="Subscribe to our RSS feed"><span>RSS</span></a></li>
   </ul>
 </div>`;
 
