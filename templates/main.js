@@ -229,6 +229,7 @@ module.exports = function main(pageType, content, title, desc, link) {
     path = '../../';
     css = `public/css/panelist.css?v=${cssVersion}`;
     pageContent = content;
+    urlCanonical = `panelists/${link}`;
     pageTitle = title + ' - ';
     js = '<script src="../../public/js/min/panelist.min.js" type="text/javascript"></script>';
   }
