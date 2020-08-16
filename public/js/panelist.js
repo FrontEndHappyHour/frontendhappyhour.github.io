@@ -193,7 +193,7 @@ _reactDom2.default.render(_react2.default.createElement(App, null), document.get
 module.exports = function createURL(str) {
   'use strict';
 
-  var url = str.replace(/ /g, '-').toLowerCase().replace(/---|:-/g, '-').replace(/,|"|\./g, '').replace(/'/g, '').replace(/\?/g, '').replace(/a\/b/g, 'ab').trim();
+  var url = str.replace(/ /g, '-').toLowerCase().replace(/---|:-/g, '-').replace(/,|"|\./g, '').replace(/#|"|\./g, '').replace(/'/g, '').replace(/\?/g, '').replace(/a\/b/g, 'ab').trim();
   return url;
 };
 

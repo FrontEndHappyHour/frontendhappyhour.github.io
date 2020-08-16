@@ -33,12 +33,18 @@ module.exports = function episodePanel(panelists, panel) {
       </li>`;
     }
   }
-
-  return `<div class="panel container">
+  
+  // if there is panelist content return the HTML
+  if(content !== '') {
+    return `<div class="panel container">
           <h3>Panel</h3>
           <ul>
           ${content}
           </ul>
           </div>
           <div id="target"></div>`;
+  }else {
+    return '';
+  }
+  
 };

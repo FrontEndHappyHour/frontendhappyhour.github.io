@@ -1,5 +1,733 @@
 [
   {
+    "episode": "109",
+    "title": "Quick pour - Web Performance",
+    "description": "Web performance continues to be an input factor to prioritize when building web applications. In this episode, we speak with Google engineers, Kristofer Baxtor, and Jason Miller about the latest best practices in web performance.",
+    "id": "873197536",
+    "published": "August 09, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["performance", "web", "javascript", "css", "technologies"],
+    "panel": [
+      "Ryan Burgess",
+      "Brian Holt",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Kristofer Baxter",
+        "twitter": "kristoferbaxter"
+      },
+      {
+        "name": "Jason Miller",
+        "twitter": "_developit"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Vets who code",
+        "url": "https://vetswhocode.io/",
+        "from": "Kristofer Baxter"
+      },
+      {
+        "title": "Core web vitals",
+        "url": "https://web.dev/vitals/",
+        "from": "Kristofer Baxter"
+      },
+      {
+        "title": "You and me - meute",
+        "url": "https://www.youtube.com/watch?v=fKFbnhcNnjE",
+        "from": "Jason Miller"
+      },
+      {
+        "title": "AST Explorer",
+        "url": "https://astexplorer.net/",
+        "from": "Jason Miller"
+      },
+      {
+        "title": "Fyrtur blackout blinds from IKEA",
+        "url": "https://www.ikea.com/us/en/p/fyrtur-blackout-roller-blind-wireless-battery-operated-gray-90417462/",
+        "from": "Jason Miller"
+      },
+      {
+        "title": "When They See Us",
+        "url": "https://www.netflix.com/title/80200549",
+        "from": "Jason Miller"
+      },
+      {
+        "title": "Pink Panther Jewelry heist in a mall in Dubai",
+        "url": "https://www.youtube.com/watch?v=pG1jx7WhaAQ",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Gardner Bender EFT-15 Mini Cable",
+        "url": "https://www.amazon.com/dp/B074B3ZWMH?ref=ppx_pop_mob_ap_share",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "How to Be an Antiracist by Ibram X. Kendi",
+        "url": "https://www.ibramxkendi.com/how-to-be-an-antiracist-1",
+        "from": "Stacy London"
+      },
+      {
+        "title": "The Cost of JavaScript Frameworks by Tim Kadlec",
+        "url": "https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "User-centric performance metrics",
+        "url": "https://web.dev/user-centric-performance-metrics/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Storybook performance addon",
+        "url": "https://www.npmjs.com/package/storybook-addon-performance",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Mutt's Sauce",
+        "url": "https://www.muttssauce.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Vets who code",
+        "url": "https://vetswhocode.io/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Black Visions Minnesota",
+        "url": "https://www.blackvisionsmn.org/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
+    "episode": "108",
+    "title": "Whiteboarding for our drinks - The coding interview",
+    "description": "We’ve all been there, coding interviews always have their challenges. In this episode, we are joined by Emma Bostian to talk with us about the technical coding interview. We share our experiences and thoughts on what we like and dislike about the various coding interviews.",
+    "id": "865209937",
+    "published": "July 26, 2020",
+    "transcribed": true,
+    "category": "technical",
+    "tags": [
+      "interviews",
+      "recruiting"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Ryan Anklam",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Emma Bostian",
+        "twitter": "EmmaBostian"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Developer's Guide to Book Publishing",
+        "url": "https://www.developersguidetocontent.com/book-publishing-guide",
+        "from": "Emma Bostian"
+      },
+      {
+        "title": "Launch",
+        "url": "https://www.audible.com/pd/Launch-Audiobook/B01ETNAEE0?ds_rl=1262685&ds_rl=1263561&ds_rl=1260658&source_code=GO1GB907OSH060513&gclid=CjwKCAjw0_T4BRBlEiwAwoEiAXEf0teLi80KrzRFPaJr60MUw4yQscd-bFZ6hg8dTt4zCgHS2HJ6OBoCJu0QAvD_BwE&gclsrc=aw.ds",
+        "from": "Emma Bostian"
+      },
+      {
+        "title": "Bus Simulator",
+        "url": "https://store.playstation.com/en-us/product/UP2565-CUSA12261_00-BUSSIMXXXXXXXXXX",
+        "from": "Emma Bostian"
+      },
+      {
+        "title": "De-Coding The Technical Interview Process",
+        "url": "https://gumroad.com/l/aUVXY#:~:text=Emma%20Bostian%20%F0%9F%90%9E,writing%20for%20all%20of%20you.",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Nomad List",
+        "url": "https://nomadlist.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Pixel Buds 2",
+        "url": "https://store.google.com/us/product/pixel_buds",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "The Last Dance Playlist",
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DX45xYefy6tIi?si=UWU6vFQzT-S7w5nPEew0NQ",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "MagicaVoxel",
+        "url": "https://ephtracy.github.io/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Leicester by Lambert",
+        "url": "https://open.spotify.com/track/3xNGLXWGtyFsDREQJqhV8s?si=IgrOSLQARTyUEBFqqAag8A",
+        "from": "Stacy London"
+      },
+      {
+        "title": "I Feel Better by Ghost Culture & Kiwi",
+        "url": "https://open.spotify.com/track/55oJX0JIBpsvr7I3zvkglz?si=Nut91SKtQFWzYc95oDVqlw",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "107",
+    "title": "Public speakeasy - Public speaking",
+    "description": "Whether you’re giving a presentation to a large audience at a conference, your team, or articulating an idea, public speaking is an important skill set. In this episode, we are joined by Anne Ricketts to talk with us to share ways to be a strong presenter.",
+    "id": "856951540",
+    "published": "July 12, 2020",
+    "transcribed": true,
+    "category": "soft",
+    "tags": [
+      "career",
+      "speaking",
+      "conference"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Mars Jullian"
+    ],
+    "guests": [
+      {
+        "name": "Anne Ricketts",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Unorthodox",
+        "url": "https://www.netflix.com/title/81019069",
+        "from": "Anne Ricketts"
+      },
+      {
+        "title": "Fresh Air",
+        "url": "https://www.npr.org/podcasts/381444908/fresh-air",
+        "from": "Anne Ricketts"
+      },
+      {
+        "title": "How to Make Clear and Concise Points",
+        "url": "https://www.youtube.com/watch?v=jOiI3O8l6AQ",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Blue Yeti Mic",
+        "url": "https://www.amazon.com/Blue-Yeti-USB-Microphone-Silver/dp/B002VA464S",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Midnight Gospel",
+        "url": "https://www.netflix.com/title/80987903",
+        "from": "Jem Young"
+      },
+      {
+        "title": "What do executives do?",
+        "url": "https://apenwarr.ca/log/?m=201909",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Suvie",
+        "url": "https://www.suvie.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Companion Wine Company Skin Contact Pinot Gris",
+        "url": "https://companionwine.shop/products/2019-pinot-gris",
+        "from": "Mars Jullian"
+      }
+    ]
+  },
+  {
+    "episode": "106",
+    "title": "Carefully Sipping Sangria - CSS",
+    "description": "Writing CSS is quick to learn, but writing strong CSS patterns that can scale is a lot more challenging. In this episode, we are joined by Brad Frost to discuss useful patterns in CSS and the future of CSS.",
+    "id": "848549008",
+    "published": "June 28, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": [
+      "css",
+      "engineering",
+      "scale"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Mars Jullian",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Brad Frost",
+        "twitter": "brad_frost"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "ModernCSS.dev",
+        "url": "https://moderncss.dev/",
+        "from": "Brad Frost"
+      },
+      {
+        "title": "Seals singing Seal by kiss from a rose?",
+        "url": "https://www.youtube.com/watch?v=G76nKGWRLPU",
+        "from": "Brad Frost"
+      },
+      {
+        "title": "Radiooooo (A musical time machine)",
+        "url": "https://radiooooo.com/",
+        "from": "Brad Frost"
+      },
+      {
+        "title": "Atomic Design",
+        "url": "https://atomicdesign.bradfrost.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "SMACSS",
+        "url": "http://smacss.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Deno",
+        "url": "https://deno.land/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "10 Things I Regret About Node.js - Ryan Dahl",
+        "url": "https://www.youtube.com/watch?v=M3BM9TB-8yA",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Theonline.town",
+        "url": "https://theonline.town/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Paint the Void",
+        "url": "https://paintthevoid.org/murals",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "This is Responsive - Resources (by Brad Frost!)",
+        "url": "http://bradfrost.github.io/this-is-responsive/resources.html",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Does Masonry belong in the CSS Grid specification",
+        "url": "https://rachelandrew.co.uk/archives/2020/05/05/does-masonry-belong-in-the-css-grid-specification/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Retrospective mix (1993 - 2019) by Orphx",
+        "url": "https://orphx.bandcamp.com/album/retrospective-mix-1993-2019",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "105",
+    "title": "A parcel of drinks - Parcel",
+    "description": "In previous episodes, we’ve talked a lot about bundling JavaScript, but we haven’t talked a lot about Parcel. In this episode, we are joined by Maia Teegarden, Will Binns-Smith, and Devon Govett to talk with us about Parcel JS.",
+    "id": "840123745",
+    "published": "June 14, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": [
+      "builds",
+      "packager",
+      "parcel"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Maia Teegarden",
+        "twitter": "padmaia"
+      },
+      {
+        "name": "Will Binns-Smith",
+        "twitter": "wbinnssmith"
+      },
+      {
+        "name": "Devon Govett",
+        "twitter": "devongovett"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Don’t Let Get You Down by Wajatta",
+        "url": "https://open.spotify.com/album/4JZjID5JmCUCvR8pu8RGUw?si=KDZ3MMfoSa2HoSnHBZbw1A",
+        "from": "Maia Teegarden"
+      },
+      {
+        "title": "It Is What It Is by Thundercat",
+        "url": "https://open.spotify.com/album/59GRmAvlGs7KjLizFnV7Y9?si=0rlBEDHfRdGTXbO1bQUfUg",
+        "from": "Maia Teegarden"
+      },
+      {
+        "title": "Take a break - PTO WFH",
+        "url": "",
+        "from": "Will Binns-Smith"
+      },
+      {
+        "title": "Dokku",
+        "url": "https://github.com/dokku/dokku",
+        "from": "Will Binns-Smith"
+      },
+      {
+        "title": "Breville Bambino+",
+        "url": "https://www.breville.com/us/en/products/espresso/bes500.html",
+        "from": "Devon Govett"
+      },
+      {
+        "title": "Fork",
+        "url": "https://git-fork.com/",
+        "from": "Devon Govett"
+      },
+      {
+        "title": "Kim's Convenience",
+        "url": "https://www.netflix.com/title/80199128",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Master Class",
+        "url": "https://www.masterclass.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Half of It",
+        "url": "https://www.netflix.com/title/81005150",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Parcel T-Shirt",
+        "url": "https://cottonbureau.com/products/parcel-t-shirt#/1592149/tee-men-standard-tee-vintage-navy-tri-blend-s",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Uunnrreeaall by Sun Glitters",
+        "url": "https://open.spotify.com/track/1ljgMQYhJTjphiEm9kYk1m?si=ValbG_LtQ6iFbtSYIead_w",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Breathtaker by Geotic",
+        "url": "https://open.spotify.com/track/1jA5GvGUsGqNNe4cdzXHdO?si=lb-HugsIQLi1U3rteByMMw",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "104",
+    "title": "#BlackLivesMatter",
+    "description": "Instead of listening to an episode of Front End Happy Hour this week, we want to encourage you to use the hour to check out educational materials about the long history of structural racism and injustice Black people continue to face as well as learn how you can be actively anti-racist to affect real change. In our show notes, we’ve provided a list of picks that includes podcasts, videos, books, and articles available for you to learn more. The list of resources will be in the show notes. Simply put, Black lives matter.",
+    "id": "834707884",
+    "published": "June 5, 2020",
+    "transcribed": false,
+    "category": "soft",
+    "tags": [
+      "culture"
+    ],
+    "panel": [],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "13th",
+        "url": "https://www.netflix.com/title/80091741",
+        "from": "(Netflix) - Documentary"
+      },
+      {
+        "title": "Explained: The Racial Wage Gap",
+        "url": "https://www.netflix.com/title/80216752",
+        "from": "(Netflix) - Documentary"
+      },
+      {
+        "title": "Who Killed Malcolm X?",
+        "url": "https://www.netflix.com/title/80217478",
+        "from": "(Netflix) - Documentary"
+      },
+      {
+        "title": "When They See Us",
+        "url": "https://www.netflix.com/title/80200549",
+        "from": "(Netflix) - Series"
+      },
+      {
+        "title": "Talks to help you understand racism in America",
+        "url": "https://www.ted.com/playlists/250/talks_to_help_you_understand_r",
+        "from": "TED Playlist"
+      },
+      {
+        "title": "Stamped from the Beginning - The Definitive History of Racist Ideas in America",
+        "url": "https://open.spotify.com/album/6PzcVM8Z1GMqeGlMBQ6ikX?si=HceQ3l1bT1G9jSW2EiNFGA",
+        "from": "FREE Book on Spotify"
+      },
+      {
+        "title": "So You Want to Talk about Race",
+        "url": "https://www.amazon.com/You-Want-Talk-About-Race/dp/1580058825/ref=sr_1_1?dchild=1&keywords=So+You+Want+to+Talk+about+Race&qid=1591297044&sr=8-1",
+        "from": "Book"
+      },
+      {
+        "title": "The Colors of Us",
+        "url": "https://www.amazon.com/Colors-Us-Karen-Katz/dp/0805071636",
+        "from": "Book"
+      },
+      {
+        "title": "Waking Up White",
+        "url": "https://www.amazon.com/Waking-White-Finding-Myself-Story/dp/B01EINQC3I",
+        "from": "Book"
+      },
+      {
+        "title": "1619 (NYTimes)",
+        "url": "https://www.nytimes.com/2020/01/23/podcasts/1619-podcast.html",
+        "from": "Podcast"
+      },
+      {
+        "title": "Code Switch (NPR)",
+        "url": "https://www.npr.org/podcasts/510312/codeswitch",
+        "from": "Podcast"
+      },
+      {
+        "title": "Pod Save the People",
+        "url": "https://crooked.com/podcast-series/pod-save-the-people/",
+        "from": "Podcast"
+      },
+      {
+        "title": "Our National Conversation About Race",
+        "url": "https://www.showaboutrace.com/",
+        "from": "Podcast"
+      },
+      {
+        "title": "The Death of George Floyd, In Context",
+        "url": "https://www.newyorker.com/news/daily-comment/the-death-of-george-floyd-in-context",
+        "from": "Article"
+      },
+      {
+        "title": "How to Make This Moment the Turning Point for Real Change",
+        "url": "https://medium.com/@BarackObama/how-to-make-this-moment-the-turning-point-for-real-change-9fa209806067",
+        "from": "Article"
+      },
+      {
+        "title": "For Our White Friends Desiring to Be Allies",
+        "url": "https://sojo.net/articles/our-white-friends-desiring-be-allies",
+        "from": "Article"
+      }
+    ]
+  },
+  {
+    "episode": "103",
+    "title": "Brews in Bars - Ecosystem Engineering",
+    "description": "In this episode, we learn more about Ecosystem Engineering from Netflix engineers, Michael James, and Shravan Heroor.",
+    "id": "827089678",
+    "published": "May 24, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": [
+      "netflix",
+      "technologies"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Michael James",
+        "twitter": ""
+      },
+      {
+        "name": "Shravan Heroor",
+        "twitter": "shravanheroor"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Giri / Haji",
+        "url": "https://www.netflix.com/title/80190519",
+        "from": "Michael James"
+      },
+      {
+        "title": "Netflix DVD Subscription",
+        "url": "https://dvd.netflix.com/",
+        "from": "Michael James"
+      },
+      {
+        "title": "The Last Kingdom",
+        "url": "https://www.netflix.com/title/80074249",
+        "from": "Shravan Heroor"
+      },
+      {
+        "title": "Tiger Belly podcast",
+        "url": "http://tigerbelly.libsyn.com/podcast",
+        "from": "Shravan Heroor"
+      },
+      {
+        "title": "Apple Thunderbolt Display replacement glass",
+        "url": "https://www.amazon.com/gp/product/B00CMNDBBI/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Gorilla Super Glue Gel",
+        "url": "https://www.gorillatough.com/product/gorilla-super-glue-gel/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Great Canadian Baking Show",
+        "url": "https://www.netflix.com/ca/title/81250962",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Ultimate “treehouse”",
+        "url": "https://www.etsy.com/listing/294533825/exotic-treehouse",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
+    "episode": "102",
+    "title": "Complex flavors - complex systems",
+    "description": "We’ve all been there, a project starts off simple, but quickly becomes more complex. In this episode, we are joined by Sarah Drasner to talk with us about how to deal with complex codebases and systems.",
+    "id": "817689388",
+    "published": "May 10, 2020",
+    "transcribed": false,
+    "category": "tech",
+    "tags": [
+      "scale",
+      "migrations",
+      "code"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Ryan Anklam",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Sarah Drasner",
+        "twitter": "sarah_edo",
+        "company": "Netlify"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Handmaid’s Tale",
+        "url": "https://www.hulu.com/series/the-handmaids-tale-565d8976-9d26-4e63-866c-40f8a137ce5f",
+        "from": "Sarah Drasner"
+      },
+      {
+        "title": "Don’t F**K with Cats",
+        "url": "https://www.netflix.com/title/81031373",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Spotify: Failed #SquadGoals",
+        "url": "https://www.jeremiahlee.com/posts/failed-squad-goals/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Last Dance",
+        "url": "https://www.netflix.com/gb/title/80203144",
+        "from": "Jem Young"
+      },
+      {
+        "title": "On Being a Senior Engineer",
+        "url": "https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Effective TypeScript",
+        "url": "https://www.amazon.com/Effective-TypeScript-Specific-Ways-Improve/dp/1492053740",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Powerblock weight set",
+        "url": "https://powerblock.com/product/sport/",
+        "from": "Ryan Anklam"
+      },
+      {
+        "title": "Leaving the Grid by Ital Tek",
+        "url": "https://open.spotify.com/track/2u1hLuyPC4QfSAsbG2e9mT?si=8LmLniJGRTGTOyFk2IH_Cg",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Video for Leaving the Grid by Ruben Fro",
+        "url": "https://youtu.be/4UuwLrcEtvg",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Under the Table by Fiona Apple",
+        "url": "https://open.spotify.com/track/12WhIX6MvI93bS3wPSStSY?si=vjpcQ8lyR7-eQNDrY22I2w",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
+    "episode": "101",
+    "title": "Showing off our personal bars - Personal projects",
+    "description": "We all focus a lot of our time on engineering work for large companies, but we’ve each had our side projects we’ve worked on in our careers. In this episode, we share our side projects we’ve done in the past.",
+    "id": "807972184",
+    "published": "April 26, 2020",
+    "transcribed": false,
+    "category": "soft",
+    "tags": [
+      "projects",
+      "learning"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Remington Hc6550 Cordless Vacuum Haircut Kit",
+        "url": "https://www.amazon.com/Remington-HC6550-Cordless-Haircut-Clippers/dp/B014SG616I/ref=sr_1_2?crid=3JWKHCH4IFTV4&dchild=1&keywords=hair+clippers+with+vacuum&qid=1587503389&sprefix=hair+clippers+with+vac%2Caps%2C236&sr=8-2",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "NetSpot",
+        "url": "https://www.netspotapp.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "#blackAF",
+        "url": "https://www.netflix.com/title/81056700",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Broken picture phone",
+        "url": "https://www.brokenpicturephone.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Cognitive Biases in Software",
+        "url": "http://smyachenkov.com/posts/cognitive-biases-software-development/",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "100",
     "title": "100 beers on the wall",
     "description": "This is our 100th episode, it’s an exciting milestone for the podcast. In this episode, we talk about the history of the podcast and talk about some of our favorite moments and episodes.",
@@ -7,7 +735,9 @@
     "published": "April 12, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["recap"],
+    "tags": [
+      "recap"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -116,7 +846,9 @@
     "published": "March 29, 2020",
     "transcribed": false,
     "category": "technical",
-    "tags": ["graphql"],
+    "tags": [
+      "graphql"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -212,7 +944,10 @@
     "published": "March 20, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["remote", "wfh"],
+    "tags": [
+      "remote",
+      "wfh"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -330,7 +1065,12 @@
     "published": "March 15, 2020",
     "transcribed": false,
     "category": "technical",
-    "tags": ["design", "live", "columbus", "ohio"],
+    "tags": [
+      "design",
+      "live",
+      "columbus",
+      "ohio"
+    ],
     "panel": [
       "Ryan Burgess",
       "Stacy London"
@@ -358,7 +1098,12 @@
     "published": "March 1, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["remote", "wfh", "setup", "tools"],
+    "tags": [
+      "remote",
+      "wfh",
+      "setup",
+      "tools"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -418,7 +1163,9 @@
     "published": "February 16, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["meetings"],
+    "tags": [
+      "meetings"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -478,7 +1225,11 @@
     "published": "January 20, 2020",
     "transcribed": false,
     "category": "technical",
-    "tags": ["hacking", "civic", "volunteering"],
+    "tags": [
+      "hacking",
+      "civic",
+      "volunteering"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -570,7 +1321,10 @@
     "published": "January 5, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["careers", "growth"],
+    "tags": [
+      "careers",
+      "growth"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -646,7 +1400,12 @@
     "published": "December 22, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["holidays", "releases", "freeze", "code"],
+    "tags": [
+      "holidays",
+      "releases",
+      "freeze",
+      "code"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -716,7 +1475,11 @@
     "published": "December 8, 2019",
     "transcribed": false,
     "category": "soft",
-    "tags": ["diversity", "inclusion", "wit"],
+    "tags": [
+      "diversity",
+      "inclusion",
+      "wit"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -832,7 +1595,13 @@
     "published": "November 24, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["vue", "vuejs", "framework", "react", "javascript"],
+    "tags": [
+      "vue",
+      "vuejs",
+      "framework",
+      "react",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -918,7 +1687,11 @@
     "published": "October 27, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["netflix", "studio", "engineering"],
+    "tags": [
+      "netflix",
+      "studio",
+      "engineering"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -987,7 +1760,12 @@
     "published": "September 29, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["leader", "growth", "manager", "management"],
+    "tags": [
+      "leader",
+      "growth",
+      "manager",
+      "management"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1083,7 +1861,10 @@
     "published": "September 15, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["open", "source"],
+    "tags": [
+      "open",
+      "source"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1132,7 +1913,10 @@
     "published": "August 18, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["code", "migrations"],
+    "tags": [
+      "code",
+      "migrations"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1192,7 +1976,12 @@
     "published": "August 4, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["creative", "art", "code", "coding"],
+    "tags": [
+      "creative",
+      "art",
+      "code",
+      "coding"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1293,7 +2082,12 @@
     "published": "July 21, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["development", "process", "engineering", "tools"],
+    "tags": [
+      "development",
+      "process",
+      "engineering",
+      "tools"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1363,7 +2157,12 @@
     "published": "June 23, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["backend", "frontend", "collaboration", "netflix"],
+    "tags": [
+      "backend",
+      "frontend",
+      "collaboration",
+      "netflix"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1452,7 +2251,12 @@
     "published": "June 9, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["product", "management", "manager", "netflix"],
+    "tags": [
+      "product",
+      "management",
+      "manager",
+      "netflix"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1561,7 +2365,12 @@
     "published": "May 26, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["css", "code", "engineering", "netflix"],
+    "tags": [
+      "css",
+      "code",
+      "engineering",
+      "netflix"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1636,7 +2445,11 @@
     "published": "May 14, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["user", "experience", "design"],
+    "tags": [
+      "user",
+      "experience",
+      "design"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1733,7 +2546,10 @@
     "published": "April 28, 2019",
     "transcribed": false,
     "category": "soft",
-    "tags": ["frontend", "culture"],
+    "tags": [
+      "frontend",
+      "culture"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -1839,7 +2655,12 @@
     "published": "April 14, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["frontend", "terms", "technologies", "javascript"],
+    "tags": [
+      "frontend",
+      "terms",
+      "technologies",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -1872,7 +2693,11 @@
     "published": "March 31, 2019",
     "transcribed": false,
     "category": "soft",
-    "tags": ["careers", "career", "growth"],
+    "tags": [
+      "careers",
+      "career",
+      "growth"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -1947,7 +2772,11 @@
     "published": "March 3, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["interactive", "studio", "netflix"],
+    "tags": [
+      "interactive",
+      "studio",
+      "netflix"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2036,7 +2865,13 @@
     "published": "February 18, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["libraries", "component", "components", "frameworks", "design"],
+    "tags": [
+      "libraries",
+      "component",
+      "components",
+      "frameworks",
+      "design"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2111,7 +2946,12 @@
     "published": "February 3, 2019",
     "transcribed": false,
     "category": "soft",
-    "tags": ["salary", "jobs", "negotiating", "offers"],
+    "tags": [
+      "salary",
+      "jobs",
+      "negotiating",
+      "offers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2187,7 +3027,13 @@
     "published": "January 20, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["mobile", "native", "react", "swift", "kotlin"],
+    "tags": [
+      "mobile",
+      "native",
+      "react",
+      "swift",
+      "kotlin"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2241,7 +3087,12 @@
     "published": "January 6, 2019",
     "transcribed": false,
     "category": "technical",
-    "tags": ["performance", "engineering", "javascript", "netflix"],
+    "tags": [
+      "performance",
+      "engineering",
+      "javascript",
+      "netflix"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -2310,7 +3161,10 @@
     "published": "December 9, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["performance", "javascript"],
+    "tags": [
+      "performance",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2397,7 +3251,12 @@
     "published": "November 25, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": ["senior", "engineer", "engineering", "growth"],
+    "tags": [
+      "senior",
+      "engineer",
+      "engineering",
+      "growth"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2462,7 +3321,12 @@
     "published": "October 28, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": ["internships", "growth", "career", "careers"],
+    "tags": [
+      "internships",
+      "growth",
+      "career",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2538,7 +3402,12 @@
     "published": "October 14, 2018",
     "transcribed": false,
     "category": "",
-    "tags": ["pwa", "progressive", "web", "apps"],
+    "tags": [
+      "pwa",
+      "progressive",
+      "web",
+      "apps"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2629,7 +3498,10 @@
     "published": "September 30, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": ["ethics", "culture"],
+    "tags": [
+      "ethics",
+      "culture"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -2650,7 +3522,12 @@
     "published": "September 16, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["type", "systems", "typescript", "flow"],
+    "tags": [
+      "type",
+      "systems",
+      "typescript",
+      "flow"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2745,7 +3622,12 @@
     "published": "September 2, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": ["recruiting", "hiring", "jobs", "networking"],
+    "tags": [
+      "recruiting",
+      "hiring",
+      "jobs",
+      "networking"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2825,7 +3707,12 @@
     "published": "August 19, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["javascript", "libraries", "framework", "frameworks"],
+    "tags": [
+      "javascript",
+      "libraries",
+      "framework",
+      "frameworks"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2884,7 +3771,12 @@
     "published": "August 5, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["iot", "internet", "hardware", "javascript"],
+    "tags": [
+      "iot",
+      "internet",
+      "hardware",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -2965,7 +3857,11 @@
     "published": "July 22, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["web", "components", "javascript"],
+    "tags": [
+      "web",
+      "components",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3030,7 +3926,12 @@
     "published": "July 8, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["tooling", "tools", "builds", "releases"],
+    "tags": [
+      "tooling",
+      "tools",
+      "builds",
+      "releases"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3100,7 +4001,12 @@
     "published": "June 24, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": ["companies", "startups", "careers", "jobs"],
+    "tags": [
+      "companies",
+      "startups",
+      "careers",
+      "jobs"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3192,7 +4098,12 @@
     "published": "June 10, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["ab", "testing", "data", "product"],
+    "tags": [
+      "ab",
+      "testing",
+      "data",
+      "product"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3252,7 +4163,10 @@
     "published": "May 28, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["testing", "user"],
+    "tags": [
+      "testing",
+      "user"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3301,7 +4215,12 @@
     "published": "April 13, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["netflix", "falcor", "graphql", "modeling"],
+    "tags": [
+      "netflix",
+      "falcor",
+      "graphql",
+      "modeling"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3376,7 +4295,14 @@
     "published": "April 29, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["reactathon", "live", "conference", "react", "javascript", "scale"],
+    "tags": [
+      "reactathon",
+      "live",
+      "conference",
+      "react",
+      "javascript",
+      "scale"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3395,7 +4321,10 @@
     "published": "April 16, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": ["tools", "tooling"],
+    "tags": [
+      "tools",
+      "tooling"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3475,7 +4404,9 @@
     "published": "April 1, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["elm"],
+    "tags": [
+      "elm"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3551,7 +4482,12 @@
     "published": "March 18, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["scale", "code", "migrations", "live"],
+    "tags": [
+      "scale",
+      "code",
+      "migrations",
+      "live"
+    ],
     "panel": [
       "Jem Young",
       "Augustus Yuan",
@@ -3648,7 +4584,13 @@
     "published": "March 4, 2018",
     "transcribed": false,
     "category": "technical ",
-    "tags": ["forwardjs", "forward", "live", "javascript", "conference"],
+    "tags": [
+      "forwardjs",
+      "forward",
+      "live",
+      "javascript",
+      "conference"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -3674,7 +4616,10 @@
     "published": "February 18, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": ["culture", "jobs"],
+    "tags": [
+      "culture",
+      "jobs"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3745,7 +4690,13 @@
     "published": "February 5, 2018",
     "transcribed": false,
     "category": "technical",
-    "tags": ["live", "conference", "ngAtl", "angular", "atlanta"],
+    "tags": [
+      "live",
+      "conference",
+      "ngAtl",
+      "angular",
+      "atlanta"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -3859,7 +4810,10 @@
     "published": "January 21, 2018",
     "transcribed": false,
     "category": "soft",
-    "tags": ["jobs", "freelance"],
+    "tags": [
+      "jobs",
+      "freelance"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -3992,7 +4946,12 @@
     "published": "December 18, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": ["tools", "frameworks", "engineering", "frameworks"],
+    "tags": [
+      "tools",
+      "frameworks",
+      "engineering",
+      "frameworks"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4288,7 +5247,12 @@
     "published": "November 26, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": ["speaking", "conference", "growth", "careers"],
+    "tags": [
+      "speaking",
+      "conference",
+      "growth",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4359,7 +5323,10 @@
     "published": "November 14, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": ["security", "frontend"],
+    "tags": [
+      "security",
+      "frontend"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -4424,7 +5391,11 @@
     "published": "October 29, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": ["recruiting", "jobs", "careers"],
+    "tags": [
+      "recruiting",
+      "jobs",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -4499,7 +5470,11 @@
     "published": "October 15, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": ["growth", "jobs", "careers"],
+    "tags": [
+      "growth",
+      "jobs",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4639,7 +5614,12 @@
     "published": "October 1, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": ["jobs", "new", "job", "careers"],
+    "tags": [
+      "jobs",
+      "new",
+      "job",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Derrick Showers",
@@ -4728,7 +5708,14 @@
     "published": "September 13, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": ["jobs", "work", "life", "balanace", "careers", "culture"],
+    "tags": [
+      "jobs",
+      "work",
+      "life",
+      "balanace",
+      "careers",
+      "culture"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4803,7 +5790,10 @@
     "published": "August 27, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": ["code", "scale"],
+    "tags": [
+      "code",
+      "scale"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -4964,7 +5954,12 @@
     "published": "August 14, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": ["react", "native", "javascript", "frameworks"],
+    "tags": [
+      "react",
+      "native",
+      "javascript",
+      "frameworks"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -5204,7 +6199,11 @@
     "published": "July 30, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": ["swift", "ios", "mobile"],
+    "tags": [
+      "swift",
+      "ios",
+      "mobile"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -5364,7 +6363,10 @@
     "published": "July 17, 2017",
     "transcribed": false,
     "category": "technical",
-    "tags": ["data", "javascript"],
+    "tags": [
+      "data",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -5575,7 +6577,11 @@
     "published": "July 5, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": ["ama", "careers", "growth"],
+    "tags": [
+      "ama",
+      "careers",
+      "growth"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -5794,7 +6800,11 @@
     "published": "June 18, 2017",
     "transcribed": false,
     "category": "soft",
-    "tags": ["new", "jobs", "careers"],
+    "tags": [
+      "new",
+      "jobs",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
