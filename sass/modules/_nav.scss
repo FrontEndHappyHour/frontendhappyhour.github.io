@@ -8,6 +8,7 @@
 
 .nav {
     text-align: center;
+    margin-top: 30px;
   
     @include min-breakpoint(600){
       float: right;
