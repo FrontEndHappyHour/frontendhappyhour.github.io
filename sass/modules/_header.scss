@@ -7,23 +7,26 @@
 // ------------------------------------------------------------
 
 header{
-  background: $darkBlue;
-  color: $chalk;
-  margin-bottom: 30px;
-  height: 200px;
+  color: $darkBlue;
+  padding: 20px 0 20px 0;
+  margin: 0 0 -30px 0;
+  position: relative;
+  @include clearfix();
+  width: 100%;
+  border-bottom:30px solid $darkBlue;
 
   @include max-breakpoint(600) {
     height: auto;
   }
 
   h1{
-    color:$teal;
+    color:$darkBlue;
     margin: 0;
     @include rem("font-size", 42);
   }
 
   .logo{
-    max-width: 150px;
+    max-width: 100px;
     padding: 15px 0;
     margin: 0 auto;
     display: block;

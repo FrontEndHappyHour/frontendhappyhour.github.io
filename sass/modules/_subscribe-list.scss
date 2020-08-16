@@ -1,0 +1,35 @@
+// File Name: _bio.scss
+// Description: Style the bio page
+// Used by: 
+// Dependencies: 
+// Date created: 25/05/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+.subscribe-list{
+    list-style: none;
+    margin: 30px auto;
+    li {
+        width: 120px;
+        display: inline-block;
+        margin: 10px;
+        border:1px solid $chalk;
+        text-align: center;
+
+        a {
+            text-align: center;
+            color: $darkBlue;
+            text-decoration: none;
+            display:block;
+            padding: 30px;
+
+            &:hover, &:focus {
+                background: $chalk;
+            }
+            
+            span {
+                display: inline-block;
+            }
+        }
+    }
+}

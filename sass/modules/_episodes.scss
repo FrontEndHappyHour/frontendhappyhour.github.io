@@ -7,18 +7,19 @@
 // ------------------------------------------------------------
 
 .episodes {
+  clear:both;
   margin-top: 30px;
   margin-bottom: 30px;
 
   h2 {
     font-size: 32px;
-    text-transform: uppercase;
     margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   p{
     width: 100%;
-    margin-left: 85px;
+    margin-left: 105px;
   }
 
   a{
@@ -52,35 +53,44 @@
 }
 
 .episode {
+  position: relative;
+
   .episode-number{
     display: inline-block;
-    font-size: 28px;
-    background: $darkBlue;
-    color: white;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    font-size: 24px;
+    border: 3px solid $darkBlue;
+    color: $darkBlue;
+    width: 85px;
+    height: 85px;
+    line-height: 80px;
     text-align: center;
-    border-radius: 70px;
+    border-radius: 85px;
   }
 
   .title{
-    font-size: 36px;
-    width: calc(100% - 85px);
+    font-size: 18px;
+    width: calc(100% - 105px);
+    font-weight: bold;
   }
 
   .date {
     font-style: italic;
+    color: $grey;
+    font-size: 12px;
+    width: calc(100% - 105px);
+    position: absolute;
+    //left: 120px;
+    top: 0;
   }
 
   @media (max-width: 600px) {
     .episode-number {
       margin: 0 10px 0 0;
       order: 1;
-      font-size: 14px;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
+      font-size: 18px;
+      width: 60px;
+      height: 60px;
+      line-height: 55px;
     }
     .title {
       order: 3;
@@ -90,7 +100,8 @@
       order: 2;
       margin-bottom: 0;
       line-height: 40px;
-      width: calc(100% - 50px);
+      line-height: 10px;
+      top: -15px;
     }
     .description {
       order: 4;

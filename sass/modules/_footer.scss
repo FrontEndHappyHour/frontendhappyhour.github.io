@@ -1,8 +1,7 @@
 footer {
   clear:both;
   text-align: center;
-  color: $chalk;
-  background: $darkBlue;
+  color: $grey;
   padding: 20px 0;
   margin-top: 30px;
 
@@ -23,11 +22,11 @@ footer {
   }
 
   a{
-    color: $chalk;
+    color: $grey;
     text-decoration: none;
 
     &:hover, &:focus{
-      border-bottom: 1px solid $chalk;
+      border-bottom: 1px solid $grey;
     }
   }
 }

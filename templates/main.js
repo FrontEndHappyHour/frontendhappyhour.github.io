@@ -14,8 +14,20 @@ module.exports = function main(pageType, content, title, desc, link) {
   let path;
   let css;
   let js;
-  const cssVersion = 1.2;
+  let classAdd;
+  const cssVersion = 2.0;
   const mainTitle = strings.title;
+
+  // subscribe list HTML
+  const subscribeList = `<div class="container">
+  <p>${strings.subscribe}</p>
+  <url class="subscribe-list">
+    <li><a href="${strings.urls[0].spotify}"><img src="../public/img/spotify.svg" alt="Follow our Spotify podcast"><span>Spotify</span></a></li>
+    <li><a href="${strings.urls[0].itunes}"><img src="../public/img/podcast.svg" alt="Follow our Apple podcast"><span>Apple</span></a></li>
+    <li><a href="${strings.urls[0].googlepodcasts}"><img src="../public/img/googlepodcasts.svg" alt="Follow our Google podcast"><span>Google</span></a></li>
+    <li><a href="${strings.urls[0].rss}"><img src="../public/img/rss.svg" alt="Subscribe to our RSS feed"><span>RSS</span></a></li>
+  </ul>
+</div>`;
 
   if (desc === undefined || pageType === 'home') {
     desc = strings.desc;
@@ -30,8 +42,74 @@ module.exports = function main(pageType, content, title, desc, link) {
     pageOG = 'http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
   }
 
+  if (pageType === 'home') {
+    classAdd = '';
+    path = '';
+    pageTitle = '';
+    pageContent =
+      `
+        <div class="home-banner">
+          <div class="banner-container">
+            <h1>${strings.welcome}</h1>
+            <p>${strings.desc}</p>
+            <a href="/subscribe" class="sub-btn">Subscribe</a>
+          </div>
+        </div>
+        <h2 class="latest-episodes container">Latest episodes</h2>
+        <div id="target">
+          <ul>
+            <li>
+              <div class="placeholder-wrapper">
+                <div class="container placeholder-episodes">
+                  <span class="episode-number placeholder"></span>
+                  <div class="title-area">
+                    <div class="title placeholder text-shape"></div>
+                    <div class="date placeholder text-shape"></div>
+                  </div>
+                  <div class="description placeholder text-shape"></div>
+                  <div class="description placeholder text-shape"></div>
+                  <div class="description placeholder text-shape"></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="placeholder-wrapper">
+                <div class="container placeholder-episodes">
+                  <span class="episode-number placeholder"></span>
+                  <div class="title-area">
+                    <div class="title placeholder text-shape"></div>
+                    <div class="date placeholder text-shape"></div>
+                  </div>
+                  <div class="description placeholder text-shape"></div>
+                  <div class="description placeholder text-shape"></div>
+                  <div class="description placeholder text-shape"></div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="placeholder-wrapper">
+                <div class="container placeholder-episodes">
+                  <span class="episode-number placeholder"></span>
+                  <div class="title-area">
+                    <div class="title placeholder text-shape"></div>
+                    <div class="date placeholder text-shape"></div>
+                  </div>
+                  <div class="description placeholder text-shape"></div>
+                  <div class="description placeholder text-shape"></div>
+                  <div class="description placeholder text-shape"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      `;
+      heading = '';
+      css = 'public/css/home.css';
+      js = '<script src="public/js/min/home.min.js" type="text/javascript"></script>';
+    }
   // homepage and episode list
-  if (pageType === 'home' || pageType === 'episodelist') {
+  if (pageType === 'episodelist') {
+    classAdd = '';
     path = '';
     pageTitle = '';
     pageContent =
@@ -90,6 +168,7 @@ module.exports = function main(pageType, content, title, desc, link) {
 
   // episode list page
   if (pageType === 'episodelist') {
+    classAdd = '';
     path = '../';
     css = `public/css/style.css?v=${cssVersion}`;
     js = '<script src="../public/js/min/home.min.js" type="text/javascript"></script>';
@@ -98,17 +177,55 @@ module.exports = function main(pageType, content, title, desc, link) {
 
   // episode page
   if (pageType === 'episode') {
+    classAdd = '';
     path = '../../';
     css = `public/css/episode.css?v=${cssVersion}`;
     pageContent = content;
     pageTitle = title + ' - ';
     urlCanonical = `episodes/${link}`;
     js = '';
-    //js = '<script src="../../public/js/min/episode.min.js" type="text/javascript"></script>';
+  }
+
+  // subscribe
+  if (pageType === 'subscribe') {
+    classAdd = 'subscribe';
+    path = '../';
+    css = `public/css/subscribe.css?v=${cssVersion}`;
+    pageContent = subscribeList;
+    pageTitle = title + ' - ';
+    urlCanonical = `subscribe`;
+    js = '';
+    heading = 'Subscribe';
+  }
+
+  // about
+  if (pageType === 'about') {
+    classAdd = 'about';
+    path = '../';
+    css = `public/css/about.css?v=${cssVersion}`;
+    pageContent = `
+      <div class="container">${strings.about}</div>
+      <div class="container panel">
+        <h3>Panelists</h3>
+        <ul>
+          <li><a href="/panelists/ryan-burgess"><img src="../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture"></a><a href="https://twitter.com/burgessdryan"><span>Ryan Burgess</span></a></li>
+          <li><a href="/panelists/jem-young"><img src="../public/img/panel/JemYoung.jpg" alt="Jem Young profile picture"></a><a href="https://twitter.com/JemYoung"><span>Jem Young</span></a></li>
+          <li><a href="/panelists/stacy-london"><img src="../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture"></a><a href="https://twitter.com/stacylondoner"><span>Stacy London</span></a></li>
+          <li><a href="/panelists/augustus-yuan"><img src="../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture"></a><a href="https://twitter.com/augburto"><span>Augustus Yuan</span></a></li>
+          <li><a href="/panelists/mars-jullian"><img src="../public/img/panel/marsjosephine.jpg" alt="Mars Jullian profile picture"></a><a href="https://twitter.com/marsjosephine"><span>Mars Jullian</span></a></li>
+        </ul>
+      </div>
+      ${subscribeList}
+    `;
+    pageTitle = title + ' - ';
+    urlCanonical = `about`;
+    js = '';
+    heading = 'About';
   }
 
   // panelist page
   if (pageType === 'panelist') {
+    classAdd = 'panelist';
     path = '../../';
     css = `public/css/panelist.css?v=${cssVersion}`;
     pageContent = content;
@@ -118,6 +235,7 @@ module.exports = function main(pageType, content, title, desc, link) {
 
   // mailing list page
   if (pageType === 'mailing') {
+    classAdd = 'mailing';
     path = '../';
     css = `public/css/mailing.css?v=${cssVersion}`;
     pageContent = content;
@@ -127,6 +245,7 @@ module.exports = function main(pageType, content, title, desc, link) {
 
   // virtual happy hour page
   if (pageType === 'virtual-happy-hour') {
+    classAdd = 'virtual-happy-hour';
     path = '../';
     css = `public/css/virtual-happy-hour.css?v=${cssVersion}`;
     pageContent = content;
@@ -137,6 +256,7 @@ module.exports = function main(pageType, content, title, desc, link) {
 
   // ama page
   if (pageType === 'ama') {
+    classAdd = 'ama';
     path = '../';
     css = `public/css/ama.css?v=${cssVersion}`;
     pageContent = content;
@@ -147,6 +267,7 @@ module.exports = function main(pageType, content, title, desc, link) {
 
   // legal pages
   if (pageType === 'privacy' || pageType === 'terms') {
+    classAdd = 'legal';
     path = '../';
     css = `public/css/legal.css?v=${cssVersion}`;
     pageContent = content;
@@ -156,6 +277,7 @@ module.exports = function main(pageType, content, title, desc, link) {
 
   // shirts page
   if (pageType === 'shirts') {
+    classAdd = 'shirts';
     path = '../';
     css = `public/css/shirts.css?v=${cssVersion}`;
     pageContent = content;
@@ -181,7 +303,7 @@ module.exports = function main(pageType, content, title, desc, link) {
               </head>
               <body>
                   ${header(path)}
-                  <div class="episodes">
+                  <div class="episodes ${classAdd}">
                   <h2 id="heading" class="container">${heading}</h2>
                   ${pageContent}
                   </div>
