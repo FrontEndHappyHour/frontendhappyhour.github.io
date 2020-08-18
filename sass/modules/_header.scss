@@ -13,7 +13,7 @@ header{
   position: relative;
   @include clearfix();
   width: 100%;
-  border-bottom:10px solid $darkBlue;
+  border-bottom:5px solid $darkBlue;
 
   @include max-breakpoint(600) {
     height: auto;

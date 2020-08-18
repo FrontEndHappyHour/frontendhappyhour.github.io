@@ -15,7 +15,7 @@ module.exports = function main(pageType, content, title, desc, link) {
   let css;
   let js;
   let classAdd;
-  const cssVersion = 2.0;
+  const cssVersion = 2.1;
   const mainTitle = strings.title;
 
   // subscribe list HTML
