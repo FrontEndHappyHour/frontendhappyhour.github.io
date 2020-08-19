@@ -295,8 +295,18 @@ module.exports = function main(pageType, content, title, desc, link) {
                   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                   <link rel="alternate" type="application/rss+xml"
                    href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                  <meta property="og:image"
-                   content="${pageOG}">
+                   <meta property="og:image" content="${pageOG}"" /> <meta
+                    property="og:description" content="Description goes here"" />
+                    <meta property="og:title" content="${pageTitle}" />
+                    <meta key="twitter:card" name="twitter:card" content="${desc}" />
+                    <meta property="twitter:title" content="Front End Happy Hour" />
+                    <meta name="twitter:image" content="${pageOG}" />
+                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
+                    <meta
+                      key="twitter:creator"
+                      name="twitter:creator"
+                      content="@frontendhappyhour"
+                    />
                   <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
                   <link rel="canonical" href="https://frontendhappyhour.com/${urlCanonical}">
                   <link rel="stylesheet" href="${path}${css}" type="text/css" media="screen">
