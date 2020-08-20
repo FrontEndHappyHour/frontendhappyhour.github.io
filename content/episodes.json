@@ -5,7 +5,7 @@
     "description": "Web performance continues to be an input factor to prioritize when building web applications. In this episode, we speak with Google engineers, Kristofer Baxtor, and Jason Miller about the latest best practices in web performance.",
     "id": "873197536",
     "published": "August 09, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": ["performance", "web", "javascript", "css", "technologies"],
     "panel": [
