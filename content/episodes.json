@@ -733,7 +733,7 @@
     "description": "This is our 100th episode, it’s an exciting milestone for the podcast. In this episode, we talk about the history of the podcast and talk about some of our favorite moments and episodes.",
     "id": "797230153",
     "published": "April 12, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "recap"
