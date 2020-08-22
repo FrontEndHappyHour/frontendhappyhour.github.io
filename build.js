@@ -8,6 +8,7 @@ const ellipsize = require('ellipsize');
 const mailing = require('./lib/mailing');
 const panelistPage = require('./lib/panelists');
 const epList = require('./lib/episode-json');
+const createSiteMap = require('./lib/sitemap');
 
 // Templates
 const main = require('./templates/main');
@@ -129,3 +130,6 @@ contentPage('terms', termsContent, 'Terms of Use');
 
 //create shirt page
 shirtPage('shirts', 'T-Shirts', 'Purchase Front End Happy Hour t-shirts and clothing.');
+
+// create sitemap
+createSiteMap();
