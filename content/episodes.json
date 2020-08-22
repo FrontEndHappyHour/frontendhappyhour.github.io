@@ -254,7 +254,7 @@
     "description": "Writing CSS is quick to learn, but writing strong CSS patterns that can scale is a lot more challenging. In this episode, we are joined by Brad Frost to discuss useful patterns in CSS and the future of CSS.",
     "id": "848549008",
     "published": "June 28, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "css",
