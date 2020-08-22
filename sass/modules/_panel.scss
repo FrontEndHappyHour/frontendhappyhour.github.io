@@ -22,10 +22,12 @@
 
   a{
     text-decoration: none;
+    color: $darkBlue;
     
     &:hover, &:focus{
       opacity: 0.7;
       border: none;
+      color: $chalk;
     }
   }
 

@@ -1,0 +1,49 @@
+// File Name: _home-banner.scss
+// Description: Style header nav links
+// Used by: 
+// Dependencies: 
+// Date created: 04/14/2020
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+.home-banner {
+    clear: both;
+    text-align: center;
+    background-color: $darkBlue;
+    color: $chalk;
+    padding: 60px 40px;
+    
+    .banner-container {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+
+    p{
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+
+        @include min-breakpoint(600){  
+            font-size: 30px;
+        }
+    }
+
+    .sub-btn{
+        color: $blue;
+        border:3px solid $blue;
+        display:inline-block;
+        @include roundedCorners(10);
+        margin: 10 0 0 0;
+        padding: 10px 15px;
+        width: 100%;
+        max-width: 140px;
+
+        &:hover, &:focus {
+            color: $darkBlue;
+            border:3px solid $chalk;
+            background-color: $chalk;
+        }
+    }
+}

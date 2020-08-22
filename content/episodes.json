@@ -86,7 +86,7 @@
     "description": "Web performance continues to be an input factor to prioritize when building web applications. In this episode, we speak with Google engineers, Kristofer Baxtor, and Jason Miller about the latest best practices in web performance.",
     "id": "873197536",
     "published": "August 09, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "performance",
@@ -773,7 +773,7 @@
     "description": "We all focus a lot of our time on engineering work for large companies, but we’ve each had our side projects we’ve worked on in our careers. In this episode, we share our side projects we’ve done in the past.",
     "id": "807972184",
     "published": "April 26, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "projects",
@@ -820,7 +820,7 @@
     "description": "This is our 100th episode, it’s an exciting milestone for the podcast. In this episode, we talk about the history of the podcast and talk about some of our favorite moments and episodes.",
     "id": "797230153",
     "published": "April 12, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "recap"

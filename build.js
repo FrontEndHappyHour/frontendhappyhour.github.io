@@ -99,6 +99,12 @@ write('index.html', main('home', mainOutput));
 // update episodes list
 write('./episodes/index.html', main('episodelist', mainOutput));
 
+// update subscribe page
+contentPage('subscribe', '', 'Subscribe');
+
+// update about page
+contentPage('about', '', 'About');
+
 // create mailing list page
 mailing();
 
