@@ -1485,7 +1485,7 @@
     "description": "Happy Holidays! In this episode, we talk about supporting large applications over the holidays and what the best practices are in order to make sure your customers have 100% availability over the holidays.",
     "id": "732642541",
     "published": "December 22, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "holidays",

@@ -1,97 +1,7 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Keeping the taps on - Holiday code freeze - Front End Happy Hour</title>
-                  <meta name="description" content="Happy Holidays! In this episode, we talk about supporting large applications over the holidays and what the best practices are in order to make sure your customers have 100% availability over the holidays.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg"" /> <meta
-                    property="og:description" content="Description goes here"" />
-                    <meta property="og:title" content="Keeping the taps on - Holiday code freeze - " />
-                    <meta key="twitter:card" name="twitter:card" content="Happy Holidays! In this episode, we talk about supporting large applications over the holidays and what the best practices are in order to make sure your customers have 100% availability over the holidays." />
-                    <meta property="twitter:title" content="Front End Happy Hour" />
-                    <meta name="twitter:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/keeping-the-taps-on-holiday-code-freeze">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Keeping the taps on - Holiday code freeze</h2>
-                  <div class="container"><p>Published December 22, 2019</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/732642541&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>Happy Holidays! In this episode, we talk about supporting large applications over the holidays and what the best practices are in order to make sure your customers have 100% availability over the holidays.</p></div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB?si=yDf8X1sBTlyJwNZD-N27gg" target="_blank">Jay-z on Spotify</a> - Ryan Burgess
-      </li><li>
-      <a href="https://store.google.com/us/product/nest_hello_doorbell" target="_blank">Nest Hello Doorbell</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.netflix.com/title/80175798" target="_blank">The Irishman</a> - Ryan Burgess
-      </li><li>
-      <a href="https://arstechnica.com/gadgets/2019/11/google-pixel-4-review-overpriced-uncompetitive-and-out-of-touch/" target="_blank">Pixel 4</a> - Jem Young
-      </li><li>
-      <a href="https://florentcrivello.com/index.php/2019/09/04/the-efficiency-destroying-magic-of-tidying-up/" target="_blank">The Efficiency destroying magic of tidying up</a> - Jem Young
-      </li><li>
-      <a href="https://tc39.es/" target="_blank">TC39</a> - Jem Young
-      </li><li>
-      <a href="https://www.cbs.com/shows/love-island/" target="_blank">Love Island</a> - Mars Jullian
-      </li><li>
-      <a href="https://www.kqed.org/podcasts/baycurious" target="_blank">Bay Curious podcast</a> - Mars Jullian
-      </li><li>
-      <a href="https://open.spotify.com/album/5yOWC5VU94C69zUYliMGwy?highlight=spotify:track:1aP2qFyy1QUYJkWryKypCv" target="_blank">Dust Circles by Loscil</a> - Stacy London
-      </li><li>
-      <a href="https://open.spotify.com/album/7E1ug6ydBki9DydefZzG9F?highlight=spotify:track:7nbLUoUimkbWVQqsZ1mkp8" target="_blank">Luminous Spaces by Jon Hopkins, Kelly Lee Owens</a> - Stacy London
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/mars-jullian"><img src="../../public/img/panel/marsjosephine.jpg" alt="Mars Jullian profile picture" /></a>
-      <span class="name">Mars Jullian</span>
-      <a href="https://twitter.com/marsjosephine" class="twitter">@marsjosephine</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+// Episode 1 transcript
+module.exports = function() {
+  'use strict';
+  const transcript = `
   </p>
 <p><strong>Ryan Burgess</strong><br />
 Welcome to a brand new episode of the Front End Happy Hour podcast. Happy Holidays since it's that time of year, we've decided a good topic to discuss would be about supporting large applications over the holidays, and what the best practices are in order to make sure our customers are having hundred percent availability over the holidays. Let's go around the table and give introductions, today's panelists. Jem, you want to start it off?
@@ -624,21 +534,6 @@ Happy Holidays.
 </p>
 
 
-  </div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+  `;
+  return transcript;
+};
