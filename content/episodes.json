@@ -1,5 +1,84 @@
 [
   {
+    "episode": "111",
+    "title": "Patron, Palomas, and programmatic problem solving",
+    "description": "When we are writing code as engineers, no matter what programming language, we are doing some form of planning and problem solving. In this episode, we are talking about programmatic problem solving with Nicole Archambault.",
+    "id": "888882517",
+    "published": "September 6, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Nicole Archambault",
+        "twitter": "lavie_encode"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Taco Bell Cheese Burrito",
+        "url": "https://www.tacobell.com/news/grilled-cheese-burrito",
+        "from": "Nicole Archambault"
+      },
+      {
+        "title": "Battlestar Galactica",
+        "url": "https://www.imdb.com/title/tt0407362/",
+        "from": "Nicole Archambault"
+      },
+      {
+        "title": "Think Like a Programmer",
+        "url": "https://www.amazon.com/Think-Like-Programmer-Introduction-Creative/dp/1593274246",
+        "from": "Nicole Archambault"
+      },
+      {
+        "title": "Twenty Thousand Hertz - Ta-dum! It’s Netflix",
+        "url": "https://www.20k.org/episodes/netflix",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Ugly Delicious",
+        "url": "https://www.netflix.com/title/80170368",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Jem",
+        "url": "https://twitter.com/jemyoung",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Why Interviewing is Terrible - Jem Young",
+        "url": "https://www.reactrally.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "James Hoffman",
+        "url": "https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Product management templates",
+        "url": "https://www.lennyrachitsky.com/p/my-favorite-templates-issue-37",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Wave roller",
+        "url": "https://www.theragun.com/us/en-us/wave-roller-us.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Cole Turner: AMA",
+        "url": "https://cole.codes/posts/ask-me-anything-career-development#how-do-you-structure-your-project-code",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "110",
     "title": "Bartending to everyone - Inclusive language",
     "description": "Alongside the Black Lives Matter movement, we’ve started to see a lot of positive discussions on how the tech community can be more inclusive with its language. In this episode, we will be discussing our thoughts on making tech language more inclusive.",
@@ -7,7 +86,10 @@
     "published": "August 23, 2020",
     "transcribed": true,
     "category": "soft",
-    "tags": ["inclusion", "terms"],
+    "tags": [
+      "inclusion",
+      "terms"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
