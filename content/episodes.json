@@ -512,7 +512,7 @@
     "description": "In previous episodes, we’ve talked a lot about bundling JavaScript, but we haven’t talked a lot about Parcel. In this episode, we are joined by Maia Teegarden, Will Binns-Smith, and Devon Govett to talk with us about Parcel JS.",
     "id": "840123745",
     "published": "June 14, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "builds",
