@@ -1,5 +1,69 @@
 [
   {
+    "episode": "112",
+    "title": "SEO - Searching for our drinks",
+    "description": "Build it and they will come, right? Wrong. Search Engine Optimization is a key component on how people will discover your website or application. In this episode, we are joined by Netflix engineer, Cole Turner to talk with us about the importance of SEO and ways to improve your ranking in search engines.",
+    "id": "",
+    "published": "September 20, 2020",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["seo", "engineering"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Cole Turner",
+        "twitter": "coleturner"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Awake",
+        "url": "https://www.netflix.com/title/81218079",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Goldbelly",
+        "url": "https://www.goldbelly.com/",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Coola sunscreen",
+        "url": "https://coola.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Bose 700 headphones",
+        "url": "https://www.bose.com/en_us/products/headphones/noise_cancelling_headphones/noise-cancelling-headphones-700-bose-0.html#v=noise_cancelling_headphones_700_triple_midnight",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Drivey.js",
+        "url": "https://rezmason.github.io/drivey/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Titan Games",
+        "url": "https://www.nbc.com/the-titan-games",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Difference - Jon Hopkins Remix by Flume, Toro y Moi, Jon Hopkins",
+        "url": "https://open.spotify.com/track/3743gdiZ12ZJA3VrOf6U61?si=9Y3mBFizRRysnhOfmtqmow",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Puzzle - Trentemøller Remix by TOM And His Computer",
+        "url": "https://open.spotify.com/track/4ZPBFxe77zzs6sGSeX9xLl?si=PYkiGR0PStOD_rubQzWjfg",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "111",
     "title": "Patron, Palomas, and programmatic problem solving",
     "description": "When we are writing code as engineers, no matter what programming language, we are doing some form of planning and problem solving. In this episode, we are talking about programmatic problem solving with Nicole Archambault.",
