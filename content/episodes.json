@@ -705,7 +705,7 @@
     "description": "In this episode, we learn more about Ecosystem Engineering from Netflix engineers, Michael James, and Shravan Heroor.",
     "id": "827089678",
     "published": "May 24, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "netflix",
