@@ -2,6 +2,7 @@
 const episodes = require('./content/episodes.json');
 let soft = 0;
 let tech = 0;
+let transcript = 0;
 let epNum = 0;
 let pickNum = 0;
 let numGuests = 0;
@@ -22,11 +23,17 @@ Object.keys(episodes).forEach(function(key) {
   const guests = episodes[key].guests;
   const links = episodes[key].links;
   const panelists = episodes[key].panel;
+  const transcribed = episodes[key].transcribed;
   epNum++;
   if(cat === 'soft') {
     soft++;
   }else{
     tech++;
+  }
+
+  //count transcribed episodes
+  if(transcribed === true) {
+    transcript++;
   }
   numGuests = numGuests + guests.length;
   pickNum = pickNum + picks.length;
@@ -62,6 +69,7 @@ const details = {
   'picks': pickNum,
   'links': linkNum,
   'guests': numGuests,
+  'transcribed': transcript,
   'panel': [
     {
       'name': 'Ryan Burgess',
