@@ -1296,7 +1296,7 @@
     "description": "In this episode, we recorded live on stage at Root Insurance in Columbus, Ohio. We were joined by Jibran Kutik and Oliver Farshi to talk with about design systems and how engineers and designers collaborate.",
     "id": "776866075",
     "published": "March 15, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "design",

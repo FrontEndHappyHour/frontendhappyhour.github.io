@@ -1,71 +1,7 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Cocktail recipes - Design systems - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode, we recorded live on stage at Root Insurance in Columbus, Ohio. We were joined by Jibran Kutik and Oliver Farshi to talk with about design systems and how engineers and designers collaborate.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg"" /> <meta
-                    property="og:description" content="Description goes here"" />
-                    <meta property="og:title" content="Cocktail recipes - Design systems - " />
-                    <meta key="twitter:card" name="twitter:card" content="In this episode, we recorded live on stage at Root Insurance in Columbus, Ohio. We were joined by Jibran Kutik and Oliver Farshi to talk with about design systems and how engineers and designers collaborate." />
-                    <meta property="twitter:title" content="Front End Happy Hour" />
-                    <meta name="twitter:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/cocktail-recipes-design-systems">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Cocktail recipes - Design systems</h2>
-                  <div class="container"><p>Published March 15, 2020</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/776866075&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode, we recorded live on stage at Root Insurance in Columbus, Ohio. We were joined by Jibran Kutik and Oliver Farshi to talk with about design systems and how engineers and designers collaborate.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/jibran-kutik.jpg" alt="Jibran Kutik profile picture"><div><a href="">Jibran Kutik</a></div></li><li><img src="../../public/img/guests/oliver-farshi.jpg" alt="Oliver Farshi profile picture"><div><a href="">Oliver Farshi</a></div></li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+// Episode 1 transcript
+module.exports = function() {
+  'use strict';
+  const transcript = `
   <p><strong>Ryan Burgess</strong><br />
 All right, well, thank you all for coming out. This is awesome to see everyone come out. This is a live episode of the front end happier podcast to listen to an episode before. All right, there's a few hands, which is great. But for those of you who don't know, front end, happier podcast is really a group of us talking over drinks. As you can see we have some drinks on stage. We talk about all things around technology, front end design, a lot of great things and it's just really a bunch of people talking about that. And that's what we do on every episode of the podcast. But I'm really excited to be here in Columbus, Ohio, at route insurance, talking with all of you and today we are actually going to be talking about design systems. And we're joined by Ali and Gibran to help us with that. Before we begin, do you want to give us a brief introduction of who you are and what you do? And I want to know what your favorite happier beverages.
 
@@ -825,21 +761,6 @@ Oh, and thank you all for coming out to Columbus. I appreciate everyone coming o
 Great, thank you all for coming out.
 </p>
   
-  </div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+  `;
+  return transcript;
+};
