@@ -1,110 +1,7 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>No REST with Quintessential Libations - GraphQL - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode, we are joined by Shruti Kapoor to talk with us about GraphQL and why your company could benefit from leveraging GraphQL on the front end and the back end.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg"" /> <meta
-                    property="og:description" content="Description goes here"" />
-                    <meta property="og:title" content="No REST with Quintessential Libations - GraphQL - " />
-                    <meta key="twitter:card" name="twitter:card" content="In this episode, we are joined by Shruti Kapoor to talk with us about GraphQL and why your company could benefit from leveraging GraphQL on the front end and the back end." />
-                    <meta property="twitter:title" content="Front End Happy Hour" />
-                    <meta name="twitter:image" content="http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/no-rest-with-quintessential-libations-graphql">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">No REST with Quintessential Libations - GraphQL</h2>
-                  <div class="container"><p>Published March 29, 2020</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786052357&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode, we are joined by Shruti Kapoor to talk with us about GraphQL and why your company could benefit from leveraging GraphQL on the front end and the back end.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/shrutikapoor08.jpg" alt="Shruti Kapoor profile picture"><div><a href="https://twitter.com/shrutikapoor08">Shruti Kapoor</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.udemy.com/course/graphql-with-react-course/" target="_blank">Complete developers guide to GraphQL - Udemy</a> - Shruti Kapoor
-      </li><li>
-      <a href="https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/" target="_blank">GraphQL playground + Graphical</a> - Shruti Kapoor
-      </li><li>
-      <a href="https://www.amazon.com/Big-Magic-Creative-Living-Beyond/dp/1594634726" target="_blank">Big Magic: Creative Living Beyond Fear</a> - Shruti Kapoor
-      </li><li>
-      <a href="https://www.amazon.com/Revlon-One-Step-Dryer-Volumizer-Brush/dp/B01LSUQSB0" target="_blank">Revlon One-Step Hair Dryer & Volumizer</a> - Shruti Kapoor
-      </li><li>
-      <a href="https://www.netflix.com/title/80100172" target="_blank">Dark</a> - Shruti Kapoor
-      </li><li>
-      <a href="https://www.heistpodcast.com/" target="_blank">Heist Podcast</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.amazon.com/Crap-Have-Toddler-Time-outs-Parenting/dp/1982109734" target="_blank">Oh crap I have a toddler</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.amazon.com/UGREEN-Selector-Computers-Peripheral-One-Button/dp/B01MXXQKGM?ref_=fsclp_pl_dp_1" target="_blank">USB Switch selector</a> - Augustus Yuan
-      </li><li>
-      <a href="https://github.com/buger/goreplay" target="_blank">GoReplay</a> - Augustus Yuan
-      </li><li>
-      <a href="https://github.com/shrutikapoor08/devjoke" target="_blank">Dev Jokes</a> - Jem Young
-      </li><li>
-      <a href="https://thisfootdoesnotexist.com/" target="_blank">This foot does not exist</a> - Jem Young
-      </li><li>
-      <a href="https://www.indiegogo.com/campaign_collections/production-ready" target="_blank">Valley Silicon - Iniegogo</a> - Jem Young
-      </li><li>
-      <a href="https://open.spotify.com/track/2VJ9QjicKJB97yMUI6J42Y?si=VBdNr-eST06UvANNphKyOg" target="_blank">Song For The Passing by Shelf Nunny</a> - Stacy London
-      </li><li>
-      <a href="https://open.spotify.com/track/4akqPnWyCOWL0QNxQsXsNk?si=Tq4Im5y1QnGuHz3MDZ_aSA" target="_blank">Meneerea by Erased</a> - Stacy London
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
-      <span class="name">Augustus Yuan</span>
-      <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+// Episode 1 transcript
+module.exports = function() {
+  'use strict';
+  const transcript = `
   <p><strong>Ryan Burgess</strong><br />
   Welcome to the latest episode of the front end happier podcast. Today's topic has actually been requested quite a few times for us to talk about graph QL. So I'm excited that we have surety to help us really dive deep into the topic. So surety is joining us to talk with us about graph QL. Trudi Can you give us a brief introduction of who you are, what you do, and obviously what is your favorite happier beverage?
   
@@ -836,21 +733,6 @@
   
   
   
-  </div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+  `;
+  return transcript;
+};

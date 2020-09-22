@@ -1077,7 +1077,7 @@
     "description": "In this episode, we are joined by Shruti Kapoor to talk with us about GraphQL and why your company could benefit from leveraging GraphQL on the front end and the back end.",
     "id": "786052357",
     "published": "March 29, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "graphql"
