@@ -297,7 +297,7 @@ module.exports = function main(pageType, content, title, desc, link) {
                   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                   <link rel="alternate" type="application/rss+xml"
                    href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="${pageOG}"" /> <meta
+                   <meta property="og:image" content="${pageOG}" /> <meta
                     property="og:description" content="Description goes here"" />
                     <meta property="og:title" content="${pageTitle}" />
                     <meta key="twitter:card" name="twitter:card" content="${desc}" />
