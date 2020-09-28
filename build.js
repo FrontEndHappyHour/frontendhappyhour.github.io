@@ -1,4 +1,6 @@
 'use strict';
+const fs = require('fs');
+const path = require('path');
 const mkdirp = require('mkdirp');
 const episodes = require('./content/episodes.json');
 const panelists = require('./content/panelists.json');
@@ -9,6 +11,7 @@ const mailing = require('./lib/mailing');
 const panelistPage = require('./lib/panelists');
 const epList = require('./lib/episode-json');
 const createSiteMap = require('./lib/sitemap');
+const makeOGImage = require('./lib/make-og-image');
 
 // Templates
 const main = require('./templates/main');
@@ -87,8 +90,58 @@ for (let i = episodes.length - 1; i >= 0; i--) {
   // create a directory for each episode
   mkdirp.sync(`./episodes/${link}`);
 
+  // find or create episode OG image
+  const ogImageName = link + '.jpeg';
+  const pageOGImage =
+    'https://frontendhappyhour.com/public/img/episodes/friendly-preview/' +
+    ogImageName;
+  const ogImagePath = path.join(
+    './public/img/episodes/friendly-preview/',
+    ogImageName
+  );
+  const existingOGImage = fs.existsSync(ogImagePath);
+
+  if(!existingOGImage) {
+    const avatars = [...panel, ...guests]
+      .map((person) => {
+        const panelist = panelists.find((n) => n.name === person);
+
+        if(panelist) {
+          return `./public/img/panel/${panelist.twitter}.jpg`;
+        }
+
+        if(person.twitter) {
+          return `./public/img/guests/${person.twitter}.jpg`;
+        }
+      })
+      .filter((img) => {
+        return fs.existsSync(img);
+      });
+
+    makeOGImage({
+      title: '#' + parseInt(episodeNum, 10) + ': ' + epTitle,
+      avatars,
+      socialIcons: [
+        './public/img/spotify.svg',
+        './public/img/podcast.svg',
+        './public/img/googlepodcasts.svg',
+        './public/img/stitcher.svg',
+        './public/img/overcast.svg',
+        './public/img/rss.svg'
+      ],
+      logoURL: './public/img/front-end-happy-hour.svg'
+    })
+      .then((ogImageJPEG) => {
+        write(ogImagePath, ogImageJPEG);
+      })
+      .catch(console.error);
+  }
+
   // create index.html for each episode
-  write(`./episodes/${link}/index.html`, main('episode', episodeOutput, epTitle, epDesc, link));
+  write(
+    `./episodes/${link}/index.html`,
+    main('episode', episodeOutput, epTitle, epDesc, link, pageOGImage)
+  );
 }
 
 // output slimmed down version of main episode JSON
