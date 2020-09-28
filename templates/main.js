@@ -4,12 +4,11 @@ const header = require('./header');
 const footer = require('./footer');
 const strings = require('../content/strings.json');
 
-module.exports = function main(pageType, content, title, desc, link) {
+module.exports = function main(pageType, content, title, desc, link, pageOG) {
   'use strict';
   let heading = title;
   let pageContent;
   let pageTitle;
-  let pageOG;
   let urlCanonical = '';
   let path;
   let css;
@@ -17,6 +16,8 @@ module.exports = function main(pageType, content, title, desc, link) {
   let classAdd;
   const cssVersion = 2.1;
   const mainTitle = strings.title;
+
+  console.log('pageOG == ' + pageOG);
 
   // subscribe list HTML
   const subscribeList = `<div class="container">
@@ -35,13 +36,15 @@ module.exports = function main(pageType, content, title, desc, link) {
     desc = strings.desc;
   }
 
-  // set OG image
-  if (pageType === 'shirts') {
-    pageOG = 'http://frontendhappyhour.com/public/img/shirts.jpg';
-  } else if (pageType === 'virtual-happy-hour') {
-    pageOG = 'https://i.imgur.com/doWONo7.png';
-  } else {
-    pageOG = 'http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
+  // set OG image if it's undefined
+  if(pageOG === undefined) {
+    if (pageType === 'shirts') {
+      pageOG = 'http://frontendhappyhour.com/public/img/shirts.jpg';
+    } else if (pageType === 'virtual-happy-hour') {
+      pageOG = 'https://i.imgur.com/doWONo7.png';
+    } else {
+      pageOG = 'http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
+    }
   }
 
   if (pageType === 'home') {
