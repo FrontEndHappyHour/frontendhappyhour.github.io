@@ -1,5 +1,70 @@
 [
   {
+    "episode": "113",
+    "title": "Severless",
+    "description": "Do you remember the days of FTP? In this episode, we are joined by Jerome Hardaway to talk with us about the changes made to hosting websites and how serverless has improved the ways we serve up websites and applications.",
+    "id": "",
+    "published": "October 4, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Jerome Hardaway",
+        "twitter": "JeromeHardaway"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "112",
     "title": "SEO - Searching for our drinks",
     "description": "Build it and they will come, right? Wrong. Search Engine Optimization is a key component of how people will discover your website or application. In this episode, we are joined by Netflix engineer, Cole Turner to talk with us about the importance of SEO and ways to improve your ranking in search engines.",
@@ -7,7 +72,10 @@
     "published": "September 20, 2020",
     "transcribed": true,
     "category": "technical",
-    "tags": ["seo", "engineering"],
+    "tags": [
+      "seo",
+      "engineering"
+    ],
     "panel": [
       "Ryan Burgess",
       "Stacy London",
