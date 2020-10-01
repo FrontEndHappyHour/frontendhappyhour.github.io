@@ -48,6 +48,7 @@ for (let i = episodes.length - 1; i >= 0; i--) {
   const shortDesc = ellipsize(epDesc, 240);
   const transcript = episodes[i].transcribed;
   const episodeNum = episodes[i].episode;
+  const cardBackground = episodes[i].cardBackground;
 
   // create episode list for homepage
   mainOutput += episodeList(link, epTitle, epDate, shortDesc);
@@ -118,6 +119,10 @@ for (let i = episodes.length - 1; i >= 0; i--) {
         return fs.existsSync(img);
       });
 
+    const allCardBackgrounds = [
+      './public/img/card-background/logo-background.png'
+    ];
+
     makeOGImage({
       title: '#' + parseInt(episodeNum, 10) + ': ' + epTitle,
       avatars,
@@ -129,6 +134,7 @@ for (let i = episodes.length - 1; i >= 0; i--) {
         './public/img/overcast.svg',
         './public/img/rss.svg'
       ],
+      backgrounds: cardBackground ? [cardBackground] : allCardBackgrounds,
       logoURL: './public/img/front-end-happy-hour.svg'
     })
       .then((ogImageJPEG) => {
