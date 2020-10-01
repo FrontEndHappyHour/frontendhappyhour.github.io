@@ -1,8 +1,8 @@
-# Front End Happy Hour
+# Front End Happy Hour-An Amazing Fronted Website
 [Front End Happy Hour website](http://frontendhappyhour.com)
 
 ## Build
-`node build`
+It is build with node
 
 ## Add new episode to episodes.json
 `node episode`
