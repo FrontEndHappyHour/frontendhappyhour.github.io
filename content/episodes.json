@@ -3,11 +3,11 @@
     "episode": "113",
     "title": "Severless - serving(less) drinks",
     "description": "Do you remember the days of FTP? In this episode, we are joined by Jerome Hardaway to talk with us about the changes made to hosting websites and how serverless has improved the ways we serve up websites and applications.",
-    "id": "",
+    "id": "904438039",
     "published": "October 4, 2020",
     "transcribed": true,
     "category": "technical",
-    "tags": [],
+    "tags": ["engineering", "serverless", "builds"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -56,7 +56,7 @@
         "title": "Back to the Sky by Ólafur Arnalds",
         "url": "https://open.spotify.com/track/7bxHVCYpHpMn0PJEb2SwQq?si=YZkgachKQu2ZNT0ZSrxHPA",
         "from": "Stacy London"
-      }
+      },
       {
         "title": "Fall Guys",
         "url": "https://fallguys.com/",
