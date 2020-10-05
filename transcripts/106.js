@@ -287,7 +287,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Ryan Burgess</strong><br /> 
-  I have a blog there. And then I am, Brad underscore frost on Twitter. All right, well, and thank you all for listening today's episode. You can find us front happier.com you can really subscribe to us on whatever you like to listen to podcasts on. Maybe rate us on the podcast catcher that you like. And you can also follow us on Twitter at @FrontEndHH. Any last words atomic, atomic
+  I have a blog there. And then I am, Brad underscore frost on Twitter. All right, well, and thank you all for listening today's episode. You can find us  <a href="https://frontendhappyhour.com">FrontEndHappyHour.com</a> you can really subscribe to us on whatever you like to listen to podcasts on. Maybe rate us on the podcast catcher that you like. And you can also follow us on Twitter at <a href="https://twitter.com/FrontEndHH">@FrontEndHH</a>. Any last words atomic, atomic
   </p>
   <p><strong>All</strong><br />
   Cheers. Cheers.

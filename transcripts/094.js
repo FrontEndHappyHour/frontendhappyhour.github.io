@@ -595,7 +595,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  right on. Thank you all for listening to today's episode. You can follow us on Twitter at front end HGH. Any last words, huh?
+  right on. Thank you all for listening to today's episode. You can follow us on Twitter at <a href="https://twitter.com/frontendhh">@frontendhh</a>. Any last words, huh?
   </p>  
   `;
   return transcript;

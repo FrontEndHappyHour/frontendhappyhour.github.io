@@ -710,7 +710,7 @@ I guess I'm most accessible on LinkedIn. I realized that most people are going t
 
 I was gonna say I think you do. 
 
-My Twitter is my is my first initial and last name. So j k UT ik but you can also find me on that. LinkedIn, I'm probably the only Jibran Kutik on LinkedIn. So feel free to look me up and send me an invite. I would love to talk. If you tweet at me or if you send me a DM on Twitter, I'll get back to you eventually. Probably, I hope. Go through Ryan. Do you want to get in touch? If you want to get in touch with me send Ryan a DM and he'll text me 
+My Twitter is my is my first initial and last name. So <a href="https://twitter.com/JKutik">@JKutik</a> but you can also find me on that. LinkedIn, I'm probably the only Jibran Kutik on LinkedIn. So feel free to look me up and send me an invite. I would love to talk. If you tweet at me or if you send me a DM on Twitter, I'll get back to you eventually. Probably, I hope. Go through Ryan. Do you want to get in touch? If you want to get in touch with me send Ryan a DM and he'll text me 
 
 </p>
 <p><strong>Oliver Farshi</strong><br />
@@ -730,11 +730,11 @@ Thank you both for joining us. It's been a pleasure having you. We may as well. 
 
 </p>
 <p><strong>Stacy London</strong><br />
-I'm on Twitter at @StaceyLondoner.
+I'm on Twitter at <a href="https://twitter.com/StaceyLondoner">@StaceyLondoner</a>.
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
-And I'm on Twitter at @Burgessdryan. I You can also find us if I saw, like a couple hands that have listened to podcasts. But if you're wanting to listen to podcasts, you can find us on what's it like to listen to podcasts on Spotify, iTunes, Google play, whatever it is, but you can also follow us on @frontendhh on Twitter, and we have FrontEndHappyHour.com. Any last words before we end the episode
+And I'm on Twitter at <a href="https://twitter.com/Burgessdryan">@Burgessdryan</a>. I You can also find us if I saw, like a couple hands that have listened to podcasts. But if you're wanting to listen to podcasts, you can find us on what's it like to listen to podcasts on Spotify, iTunes, Google play, whatever it is, but you can also follow us on <a href="https://twitter.com/frontendhh">@frontendhh</a> on Twitter, and we have <a href="https://frontendhappyhour.com">FrontEndHappyHour.com</a>. Any last words before we end the episode
 
 </p>
 <p><strong>Jibran Kutik</strong><br />

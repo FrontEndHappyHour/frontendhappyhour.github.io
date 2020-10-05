@@ -505,7 +505,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  Thank you to all of our listeners for listening to today's episode. You can find us on Twitter at front end, h h visit us on front end. Happy hour.com listen to us on whatever podcasts catcher you like to listen to podcasts on. Any last words.
+  Thank you to all of our listeners for listening to today's episode. You can find us on Twitter at <a href="https://twitter.com/frontendhh">@frontendhh</a> visit us on front end. Happy hour.com listen to us on whatever podcasts catcher you like to listen to podcasts on. Any last words.
   
   </p>
   <p><strong>Jem Young</strong><br />

@@ -518,7 +518,7 @@ I mean Martin Scorsese, he's
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
-amazing director. It was good. So Gemini are gonna debate this one later offline, but I really liked it. Thank you all for listening today's episode. You can follow us on Twitter at front end h h. Any last words?
+amazing director. It was good. So Gemini are gonna debate this one later offline, but I really liked it. Thank you all for listening today's episode. You can follow us on Twitter at <a href="https://twitter.com/frontendhh">@frontendhh</a>. Any last words?
 
 </p>
 <p><strong>Stacy London</strong><br /> 

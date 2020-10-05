@@ -618,7 +618,7 @@ I'm actually finding it very, very hard to follow with this. You in fact, have t
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
-Tedwords947 on Twitter,
+<a href="https://twitter.com/Tedwords947">@Tedwords947</a> on Twitter,
 
 </p>
 <p><strong>Jem Young</strong><br /> 
@@ -630,7 +630,7 @@ Well, I guess I still have a handle. Yeah. I'll post on LinkedIn. Go ahead Find 
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-Thank you all for listening to today's episode. Make sure to subscribe to front end happier on whatever you like to listen to podcasts on. And you can follow us on Twitter @FrontEndHH, any last words, 
+Thank you all for listening to today's episode. Make sure to subscribe to front end happier on whatever you like to listen to podcasts on. And you can follow us on Twitter <a href="https://twitter.com/FrontEndHH">@FrontEndHH</a>, any last words, 
 
 </p>
 <p><strong>Stacy London</strong><br /> 

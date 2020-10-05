@@ -708,7 +708,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Shruti Kapoor</strong><br />
-  Thank you for having me. If people can get in touch with me on Twitter. I'm on Twitter @shrutikapoor08. I am also on GitHub with my dojo people should
+  Thank you for having me. If people can get in touch with me on Twitter. I'm on Twitter <a href="https://twitter.com/shrutikapoor08">@shrutikapoor08</a>. I am also on GitHub with my dojo people should
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -720,7 +720,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  Thank you all for listening to today's episode. You can check us out at FrontEndHappyHour.com I was gonna call it the website. Some people didn't even know we had a website so we do FrontEndHappyHour.com. And you can subscribe to us on Spotify apple. I don't know, Google podcasts, whatever it is. And you can also follow us on Twitter at @FrontEndHH, any last words?
+  Thank you all for listening to today's episode. You can check us out at <a href="https://frontendhappyhour.com">FrontEndHappyHour.com</a> I was gonna call it the website. Some people didn't even know we had a website so we do FrontEndHappyHour.com. And you can subscribe to us on Spotify apple. I don't know, Google podcasts, whatever it is. And you can also follow us on Twitter at <a href="https://twitter.com/FrontEndHH">@FrontEndHH</a>, any last words?
   
   </p>
   <p><strong>Stacy London</strong><br />
