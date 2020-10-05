@@ -18,11 +18,8 @@ if (!fileName.includes('.js')) {
 // get the file content
 newContent = fs.readFileSync(dir + fileName, 'utf-8');
 
-// create website links
-const website = newContent.match(/\w*.com/g);
-website.forEach(websiteName => {
-    newContent = newContent.replace(websiteName, `<a href="https://${websiteName}">${websiteName}</a>`);
-});
+// create website link for FrontEndHappyHour.com
+newContent = newContent.replace('FrontEndHappyHour.com', `<a href="https://frontendhappyhour.com">FrontEndHappyHour.com</a>`);
 
 // create twitter links
 const twitter = newContent.match(/@\w*/g);
