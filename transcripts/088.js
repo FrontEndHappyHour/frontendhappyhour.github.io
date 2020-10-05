@@ -4,7 +4,7 @@ module.exports = function() {
   const transcript = `
   </p>
 <p><strong>Ryan Burgess</strong><br /> 
-<a href="https://Welcom">Welcom</a>e to the latest episode of the front end happier podcast. We often talk about our growth path as engineers, one of those paths could be a tech lead engineer. In today's episode, we're joined by </p>
+Welcome to the latest episode of the front end happier podcast. We often talk about our growth path as engineers, one of those paths could be a tech lead engineer. In today's episode, we're joined by </p>
 <p><strong>Tony Edwards</strong><br />to help talk with us about the role and responsibilities of a tech lead engineer. Tony, can you give us a brief introduction of who you are, what you do, and what your favorite happy hour beverages?
 
 </p>
@@ -76,19 +76,19 @@ Yeah, you gotta trust your people, for sure. All right. Anything else to add to 
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
-Well, I think it's an interesting, I did ask for a definition in the first place, because I think <a href="https://<a href="https://e<a href="https://very<a href="https:// com"> com</a>">very com</a>">every com</a>">every com</a>pany will executed very, very differently. And so it's interesting to hear, obviously, everyone's perspectives here because I think we all have a slightly different definition in mind where the like coding to sort of know Management ratios might be very, very different depending on where you work.
+Well, I think it's an interesting, I did ask for a definition in the first place, because I think every company will executed very, very differently. And so it's interesting to hear, obviously, everyone's perspectives here because I think we all have a slightly different definition in mind where the like coding to sort of know Management ratios might be very, very different depending on where you work.
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-I think that's a fair point is they'<a href="https://<a href="https://<a href="https://re com">re com</a>">re com</a>">re com</a>pletely different,
+I think that's a fair point is they're completely different,
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-depending on <a href="https://<a href="https://<a href="https://<a href="https://<a href="https://<a href="https://<a href="https://<a href="https://the com">the com</a>">the com</a>">the com</a>">the com</a>">the com</a>">the com</a>">the com</a>">the com</a>pany. So yeah, lead engineer, someone that is honest with themselves about the amount of coding they do what Tony said, Yeah, I feel like you're so no matter what, as a tech lead, you're likely coding less. I think, in general, as engineers, we overestimate how much coding we do are like, Oh, your senior software engineer was coding your day, you're probably like, 70 80% of time. And it's probably more like, 60% of the time we go to a lot of meetings.
+depending on the company. So yeah, lead engineer, someone that is honest with themselves about the amount of coding they do what Tony said, Yeah, I feel like you're so no matter what, as a tech lead, you're likely coding less. I think, in general, as engineers, we overestimate how much coding we do are like, Oh, your senior software engineer was coding your day, you're probably like, 70 80% of time. And it's probably more like, 60% of the time we go to a lot of meetings.
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-Yeah, I do think as you <a href="https://<a href="https://becom">becom</a>">becom</a>e more senior, the <a href="https://more com">more com</a>plexity of your role that grows. I actually that's really funny as you're coding actually goes down. That's definitely the way I've seen it in my path.
+Yeah, I do think as you become more senior, the more complexity of your role that grows. I actually that's really funny as you're coding actually goes down. That's definitely the way I've seen it in my path.
 
 </p>
 <p><strong>Jem Young</strong><br /> 
@@ -114,7 +114,7 @@ You're leading this effort.
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-That's really cool. I think another area that we missed, maybe defining on how to describe a tech lead, is I feel like you're dealing a lot more with cross functional teams. I feel like as an engineer, you're always working really closely with your team. Maybe you're working with a pm the designer, but oftentimes there's other requirements <a href="https://th<a href="https://a<a href="https://t com">t com</a>">at com</a>"><a href="https://<a href="https://<a href="https://that com">that com</a>">that com</a>">that com</a></a>e across cross functionally there's like other engineering teams or other disciplines that need to be brought in. And you might be that person that kind of goes and shepherds that and brings a technical perspective to it  
+That's really cool. I think another area that we missed, maybe defining on how to describe a tech lead, is I feel like you're dealing a lot more with cross functional teams. I feel like as an engineer, you're always working really closely with your team. Maybe you're working with a pm the designer, but oftentimes there's other requirements that come across cross functionally there's like other engineering teams or other disciplines that need to be brought in. And you might be that person that kind of goes and shepherds that and brings a technical perspective to it  
 
 </p>
 <p><strong>Jem Young</strong><br /> 
@@ -142,7 +142,7 @@ Oh, fair. All right. Well, since it's okay, how could you make it better?
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-I would simplify it Ryan. I would, I would say it <a href="https://encom">encom</a>passes different parts of the business that may not be it's more than one product area. 
+I would simplify it Ryan. I would, I would say it encompasses different parts of the business that may not be it's more than one product area. 
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
@@ -150,7 +150,7 @@ So I did start with it.
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-You did, I think you could <a href="https://ha<a href="https://ve com">ve com</a>"><a href="https://have com">have com</a></a>e.
+You did, I think you could have come.
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
@@ -186,7 +186,7 @@ I like the been around the block
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-that is And to your point, failure that is such a big part is like learning. What not to do is just as important as learning what you should do. Think also in thing that's really important <a href="https://<a href="https://<a href="https://is com">is com</a>">is com</a>">is com</a>munication. Communication skills are so important. I think this is whether you're a tech lead, or any type of engineer to grow as an engineer, it <a href="https://<a href="https://<a href="https://really com">really com</a>">really com</a>">really com</a>es down <a href="https://<a href="https://<a href="https://to com">to com</a>">to com</a>">to com</a>munication. It's funny is like we think about coding and being more technical. When I think about an engineer growing, it's like, how do <a href="https://<a href="https://<a href="https://they com">they com</a>">they com</a>">they com</a>municate? And who are they talking to? How are they communicating the details of a project? Cheers.
+that is And to your point, failure that is such a big part is like learning. What not to do is just as important as learning what you should do. Think also in thing that's really important is communication. Communication skills are so important. I think this is whether you're a tech lead, or any type of engineer to grow as an engineer, it really comes down to communication. It's funny is like we think about coding and being more technical. When I think about an engineer growing, it's like, how do they communicate? And who are they talking to? How are they communicating the details of a project? Cheers.
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
@@ -194,7 +194,7 @@ Oh, boy.
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-tells you is a good one shows the schemer I think that's something that I wish I knew earlier on my career <a href="https://<a href="https://about com">about com</a>">about com</a>munication is far more important. If you ask like Junior gem 10 years ago, whatever, like its lead engineer, someone who can just like, they can do the leet code problems, they can code their way out of anything and they probably know like four languages and all these things is what the junior engineers before. Yeah. Kind of is it's up to them to like kind of spin and you're, you're like the calm head like, you pick up the good ideas like Yeah, that's a good idea. Let's move forward with that rather than being on like the hype train of everything you think like what Long Term ramifications of that, like you were saying earlier, about, like, the future implications about where the project's going to be in a year, two years from now, versus thinking, I'm just gonna close this JIRA, or I'm gonna close this ticket and just, like move on my next project, you're thinking like, what are we going to be in six months? Like that very, very long term focused thinking?
+tells you is a good one shows the schemer I think that's something that I wish I knew earlier on my career about communication is far more important. If you ask like Junior gem 10 years ago, whatever, like its lead engineer, someone who can just like, they can do the leet code problems, they can code their way out of anything and they probably know like four languages and all these things is what the junior engineers before. Yeah. Kind of is it's up to them to like kind of spin and you're, you're like the calm head like, you pick up the good ideas like Yeah, that's a good idea. Let's move forward with that rather than being on like the hype train of everything you think like what Long Term ramifications of that, like you were saying earlier, about, like, the future implications about where the project's going to be in a year, two years from now, versus thinking, I'm just gonna close this JIRA, or I'm gonna close this ticket and just, like move on my next project, you're thinking like, what are we going to be in six months? Like that very, very long term focused thinking?
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
@@ -226,7 +226,7 @@ and now you know, go do the things and I won't stand in your way.
 
 </p>
 <p><strong>Stacy London</strong><br /> 
-Yeah, I think like noticing someone on the team is struggling and being like, hey, let's pair program on that together. Or, like, Oh, this person finished a thing but like it's kind <a href="https://<a href="https://<a href="https://of com">of com</a>">of com</a>">of com</a>plex and they need someone to help test them with it and you're like, oh, help test and you'll just like, go do that or whatever. It's kind of like filling. Yeah, filling in like all the holes wherever you see a little bit of mentorship there. Yes. Yeah,
+Yeah, I think like noticing someone on the team is struggling and being like, hey, let's pair program on that together. Or, like, Oh, this person finished a thing but like it's kind of complex and they need someone to help test them with it and you're like, oh, help test and you'll just like, go do that or whatever. It's kind of like filling. Yeah, filling in like all the holes wherever you see a little bit of mentorship there. Yes. Yeah,
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
@@ -238,7 +238,7 @@ Cheers.
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
-that's a it's something I've increasingly run into with just getting more tenure at any one <a href="https://given com">given com</a>pany. It's just, you learn as you move up kind of the hierarchy of engineering. You can't, you can't like have the same conversation as you used to with your peers, because their peers, but they're not peers anymore. So like, 20 minute Netflix, like four years, five years or not, yeah, four and a half. Like, you couldn't go to some person who just started and say, Man, let me tell you about this meeting I just had it was terrible. And like, you can't vent to them anymore because they just reflect really poorly on organization. And they're like, Whoa, this I'm supposed to be looking up to this person. And then that's a hard lesson I've had to learn where I just I can't have the <a href="https://same com">same com</a>munications. It's mostly like people want to vent back to you and you're like, Okay, okay, let me see if I can fix that for you. And that's just something that is implied. No one tells you when that happens, but it will happen eventually. And you realize like, The higher up you move, the less you can kind of talk as equals everybody. And you have to, like think differently about how <a href="https://you com">you com</a>municate. 
+that's a it's something I've increasingly run into with just getting more tenure at any one given company. It's just, you learn as you move up kind of the hierarchy of engineering. You can't, you can't like have the same conversation as you used to with your peers, because their peers, but they're not peers anymore. So like, 20 minute Netflix, like four years, five years or not, yeah, four and a half. Like, you couldn't go to some person who just started and say, Man, let me tell you about this meeting I just had it was terrible. And like, you can't vent to them anymore because they just reflect really poorly on organization. And they're like, Whoa, this I'm supposed to be looking up to this person. And then that's a hard lesson I've had to learn where I just I can't have the same communications. It's mostly like people want to vent back to you and you're like, Okay, okay, let me see if I can fix that for you. And that's just something that is implied. No one tells you when that happens, but it will happen eventually. And you realize like, The higher up you move, the less you can kind of talk as equals everybody. And you have to, like think differently about how you communicate. 
 
 A lot to unpack there. Sorry.
 
@@ -248,15 +248,15 @@ Yeah. I also think like going back to, you have to plan, you have to also help w
 
 </p>
 <p><strong>Stacy London</strong><br /> 
-as part of that planning, do you? What do you all think about? How do you as the <a href="https://lead com">lead com</a>e up with when someone asks, How long is it going to take for this thing to be done? Like, how do you handle that as lead months?
+as part of that planning, do you? What do you all think about? How do you as the lead come up with when someone asks, How long is it going to take for this thing to be done? Like, how do you handle that as lead months?
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
-I think there's there's sort of two answers to that question. I think one I think you have to have <a href="https://good com">good com</a>munication skills to be able to act Explain why an estimate that seems longer than it maybe should be, is is that long in the first place. And two, I actually think it's largely built on trust. After like that, that being able to give estimates as a lead engineer to others about how long things are going to take and for them to believe you and to like, okay, I believe it's actually going to take that long, it's not padded, or I believe it's gonna take that long it won't run over requires a good deal of trust, which goes back to communication, I think, and sort of just the overall demeanor of a lead engineer.
+I think there's there's sort of two answers to that question. I think one I think you have to have good communication skills to be able to act Explain why an estimate that seems longer than it maybe should be, is is that long in the first place. And two, I actually think it's largely built on trust. After like that, that being able to give estimates as a lead engineer to others about how long things are going to take and for them to believe you and to like, okay, I believe it's actually going to take that long, it's not padded, or I believe it's gonna take that long it won't run over requires a good deal of trust, which goes back to communication, I think, and sort of just the overall demeanor of a lead engineer.
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-Here's how I'd approach it to you. Don't answer go back to your team and <a href="https://and com">and com</a>e back with a time that's the right because I think like that could I could be
+Here's how I'd approach it to you. Don't answer go back to your team and and come back with a time that's the right because I think like that could I could be
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
@@ -292,11 +292,11 @@ Cheers.
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
-Now, the first thing I do when asked for estimate is go see my engineers. That's their <a href="https://job com">job com</a>e with estimate, not mine. My job is to assimilate the estimates and kind of save whatever estimate is longest. That's how long
+Now, the first thing I do when asked for estimate is go see my engineers. That's their job come with estimate, not mine. My job is to assimilate the estimates and kind of save whatever estimate is longest. That's how long
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-Yeah, I think you also like to that point is you're also questioning to is like you're working with your team to try and think through the different paths that you need to go down in order to deliver or you're supposed to deliver as a team. And think about that you just mentioned Tony QA, well, someone else might have just said, Ah, it's like two weeks work. You're like, yeah, two weeks work on the feature development. But how much is that Qa? Oh, I might be another two weeks. How much is back and forth with your engineer and QA to actually deliver something <a href="https://as com">as com</a>plete? Well, we might be looking at like a month. and a half. But that totally changed
+Yeah, I think you also like to that point is you're also questioning to is like you're working with your team to try and think through the different paths that you need to go down in order to deliver or you're supposed to deliver as a team. And think about that you just mentioned Tony QA, well, someone else might have just said, Ah, it's like two weeks work. You're like, yeah, two weeks work on the feature development. But how much is that Qa? Oh, I might be another two weeks. How much is back and forth with your engineer and QA to actually deliver something as complete? Well, we might be looking at like a month. and a half. But that totally changed
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
@@ -316,15 +316,15 @@ So without that, we've got a we've got a couple drinks at us knock and bust up t
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
-Going back to psychology, I think you've got to find a new way of finding fulfillment as more junior engineers are all like super happy to sit for hours and hours and days and days and just be heads down on code and when you don't have that, you lose that sense of satisfaction of a job well done at the end of the Day. So you have to find it elsewhere. And I definitely struggle with that myself. What ultimate account with is, is bringing people together to <a href="https://<a href="https://accom">accom</a>">accom</a>plish something, and watching the team, get something done is like, just as satisfying. Maybe not as selfishly satisfying. And oftentimes, you'll be like Daesil worry, like, I didn't do anything all day, or it feels like that. But then you step take a step back, and you can see that the team has shipped this over the next couple months. It's like, wow, I was a part of that. That's great. It's a great feeling.
+Going back to psychology, I think you've got to find a new way of finding fulfillment as more junior engineers are all like super happy to sit for hours and hours and days and days and just be heads down on code and when you don't have that, you lose that sense of satisfaction of a job well done at the end of the Day. So you have to find it elsewhere. And I definitely struggle with that myself. What ultimate account with is, is bringing people together to accomplish something, and watching the team, get something done is like, just as satisfying. Maybe not as selfishly satisfying. And oftentimes, you'll be like Daesil worry, like, I didn't do anything all day, or it feels like that. But then you step take a step back, and you can see that the team has shipped this over the next couple months. It's like, wow, I was a part of that. That's great. It's a great feeling.
 
 </p>
 <p><strong>Stacy London</strong><br /> 
-So to tag on that with the hard questions. So I've that's what I've been struggling with for quite some time as well, like the figuring out what satisfaction is for the thing that you're doing. And the industry in the way that it interviews us is very disparate from this like thing like we there's very few interviews that you go through, like for a new software engineering job, that's like, tell me all the things you did Like this lead person, they're like, actually, can you just write some code right now and solve this? Right now? the whiteboard, please? Yeah. And it seems so disparate? Because like, that's what that's why I get nervous about it. Because you're like, I haven't been writing like code every day, you know, hardcore for a while. How am I going to get through another interview at a <a href="https://<a href="https://<a href="https://different com">different com</a>">different com</a>">different com</a>pany because they don't interview you about the the lead role that you did for Mara says a lot about that recently,
+So to tag on that with the hard questions. So I've that's what I've been struggling with for quite some time as well, like the figuring out what satisfaction is for the thing that you're doing. And the industry in the way that it interviews us is very disparate from this like thing like we there's very few interviews that you go through, like for a new software engineering job, that's like, tell me all the things you did Like this lead person, they're like, actually, can you just write some code right now and solve this? Right now? the whiteboard, please? Yeah. And it seems so disparate? Because like, that's what that's why I get nervous about it. Because you're like, I haven't been writing like code every day, you know, hardcore for a while. How am I going to get through another interview at a different company because they don't interview you about the the lead role that you did for Mara says a lot about that recently,
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
-I was actually about to say, I mean, not I didn't want to, like take it off topic, but I feel like I just went through that and like a lot of low self confidence involved and going through that interview process, when a lot of the work that's been done recently is better work. It's important metaphor. But that doesn't always translate into Oh, I can answer this one technical question that you have for me at this particular moment in time, even on the coding side, like we're constantly learning, you know, and and as a lead engineer, even as a senior engineer, you recognize that you can <a href="https://solve com">solve com</a>plex problems, but it doesn't happen right then and there when you're asked that question and I agree that the interview process is not captured and sort of like those other qualities and responsibilities that tend you tend to be involved in even just the more senior you get without even being a lead engineer, the more senior you get sometimes the further away from coding you get, and the more creative you are when <a href="https://<a href="https://it com">it com</a>">it com</a>es to coding eventually.
+I was actually about to say, I mean, not I didn't want to, like take it off topic, but I feel like I just went through that and like a lot of low self confidence involved and going through that interview process, when a lot of the work that's been done recently is better work. It's important metaphor. But that doesn't always translate into Oh, I can answer this one technical question that you have for me at this particular moment in time, even on the coding side, like we're constantly learning, you know, and and as a lead engineer, even as a senior engineer, you recognize that you can solve complex problems, but it doesn't happen right then and there when you're asked that question and I agree that the interview process is not captured and sort of like those other qualities and responsibilities that tend you tend to be involved in even just the more senior you get without even being a lead engineer, the more senior you get sometimes the further away from coding you get, and the more creative you are when it comes to coding eventually.
 
 </p>
 <p><strong>Stacy London</strong><br /> 
@@ -354,7 +354,7 @@ Also, in those interviews, ask questions to I feel like that's where the tech le
 <p><strong>Tony Edwards</strong><br /> 
 as a as a tech leader? legionnaire How do you keep Your your skills sharp, because you could get soft, never coding or coding very rarely. And the world changes so quickly, especially that of JavaScript. How do you keep yourself sharp? I guess, unless you're interviewing, you have to, you have to study a lot?
 
-Well, I don't know that I practice every day or study. But I don't know that I'm doing a lot. And this may just be me. But I don't know that the right approach would necessarily be to have a side project, or I mean, I think that that is that is an approach but depending on your work life balance, but finding the finding the things that <a href="https://are com">are com</a>ing out that are new, and just keeping aware of them. And knowing sort of just like the general landscape of what's going on can be very important. Even if you're not like, Oh, this new thing came out, I immediately need to write a to do app using that new thing. I don't believe that's necessary. I think it's important to know that these things are out there so that, you know, when <a href="https://there com">there com</a>es a time that you need that particular API or something, then you can go and investigate it further and then learn that way. 
+Well, I don't know that I practice every day or study. But I don't know that I'm doing a lot. And this may just be me. But I don't know that the right approach would necessarily be to have a side project, or I mean, I think that that is that is an approach but depending on your work life balance, but finding the finding the things that are coming out that are new, and just keeping aware of them. And knowing sort of just like the general landscape of what's going on can be very important. Even if you're not like, Oh, this new thing came out, I immediately need to write a to do app using that new thing. I don't believe that's necessary. I think it's important to know that these things are out there so that, you know, when there comes a time that you need that particular API or something, then you can go and investigate it further and then learn that way. 
 
 I find this useful to look at my fellow engineers. Pull Requests as they're coming into it for my review, and that's like, Oh, I never seen it done that way before. Is that new? And then I asked questions. I'm like, Oh, yeah, this was mentioned, there's some blog posts, which I've never seen, because I don't use Twitter, Twitter anymore. But stuff like that. And that's how I stay up.
 
@@ -384,7 +384,7 @@ I'll approve it.
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
- But one that I found really interesting is like using those skills for things that might actually help you As a manager is I can write tools or or things that will help me like maybe it's a Chrome extension, maybe it's <a href="https://<a href="https://<a href="https://a com">a com</a>">a com</a>">a com</a>mand line tool that just makes my life a little bit more automated and easier. And there's no timeline for it. It's really nice, but it's using that skill set. Or, hey, there's a new framework, wow, this build something cool with this just on my spare time, which is not a lot of spare time. But it's just like really diving a little bit into it and trying something new. I think that's what's always helped me as well. I don't agree with pull requests. I personally am reviewing pull requests non stop constantly. And so like, that's definitely one way and then pairing. So like, maybe I'm not
+ But one that I found really interesting is like using those skills for things that might actually help you As a manager is I can write tools or or things that will help me like maybe it's a Chrome extension, maybe it's a command line tool that just makes my life a little bit more automated and easier. And there's no timeline for it. It's really nice, but it's using that skill set. Or, hey, there's a new framework, wow, this build something cool with this just on my spare time, which is not a lot of spare time. But it's just like really diving a little bit into it and trying something new. I think that's what's always helped me as well. I don't agree with pull requests. I personally am reviewing pull requests non stop constantly. And so like, that's definitely one way and then pairing. So like, maybe I'm not
 
 </p>
 <p><strong>Stacy London</strong><br /> 
@@ -392,7 +392,7 @@ working on the feature from the start or being the person really like defining a
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-that's kind of one way to do it. Like it kind of related. What happens is you're sort of an architect As a tech lead, what happens when your engineers take the code in a direction? You're <a href="https://not com">not com</a>fortable with going literally ask questions, trying to understand why that's happening. I think if you try and dictate, it's not going to work. And I think that's the ultimate feeling that you have. You're like, I'm the lead, I'm going to tell you the right way. But they actually might have a better way. And so I think it's really questioning and understanding, and then trying to steer it in the right direction. You mean like, maybe they're not following patterns, or I mean, as
+that's kind of one way to do it. Like it kind of related. What happens is you're sort of an architect As a tech lead, what happens when your engineers take the code in a direction? You're not comfortable with going literally ask questions, trying to understand why that's happening. I think if you try and dictate, it's not going to work. And I think that's the ultimate feeling that you have. You're like, I'm the lead, I'm going to tell you the right way. But they actually might have a better way. And so I think it's really questioning and understanding, and then trying to steer it in the right direction. You mean like, maybe they're not following patterns, or I mean, as
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
@@ -400,7 +400,7 @@ a tech lead, you've got a lot of experience and a lot of failures and a lot of s
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-I've reviewed prs and said, No, like, this isn't going to work and here's why. And I'm sorry, but you're about to learn an expensive lesson, junior engineer that you shouldn't unilaterally, like do big changes that you think are a good idea and not submit them like it's a team sport. And unfortunately, like, I can't accept this, and it's hard. And I know it's an ego blow to them sometimes. But you have to be honest and say, like, here's how engineering is done. And it's <a href="https://like com">like com</a>munication, and we can have a discussion about it. Definitely. And
+I've reviewed prs and said, No, like, this isn't going to work and here's why. And I'm sorry, but you're about to learn an expensive lesson, junior engineer that you shouldn't unilaterally, like do big changes that you think are a good idea and not submit them like it's a team sport. And unfortunately, like, I can't accept this, and it's hard. And I know it's an ego blow to them sometimes. But you have to be honest and say, like, here's how engineering is done. And it's like communication, and we can have a discussion about it. Definitely. And
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
@@ -426,7 +426,7 @@ definitely doing another episode on the interview, because I know everybody's le
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-exactly what you mean. But I think it's like your your lead engineer somewhere, you go to <a href="https://another com">another com</a>pany and you say like, hey, I want to interview their idea of what a lead engineer is very different based on their culture, depending on like, <a href="https://<a href="https://which com">which com</a>">which com</a>pany is so Netflix, you don't do as much code and you still be coding and you do architecture. <a href="https://Other com">Other com</a>panies that might be your driving the coding, you're doing every single PR, you're like assigning tasks like very micromanaging. So like, how do you rectify that? Because <a href="https://Mars com">Mars com</a>es in says, I'm a lead engineer. I've been doing this for three years. I'm like, Oh, cool. She's gonna give you the latest on every single thing. Technology. It's like, know what you're really good at communicating, pulling people together. But I don't know, slack or something totally different concepts of whatever it is. So I don't, I don't know if there's a fix to that other than talking about it across all the companies and saying like, Hey, here's, here's what I think it should be. And here's how we interview these people. And here's how we talked to these people. Here's how we think about lead engineering. I think it comes down to like really asking, what are the expectations? That's a simple question, but <a href="https://each com">each com</a>pany should ask that is like, what's the expectations of this role? But we don't know. I didn't want to do too much with interviewing, but like, we have this idea that engineers or engineers or engineers, but even talking to all of you, it's clear, that's absolutely not true. There's we can all have the same level. We all have very different roles within the team. And right now we treat engineering as like it's a binary like you can solve problem cool you're in. But that's not it at all. I think
+exactly what you mean. But I think it's like your your lead engineer somewhere, you go to another company and you say like, hey, I want to interview their idea of what a lead engineer is very different based on their culture, depending on like, which company is so Netflix, you don't do as much code and you still be coding and you do architecture. Other companies that might be your driving the coding, you're doing every single PR, you're like assigning tasks like very micromanaging. So like, how do you rectify that? Because Mars comes in says, I'm a lead engineer. I've been doing this for three years. I'm like, Oh, cool. She's gonna give you the latest on every single thing. Technology. It's like, know what you're really good at communicating, pulling people together. But I don't know, slack or something totally different concepts of whatever it is. So I don't, I don't know if there's a fix to that other than talking about it across all the companies and saying like, Hey, here's, here's what I think it should be. And here's how we interview these people. And here's how we talked to these people. Here's how we think about lead engineering. I think it comes down to like really asking, what are the expectations? That's a simple question, but each company should ask that is like, what's the expectations of this role? But we don't know. I didn't want to do too much with interviewing, but like, we have this idea that engineers or engineers or engineers, but even talking to all of you, it's clear, that's absolutely not true. There's we can all have the same level. We all have very different roles within the team. And right now we treat engineering as like it's a binary like you can solve problem cool you're in. But that's not it at all. I think
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
@@ -446,15 +446,15 @@ Yeah, yeah. Yeah. But honestly, two is like, the manager point for me. I mean, I
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
-Yeah, I think that's a fair point to bring up. I mean, I think all engineering managers are still technical and still act as good sounding boards. Lead engineers are technical in the specific context of that company, sort of exactly to both of you are saying, like, engineering managers are technical in sort of whatever part of engineering they're involved in, whether it's front end, back end, whatever, but a lead engineer will know how the API works at that <a href="https://specific com">specific com</a>pany. Or you know exactly how those teams talk to each other and sort of like a service layer oriented architecture.
+Yeah, I think that's a fair point to bring up. I mean, I think all engineering managers are still technical and still act as good sounding boards. Lead engineers are technical in the specific context of that company, sort of exactly to both of you are saying, like, engineering managers are technical in sort of whatever part of engineering they're involved in, whether it's front end, back end, whatever, but a lead engineer will know how the API works at that specific company. Or you know exactly how those teams talk to each other and sort of like a service layer oriented architecture.
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-I think also too, if a manager is more responsible for the people aspect, you know, we talked about communication, I <a href="https://think com">think com</a>munication goes across people for sure. But I think the people aspect is, well, the managers hiring, and unfortunately, probably the one that has to let someone go, there is performance issues. That's on them. That is definitely on the manager, the lead, tech lead, whatever This engineer role is they don't have to deal with that. I think that's where it is or not as much as you, I feel like still some, like, for instance, if someone's dog dies,
+I think also too, if a manager is more responsible for the people aspect, you know, we talked about communication, I think communication goes across people for sure. But I think the people aspect is, well, the managers hiring, and unfortunately, probably the one that has to let someone go, there is performance issues. That's on them. That is definitely on the manager, the lead, tech lead, whatever This engineer role is they don't have to deal with that. I think that's where it is or not as much as you, I feel like still some, like, for instance, if someone's dog dies,
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
-both people have to be involved. I think, you know, you want to be a compassionate human, and you have to like set expectations with your partners for projects. Cheers. Good. Good call Tony. So yeah, just like an engineering manager, you have to be empathetic. So if someone's dog dies, obviously, as a human, you want to be empathetic. But you also have to realize that person may want to take some time off. You know, a dog dying is trivial example. But we can think of a more serious deliverable will chimere Yeah, I don't think it's Yeah, and you want to you want to take time off and and you have to reset expectations with your partners, you know, that there might be delays, life happens and it's really important as a tech lead with the communication with the psychology to really be empathetic and understand it for things so that's where I think the <a href="https://overlap com">overlap com</a>es with tech, lead and
+both people have to be involved. I think, you know, you want to be a compassionate human, and you have to like set expectations with your partners for projects. Cheers. Good. Good call Tony. So yeah, just like an engineering manager, you have to be empathetic. So if someone's dog dies, obviously, as a human, you want to be empathetic. But you also have to realize that person may want to take some time off. You know, a dog dying is trivial example. But we can think of a more serious deliverable will chimere Yeah, I don't think it's Yeah, and you want to you want to take time off and and you have to reset expectations with your partners, you know, that there might be delays, life happens and it's really important as a tech lead with the communication with the psychology to really be empathetic and understand it for things so that's where I think the overlap comes with tech, lead and
 
 </p>
 <p><strong>Stacy London</strong><br /> 
@@ -476,7 +476,7 @@ like step I think also, it's cool as the technical lead to also surface it to th
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
-I do pretty simple things I just say look at this like thank you for sharing him. Talk to your manager about that he thinks should really bring it up with them because this sounds like an important thing. And then just drop it. I mean, it's important, but but if they come to you <a href="https://in com">in com</a>petence, it's important that you also not rat them out. Or
+I do pretty simple things I just say look at this like thank you for sharing him. Talk to your manager about that he thinks should really bring it up with them because this sounds like an important thing. And then just drop it. I mean, it's important, but but if they come to you in competence, it's important that you also not rat them out. Or
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
@@ -508,7 +508,7 @@ My, my path to a manager was literally going through been as a technical lead, l
 
 </p>
 <p><strong>Stacy London</strong><br /> 
-question I don't actually know how to answer it is company is <a href="https://so com">so com</a>pany Specific it because there is no one path. And I absolutely had these same questions. I when I was asked to this role, and I was like, I'd asked one team lead, like, Hey, I was asked to this role, but this role seems like it's very people centric and really like on a path towards maybe being a manager, is this going to help me in a path to being a principal engineer and architect towards like a more technical path? And then I got different answers, because that role had not been clearly defined in the company. So one manager thought, Oh, yeah, that's, that's a rule you do if you want to be a manager, and then another man or another, like, lead that I asked, they're like, Oh, well, that's a rule. Yeah, that's gonna help you for principle too. And so you got different answers. And so that's why it's so I think important to have it be clearly defined, but also have like, all your managers understand what that is and what that means for your career progression. And now it's being very clearly stated. Like, this is something that you do that's good for both paths,
+question I don't actually know how to answer it is company is so company Specific it because there is no one path. And I absolutely had these same questions. I when I was asked to this role, and I was like, I'd asked one team lead, like, Hey, I was asked to this role, but this role seems like it's very people centric and really like on a path towards maybe being a manager, is this going to help me in a path to being a principal engineer and architect towards like a more technical path? And then I got different answers, because that role had not been clearly defined in the company. So one manager thought, Oh, yeah, that's, that's a rule you do if you want to be a manager, and then another man or another, like, lead that I asked, they're like, Oh, well, that's a rule. Yeah, that's gonna help you for principle too. And so you got different answers. And so that's why it's so I think important to have it be clearly defined, but also have like, all your managers understand what that is and what that means for your career progression. And now it's being very clearly stated. Like, this is something that you do that's good for both paths,
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
@@ -520,11 +520,11 @@ So before we get into pics, I'd love to hear one piece of advice from everyone. 
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-<a href="https://<a href="https://your com">your com</a>">your com</a>munication like It doesn't matter what level if you want to go the path of management and manager or you want to be tech lead via principal or architect or something like that, it doesn't matter. It doesn't matter how smart you are, if you can't communicate that to get those ideas out of your brain and talk to people, like Tony, you're saying, that's a great point of your you have to sell ideas to people, you've convinced them that what they're working on is good, but like this thing you're working on, you need their help, and you will need everybody's help. And just doing that early on your career and just focusing on that you will be such a better engineer, it doesn't matter if you can't do any of these weird coding challenges, something like that. I'd rather work with someone that communicates effectively then so anything like solve math, riddles, all the I would
+your communication like It doesn't matter what level if you want to go the path of management and manager or you want to be tech lead via principal or architect or something like that, it doesn't matter. It doesn't matter how smart you are, if you can't communicate that to get those ideas out of your brain and talk to people, like Tony, you're saying, that's a great point of your you have to sell ideas to people, you've convinced them that what they're working on is good, but like this thing you're working on, you need their help, and you will need everybody's help. And just doing that early on your career and just focusing on that you will be such a better engineer, it doesn't matter if you can't do any of these weird coding challenges, something like that. I'd rather work with someone that communicates effectively then so anything like solve math, riddles, all the I would
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-add to the communication. I love that one. To me, it's like be clear, concise, and think about who you're communicating to. What's important to that person. If you're talking to a pm if you're talking to a designer, how technical should you be and like how can you be very clear and concise? I think, as anyone grows as an engineer, it's really funny. It's like technicals. Really important. <a href="https://But com">But com</a>munication is key. It really, really is,
+add to the communication. I love that one. To me, it's like be clear, concise, and think about who you're communicating to. What's important to that person. If you're talking to a pm if you're talking to a designer, how technical should you be and like how can you be very clear and concise? I think, as anyone grows as an engineer, it's really funny. It's like technicals. Really important. But communication is key. It really, really is,
 
 </p>
 <p><strong>Stacy London</strong><br /> 
@@ -532,7 +532,7 @@ I want to say something different, and I can't because I really think that that'
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-Mars all miss Yeah, or Mars is particularly good at taking a really complex subject and explaining it simply. And that, to me is like pure technical mastery. If you can explain something to like the CEO of the company, like a very <a href="https://top com">top com</a>plex technical aspect, and you explain in things that are easily understood by anybody, that's means you're a good tech lead, that means you have like master of what is going on. And that that's a really, really, really difficult skill to have,
+Mars all miss Yeah, or Mars is particularly good at taking a really complex subject and explaining it simply. And that, to me is like pure technical mastery. If you can explain something to like the CEO of the company, like a very top complex technical aspect, and you explain in things that are easily understood by anybody, that's means you're a good tech lead, that means you have like master of what is going on. And that that's a really, really, really difficult skill to have,
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
@@ -552,7 +552,7 @@ Awesome. Some really good advice to end the episode and before we get into pics,
 
 </p>
 <p><strong>Jem Young</strong><br /> 
-Ah, my first pick is a new season of The Great British baking Show the hell yeah the best Netflix original. Well Netflix original in quotes, but it's so delightful. I look forward to it every Friday scrumptious. It's the best show on television. I don't care. Right Stranger Things just okay. My second pick is Dewar jeans. I'm wearing some theory jeans. Now they're very comfortable. I used to wear a G jeans, they got me to the whole stretchy jeans thing. But I found this brand. I think they were Canadian actually. And they rebranded to something but it's just like quality. Everything I understand about denim, I looked in these jeans, and they're just really, really good denim and they're, they're not too expensive. And my last pick is front of masters, I have a full sack for front end, <a href="https://v2 com">v2 com</a>ing up. coming up pretty soon here very soon, you've been working hard on that. I've been working very hard to do the same thing because you know what, full stack not much changed on the server. So I've just re rejiggered things so it's a little bit easier. A little bit easier to understand, but I'm looking forward to teaching that it'll be, I think, the beginning of October in Minneapolis. So tune in live. Awesome. Stacey, where do you have?
+Ah, my first pick is a new season of The Great British baking Show the hell yeah the best Netflix original. Well Netflix original in quotes, but it's so delightful. I look forward to it every Friday scrumptious. It's the best show on television. I don't care. Right Stranger Things just okay. My second pick is Dewar jeans. I'm wearing some theory jeans. Now they're very comfortable. I used to wear a G jeans, they got me to the whole stretchy jeans thing. But I found this brand. I think they were Canadian actually. And they rebranded to something but it's just like quality. Everything I understand about denim, I looked in these jeans, and they're just really, really good denim and they're, they're not too expensive. And my last pick is front of masters, I have a full sack for front end, v2 coming up. coming up pretty soon here very soon, you've been working hard on that. I've been working very hard to do the same thing because you know what, full stack not much changed on the server. So I've just re rejiggered things so it's a little bit easier. A little bit easier to understand, but I'm looking forward to teaching that it'll be, I think, the beginning of October in Minneapolis. So tune in live. Awesome. Stacey, where do you have?
 
 </p>
 <p><strong>Stacy London</strong><br /> 
@@ -576,7 +576,7 @@ It is. Yeah, actually does Mars already have
 
 </p>
 <p><strong>Mars Jullian</strong><br /> 
-how I struggle with pics, so I just came up with them like 30 seconds ago. First one is sort of like the press hot off the press. A little bit of a plug for my new employer, Airbnb. They have this program that I did not know about until recently called the open homeless program, which is a way for hosts to list their homes on the platform for free for victims of disasters, refugees and those seeking housing for really important long term medical care. So while I do Don't think you can donate to the program directly. If you are listening to this and you are an Airbnb host, you can donate a perceived portion of your current proceeds to this program, hoping maybe one day, you know, anybody can donate. But anyways, I just found that really interesting that that was kind of going on whether or not you need that housing or you are a host and can donate. And then my second pick is catalog choice.org. I have been recently angered by how many catalogs I get in the fact that they're all like 100 hundred pages long. And it's absolutely ridiculous, like in one week, and there were 30 of these like 100 page long catalogs. And I was now I'm on a mission to find a way to stop these catalogs <a href="https://from com">from com</a>ing to my mailbox. So catalog choice. org is a platform that allows that helps you unsubscribe from these catalogs really, really easily without having to email all of them individually. So you just search for your catalog, and they'll do the work for you. Sort of just driving me crazy how much paper ends up in my mailbox. 
+how I struggle with pics, so I just came up with them like 30 seconds ago. First one is sort of like the press hot off the press. A little bit of a plug for my new employer, Airbnb. They have this program that I did not know about until recently called the open homeless program, which is a way for hosts to list their homes on the platform for free for victims of disasters, refugees and those seeking housing for really important long term medical care. So while I do Don't think you can donate to the program directly. If you are listening to this and you are an Airbnb host, you can donate a perceived portion of your current proceeds to this program, hoping maybe one day, you know, anybody can donate. But anyways, I just found that really interesting that that was kind of going on whether or not you need that housing or you are a host and can donate. And then my second pick is catalog choice.org. I have been recently angered by how many catalogs I get in the fact that they're all like 100 hundred pages long. And it's absolutely ridiculous, like in one week, and there were 30 of these like 100 page long catalogs. And I was now I'm on a mission to find a way to stop these catalogs from coming to my mailbox. So catalog choice. org is a platform that allows that helps you unsubscribe from these catalogs really, really easily without having to email all of them individually. So you just search for your catalog, and they'll do the work for you. Sort of just driving me crazy how much paper ends up in my mailbox. 
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
@@ -610,7 +610,7 @@ All right, Tony, what do you have for us?
 
 </p>
 <p><strong>Tony Edwards</strong><br /> 
-for us? Okay, I am wearing a Lana Del Rey shirt. So I'd like to plug the latest one All right, I live in Norman fucking Rockwell. And I'm going to see her in Berkeley on Sunday. So I'm super excited about seeing my queen. The second one is the indicator, which is a economics podcast by planet money. Really, really great. And I'm in episodes every single business day, current events and economics behind it, the trade war, etc. really fascinating, really high well, highly produced good stuff. And I wanted to find the nerdiest thing I could think of. So one of my nerdiest passions is this YouTube channel called Steve 1989. Mr. info this dude reviews historical, MRE's from, from military throughout the world. So these are males right to eat, and all the way all the way back to like World War Two to like the Spanish American War. We're talking the oldest beef steak he's eating from like 1880 so it's this dude from Southern California talks like this. He's like nice. So highly <a href="https://<a href="https://<a href="https://<a href="https://recom">recom</a>">recom</a>">recom</a>">recom</a>mend you check that out. It's actually really entertaining.
+for us? Okay, I am wearing a Lana Del Rey shirt. So I'd like to plug the latest one All right, I live in Norman fucking Rockwell. And I'm going to see her in Berkeley on Sunday. So I'm super excited about seeing my queen. The second one is the indicator, which is a economics podcast by planet money. Really, really great. And I'm in episodes every single business day, current events and economics behind it, the trade war, etc. really fascinating, really high well, highly produced good stuff. And I wanted to find the nerdiest thing I could think of. So one of my nerdiest passions is this YouTube channel called Steve 1989. Mr. info this dude reviews historical, MRE's from, from military throughout the world. So these are males right to eat, and all the way all the way back to like World War Two to like the Spanish American War. We're talking the oldest beef steak he's eating from like 1880 so it's this dude from Southern California talks like this. He's like nice. So highly recommend you check that out. It's actually really entertaining.
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
@@ -630,7 +630,7 @@ Well, I guess I still have a handle. Yeah. I'll post on LinkedIn. Go ahead Find 
 
 </p>
 <p><strong>Ryan Burgess</strong><br /> 
-Thank you all for listening to today's episode. Make sure to subscribe to front end happy hour on whatever you like to listen to podcasts on. And you can follow us on Twitter <a href="https://twitter.com/FrontEndHH">@FrontEndHH</a>, any last words, 
+Thank you all for listening to today's episode. Make sure to subscribe to front end happier on whatever you like to listen to podcasts on. And you can follow us on Twitter @FrontEndHH, any last words, 
 
 </p>
 <p><strong>Stacy London</strong><br /> 

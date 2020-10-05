@@ -3,7 +3,7 @@ module.exports = function() {
   'use strict';
   const transcript = `
   <p><strong>Ryan Burgess</strong><br />
-  <a href="https://Welcom">Welcom</a>e to another episode of the front end happy hour podcast. Our jobs as engineers are not always coding, mostly coding, but we also have meetings and one of <a href="https://<a href="https://<a href="https://the<a href="https://<a href="https:// com"> com</a>"> com</a>"><a href="https://the com">the com</a></a>">the com</a>">the com</a>mon type of meetings is one on ones. In today's episode we are going to talk about one on ones and how they can be effective or maybe not effective. Let's go around the table and give introductions of today's panelists, Augustus you want to start it off. Sure.
+  Welcome to another episode of the front end happy hour podcast. Our jobs as engineers are not always coding, mostly coding, but we also have meetings and one of the common type of meetings is one on ones. In today's episode we are going to talk about one on ones and how they can be effective or maybe not effective. Let's go around the table and give introductions of today's panelists, Augustus you want to start it off. Sure.
   
   </p>
   <p><strong>Augustus Yuan</strong><br /> 
@@ -65,7 +65,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Stacy London</strong><br />
-  Yeah, I think they're basically like, yeah, at the <a href="https://mos<a href="https://t com">t com</a>">most com</a>mon thing is a meeting with your team lead or your manager, whatever their title is. And it's a it's like a check in how to kind of for both sides, like how are you? How are you doing? Are there questions for me? How can I help you like there's kind of a it's a two way dialogue. And it's just a good check in so that when you eventually have, let's say, a performance review, at the end of the year, you kind of know, where you're at, like, constantly, like you're always checking in on that. So there's no surprises at the end of the year.
+  Yeah, I think they're basically like, yeah, at the most common thing is a meeting with your team lead or your manager, whatever their title is. And it's a it's like a check in how to kind of for both sides, like how are you? How are you doing? Are there questions for me? How can I help you like there's kind of a it's a two way dialogue. And it's just a good check in so that when you eventually have, let's say, a performance review, at the end of the year, you kind of know, where you're at, like, constantly, like you're always checking in on that. So there's no surprises at the end of the year.
   
   </p>
   <p><strong>Mars Jullian</strong><br />
@@ -81,11 +81,11 @@ module.exports = function() {
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  too bad because sometimes you're kind of just like bullets of like, what do I want to talk about? Mainly, it's been for my own remembering what am I supposed to talk to this person about? But not with everyone I find like I actually prefer the casual like meeting words. What's up? Let's talk. Also being the manager with someone who reports to me. I look at it as like, I try really hard and I'm not always good at it, of not being the one talking like I want to look at it as a way for the <a href="https://person com">person com</a>ing into the meeting is to be able to share what do they want to talk about? Sometimes I may have to share something, some changes happening or who knows? Or ask a status update, which I hate doing as well.
+  too bad because sometimes you're kind of just like bullets of like, what do I want to talk about? Mainly, it's been for my own remembering what am I supposed to talk to this person about? But not with everyone I find like I actually prefer the casual like meeting words. What's up? Let's talk. Also being the manager with someone who reports to me. I look at it as like, I try really hard and I'm not always good at it, of not being the one talking like I want to look at it as a way for the person coming into the meeting is to be able to share what do they want to talk about? Sometimes I may have to share something, some changes happening or who knows? Or ask a status update, which I hate doing as well.
   
   </p>
   <p><strong>Augustus Yuan</strong><br /> 
-  I really like Stacy, how you said it's a two way dialogue and kind of what you were mentioning Ryan? Yeah, it definitely is that kind of dedicated time where you wouldn't necessarily <a href="https://<a href="https://<a href="https://<a href="https://<a href="https://<a href="https://feel com">feel com</a>">feel com</a>">feel com</a>">feel com</a>">feel com</a>">feel com</a>fortable going to the hallway and be like, Hey, wanna know how I'm performing and stuff I feel it's a really nice like, dedicated time. Your manager can well, assuming we're talking about manager, manager can set aside time for you and really like check in with you. It's actually really interesting because I love how you don't have, you don't necessarily have an agenda, actually, my manager kind of says, you know, this is your time you set the agenda. If I have stuff, I will call out what the agenda is for that, you know, but it's really like this time is your time, but naturally, you kind of have to run the meeting yourself.
+  I really like Stacy, how you said it's a two way dialogue and kind of what you were mentioning Ryan? Yeah, it definitely is that kind of dedicated time where you wouldn't necessarily feel comfortable going to the hallway and be like, Hey, wanna know how I'm performing and stuff I feel it's a really nice like, dedicated time. Your manager can well, assuming we're talking about manager, manager can set aside time for you and really like check in with you. It's actually really interesting because I love how you don't have, you don't necessarily have an agenda, actually, my manager kind of says, you know, this is your time you set the agenda. If I have stuff, I will call out what the agenda is for that, you know, but it's really like this time is your time, but naturally, you kind of have to run the meeting yourself.
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -149,15 +149,15 @@ module.exports = function() {
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  usually. And like sometimes once a week, I've had some teams at one at once. So like, want to do that once a week. But I almost feel like sometimes that might be too much depending on your team size. Like if your team lead is at your status a do stand ups if they're at your standards, or day and they kind of have an idea like what you're doing maybe once a week is too much because you're like, are they already kind of around everything that's happening. But I think every two weeks seems good for me. Like I like that cadence. That's usually typically what I've scheduled for even my direct reports and especially as my team has gotten larger, It's been like, Okay, well, it's easier to just kind of space them out. But also I want people to not wait for the one on one. Like, if there's something <a href="https://<a href="https://that com">that com</a>">that com</a>es up, throw time on the calendar or just grab me because that's important as well. I meet with engineers on my team, I meet with my manager, I meet with other managers in the company or people that I partner with. And so the cadence can actually differ. And even the time like my manager for the longest time, we were meeting like an hour weekly, it was kind of a status and for my own personal growth, but also like sometimes just talking about team oriented things, especially when it was just him and I managing the team that was very valuable. It was kind of a mix of strategic but yeah, it varies. I think sometimes I meet with someone once a month or maybe once a quarter like so I've even had some that are in cadences like that.
+  usually. And like sometimes once a week, I've had some teams at one at once. So like, want to do that once a week. But I almost feel like sometimes that might be too much depending on your team size. Like if your team lead is at your status a do stand ups if they're at your standards, or day and they kind of have an idea like what you're doing maybe once a week is too much because you're like, are they already kind of around everything that's happening. But I think every two weeks seems good for me. Like I like that cadence. That's usually typically what I've scheduled for even my direct reports and especially as my team has gotten larger, It's been like, Okay, well, it's easier to just kind of space them out. But also I want people to not wait for the one on one. Like, if there's something that comes up, throw time on the calendar or just grab me because that's important as well. I meet with engineers on my team, I meet with my manager, I meet with other managers in the company or people that I partner with. And so the cadence can actually differ. And even the time like my manager for the longest time, we were meeting like an hour weekly, it was kind of a status and for my own personal growth, but also like sometimes just talking about team oriented things, especially when it was just him and I managing the team that was very valuable. It was kind of a mix of strategic but yeah, it varies. I think sometimes I meet with someone once a month or maybe once a quarter like so I've even had some that are in cadences like that.
   
   </p>
   <p><strong>Mars Jullian</strong><br />
-  Yeah, no, no, I guess well, I mean, it really depends on the person sort of like to Ryan's point. Like with my manager, it's half hour every two weeks and even sometimes like that doesn't feel like quite enough. I mean, a half hour can go by really quickly, especially As in my situation, if you're new to the company that I have a lot to learn about how we operate. And also there's I have a lot of questions about, you know, just general career stuff on. But when <a href="https://it com">it com</a>es to sort of anybody else, I sort of do it in like an ad hoc way, especially with sort of like relationships that I'm building on the team. It's really more informal. It's kind of like just enough time to walk across the street and get a coffee walk around the <a href="https://block com">block com</a>e back and that can that can actually be really productive even if it's short.
+  Yeah, no, no, I guess well, I mean, it really depends on the person sort of like to Ryan's point. Like with my manager, it's half hour every two weeks and even sometimes like that doesn't feel like quite enough. I mean, a half hour can go by really quickly, especially As in my situation, if you're new to the company that I have a lot to learn about how we operate. And also there's I have a lot of questions about, you know, just general career stuff on. But when it comes to sort of anybody else, I sort of do it in like an ad hoc way, especially with sort of like relationships that I'm building on the team. It's really more informal. It's kind of like just enough time to walk across the street and get a coffee walk around the block come back and that can that can actually be really productive even if it's short.
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  Yeah, I think it's a good way to is like even just doing like that as a more casual thing is you're also you're building trust and getting to know someone and that's like, a one on one can be very valuable for that. Interesting Mars to going back to your saying, like be new to <a href="https://<a href="https://<a href="https://a com">a com</a>">a com</a>">a com</a>pany. And I think that's another time where I've almost like overscheduled like be when someone's new, because there are so many questions and it's like, a lot of times like someone will have a legit bulleted list of agenda. It's like, I have all these questions. Great, let's go through them. So it might even be like once a day, or like, maybe I do schedule an hour or like there's a couple times where I'll do more this especially early on in the first like couple of weeks.
+  Yeah, I think it's a good way to is like even just doing like that as a more casual thing is you're also you're building trust and getting to know someone and that's like, a one on one can be very valuable for that. Interesting Mars to going back to your saying, like be new to a company. And I think that's another time where I've almost like overscheduled like be when someone's new, because there are so many questions and it's like, a lot of times like someone will have a legit bulleted list of agenda. It's like, I have all these questions. Great, let's go through them. So it might even be like once a day, or like, maybe I do schedule an hour or like there's a couple times where I'll do more this especially early on in the first like couple of weeks.
   
   </p>
   <p><strong>Stacy London</strong><br />
@@ -185,7 +185,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Mars Jullian</strong><br />
-  It wasn't really too short when everyone's late to the meeting. Yeah, like you have <a href="https://e<a href="https://very com">very com</a>">every com</a>pany has the traditional, like five minutes, you know, we always
+  It wasn't really too short when everyone's late to the meeting. Yeah, like you have every company has the traditional, like five minutes, you know, we always
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -217,7 +217,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Mars Jullian</strong><br />
-  I think that's interesting. To that, you mentioned that because I find that sometimes it really depends on like, the space that the other person makes for you, if that makes sense, like the emotional space, sort of like what is your the other person on the other side of the one on one expecting out of it, but I actually really appreciate one on ones when it's sort of just like, it starts out with like, Hey, how are you doing? And then the deeper <a href="https://stuff com">stuff com</a>es out of some sort of random conversation that you kind of didn't expect to be having. And I think actually, that's the power of a good one on one and a good manager who kind of just is there for you. And then all of a sudden, you realize that you've uncovered something that you didn't know it was just like blurt
+  I think that's interesting. To that, you mentioned that because I find that sometimes it really depends on like, the space that the other person makes for you, if that makes sense, like the emotional space, sort of like what is your the other person on the other side of the one on one expecting out of it, but I actually really appreciate one on ones when it's sort of just like, it starts out with like, Hey, how are you doing? And then the deeper stuff comes out of some sort of random conversation that you kind of didn't expect to be having. And I think actually, that's the power of a good one on one and a good manager who kind of just is there for you. And then all of a sudden, you realize that you've uncovered something that you didn't know it was just like blurt
   
   </p>
   <p><strong>Augustus Yuan</strong><br /> 
@@ -233,7 +233,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Mars Jullian</strong><br />
-  I would often go and I would <a href="https://often com">often com</a>e in and just rant and then from there, there would there would eventually be something productive in that but it was really, really useful on like an emotional level to be able to let it go. But also like, actually just have someone listen and be like, Hey, I'm hearing this, like, this is how we move forward. So
+  I would often go and I would often come in and just rant and then from there, there would there would eventually be something productive in that but it was really, really useful on like an emotional level to be able to let it go. But also like, actually just have someone listen and be like, Hey, I'm hearing this, like, this is how we move forward. So
   
   </p>
   <p><strong>Augustus Yuan</strong><br /> 
@@ -315,7 +315,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Stacy London</strong><br />
-  There are some and then there's like, personality types like some, some people you feel <a href="https://incredibly com">incredibly com</a>fortable talking to, like, they don't know what I have a hard time articulating what what the characteristics are. But some people make you feel very comfortable talking to them. They look you directly in the eye, they have this ease about them, you can just casually chat, they're good at making conversation. So it's easy to have that one on one. But you can also have like, someone who doesn't have that personality and they're kind of awkward and they stumble around words and it sounds kind of fake when they say like things and so then then it just <a href="https://becom">becom</a>es awkward and so it's not like you dread them but they're more like
+  There are some and then there's like, personality types like some, some people you feel incredibly comfortable talking to, like, they don't know what I have a hard time articulating what what the characteristics are. But some people make you feel very comfortable talking to them. They look you directly in the eye, they have this ease about them, you can just casually chat, they're good at making conversation. So it's easy to have that one on one. But you can also have like, someone who doesn't have that personality and they're kind of awkward and they stumble around words and it sounds kind of fake when they say like things and so then then it just becomes awkward and so it's not like you dread them but they're more like
   
   </p>
   <p><strong>Mars Jullian</strong><br />
@@ -355,7 +355,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  it's a simple question. Yeah. So the thing was kind of could get out a example of bad one on ones. I've had this happen, not at Netflix. So it's not at my manager now. But I've had managers in the past that would constantly cancel or move them my one on one. Yes. And that was actually really frustrating because it was like, Oh, I just felt like not important. And not that's something I've strived for my entire time is like I have moved one on ones. They are Easier to reschedule than a large meeting. But if they don't get <a href="https://<a href="https://like com">like com</a>">like com</a>pletely canceled or just like, moved out for a month or something like that, that to me is just really bad and or like,
+  it's a simple question. Yeah. So the thing was kind of could get out a example of bad one on ones. I've had this happen, not at Netflix. So it's not at my manager now. But I've had managers in the past that would constantly cancel or move them my one on one. Yes. And that was actually really frustrating because it was like, Oh, I just felt like not important. And not that's something I've strived for my entire time is like I have moved one on ones. They are Easier to reschedule than a large meeting. But if they don't get like completely canceled or just like, moved out for a month or something like that, that to me is just really bad and or like,
   
   </p>
   <p><strong>Stacy London</strong><br />
@@ -391,7 +391,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Augustus Yuan</strong><br /> 
-  a couple. I've seen managers handle this, or Well, people who do one on ones well, where they say, Hey, you know, I'm running a little late, we can reschedule to your time or you know, they'<a href="https://ll com">ll com</a>e to the one on ones like if you want more time, Let's reschedule it, Let's reschedule or you know, if you feel
+  a couple. I've seen managers handle this, or Well, people who do one on ones well, where they say, Hey, you know, I'm running a little late, we can reschedule to your time or you know, they'll come to the one on ones like if you want more time, Let's reschedule it, Let's reschedule or you know, if you feel
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -409,7 +409,7 @@ module.exports = function() {
   
   with you in two weeks, right,
   
-  <a href="https://which com">which com</a>es through in the meeting, too, even if they don't have the time. But when sort of like all those things <a href="https://are com">are com</a>ing together, and you're like, Okay, well, I'm just another cog in the machine to
+  which comes through in the meeting, too, even if they don't have the time. But when sort of like all those things are coming together, and you're like, Okay, well, I'm just another cog in the machine to
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -425,7 +425,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Stacy London</strong><br />
-  I think is not necessarily like, indicative of, like, a bad one on one, but it if, let's say a manager has like, way too many people reporting to them, and they, like get into the one on one with you and they like bring up something on <a href="https://their com">their com</a>puter like okay, so last time we talked about Click, click, click, click, like not remembering the last conversation they had with you. I can't fault them because that's you have so many people reporting to you and like that's good that they have notes and they're referring to them, but it feels very, like, Oh, you don't remember what we talked about at all. Like, it feels strange. It's kind of like I guess like when you're the same thing about like, being The Interview with someone and you're just typing away and not looking them in the eye and like it's something about that interaction that the one on one is one of those situations similar to the interview where it's there shouldn't be a computer.
+  I think is not necessarily like, indicative of, like, a bad one on one, but it if, let's say a manager has like, way too many people reporting to them, and they, like get into the one on one with you and they like bring up something on their computer like okay, so last time we talked about Click, click, click, click, like not remembering the last conversation they had with you. I can't fault them because that's you have so many people reporting to you and like that's good that they have notes and they're referring to them, but it feels very, like, Oh, you don't remember what we talked about at all. Like, it feels strange. It's kind of like I guess like when you're the same thing about like, being The Interview with someone and you're just typing away and not looking them in the eye and like it's something about that interaction that the one on one is one of those situations similar to the interview where it's there shouldn't be a computer.
   
   </p>
   <p><strong>Mars Jullian</strong><br />
@@ -445,7 +445,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  And honestly, if we go back to the trust aspect, you're not meeting with this person, probably as much, right? Like, I think that's already that could absolutely play into it. I get naturally feeling like, Oh, this person's busy and I don't want to waste their time but like they need time, right. Like that's time set aside for a reason. I don't think if they didn't have time for it, they didn't thing is important, they probably just wouldn't have it at all. But I think of ways that could be better is if you're meeting with them <a href="https://is com">is com</a>ing prepared, what can you get from them? I think if you're talking to someone who's higher up in the company, what are some of the visions? Like, what are some of the things that I should be thinking about? And so I think there are ways that you can, like, get some value out of it. And probably tomorrow's point, you can impress them pretty well, too, is like if you're thinking strategic, or like trying to, like ask the right questions and get something really valuable out of that, then it's like they walk away. Well, that was that was a useful meaning to that's so interesting,
+  And honestly, if we go back to the trust aspect, you're not meeting with this person, probably as much, right? Like, I think that's already that could absolutely play into it. I get naturally feeling like, Oh, this person's busy and I don't want to waste their time but like they need time, right. Like that's time set aside for a reason. I don't think if they didn't have time for it, they didn't thing is important, they probably just wouldn't have it at all. But I think of ways that could be better is if you're meeting with them is coming prepared, what can you get from them? I think if you're talking to someone who's higher up in the company, what are some of the visions? Like, what are some of the things that I should be thinking about? And so I think there are ways that you can, like, get some value out of it. And probably tomorrow's point, you can impress them pretty well, too, is like if you're thinking strategic, or like trying to, like ask the right questions and get something really valuable out of that, then it's like they walk away. Well, that was that was a useful meaning to that's so interesting,
   
   </p>
   <p><strong>Augustus Yuan</strong><br /> 
@@ -453,7 +453,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Mars Jullian</strong><br />
-  Yeah, I think that I haven't had one where I am now but previously, that's like skip levels were actually <a href="https://pretty com">pretty com</a>mon.
+  Yeah, I think that I haven't had one where I am now but previously, that's like skip levels were actually pretty common.
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -503,7 +503,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Mars Jullian</strong><br />
-  Yeah, I think I like I like that. That's that's always hard to <a href="https://remember com">remember com</a>ing into a company sort of like making the one on ones in the time with people who are not your manager.
+  Yeah, I think I like I like that. That's that's always hard to remember coming into a company sort of like making the one on ones in the time with people who are not your manager.
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -521,7 +521,7 @@ module.exports = function() {
   <p><strong>Augustus Yuan</strong><br /> 
   I have two picks. One is this GitHub repository called play right? It's made by Microsoft. So a little context on this is Have any of you heard of puppeteer? Yes, yeah. So puppeteer is this for people who haven't heard of it is this automation framework where you can run automation integration tests on chromium. This is actually made by the people who used to be at Google and were on the puppeteer team. I guess they're part of Microsoft, and they made a play right, which is kind of the same thing, but it supports every browser So they've made an API where you can do Firefox, you can do Safari. And it's a pretty intuitive API. And I just thought it was like really cool. So probably something worth check out.
   
-  Oh, really? Yeah, I was just like, Ooh, this looked interesting. So I haven't tried it yet. So pretty excited. And then my second pick is this article called eight AWS in plain English, so twitches now and <a href="https://Amazon com">Amazon com</a>pany. So these a lot of AWS and we hear people say, easy to, you know, terraform and all this stuff, and I like made like index cards to like, freaking memorize all these acronyms. And then I found this website called AWS in plain English and they literally have what what it is what it should have been called. And you use it for x thing, and then they give you some thing <a href="https://to com">to com</a>pare it to. So for example, there was one Yes, so RDS should have been called Amazon SQL and use this data and use this to be my sequel to RDS is a stands for relational database service. My flashcards are working very well and they say it's like her Heroku Postgres or something. So I thought it was a really good article. If you use AWS I
+  Oh, really? Yeah, I was just like, Ooh, this looked interesting. So I haven't tried it yet. So pretty excited. And then my second pick is this article called eight AWS in plain English, so twitches now and Amazon company. So these a lot of AWS and we hear people say, easy to, you know, terraform and all this stuff, and I like made like index cards to like, freaking memorize all these acronyms. And then I found this website called AWS in plain English and they literally have what what it is what it should have been called. And you use it for x thing, and then they give you some thing to compare it to. So for example, there was one Yes, so RDS should have been called Amazon SQL and use this data and use this to be my sequel to RDS is a stands for relational database service. My flashcards are working very well and they say it's like her Heroku Postgres or something. So I thought it was a really good article. If you use AWS I
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -549,7 +549,7 @@ module.exports = function() {
   
   </p>
   <p><strong>Mars Jullian</strong><br />
-  One of them is more along the front end spectrum. There's someone at work. Send me this talk from react con about style x, which is Facebook's new CSS and JS framework, which is not open source yet but seems super, super interesting in terms of like having statically analyzable like CSS in JavaScript and all of that stuff, and actually, they make a really interesting point in there about accessibility about why you should program your styles using REM versus pixels, and how it dynamically like, does all the math for zoom levels and browsers and stuff anyways, it was fascinating. It's really, really short. It's only about like 14 minutes. So if you've got some time, I would <a href="https://recom">recom</a>mend it. And then the second one's more fun. And it's called Spotify his pet playlist, because he didn't know you could have a playlist based on music you love that's also not gonna drive your pet crazy when you work from home. So try a little skeptical of the concept, but I was reading in their FAQ just now because I was more curious about how they put it together. And actually, it was made with like a musicologist who <a href="https://has com">has com</a>posed two albums of music for cats.
+  One of them is more along the front end spectrum. There's someone at work. Send me this talk from react con about style x, which is Facebook's new CSS and JS framework, which is not open source yet but seems super, super interesting in terms of like having statically analyzable like CSS in JavaScript and all of that stuff, and actually, they make a really interesting point in there about accessibility about why you should program your styles using REM versus pixels, and how it dynamically like, does all the math for zoom levels and browsers and stuff anyways, it was fascinating. It's really, really short. It's only about like 14 minutes. So if you've got some time, I would recommend it. And then the second one's more fun. And it's called Spotify his pet playlist, because he didn't know you could have a playlist based on music you love that's also not gonna drive your pet crazy when you work from home. So try a little skeptical of the concept, but I was reading in their FAQ just now because I was more curious about how they put it together. And actually, it was made with like a musicologist who has composed two albums of music for cats.
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
@@ -601,19 +601,19 @@ module.exports = function() {
   
   </p>
   <p><strong>Augustus Yuan</strong><br /> 
-  Yes, you can get in touch with me at Twitter <a href="https://twitter.com/augburto">@augburto</a>.
+  Yes, you can get in touch with me at Twitter @augburto.
   
   </p>
   <p><strong>Mars Jullian</strong><br />
-  I actually am not really on Twitter so you can find me on Instagram <a href="https://twitter.com/marsjosephine">@marsjosephine</a>.
+  I actually am not really on Twitter so you can find me on Instagram @marsjosephine.
   
   </p>
   <p><strong>Stacy London</strong><br />
-  I'm <a href="https://twitter.com/StacyLondoner">@StacyLondoner</a> on Twitter,
+  I'm @StacyLondoner on Twitter,
   
   </p>
   <p><strong>Ryan Burgess</strong><br />
-  and I'm at <a href="https://twitter.com/Burgessdryan">@Burgessdryan</a> on Twitter. Thank you all for listening today's episode you can follow front end happy hour on Twitter at <a href="https://twitter.com/frontendhh">@frontendhh</a> and you can find us at <a href="https://FrontEndHappyHour.com">FrontEndHappyHour.com</a>. I think we actually have an Instagram too at front end hh as well. Any last words
+  and I'm at @Burgessdryan on Twitter. Thank you all for listening today's episode you can follow front end happy hour on Twitter, front end HGH and you can find a set front end happier calm. I think we actually have an Instagram too at front end hh as well. Any last words
   
   the quiet one on one
   
