@@ -303,9 +303,9 @@ module.exports = function main(pageType, content, title, desc, link, pageOG) {
                    <meta property="og:image" content="${pageOG}" /> <meta
                     property="og:description" content="${desc}" />
                     <meta property="og:title" content="${pageTitle}${mainTitle}" />
-                    <meta key="twitter:card" name="twitter:card" content="${desc}" />
-                    <meta property="twitter:title" content="Front End Happy Hour" />
-                    <meta name="twitter:image" content="${pageOG}" />
+                    <meta key="twitter:card" name="twitter:description" content="${desc}" />
+                    <meta property="twitter:title" content="${pageTitle}${mainTitle}" />
+                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
                     <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
                     <meta
                       key="twitter:creator"
