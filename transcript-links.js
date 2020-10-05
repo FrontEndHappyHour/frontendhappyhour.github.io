@@ -5,7 +5,6 @@
 
 'use strict';
 const fs = require('fs');
-const { functionsIn } = require('lodash');
 const dir = './transcripts/';
 let newContent;
 let fileName = process.argv.slice(2)[0];
@@ -17,19 +16,6 @@ if (!fileName.includes('.js')) {
 
 // get the file content
 newContent = fs.readFileSync(dir + fileName, 'utf-8');
-
-// replace weird transcription errors
-//website strings
-const websiteStrings = ['front end happy hour comm', 'front happier.com', 'front and happy hour dot com', 'front end happier, calm'];
-websiteStrings.forEach(function(string) {
-    newContent = newContent.replace(string, 'FrontEndHappyHour.com');
-});
-
-// replace references to front end h h to make it a twitter handle
-const fehhTwitterStrings = [' front end hh', ' front end h h', ' front end, h h', ' front end HGH'];
-fehhTwitterStrings.forEach(function(string) {
-    newContent = newContent.replace(string, ' @frontendhh');
-});
 
 // create website link for FrontEndHappyHour.com
 newContent = newContent.replace('FrontEndHappyHour.com', `<a href="https://frontendhappyhour.com">FrontEndHappyHour.com</a>`);
