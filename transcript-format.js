@@ -6,6 +6,7 @@
 const fs = require('fs');
 const dir = './test/';
 const panelists = require('./content/panelists.json');
+const guests = require('./content/episodes.json');
 let newContent;
 let fileName = process.argv.slice(2)[0];
 
@@ -24,12 +25,23 @@ newContent = newContent.replace('Transcribed by https://otter.ai', '</p>');
 //find panelist name strings
 panelists.forEach(function(string) {
     const panelistName = string.name;
-    //panelistFormat(panelistName);
     const formatName = newContent.match(panelistName + '  ', 'g');
     if (formatName !== null) {
         formatName.forEach(check => {
             const reg = new RegExp(check, 'g');
             newContent = newContent.replace(reg, `</p>\n<p><strong>${panelistName}</p><br />`);
+        });
+    }
+});
+
+//find guest name strings
+guests.forEach(function(string) {
+    const guestName = string.guests.name;
+    const formatGuestName = newContent.match(guestName + '  ', 'g');
+    if (formatGuestName !== null) {
+        formatGuestName.forEach(check => {
+            const reg = new RegExp(check, 'g');
+            newContent = newContent.replace(reg, `</p>\n<p><strong>${guestName}</p><br />`);
         });
     }
 });
@@ -56,15 +68,3 @@ fehhTwitterStrings.forEach(function(string) {
 
 // save updated content
 fs.writeFileSync(dir + fileName, newContent, 'utf-8');
-
-function panelistFormat(name) {
-    console.log(name)
-    const formatName = newContent.match(name + '  ', 'g');
-    if (formatName !== null) {
-        formatName.forEach(check => {
-            const reg = new RegExp(name, 'g');
-            newContent = newContent.replace(formatName, `</p>\n<p><strong>${name}</p><br />`);
-            console.log(name)
-        });
-    }
-}
