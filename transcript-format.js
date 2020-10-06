@@ -87,6 +87,21 @@ if(jemName !== null) {
     });
 }
 
+// Fix references to Mars' name
+const marsName = newContent.match(/Mars Julian/g);
+if(marsName !== null) {
+    marsName.forEach(marsString => {
+        newContent = newContent.replace(marsString, `Mars Jullian`);
+    });
+}
+
+// Fix references to Augustus' name
+const augName = newContent.match(/Augustus Yun/g);
+if(augName !== null) {
+    augName.forEach(augString => {
+        newContent = newContent.replace(augString, `Augustus Yuan`);
+    });
+}
 
 // replace weird transcription errors
 //website strings
@@ -117,6 +132,18 @@ if(twitter !== null) {
 
 // remove the first </p> tag
 newContent = newContent.replace('</p>', '');
+
+// add a console message if a speaker was missed and wasn't labeled
+const unknownSpeaker = newContent.match(/Unknown Speaker  /g);
+if (unknownSpeaker !== null) {
+    // check to see how many unknown speakers were idenified.
+    if (unknownSpeaker.length <= 1) {
+        console.log(`Unknown speaker identified`);
+    }else {
+        console.log(`Unknown speaker identified ${unknownSpeaker.length} times`);
+    }
+    
+}
 
 // save updated content
 fs.writeFileSync(dir + fileName, newContent, 'utf-8');

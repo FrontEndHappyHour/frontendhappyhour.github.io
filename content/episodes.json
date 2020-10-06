@@ -1635,7 +1635,7 @@
     "description": "It can be really important to think about what you want in your career. In this episode, we are joined by Michael Gaskill to talk with us about career management.",
     "id": "739062463",
     "published": "January 5, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "careers",
@@ -2290,7 +2290,7 @@
     "description": "In this episode, we are joined by a returning guest, Shirley Wu to talk with us about the combination of code and art.",
     "id": "661124114",
     "published": "August 4, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "creative",
@@ -2396,7 +2396,7 @@
     "description": "There are quite a few ways to organize a team to build out a new feature. Two of the most talked-about are Waterfall and Agile. In this episode, we’ll be talking through the pros and cons of some of the development processes we’ve encountered.",
     "id": "654581828",
     "published": "July 21, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "development",
