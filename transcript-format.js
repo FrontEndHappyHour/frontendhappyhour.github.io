@@ -29,7 +29,7 @@ panelists.forEach(function(string) {
     if (formatName !== null) {
         formatName.forEach(check => {
             const reg = new RegExp(check, 'g');
-            newContent = newContent.replace(reg, `</p>\n<p><strong>${panelistName}</p><br />`);
+            newContent = newContent.replace(reg, `</p>\n<p><strong>${panelistName}</strong><br />`);
         });
     }
 });
@@ -41,7 +41,7 @@ guests.forEach(function(string) {
     if (formatGuestName !== null) {
         formatGuestName.forEach(check => {
             const reg = new RegExp(check, 'g');
-            newContent = newContent.replace(reg, `</p>\n<p><strong>${guestName}</p><br />`);
+            newContent = newContent.replace(reg, `</p>\n<p><strong>${guestName}</strong><br />`);
         });
     }
 });
