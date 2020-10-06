@@ -52,6 +52,12 @@ ryanTwitter.forEach(function(string) {
     newContent = newContent.replace(string, '@burgessdryan');
 });
 
+// Fix references to Jem's name
+const jemName = [' jim ', ' Jim ', ' jem '];
+jemName.forEach(function(string) {
+    newContent = newContent.replace(string, ' Jem ');
+});
+
 
 // replace weird transcription errors
 //website strings
