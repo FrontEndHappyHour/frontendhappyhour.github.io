@@ -1,93 +1,7 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Our preferred beverages - Work preferences - Front End Happy Hour</title>
-                  <meta name="description" content="There’s a constant debate on what the preferred work environment is, in office, remote, or work from home. In this episode, we talk about our preferences and some of the pros and cons of each work option.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/our-preferred-beverages-work-preferences.jpeg" /> <meta
-                    property="og:description" content="There’s a constant debate on what the preferred work environment is, in office, remote, or work from home. In this episode, we talk about our preferences and some of the pros and cons of each work option." />
-                    <meta property="og:title" content="Our preferred beverages - Work preferences - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="There’s a constant debate on what the preferred work environment is, in office, remote, or work from home. In this episode, we talk about our preferences and some of the pros and cons of each work option." />
-                    <meta property="twitter:title" content="Our preferred beverages - Work preferences - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/our-preferred-beverages-work-preferences">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Our preferred beverages - Work preferences</h2>
-                  <div class="container"><p>Published March 1, 2020</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/769153780&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>There’s a constant debate on what the preferred work environment is, in office, remote, or work from home. In this episode, we talk about our preferences and some of the pros and cons of each work option.</p></div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.amazon.com/Logitech-Spotlight-Presentation-Remote-Highlighting/dp/B07S5HMQBH/ref=sr_1_7?keywords=presenter+remote&qid=1580869579&sr=8-7" target="_blank">Logitech Spotlight Presentation Remote</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.ted.com/talks/kathryn_schulz_on_being_wrong" target="_blank">On being wrong - Kathryn Schultz</a> - Ryan Burgess
-      </li><li>
-      <a href="https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/" target="_blank">How to undo (almost) anything with Git</a> - Augustus Yuan
-      </li><li>
-      <a href="https://www.imdb.com/title/tt9426210/" target="_blank">Weathering With You - Makoto Shinkai</a> - Augustus Yuan
-      </li><li>
-      <a href="http://freakonomics.com/podcast/open-offices/" target="_blank">Open office freakonomics episode</a> - Mars Jullian
-      </li><li>
-      <a href="https://open.spotify.com/playlist/1WPz1yv8jJlAM5DG9XZj0i?si=4eDBO2lzShqwHjNg8-XTCQ" target="_blank">“No lyrics - study” spotify playlist</a> - Mars Jullian
-      </li><li>
-      <a href="https://en.wikipedia.org/wiki/Numeronym" target="_blank">Numeronyms</a> - Stacy London
-      </li><li>
-      <a href="https://open.spotify.com/track/44vf6CvS5qUHLRXIJ7ySWh?si=nf9Vp9b7TtuPabH_XDwVEg" target="_blank">Gentle Practice by Heathered Pearls</a> - Stacy London
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
-      <span class="name">Augustus Yuan</span>
-      <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
-      </li><li><a href="/panelists/mars-jullian"><img src="../../public/img/panel/marsjosephine.jpg" alt="Mars Jullian profile picture" /></a>
-      <span class="name">Mars Jullian</span>
-      <a href="https://twitter.com/marsjosephine" class="twitter">@marsjosephine</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+// Episode 87 transcript
+module.exports = function() {
+  'use strict';
+  const transcript = `
   
 <p><strong>Ryan Burgess</strong><br />
   Welcome to a brand new episode of the front end happier podcast. In today's episode, this was inspired by a tweet on one of our listeners saying that we should talk about how we all like to work kind of like our preferences, what makes us productive? Is it better to work from home work in the office, kind of the pros and cons? So I think it's an interesting question that we can all discuss today. Before we jump in, let's give introduction of today's panelists. I guess you want to start it off?
@@ -770,21 +684,6 @@
 
   
 
-  </div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+  `;
+  return transcript;
+};
