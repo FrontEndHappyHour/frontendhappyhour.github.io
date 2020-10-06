@@ -7,8 +7,10 @@ const fs = require('fs');
 const dir = './transcripts/';
 const panelists = require('./content/panelists.json');
 const guests = require('./content/episodes.json');
+const { functionsIn } = require('lodash');
 let newContent;
 let fileName = process.argv.slice(2)[0];
+const guestNames = [];
 
 // if fileName doesn't have .js file extension add it
 if (!fileName.includes('.js')) {
@@ -34,17 +36,42 @@ panelists.forEach(function(string) {
     }
 });
 
-//find guest name strings
-guests.forEach(function(string) {
-    const guestName = string.guests.name;
-    const formatGuestName = newContent.match(guestName + '  ', 'g');
-    if (formatGuestName !== null) {
-        formatGuestName.forEach(check => {
-            const reg = new RegExp(check, 'g');
-            newContent = newContent.replace(reg, `</p>\n<p><strong>${guestName}</strong><br />`);
+// build an array of all guest names
+guests.forEach(function(data) {
+    const guests = data.guests;
+
+    // only get names for for episodes with guests
+    if (guests.length !== 0) {
+        guests.forEach(function(guest) {
+            const guestName = guest.name;
+            if (!guestNames.includes(guestName)) {
+                guestNames.push(guestName);
+            }
         });
     }
 });
+
+//find guest name strings
+guestNames.forEach(function(string) {
+    const guestName = string;
+
+    const formatGuestName = newContent.match(guestName + '  ', 'g');
+    if (formatGuestName !== null) {
+        formatGuestName.forEach(check => {
+            const regGuest = new RegExp(check, 'g');
+            newContent = newContent.replace(regGuest, `</p>\n<p><strong>${guestName}</strong><br />`);
+        });
+    }
+});
+
+// find and format references to All
+const all = newContent.match(/All  /g);
+// check if there are twitter names in the transcript
+if(all !== null) {
+    all.forEach(allString => {
+        newContent = newContent.replace(allString, `</p>\n<p><strong>All</strong><br />`);
+    });
+}
 
 // fix weird references to Ryan's twitter
 const ryanTwitter = ['Burgess D Ryan'];
@@ -53,10 +80,12 @@ ryanTwitter.forEach(function(string) {
 });
 
 // Fix references to Jem's name
-const jemName = [' jim ', ' Jim ', ' jem '];
-jemName.forEach(function(string) {
-    newContent = newContent.replace(string, ' Jem ');
-});
+const jemName = newContent.match(/Jim/g);
+if(jemName !== null) {
+    jemName.forEach(jemString => {
+        newContent = newContent.replace(jemString, `Jem`);
+    });
+}
 
 
 // replace weird transcription errors
@@ -84,6 +113,10 @@ if(twitter !== null) {
         newContent = newContent.replace(twitterName, `<a href="https://twitter.com/${noAt}">${twitterName}</a>`);
     });
 }
+
+
+// remove the first </p> tag
+newContent = newContent.replace('</p>', '');
 
 // save updated content
 fs.writeFileSync(dir + fileName, newContent, 'utf-8');

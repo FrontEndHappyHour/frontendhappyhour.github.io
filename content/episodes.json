@@ -2227,7 +2227,7 @@
     "description": "We’ve all faced some form of code migration in the past and wanted to share some of the things we’ve learned. In this episode, we’re joined by Micah Ransdell, a Software Engineering Manager at Netflix to talk with us about migrating a codebase.",
     "id": "667804070",
     "published": "August 18, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "code",
