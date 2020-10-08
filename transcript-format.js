@@ -111,7 +111,7 @@ websiteStrings.forEach(function(string) {
 });
 
 // replace references to front end h h to make it a twitter handle
-const fehhTwitterStrings = [' front end hh', ' front end h h', ' front end, h h', ' front end HGH'];
+const fehhTwitterStrings = [' front end hh', ' front end h h', ' front end, h h', ' front end HGH', 'front end, H H'];
 fehhTwitterStrings.forEach(function(string) {
     newContent = newContent.replace(string, ' @frontendhh');
 });
