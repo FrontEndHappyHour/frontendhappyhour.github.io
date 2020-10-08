@@ -1,99 +1,7 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>CSS - continually sipping sazeracs - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode, we are joined by Tyler Childs, a Senior Software Engineer at Netflix to talk with us about building out scalable CSS and share some of the exciting new features in the latest version of CSS.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/css-continually-sipping-sazeracs.jpeg" /> <meta
-                    property="og:description" content="In this episode, we are joined by Tyler Childs, a Senior Software Engineer at Netflix to talk with us about building out scalable CSS and share some of the exciting new features in the latest version of CSS." />
-                    <meta property="og:title" content="CSS - continually sipping sazeracs - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="In this episode, we are joined by Tyler Childs, a Senior Software Engineer at Netflix to talk with us about building out scalable CSS and share some of the exciting new features in the latest version of CSS." />
-                    <meta property="twitter:title" content="CSS - continually sipping sazeracs - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/css-continually-sipping-sazeracs">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">CSS - continually sipping sazeracs</h2>
-                  <div class="container"><p>Published May 26, 2019</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627064941&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode, we are joined by Tyler Childs, a Senior Software Engineer at Netflix to talk with us about building out scalable CSS and share some of the exciting new features in the latest version of CSS.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/TylerChilds.jpg" alt="Tyler Childs profile picture"><div><a href="https://twitter.com/TylerChilds">Tyler Childs</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="" target="_blank">Fantasy Survivor Game.com</a> - Tyler Childs
-      </li><li>
-      <a href="https://www.laphroaig.com/product/triple-wood" target="_blank">Laphroaig Triple Wood Whisky</a> - Tyler Childs
-      </li><li>
-      <a href="https://www.amazon.com/Marvel-1602-Neil-Gaiman/dp/0785141340" target="_blank">Marvel 1602</a> - Tyler Childs
-      </li><li>
-      <a href="https://www.amazon.com/Batman-Hush-Jeph-Loeb/dp/1401223176" target="_blank">Batman Hush</a> - Tyler Childs
-      </li><li>
-      <a href="https://www.amazon.com/Wake-Scott-Snyder/dp/1401254918" target="_blank">The Wake</a> - Tyler Childs
-      </li><li>
-      <a href="https://www.amazon.com/Overcoming-Five-Dysfunctions-Team-first/dp/B004O2JWHC" target="_blank">The Five Dysfunctions of a Team: A Leadership Fable</a> - Ryan Burgess
-      </li><li>
-      <a href="http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html" target="_blank">Pathfinding with A*</a> - Jem Young
-      </li><li>
-      <a href="https://isaacsukin.com/news/2015/01/detailed-explanation-javascript-game-loops-and-timing" target="_blank">Writing a game loop</a> - Jem Young
-      </li><li>
-      <a href="https://www.hokaoneone.com/speedgoat/" target="_blank">Hooka Speedgoat</a> - Ryan Anklam
-      </li><li>
-      <a href="https://www.nba.com/bucks/?tmd=1" target="_blank">Milwaukee Bucks</a> - Ryan Anklam
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/ryan-anklam"><img src="../../public/img/ryan.jpg" alt="Ryan Anklam profile picture" /></a>
-      <span class="name">Ryan Anklam</span>
-      <a href="https://twitter.com/bittersweetryan" class="twitter">@bittersweetryan</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+// Episode 77 transcript
+module.exports = function() {
+  'use strict';
+  const transcript = `
   
 <p><strong>Tyler Childs</strong><br />
 Welcome to a brand new episode of the front end happier podcast. In this episode, we are joined by Tyler Childs to talk with us about CSS. Tyler, you want to give us a brief introduction of who you are, what you do. And what your favorite happier beverages? 
@@ -350,21 +258,6 @@ I want to I want to do it. That'd be awesome. But I think season 40 is filming i
 
 </p>
 
-  </div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+  `;
+  return transcript;
+};

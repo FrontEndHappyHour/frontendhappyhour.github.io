@@ -2565,7 +2565,7 @@
     "description": "In this episode, we’re joined by product managers, Michael Spiegelman, Cathy Conk, and Eddy Wu from Netflix to talk with us about the relationship between engineers and product managers.",
     "id": "634154634",
     "published": "June 9, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "product",
@@ -2679,7 +2679,7 @@
     "description": "In this episode, we are joined by Tyler Childs, a Senior Software Engineer at Netflix to talk with us about building out scalable CSS and share some of the exciting new features in the latest version of CSS.",
     "id": "627064941",
     "published": "May 26, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "css",
