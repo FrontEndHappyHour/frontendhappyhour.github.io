@@ -3341,7 +3341,7 @@
     "description": "There are a lot of great solutions available to support a native mobile experience for your application, but what’s the best option? In this episode we are joined by Jordanna Kwok from Netflix, to talk with us about some of the solutions and how to think through the best solution.",
     "id": "562212081",
     "published": "January 20, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "mobile",
