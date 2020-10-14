@@ -2860,7 +2860,7 @@
     "description": "In this episode, we are joined by Katie Sylor-Miller, a Staff Software Engineer from Etsy, to talk with us about ways to help build and foster a frontend culture within your companies.",
     "id": "612772302",
     "published": "April 28, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "frontend",
