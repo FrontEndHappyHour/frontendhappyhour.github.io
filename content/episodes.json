@@ -2969,7 +2969,7 @@
     "description": "In this episode, Jem and Ryan each toss out frontend terms, languages, technologies, and patterns to debate if they are underrated or overrated.",
     "id": "605964183",
     "published": "April 14, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "frontend",
