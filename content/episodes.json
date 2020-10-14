@@ -3179,7 +3179,7 @@
     "description": "In this episode, we are joined by Jeeyun Linn, and Cole Turner to talk with us about building and using component libraries in a company.",
     "id": "577712691",
     "published": "February 18, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "libraries",
