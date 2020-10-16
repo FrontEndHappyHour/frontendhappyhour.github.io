@@ -33,8 +33,8 @@ module.exports = function() {
   Derek. 
   
   </p>
-  <p><strong>Derek Showers</strong><br />
-  I'm Derek showers. I'm a senior software engineer at LinkedIn for the past year now in New York City. And yeah, my thoughts are, I guess mine.
+  <p><strong>Derrick Showers</strong><br />
+  I'm Derrick Showers. I'm a senior software engineer at LinkedIn for the past year now in New York City. And yeah, my thoughts are, I guess mine.
   
   </p>
   <p><strong>Brian Holt</strong><br />
@@ -113,7 +113,7 @@ module.exports = function() {
   AWS honestly, who knows At Evernote, I mentioned that would be kind of fun to do is yes to think that's where I originally was like, that'd be fun to do. I had no idea how to do it. But I thought it was an idea.
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   I guess like I remember we were talking about I think over drinks somewhere.
   
   And I was I was wondering, yeah, right. Yeah. And I'd always wanted to do a podcast. So I was like, in immediately. And, you know, I didn't know most I don't think I knew anyone else other than you. And so like, you know, I guess it's jumping ahead of it. But it was just great to find a group of people that are super intelligent, like to drink and also very humble. And so it's like the perfect combination. So it was
@@ -125,7 +125,7 @@ module.exports = function() {
   I don't know if I agree with all those acronyms for all the panels.
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   Well, you're just you're definitely accepting some of those. Brian.
   
   </p>
@@ -314,7 +314,7 @@ module.exports = function() {
   You just want to kill us off.
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   I think to to build off of what Ryan was saying. It's it's nice to
   
   chat with other people that are into the same thing. But also outside of your company I know a lot of you all are right Netflix, but I mean, you know, we all kind of work different places but even talk to people on on Twitter to listeners, like just just just talking to people you know, outside of our day to day is nice. And then you combine that with the fact that we're also like, friends and drinking. Is this the first like one of the few episodes where we don't have more people from Netflix?
@@ -328,7 +328,7 @@ module.exports = function() {
   a first home if it's a first, but it's pretty close to have this many people? 
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   Oh, I guess I forgot about who's not Netflix anymore.
   
   </p>
@@ -396,7 +396,7 @@ module.exports = function() {
   my favorite episode, or at least one of them. And the one that I probably get talked to the most about is the imposter syndrome app episode. I don't that's one of the earlier ones but apparently like that one was like super helpful to a lot of people to realize that like, we all are also imposters and we're all just putting on like the the mask and going I don't know, I don't know about you. Actually, I do, because you've all told me individually.
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   But that one, I think has been the most impactful from what people have told me and I have interviewed one which is also really really really one. I think there were like a couple of iterations of this there was like one recruiting one but but I remember the one We were really happy with way back in the day was Yeah,
   
   </p>
@@ -462,7 +462,7 @@ module.exports = function() {
   on the episodes. You can see him scurrying about, yeah, we'd have to sometimes pause like my dog would start barking, we'd be like, okay, we'll take a second for him to chill out. Then back to going into it. Remember, on the first episode, I think we said we had like some questions that we wanted to go over with that article. I think that's what we talked about. Yeah,
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   yeah. We the state of the state of like, that's it. Yeah. And I remember, remember, we said, like, we'll ask the question, and we'll talk about it and then we'll pause and then like, we'll do some editing later. And I'm pretty sure we'd like never paused and like the rest is history, I guess. Like, like to Jim's point from earlier like, we just think that's what makes so great is it just never run out of things to talk about.
   
   </p>
@@ -485,7 +485,7 @@ module.exports = function() {
   censored
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   is so much easier since Brian's moved to Seattle.
   
   </p>
@@ -503,7 +503,7 @@ module.exports = function() {
   I really like when we had Harry Harry will fun. Just because he's so silly and like his humor is very silly, and I really appreciate that and like I ripped off of that a lot. And we you know, I just I had a lot of fun I laughed
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   a lot and that episode randomly get his laugh is a laugh track for like every episode.
   
   </p>
@@ -698,7 +698,7 @@ module.exports = function() {
   Why not? 
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   Yeah. doesn't come to New York, but I'm not paying for her buddies.
   
   </p>
@@ -706,7 +706,7 @@ module.exports = function() {
   We're just gonna sleep in your house. We're just gonna sit down.
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   That's fine. You can sleep in my house. 
   
   </p>
@@ -842,7 +842,7 @@ module.exports = function() {
   Oh man, it's deep, but it's a really cool song. I like it. Check it out. It's good to good good to listen to like Oh, all right, Derek, what do you have?
   
   </p>
-  <p><strong>Derek Showers</strong><br />
+  <p><strong>Derrick Showers</strong><br />
   Um, so I guess since I've been on the podcast, I've had some of the things happen in my life on being having a baby. And so what so I most of actually, most of the things that I've purchased is come from recommendations from Ryan. But one thing that hasn't I don't think come from you that we really have enjoyed is this subscription delivery service called luxury love every I think it's pronounced but they basically send you like a quarterly shipment and it's all tailored after the age that your kid is like developmentally. And they said, it's like Everything's like really nice, like they send you like a book that like, tells you what you're supposed to do with your kid. And like at that developmental age and things to look for. But also, I really like that everything is like made from recycled materials. And it's not like plastic shit. It's like, it looks nice. And it's also suffered has been recycled. So I really like that. And the other thing that I've really been into, I had like, a couple of months off to spend time with the baby. And during nap times, I really had gotten into cooking a lot. And so I think most of this was based on kind of like, on the whim decision to buy a year spiritual master class. And so the one master class that I watched that I really, really liked, actually, there's three of them is Thomas Keller's master class. He's one of my favorite chefs, American chefs and he does he has three of them. And it's more about like refined cooking But it's really interesting learns, I just learned a lot of techniques from it. It was just what I wanted to get out of it versus just recipes. So if you're looking for that type of thing, I highly recommend it. I guess this what
   
   </p>
