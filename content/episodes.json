@@ -3475,7 +3475,7 @@
     "description": "Creating performant websites and applications continue to be more and more important. In this episode, we are joined by Addy Osmani to talk with us about web performance and some future web platform APIs that help improve performance.",
     "id": "542365323",
     "published": "December 9, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "performance",
