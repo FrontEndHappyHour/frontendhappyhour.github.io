@@ -107,12 +107,21 @@ for (let i = episodes.length - 1; i >= 0; i--) {
       .map((person) => {
         const panelist = panelists.find((n) => n.name === person);
 
+        // get panelist profile images
         if(panelist) {
           return `./public/img/panel/${panelist.twitter}.jpg`;
         }
 
+        // check if there's a guest twitter profile image
         if(person.twitter) {
           return `./public/img/guests/${person.twitter}.jpg`;
+        }
+
+        // if guest doesn't have a twitter, there's always a fallback image in the guest directory that is the guest name in lowercase with a dash between first and last name.
+        if(person.twitter === '') {
+          let profileImage = person.name.toLowerCase();
+          profileImage = profileImage.replace(' ', '-');
+          return `./public/img/guests/${profileImage}.jpg`;
         }
       })
       .filter((img) => {
