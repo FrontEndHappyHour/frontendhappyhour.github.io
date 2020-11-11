@@ -1,5 +1,32 @@
 [
   {
+    "episode": "116",
+    "title": "Live at QCon Plus 2020",
+    "description": "In this episode, we were joined by our guests, Ben Ilegbodu and Jason Lengstorf to discuss frontend patterns live at this year's QCon Plus conference. On the panel, we shared our thoughts on various frontend trends and patterns being used. We also took questions from the live QCon Plus audience.",
+    "id": "",
+    "published": "November 15, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["javascript", "frontend", "live"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Ben Ilegbodu",
+        "twitter": "benmvp"
+      },
+      {
+        "name": "Jason Lengstorf",
+        "twitter": "jlengstorf"
+      }
+    ],
+    "links": [],
+    "picks": []
+  },
+  {
     "episode": "115",
     "title": "Imposter Syndrome - Wine connoisseur with a $15 bottle",
     "description": "What’s it like to deal with Imposter Syndrome? In this episode, we are joined by Shirley Wu, to talk through each of our experiences dealing with imposter syndrome and have we’ve overcome it.",
@@ -7,7 +34,10 @@
     "published": "November 4, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["career", "imposter"],
+    "tags": [
+      "career",
+      "imposter"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
