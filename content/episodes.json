@@ -95,15 +95,11 @@
     "episode": "116",
     "title": "Live at QCon Plus 2020",
     "description": "In this episode, we were joined by our guests, Ben Ilegbodu and Jason Lengstorf to discuss frontend patterns live at this year's QCon Plus conference. On the panel, we shared our thoughts on various frontend trends and patterns being used. We also took questions from the live QCon Plus audience.",
-    "id": "",
+    "id": "929745502",
     "published": "November 15, 2020",
     "transcribed": false,
     "category": "technical",
-    "tags": [
-      "javascript",
-      "frontend",
-      "live"
-    ],
+    "tags": ["javascript", "frontend", "live", "conference"],
     "panel": [
       "Ryan Burgess",
       "Stacy London",
