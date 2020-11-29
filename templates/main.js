@@ -218,6 +218,7 @@ module.exports = function main(pageType, content, title, desc, link, pageOG) {
           <li><a href="/panelists/stacy-london"><img src="../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture"></a><a href="https://twitter.com/stacylondoner"><span>Stacy London</span></a></li>
           <li><a href="/panelists/augustus-yuan"><img src="../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture"></a><a href="https://twitter.com/augburto"><span>Augustus Yuan</span></a></li>
           <li><a href="/panelists/mars-jullian"><img src="../public/img/panel/marsjosephine.jpg" alt="Mars Jullian profile picture"></a><a href="https://twitter.com/marsjosephine"><span>Mars Jullian</span></a></li>
+          <li><a href="/panelists/shirley-wu"><img src="../public/img/panel/sxywu.jpg" alt="Shirley Wu profile picture"></a><a href="https://twitter.com/sxywu"><span>Shirley Wu</span></a></li>
         </ul>
       </div>
       ${subscribeList}
