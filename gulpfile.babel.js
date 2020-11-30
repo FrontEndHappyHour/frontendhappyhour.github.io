@@ -56,7 +56,7 @@ gulp.task('beautify-html', () => gulp.src('./**/*.html')
 // build javascript bundles
 gulp.task('javascript', done => {
   const jsxPath = './jsx/';
-  const files = ['home'];
+  const files = ['home', 'panelist'];
   let i = 0;
   const streams = files.map(fileName => {
     const fullFile = jsxPath + fileName + '.jsx';
