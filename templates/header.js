@@ -13,6 +13,7 @@ module.exports = function header(path) {
                 <ul class="nav">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about/">About</a></li>
+                    <li><a href="https://front-end-happy-hour.myshopify.com/">Store</a></li>
                     <li><a href="/subscribe/">Subscribe</a></li>
                 </ul>
             </div>
