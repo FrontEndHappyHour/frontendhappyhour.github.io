@@ -177,7 +177,7 @@ contentPage('about', '', 'About');
 // create mailing list page
 mailing();
 
-// create paenlist pages
+// create panelist pages
 panelistPage();
 
 // create ama page
