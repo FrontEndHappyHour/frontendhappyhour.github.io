@@ -1,5 +1,93 @@
 [
   {
+    "episode": "118",
+    "title": "Good manager, bad manager - tasty drink, bland drink",
+    "description": "In our last episode, we talked about leaving a job, and one of those reasons for leaving was due to a bad manager. In this episode, we follow up our discussion on what makes a good manager.",
+    "id": "951546076",
+    "published": "December 20, 2020",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["leader", "management", "manager"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London",
+      "Mars Jullian",
+      "Shirley Wu",
+      "Brian Holt"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Engineering Manager Resources",
+        "url": "https://github.com/ryanburgess/engineer-manager",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Seeking Truth in Networking - Insider Stories from Early Silicon Valley (and Ethernet!) with Bob Metcalfe",
+        "url": "https://seekingtruthinnetworking.com/podcast/episode-02-bob-metcalfe-pt-1/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "SVG Path Editor",
+        "url": "https://yqnn.github.io/svg-path-editor/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "The rising of the shield hero",
+        "url": "https://en.wikipedia.org/wiki/The_Rising_of_the_Shield_Hero",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Aunty Donna’s Big Ol’ House of Fun",
+        "url": "https://www.netflix.com/title/81009617",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Cuddle Down Pillow",
+        "url": "https://www.cuddledown.com/itemdy00.aspx?ID=79,3280&T1=Z1199+100+72+03",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Black Trees by Indian Wells",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "The Upward Spiral - Overlook Remix by Overlook & Nicolas Bougaïeff",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Trader Joe’s advent calendar for cats",
+        "url": "https://www.traderjoes.com/FearlessFlyer/Article/5655",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Stasher reusable silicone bag",
+        "url": "https://www.stasherbag.com/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "The Imagineering Story",
+        "url": "https://en.wikipedia.org/wiki/The_Imagineering_Story",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Going Under",
+        "url": "https://aggrocrab.com/GoingUnder-1",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Vets who code",
+        "url": "https://vetswhocode.io/",
+        "from": "Brian Holt"
+      }
+    ]
+  },
+  {
     "episode": "117",
     "title": "Quitting a job - leaving the bar",
     "description": "We’ve all decided at one point or another that it’s time to look for a new job. In this episode, we talk through reasons that lead to us looking for new opportunities in our past jobs.",
@@ -7,7 +95,10 @@
     "published": "November 29, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["career", "careers"],
+    "tags": [
+      "career",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
@@ -99,7 +190,12 @@
     "published": "November 15, 2020",
     "transcribed": false,
     "category": "technical",
-    "tags": ["javascript", "frontend", "live", "conference"],
+    "tags": [
+      "javascript",
+      "frontend",
+      "live",
+      "conference"
+    ],
     "panel": [
       "Ryan Burgess",
       "Stacy London",
