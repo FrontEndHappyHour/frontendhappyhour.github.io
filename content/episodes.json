@@ -1,5 +1,92 @@
 [
   {
+    "episode": "119",
+    "title": "2020 reflections - Fireball shots",
+    "description": "In this episode, we will be reflecting on the past year and how things have drastically changed for how we work and how our companies have had to adapt during a pandemic.",
+    "id": "957185695",
+    "published": "December 31, 2020",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["remote", "work"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London",
+      "Mars Jullian",
+      "Shirley Wu"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "A Teacher",
+        "url": "https://www.hulu.com/series/a-teacher-1c871218-05b1-4c66-a22f-260b2cb9bbf9",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Big Sky",
+        "url": "https://www.hulu.com/series/big-sky-ffef9dd4-c116-4bdb-9e76-a7ea41ad95cf",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Alice in Borderland",
+        "url": "https://www.netflix.com/title/80200575",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Building a button",
+        "url": "https://react-spectrum.adobe.com/blog/building-a-button-part-1.html",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Professional Tag",
+        "url": "https://kottke.org/20/12/inside-the-world-of-professional-tag",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Lovesac",
+        "url": "https://www.lovesac.com/sacs/supersac-insert-and-cover-wombat-wombat-phur.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Her Revolution by Burial, Four Tet, Thom Yorke",
+        "url": "https://open.spotify.com/track/2MhDAsciLk9txdni5CL8iw?si=adkW-1eSRjO5ryqw-Wy8Vw",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Dawn Chorus by Jon Hopkins",
+        "url": "https://open.spotify.com/track/6a06vmzIppjBTTdVrx8t5D?si=uSvcVdM0QditLY615327Aw",
+        "from": "Stacy London"
+      },
+      {
+        "title": "My favorite tracks from 2020",
+        "url": "https://open.spotify.com/playlist/38gCMR935kMiiBCBYJr6lR?si=j3PLxZkfTX2sl0nt2ZkZIQ",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Dermaplus SF",
+        "url": "https://www.dermaplusskin.com/shop",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Smart Pet Feeder (Feeder Connect)",
+        "url": "https://www.surepetcare.com/en-us/pet-feeder/microchip-pet-feeder-connect",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "BLACKPINK: Light Up the Sky",
+        "url": "https://www.netflix.com/title/81106901",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Doodle Therapy",
+        "url": "https://www.byalicelee.com/doodle-therapy",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "118",
     "title": "Good manager, bad manager - tasty drink, bland drink",
     "description": "In our last episode, we talked about leaving a job, and one of those reasons for leaving was due to a bad manager. In this episode, we follow up our discussion on what makes a good manager.",
@@ -7,7 +94,11 @@
     "published": "December 20, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["leader", "management", "manager"],
+    "tags": [
+      "leader",
+      "management",
+      "manager"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
