@@ -1,5 +1,74 @@
 [
   {
+    "episode": "120",
+    "title": "Building side projects - Served with a tasty Sidecar",
+    "description": "In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular.",
+    "id": "967365850",
+    "published": "Jan 17, 2020",
+    "transcribed": false,
+    "category": "technical",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Evan Payne",
+        "twitter": "evanfuture"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Adventure Zone",
+        "url": "https://maximumfun.org/podcasts/adventure-zone/",
+        "from": "Evan Payne"
+      },
+      {
+        "title": "CriticalRole",
+        "url": "https://www.twitch.tv/criticalrole",
+        "from": "Evan Payne"
+      },
+      {
+        "title": "The Undoing",
+        "url": "https://www.hbo.com/the-undoing",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Euphoria",
+        "url": "https://www.hbomax.com/eu",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Lupin",
+        "url": "https://www.netflix.com/title/80994082",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Awair Element",
+        "url": "https://www.getawair.com/home/element",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Green Onion Kit",
+        "url": "https://www.hamama.com/products/green-onion-kit",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Bubblesort Zines",
+        "url": "https://shop.bubblesort.io/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Semihandmade",
+        "url": "https://www.semihandmade.com/",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "119",
     "title": "2020 reflections - Fireball shots",
     "description": "In this episode, we will be reflecting on the past year and how things have drastically changed for how we work and how our companies have had to adapt during a pandemic.",
@@ -7,7 +76,10 @@
     "published": "December 31, 2020",
     "transcribed": false,
     "category": "soft",
-    "tags": ["remote", "work"],
+    "tags": [
+      "remote",
+      "work"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
