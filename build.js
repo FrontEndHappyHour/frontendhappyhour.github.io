@@ -29,6 +29,7 @@ const privacyContent = require('./content/privacy');
 const termsContent = require('./content/terms');
 const amaContent = require('./content/ama');
 const virtualHappyHourContent = require('./content/virtual-happy-hour');
+const guestInfoContent = require('./content/guests');
 
 // store the output of HTML markup
 let mainOutput = '';
@@ -173,6 +174,9 @@ contentPage('subscribe', '', 'Subscribe');
 
 // update about page
 contentPage('about', '', 'About');
+
+// update guest info page
+contentPage('guests', guestInfoContent, 'Guests');
 
 // create mailing list page
 mailing();

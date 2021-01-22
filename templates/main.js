@@ -282,6 +282,16 @@ module.exports = function main(pageType, content, title, desc, link, pageOG) {
     js = '';
   }
 
+  // guest information page
+  if (pageType === 'guests') {
+    classAdd = 'legal';
+    path = '../';
+    css = `public/css/legal.css?v=${cssVersion}`;
+    pageContent = content;
+    pageTitle = title + ' - ';
+    js = '';
+  }
+
   // shirts page
   if (pageType === 'shirts') {
     classAdd = 'shirts';
