@@ -1,5 +1,88 @@
 [
   {
+    "episode": "122",
+    "title": "Productivity Engineering - Ballmer Peak",
+    "description": "How do developer teams stay productive? In this episode, we are talking with Kathryn Koehler and Andy Glover from the Netflix Productivity Engineering team to learn more about what a Productivity Engineering team does to help improve productivity.",
+    "id": "985520542",
+    "published": "February 14, 2021",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["productivity", "engineer", "engineering", "builds", "tooling"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Kathryn Koehler",
+        "twitter": "kejkoehler"
+      },
+      {
+        "name": "Andy Glover",
+        "twitter": "aglover"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Accelerate",
+        "url": "https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/",
+        "from": "Kathryn Koehler"
+      },
+      {
+        "title": "Lolita",
+        "url": "https://www.audible.com/ep/title/?asin=B002V8MJ9Y",
+        "from": "Kathryn Koehler"
+      },
+      {
+        "title": "Team of Rivals",
+        "url": "https://www.amazon.com/Team-Rivals-Political-Abraham-Lincoln/dp/0684824906",
+        "from": "Andy Glover"
+      },
+      {
+        "title": "Undercover",
+        "url": "https://www.netflix.com/title/80225312",
+        "from": "Andy Glover"
+      },
+      {
+        "title": "NetflixEng Spotify playlist",
+        "url": "https://open.spotify.com/playlist/45hTU6aykhDtSgy9DT5Nsh?si=2L2Z8t8jRq6NUiPUQtbDNw",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Mother In Law's Tongue Plant",
+        "url": "https://www.thesill.com/products/snake-plant-laurentii?variant=32566748053609",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Star Trek Discovery",
+        "url": "https://www.netflix.com/gb/title/80126024",
+        "from": "Jem Young"
+      },
+      {
+        "title": "AirBiotech 360",
+        "url": "https://www.aroma360.com/products/airbiotech360",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Colours so Dub by Tiga",
+        "url": "https://open.spotify.com/track/57vXrMyOHtJnCVEGlWHNFM?si=pr_4CWkeSYq-mBmawNgMsQ",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Colours so Bright by Tiga",
+        "url": "https://open.spotify.com/track/01DZS6bsY83AOwJ4cJ1hyG?si=Q6sw7_mgRTGTWtoCeA9N-w",
+        "from": "Stacy London"
+      },
+      {
+        "title": "6000 Ft. Bonobo, Totally Enormous Extinct Dinosaurs",
+        "url": "https://open.spotify.com/track/5VDnV2q6OrlrPsHsDZtIP1?si=c5zBdgK5QCmb-AFzez87vQ",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "121",
     "title": "Transitioning to a new role - Bar hopping",
     "description": "At some point or another, we’ve all had to move to a new role or a new company. In this episode, we are joined by special guests Tara Ellis and Jared Jordan to help us discuss things we’ve learned to help transition to a new role or job.",
@@ -7,7 +90,11 @@
     "published": "January 31, 2021",
     "transcribed": false,
     "category": "soft",
-    "tags": ["career", "interviews", "jobs"],
+    "tags": [
+      "career",
+      "interviews",
+      "jobs"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -34,7 +121,8 @@
         "title": "Lianne La Havas",
         "url": "https://open.spotify.com/artist/2RP4pPHTXlQpDnO9LvR7Yt?autoplay=true",
         "from": "Tara Ellis"
-      },{
+      },
+      {
         "title": "The Thrill of the Fight VR Boxing",
         "url": "https://www.oculus.com/experiences/quest/3008315795852749",
         "from": "Jared Jordan"
@@ -54,7 +142,6 @@
         "url": "https://www.amazon.com/ThermoPro-TP-17-Digital-Backlight-Thermometer/dp/B07477NMF4/",
         "from": "Ryan Burgess"
       },
-      
       {
         "title": "The Midnight Sky",
         "url": "https://www.netflix.com/title/80244645",
