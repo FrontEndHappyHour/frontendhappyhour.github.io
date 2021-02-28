@@ -10,11 +10,14 @@ const links = [];
 const guests = [];
 const temp = [];
 
+// names of panelists that are no longer part of the regular panel anymore
+const oldPanelNames = ['Sarah Federman', 'Brian Holt', 'Derrick Showers', 'Ryan Anklam'];
+
 // create panelist list for new episode
 Object.keys(panelists).forEach(function(key) {
   let name = panelists[key].name;
-  // get all panelist names except Sarah Federman, Brian Holt, Derrick Showers and create emptpy picks object
-  if(name !== 'Sarah Federman' && name !== 'Brian Holt' && name !== 'Derrick Showers') {
+  // get all panelist names except for panelists that aren't on the regular panel anymore
+  if(!oldPanelNames.includes(name)) {
     names.push(name);
     picks.push({'title': '', 'url': '', 'from': name });
     picks.push({'title': '', 'url': '', 'from': name });
