@@ -3,11 +3,11 @@
     "episode": "123",
     "title": "Documentation - the bartenders' almanac",
     "description": "How important is documentation? In this episode, we share our thoughts and opinions on how we approach documentation and the tools that have helped us. ",
-    "id": "",
+    "id": "995179792",
     "published": "February 28, 2021",
     "transcribed": false,
     "category": "technical",
-    "tags": [],
+    "tags": ["productivity", "documentation", "coding"],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
