@@ -16,8 +16,9 @@ const oldPanelNames = ['Sarah Federman', 'Brian Holt', 'Derrick Showers', 'Ryan 
 // create panelist list for new episode
 Object.keys(panelists).forEach(function(key) {
   let name = panelists[key].name;
+  let active = panelists[key].active;
   // get all panelist names except for panelists that aren't on the regular panel anymore
-  if(!oldPanelNames.includes(name)) {
+  if(active === true) {
     names.push(name);
     picks.push({'title': '', 'url': '', 'from': name });
     picks.push({'title': '', 'url': '', 'from': name });
