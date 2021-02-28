@@ -1,5 +1,71 @@
 [
   {
+    "episode": "123",
+    "title": "Documentation - the bartenders' almanac",
+    "description": "How important is documentation? In this episode, we share our thoughts and opinions on how we approach documentation and the tools that have helped us. ",
+    "id": "",
+    "published": "February 28, 2021",
+    "transcribed": false,
+    "category": "technical",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Stacy London",
+      "Mars Jullian",
+      "Shirley Wu"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Quevos Chips",
+        "url": "https://quevos.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Oreo ID cookies",
+        "url": "https://www.oreo.com/oreoid-1",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Warrior",
+        "url": "https://www.hbomax.com/series/urn:hbo:series:GXSySgQ5Pe06olAEAAAJr",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Slack's Outage on January 4th 2021",
+        "url": "https://slack.engineering/slacks-outage-on-january-4th-2021/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Summoning by Hum",
+        "url": "https://open.spotify.com/track/0kyK9b2bC3INVSZza9kq2o?si=zX9jGZy4QFOg0O7Ak_M1jg",
+        "from": "Stacy London"
+      },
+      {
+        "title": "River by Octo Octa",
+        "url": "https://open.spotify.com/track/5su53Xdmss3Sh3Fhv9BkUf?si=aYdGK11lTOq624zUrnwxRA",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Frontend focus",
+        "url": "https://frontendfoc.us/",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "Bling Empire",
+        "url": "https://www.netflix.com/title/81039144",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Accented Cinema",
+        "url": "https://www.youtube.com/channel/UCH_VqR5rFFhgjZmM31xA3Ag",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "122",
     "title": "Productivity Engineering - Ballmer Peak",
     "description": "How do developer teams stay productive? In this episode, we are talking with Kathryn Koehler and Andy Glover from the Netflix Productivity Engineering team to learn more about what a Productivity Engineering team does to help improve productivity.",
@@ -7,7 +73,13 @@
     "published": "February 14, 2021",
     "transcribed": false,
     "category": "technical",
-    "tags": ["productivity", "engineer", "engineering", "builds", "tooling"],
+    "tags": [
+      "productivity",
+      "engineer",
+      "engineering",
+      "builds",
+      "tooling"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",

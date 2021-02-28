@@ -161,12 +161,15 @@ for (let i = episodes.length - 1; i >= 0; i--) {
 }
 
 // output slimmed down version of main episode JSON
+// this provides an episode JSON list for the homepage without all the additional information like picks, guests, panelists, etc.
 epList();
 
 // update index.html
+// this updates the content for the homepage
 write('index.html', main('home', mainOutput));
 
 // update episodes list
+// this updates the content for the episodes list page
 write('./episodes/index.html', main('episodelist', mainOutput));
 
 // update subscribe page
