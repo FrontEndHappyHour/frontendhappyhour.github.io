@@ -1,5 +1,75 @@
 [
   {
+    "episode": "124",
+    "title": "Software estimating - two finger pour",
+    "description": "When it comes to estimating the time it takes to build any software project, it’s never easy. There’s a lot of factors that go into estimating. In this episode, we talk about our experiences with estimating and ways we’ve improved it over the years.",
+    "id": "1006797925",
+    "published": "March 14, 2021",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["career", "collaboration", "estimating"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Stacy London",
+      "Shirley Wu"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Rebuild Black Business",
+        "url": "https://www.youtube.com/channel/UCk01dYcLW-j3W_cND0lc0vQ",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Good Girls",
+        "url": "https://www.netflix.com/title/80177342",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Amazon Builders Library",
+        "url": "https://aws.amazon.com/builders-library/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Valheim",
+        "url": "https://store.steampowered.com/app/892970/Valheim/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Agile",
+        "url": "https://www.atlassian.com/agile",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Here’s Why All Your Projects Are Always Late — and What to Do About It",
+        "url": "https://freakonomics.com/podcast/project-management/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Innergaze by Heidi Sabertooth",
+        "url": "https://open.spotify.com/track/5UXZtddbtZqzqZYzqhIPAe?si=awPXFWEKTkqo2xZsUU54ng",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Lenticular Hologram Rainbow Gradient Puzzle",
+        "url": "https://www.playgroup.design/#1000-colours",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "D3 10 Years! Livestream",
+        "url": "https://www.youtube.com/watch?v=1YLvtnQGXK0",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Creative Cuties Discord",
+        "url": "http://creativecuties.net/",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "123",
     "title": "Documentation - the bartenders' almanac",
     "description": "How important is documentation? In this episode, we share our thoughts and opinions on how we approach documentation and the tools that have helped us. ",
@@ -7,7 +77,11 @@
     "published": "February 28, 2021",
     "transcribed": false,
     "category": "technical",
-    "tags": ["productivity", "documentation", "coding"],
+    "tags": [
+      "productivity",
+      "documentation",
+      "coding"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
