@@ -1,5 +1,82 @@
 [
   {
+    "episode": "125",
+    "title": "Non-traditional backgrounds",
+    "description": "Not everyone starts their engineering career with a Computer Science degree, there are a lot of ways to start an engineering career. In this episode, we are joined by David Simmer from Netflix to talk with us about non-traditional backgrounds.",
+    "id": "",
+    "published": "March 28, 2021",
+    "transcribed": false,
+    "category": "soft",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London",
+      "Mars Jullian",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "David Simmer",
+        "twitter": "_simmerer"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Peter Gregson: Bach - The Cello Suites",
+        "url": "https://open.spotify.com/album/0Fs1VrnUcbVxKW6Dbq7jyZ?si=BUfy7xM_QfKvBt-Eo887Gw",
+        "from": "David Simmer"
+      },
+      {
+        "title": "The Aviary Book",
+        "url": "https://www.theaviarybook.com/",
+        "from": "David Simmer"
+      },
+      {
+        "title": "Matt Levine Newsletter",
+        "url": "https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine",
+        "from": "David Simmer"
+      },
+      {
+        "title": "Reuschelle’s Cheesecakes",
+        "url": "https://www.reuschelles.com/",
+        "from": "David Simmer"
+      },
+      {
+        "title": "Change Github repositories from master to main",
+        "url": "https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Ryan’s Dad’s In Tech Interview",
+        "url": "https://dadsintech.substack.com/p/ryan-burgess-software-engineering?token=eyJ1c2VyX2lkIjoxMDQ5MDM0MCwicG9zdF9pZCI6MzEzMTU5MzYsIl8iOiJYeldzaiIsImlhdCI6MTYxNjg3NTM2MiwiZXhwIjoxNjE2ODc4OTYyLCJpc3MiOiJwdWItMTE4MjU3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.FBV5YglW_kJpyxBEHYKQLSlkw898ObKYD12Kdv2v1BI",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Valley Silicon: Burrito Holder",
+        "url": "https://www.kickstarter.com/projects/madelinw/burrito-pop-a-twistable-burrito-holder",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Visual Cinnamon",
+        "url": "https://www.visualcinnamon.com/2017/03/my-journey-into-dataviz/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Visual Cinnamon Resources",
+        "url": "https://www.visualcinnamon.com/resources/learning-data-visualization/ ",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Cinema Therapy",
+        "url": "https://www.youtube.com/channel/UCCYX4s1DCn51Hpf1peHS30Q",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "124",
     "title": "Software estimating - two finger pour",
     "description": "When it comes to estimating the time it takes to build any software project, it’s never easy. There’s a lot of factors that go into estimating. In this episode, we talk about our experiences with estimating and ways we’ve improved it over the years.",
@@ -7,7 +84,11 @@
     "published": "March 14, 2021",
     "transcribed": false,
     "category": "technical",
-    "tags": ["career", "collaboration", "estimating"],
+    "tags": [
+      "career",
+      "collaboration",
+      "estimating"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
