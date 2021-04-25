@@ -1,5 +1,58 @@
 [
   {
+    "episode": "127",
+    "title": "Writing a technical book - drafts on tap",
+    "description": "Our very own Shirley Wu and her friend, Nadieh Bremer recently wrote a book called, Data Sketches so we wanted to learn more about what it’s like to write a technical book. In this episode, we are joined by Nadieh to talk with us about the process of writing and having a book published. ",
+    "id": "1036495990",
+    "published": "April 25, 2021",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["book", "data", "dataviz"],
+    "panel": [
+      "Ryan Burgess", 
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Nadieh Bremer",
+        "twitter": "NadiehBremer"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Datasketch.es",
+        "url": "https://www.datasketch.es/",
+        "from": "Nadieh Bremer"
+      },
+      {
+        "title": "Fab Academy",
+        "url": "https://fabacademy.org/",
+        "from": "Nadieh Bremer"
+      },
+      {
+        "title": "Biggie: I Got a Story to Tell",
+        "url": "https://www.netflix.com/title/80202829",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Everybody Matters: The Extraordinary Power of Caring for Your People Like Family",
+        "url": "https://www.amazon.com/Everybody-Matters-Extraordinary-Caring-People-ebook/dp/B00SI02E5S/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Lullatone",
+        "url": "https://open.spotify.com/artist/3h100hRlLZ7QDz8GRt5QsD",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Data Sketches Book Launch",
+        "url": "https://www.youtube.com/watch?v=qkoEN0P29Q0",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "126",
     "title": "Core Web Vitals - Vital libations",
     "description": "Optimizing websites for a quality user experience is key to the long-term success of any site on the web and Core Web Vitals is an initiative Google has provided as a unified guidance for quality signals that are essential to delivering a great user experience on the web. Addy Osmani and Kristofer Baxter, from Google, join us to talk more about Core Web Vitals.",
@@ -7,7 +60,12 @@
     "published": "April 11, 2021",
     "transcribed": false,
     "category": "technical",
-    "tags": ["core web vitals", "metrics", "data", "performance"],
+    "tags": [
+      "core web vitals",
+      "metrics",
+      "data",
+      "performance"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
