@@ -1,5 +1,85 @@
 [
   {
+    "episode": "128",
+    "title": "Branding & self-promotion - mimosa and self-promosa",
+    "description": "As you build your career, it’s helpful to think about your personal brand and how you promote yourself in the industry. In this episode, we are joined by Alice Lee, to talk with us about how each of us approach branding and self-promotion.",
+    "id": "",
+    "published": "May 9, 2021",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["career", "careers"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Alice Lee",
+        "twitter": "byalicelee"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Creative Cuties Discord",
+        "url": "https://discord.com/invite/TrbPtEf3NH",
+        "from": "Alice Lee"
+      },
+      {
+        "title": "Survivor",
+        "url": "https://www.cbs.com/shows/survivor/",
+        "from": "Alice Lee"
+      },
+      {
+        "title": "Better Allies",
+        "url": "https://www.amazon.com/Better-Allies-Everyday-Inclusive-Workplaces/dp/1732723303",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Megalobox",
+        "url": "https://www.netflix.com/title/80987707",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Raya and the Last Dragon",
+        "url": "https://movies.disney.com/raya-and-the-last-dragon",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Summit1G quit Fortnite and everything change",
+        "url": "https://www.youtube.com/watch?v=PM1SEjbUfzI",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Formula 1: Drive to Survive",
+        "url": "https://www.netflix.com/title/80204890",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Buttplug.io",
+        "url": "https://buttplug.io/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Alice's mural at the Asian Art Museum",
+        "url": "https://www.byalicelee.com/asian-art-museum",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Chinese Animation: In Search of a Style",
+        "url": "https://www.youtube.com/watch?v=Xwx6i4IQcFw",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "WandaVision",
+        "url": "https://www.disneyplus.com/series/wandavision/4SrN28ZjDLwH",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "127",
     "title": "Writing a technical book - drafts on tap",
     "description": "Our very own Shirley Wu and her friend, Nadieh Bremer recently wrote a book called, Data Sketches so we wanted to learn more about what it’s like to write a technical book. In this episode, we are joined by Nadieh to talk with us about the process of writing and having a book published. ",
@@ -7,9 +87,13 @@
     "published": "April 25, 2021",
     "transcribed": false,
     "category": "technical",
-    "tags": ["book", "data", "dataviz"],
+    "tags": [
+      "book",
+      "data",
+      "dataviz"
+    ],
     "panel": [
-      "Ryan Burgess", 
+      "Ryan Burgess",
       "Shirley Wu"
     ],
     "guests": [
