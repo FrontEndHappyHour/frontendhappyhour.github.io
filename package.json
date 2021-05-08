@@ -54,7 +54,7 @@
     "gulp-clean-css": "^4.2.0",
     "gulp-svgmin": "^2.2.0",
     "jsonfile": "^2.2.3",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "merge-stream": "^1.0.1",
     "mkdirp": "^0.5.1",
     "react": "^16.8.2",
