@@ -1,5 +1,73 @@
 [
   {
+    "episode": "129",
+    "title": "Allyship - Inviting everyone to the party",
+    "description": "A big way to help make a more inclusive tech industry, we need strong allies. In this episode, we are joined by Better Allies, Karen Catlin, to talk with us about allyship.",
+    "id": "1054043992",
+    "published": "May 23, 2021",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["inclusion", "allyship"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Karen Catlin",
+        "twitter": "kecatlin"
+      }
+    ],
+    "links": [
+      {
+        "title": "Being the glue",
+        "url": "https://noidea.dog/glue"
+      },
+      {
+        "title": "50 potential privileges in the workplace",
+        "url": "https://betterallies.files.wordpress.com/2019/01/50-potential-privileges.pdf"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Genius Series",
+        "url": "https://www.hulu.com/series/genius-aretha-7af1d69e-e299-4f1c-be19-00018b903d3c",
+        "from": "Karen Catlin"
+      },
+      {
+        "title": "Inclusion resources",
+        "url": "https://github.com/ryanburgess/inclusion",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Stream Deck",
+        "url": "https://www.elgato.com/en/stream-deck-mini",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Being the glue",
+        "url": "https://noidea.dog/glue",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Foxglove by Tor",
+        "url": "https://open.spotify.com/track/1hlRIwZvOmQZVepbj10cJ1?si=WGAlcQ6FQ0SXJaXPQ_Avuw",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Ellery Studio",
+        "url": "https://www.ellerystudio.com/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Kontinentalist",
+        "url": "https://kontinentalist.com/",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "128",
     "title": "Branding & self-promotion - mimosa and self-promosa",
     "description": "As you build your career, it’s helpful to think about your personal brand and how you promote yourself in the industry. In this episode, we are joined by Alice Lee, to talk with us about how each of us approach branding and self-promotion.",
@@ -7,7 +75,10 @@
     "published": "May 9, 2021",
     "transcribed": false,
     "category": "soft",
-    "tags": ["career", "careers"],
+    "tags": [
+      "career",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
