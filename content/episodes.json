@@ -1,5 +1,29 @@
 [
   {
+    "episode": "131",
+    "title": "Diversity and inclusion - Tech(K)now Day",
+    "description": "This was a live panel discussion at the Tech(K)now Day conference that took place on March 8, 2021. We did a live episode with the conference organizer, Gen Ashley, who joined us to talk about diversity and inclusion in tech.",
+    "id": "1080406219",
+    "published": "July 4, 2021",
+    "transcribed": false,
+    "category": "soft",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Gen Ashley",
+        "twitter": "coderinheels"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "130",
     "title": "Stack and infrastructure shaping culture - Drink choice to set the vibe",
     "description": "In previous episodes we've talked about how to choose a technical stack and figure out what works best for you and your team. In this episode, we are joined by Jason Lengstorf to talk about how the choice of stack and infrastructure reflects the company culture.",
@@ -7,7 +31,11 @@
     "published": "June 6, 2021",
     "transcribed": false,
     "category": "soft",
-    "tags": ["culture", "technologies", "frameworks"],
+    "tags": [
+      "culture",
+      "technologies",
+      "frameworks"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
