@@ -1,5 +1,48 @@
 [
   {
+    "episode": "132",
+    "title": "Test Engineering - Beverage quality assurance",
+    "description": "Releasing a successful product in production requires testing. In this episode, we are joined by Preethi Sitaraman to talk with us about test engineering and how developers and test engineers can collaborate.",
+    "id": "1090033273",
+    "published": "July 18, 2021",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["testing", "qa"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Preethi Sitaraman",
+        "twitter": "preethisraman"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Sand cloud towel beach",
+        "url": "https://www.sandcloud.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Bissell Little Green",
+        "url": "https://www.amazon.com/Bissell-Multi-Purpose-Portable-Upholstery-1400B/dp/B0016HF5GK/ref=sr_1_3?dchild=1&gclid=Cj0KCQjwxJqHBhC4ARIsAChq4at4HiUYEAzfsTi9Xy5k4W7bsZb9TXJm3gG8sP9Dm6gcya0TqRY_FFUaAl8wEALw_wcB&hvadid=346223982684&hvdev=c&hvlocphy=9061273&hvnetw=g&hvqmt=e&hvrand=3845771443590492108&hvtargid=kwd-295629423066&hydadcr=8677_9761165&keywords=bissell+little+green&qid=1625753759&sr=8-3",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Xupermask",
+        "url": "https://xupermask.com/buy/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "100 Tips for a better life",
+        "url": "https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "131",
     "title": "Diversity and inclusion - Tech(K)now Day",
     "description": "This was a live panel discussion at the Tech(K)now Day conference that took place on March 8, 2021. We did a live episode with the conference organizer, Gen Ashley, who joined us to talk about diversity and inclusion in tech.",
@@ -20,8 +63,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "130",
