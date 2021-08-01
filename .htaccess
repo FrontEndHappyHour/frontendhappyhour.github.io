@@ -37,3 +37,8 @@ AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml text/x-js t
 </IfModule>
 
 Redirect 301 /store https://front-end-happy-hour.myshopify.com/
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?frontendhappyhour\.com
+RewriteRule ^(.*)$ https://www.frontendhappyhour.com/$1 [R,L]
