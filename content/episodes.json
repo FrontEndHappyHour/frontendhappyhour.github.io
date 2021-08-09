@@ -1,5 +1,94 @@
 [
   {
+    "episode": "133",
+    "title": "It’s 5 o’clock somewhere - Joining a remote team",
+    "description": "With a lot of companies now hiring more remote employees, we wanted to talk about what it’s like to join a new team being fully remote. In this episode, we are joined by Laurie Barth and Lucero Carmona to share their thoughts on what the experience joining a remote team has been like.",
+    "id": "1102730380",
+    "published": "August 8, 2021",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["remote", "career", "work"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Laurie Barth",
+        "twitter": "laurieontech"
+      },
+      {
+        "name": "Lucero Carmona",
+        "twitter": "luceritocarmona"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "T-Pain tiny desk concert",
+        "url": "https://www.youtube.com/watch?v=CIjXUg1s5gc",
+        "from": "Laurie Barth"
+      },
+      {
+        "title": "Love Island (US)",
+        "url": "https://www.cbs.com/shows/love-island/",
+        "from": "Laurie Barth"
+      },
+      {
+        "title": "Deep kitchen sinks",
+        "url": "",
+        "from": "Laurie Barth"
+      },
+      {
+        "title": "Vacation Races",
+        "url": "https://vacationraces.com/",
+        "from": "Lucero Carmona"
+      },
+      {
+        "title": "Radiolab podcast",
+        "url": "https://www.wnycstudios.org/podcasts/radiolab/podcasts",
+        "from": "Lucero Carmona"
+      },
+      {
+        "title": "Heist",
+        "url": "https://www.netflix.com/title/81087195",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Coolibar clothing",
+        "url": "https://www.coolibar.com/",
+        "from": "Ryan Burgess"
+      },
+      
+      {
+        "title": "Alone",
+        "url": "https://www.netflix.com/watch/81281294?trackId=14170056",
+        "from": "Jem Young"
+      },
+      {
+        "title": "'Smart' motorcycle vest",
+        "url": "https://www.vice.com/en/article/93yyyd/this-motorcycle-airbag-vest-will-stop-working-if-you-miss-a-payment",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Drive to Survive",
+        "url": "https://www.netflix.com/title/80204890",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "This is Pop",
+        "url": "https://www.netflix.com/title/81050786",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Anti-pick: Kumoko",
+        "url": "https://kumodesu.fandom.com/wiki/Kumoko",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "132",
     "title": "Test Engineering - Beverage quality assurance",
     "description": "Releasing a successful product in production requires testing. In this episode, we are joined by Preethi Sitaraman to talk with us about test engineering and how developers and test engineers can collaborate.",
@@ -7,7 +96,10 @@
     "published": "July 18, 2021",
     "transcribed": false,
     "category": "technical",
-    "tags": ["testing", "qa"],
+    "tags": [
+      "testing",
+      "qa"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
