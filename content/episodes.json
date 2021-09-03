@@ -1,5 +1,118 @@
 [
   {
+    "episode": "135",
+    "title": "Dealing with burnout - Burnt Orange Campari",
+    "description": "Who’s ever had to deal with burnout? In this episode, we are joined by two guests, Vaidehi Joshi, and Eli to share their experiences dealing with burnout. We all share how burnout has shown up for us throughout our careers and how we’ve found ways to deal with it or prevent it.",
+    "id": "1118450926",
+    "published": "September 5, 2021",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["burnout", "career"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Vaidehi Joshi",
+        "twitter": "vaidehijoshi"
+      },
+      {
+        "name": "Eli Fitch",
+        "twitter": "EliFitch"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Geo Guesser",
+        "url": "https://www.geoguessr.com/",
+        "from": "Vaidehi Joshi"
+      },
+      {
+        "title": "Opal",
+        "url": "https://www.opal.so/",
+        "from": "Vaidehi Joshi"
+      },
+      {
+        "title": "Hundred Foot Wave",
+        "url": "https://www.hbo.com/100-foot-wave",
+        "from": "Vaidehi Joshi"
+      },
+      {
+        "title": "Watch the sound",
+        "url": "https://tv.apple.com/us/show/watch-the-sound-with-mark-ronson/umc.cmc.56ka6i8ccv7tsatj6nd1uo808",
+        "from": "Vaidehi Joshi"
+      },
+      {
+        "title": "Vipassana Meditation",
+        "url": "https://www.dhamma.org/en-US/index",
+        "from": "Vaidehi Joshi"
+      },
+      {
+        "title": "Drive to Survive",
+        "url": "https://www.netflix.com/title/80204890",
+        "from": "Eli Fitch"
+      },
+      {
+        "title": "Going to therapy",
+        "url": "",
+        "from": "Eli Fitch"
+      },
+      {
+        "title": "Money Heist - Part 5",
+        "url": "https://www.netflix.com/title/80192098",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Austin Maples - Nothing to Lose",
+        "url": "https://www.youtube.com/watch?v=DkxpQD6HnCY&ab_channel=austinmaples",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Basecs podcast",
+        "url": "https://www.codenewbie.org/basecs",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Inside",
+        "url": "https://www.netflix.com/title/81289483",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Working hours in Slack",
+        "url": "https://slack.com/help/articles/360025054173-Set-up-Slack-for-work-hours-",
+        "from": "Jem Young"
+      },
+      {
+        "title": "2020 in memoriam: Tiger King, Animal crossing",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Burnout: The Secret to Unlocking the Stress Cycle by Amelia Nagoski and Emily Nagoski",
+        "url": "https://www.penguinrandomhouse.com/books/592377/burnout-by-emily-nagoski-phd-and-amelia-nagoski-dma/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Alice Lee & Amy Wibowo: Making Art, Breaking Hearts",
+        "url": "https://shop.bubblesort.io/products/making-art-breaking-hearts-jacket?variant=39468576800854",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Alice Lee & Amy Wibowo: Animal Crossing planters",
+        "url": "https://twitter.com/byalicelee/status/1431343589636722690",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Yamazaki Home",
+        "url": "https://theyamazakihome.com/",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "134",
     "title": "Individual contributor to manager - Transitioning into a bartender",
     "description": "In this episode, we talk about what it’s like to go from an individual contributor engineer, to an engineering manager. With Jem recently moving into a manager role, Nazanin Delam and Dan DiGangi joined us to share more about their experiences moving into management.",
@@ -7,7 +120,11 @@
     "published": "August 22, 2021",
     "transcribed": false,
     "category": "soft",
-    "tags": ["leader", "manager", "leading"],
+    "tags": [
+      "leader",
+      "manager",
+      "leading"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
