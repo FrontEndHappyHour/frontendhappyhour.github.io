@@ -1,5 +1,70 @@
 [
   {
+    "episode": "136",
+    "title": "Old Fashioned, old roles, new beginnings",
+    "description": "It’s always hard to know when is the right time to make a career change. There’s likely never a perfect time, but in this episode, we talk about how we have made decisions and what’s worked and what hasn’t.",
+    "id": "1127051008",
+    "published": "September 19, 2021",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["career", "careers"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Fig",
+        "url": "https://fig.io/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Culture Map - Erin Meyer",
+        "url": "https://www.amazon.com/Culture-Map-Breaking-Invisible-Boundaries/dp/1610392507",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Finch: Self Care Pet Game",
+        "url": "https://apps.apple.com/us/app/finch-virtual-self-care-pet/id1528595748",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Sessions: Vi",
+        "url": "https://sessions.riotgames.com/en-us/event/sessions/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Valley Silicon: Specialized balance bike",
+        "url": "https://www.specialized.com/us/en/hotwalk-carbon/p/188009",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Silicon Valley: Google Nest Cam Battery",
+        "url": "https://store.google.com/us/product/nest_cam_battery",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Bruce Wang leadership philosophy",
+        "url": "https://github.com/batmany13/about-me",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Pulses of Information by Rival Consoles",
+        "url": "https://open.spotify.com/track/1c6usMjMA3cMG1tNM67g2C?si=81156f02ca514b80",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Oceantumblers by KILN",
+        "url": "https://open.spotify.com/track/5iPgUhXTTjH77gC3vmLZUo?si=a41dd4fbd22547e9",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "135",
     "title": "Dealing with burnout - Burnt Orange Campari",
     "description": "Who’s ever had to deal with burnout? In this episode, we are joined by two guests, Vaidehi Joshi, and Eli to share their experiences dealing with burnout. We all share how burnout has shown up for us throughout our careers and how we’ve found ways to deal with it or prevent it.",
@@ -7,7 +72,10 @@
     "published": "September 5, 2021",
     "transcribed": false,
     "category": "soft",
-    "tags": ["burnout", "career"],
+    "tags": [
+      "burnout",
+      "career"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
