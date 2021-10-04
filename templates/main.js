@@ -39,11 +39,11 @@ module.exports = function main(pageType, content, title, desc, link, pageOG) {
   // set OG image if it's undefined
   if(pageOG === undefined) {
     if (pageType === 'shirts') {
-      pageOG = 'http://frontendhappyhour.com/public/img/shirts.jpg';
+      pageOG = 'https://frontendhappyhour.com/public/img/shirts.jpg';
     } else if (pageType === 'virtual-happy-hour') {
       pageOG = 'https://i.imgur.com/doWONo7.png';
     } else {
-      pageOG = 'http://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
+      pageOG = 'https://frontendhappyhour.com/public/img/front-end-happy-hour-logo-banner.jpg';
     }
   }
 
@@ -310,7 +310,7 @@ module.exports = function main(pageType, content, title, desc, link, pageOG) {
                   <meta name="viewport" content="width=device-width">
                   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
                   <link rel="alternate" type="application/rss+xml"
-                   href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
+                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
                    <meta property="og:image" content="${pageOG}" /> <meta
                     property="og:description" content="${desc}" />
                     <meta property="og:title" content="${pageTitle}${mainTitle}" />
