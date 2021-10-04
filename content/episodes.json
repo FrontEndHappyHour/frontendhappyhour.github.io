@@ -1,5 +1,58 @@
 [
   {
+    "episode": "137",
+    "title": "One drink and a monolithic architecture",
+    "description": "We've often talked about micro-services and monolithic architectures on previous episodes. In this episode, we are joined by Katherine Peterson to talk with us about her experience working with a monolithic codebase.",
+    "id": "1135559272",
+    "published": "October 3, 2021",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["architecture", "code"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Katherine Peterson",
+        "twitter": "katherinecodes"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Hydro Flask Cooler Cup",
+        "url": "https://www.hydroflask.com/12-oz-cooler-cup",
+        "from": "Katherine Peterson"
+      },
+      {
+        "title": "GitHub Codespaces",
+        "url": "https://github.com/features/codespaces",
+        "from": "Katherine Peterson"
+      },
+      {
+        "title": "Manager interview questions",
+        "url": "https://github.com/ryanburgess/manager-interview-questions",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Everybody Matters",
+        "url": "https://www.amazon.com/Everybody-Matters-Extraordinary-Caring-People-ebook/dp/B00SI02E5S/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Sit Around The Fire by Jon Hopkins, Ram Dass, East Forest",
+        "url": "https://open.spotify.com/track/5kdXiiF8MxyLVhRjkVv9jQ?si=45584ae8efb344be",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Realign (Max Cooper Remix) by Henry Green, Max  Cooper",
+        "url": "https://open.spotify.com/track/4yRGFVhIjlRkljwee2Uwgf?si=0HaFOGC2Sda3Xr8ncHv_oQ",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "136",
     "title": "Old Fashioned, old roles, new beginnings",
     "description": "It’s always hard to know when is the right time to make a career change. There’s likely never a perfect time, but in this episode, we talk about how we have made decisions and what’s worked and what hasn’t.",
@@ -7,7 +60,10 @@
     "published": "September 19, 2021",
     "transcribed": false,
     "category": "soft",
-    "tags": ["career", "careers"],
+    "tags": [
+      "career",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan",
