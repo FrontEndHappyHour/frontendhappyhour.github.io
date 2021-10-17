@@ -7,13 +7,6 @@
     "bio": "Will code for tattoos! Ryan is a Software Engineering Manager at Netflix. He leads a team of engineers repsonsible for building a cross-platform experience for signup at Netflix. His favorite happy hour beverage is a old fashioned. Ryan moved to San Francisco from Toronto and has no plans on moving back. California is just too nice. Ryan has always been a fan of tattoos and graffiti. When Ryan isn't binge watching Netflix, he enjoys spending time with his wife, son, and his dog Chico."
   },
   {
-    "name": "Augustus Yuan",
-    "twitter": "augburto",
-    "profile_pic": "2054339",
-    "active": true,
-    "bio": "Augustus is a Frontend Engineer at Twitch. He loves quotes, is constantly curious, and has a strong passion for the frontend. He is also slightly obsessed with the drama House and coffee."
-  },
-  {
     "name": "Jem Young",
     "twitter": "JemYoung",
     "profile_pic": "/img/jem.jpg",
@@ -26,6 +19,13 @@
     "profile_pic": "/img/panel/stacylondoner.jpg",
     "active": true,
     "bio": "Stacy is a Senior Front-End Engineer on Trello at Atlassian.  In addition to front-end dev, she's into art, being a musicophile, making //TODO lists, and traveling."
+  },
+  {
+    "name": "Augustus Yuan",
+    "twitter": "augburto",
+    "profile_pic": "2054339",
+    "active": true,
+    "bio": "Augustus is a Frontend Engineer at Twitch. He loves quotes, is constantly curious, and has a strong passion for the frontend. He is also slightly obsessed with the drama House and coffee."
   },
   {
     "name": "Derrick Showers",

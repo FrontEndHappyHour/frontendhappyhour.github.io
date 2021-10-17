@@ -1,5 +1,43 @@
 [
   {
+    "episode": "138",
+    "title": "Bar debate - Smart homes",
+    "description": "If you've listened to past episodes, you've likely heard Ryan and Jem disagree about smart home devices or IoT. In this episode, the two of them have a friendly debate around their thinking of smart homes and what the pros and cons are.",
+    "id": "1142964733",
+    "published": "October 17, 2021",
+    "transcribed": false,
+    "category": "technology",
+    "tags": ["wifi", "technologies"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Starling Home Hub",
+        "url": "https://www.starlinghome.io/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Only Murders in the Building",
+        "url": "https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "NanoLeaf",
+        "url": "https://nanoleaf.me/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Squid Game",
+        "url": "https://www.netflix.com/title/81040344",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "137",
     "title": "One drink and a monolithic architecture",
     "description": "We've often talked about micro-services and monolithic architectures on previous episodes. In this episode, we are joined by Katherine Peterson to talk with us about her experience working with a monolithic codebase.",
@@ -7,7 +45,10 @@
     "published": "October 3, 2021",
     "transcribed": false,
     "category": "technical",
-    "tags": ["architecture", "code"],
+    "tags": [
+      "architecture",
+      "code"
+    ],
     "panel": [
       "Ryan Burgess",
       "Stacy London"
