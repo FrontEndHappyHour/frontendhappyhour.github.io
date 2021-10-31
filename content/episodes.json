@@ -1,5 +1,54 @@
 [
   {
+    "episode": "139",
+    "title": "Preparing ingredients - Interview prep",
+    "description": "There’s no way around, at some point, you will likely be interviewing. Why not be prepared? In this episode, we share our thoughts and experiences interviewing and how we approach preparing for an upcoming interview for a new role.",
+    "id": "1151408935",
+    "published": "October 31, 2021",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["interviews", "internships", "jobs"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Augustus Yuan"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "You Season 3",
+        "url": "https://www.netflix.com/title/80211991",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Netlify",
+        "url": "https://www.netlify.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Ayekouma by Falle Nioke, Ghost Culture",
+        "url": "https://open.spotify.com/track/0Exgq73ALjAiWDBjyx1bQU?si=e964186577a6438f",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Rotating In Unison by HAAi",
+        "url": "https://open.spotify.com/track/3Ehu6JzePF1MksnKJda1cL?si=f2b1b5434b3f4ee3",
+        "from": "Stacy London"
+      },
+      {
+        "title": "FE Technical Interview Prep",
+        "url": "https://gist.github.com/augbog/ed3502543169b6ce844313c69e4e1b2d",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Dune: Scene breakdown of the Gom Jabbar by director Denis Villeneuv",
+        "url": "https://www.youtube.com/watch?v=GoAA0sYkLI0",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "138",
     "title": "Bar debate - Smart homes",
     "description": "If you've listened to past episodes, you've likely heard Ryan and Jem disagree about smart home devices or IoT. In this episode, the two of them have a friendly debate around their thinking of smart homes and what the pros and cons are.",
@@ -7,7 +56,10 @@
     "published": "October 17, 2021",
     "transcribed": false,
     "category": "technology",
-    "tags": ["wifi", "technologies"],
+    "tags": [
+      "wifi",
+      "technologies"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
