@@ -95,7 +95,7 @@
     "description": "We've often talked about micro-services and monolithic architectures on previous episodes. In this episode, we are joined by Katherine Peterson to talk with us about her experience working with a monolithic codebase.",
     "id": "1135559272",
     "published": "October 3, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "architecture",
@@ -151,7 +151,7 @@
     "description": "It’s always hard to know when is the right time to make a career change. There’s likely never a perfect time, but in this episode, we talk about how we have made decisions and what’s worked and what hasn’t.",
     "id": "1127051008",
     "published": "September 19, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "career",
