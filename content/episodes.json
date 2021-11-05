@@ -878,7 +878,7 @@
     "description": "Optimizing websites for a quality user experience is key to the long-term success of any site on the web and Core Web Vitals is an initiative Google has provided as a unified guidance for quality signals that are essential to delivering a great user experience on the web. Addy Osmani and Kristofer Baxter, from Google, join us to talk more about Core Web Vitals.",
     "id": "1027287154",
     "published": "April 11, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "core web vitals",
