@@ -544,7 +544,7 @@
     "description": "This was a live panel discussion at the Tech(K)now Day conference that took place on March 8, 2021. We did a live episode with the conference organizer, Gen Ashley, who joined us to talk about diversity and inclusion in tech.",
     "id": "1080406219",
     "published": "July 4, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [],
     "panel": [
@@ -567,7 +567,7 @@
     "description": "In previous episodes we've talked about how to choose a technical stack and figure out what works best for you and your team. In this episode, we are joined by Jason Lengstorf to talk about how the choice of stack and infrastructure reflects the company culture.",
     "id": "1063002982",
     "published": "June 6, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "culture",
