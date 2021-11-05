@@ -1,79 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Bar debate - Smart homes - Front End Happy Hour</title>
-                  <meta name="description" content="If you've listened to past episodes, you've likely heard Ryan and Jem disagree about smart home devices or IoT. In this episode, the two of them have a friendly debate around their thinking of smart homes and what the pros and cons are.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/bar-debate-smart-homes.jpeg" /> <meta
-                    property="og:description" content="If you've listened to past episodes, you've likely heard Ryan and Jem disagree about smart home devices or IoT. In this episode, the two of them have a friendly debate around their thinking of smart homes and what the pros and cons are." />
-                    <meta property="og:title" content="Bar debate - Smart homes - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="If you've listened to past episodes, you've likely heard Ryan and Jem disagree about smart home devices or IoT. In this episode, the two of them have a friendly debate around their thinking of smart homes and what the pros and cons are." />
-                    <meta property="twitter:title" content="Bar debate - Smart homes - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/bar-debate-smart-homes">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Bar debate - Smart homes</h2>
-                  <div class="container"><p>Published October 17, 2021</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1142964733&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>If you've listened to past episodes, you've likely heard Ryan and Jem disagree about smart home devices or IoT. In this episode, the two of them have a friendly debate around their thinking of smart homes and what the pros and cons are.</p></div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.starlinghome.io/" target="_blank">Starling Home Hub</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.hulu.com/series/only-murders-in-the-building-ef31c7e1-cd0f-4e07-848d-1cbfedb50ddf" target="_blank">Only Murders in the Building</a> - Ryan Burgess
-      </li><li>
-      <a href="https://nanoleaf.me/" target="_blank">NanoLeaf</a> - Jem Young
-      </li><li>
-      <a href="https://www.netflix.com/title/81040344" target="_blank">Squid Game</a> - Jem Young
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+'use strict';
+const transcript = `
 
 <p><strong>Ryan Burgess</strong><br />
 All right, welcome to a brand new episode of Front End happier podcasts. If you've listened to previous episodes, you've likely heard snippets of Gemini PD disagreeing a little bit on smart homes or IoT products. So we thought why not do a special episode dedicated to debating smart homes? IoT, all the fun Wi Fi devices? Let's get introductions of today's panelists. It is really just Gemini. But Jem
@@ -279,21 +206,6 @@ Oh, yes. I mean, what could possibly go wrong with that? Just leave nothing ther
 Yeah, no, I mean, and, and why would you ever, ever need that to be smart?
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+return transcript;
+};

@@ -1,19 +1,19 @@
-
 module.exports = function() {
-    'use strict';
-    const transcript = `
+'use strict';
+const transcript = `
+
 <p><strong>Ryan Burgess</strong><br />
 Welcome to a brand new episode of the front end happier podcast. In today's episode, we are excited to have Karen Catlin joining us to talk with us about allyship. And how we can show up as better allies for our teams, colleagues, whatever it may be. I've personally been a huge fan of Karen's work. So I'm so excited to have her on. In past episodes, you've probably heard me pick some of her work in the better allies newsletter, or her book on better allies. So with that being said, Karen, can you give us a brief introduction of who you are, what you do, and what your favorite Happy Hour beverages? 
 
-</p>
+
 <p><strong>Karen Catlin</strong><br />
 Sure. Well, it's pleasure to be joining all of you today. So thank you for having me on this show. I'm Karen Catlin, and I am an advocate for inclusive workplaces. And the way I got to this work, sort of funny, it just didn't just happen overnight. But it started with a 25 year career working in tech. And so I used to write code for a living. And let me tell you, I started well, before anyone differentiated writing code in terms of front end or back end or full stack those terms were not in use back when I started my career. But I worked in tech 25 years, most recently, I was a vice president of engineering at Adobe. And during that time, I noticed a decline happening in gender diversity in the industry. People who weren't around back then may not know this, but there used to be a lot more women getting computer science degrees, and frankly, sitting side by side with me in conference rooms, as well as in the cubes that we all resided in, and to change over time. So while I was at Adobe, I started our women's employee resource group, I started mentoring a lot of women, and looking out for just gender diversity and representation in meetings and on stage and that type of thing. And I have to tell you, over over time, I loved doing that work so much, and the VP of engineering work not so much that I decided I wanted to change what I was doing professionally. And so I pivoted, I pivoted my own career to leave behind making software products and move to helping women who were in the industry. So I started a leadership coaching practice, mostly for women who work in tech. Now, I've soon realized though, I had a big problem with my leadership coaching practice for women in tech. And it's not with my clients. They're amazing. They were growing, they were learning they were no quote unquote, leaning in. But they were all working for tech companies that just the closer you got to the C suite to the CEO, the mailer, and paler it got, and with all due respect to anyone who's listening, who's male and or pale, I am pale myself, I'm white. That's just what the demographics were, you know, it's just like, that's, that's, um, it's just the demographic. So I'm not here to shame and blame anyone just pointing out the facts. So that's when I started to realize that I wanted to help make all of tech more inclusive. And of course, the first thing you do when you have a big mission like that, if you want to change the world, the first thing you do is you start a Twitter handle, right, so I started the Twitter handle at better allies and spec in 2014. So it goes back a while. And my goal with Twitter was to share simple everyday actions anyone could take to be more inclusive just in their daily work. So what were some things that you could do well look out for interruptions that happen in the meetings we attend, and redirect the conversation back to the person who was interrupted with a simple Hey, I I'd like to hear surely finish what she was saying something like that. So anyway, I'm tweeting or tweeting all anonymous, by the way. And many people thought it was a man behind this Twitter handle, I have to tell you, because I was first person acting as though I was you know, taking these actions, and most people thought it was a man. Um, at any rate, I started to get anonymous requests, or excuse me request to this anonymous twitter handle just asking like, Hey, does anyone from the better allies initiative do any public speaking? And I would get that message. And I'd be like, the initiative like it's just me tweeting a couple of times a day. And but I wanted to share more and speak more about this. And so I would say, Well, yes, one of our contributors does some public speaking. Sorry, a little white lie there. And then I go over to my personal Twitter account and respond and say, Hey, I'm here. You're looking for a speaker. I contribute to better allies. What do you have in mind? So I started speaking, and every time I gave a talk someone in the audience would ask, Hey, Karen, do you have a book? Because we want more of this, this talk wasn't quite enough. And for a few years, I kept saying, Well, no, I don't have a book, sorry, No book, no book. And I did finally write my book. And it's also called better allies. And earlier this year, in January 2021, I did publish a second edition of the book. So I revised it fully revised it based on everything I learned in those two years. Anyway, and then just one other thing I'll mention about my work before I will mention my happy hour beverage is that my focus initially was gender. As a woman who was working in tech. That, of course, is my lens that I was approaching the work from, but I quickly expanded to be thinking about how to be inclusive of anyone from an underrepresented group, gender, of course, but also race, ethnicity, sexual orientation, and identity, abilities, ages and so forth. So I do my best to think about inclusion with all of those intersection intersectional and demographics. And then my happy hour beverage, because I want to just say, I believe you can have a happy hour with a non alcoholic beverage. So I have a cup of mint tea here, and it's just delicious. 
 
-</p>
+
 <p><strong>Ryan Burgess</strong><br />
 Right on, I'm so happy to that you said the like, non alcoholic beverage too, because I think that that's something even as we've been doing this for five years, and it's something that I've been thinking about over time, like I love the whole point of this podcast was like, over drinks or or, you know, beverages, whatever it is, is we've had these great conversations. But I've even realized, like, Wow, is that the most inclusive thing? If it's like alcoholic related, it's like no, but it's beverages of choice. And so yes, I love that you even called that out because that's even something that I've reflected on. All right, well, let's also give quick introductions of today's panelists. Stacy want to start it off? 
 
-</p>
+
 <p><strong>Stacy London</strong><br />
 Sure. I'm Stacy London. I'm a senior front end engineer at Atlassian and Trello. 
 
@@ -313,7 +313,7 @@ Yeah. Well, thank you. It was just a pleasure talking with all of you. So thank 
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
-It is my favorite email every Friday morning and I think it shows up and it's one of it's like one of my first emails I read because it is very quick and easy to read. And like you're walking away with five tips that are just like whoa, this is amazing. So yes, I have picked it on previous episodes but it can't say enough how great it is. So please keep up the amazing work. Thank you all for listening today's episode you can find find us on front end happy hour.com Subscribe to front end Happy Hour wherever you like to listen to podcasts. You can follow us on Twitter at <a href="https://twitter.com/frontendhh">@frontendhh</a> any last words, 
+It is my favorite email every Friday morning and I think it shows up and it's one of it's like one of my first emails I read because it is very quick and easy to read. And like you're walking away with five tips that are just like whoa, this is amazing. So yes, I have picked it on previous episodes but it can't say enough how great it is. So please keep up the amazing work. Thank you all for listening today's episode you can find find us on front end happy hour.com Subscribe to front end Happy Hour wherever you like to listen to podcasts. You can follow us on Twitter at <a href="https://twitter.com/frontendhh"><a href="https://twitter.com/frontendhh"><a href="https://twitter.com/frontendhh"><a href="https://twitter.com/frontendhh">@frontendhh</a></a></a></a> any last words, 
 
 </p>
 <p><strong>Stacy London</strong><br />
@@ -327,7 +327,6 @@ Oh, I love it Stacy.
 <p><strong>Karen Catlin</strong><br />
 Cheers. Cheers.
 
-</p>
-`;
+</p>`;
 return transcript;
 };
