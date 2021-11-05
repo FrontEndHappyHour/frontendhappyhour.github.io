@@ -133,6 +133,9 @@ if(twitter !== null) {
 // remove the first </p> tag
 newContent = newContent.replace('</p>', '');
 
+// add JS module exports
+newContent = 'module.exports = function() {\n' + '\'use strict\';\n' + 'const transcript = `\n' + newContent + '`;\n' +  'return transcript;\n' + '};';
+
 // add a console message if a speaker was missed and wasn't labeled
 const unknownSpeaker = newContent.match(/Unknown Speaker  /g);
 if (unknownSpeaker !== null) {
