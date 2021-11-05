@@ -1,84 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Test Engineering - Beverage quality assurance - Front End Happy Hour</title>
-                  <meta name="description" content="Releasing a successful product in production requires testing. In this episode, we are joined by Preethi Sitaraman to talk with us about test engineering and how developers and test engineers can collaborate.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/test-engineering-beverage-quality-assurance.jpeg" /> <meta
-                    property="og:description" content="Releasing a successful product in production requires testing. In this episode, we are joined by Preethi Sitaraman to talk with us about test engineering and how developers and test engineers can collaborate." />
-                    <meta property="og:title" content="Test Engineering - Beverage quality assurance - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="Releasing a successful product in production requires testing. In this episode, we are joined by Preethi Sitaraman to talk with us about test engineering and how developers and test engineers can collaborate." />
-                    <meta property="twitter:title" content="Test Engineering - Beverage quality assurance - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/test-engineering-beverage-quality-assurance">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Test Engineering - Beverage quality assurance</h2>
-                  <div class="container"><p>Published July 18, 2021</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1090033273&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>Releasing a successful product in production requires testing. In this episode, we are joined by Preethi Sitaraman to talk with us about test engineering and how developers and test engineers can collaborate.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/preethisraman.jpg" alt="Preethi Sitaraman profile picture"><div><a href="https://twitter.com/preethisraman">Preethi Sitaraman</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.sandcloud.com/" target="_blank">Sand cloud towel beach</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.amazon.com/Bissell-Multi-Purpose-Portable-Upholstery-1400B/dp/B0016HF5GK/ref=sr_1_3?dchild=1&gclid=Cj0KCQjwxJqHBhC4ARIsAChq4at4HiUYEAzfsTi9Xy5k4W7bsZb9TXJm3gG8sP9Dm6gcya0TqRY_FFUaAl8wEALw_wcB&hvadid=346223982684&hvdev=c&hvlocphy=9061273&hvnetw=g&hvqmt=e&hvrand=3845771443590492108&hvtargid=kwd-295629423066&hydadcr=8677_9761165&keywords=bissell+little+green&qid=1625753759&sr=8-3" target="_blank">Bissell Little Green</a> - Ryan Burgess
-      </li><li>
-      <a href="https://xupermask.com/buy/" target="_blank">Xupermask</a> - Jem Young
-      </li><li>
-      <a href="https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life" target="_blank">100 Tips for a better life</a> - Jem Young
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+'use strict';
+const transcript = `
 
 <p><strong>Ryan Burgess</strong><br />
 Welcome to a brand new episode of the front end happier podcast. In this episode, we are going to be talking about all things QA s debt, SETI, we're going to cover a few things, because there's a lot of terms out there. And we are joined by prefuse Sydor Raman to help us with some of these terms and just give us a little more depth into this Preethi. Can you give us a brief introduction of who you are, what you do and what your favorite Happy Hour beverages?
@@ -436,21 +358,6 @@ People think you're already cool. Jem. You don't have to wait.
 I want to be cooler. I want to be like Brian cool.
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+return transcript;
+};

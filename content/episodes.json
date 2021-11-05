@@ -406,7 +406,7 @@
     "description": "With a lot of companies now hiring more remote employees, we wanted to talk about what it’s like to join a new team being fully remote. In this episode, we are joined by Laurie Barth and Lucero Carmona to share their thoughts on what the experience joining a remote team has been like.",
     "id": "1102730380",
     "published": "August 8, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "remote",
@@ -498,7 +498,7 @@
     "description": "Releasing a successful product in production requires testing. In this episode, we are joined by Preethi Sitaraman to talk with us about test engineering and how developers and test engineers can collaborate.",
     "id": "1090033273",
     "published": "July 18, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "testing",
