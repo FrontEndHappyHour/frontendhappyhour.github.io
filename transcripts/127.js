@@ -1,88 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Writing a technical book - drafts on tap - Front End Happy Hour</title>
-                  <meta name="description" content="Our very own Shirley Wu and her friend, Nadieh Bremer recently wrote a book called, Data Sketches so we wanted to learn more about what it’s like to write a technical book. In this episode, we are joined by Nadieh to talk with us about the process of writing and having a book published. ">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/writing-a-technical-book-drafts-on-tap.jpeg" /> <meta
-                    property="og:description" content="Our very own Shirley Wu and her friend, Nadieh Bremer recently wrote a book called, Data Sketches so we wanted to learn more about what it’s like to write a technical book. In this episode, we are joined by Nadieh to talk with us about the process of writing and having a book published. " />
-                    <meta property="og:title" content="Writing a technical book - drafts on tap - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="Our very own Shirley Wu and her friend, Nadieh Bremer recently wrote a book called, Data Sketches so we wanted to learn more about what it’s like to write a technical book. In this episode, we are joined by Nadieh to talk with us about the process of writing and having a book published. " />
-                    <meta property="twitter:title" content="Writing a technical book - drafts on tap - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/writing-a-technical-book-drafts-on-tap">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Writing a technical book - drafts on tap</h2>
-                  <div class="container"><p>Published April 25, 2021</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1036495990&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>Our very own Shirley Wu and her friend, Nadieh Bremer recently wrote a book called, Data Sketches so we wanted to learn more about what it’s like to write a technical book. In this episode, we are joined by Nadieh to talk with us about the process of writing and having a book published. </p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/NadiehBremer.jpg" alt="Nadieh Bremer profile picture"><div><a href="https://twitter.com/NadiehBremer">Nadieh Bremer</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.datasketch.es/" target="_blank">Datasketch.es</a> - Nadieh Bremer
-      </li><li>
-      <a href="https://fabacademy.org/" target="_blank">Fab Academy</a> - Nadieh Bremer
-      </li><li>
-      <a href="https://www.netflix.com/title/80202829" target="_blank">Biggie: I Got a Story to Tell</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.amazon.com/Everybody-Matters-Extraordinary-Caring-People-ebook/dp/B00SI02E5S/" target="_blank">Everybody Matters: The Extraordinary Power of Caring for Your People Like Family</a> - Ryan Burgess
-      </li><li>
-      <a href="https://open.spotify.com/artist/3h100hRlLZ7QDz8GRt5QsD" target="_blank">Lullatone</a> - Shirley Wu
-      </li><li>
-      <a href="https://www.youtube.com/watch?v=qkoEN0P29Q0" target="_blank">Data Sketches Book Launch</a> - Shirley Wu
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/shirley-wu"><img src="../../public/img/panel/sxywu.jpg" alt="Shirley Wu profile picture" /></a>
-      <span class="name">Shirley Wu</span>
-      <a href="https://twitter.com/sxywu" class="twitter">@sxywu</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+'use strict';
+const transcript = `
 
 <p><strong>Ryan Burgess</strong><br />
 Welcome to another episode of the front end happier podcasts. I don't know how many of you are aware of this, but our very own Shirley Wu has written and published a book with her friend naughty. We are all super excited for her and thought, why not talk about publishing books? That's an interesting subject that I definitely am not familiar with. So in this episode, we invited Nadi to talk with us and surely about their book, Nadi. Can you give us a brief introduction of who you are, what you do, and what your favorite happier beverage is? 
@@ -382,21 +300,6 @@ Yes.
 Cheers. Book number two. So tired
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+return transcript;
+};
