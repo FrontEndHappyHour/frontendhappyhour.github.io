@@ -1198,7 +1198,7 @@
     "description": "How do developer teams stay productive? In this episode, we are talking with Kathryn Koehler and Andy Glover from the Netflix Productivity Engineering team to learn more about what a Productivity Engineering team does to help improve productivity.",
     "id": "985520542",
     "published": "February 14, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "productivity",
@@ -1287,7 +1287,7 @@
     "description": "At some point or another, we’ve all had to move to a new role or a new company. In this episode, we are joined by special guests Tara Ellis and Jared Jordan to help us discuss things we’ve learned to help transition to a new role or job.",
     "id": "976302409",
     "published": "January 31, 2021",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "career",
@@ -1861,7 +1861,7 @@
     "description": "When you can’t interview in person, we are forced to interview over video calls. In this episode, we are joined by Bianca Bortolussi, and Jen Pi to talk with us about what it’s like to interview for a new role during these covid times.",
     "id": "912902305",
     "published": "October 18, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "interviews",
@@ -2083,7 +2083,7 @@
     "description": "When we are writing code as engineers, no matter what programming language, we are doing some form of planning and problem solving. In this episode, we are talking about programmatic problem solving with Nicole Archambault.",
     "id": "888882517",
     "published": "September 6, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
