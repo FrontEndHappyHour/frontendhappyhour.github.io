@@ -1,99 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Non-traditional backgrounds - Old Fashioneds with a twist - Front End Happy Hour</title>
-                  <meta name="description" content="Not everyone starts their engineering career with a Computer Science degree, there are a lot of ways to start an engineering career. In this episode, we are joined by David Simmer from Netflix to talk with us about non-traditional backgrounds.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/non-traditional-backgrounds-old-fashioneds-with-a-twist.jpeg" /> <meta
-                    property="og:description" content="Not everyone starts their engineering career with a Computer Science degree, there are a lot of ways to start an engineering career. In this episode, we are joined by David Simmer from Netflix to talk with us about non-traditional backgrounds." />
-                    <meta property="og:title" content="Non-traditional backgrounds - Old Fashioneds with a twist - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="Not everyone starts their engineering career with a Computer Science degree, there are a lot of ways to start an engineering career. In this episode, we are joined by David Simmer from Netflix to talk with us about non-traditional backgrounds." />
-                    <meta property="twitter:title" content="Non-traditional backgrounds - Old Fashioneds with a twist - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/non-traditional-backgrounds-old-fashioneds-with-a-twist">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Non-traditional backgrounds - Old Fashioneds with a twist</h2>
-                  <div class="container"><p>Published March 28, 2021</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1017910417&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>Not everyone starts their engineering career with a Computer Science degree, there are a lot of ways to start an engineering career. In this episode, we are joined by David Simmer from Netflix to talk with us about non-traditional backgrounds.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/simmerer.jpg" alt="David Simmer profile picture"><div><a href="https://twitter.com/_simmerer">David Simmer</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://open.spotify.com/album/0Fs1VrnUcbVxKW6Dbq7jyZ?si=BUfy7xM_QfKvBt-Eo887Gw" target="_blank">Peter Gregson: Bach - The Cello Suites</a> - David Simmer
-      </li><li>
-      <a href="https://www.theaviarybook.com/" target="_blank">The Aviary Book</a> - David Simmer
-      </li><li>
-      <a href="https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine" target="_blank">Matt Levine Newsletter</a> - David Simmer
-      </li><li>
-      <a href="https://www.reuschelles.com/" target="_blank">Reuschelle’s Cheesecakes</a> - David Simmer
-      </li><li>
-      <a href="https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/" target="_blank">Change Github repositories from master to main</a> - Ryan Burgess
-      </li><li>
-      <a href="https://dadsintech.substack.com/p/ryan-burgess-software-engineering?token=eyJ1c2VyX2lkIjoxMDQ5MDM0MCwicG9zdF9pZCI6MzEzMTU5MzYsIl8iOiJYeldzaiIsImlhdCI6MTYxNjg3NTM2MiwiZXhwIjoxNjE2ODc4OTYyLCJpc3MiOiJwdWItMTE4MjU3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.FBV5YglW_kJpyxBEHYKQLSlkw898ObKYD12Kdv2v1BI" target="_blank">Ryan’s Dad’s In Tech Interview</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.kickstarter.com/projects/madelinw/burrito-pop-a-twistable-burrito-holder" target="_blank">Valley Silicon: Burrito Holder</a> - Jem Young
-      </li><li>
-      <a href="https://www.visualcinnamon.com/2017/03/my-journey-into-dataviz/" target="_blank">Visual Cinnamon</a> - Shirley Wu
-      </li><li>
-      <a href="https://www.visualcinnamon.com/resources/learning-data-visualization/ " target="_blank">Visual Cinnamon Resources</a> - Shirley Wu
-      </li><li>
-      <a href="https://www.youtube.com/channel/UCCYX4s1DCn51Hpf1peHS30Q" target="_blank">Cinema Therapy</a> - Shirley Wu
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/shirley-wu"><img src="../../public/img/panel/sxywu.jpg" alt="Shirley Wu profile picture" /></a>
-      <span class="name">Shirley Wu</span>
-      <a href="https://twitter.com/sxywu" class="twitter">@sxywu</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to a brand new episode, the front end happier podcast. In today's episode, we're covering a topic that I know we've been asked many times to do. And I'm really surprised we haven't covered it in the past. But in today's episode, we're joined by David Zimmer from Netflix to talk with us about non traditional backgrounds. David, can you give a brief introduction of who you are, what you do, and what your favorite happier beverages
@@ -459,21 +366,6 @@ Sure. You can follow me on Twitter. I'm underscore simmer. Si mme er er, or my w
 That's so good. All right. Well, thank you all for listening. Today's episode. You can find us on Twitter at front end each age. You can check out our website at front end happy hour.com You can listen to us on really whatever you like to listen to podcasts on. Any last words, background background. Cheers. Cheers.
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
