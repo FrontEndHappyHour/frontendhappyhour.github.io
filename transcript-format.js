@@ -133,14 +133,6 @@ if(twitter !== null) {
 // remove the first </p> tag
 newContent = newContent.replace('</p>', '');
 
-// add JS module exports to wrap content
-newContent = `module.exports = function() {
-    'use strict';
-    const transcript =\`
-    ${newContent}\`;
-    return transcript;
-};`
-
 // add a console message if a speaker was missed and wasn't labeled
 const unknownSpeaker = newContent.match(/Unknown Speaker  /g);
 if (unknownSpeaker !== null) {
@@ -151,6 +143,15 @@ if (unknownSpeaker !== null) {
         console.log(`Unknown speaker identified ${unknownSpeaker.length} times`);
     }
     
+}else {
+    // If there are no unknown speakers identified finish content and wrap JS module
+    // add JS module exports to wrap content
+    newContent = `module.exports = function() {
+        'use strict';
+        const transcript =\`
+        ${newContent}\`;
+        return transcript;
+    };`
 }
 
 // save updated content
