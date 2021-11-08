@@ -1,100 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Shotgunning websites: web performance - Front End Happy Hour</title>
-                  <meta name="description" content="Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/shotgunning-websites-web-performance.jpeg" /> <meta
-                    property="og:description" content="Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important." />
-                    <meta property="og:title" content="Shotgunning websites: web performance - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important." />
-                    <meta property="twitter:title" content="Shotgunning websites: web performance - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/shotgunning-websites-web-performance">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Shotgunning websites: web performance</h2>
-                  <div class="container"><p>Published October 29, 2016</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290570478&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>Users are extremely sensitive to web performance. The slightest change in a website’s load time can impact a user staying or going. In this episode we talk about ways to help improve web performance and why it’s so important.</p></div><div class="links picks container">
-          <h3>Items mentioned in the episode</h3>
-          <p><a href="https://blog.gigaspaces.com/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/" target="_blank">Amazon found every 100ms of latency cost them 1% in sales</a>, <a href="https://www.webperformancetoday.com/2012/02/28/4-awesome-slides-showing-how-page-speed-correlates-to-business-metrics-at-walmart-com/" target="_blank">Page speed correlates to business metrics at Walmart.com</a>, <a href="https://www.cedexis.com/blog/for-google-400ms-of-increased-page-load-time-results-in-044-lost-search-sessions/" target="_blank">For Google, 400ms of increased page load time, results in 0,44% lost search sessions</a>, <a href="https://www.imdb.com/title/tt1285016/" target="_blank">The Social Network</a>, <a href="https://techcrunch.com/2016/10/21/many-sites-including-twitter-and-spotify-suffering-outage/" target="_blank">Large DDoS attacks cause outages at Twitter, Spotify, and other sites</a>, <a href="https://www.prchecker.info/" target="_blank">Google Page Rank</a>, <a href="https://www.ampproject.org/" target="_blank">AMP</a>, <a href="https://www.theverge.com/2015/10/28/9625062/facebook-2g-tuesdays-slow-internet-developing-world" target="_blank">2G Tuesdays</a>, <a href="https://en.wikipedia.org/wiki/Gzip" target="_blank">Gzip</a>, <a href="https://wordpress.com/" target="_blank">Wordpress</a>, <a href="https://forwardjs.com/" target="_blank">Forward JS</a>, <a href="https://www.webpagetest.org/" target="_blank">WebPageTest</a>, <a href="https://developers.google.com/speed/pagespeed/" target="_blank">PageSpeed</a>, <a href="https://gulpjs.com/" target="_blank">Gulp</a>, <a href="https://gruntjs.com/" target="_blank">Grunt</a>, <a href="https://www.npmjs.com/" target="_blank">npm</a>, <a href="https://broccolijs.com/" target="_blank">Broccoli</a>, <a href="https://github.com/tildeio/glimmer" target="_blank">Glimmer</a>, <a href="https://www.gwtproject.org/" target="_blank">GWT</a>, <a href="https://facebook.github.io/react/" target="_blank">React</a>, <a href="https://emberjs.com/" target="_blank">Ember</a>, <a href="https://angular.io/" target="_blank">Angular</a>, <a href="https://www.youtube.com/watch?v=O1YP8QP9gLA" target="_blank">Debugging Node.js in Production</a></p>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.caplanskys.com/" target="_blank">Caplansky's Deli</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.npmjs.com/package/react-perf-tool" target="_blank">React Perf Tool</a> - Ryan Burgess
-      </li><li>
-      <a href="https://github.com/brendangregg/FlameGraph" target="_blank">FlameGraph</a> - Augustus Yuan
-      </li><li>
-      <a href="https://www.youtube.com/watch?v=pt4TjbSQz-g" target="_blank">Real-time performance audit with Chrome DevTools</a> - Augustus Yuan
-      </li><li>
-      <a href="https://learning.linkedin.com/week-of-learning" target="_blank">Week of learning</a> - Derrick Showers
-      </li><li>
-      <a href="https://www.netflix.com/title/70264888" target="_blank">Black Mirror</a> - Derrick Showers
-      </li><li>
-      <a href="https://www.amazon.com/Man-High-Castle-Season/dp/B00RSGIVVO" target="_blank">Man In The High Castle</a> - Derrick Showers
-      </li><li>
-      <a href="https://www.bridgetroll.org/" target="_blank">Bridge Troll</a> - Sarah Federman
-      </li><li>
-      <a href="https://pageweight.imgix.com/" target="_blank">Imgix Page Weight Tool</a> - Sarah Federman
-      </li><li>
-      <a href="https://csstriggers.com/" target="_blank">CSS Triggers</a> - Sarah Federman
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
-      <span class="name">Augustus Yuan</span>
-      <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
-      </li><li><a href="/panelists/derrick-showers"><img src="../../public/img/derrick.jpg" alt="Derrick Showers profile picture" /></a>
-      <span class="name">Derrick Showers</span>
-      <a href="https://twitter.com/derrickshowers" class="twitter">@derrickshowers</a>
-      </li><li><a href="/panelists/sarah-federman"><img src="../../public/img/panel/sarah_federman.jpg" alt="Sarah Federman profile picture" /></a>
-      <span class="name">Sarah Federman</span>
-      <a href="https://twitter.com/sarah_federman" class="twitter">@sarah_federman</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to the 18th episode of Front End happy hour. Users are extremely sensitive to web performance. The slightest change in the website's load time can impact a user staying or going. In this episode, we will talk about ways to help improve web performance and why it's so important. Before we get started, let's go around and introduce today's panel. Augustus you wanna start off?
@@ -720,21 +626,6 @@ And I'm <a href="https://twitter.com/burgessdryan"><a href="https://twitter.com/
 I love you guys and whiskey.
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };

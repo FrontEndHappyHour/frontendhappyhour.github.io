@@ -1,103 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Spilled beer and epic fails - Front End Happy Hour</title>
-                  <meta name="description" content="As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/spilled-beer-and-epic-fails.jpeg" /> <meta
-                    property="og:description" content="As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes." />
-                    <meta property="og:title" content="Spilled beer and epic fails - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes." />
-                    <meta property="twitter:title" content="Spilled beer and epic fails - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/spilled-beer-and-epic-fails">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Spilled beer and epic fails</h2>
-                  <div class="container"><p>Published September 25, 2016</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284642453&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>As an engineer we build things, but we also make mistakes or introduce bugs into the software we write. In this episode, we share horror stories of things that we’ve experienced in our careers and how we’ve learned from them. Hopefully, this episode helps you avoid making similar mistakes.</p></div><div class="links picks container">
-          <h3>Items mentioned in the episode</h3>
-          <p><a href="https://www.adobe.com/support/flash/downloads.html" target="_blank">Flash</a>, <a href="https://sass-lang.com/" target="_blank">Sass</a>, <a href="https://www.python.org/" target="_blank">Python</a>, <a href="https://php.net/" target="_blank">PHP</a>, <a href="https://chartbeat.com/" target="_blank">Chartbeat</a>, <a href="https://en.wikipedia.org/wiki/Site_reliability_engineer" target="_blank">SRE</a>, <a href="https://www.reddit.com/r/secretsanta/comments/2xdkyi/closing_the_redditgifts_marketplace/" target="_blank">Reddit Marketplace</a>, <a href="https://fsto.co/" target="_blank">Full Stack TO</a>, <a href="https://wordpress.com" target="_blank">Wordpress</a>, <a href="https://exchange.nagios.org/" target="_blank">Nagios</a>, <a href="https://jenkins.io/" target="_blank">Jenkins</a></p>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.youtube.com/watch?v=Yy7gFgETp0o" target="_blank">React plus X: Best Practices for Reusable UI Components - Mars Jullian</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw" target="_blank">React Rally 2016 videos</a> - Ryan Burgess
-      </li><li>
-      <a href="https://medium.com/startup-grind/i-got-scammed-by-a-silicon-valley-startup-574ced8acdff" target="_blank">I got scammed by a Silicon Valley startup</a> - Augustus Yuan
-      </li><li>
-      <a href="https://github.com/FormidableLabs/react-game-kit" target="_blank">React Game Kit</a> - Augustus Yuan
-      </li><li>
-      <a href="https://www.youtube.com/watch?v=fwDUguW8Duo" target="_blank">A Very Secret Service</a> - Jem Young
-      </li><li>
-      <a href="https://www.netflix.com/title/80109260" target="_blank">APEX: The Story of the Hypercar</a> - Jem Young
-      </li><li>
-      <a href="https://www.facebook.com/polarheartmusic/" target="_blank">Polarheart</a> - Brian Holt
-      </li><li>
-      <a href="https://frontendhappyhour.com" target="_blank">Traveling</a> - Brian Holt
-      </li><li>
-      <a href="https://github.com/universe-2016" target="_blank">GitHub Universe conference</a> - Sarah Federman
-      </li><li>
-      <a href="https://ohshitgit.com/" target="_blank">Oh Shit Git</a> - Sarah Federman
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
-      <span class="name">Augustus Yuan</span>
-      <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
-      </li><li><a href="/panelists/brian-holt"><img src="../../public/img/panel/holtbt.jpg" alt="Brian Holt profile picture" /></a>
-      <span class="name">Brian Holt</span>
-      <a href="https://twitter.com/holtbt" class="twitter">@holtbt</a>
-      </li><li><a href="/panelists/sarah-federman"><img src="../../public/img/panel/sarah_federman.jpg" alt="Sarah Federman profile picture" /></a>
-      <span class="name">Sarah Federman</span>
-      <a href="https://twitter.com/sarah_federman" class="twitter">@sarah_federman</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to the 16th episode of the front end, happy hour. In this episode, we share all our mistakes and epic fails, we've made it or experienced in our careers, and we'll also share how we've learned from them. Hopefully by sharing our mistakes you can learn from them and avoid running into similar mistakes. For today's episode. Let's go around the table and give brief introductions to the episodes panelists. Brian, do you want to start it off?
@@ -875,21 +778,6 @@ Someone said Take your time. That's good advice and everything. A be able to rol
 Thank you all for listening today's episode, make sure to rate us on iTunes and Google Play and subscribe to the front end Happy Hour podcast on your favorite podcast catcher. Follow us on Facebook and Twitter. At <a href="https://twitter.com/frontendhh"><a href="https://twitter.com/frontendhh">@frontendhh</a></a>
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
