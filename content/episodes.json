@@ -12988,7 +12988,7 @@
     "description": "In episode 13 of the Front End Happy Hour podcast, we’re joined by Jafar Husain from Netflix to talk with us about the future of JavaScript. Jafar is part of the TC-39 committee that helps determine the future specs of ECMAScript. Jafar shares a lot of interesting insights into how the committee works and how a feature makes it's way into the spec. Jafar also talks to us about Observables and cancellable promises.",
     "id": "278757290",
     "published": "August 17, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -13123,7 +13123,7 @@
     "description": "As an engineer or developer we currently fortunate enough to have a wide selection of amazing jobs and companies to work for. Although we have a wide selection of jobs, finding the right one is extremely important and may require some additional work. In this episode, we are joined by the guests Chrissy Running and Alayna Ketner who are both talented recruiters at Netflix. Chrissy and Alayna have a lot of experience working with engineers to help find the ideal role. We’ll discuss types of things companies are looking for and how you can best leverage competitive offers in your job searches.",
     "id": "277345887",
     "published": "August 8, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [],
     "panel": [
@@ -13244,7 +13244,7 @@
     "description": "Leveraging transpilers is extremely helpful in allowing us to extend the JavaScript language in ways JavaScript engines cannot. There are a lot of amazing transpilers available in the JavaScript community and we all love transpilers, but there are things developers should be aware of when we’re using transpilers.",
     "id": "275723253",
     "published": "July 27, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -13406,7 +13406,7 @@
     "description": "In the technology industry we’re continually trying to grow the diversity of people who are working in the space. Most recently there have been a lot of great efforts made to increase the number of women in tech. In this episode we are joined by two talented women working at large tech companies in the Bay Area, Lisa Burgess (Uber) and Mars Jullian (Netflix). We discuss what it’s like to be a women working in tech and talk about ways we can help foster a more inclusive industry.",
     "id": "273424836",
     "published": "July 12, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [],
     "panel": [
