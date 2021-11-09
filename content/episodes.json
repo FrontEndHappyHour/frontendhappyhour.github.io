@@ -1379,7 +1379,7 @@
     "description": "In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular.",
     "id": "967365850",
     "published": "Jan 17, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -2686,7 +2686,7 @@
     "description": "Instead of listening to an episode of Front End Happy Hour this week, we want to encourage you to use the hour to check out educational materials about the long history of structural racism and injustice Black people continue to face as well as learn how you can be actively anti-racist to affect real change. In our show notes, we’ve provided a list of picks that includes podcasts, videos, books, and articles available for you to learn more. The list of resources will be in the show notes. Simply put, Black lives matter.",
     "id": "834707884",
     "published": "June 5, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "culture"
@@ -5647,7 +5647,7 @@
     "description": "Progressive Web Apps have been hailed as the next big leap forward in building web applications. In this episode we’re joined by Aaron Gustafson from Microsoft to talk all about PWA’s and the future of the web.",
     "id": "514458312",
     "published": "October 14, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "",
     "tags": [
       "pwa",
@@ -6460,7 +6460,7 @@
     "description": "In this episode, we’re joined by the Netflix Software Engineer, Anup Bishnoi to talk with us about the Netflix, open source, virtual JSON graph library, Falcor.",
     "id": "443709084",
     "published": "April 13, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "netflix",
