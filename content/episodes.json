@@ -6861,7 +6861,7 @@
     "description": "In this episode, we’ll be discussing things we’ve noticed in companies that have unhealthy culture, shady business practices, moving business targets and more. We talk about ways to avoid an unhealthy culture and how to help improve one.",
     "id": "401747517",
     "published": "February 18, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "culture",
@@ -7953,7 +7953,7 @@
     "description": "There’s always a lot to be done, but having a good work life balance is extremely important. In this episode, we are joined by Sarah Showers from LinkedIn, to talk with us about work life balance. We share our thoughts on what work life balance means to us and how our companies help foster a healthy work life balance.",
     "id": "342280992",
     "published": "September 13, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "jobs",
@@ -8035,7 +8035,7 @@
     "description": "Maintaining and scaling code is an important aspect of our careers. In this episode, we discuss and share ideas to help keep a healthy code base that will scale with your company.",
     "id": "339805012",
     "published": "August 27, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "code",
@@ -8444,7 +8444,7 @@
     "description": "In this episode, we’re joined by Stefan Stumpfl, a mobile software engineer at LinkedIn working on LinkedIn Learning. During the past 5 years as an iOS developer, he has experience ranging from building his own app on a small 2-person team to larger teams like his current role at LinkedIn. In this episode, we will discuss the Swift programming language – how it compares to languages like Javascript and some of the advantages and disadvantages to writing and learning it.",
     "id": "335464434",
     "published": "July 30, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "swift",
