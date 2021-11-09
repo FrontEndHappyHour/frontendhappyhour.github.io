@@ -8199,7 +8199,7 @@
     "description": "In this episode, we’re joined by Naoufal Kadhom, a Software Engineer from Netflix who’s also just released a payment library for React Native. In the episode, we’ll be discussing React Native and what it’s like to leverage it for Android and iOS applications.",
     "id": "337930501",
     "published": "August 14, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "react",
