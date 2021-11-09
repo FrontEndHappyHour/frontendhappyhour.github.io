@@ -5767,7 +5767,7 @@
     "description": "Static type systems in JavaScript provide a lot of value and have been growing in popularity. In this episode, we’re joined by Lauren Tan and Kunal Bohra to talk with us about the benefits of leveraging a type system in your codebase.",
     "id": "500982759",
     "published": "September 16, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "type",
@@ -5867,7 +5867,7 @@
     "description": "We’ve had a lot of great recruiting discussions on previous episodes. In this episode, we’re joined by 3 recruiters, Matt Stephenson, Zack Skelly, and Chris Ahsing from 3 different startups to talk with us about how to stand out as an engineer, and what questions to ask recruiters about opportunities.",
     "id": "494442459",
     "published": "September 2, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "recruiting",
@@ -6016,7 +6016,7 @@
     "description": "In this episode, we share our thoughts on IoT and smart devices in the home. We also talk about how JavaScript can be used to create your own smart devices. To talk with us about the smart devices, we’re joined by our guest, Sarah Showers from LinkedIn.",
     "id": "481659207",
     "published": "August 5, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "iot",
@@ -6102,7 +6102,7 @@
     "description": "In this episode, we talk with Ravi Srinivas and Erick Purino from Netflix to share how they are leveraging Web Components to create dynamic advertisements across the web.",
     "id": "475383849",
     "published": "July 22, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "web",
@@ -6171,7 +6171,7 @@
     "description": "The front end ecosystem of build tooling continues to grow and become more powerful over the years. In this episode, we’re joined by Jamie Kyle and Maia Teegarden to talk with us about the power of build tools.",
     "id": "469190895",
     "published": "July 8, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "tooling",
