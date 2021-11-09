@@ -5952,7 +5952,7 @@
     "description": "In this episode, we’ll be discussing JavaScript libraries. We talk about when to use a library and when it might not be that practical.",
     "id": "487865586",
     "published": "August 19, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "javascript",
@@ -6246,7 +6246,7 @@
     "description": "In this episode, we are joined by Shirley Wu and Brian Holt to talk with us about the various experiences we’ve had with startups, large companies, agencies, and freelance work.",
     "id": "463065417",
     "published": "June 24, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "companies",
@@ -6343,7 +6343,7 @@
     "description": "In our previous episode, we talked about user testing and to better understand how a product or application resonates with users. In this episode, we’re joined by Lisa Burgess to help talk with us about another great way to get user feedback, A/B testing.",
     "id": "456691359",
     "published": "June 10, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "ab",
@@ -6408,7 +6408,7 @@
     "description": "A lot of the work we do impacts the people using the product or application we’ve made and it’s important to understand how our users resonate with the products we create. A great way to better understand what works for a user is by doing user testing. In this episode, we’ll be discussing user testing.",
     "id": "450238047",
     "published": "May 28, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "testing",
