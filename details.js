@@ -16,6 +16,7 @@ let augustus = 0;
 let mars = 0;
 let sarah = 0;
 let stacy = 0;
+let notTranscribed;
 
 Object.keys(episodes).forEach(function(key) {
   const cat = episodes[key].category;
@@ -38,6 +39,7 @@ Object.keys(episodes).forEach(function(key) {
   numGuests = numGuests + guests.length;
   pickNum = pickNum + picks.length;
   linkNum = linkNum + links.length;
+  notTranscribed = epNum - transcript;
 
   Object.keys(panelists).forEach(function(key) {
     if(panelists[key] === 'Ryan Burgess') {
@@ -70,6 +72,7 @@ const details = {
   'links': linkNum,
   'guests': numGuests,
   'transcribed': transcript,
+  'NotTranscribed': notTranscribed,
   'panel': [
     {
       'name': 'Ryan Burgess',
