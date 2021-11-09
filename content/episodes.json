@@ -1538,7 +1538,7 @@
     "description": "In our last episode, we talked about leaving a job, and one of those reasons for leaving was due to a bad manager. In this episode, we follow up our discussion on what makes a good manager.",
     "id": "951546076",
     "published": "December 20, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "leader",
@@ -1630,7 +1630,7 @@
     "description": "We’ve all decided at one point or another that it’s time to look for a new job. In this episode, we talk through reasons that lead to us looking for new opportunities in our past jobs.",
     "id": "938131636",
     "published": "November 29, 2020",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "career",
@@ -3840,7 +3840,7 @@
     "description": "In this episode, we are joined by Sarah Drasner and Gift Egwuenu to talk with us about the popular JavaScript framework, VueJS.",
     "id": "718068676",
     "published": "November 24, 2019",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "vue",
@@ -5743,7 +5743,7 @@
     "description": "In this episode, we recorded a special live discussion on ethics in software development. The panel discussion was part of Certified Fresh Events with host Brian Rinaldi.",
     "id": "507681750",
     "published": "September 30, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "ethics",

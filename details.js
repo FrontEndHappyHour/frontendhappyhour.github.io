@@ -1,4 +1,5 @@
 'use strict';
+const { entriesIn } = require('lodash');
 const episodes = require('./content/episodes.json');
 let soft = 0;
 let tech = 0;
@@ -25,6 +26,7 @@ Object.keys(episodes).forEach(function(key) {
   const links = episodes[key].links;
   const panelists = episodes[key].panel;
   const transcribed = episodes[key].transcribed;
+  const episodeNum = episodes[key].episode;
   epNum++;
   if(cat === 'soft') {
     soft++;
@@ -35,6 +37,8 @@ Object.keys(episodes).forEach(function(key) {
   //count transcribed episodes
   if(transcribed === true) {
     transcript++;
+  }else {
+    console.log(episodeNum)
   }
   numGuests = numGuests + guests.length;
   pickNum = pickNum + picks.length;
