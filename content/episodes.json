@@ -11568,7 +11568,7 @@
     "description": "Writing CSS seems pretty straight forward until your project and team starts to grow. CSS has a lot of issues, in this episode we share some advice for making it a little bit easier. We’ll also discuss ways to create a scalable CSS architecture for large projects and teams.",
     "id": "298297820",
     "published": "December 16, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -11800,7 +11800,7 @@
     "description": "Have you had to deal with supporting more than one language in your web application? Offering content in several languages makes a better experience for your users but it can add many layers of complexity in your application’s design and architecture. In this episode we’ll be discussing the ways we have dealt with supporting multiple languages.",
     "id": "296456619",
     "published": "December 5, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -11913,7 +11913,7 @@
     "description": "We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.",
     "id": "294014341",
     "published": "November 20, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [

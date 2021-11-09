@@ -1,98 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Wasted on workflows - Front End Happy Hour</title>
-                  <meta name="description" content="We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/wasted-on-workflows.jpeg" /> <meta
-                    property="og:description" content="We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful." />
-                    <meta property="og:title" content="Wasted on workflows - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful." />
-                    <meta property="twitter:title" content="Wasted on workflows - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/wasted-on-workflows">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Wasted on workflows</h2>
-                  <div class="container"><p>Published November 20, 2016</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294014341&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>We are lost without our tools. In this episode, we share the tools and applications we can’t live without. We discuss what development environments we use and plugins we find useful.</p></div><div class="links picks container">
-          <h3>Items mentioned in the episode</h3>
-          <p><a href="https://www.apple.com/macos" target="_blank">MacOS</a>, <a href="https://www.microsoft.com/en-us/windows-10" target="_blank">Windows</a>, <a href="https://www.ubuntu.com/" target="_blank">Ubuntu</a>, <a href="https://www.microsoft.com/net" target="_blank">.NET</a>, <a href="https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx" target="_blank">C#</a>, <a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a>, <a href="https://www.sublimetext.com/3dev" target="_blank">Sublime Text dev channel (nightly/monthly builds)</a>, <a href="https://emacsformacosx.com/" target="_blank">Emacs</a>, <a href="https://atom.io/" target="_blank">Atom</a>, <a href="https://www.vim.org/" target="_blank">Vim</a>, <a href="https://eclipse.org/" target="_blank">Eclipse</a>, <a href="https://code.visualstudio.com/" target="_blank">Visual Code</a>, <a href="https://macromates.com/" target="_blank">TextMate</a>, <a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a>, <a href="https://www.adobe.com/products/dreamweaver.html" target="_blank">Dreamweaver</a>, <a href="https://www.iterm2.com/" target="_blank">iTerm</a>, <a href="https://www.youtube.com/watch?v=ZLhvEfiOADk" target="_blank">Apple Time Machine backup</a>, <a href="https://www.kaleidoscopeapp.com/" target="_blank">Kaleidoscope</a>, <a href="https://1password.com/" target="_blank">1Password</a>, <a href="https://www.dropbox.com/" target="_blank">Dropbox</a>, <a href="https://trello.com/" target="_blank">Trello</a>, <a href="https://www.google.com/chrome/" target="_blank">Chrome</a>, <a href="https://www.mozilla.org/firefox" target="_blank">Firefox</a>, <a href="https://lastpass.com" target="_blank">LastPass</a>, <a href="https://support.apple.com/downloads/#safari" target="_blank">Safari</a>, <a href="https://brew.sh/" target="_blank">Homebrew</a>, <a href="https://nodejs.org" target="_blank">Node JS</a>, <a href="https://github.com/creationix/nvm" target="_blank">nvm</a>, <a href="https://www.browserstack.com/" target="_blank">Browser Stack</a>, <a href="https://www.alfredapp.com/" target="_blank">Alfred</a>, <a href="https://www.macbartender.com/" target="_blank">Bartender</a>, <a href="https://www.charlesproxy.com/" target="_blank">Charles Proxy</a>, <a href="https://www.screenyapp.com/" target="_blank">Screeny</a>, <a href="https://evernote.com/skitch/" target="_blank">Skitch</a>, <a href="https://evernote.com" target="_blank">Evernote</a>, <a href="https://www.eclipse.org/" target="_blank">Eclipse</a>, <a href="https://github.com/roadhump/SublimeLinter-eslint" target="_blank">Eslint</a>, <a href="https://github.com/Warin/Sublime/tree/master/DocBlockr" target="_blank">Sublime DocBlockr</a>, <a href="https://emmet.io/" target="_blank">Emmet</a>, <a href="https://github.com/jisaacks/GitGutter" target="_blank">GitGutter (Sublime)</a>, <a href="https://github.com/ehamiter/GitHubinator" target="_blank">GitHubinator (Sublime)</a>, <a href="https://github.com/scrooloose/nerdtree" target="_blank">NERD tree (Vim)</a>, <a href="https://lesscss.org/" target="_blank">Less</a>, <a href="https://sass-lang.com/" target="_blank">Sass</a>, <a href="https://nightly.mozilla.org/" target="_blank">Firefox Nightly</a>, <a href="https://jira.atlassian.com" target="_blank">JIRA</a>, <a href="https://slack.com/" target="_blank">Slack</a>, <a href="https://www.hipchat.com/" target="_blank">HipChat</a>, <a href="https://www.yammer.com/" target="_blank">Yammer</a>, <a href="https://workplace.fb.com/" target="_blank">Workplace by Facebook</a>, <a href="https://products.office.com/en-us/microsoft-teams/group-chat-software" target="_blank">Microsoft Teams</a>, <a href="https://www.amazon.com/gp/product/B019O78DPS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B019O78DPS&linkCode=as2&tag=frontendhappy-20&linkId=487affb8bad849b0918b4b79e433b03e" target="_blank">LG 34 inch curved monitor</a>, <a href="https://www.apple.com/watch" target="_blank">Apple Watch</a>, <a href="https://www.amazon.com/gp/product/B002IYRBI0/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B002IYRBI0&linkCode=as2&tag=frontendhappy-20&linkId=12d5d8ce79364e07d3a2b65d4fb1d815" target="_blank">Treadmill Desk</a>, <a href="https://www.fitbit.com/" target="_blank">Fitbit</a></p>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://reptar.github.io/" target="_blank">Reptar</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.hulu.com/start/?show=chance" target="_blank">Chance</a> - Ryan Burgess
-      </li><li>
-      <a href="https://sidbala.com/h-264-is-magic/" target="_blank">H.264 is magic</a> - Jem Young
-      </li><li>
-      <a href="https://twitter.com/dog_rates" target="_blank">We Rate Dogs</a> - Jem Young
-      </li><li>
-      <a href="https://facebook.github.io/jest/" target="_blank">Jest</a> - Brian Holt
-      </li><li>
-      <a href="https://play.spotify.com/artist/0oeUpvxWsC8bWS6SnpU8b9" target="_blank">The Naked and Famous - Simple Forms</a> - Brian Holt
-      </li><li>
-      <a href="https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html" target="_blank">Bose ear buds</a> - Mars Jullian
-      </li><li>
-      <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi" target="_blank">React Devtools</a> - Mars Jullian
-      </li><li>
-      <a href="https://play.spotify.com/track/60PbWX0IWXg10YaE6VlywH" target="_blank">Jolene - collaboration with Dolly Parton and Pentatonix</a> - Mars Jullian
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/brian-holt"><img src="../../public/img/panel/holtbt.jpg" alt="Brian Holt profile picture" /></a>
-      <span class="name">Brian Holt</span>
-      <a href="https://twitter.com/holtbt" class="twitter">@holtbt</a>
-      </li><li><a href="/panelists/mars-jullian"><img src="../../public/img/panel/marsjosephine.jpg" alt="Mars Jullian profile picture" /></a>
-      <span class="name">Mars Jullian</span>
-      <a href="https://twitter.com/marsjosephine" class="twitter">@marsjosephine</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to the 20th episode of the front end, Happy Hour podcast, we have had quite a few requests to talk about our development environments. So in this episode, we'll be talking about what we use and the tools that we find useful in our daily work lives. I'd also like to make an announcement that we've just launched a new run of the front end, Happy Hour T shirts, they are available now to purchase just head over at front end, Happy hour.com/shirts. The shirts turned out really well. They're extremely comfortable, so make sure to get them before they run out. Before we get started, let's go around the table and give a brief introduction of today's panelists. Brian, you want to start?
@@ -1000,21 +908,6 @@ I am also on Twitter. I don't tweet as much as all of these guys here, but it's 
 All right, and I'm gonna start tweeting her until she responds. And I'm Burgess de Ryan on Twitter. Thank you all for listening today's episode, make sure to rate us on iTunes and Google Play and subscribe to the front end happier podcasts on whatever podcast catcher you choose. Follow us on Twitter on frontend hh and tell us about your favorite tools and Dev environments. We'd love to hear from you. Productive cheers
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
