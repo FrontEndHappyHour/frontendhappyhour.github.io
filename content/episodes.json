@@ -9182,7 +9182,7 @@
     "description": "In this episode, we’re joined by Jyri Tuulos and Josh London to help discuss reusable components and building style guides. Jyri is a Staff Engineer at AdRoll and Josh is a Senior Designer at Netflix. We discuss best practices companies are leveraging style guides and reusable components. We also share the positives and negatives to having a style guide.",
     "id": "325998461",
     "published": "June 4, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -9633,7 +9633,7 @@
     "description": "In this episode, we are joined by Trey Shugart who is a front-end developer (Principal Developer) at Atlassian, proponent of web components, and author of SkateJS to talk about Web Components.",
     "id": "321504894",
     "published": "May 7, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -9845,7 +9845,7 @@
     "description": "What’s it like to deal with Imposter Syndrome? In this episode, we are joined by Jessica Grist, a Software Engineer at Adroll to discuss how we’ve all experience Imposter Syndrome in our careers and share ways to help deal with it.",
     "id": "319131503",
     "published": "April 23, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [],
     "panel": [

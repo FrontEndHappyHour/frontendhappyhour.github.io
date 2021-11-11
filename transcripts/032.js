@@ -1,107 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Imposter Syndrome - These are not the drinks you're looking for - Front End Happy Hour</title>
-                  <meta name="description" content="What’s it like to deal with Imposter Syndrome? In this episode, we are joined by Jessica Grist, a Software Engineer at Adroll to discuss how we’ve all experience Imposter Syndrome in our careers and share ways to help deal with it.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/imposter-syndrome-these-are-not-the-drinks-youre-looking-for.jpeg" /> <meta
-                    property="og:description" content="What’s it like to deal with Imposter Syndrome? In this episode, we are joined by Jessica Grist, a Software Engineer at Adroll to discuss how we’ve all experience Imposter Syndrome in our careers and share ways to help deal with it." />
-                    <meta property="og:title" content="Imposter Syndrome - These are not the drinks you're looking for - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="What’s it like to deal with Imposter Syndrome? In this episode, we are joined by Jessica Grist, a Software Engineer at Adroll to discuss how we’ve all experience Imposter Syndrome in our careers and share ways to help deal with it." />
-                    <meta property="twitter:title" content="Imposter Syndrome - These are not the drinks you're looking for - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/imposter-syndrome-these-are-not-the-drinks-youre-looking-for">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Imposter Syndrome - These are not the drinks you're looking for</h2>
-                  <div class="container"><p>Published April 23, 2017</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319131503&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>What’s it like to deal with Imposter Syndrome? In this episode, we are joined by Jessica Grist, a Software Engineer at Adroll to discuss how we’ve all experience Imposter Syndrome in our careers and share ways to help deal with it.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/thehackstress.jpg" alt="Jessica Grist profile picture"><div><a href="https://twitter.com/thehackstress">Jessica Grist</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.missedinhistory.com/" target="_blank">Stuff You Missed in History Class</a> - Jessica Grist
-      </li><li>
-      <a href="https://www.youtube.com/playlist?list=PLb0IAmt7-GS3fZ46IGFirdqKTIxlws7e0" target="_blank">React Conf 2017 videos</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.netflix.com/title/80002612" target="_blank">Iron Fist</a> - Ryan Burgess
-      </li><li>
-      <a href="https://emberconf.com/" target="_blank">Ember Conf 2017</a> - Derrick Showers
-      </li><li>
-      <a href="https://codepen.io/pro/projects" target="_blank">Codepen Projects</a> - Derrick Showers
-      </li><li>
-      <a href="https://drafthouse.com" target="_blank">Alamo Drafthouse</a> - Derrick Showers
-      </li><li>
-      <a href="https://frontendmasters.com/courses/full-stack/" target="_blank">Full Stack for Front End Engineers</a> - Brian Holt
-      </li><li>
-      <a href="https://nordicjs.com/" target="_blank">Nordic JS</a> - Mars Jullian
-      </li><li>
-      <a href="https://www.npr.org/podcasts/510313/how-i-built-this" target="_blank">How I Built This</a> - Mars Jullian
-      </li><li>
-      <a href="https://glitch.com/" target="_blank">Glitch</a> - Stacy London
-      </li><li>
-      <a href="https://play.spotify.com/track/5cdREWsCkB3G0Zulvt6DGk" target="_blank">Empty Promise by Butane</a> - Stacy London
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li><li><a href="/panelists/derrick-showers"><img src="../../public/img/derrick.jpg" alt="Derrick Showers profile picture" /></a>
-      <span class="name">Derrick Showers</span>
-      <a href="https://twitter.com/derrickshowers" class="twitter">@derrickshowers</a>
-      </li><li><a href="/panelists/brian-holt"><img src="../../public/img/panel/holtbt.jpg" alt="Brian Holt profile picture" /></a>
-      <span class="name">Brian Holt</span>
-      <a href="https://twitter.com/holtbt" class="twitter">@holtbt</a>
-      </li><li><a href="/panelists/mars-jullian"><img src="../../public/img/panel/marsjosephine.jpg" alt="Mars Jullian profile picture" /></a>
-      <span class="name">Mars Jullian</span>
-      <a href="https://twitter.com/marsjosephine" class="twitter">@marsjosephine</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to a new episode of Front End happy hour. This is episode 32. And we are joined by Jessica grist, a front end engineer at ad roll to talk to us about imposter syndrome. The term imposter syndrome comes up a lot in our industry, and we thought it'd be a good and interesting topic for us to share our experiences and discuss how we've dealt with it in the past. Jessica, can you give us a brief introduction of who you are, what you do, and what your favorite happier beverages?
@@ -786,21 +685,6 @@ so I do have a Twitter I forced myself to get a Twitter when I switched into eng
 Well thank you all for listening to today's episode. Make sure to follow us on Twitter and Instagram at front N H H. And I'm scared to ask any last words cheers. Cheers.
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
