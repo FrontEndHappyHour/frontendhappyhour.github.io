@@ -1,96 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>First drink at a new bar - Front End Happy Hour</title>
-                  <meta name="description" content="Starting a new job is never easy, but a good onboarding process can make all the difference. In this episode, we talk about our experiences with onboarding at companies we’ve worked at and share our thoughts on what makes a good experience when starting a new job.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/first-drink-at-a-new-bar.jpeg" /> <meta
-                    property="og:description" content="Starting a new job is never easy, but a good onboarding process can make all the difference. In this episode, we talk about our experiences with onboarding at companies we’ve worked at and share our thoughts on what makes a good experience when starting a new job." />
-                    <meta property="og:title" content="First drink at a new bar - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="Starting a new job is never easy, but a good onboarding process can make all the difference. In this episode, we talk about our experiences with onboarding at companies we’ve worked at and share our thoughts on what makes a good experience when starting a new job." />
-                    <meta property="twitter:title" content="First drink at a new bar - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/first-drink-at-a-new-bar">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">First drink at a new bar</h2>
-                  <div class="container"><p>Published June 18, 2017</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/328740369&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>Starting a new job is never easy, but a good onboarding process can make all the difference. In this episode, we talk about our experiences with onboarding at companies we’ve worked at and share our thoughts on what makes a good experience when starting a new job.</p></div><div class="links picks container">
-          <h3>Items mentioned in the episode</h3>
-          <p><a href="https://evernote.com/" target="_blank">Evernote</a>, <a href="https://www.mysql.com/" target="_blank">MySQL</a>, <a href="https://brew.sh/" target="_blank">Brew</a>, <a href="https://tomcat.apache.org/" target="_blank">Tomcat</a>, <a href="https://www.atlassian.com/" target="_blank">Atlassian</a>, <a href="https://www.docker.com/" target="_blank">Docker</a>, <a href="https://en.wikipedia.org/wiki/Reed_Hastings" target="_blank">Reed Hastings</a>, <a href="https://www.java.com/en/" target="_blank">Java</a>, <a href="https://struts.apache.org/" target="_blank">Struts</a>, <a href="https://confluence.atlassian.com/bamboo/stash-590257906.html" target="_blank">Stash</a>, <a href="https://gulpjs.com/" target="_blank">Gulp</a>, <a href="https://www.npmjs.com/" target="_blank">npm</a>, <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>, <a href="https://www.atlassian.com/software/confluence" target="_blank">Confluence</a>, <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a>, <a href="https://www.djangoproject.com/" target="_blank">Django</a>, <a href="https://www.python.org/" target="_blank">Python</a>, <a href="https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/" target="_blank">Accidently destroyed production database</a></p>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://mastersofscale.com/" target="_blank">Masters of Scale</a> - Ryan Burgess
-      </li><li>
-      <a href="https://itunes.apple.com/us/app/mr-chilly/id933759132?mt=8" target="_blank">Mr. Chilly</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.twitch.tv/stockstream" target="_blank">Stockstream</a> - Augustus Yuan
-      </li><li>
-      <a href="https://scrimba.com/" target="_blank">Scrimba</a> - Augustus Yuan
-      </li><li>
-      <a href="https://play.spotify.com/user/spotify/playlist/37i9dQZF1DWZpxQttCP3Ig" target="_blank">Sam Felt’s House Party Playlist</a> - Ryan Anklam
-      </li><li>
-      <a href="https://yarnpkg.com/blog/2017/05/31/determinism/" target="_blank">Yarn determinism</a> - Ryan Anklam
-      </li><li>
-      <a href="https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660" target="_blank">A Unified Styling Language</a> - Stacy London
-      </li><li>
-      <a href="https://play.spotify.com/track/0TQpy8pYB3jPYaxTRnW5O6" target="_blank">Outgoing Society by Shed</a> - Stacy London
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li><li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
-      <span class="name">Augustus Yuan</span>
-      <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
-      </li><li><a href="/panelists/ryan-anklam"><img src="../../public/img/ryan.jpg" alt="Ryan Anklam profile picture" /></a>
-      <span class="name">Ryan Anklam</span>
-      <a href="https://twitter.com/bittersweetryan" class="twitter">@bittersweetryan</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Hello everyone and welcome to episode 36 of the front end Happy Hour podcast at some point or another, we all have to start a new job. It's never easy but having a good onboarding process can make the world of a difference. In this episode, we'll be talking about our experiences with onboarding processes and talk about things that we've found helpful. Let's go around the table and give brief introductions to the episodes panelists, Augustus you want to start it off?
@@ -748,21 +658,6 @@ I think one of the onboarding things we should kind of make up is put everyone i
 Someday we'll explain this in show fingers
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
