@@ -6649,7 +6649,7 @@
     "description": "In this episode, we are joined by Richard Feldman to talk about the functional language Elm, which compiles to JavaScript. In the episode, we learn about the benefits to leveraging Elm and how to get started.",
     "id": "423376479",
     "published": "April 1, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "elm"
@@ -10026,7 +10026,7 @@
     "description": "Websites have gotten a lot more complicated over the years. What happened to static HTML? In this episode we’re joined by Harry Wolff, the creator of Reptar, to talk about leveraging build tools to create static generated sites. We talk about the pros and cons of leveraging a static site generator for a website. We also discuss some of the tools available to help you get started.",
     "id": "314267346",
     "published": "March 24, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -10309,7 +10309,7 @@
     "description": "In this episode, we’re joined by our special guest, Ayşegül Yönet, a Software Engineer Autodesk, who will help us discuss the popular Google JavaScript framework Angular. In the episode, we discuss the benefits of leveraging Angular and what the major differences are from Angular 1 and Angular 2.",
     "id": "312085888",
     "published": "March 12, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
