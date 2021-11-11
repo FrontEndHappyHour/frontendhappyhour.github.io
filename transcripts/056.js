@@ -1,72 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Drink-a-thon onstage at Reactathon - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode, we were live on stage at Reactathon conference in San Francisco discussing how to scale a React application. We share our thoughts on to best approaches to creating a good structure for your codebase at scale. We also share our experiences we’ve learned over the years how to scale our React applications.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/drink-a-thon-onstage-at-reactathon.jpeg" /> <meta
-                    property="og:description" content="In this episode, we were live on stage at Reactathon conference in San Francisco discussing how to scale a React application. We share our thoughts on to best approaches to creating a good structure for your codebase at scale. We also share our experiences we’ve learned over the years how to scale our React applications." />
-                    <meta property="og:title" content="Drink-a-thon onstage at Reactathon - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="In this episode, we were live on stage at Reactathon conference in San Francisco discussing how to scale a React application. We share our thoughts on to best approaches to creating a good structure for your codebase at scale. We also share our experiences we’ve learned over the years how to scale our React applications." />
-                    <meta property="twitter:title" content="Drink-a-thon onstage at Reactathon - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/drink-a-thon-onstage-at-reactathon">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Drink-a-thon onstage at Reactathon</h2>
-                  <div class="container"><p>Published April 29, 2018</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/436927488&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode, we were live on stage at Reactathon conference in San Francisco discussing how to scale a React application. We share our thoughts on to best approaches to creating a good structure for your codebase at scale. We also share our experiences we’ve learned over the years how to scale our React applications.</p></div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li><li><a href="/panelists/derrick-showers"><img src="../../public/img/derrick.jpg" alt="Derrick Showers profile picture" /></a>
-      <span class="name">Derrick Showers</span>
-      <a href="https://twitter.com/derrickshowers" class="twitter">@derrickshowers</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 So how many of you have listened to the front end? Happy Hour podcast? Great. So some of the familiar listeners Great. See, what we do is we talk about front end while drinking. So a series of topics and we all sit around and have drinks. That's what we're gonna do on stage. Today what we decided for React AThon. We obviously want to talk about Angular. Right? That makes sense. No, we're obviously talking about React, figured we talk about React at scale. Before we get started, like to go around, give introductions of today's panelists. Jem, you want to give an introduction?
@@ -366,21 +300,6 @@ I'm Derek showers on Twitter.
 I'm at Burgess de Ryan on Twitter. I like the dog pictures, but you can also send me some tattoo photos. If you have tattoos. Javon will send you stickers so I'll do the same if I get some photos. So that would be a good way their eyes are coming out. Bribes are coming out. Well, thank you all for listening. You're wanting to listen to us. Check out front end happy hour.com We're on Twitter as well at front end H H. Fall you know subscribe to us on whatever podcast Test catcher that you like to listen to and I want to thank react react AThon for having us out here we really enjoyed being out here it's been a great conference so thank you so much and thanks for listening thank you thank you
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };

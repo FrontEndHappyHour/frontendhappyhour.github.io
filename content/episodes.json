@@ -6540,7 +6540,7 @@
     "description": "In this episode, we were live on stage at Reactathon conference in San Francisco discussing how to scale a React application. We share our thoughts on to best approaches to creating a good structure for your codebase at scale. We also share our experiences we’ve learned over the years how to scale our React applications.",
     "id": "436927488",
     "published": "April 29, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "reactathon",
@@ -6727,7 +6727,7 @@
     "description": "In this episode, we recorded live at SacJS event in Sacramento, California. On stage, we discuss the challenges of migrating a codebase and when to make the decision its the right time to refactor. We share lessons we’ve learned from past experiences.",
     "id": "415581447",
     "published": "March 18, 2018",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "scale",
@@ -7568,7 +7568,7 @@
     "description": "In this episode of the Front End Happy Hour podcast, we discuss how as front end engineers we can impact security vulnerabilities in the applications and websites we are creating.",
     "id": "355654436",
     "published": "November 14, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [
       "security",
@@ -7636,7 +7636,7 @@
     "description": "In a previous episode, we discussed working with a recruiter during a job interview process. In this episode, we’re joined by Netflix recruiter, Bianca Bortolussi to discuss ways to help your engineering profile stand out to recruiters and hiring managers.",
     "id": "349214382",
     "published": "October 29, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "recruiting",

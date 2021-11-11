@@ -1,95 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Locking down the liquor - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode of the Front End Happy Hour podcast, we discuss how as front end engineers we can impact security vulnerabilities in the applications and websites we are creating.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/locking-down-the-liquor.jpeg" /> <meta
-                    property="og:description" content="In this episode of the Front End Happy Hour podcast, we discuss how as front end engineers we can impact security vulnerabilities in the applications and websites we are creating." />
-                    <meta property="og:title" content="Locking down the liquor - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="In this episode of the Front End Happy Hour podcast, we discuss how as front end engineers we can impact security vulnerabilities in the applications and websites we are creating." />
-                    <meta property="twitter:title" content="Locking down the liquor - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/locking-down-the-liquor">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Locking down the liquor</h2>
-                  <div class="container"><p>Published November 14, 2017</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/355654436&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode of the Front End Happy Hour podcast, we discuss how as front end engineers we can impact security vulnerabilities in the applications and websites we are creating.</p></div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://github.com/ryanburgess/engineer-manager" target="_blank">Engineer Manager Resources</a> - Ryan Burgess
-      </li><li>
-      <a href="https://youtu.be/V8oTJ8OZ5S0?t=9m50s" target="_blank">Netflix JavaScript Talks - Building Performant Signup Flows in React</a> - Ryan Burgess
-      </li><li>
-      <a href="https://github.com/GoogleChrome/puppeteer" target="_blank">Puppeteer</a> - Jem Young
-      </li><li>
-      <a href="https://www.netflix.com/title/80057281" target="_blank">Stranger Things</a> - Jem Young
-      </li><li>
-      <a href="https://certbot.eff.org/" target="_blank">Certbot</a> - Derrick Showers
-      </li><li>
-      <a href="https://www.airbnb.com/experiences" target="_blank">Airbnb Experiences</a> - Derrick Showers
-      </li><li>
-      <a href="https://dripdrop.com/" target="_blank">DripDrop</a> - Derrick Showers
-      </li><li>
-      <a href="https://www.tripadvisor.com/Tourism-g189158-Lisbon_Lisbon_District_Central_Portugal-Vacations.html" target="_blank">Lisbon, Portugal</a> - Stacy London
-      </li><li>
-      <a href="https://www.amazon.com/gp/product/006229590X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=006229590X&linkCode=as2&tag=frontendhappy-20&linkId=57605bd62405de7dd904f495cdbc16c6" target="_blank">Girl in a Band by Kim Gordon</a> - Stacy London
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li><li><a href="/panelists/derrick-showers"><img src="../../public/img/derrick.jpg" alt="Derrick Showers profile picture" /></a>
-      <span class="name">Derrick Showers</span>
-      <a href="https://twitter.com/derrickshowers" class="twitter">@derrickshowers</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to another brand new episode of Front End happy hour. This is episode 46. And we'll be talking about security from a front end engineers perspective. Let's go around the table and give brief introductions of today's panelists. Stacy want to start off?
@@ -787,21 +698,6 @@ vulnerability
 cheer
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
