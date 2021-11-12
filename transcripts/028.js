@@ -96,7 +96,7 @@ I had a small one small course in college, but this was like the early days of t
 </p>
 <p><strong>Gordon Zhu</strong><br />
 So I learned JavaScript in a in a way I don't recommend anyone go about but I learned through building Angular applications. So when I started doing Angular, is that my first programming job? I didn't know JavaScript at that time, because I learned through Python and Java previously. And so I just would look at weird stuff in Angular and be like, what is that and then just the process repetitively finally figured things out? Just super painful, and I don't recommend doing it that way. But a couple books that I think I remember just the struggle of trying to find a good a good resource
-
+ 
 resource.
 
 </p>
@@ -493,11 +493,11 @@ Sure. I think I'm gonna pick a conference, if anyone's looking for workshop or a
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
-Are you speaking?
+Are you speaking? Yes.
 
 </p>
 <p><strong>Brian Holt</strong><br />
-Yes. Let's rephrase that. Mars is speaking. Yeah, I'm
+Let's rephrase that. Mars is speaking. Yeah, I'm
 
 </p>
 <p><strong>Mars Jullian</strong><br />
@@ -574,8 +574,6 @@ Thank you for the podcast. It's awesome. Great.
 </p>
 <p><strong>Ryan Burgess</strong><br />
 Yeah, I know Louise, you've listened to it for a while.
-
- 
 So I'm a fan.
 
 </p>
