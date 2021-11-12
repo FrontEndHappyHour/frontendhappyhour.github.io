@@ -1,105 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Scotch makes us animated - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/scotch-makes-us-animated.jpeg" /> <meta
-                    property="og:description" content="In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information." />
-                    <meta property="og:title" content="Scotch makes us animated - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information." />
-                    <meta property="twitter:title" content="Scotch makes us animated - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/scotch-makes-us-animated">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Scotch makes us animated</h2>
-                  <div class="container"><p>Published June 6, 2016</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/267920775&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/sarah_edo.jpg" alt="Sarah Drasner profile picture"><div><a href="https://twitter.com/sarah_edo">Sarah Drasner</a></div></li>
-          </ul>
-          </div><div class="links picks container">
-          <h3>Items mentioned in the episode</h3>
-          <p><a href="https://onlycoin.com/" target="_blank">Coin</a>, <a href="https://greensock.com/" target="_blank">GreenSock</a>, <a href="https://css-tricks.com/weighing-svg-animation-techniques-benchmarks/" target="_blank">Weighing SVG Animation Techniques (with Benchmarks)</a>, <a href="https://www.apple.com/mac-pro/" target="_blank">Mac Pro parallax</a>, <a href="https://mojs.io/" target="_blank">Mo.js</a>, <a href="https://legomushroom.com/" target="_blank">Lego Mushroom</a>, <a href="https://snapsvg.io/" target="_blank">SnapSvg</a>, <a href="https://d3js.org/" target="_blank">D3</a>, <a href="https://twitter.com/sarasoueidan" target="_blank">Sara Soueidan</a>, <a href="https://github.com/chenglou/react-motion" target="_blank">React Motion</a>, <a href="https://codepen.io/sdras/" target="_blank">Sarah Drasner's CodePen</a>, <a href="https://framerjs.com/" target="_blank">Framer JS</a>, <a href="https://reactjs-training.com/" target="_blank">React Training</a>, <a href="https://css-tricks.com/comparison-animation-technologies/" target="_blank">A Comparison of Animation Technologies</a>, <a href="https://jakearchibald.github.io/svgomg/" target="_blank">SVGOMG</a>, <a href="https://github.com/svg/svgo" target="_blank">SVGO</a>, <a href="https://icomoon.io/" target="_blank">IcoMoon</a></p>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://twitter.com/vlh" target="_blank">Val Head's book</a> - Sarah Drasner
-      </li><li>
-      <a href="https://valiocon.com/" target="_blank">Valio Con</a> - Sarah Drasner
-      </li><li>
-      <a href="https://www.sleepnomore.com/" target="_blank">Sleep no more</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.kpcb.com/internet-trends" target="_blank">Internet trends 2016</a> - Ryan Burgess
-      </li><li>
-      <a href="https://jankfree.org" target="_blank">Jankfree.org</a> - Augustus Yuan
-      </li><li>
-      <a href="https://css-tricks.com/svg-sprites-use-better-icon-fonts/" target="_blank">Icon System with SVG sprites</a> - Augustus Yuan
-      </li><li>
-      <a href="https://www.npmjs.com/package/how2" target="_blank">how2</a> - Derrick Showers
-      </li><li>
-      <a href="https://wercker.com/" target="_blank">Werker</a> - Derrick Showers
-      </li><li>
-      <a href="https://shop.oreilly.com/product/0636920041658.do" target="_blank">Transitions and Animations in CSS</a> - Sarah Federman
-      </li><li>
-      <a href="https://blog.getpebble.com/2016/06/02/ks3u03/" target="_blank">Alexa / Pebble Core integration</a> - Sarah Federman
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
-      <span class="name">Augustus Yuan</span>
-      <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
-      </li><li><a href="/panelists/derrick-showers"><img src="../../public/img/derrick.jpg" alt="Derrick Showers profile picture" /></a>
-      <span class="name">Derrick Showers</span>
-      <a href="https://twitter.com/derrickshowers" class="twitter">@derrickshowers</a>
-      </li><li><a href="/panelists/sarah-federman"><img src="../../public/img/panel/sarah_federman.jpg" alt="Sarah Federman profile picture" /></a>
-      <span class="name">Sarah Federman</span>
-      <a href="https://twitter.com/sarah_federman" class="twitter">@sarah_federman</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to the ninth episode of Front End Happy Hour podcast. In this episode, we're talking about all things animations. We're excited to have a special guest join us today, Sarah Drasner. She's currently a manager at Trulia and known for being an animation expert. Sarah, do you want to give a brief introduction and tell us what your favorite Happy Hour beverages? Yeah. Hi,
@@ -560,21 +461,6 @@ So yeah. Great. Well, we appreciate you sharing all the great knowledge of anima
 Yes, arrows.
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };

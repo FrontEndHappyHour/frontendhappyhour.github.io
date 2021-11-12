@@ -7492,7 +7492,7 @@
     "description": "Often times in our careers we’ve wanted to speak at conferences, meetups or even within our companies. It’s been a great way to share ideas and things we’ve learned. Giving a tech talk isn’t always the easiest thing. In this episode, we’ll be discussing what we’ve learned from our experiences and share advice on ways to help improve your next talk.",
     "id": "361357727",
     "published": "November 26, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "speaking",
@@ -7859,7 +7859,7 @@
     "description": "We all had to start somewhere. In this episode, we are joined by Preethi Kasireddy to talk with us about her and our experiences of being a beginner to coding.",
     "id": "344904722",
     "published": "October 1, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "jobs",
@@ -10695,7 +10695,7 @@
     "description": "Rust is an exciting systems programming language that’s being developed in Mozilla. In this episode, we’re joined by Jafar Husain to talk about the Rust and what the benefits of leveraging a language like Rust. We also talk about why a JavaScript engineer would want to learn Rust and how it can help them in their JavaScript coding.",
     "id": "307994303",
     "published": "February 15, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -10786,7 +10786,7 @@
     "description": "In this episode, we’re joined by Julie Horvath, a Design Lead at Apple to help us talk about design. We discuss ways to help improve the collaboration between designers and frontend developers. Julie shares her perspective on building great user experiences for low-bandwidth internet speeds and how taking a progressive enhancement approach can be beneficial to the user.",
     "id": "306587453",
     "published": "February 7, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -11008,7 +11008,7 @@
     "description": "We’ve all started out somewhere in our career. In previous episodes, we’ve talked about various ways we’ve learned front end development, but haven’t touched on mentorship. In this episode, Sarah Showers joins us in the conversation about starting out as a junior developer and how mentors helped shape us into senior developers.",
     "id": "304404109",
     "published": "January 24, 2017",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [],
     "panel": [
@@ -11360,7 +11360,7 @@
     "description": "Ember is a growing JavaScript framework that large companies like LinkedIn are using for their web application. In this episode, we are joined by Stacy London from Atlassian to discuss the advantages and disadvantages of leveraging Ember as a JavaScript framework.",
     "id": "300261378",
     "published": "December 30, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -13557,7 +13557,7 @@
     "description": "In this episode we learn about animating with JavaScript. We’re joined by a special guest, Sarah Drasner, who is an expert in JavaScript and SVG animations. Having good animations in your product is really important for the overall user experience. In the episode we discuss various libraries to help create animations in your websites or applications. Sarah shares a lot of valuable information.",
     "id": "267920775",
     "published": "June 6, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [
@@ -14082,7 +14082,7 @@
     "description": "In order to work professionally as a front end developer, there is always an intense interview process. In this episode, we share our experiences and thoughts on the interviews we’ve done in the past. Not only have we had experience being interviewed, we’ve also had a lot of experience interviewing other engineers for jobs at our companies. We share things we’re looking for when we interview candidates to join our teams.",
     "id": "259108189",
     "published": "April 14, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [],
     "panel": [

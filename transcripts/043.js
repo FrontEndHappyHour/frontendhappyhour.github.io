@@ -1,105 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Our first drink - Front End Happy Hour</title>
-                  <meta name="description" content="We all had to start somewhere. In this episode, we are joined by Preethi Kasireddy to talk with us about her and our experiences of being a beginner to coding.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/our-first-drink.jpeg" /> <meta
-                    property="og:description" content="We all had to start somewhere. In this episode, we are joined by Preethi Kasireddy to talk with us about her and our experiences of being a beginner to coding." />
-                    <meta property="og:title" content="Our first drink - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="We all had to start somewhere. In this episode, we are joined by Preethi Kasireddy to talk with us about her and our experiences of being a beginner to coding." />
-                    <meta property="twitter:title" content="Our first drink - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/our-first-drink">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Our first drink</h2>
-                  <div class="container"><p>Published October 1, 2017</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/344904722&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>We all had to start somewhere. In this episode, we are joined by Preethi Kasireddy to talk with us about her and our experiences of being a beginner to coding.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/iam_preethi.jpg" alt="Preethi Kasireddy profile picture"><div><a href="https://twitter.com/iam_preethi">Preethi Kasireddy</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://frontendhappyhour.com" target="_blank">Front End Happy Hour</a> - Preethi Kasireddy
-      </li><li>
-      <a href="https://changelog.com/podcast" target="_blank">Changelog</a> - Preethi Kasireddy
-      </li><li>
-      <a href="https://softwareengineeringdaily.com/" target="_blank">Software Engineering Daily</a> - Preethi Kasireddy
-      </li><li>
-      <a href="https://twitter.com" target="_blank">Twitter</a> - Preethi Kasireddy
-      </li><li>
-      <a href="https://medium.freecodecamp.org/?gi=71f00401e3b8" target="_blank">freeCodeCamp</a> - Preethi Kasireddy
-      </li><li>
-      <a href="https://www.youtube.com/watch?v=maykR0aVsj8" target="_blank">We All Started Somewhere - Preethi Kasireddy - React Rally</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.netflix.com/title/70299287" target="_blank">Fed Up</a> - Ryan Burgess
-      </li><li>
-      <a href="https://docs.cs50.net/2017/fall/syllabus/cs50.html" target="_blank">CS50</a> - Derrick Showers
-      </li><li>
-      <a href="https://www.shiftyjelly.com/pocketcasts/" target="_blank">Pocket Casts</a> - Derrick Showers
-      </li><li>
-      <a href="https://fatalerror.fm/" target="_blank">Fatal Error</a> - Derrick Showers
-      </li><li>
-      <a href="https://frontendmasters.com/" target="_blank">Frontend Masters</a> - Stacy London
-      </li><li>
-      <a href="https://nordicjs.com/" target="_blank">Nordic.js</a> - Stacy London
-      </li><li>
-      <a href="https://twitter.com/stacylondoner/status/907529092496543744" target="_blank">Fjords near Flåm in Norway</a> - Stacy London
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li><li><a href="/panelists/derrick-showers"><img src="../../public/img/derrick.jpg" alt="Derrick Showers profile picture" /></a>
-      <span class="name">Derrick Showers</span>
-      <a href="https://twitter.com/derrickshowers" class="twitter">@derrickshowers</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to a brand new episode of Front End happier. This is episode 43 And we are joined by Preethi. casita ready to talk to us about starting out as a beginner in the programming industry, Preethi gave an excellent keynote talk at React Rally in Salt Lake City, about what it's like to be a beginner. And we thought it was really inspiring, and a great talk that we wanted to discuss it on an episode. Thank you so much for joining us. Preethi. Can you give us a brief introduction of who you are, what you do, and what your favorite half your beverages,
@@ -569,21 +470,6 @@ You can email me at pretty at pretty ready.com or tweet at me probably is the be
 Perfect. Thank you all for listening today's episode we'd love to hear your stories about when you first started out tweet at us at front end ah any last words? Any Cheers?
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
