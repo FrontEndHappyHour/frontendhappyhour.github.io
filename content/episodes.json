@@ -14438,7 +14438,7 @@
     "description": "In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.",
     "id": "252127996",
     "published": "March 16, 2016",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": [],
     "panel": [

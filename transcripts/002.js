@@ -1,103 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>RxJS - Async and Drink - Front End Happy Hour</title>
-                  <meta name="description" content="In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/rxjs-async-and-drink.jpeg" /> <meta
-                    property="og:description" content="In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5." />
-                    <meta property="og:title" content="RxJS - Async and Drink - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5." />
-                    <meta property="twitter:title" content="RxJS - Async and Drink - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/rxjs-async-and-drink">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">RxJS - Async and Drink</h2>
-                  <div class="container"><p>Published March 16, 2016</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252127996&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In the second episode of the Front End Happy Hour podcast, our special guest, Ben Lesh joins us to talk about all the great things in RxJS 5.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/BenLesh.jpg" alt="Ben Lesh profile picture"><div><a href="https://twitter.com/BenLesh">Ben Lesh</a></div></li>
-          </ul>
-          </div><div class="links picks container">
-          <h3>Items mentioned in the episode</h3>
-          <p><a href="https://rxmarbles.com/" target="_blank">Rx Marbles</a></p>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://egghead.io/" target="_blank">Egghead.io</a> - Ben Lesh
-      </li><li>
-      <a href="https://egghead.io/lessons/rxjs-creating-observable-from-scratch" target="_blank">Egghead.io - RxJS Creating Observables from Scratch</a> - Ben Lesh
-      </li><li>
-      <a href="https://www.youtube.com/channel/UCGGRRqAjPm6sL3-WGBDnKJA" target="_blank">Netflix UIE YouTube Channel</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.amazon.com/gp/product/B00X4WHP5E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00X4WHP5E&linkCode=as2&tag=frontendhappy-20&linkId=bd58bc7d5a3f4206f94673b2f57edcca" target="_blank">Amazon Echo</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.tiltbrush.com/" target="_blank">Tilt Brush</a> - Augustus Yuan
-      </li><li>
-      <a href="https://github.com/tc39/ecma262" target="_blank">EcmaScript Proposals</a> - Jem Young
-      </li><li>
-      <a href="https://vimcasts.org/" target="_blank">VimCasts</a> - Ryan Anklam
-      </li><li>
-      <a href="https://www.audible.com/pd/Sci-Fi-Fantasy/Ready-Player-One-Audiobook/B005FRGT44/" target="_blank">Ready Player One Audibook</a> - Ryan Anklam
-      </li><li>
-      <a href="https://www.factorio.com/" target="_blank">Factorio</a> - Brian Holt
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/ryan-anklam"><img src="../../public/img/ryan.jpg" alt="Ryan Anklam profile picture" /></a>
-      <span class="name">Ryan Anklam</span>
-      <a href="https://twitter.com/bittersweetryan" class="twitter">@bittersweetryan</a>
-      </li><li><a href="/panelists/brian-holt"><img src="../../public/img/panel/holtbt.jpg" alt="Brian Holt profile picture" /></a>
-      <span class="name">Brian Holt</span>
-      <a href="https://twitter.com/holtbt" class="twitter">@holtbt</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to the second episode of Front End Happy Hour podcast where over drinks we discuss all things front end developments. For this week's episode, we're recording on site at Netflix with a special guests and lash, who's here to talk to us, RX js. And he's actually here tonight at Netflix talking to a large group for a meetup. Each episode, he choose a keyword that if it's mentioned, we will take a drink to that keyword. Last episode, we kind of missed a few. But we'll try and get a little better at this for this episode. If we do miss any call us out on Twitter, we're happy to hear it at <a href="https://twitter.com/frontendHH">@frontendHH</a>. Before we dive in today's topic, let's go around the table and introduce each one of our panelists. give a brief introduction of who you are and what you do. Brian, you want to kick us off? 
@@ -211,21 +114,6 @@ That's an amazing one. It's pretty funny. So should I go home and create one for
 Yes, you could be trolled across multiple Slack channels. I was at Jusco Henry's house around Christmas time. He's he's got it created. And he was like, watch this. Alexa, turn on the Christmas tree and the Christmas tree. We have gotten to that point where that leaves you reach to plug in. Right. Right, right. Yeah. Why do you just tell someone else? If you have a friend named Alexa turn on the Amazon Yeah, I think you can change the name but I feel like Amazon's probably chosen a name that's very abstracted. Not a lot of people have but who knows? I don't know any Alexa. But you can change this to just be Amazon. Alexa, I can't change a customer. It's only Amazon. Ben, thank you so much for joining us on today's episode. We appreciate you taking the time to speak with us. Well, that's it for our second episode. If you'd like to hear more, follow us on Twitter at <a href="https://twitter.com/frontendhh">@frontendhh</a>. If you'd like to learn more from Ben about RX js, follow him on Twitter at Ben Lesh. Thank you very much.
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
