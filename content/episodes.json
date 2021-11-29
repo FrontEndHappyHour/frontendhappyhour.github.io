@@ -18,7 +18,12 @@
         "twitter": "lorendsr"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "title": "Learn in public",
+        "url": "https://www.swyx.io/learn-in-public/"
+      }
+    ],
     "picks": [
       {
         "title": "The GraphQL Guide",
