@@ -2016,7 +2016,7 @@ var EVENT_POOL_SIZE = 10;
 
 /**
  * @interface Event
- * @see http://www.w3.org/TR/DOM-Level-3-Events/
+ * @see https://www.w3.org/TR/DOM-Level-3-Events/
  */
 var EventInterface = {
   type: null,
@@ -2273,7 +2273,7 @@ function addEventPoolingTo(EventConstructor) {
 
 /**
  * @interface Event
- * @see http://www.w3.org/TR/DOM-Level-3-Events/#events-compositionevents
+ * @see https://www.w3.org/TR/DOM-Level-3-Events/#events-compositionevents
  */
 var SyntheticCompositionEvent = SyntheticEvent.extend({
   data: null
@@ -2281,7 +2281,7 @@ var SyntheticCompositionEvent = SyntheticEvent.extend({
 
 /**
  * @interface Event
- * @see http://www.w3.org/TR/2013/WD-DOM-Level-3-Events-20131105
+ * @see https://www.w3.org/TR/2013/WD-DOM-Level-3-Events-20131105
  *      /#events-inputevents
  */
 var SyntheticInputEvent = SyntheticEvent.extend({
@@ -2643,7 +2643,7 @@ function extractBeforeInputEvent(topLevelType, targetInst, nativeEvent, nativeEv
 
 /**
  * Create an `onBeforeInput` event to match
- * http://www.w3.org/TR/2013/WD-DOM-Level-3-Events-20131105/#events-inputevents.
+ * https://www.w3.org/TR/2013/WD-DOM-Level-3-Events-20131105/#events-inputevents.
  *
  * This event plugin is based on the native `textInput` event
  * available in Chrome, Safari, Opera, and IE. This event fires after
@@ -2790,7 +2790,7 @@ function setBatchingImplementation(batchedUpdatesImpl, interactiveUpdatesImpl, f
 }
 
 /**
- * @see http://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html#input-type-attr-summary
+ * @see https://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html#input-type-attr-summary
  */
 var supportedInputTypes = {
   color: true,
@@ -2852,7 +2852,7 @@ function getEventTarget(nativeEvent) {
   }
 
   // Safari may fire events on text nodes (Node.TEXT_NODE is 3).
-  // @see http://www.quirksmode.org/js/events_properties.html
+  // @see https://www.quirksmode.org/js/events_properties.html
   return target.nodeType === TEXT_NODE ? target.parentNode : target;
 }
 
@@ -3505,14 +3505,14 @@ var capitalize = function (token) {
 ['xlink:actuate', 'xlink:arcrole', 'xlink:href', 'xlink:role', 'xlink:show', 'xlink:title', 'xlink:type'].forEach(function (attributeName) {
   var name = attributeName.replace(CAMELIZE, capitalize);
   properties[name] = new PropertyInfoRecord(name, STRING, false, // mustUseProperty
-  attributeName, 'http://www.w3.org/1999/xlink');
+  attributeName, 'https://www.w3.org/1999/xlink');
 });
 
 // String SVG attributes with the xml namespace.
 ['xml:base', 'xml:lang', 'xml:space'].forEach(function (attributeName) {
   var name = attributeName.replace(CAMELIZE, capitalize);
   properties[name] = new PropertyInfoRecord(name, STRING, false, // mustUseProperty
-  attributeName, 'http://www.w3.org/XML/1998/namespace');
+  attributeName, 'https://www.w3.org/XML/1998/namespace');
 });
 
 // These attribute exists both in HTML and SVG.
@@ -3805,7 +3805,7 @@ function isControlled(props) {
  * The rendered element will be initialized as unchecked (or `defaultChecked`)
  * with an empty value (or `defaultValue`).
  *
- * See http://www.w3.org/TR/2012/WD-html5-20121025/the-input-element.html
+ * See https://www.w3.org/TR/2012/WD-html5-20121025/the-input-element.html
  */
 
 function getHostProps(element, props) {
@@ -4371,7 +4371,7 @@ var modifierKeyToProp = {
 // modifier keys exposed by the event. In this case, Lock-keys are not supported.
 /**
  * Translation from modifier key to the associated property in the event.
- * @see http://www.w3.org/TR/DOM-Level-3-Events/#keys-Modifiers
+ * @see https://www.w3.org/TR/DOM-Level-3-Events/#keys-Modifiers
  */
 
 function modifierStateGetter(keyArg) {
@@ -4396,7 +4396,7 @@ var isMovementYSet = false;
 
 /**
  * @interface MouseEvent
- * @see http://www.w3.org/TR/DOM-Level-3-Events/
+ * @see https://www.w3.org/TR/DOM-Level-3-Events/
  */
 var SyntheticMouseEvent = SyntheticUIEvent.extend({
   screenX: null,
@@ -4449,7 +4449,7 @@ var SyntheticMouseEvent = SyntheticUIEvent.extend({
 
 /**
  * @interface PointerEvent
- * @see http://www.w3.org/TR/pointerevents/
+ * @see https://www.w3.org/TR/pointerevents/
  */
 var SyntheticPointerEvent = SyntheticMouseEvent.extend({
   pointerId: null,
@@ -4918,7 +4918,7 @@ function addEventCaptureListener(element, eventType, listener) {
 
 /**
  * @interface Event
- * @see http://www.w3.org/TR/css3-animations/#AnimationEvent-interface
+ * @see https://www.w3.org/TR/css3-animations/#AnimationEvent-interface
  * @see https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent
  */
 var SyntheticAnimationEvent = SyntheticEvent.extend({
@@ -4929,7 +4929,7 @@ var SyntheticAnimationEvent = SyntheticEvent.extend({
 
 /**
  * @interface Event
- * @see http://www.w3.org/TR/clipboard-apis/
+ * @see https://www.w3.org/TR/clipboard-apis/
  */
 var SyntheticClipboardEvent = SyntheticEvent.extend({
   clipboardData: function (event) {
@@ -4939,7 +4939,7 @@ var SyntheticClipboardEvent = SyntheticEvent.extend({
 
 /**
  * @interface FocusEvent
- * @see http://www.w3.org/TR/DOM-Level-3-Events/
+ * @see https://www.w3.org/TR/DOM-Level-3-Events/
  */
 var SyntheticFocusEvent = SyntheticUIEvent.extend({
   relatedTarget: null
@@ -5084,7 +5084,7 @@ function getEventKey(nativeEvent) {
 
 /**
  * @interface KeyboardEvent
- * @see http://www.w3.org/TR/DOM-Level-3-Events/
+ * @see https://www.w3.org/TR/DOM-Level-3-Events/
  */
 var SyntheticKeyboardEvent = SyntheticUIEvent.extend({
   key: getEventKey,
@@ -5136,7 +5136,7 @@ var SyntheticKeyboardEvent = SyntheticUIEvent.extend({
 
 /**
  * @interface DragEvent
- * @see http://www.w3.org/TR/DOM-Level-3-Events/
+ * @see https://www.w3.org/TR/DOM-Level-3-Events/
  */
 var SyntheticDragEvent = SyntheticMouseEvent.extend({
   dataTransfer: null
@@ -5144,7 +5144,7 @@ var SyntheticDragEvent = SyntheticMouseEvent.extend({
 
 /**
  * @interface TouchEvent
- * @see http://www.w3.org/TR/touch-events/
+ * @see https://www.w3.org/TR/touch-events/
  */
 var SyntheticTouchEvent = SyntheticUIEvent.extend({
   touches: null,
@@ -5159,7 +5159,7 @@ var SyntheticTouchEvent = SyntheticUIEvent.extend({
 
 /**
  * @interface Event
- * @see http://www.w3.org/TR/2009/WD-css3-transitions-20090320/#transition-events-
+ * @see https://www.w3.org/TR/2009/WD-css3-transitions-20090320/#transition-events-
  * @see https://developer.mozilla.org/en-US/docs/Web/API/TransitionEvent
  */
 var SyntheticTransitionEvent = SyntheticEvent.extend({
@@ -5170,7 +5170,7 @@ var SyntheticTransitionEvent = SyntheticEvent.extend({
 
 /**
  * @interface WheelEvent
- * @see http://www.w3.org/TR/DOM-Level-3-Events/
+ * @see https://www.w3.org/TR/DOM-Level-3-Events/
  */
 var SyntheticWheelEvent = SyntheticMouseEvent.extend({
   deltaX: function (event) {
@@ -5349,7 +5349,7 @@ var SimpleEventPlugin = {
           }
         }
         // HTML Events
-        // @see http://www.w3.org/TR/html5/index.html#events-0
+        // @see https://www.w3.org/TR/html5/index.html#events-0
         EventConstructor = SyntheticEvent;
         break;
     }
@@ -5606,7 +5606,7 @@ function getListeningForDocument(mountAt) {
  * top-level listeners to the document object only, at least for these
  * movement types of events and possibly all events.
  *
- * @see http://www.quirksmode.org/blog/archives/2010/09/click_event_del.html
+ * @see https://www.quirksmode.org/blog/archives/2010/09/click_event_del.html
  *
  * Also, `keyup`/`keypress`/`keydown` do not bubble to the window on IE, but
  * they bubble to document.
@@ -6604,9 +6604,9 @@ function restoreControlledState$3(element, props) {
   updateWrapper$1(element, props);
 }
 
-var HTML_NAMESPACE$1 = 'http://www.w3.org/1999/xhtml';
-var MATH_NAMESPACE = 'http://www.w3.org/1998/Math/MathML';
-var SVG_NAMESPACE = 'http://www.w3.org/2000/svg';
+var HTML_NAMESPACE$1 = 'https://www.w3.org/1999/xhtml';
+var MATH_NAMESPACE = 'https://www.w3.org/1998/Math/MathML';
+var SVG_NAMESPACE = 'https://www.w3.org/2000/svg';
 
 var Namespaces = {
   html: HTML_NAMESPACE$1,
@@ -6848,7 +6848,7 @@ function dangerousStyleValue(name, value, isCustomProperty) {
   // the markup. If you provide unsafe user data here they can inject
   // arbitrary CSS which may be problematic (I couldn't repro this):
   // https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet
-  // http://www.thespanner.co.uk/2007/11/26/ultimate-xss-css-injection/
+  // https://www.thespanner.co.uk/2007/11/26/ultimate-xss-css-injection/
   // This is not an XSS hole but instead a potential CSS injection issue
   // which has lead to a greater discussion about how we're going to
   // trust URLs moving forward. See #2115901
@@ -6878,7 +6878,7 @@ var msPattern = /^ms-/;
  *   > hyphenateStyleName('msTransition')
  *   < "-ms-transition"
  *
- * As Modernizr suggests (http://modernizr.com/docs/#prefixed), an `ms` prefix
+ * As Modernizr suggests (https://modernizr.com/docs/#prefixed), an `ms` prefix
  * is converted to `-ms-`.
  */
 function hyphenateStyleName(name) {
@@ -6915,7 +6915,7 @@ var warnValidStyle = function () {};
     warnedStyleNames[name] = true;
     warning$1(false, 'Unsupported style property %s. Did you mean %s?', name,
     // As Andi Smith suggests
-    // (http://www.andismith.com/blog/2012/02/modernizr-prefixed/), an `-ms` prefix
+    // (https://www.andismith.com/blog/2012/02/modernizr-prefixed/), an `-ms` prefix
     // is converted to lowercase `ms`.
     camelize(name.replace(msPattern$1, 'ms-')));
   };
@@ -8127,7 +8127,7 @@ function trapClickOnNonInteractiveElement(node) {
   // non-interactive elements, which means delegated click listeners do not
   // fire. The workaround for this bug involves attaching an empty click
   // listener on the target node.
-  // http://www.quirksmode.org/blog/archives/2010/09/click_event_del.html
+  // https://www.quirksmode.org/blog/archives/2010/09/click_event_del.html
   // Just set it using the onclick property so that we don't have to manage any
   // bookkeeping for it. Not sure if we need to clear it when the listener is
   // removed.
@@ -18862,7 +18862,7 @@ var warnAboutInvalidUpdates = void 0;
 if (enableSchedulerTracing) {
   // Provide explicit error message when production+profiling bundle of e.g. react-dom
   // is used with production (non-profiling) bundle of scheduler/tracing
-  !(tracing.__interactionsRef != null && tracing.__interactionsRef.current != null) ? invariant(false, 'It is not supported to run the profiling version of a renderer (for example, `react-dom/profiling`) without also replacing the `scheduler/tracing` module with `scheduler/tracing-profiling`. Your bundler might have a setting for aliasing both modules. Learn more at http://fb.me/react-profiling') : void 0;
+  !(tracing.__interactionsRef != null && tracing.__interactionsRef.current != null) ? invariant(false, 'It is not supported to run the profiling version of a renderer (for example, `react-dom/profiling`) without also replacing the `scheduler/tracing` module with `scheduler/tracing-profiling`. Your bundler might have a setting for aliasing both modules. Learn more at https://fb.me/react-profiling') : void 0;
 }
 
 {
@@ -21737,7 +21737,7 @@ function qc(a,b,c,d){if(null===b||"undefined"===typeof b||pc(a,b,c,d))return!0;i
 ["autoReverse","externalResourcesRequired","focusable","preserveAlpha"].forEach(function(a){D[a]=new C(a,2,!1,a,null)});"allowFullScreen async autoFocus autoPlay controls default defer disabled formNoValidate hidden loop noModule noValidate open playsInline readOnly required reversed scoped seamless itemScope".split(" ").forEach(function(a){D[a]=new C(a,3,!1,a.toLowerCase(),null)});["checked","multiple","muted","selected"].forEach(function(a){D[a]=new C(a,3,!0,a,null)});
 ["capture","download"].forEach(function(a){D[a]=new C(a,4,!1,a,null)});["cols","rows","size","span"].forEach(function(a){D[a]=new C(a,6,!1,a,null)});["rowSpan","start"].forEach(function(a){D[a]=new C(a,5,!1,a.toLowerCase(),null)});var rc=/[\-:]([a-z])/g;function sc(a){return a[1].toUpperCase()}
 "accent-height alignment-baseline arabic-form baseline-shift cap-height clip-path clip-rule color-interpolation color-interpolation-filters color-profile color-rendering dominant-baseline enable-background fill-opacity fill-rule flood-color flood-opacity font-family font-size font-size-adjust font-stretch font-style font-variant font-weight glyph-name glyph-orientation-horizontal glyph-orientation-vertical horiz-adv-x horiz-origin-x image-rendering letter-spacing lighting-color marker-end marker-mid marker-start overline-position overline-thickness paint-order panose-1 pointer-events rendering-intent shape-rendering stop-color stop-opacity strikethrough-position strikethrough-thickness stroke-dasharray stroke-dashoffset stroke-linecap stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration text-rendering underline-position underline-thickness unicode-bidi unicode-range units-per-em v-alphabetic v-hanging v-ideographic v-mathematical vector-effect vert-adv-y vert-origin-x vert-origin-y word-spacing writing-mode xmlns:xlink x-height".split(" ").forEach(function(a){var b=a.replace(rc,
-sc);D[b]=new C(b,1,!1,a,null)});"xlink:actuate xlink:arcrole xlink:href xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function(a){var b=a.replace(rc,sc);D[b]=new C(b,1,!1,a,"http://www.w3.org/1999/xlink")});["xml:base","xml:lang","xml:space"].forEach(function(a){var b=a.replace(rc,sc);D[b]=new C(b,1,!1,a,"http://www.w3.org/XML/1998/namespace")});["tabIndex","crossOrigin"].forEach(function(a){D[a]=new C(a,1,!1,a.toLowerCase(),null)});
+sc);D[b]=new C(b,1,!1,a,null)});"xlink:actuate xlink:arcrole xlink:href xlink:role xlink:show xlink:title xlink:type".split(" ").forEach(function(a){var b=a.replace(rc,sc);D[b]=new C(b,1,!1,a,"https://www.w3.org/1999/xlink")});["xml:base","xml:lang","xml:space"].forEach(function(a){var b=a.replace(rc,sc);D[b]=new C(b,1,!1,a,"https://www.w3.org/XML/1998/namespace")});["tabIndex","crossOrigin"].forEach(function(a){D[a]=new C(a,1,!1,a.toLowerCase(),null)});
 function tc(a,b,c,d){var e=D.hasOwnProperty(b)?D[b]:null;var f=null!==e?0===e.type:d?!1:!(2<b.length)||"o"!==b[0]&&"O"!==b[0]||"n"!==b[1]&&"N"!==b[1]?!1:!0;f||(qc(b,c,e,d)&&(c=null),d||null===e?oc(b)&&(null===c?a.removeAttribute(b):a.setAttribute(b,""+c)):e.mustUseProperty?a[e.propertyName]=null===c?3===e.type?!1:"":c:(b=e.attributeName,d=e.attributeNamespace,null===c?a.removeAttribute(b):(e=e.type,c=3===e||4===e&&!0===c?"":""+c,d?a.setAttributeNS(d,b,c):a.setAttribute(b,c))))}
 function uc(a){switch(typeof a){case "boolean":case "number":case "object":case "string":case "undefined":return a;default:return""}}function vc(a,b){var c=b.checked;return n({},b,{defaultChecked:void 0,defaultValue:void 0,value:void 0,checked:null!=c?c:a._wrapperState.initialChecked})}
 function wc(a,b){var c=null==b.defaultValue?"":b.defaultValue,d=null!=b.checked?b.checked:b.defaultChecked;c=uc(null!=b.value?b.value:c);a._wrapperState={initialChecked:d,initialValue:c,controlled:"checkbox"===b.type||"radio"===b.type?null!=b.checked:null!=b.value}}function xc(a,b){b=b.checked;null!=b&&tc(a,"checked",b,!1)}
@@ -21783,8 +21783,8 @@ var Yd={eventTypes:Sd,extractEvents:function(a,b,c,d){var e=d.window===d?d.docum
 case "keydown":case "keyup":return Xd(c,d)}return null}};Ba.injectEventPluginOrder("ResponderEventPlugin SimpleEventPlugin EnterLeaveEventPlugin ChangeEventPlugin SelectEventPlugin BeforeInputEventPlugin".split(" "));ta=Ka;ua=Ia;va=Ja;Ba.injectEventPluginsByName({SimpleEventPlugin:xd,EnterLeaveEventPlugin:ad,ChangeEventPlugin:Pc,SelectEventPlugin:Yd,BeforeInputEventPlugin:zb});function Zd(a){var b="";aa.Children.forEach(a,function(a){null!=a&&(b+=a)});return b}
 function $d(a,b){a=n({children:void 0},b);if(b=Zd(b.children))a.children=b;return a}function ae(a,b,c,d){a=a.options;if(b){b={};for(var e=0;e<c.length;e++)b["$"+c[e]]=!0;for(c=0;c<a.length;c++)e=b.hasOwnProperty("$"+a[c].value),a[c].selected!==e&&(a[c].selected=e),e&&d&&(a[c].defaultSelected=!0)}else{c=""+uc(c);b=null;for(e=0;e<a.length;e++){if(a[e].value===c){a[e].selected=!0;d&&(a[e].defaultSelected=!0);return}null!==b||a[e].disabled||(b=a[e])}null!==b&&(b.selected=!0)}}
 function be(a,b){null!=b.dangerouslySetInnerHTML?x("91"):void 0;return n({},b,{value:void 0,defaultValue:void 0,children:""+a._wrapperState.initialValue})}function ce(a,b){var c=b.value;null==c&&(c=b.defaultValue,b=b.children,null!=b&&(null!=c?x("92"):void 0,Array.isArray(b)&&(1>=b.length?void 0:x("93"),b=b[0]),c=b),null==c&&(c=""));a._wrapperState={initialValue:uc(c)}}
-function de(a,b){var c=uc(b.value),d=uc(b.defaultValue);null!=c&&(c=""+c,c!==a.value&&(a.value=c),null==b.defaultValue&&a.defaultValue!==c&&(a.defaultValue=c));null!=d&&(a.defaultValue=""+d)}function ee(a){var b=a.textContent;b===a._wrapperState.initialValue&&(a.value=b)}var fe={html:"http://www.w3.org/1999/xhtml",mathml:"http://www.w3.org/1998/Math/MathML",svg:"http://www.w3.org/2000/svg"};
-function ge(a){switch(a){case "svg":return"http://www.w3.org/2000/svg";case "math":return"http://www.w3.org/1998/Math/MathML";default:return"http://www.w3.org/1999/xhtml"}}function he(a,b){return null==a||"http://www.w3.org/1999/xhtml"===a?ge(b):"http://www.w3.org/2000/svg"===a&&"foreignObject"===b?"http://www.w3.org/1999/xhtml":a}
+function de(a,b){var c=uc(b.value),d=uc(b.defaultValue);null!=c&&(c=""+c,c!==a.value&&(a.value=c),null==b.defaultValue&&a.defaultValue!==c&&(a.defaultValue=c));null!=d&&(a.defaultValue=""+d)}function ee(a){var b=a.textContent;b===a._wrapperState.initialValue&&(a.value=b)}var fe={html:"https://www.w3.org/1999/xhtml",mathml:"https://www.w3.org/1998/Math/MathML",svg:"https://www.w3.org/2000/svg"};
+function ge(a){switch(a){case "svg":return"https://www.w3.org/2000/svg";case "math":return"https://www.w3.org/1998/Math/MathML";default:return"https://www.w3.org/1999/xhtml"}}function he(a,b){return null==a||"https://www.w3.org/1999/xhtml"===a?ge(b):"https://www.w3.org/2000/svg"===a&&"foreignObject"===b?"https://www.w3.org/1999/xhtml":a}
 var ie=void 0,je=function(a){return"undefined"!==typeof MSApp&&MSApp.execUnsafeLocalFunction?function(b,c,d,e){MSApp.execUnsafeLocalFunction(function(){return a(b,c,d,e)})}:a}(function(a,b){if(a.namespaceURI!==fe.svg||"innerHTML"in a)a.innerHTML=b;else{ie=ie||document.createElement("div");ie.innerHTML="<svg>"+b+"</svg>";for(b=ie.firstChild;a.firstChild;)a.removeChild(a.firstChild);for(;b.firstChild;)a.appendChild(b.firstChild)}});
 function ke(a,b){if(b){var c=a.firstChild;if(c&&c===a.lastChild&&3===c.nodeType){c.nodeValue=b;return}}a.textContent=b}
 var le={animationIterationCount:!0,borderImageOutset:!0,borderImageSlice:!0,borderImageWidth:!0,boxFlex:!0,boxFlexGroup:!0,boxOrdinalGroup:!0,columnCount:!0,columns:!0,flex:!0,flexGrow:!0,flexPositive:!0,flexShrink:!0,flexNegative:!0,flexOrder:!0,gridArea:!0,gridRow:!0,gridRowEnd:!0,gridRowSpan:!0,gridRowStart:!0,gridColumn:!0,gridColumnEnd:!0,gridColumnSpan:!0,gridColumnStart:!0,fontWeight:!0,lineClamp:!0,lineHeight:!0,opacity:!0,order:!0,orphans:!0,tabSize:!0,widows:!0,zIndex:!0,zoom:!0,fillOpacity:!0,

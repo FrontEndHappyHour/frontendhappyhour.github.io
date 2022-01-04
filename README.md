@@ -1,5 +1,5 @@
 # Front End Happy Hour
-[Front End Happy Hour website](http://frontendhappyhour.com)
+[Front End Happy Hour website](https://frontendhappyhour.com)
 
 ## Build
 `node build`
