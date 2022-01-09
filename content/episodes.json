@@ -1,5 +1,75 @@
 [
   {
+    "episode": "141",
+    "title": "2021 Hangover",
+    "description": "Happy New Year! We are back with more episodes in 2022 and to start off the year, we want to reflect on changes that happened in 2021. In this episode, we cover technology changes, our lives, and our career changes that happened in 2021.",
+    "id": "1193285257",
+    "published": "January 9, 2022",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["technologies", "tooling"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Shirley Wu"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Rolling Like Thunder",
+        "url": "https://www.sho.com/titles/3503734/rolling-like-thunder",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "School of Chocolate",
+        "url": "https://www.netflix.com/title/81207686",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "log4j memes",
+        "url": "https://log4jmemes.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Black Sea",
+        "url": "https://www.netflix.com/title/80013271",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Star Trek chairs",
+        "url": "https://www.ex-astris-scientia.org/database/chairs-trek.htm",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Gucci Xbox",
+        "url": "https://kotaku.com/gucci-is-selling-an-xbox-series-x-for-10-000-1848050557/amp",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Sky H1's mix on the Dekmantel Podcast",
+        "url": "https://soundcloud.com/dkmntl/dekmantel-podcast-365-sky-h1",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Studio Drift Fragile Future",
+        "url": "https://theshed.org/program/217-drift-fragile-future",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Danny Rozin",
+        "url": "https://www.wired.com/story/daniel-rozin-mechanical-mirrors/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Shang-Chi",
+        "url": "https://www.disneyplus.com/?cid=DSS-Search-Google-71700000088153601-&s_kwcid=AL!8468!3!558770286902!e!!g!!shang%20chi&gclid=CjwKCAiArOqOBhBmEiwAsgeLmWkPRt-MK5oIakKU3yQGyzbDZTMrx9n0C5yzJTH41dszysgwTr50qxoCJiQQAvD_BwE&gclsrc=aw.ds",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "140",
     "title": "Crafting your cocktail mixture to learning",
     "description": "In this episode, we are joined by Loren Sands-Ramshaw to talk with us about education paths for software engineers. There are so many options out there and it's really hard to know what's the right path to take.",
@@ -7,7 +77,10 @@
     "published": "November 28, 2021",
     "transcribed": true,
     "category": "soft",
-    "tags": ["career", "learning"],
+    "tags": [
+      "career",
+      "learning"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
