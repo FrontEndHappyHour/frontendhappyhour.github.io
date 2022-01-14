@@ -18,9 +18,6 @@ personName = personName.toLowerCase()
     .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
     .join(' ');
 
-// remove any letters from the episode number parameter
-episodeNum = episodeNum.replace(/\D/g,'');
-
 function createDetails(num) {
   let epNum;
   let epTitle;
@@ -53,6 +50,9 @@ function createDetails(num) {
 
 // if an argument has been passed for a specific episode find the episode info
 if(episodeNum !== undefined) {
+  // remove any letters from the episode number parameter
+  episodeNum = episodeNum.replace(/\D/g,'');
+
   for(let ep in episodes) {
     // check if the identifer is equal to an episode number or episode title
     if(episodeNum === episodes[ep].episode || episodeNum === episodes[ep].title) {
