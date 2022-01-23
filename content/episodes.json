@@ -1,5 +1,67 @@
 [
   {
+    "episode": "142",
+    "title": "Job hunting in 2022 - Standing out in a crowded bar",
+    "description": "Recruiting and interviewing isn’t a new topic, it’s one we’ve covered a few times, but this episode focuses on the changes that have happened with the landscape for jobs and interviewing during the pandemic. In this episode, we are joined by Taylor Desseyn, and Jono Grayson to talk with us about ways to stand out and navigate the job search in 2022.",
+    "id": "1202305129",
+    "published": "January 23, 2022",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["interviews", "recruiting", "jobs"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Taylor Desseyn",
+        "twitter": "tdesseyn"
+      },
+      {
+        "name": "Jono Grayson",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Group Chat Podcast",
+        "url": "https://podcasts.apple.com/us/podcast/group-chat/id1311062310",
+        "from": "Taylor Desseyn"
+      },
+      {
+        "title": "Kenu Stance Mini Tripod Stand",
+        "url": "https://www.amazon.com/Kenu-Stance-Tripod-iPhone-iTouch/dp/B01ECPWC5E",
+        "from": "Taylor Desseyn"
+      },
+      {
+        "title": "Ororo heated vest",
+        "url": "https://www.ororowear.com/products/men-heated-vest-black",
+        "from": "Jono Grayson"
+      },
+      {
+        "title": "Organic Gatorade",
+        "url": "https://www.amazon.com/Organic-Gatorade-Sports-Certified-Bottle",
+        "from": "Jono Grayson"
+      },
+      {
+        "title": "14 Peaks",
+        "url": "https://www.netflix.com/title/81464765",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "A decade and a half of instability: The history of Google messaging apps",
+        "url": "https://arstechnica.com/gadgets/2021/08/a-decade-and-a-half-of-instability-the-history-of-google-messaging-apps/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Bartesian cocktail maker",
+        "url": "https://bartesian.com/products/the-bartesian",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "141",
     "title": "2021 Hangover",
     "description": "Happy New Year! We are back with more episodes in 2022 and to start off the year, we want to reflect on changes that happened in 2021. In this episode, we cover technology changes, our lives, and our career changes that happened in 2021.",
@@ -7,7 +69,10 @@
     "published": "January 9, 2022",
     "transcribed": false,
     "category": "technical",
-    "tags": ["technologies", "tooling"],
+    "tags": [
+      "technologies",
+      "tooling"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
