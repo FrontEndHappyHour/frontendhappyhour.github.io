@@ -1,5 +1,83 @@
 [
   {
+    "episode": "143",
+    "title": "TypeScript migration - Strict type of cocktails",
+    "description": "Software Engineers deal with migrations at some point or another, and there are always a lot of lessons learned afterward. In this episode, we are joined by Sumana Mohan and Joe King from Netflix to talk about their recent migration to TypeScript on the Netflix website signup flow.",
+    "id": "1210908415",
+    "published": "February 6, 2022",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["typescript", "migrations", "javascript"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Sumana Mohan",
+        "twitter": "sumana_mohan"
+      },
+      {
+        "name": "Joe King",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Woman in the House Across the Street from the Girl in the Window",
+        "url": "https://www.netflix.com/title/81305952",
+        "from": "Sumana Mohan"
+      },
+      {
+        "title": "Arcane",
+        "url": "https://www.netflix.com/title/81435684",
+        "from": "Joe King"
+      },
+      {
+        "title": "The Book of Boba Fett",
+        "url": "https://disneyplusoriginals.disney.com/show/the-book-of-boba-fett",
+        "from": "Joe King"
+      },
+      {
+        "title": "Tonal",
+        "url": "https://www.tonal.com/",
+        "from": "Joe King"
+      },
+      {
+        "title": "High Res Uber Rap Videos",
+        "url": "https://www.youtube.com/watch?v=T85RJIcBL2U",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tinder Swindler",
+        "url": "https://www.netflix.com/title/81254340",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Alaska Off-road warriors",
+        "url": "https://www.amazon.com/gp/video/detail/B07PZ964LP",
+        "from": "Jem Young"
+      },
+      {
+        "title": "It’s Always Sunny Podcast",
+        "url": "https://the-always-sunny-podcast.simplecast.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Tristan Arp's mix on Dekmantel Podcast",
+        "url": "https://soundcloud.com/dkmntl/dekmantel-podcast-356-tristan-arp?in=stacylondon/sets/mixes&si=52fbdc7270ce4821b5545589b88599dc",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Sky H1's mix for Resident Advisor",
+        "url": "https://soundcloud.com/resident-advisor/ra815-sky-h1",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "142",
     "title": "Job hunting in 2022 - Standing out in a crowded bar",
     "description": "Recruiting and interviewing isn’t a new topic, it’s one we’ve covered a few times, but this episode focuses on the changes that have happened with the landscape for jobs and interviewing during the pandemic. In this episode, we are joined by Taylor Desseyn, and Jono Grayson to talk with us about ways to stand out and navigate the job search in 2022.",
@@ -7,7 +85,11 @@
     "published": "January 23, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["interviews", "recruiting", "jobs"],
+    "tags": [
+      "interviews",
+      "recruiting",
+      "jobs"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"

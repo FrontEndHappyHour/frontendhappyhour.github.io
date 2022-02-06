@@ -1,6 +1,7 @@
 'use strict';
 const episodes = require('./content/episodes.json');
 const panelInfo = require('./content/panelists.json');
+const createUrl = require('./lib/create-url');
 const args = process.argv.slice(2);
 const identifier = args[0];
 
@@ -18,6 +19,9 @@ function createDetails(num) {
   // desctription details
   const epDesc = episodes[num].description;
   desc += `${epDesc}\n`;
+
+  // create URL for episode transcript
+  const link = createUrl(epTitle);
 
   // links of items mentioned in the episode
   const links = episodes[num].links;
@@ -78,7 +82,7 @@ function createDetails(num) {
   }
 
   // display final details
-  console.log(`\n${fullTitle}\n\n${desc}\n`);
+  console.log(`\n${fullTitle}\n\n${desc}\nEpisode transcript: https://www.frontendhappyhour.com/episodes/${link}\n`);
 }
 
 // if an argument has been passed for a specific episode find the episode info
