@@ -1,5 +1,23 @@
 [
   {
+    "episode": "144",
+    "title": "Sidebar interview with Ryan Burgess",
+    "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Ryan Burgess, the creator of the Front End Happy Hour podcast.",
+    "id": "1212198268",
+    "published": "February 20, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["interviews", "sidebar"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "143",
     "title": "TypeScript migration - Strict type of cocktails",
     "description": "Software Engineers deal with migrations at some point or another, and there are always a lot of lessons learned afterward. In this episode, we are joined by Sumana Mohan and Joe King from Netflix to talk about their recent migration to TypeScript on the Netflix website signup flow.",
@@ -7,7 +25,11 @@
     "published": "February 6, 2022",
     "transcribed": true,
     "category": "technical",
-    "tags": ["typescript", "migrations", "javascript"],
+    "tags": [
+      "typescript",
+      "migrations",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
