@@ -5,7 +5,7 @@ module.exports =
 
 <p>If you haven’t listened to an episode of <a href="https://frontendhappyhour.com">Front End Happy Hour</a>, we like to keep the podcast as a discussion between the group. So it shouldn’t feel as though we’re interviewing you but all chiming in to discuss certain points. We’ll try and keep it pretty casual.</p>
 
-<p>When we record, we are only recording audio, not video, unless we specifically mention it.</p>
+<p>When we record, we are only recording audio, not video, unless we specifically mention it. Though we may use clips of the video from the call on Twitter, Instgram and YouTube to promote the episode.</p>
 
 <p>Our podcast is rated explicit, so no need to worry about watching your language.</p>
 
@@ -19,7 +19,7 @@ module.exports =
 <ul>
 <li>Headphones (important so you don’t get feedback from the call)</li>
 <li>If possible, an external mic (not needed if you don’t have it, headphones with a mic work)</li>
-<li><a href="https://zoom.us/download">Zoom</a></li>
+<li>There will be a link in the calendar invite to join</li>
 </ul>
 <h3>Recording Remote</h3>
 <p>Front End Happy Hour was never meant for us to record remote, but given the situation, with COVID-19 it’s better for us to record remote episodes rather than not releasing episodes.</p>
@@ -32,14 +32,12 @@ module.exports =
 <li>Turn off VPN</li>
 <li>Turn off applications syncing in the background (dropbox, drive)</li>
 </ul>
-<h3>Setting up Zoom</h3>
+<h3>Joining the call</h3>
 <ol>
-<li>Download and install Zoom</li>
 <li>Join the call</li>
 <li>Make sure your mic and headphones are connected properly</li>
 <ul>
-<li>Click Zoom.us in the toolbar > Preferences</li>
-<li>Here’s a <a href="https://drive.google.com/file/d/1udMCmrfYcpfCiwbB1TiksoALVUZahUMX/view?usp=sharing">video screen capture</a></li>
+<li>Make sure to select that you're using headphones and that your audio and video inputs are correct</li>
 </ul>
 </ol>
 <h3>Introductions and ending</h3>
