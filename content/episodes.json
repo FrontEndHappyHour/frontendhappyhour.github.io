@@ -1,5 +1,74 @@
 [
   {
+    "episode": "145",
+    "title": "Server Driven UI - Served from behind the bar",
+    "description": "What is server-driven UI and what are the advantages to taking this approach? In this episode, we are joined by the Netflix engineer, Cole Turner to talk with us about the advantages and disadvantages of server-driven UI.",
+    "id": "1224091606",
+    "published": "March 6, 2022",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["server", "UI", "javascript"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Cole Turner",
+        "twitter": "coleturner"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Netflix Tudum",
+        "url": "https://www.netflix.com/tudum",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Shaker and Spoon",
+        "url": "https://shakerandspoon.com/",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Advantage Aviation",
+        "url": "https://www.advantage-aviation.com/",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Pieces of Her",
+        "url": "https://www.netflix.com/title/81015514",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Skate City Game",
+        "url": "https://skatecitygame.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Rule of 72",
+        "url": "https://betterexplained.com/articles/the-rule-of-72/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Dark patterns in games",
+        "url": "https://www.darkpattern.games/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Working Title by Walton",
+        "url": "https://walton.bandcamp.com/track/working-title",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Everything by Max Cooper",
+        "url": "https://maxcooper.bandcamp.com/track/everything-2",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "144",
     "title": "Sidebar interview with Ryan Burgess",
     "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Ryan Burgess, the creator of the Front End Happy Hour podcast.",
@@ -7,15 +76,17 @@
     "published": "February 20, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["interviews", "sidebar"],
+    "tags": [
+      "interviews",
+      "sidebar"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "143",
