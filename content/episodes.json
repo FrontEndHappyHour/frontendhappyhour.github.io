@@ -1,5 +1,23 @@
 [
   {
+    "episode": "146",
+    "title": "Sidebar interview with Jem Young",
+    "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Jem Young, to learn more about his background and career.",
+    "id": "1233298600",
+    "published": "March 20, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["sidebar", "interviews"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "145",
     "title": "Server Driven UI - Served from behind the bar",
     "description": "What is server-driven UI and what are the advantages to taking this approach? In this episode, we are joined by the Netflix engineer, Cole Turner to talk with us about the advantages and disadvantages of server-driven UI.",
@@ -7,7 +25,11 @@
     "published": "March 6, 2022",
     "transcribed": true,
     "category": "technical",
-    "tags": ["server", "UI", "javascript"],
+    "tags": [
+      "server",
+      "UI",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
