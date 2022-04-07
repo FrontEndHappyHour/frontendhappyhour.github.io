@@ -1,5 +1,51 @@
 [
   {
+    "episode": "147",
+    "title": "Debugging Asynchronous JavaScript - Awaiting My Drink",
+    "description": "Have you found debugging asynchronous JavaScript to be hard? You’re not alone. In this episode, we are joined by Jenn Creighton from Netflix to talk with us about a talk she’ll be giving at Reactathon on debugging async JavaScript to help make it a bit easier.",
+    "id": "1246300642",
+    "published": "April 7, 2022",
+    "transcribed": true,
+    "category": "technical",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [{
+        "name": "Jenn Creighton",
+        "twitter": "gurlcode"
+    }],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Jenn Creighton"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jenn Creighton"
+      },
+      {
+        "title": "Dropout",
+        "url": "https://www.hulu.com/series/the-dropout-13988f84-f1c8-40dd-a73c-4e71ab4bbe63",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Media Malpractice in the war in Ukraine",
+        "url": "https://www.thenation.com/article/world/information-war-media-ukraine/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Drive to Survive S4",
+        "url": "https://www.netflix.com/title/80204890",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "146",
     "title": "Sidebar interview with Jem Young",
     "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Jem Young, to learn more about his background and career.",
@@ -7,15 +53,17 @@
     "published": "March 20, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["sidebar", "interviews"],
+    "tags": [
+      "sidebar",
+      "interviews"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "145",
