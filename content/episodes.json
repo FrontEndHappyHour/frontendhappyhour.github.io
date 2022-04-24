@@ -1,5 +1,23 @@
 [
   {
+    "episode": "148",
+    "title": "Sidebar interview with Stacy London",
+    "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Stacy London, to learn more about her background and career.",
+    "id": "1255098268",
+    "published": "April 24, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["interviews", "sidebar"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "147",
     "title": "Debugging Asynchronous JavaScript - Awaiting My Drink",
     "description": "Have you found debugging asynchronous JavaScript to be hard? You’re not alone. In this episode, we are joined by Jenn Creighton from Netflix to talk with us about a talk she’ll be giving at Reactathon on debugging async JavaScript to help make it a bit easier.",
@@ -12,10 +30,12 @@
       "Ryan Burgess",
       "Jem Young"
     ],
-    "guests": [{
+    "guests": [
+      {
         "name": "Jenn Creighton",
         "twitter": "gurlcode"
-    }],
+      }
+    ],
     "links": [],
     "picks": [
       {
