@@ -1,5 +1,53 @@
 [
   {
+    "episode": "149",
+    "title": "Open source software with open liquor",
+    "description": "The tech industry relies a lot on open source software. In this episode, we are joined by Jesse Tomchak to talk with us about open source.",
+    "id": "1263594982",
+    "published": "May 8, 2022",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["development"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Jesse Tomchak",
+        "twitter": "jtomchak"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "micro.blog",
+        "url": "https://micro.blog/",
+        "from": "Jesse Tomchak"
+      },
+      {
+        "title": "Killing Eve",
+        "url": "https://www.amcplus.com/pages/killingeve",
+        "from": "Jesse Tomchak"
+      },
+      {
+        "title": "Tony Hawk - Until the wheels fall off",
+        "url": "https://www.hbo.com/movies/tony-hawk-until-the-wheels-fall-off",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Snak the Ripper - Let It Rip",
+        "url": "https://open.spotify.com/album/2O7W0TpDx0pjYKcEuID1NM",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "MotoGP Unlimited S1",
+        "url": "https://www.amazon.com/MotoGP-Unlimited-Season-1/dp/B09Q37QFNS",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "148",
     "title": "Sidebar interview with Stacy London",
     "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Stacy London, to learn more about her background and career.",
@@ -7,15 +55,17 @@
     "published": "April 24, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["interviews", "sidebar"],
+    "tags": [
+      "interviews",
+      "sidebar"
+    ],
     "panel": [
       "Ryan Burgess",
       "Stacy London"
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "147",
