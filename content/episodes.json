@@ -1,5 +1,65 @@
 [
   {
+    "episode": "150",
+    "title": "Reorgs with a sip of spiced rum",
+    "description": "An organization going through a reorg is a normal evaluation to meet the needs of the business, but it can be a lot of change. In this episode, we talk about our experiences with reorgs.",
+    "id": "1266971782",
+    "published": "May 22, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["culture", "teams", "organizations"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Ultimatum",
+        "url": "https://www.netflix.com/title/81292203",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Lutron Light Switches",
+        "url": "https://www.casetawireless.com/us/en",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Severance",
+        "url": "https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx?ctx_brand=tvs.sbd.4000&ign-itscg=MC_20000&ign-itsct=atvp_brand_omd&mttn3pid=Google%20AdWords&mttnagencyid=a5e&mttncc=US&mttnsiteid=143238&mttnsubad=OUS2019927_1-592764821446-c&mttnsubkw=133111427260__zxnj5jSX_&mttnsubplmnt=",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Sorry to bother you",
+        "url": "https://www.netflix.com/title/80240589",
+        "from": "Jem Young"
+      },
+      {
+        "title": "War by Brutus",
+        "url": "https://youtu.be/5XgCfAK-3pA",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Beings of Light by Fort Romeau",
+        "url": "https://fort-romeau.bandcamp.com/album/beings-of-light",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Endgame",
+        "url": "https://github.com/DavidDikker/endgame",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Architecture Decision Record",
+        "url": "https://github.com/joelparkerhenderson/architecture-decision-record",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "149",
     "title": "Open source software with open liquor",
     "description": "The tech industry relies a lot on open source software. In this episode, we are joined by Jesse Tomchak to talk with us about open source.",
@@ -7,7 +67,9 @@
     "published": "May 8, 2022",
     "transcribed": true,
     "category": "technical",
-    "tags": ["development"],
+    "tags": [
+      "development"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
