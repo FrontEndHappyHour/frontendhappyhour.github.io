@@ -1,5 +1,23 @@
 [
   {
+    "episode": "152",
+    "title": "Sidebar interview with Shirley Wu",
+    "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Shirley Wu, to learn more about her background and career.",
+    "id": "1268380768",
+    "published": "June 19, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["interviews"],
+    "panel": [
+      "Ryan Burgess",
+      "Shirley Wu"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "151",
     "title": "Building in 2022 and tasting the beverage trends",
     "description": "With this ever-changing landscape of technologies, we spend this episode talking with Rhian van Esch and Carlos Castro about the current trends of web development in 2022.",
@@ -7,7 +25,11 @@
     "published": "June 5, 2022",
     "transcribed": true,
     "category": "technical",
-    "tags": ["frontend", "technologies", "builds"],
+    "tags": [
+      "frontend",
+      "technologies",
+      "builds"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
