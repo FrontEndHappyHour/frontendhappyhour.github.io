@@ -1,5 +1,98 @@
 [
   {
+    "episode": "151",
+    "title": "Building in 2022 and tasting the beverage trends",
+    "description": "With this ever-changing landscape of technologies, we spend this episode talking with Rhian van Esch and Carlos Castro about the current trends of web development in 2022.",
+    "id": "1268371129",
+    "published": "June 5, 2022",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["frontend", "technologies", "builds"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Rhian van Esch",
+        "twitter": "rhianvanesch"
+      },
+      {
+        "name": "Carlos Castro",
+        "twitter": "carloscastrodev"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "patterns.dev",
+        "url": "https://www.patterns.dev/",
+        "from": "Rhian van Esch"
+      },
+      {
+        "title": "Google Home",
+        "url": "https://home.google.com/welcome/",
+        "from": "Rhian van Esch"
+      },
+      {
+        "title": "Critical Role",
+        "url": "https://critrole.com/",
+        "from": "Rhian van Esch"
+      },
+      {
+        "title": "Smashing Magazine",
+        "url": "https://www.smashingmagazine.com/",
+        "from": "Carlos Castro"
+      },
+      {
+        "title": "CSS tricks",
+        "url": "https://css-tricks.com/",
+        "from": "Carlos Castro"
+      },
+      {
+        "title": "The House",
+        "url": "https://www.netflix.com/title/81178338",
+        "from": "Carlos Castro"
+      },
+      {
+        "title": "Pursuit of wonder",
+        "url": "https://www.youtube.com/c/PursuitofWonder",
+        "from": "Carlos Castro"
+      },
+      {
+        "title": "Vuori clothing",
+        "url": "https://vuoriclothing.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Elgato Key Light Air",
+        "url": "https://www.elgato.com/en/key-light-air",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Hannibal and Me",
+        "url": "https://www.goodreads.com/en/book/show/11566000-hannibal-and-me",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Guardians of Justice",
+        "url": "https://www.netflix.com/title/80141172",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Bone Mics by Overmono",
+        "url": "https://overmono.bandcamp.com/track/bone-mics",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Vocoder by Floating Points",
+        "url": "https://floatingpoints.bandcamp.com/album/vocoder",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "150",
     "title": "Reorgs with a sip of spiced rum",
     "description": "An organization going through a reorg is a normal evaluation to meet the needs of the business, but it can be a lot of change. In this episode, we talk about our experiences with reorgs.",
@@ -7,7 +100,11 @@
     "published": "May 22, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["culture", "teams", "organizations"],
+    "tags": [
+      "culture",
+      "teams",
+      "organizations"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
