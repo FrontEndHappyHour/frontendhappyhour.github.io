@@ -25,11 +25,7 @@
     "published": "June 5, 2022",
     "transcribed": true,
     "category": "technical",
-    "tags": [
-      "frontend",
-      "technologies",
-      "builds"
-    ],
+    "tags": ["frontend", "technologies", "builds"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
