@@ -1,5 +1,69 @@
 [
   {
+    "episode": "153",
+    "title": "(Re)mixology",
+    "description": "Have you been hearing about the new framework Remix? In this episode, we are joined by Shaundai Person, a Senior Software Engineer at Netflix to talk with us about what Remix is and what are the benefits.",
+    "id": "1306989157",
+    "published": "July 17, 2022",
+    "transcribed": true,
+    "category": "",
+    "tags": ["react", "remix", "javascript"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Shaundai Person",
+        "twitter": "shaundai"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Hooked on Phonics",
+        "url": "https://subscriptions.hookedonphonics.com/",
+        "from": "Shaundai Person"
+      },
+      {
+        "title": "The Boys",
+        "url": "https://www.amazon.com/gp/video/detail/B09WV8HF7Q",
+        "from": "Shaundai Person"
+      },
+      {
+        "title": "Ultimate Bar Book the comprehensive guide",
+        "url": "https://www.amazon.com/Ultimate-Bar-Book-Comprehensive-Cocktails/dp/0811843513",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Hill Bombing Skateboarders of San Francisco",
+        "url": "https://www.youtube.com/watch?v=2d6TBfIZzh0&ab_channel=TheNewYorker",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Valley Silicon: Mini Porsche",
+        "url": "https://www.maisonette.com/product/porsche-cayenne-s-12v-r-c-white",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Baby, We're Ascending by HAAi, Jon Hopkins",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Drum Glow by Moderat",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Neon Rats by Moderat",
+        "url": "",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "152",
     "title": "Sidebar interview with Shirley Wu",
     "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Shirley Wu, to learn more about her background and career.",
@@ -7,15 +71,16 @@
     "published": "June 19, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["interviews"],
+    "tags": [
+      "interviews"
+    ],
     "panel": [
       "Ryan Burgess",
       "Shirley Wu"
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "151",
@@ -25,7 +90,11 @@
     "published": "June 5, 2022",
     "transcribed": true,
     "category": "technical",
-    "tags": ["frontend", "technologies", "builds"],
+    "tags": [
+      "frontend",
+      "technologies",
+      "builds"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
