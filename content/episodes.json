@@ -1,5 +1,23 @@
 [
   {
+    "episode": "154",
+    "title": "Sidebar interview with Mars Jullian",
+    "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Mars Jullian, to learn more about her background and career.",
+    "id": "",
+    "published": "July 31, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["interviews"],
+    "panel": [
+      "Ryan Burgess",
+      "Mars Jullian"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "153",
     "title": "(Re)mixology",
     "description": "Have you been hearing about the new framework Remix? In this episode, we are joined by Shaundai Person, a Senior Software Engineer at Netflix to talk with us about what Remix is and what are the benefits.",
@@ -7,7 +25,11 @@
     "published": "July 17, 2022",
     "transcribed": true,
     "category": "",
-    "tags": ["react", "remix", "javascript"],
+    "tags": [
+      "react",
+      "remix",
+      "javascript"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
