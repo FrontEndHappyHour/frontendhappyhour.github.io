@@ -3,13 +3,9 @@
     "episode": "154",
     "title": "Sidebar interview with Mars Jullian",
     "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Mars Jullian, to learn more about her background and career.",
-<<<<<<< HEAD
     "id": "1336774492",
-=======
-    "id": "",
->>>>>>> 0b1ff0451e1cd3559298d369eed6bb1c10297a83
-    "published": "July 31, 2022",
-    "transcribed": true,
+    "published": "September 4, 2022",
+    "transcribed": false,
     "category": "soft",
     "tags": ["interviews"],
     "panel": [
