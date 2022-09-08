@@ -1,5 +1,61 @@
 [
   {
+    "episode": "155",
+    "title": "",
+    "description": "",
+    "id": "",
+    "published": "September 18, 2022",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["testing", "automation"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Janaki Ramachandran",
+        "twitter": ""
+      },
+      {
+        "name": "Benoit Fontaine",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Janaki Ramachandran"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Janaki Ramachandran"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Benoit Fontaine"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Benoit Fontaine"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      }
+    ]
+  },
+  {
     "episode": "154",
     "title": "Sidebar interview with Mars Jullian",
     "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Mars Jullian, to learn more about her background and career.",
@@ -7,15 +63,16 @@
     "published": "September 4, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["interviews"],
+    "tags": [
+      "interviews"
+    ],
     "panel": [
       "Ryan Burgess",
       "Mars Jullian"
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "153",
