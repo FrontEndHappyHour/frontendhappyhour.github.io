@@ -1,11 +1,11 @@
 [
   {
     "episode": "155",
-    "title": "",
-    "description": "",
+    "title": "Automated testing at scale",
+    "description": "In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale.",
     "id": "",
     "published": "September 18, 2022",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": ["testing", "automation"],
     "panel": [
@@ -24,33 +24,33 @@
     "links": [],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "Hidden Brain",
+        "url": "https://hiddenbrain.org/",
         "from": "Janaki Ramachandran"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Junior Bake Off",
+        "url": "https://www.netflix.com/title/81613670",
         "from": "Janaki Ramachandran"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "The Sandman",
+        "url": "https://www.netflix.com/title/81150303",
         "from": "Benoit Fontaine"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Hero Ranch Kitchen",
+        "url": "https://www.theheroranch.com/",
         "from": "Benoit Fontaine"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Black Bird",
+        "url": "https://tv.apple.com/us/show/black-bird/umc.cmc.30gx1y8nwthydkrvhqu156p3",
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Nix Color Sensor Mini 2",
+        "url": "https://www.nixsensor.com/nix-mini/",
         "from": "Ryan Burgess"
       }
     ]
