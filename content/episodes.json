@@ -1,5 +1,23 @@
 [
   {
+    "episode": "156",
+    "title": "Sidebar interview with Brian Holt",
+    "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Brian Holt, to learn more about his background and career.",
+    "id": "",
+    "published": "October 2, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["sidebar", "interview"],
+    "panel": [
+      "Ryan Burgess",
+      "Brian Holt"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "155",
     "title": "Testing cocktails at a robot bar - Automated testing at scale",
     "description": "In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale.",
@@ -7,7 +25,10 @@
     "published": "September 18, 2022",
     "transcribed": true,
     "category": "technical",
-    "tags": ["testing", "automation"],
+    "tags": [
+      "testing",
+      "automation"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
