@@ -1,5 +1,102 @@
 [
   {
+    "episode": "157",
+    "title": "",
+    "description": "",
+    "id": "",
+    "published": "October 16, 2022",
+    "transcribed": false,
+    "category": "soft",
+    "tags": [],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan",
+      "Mars Jullian",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Jasmine Robinson",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Jasmine Robinson"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jasmine Robinson"
+      },
+      {
+        "title": "The Bear",
+        "url": "https://www.hulu.com/series/05eb6a8e-90ed-4947-8c0b-e6536cbddd5f",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Anatomy of a Scandal",
+        "url": "https://www.netflix.com/watch/81204752",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "156",
     "title": "Sidebar interview with Brian Holt",
     "description": "Our sidebar interview specials interview our panelists individually to learn more about their backgrounds and careers. In this episode, we interview Brian Holt, to learn more about his background and career.",
@@ -7,15 +104,17 @@
     "published": "October 2, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["sidebar", "interview"],
+    "tags": [
+      "sidebar",
+      "interview"
+    ],
     "panel": [
       "Ryan Burgess",
       "Brian Holt"
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "155",
