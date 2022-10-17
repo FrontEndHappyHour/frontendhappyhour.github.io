@@ -1,9 +1,9 @@
 [
   {
     "episode": "157",
-    "title": "",
-    "description": "",
-    "id": "",
+    "title": "Public sector tech - Public bar vs private club",
+    "description": "There are many differences between the public and private sectors. What is it like for engineering roles? In this episode, we are joined by Jasmine Robinson from Netflix to hear about her experience moving from the public sector to a corporate career.",
+    "id": "1364369014",
     "published": "October 16, 2022",
     "transcribed": false,
     "category": "soft",
@@ -11,10 +11,7 @@
     "panel": [
       "Ryan Burgess",
       "Jem Young",
-      "Stacy London",
-      "Augustus Yuan",
-      "Mars Jullian",
-      "Shirley Wu"
+      "Stacy London"
     ],
     "guests": [
       {
@@ -25,13 +22,13 @@
     "links": [],
     "picks": [
       {
-        "title": "",
-        "url": "",
+        "title": "Super-glueing airtags to remotes",
+        "url": "https://www.apple.com/airtag/",
         "from": "Jasmine Robinson"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Andrew Hubberman",
+        "url": "https://hubermanlab.com/",
         "from": "Jasmine Robinson"
       },
       {
@@ -45,54 +42,24 @@
         "from": "Ryan Burgess"
       },
       {
-        "title": "",
+        "title": "The Redeem Team",
+        "url": "https://www.netflix.com/title/81452996",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Parental Leave",
         "url": "",
         "from": "Jem Young"
       },
       {
-        "title": "",
-        "url": "",
-        "from": "Jem Young"
-      },
-      {
-        "title": "",
-        "url": "",
+        "title": "Jungle by Fred again..",
+        "url": "https://open.spotify.com/track/31B7wLv4yvtjDoTTmbnxeE?si=737e179e8d804903",
         "from": "Stacy London"
       },
       {
-        "title": "",
-        "url": "",
+        "title": "Avalanche by Tourist",
+        "url": "https://open.spotify.com/track/5nlOiNyfDrQZI1qqcJiW4D?si=f8f5d07dbc054683",
         "from": "Stacy London"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Augustus Yuan"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Augustus Yuan"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Mars Jullian"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Shirley Wu"
-      },
-      {
-        "title": "",
-        "url": "",
-        "from": "Shirley Wu"
       }
     ]
   },
