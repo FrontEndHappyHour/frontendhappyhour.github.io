@@ -1,5 +1,85 @@
 [
   {
+    "episode": "158",
+    "title": "Layoffs",
+    "description": "It has been a tough few weeks for the tech community to deal with company layoffs. In this episode, we speak about the layoffs and our experiences with past layoffs.",
+    "id": "1385838862",
+    "published": "November 20, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["layoffs", "interviews", "jobs"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "White fudge covered Oreos",
+        "url": "https://www.target.com/p/oreo-white-fudge-covered-chocolate-sandwich-cookies-8-5oz/-/A-14922631?ref=tgt_adv_XS000000&AFID=google_pla_df&fndsrc=tgtao&DFA=71700000012732781&CPNG=PLA_Grocery%2BShopping_Local%7CGrocery_Ecomm_Food_Bev&adgroup=SC_Grocery&LID=700000001170770pgs&LNM=PRODUCT_GROUP&network=g&device=c&location=9031961&targetid=pla-457453509548&ds_rl=1246978&gclid=Cj0KCQiA37KbBhDgARIsAIzce16KFnzFQjjlOZEYVmLACvD6gV6VovemP6pfmtl_3suubKg4dQfnxosaAi8REALw_wcB&gclsrc=aw.ds",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Drink Masters",
+        "url": "https://www.netflix.com/title/81437299",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Jungle",
+        "url": "https://www.amazon.com/Jungle-Season-1/dp/B0B6T93BLJ",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Pointer Instruments",
+        "url": "https://www.lunarartefacts.com/products/pointer-instruments-classic-brown",
+        "from": "Jem Young"
+      },
+      {
+        "title": "layoffs.fyi",
+        "url": "https://layoffs.fyi",
+        "from": "Stacy London"
+      },
+      {
+        "title": "To Feel Again / Trois by Jon Hopkins, Kelly Lee Owens, Sultan + Shepard, Jerro",
+        "url": "https://open.spotify.com/track/4ho6jJU2nbX0NbiF33i4tX?si=c876ffdd3b7c4b29",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Evolve Game (it’s back!)",
+        "url": "https://www.reddit.com/r/EvolveGame/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Moderator Toolbox for Reddit",
+        "url": "https://chrome.google.com/webstore/detail/moderator-toolbox-for-red/jhjpjhhkcbkmgdkahnckfboefnkgghpo?hl=en",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Mars Jullian"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "157",
     "title": "Public sector tech - Public bar vs private club",
     "description": "There are many differences between the public and private sectors. What is it like for engineering roles? In this episode, we are joined by Jasmine Robinson from Netflix to hear about her experience moving from the public sector to a corporate career.",
