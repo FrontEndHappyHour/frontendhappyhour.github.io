@@ -1,5 +1,29 @@
 [
   {
+    "episode": "159",
+    "title": "Drinks on stage - live at Jamstack 2022",
+    "description": "It has been a while since we've done a live episode on stage at a conference. In this episode, we were on stage at Jamstack in San Francisco with our special guest, Jason Lengstorf, discussing specialization in software engineering.",
+    "id": "1396173598",
+    "published": "December 4, 2022",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["career", "specialization"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Mars Jullian"
+    ],
+    "guests": [
+      {
+        "name": "Jason Lengstorf",
+        "twitter": "jlengstorf"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "158",
     "title": "Layoffs",
     "description": "It has been a tough few weeks for the tech community to deal with company layoffs. In this episode, we speak about the layoffs and our experiences with past layoffs.",
@@ -7,7 +31,11 @@
     "published": "November 20, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["layoffs", "interviews", "jobs"],
+    "tags": [
+      "layoffs",
+      "interviews",
+      "jobs"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
