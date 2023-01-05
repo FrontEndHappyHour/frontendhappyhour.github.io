@@ -1,5 +1,85 @@
 [
   {
+    "episode": "160",
+    "title": "Efficient drinks - staying productive in 2023",
+    "description": "It's a new year, a new you. How do you stay productive in 2023? In this episode, we discuss how we are productive and what tools we leverage to help us.",
+    "id": "",
+    "published": "January 8, 2023",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["productivity", "tools"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Augustus Yuan",
+      "Shirley Wu"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Ken Block - Ultimate Urban Playground; San Francisco",
+        "url": "https://www.youtube.com/watch?v=LuDN2bCIyus&ab_channel=DCShoes",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Engineering Management for the Rest of Us - Sarah Drasner",
+        "url": "https://www.engmanagement.dev/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Stacy’s favorite new songs of 2022",
+        "url": "https://open.spotify.com/playlist/4QKoWsh2EHdwALaEIeaUxj?si=bb16de02afad4fbe&nd=1",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Dreading by Plastician",
+        "url": "https://gd4ya.bandcamp.com/album/dreading",
+        "from": "Stacy London"
+      },
+      {
+        "title": "2022 UK Bass Favorites",
+        "url": "https://www.buymusic.club/list/djscreendoor-2022-uk-bass-favorites",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Tin Tran",
+        "url": "https://www.instagram.com/bottegatinnie/?hl=en",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Edward Tian",
+        "url": "https://etedward-gptzero-main-zqgfwb.streamlit.app/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Clockwise",
+        "url": "https://www.getclockwise.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Hobonichi planners & Lofi lol Hobonichi planner",
+        "url": "https://www.1101.com/store/techo/en/lineup/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Planet Word",
+        "url": "https://planetwordmuseum.org/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "MIT Museum Arthur Ganson& Andy Cavatorta",
+        "url": "https://mitmuseum.mit.edu/exhibitions/in-concert-ganson-cavatorta",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Turning Red",
+        "url": "https://www.imdb.com/title/tt8097030/",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "159",
     "title": "Drinks on stage - live at Jamstack 2022",
     "description": "It has been a while since we've done a live episode on stage at a conference. In this episode, we were on stage at Jamstack in San Francisco with our special guest, Jason Lengstorf, discussing specialization in software engineering.",
@@ -7,7 +87,10 @@
     "published": "December 4, 2022",
     "transcribed": true,
     "category": "soft",
-    "tags": ["career", "specialization"],
+    "tags": [
+      "career",
+      "specialization"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -20,8 +103,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "158",
