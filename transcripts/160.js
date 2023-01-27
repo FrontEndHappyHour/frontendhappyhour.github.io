@@ -192,7 +192,7 @@ Yeah, I think that's, that's a tool in itself, you know, one that I'm going to t
 
 </p>
 <p><strong>Stacy London</strong><br />
-when I go workers we have like, this concept of the Comp kudos. So you can like send your your teammates, like a thank you for helping you out or whatever. And my co workers use chat GPT to write me on. And it was like, your hard work and attention to detail really paid off, and I am so grateful for your efforts just sounded. I mean, it was like a joke. Like,
+when I go workers we have like, this concept of the Comp kudos. So you can like send your your teammates, like a thank you for helping you out or whatever. And my co workers use ChatGBT to write me on. And it was like, your hard work and attention to detail really paid off, and I am so grateful for your efforts just sounded. I mean, it was like a joke. Like,
 I knew that he was doing it. But it's not it's like a robot, not him.
 
 </p>
@@ -201,7 +201,7 @@ There again, he could have been like, oh, yeah, I mean, that's changed a couple 
 
 </p>
 <p><strong>Augustus Yuan</strong><br />
-plot twist. We're actually not doing natural podcast, we're actually reading a transcript. We typed in chat GPT written but should we read a podcast?
+plot twist. We're actually not doing natural podcast, we're actually reading a transcript. We typed in ChatGBT written but should we read a podcast?
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
@@ -209,7 +209,7 @@ It's exactly. Give us like we're wanting to talk about being productive in 2023.
 
 </p>
 <p><strong>Shirley Wu</strong><br />
-Plot twist. We're not actually here at all recording. These are all just AI mimics of our voices reading the chat GPT plot to is really good. We're not even here.
+Plot twist. We're not actually here at all recording. These are all just AI mimics of our voices reading the ChatGBT plot to is really good. We're not even here.
 
 </p>
 <p><strong>Augustus Yuan</strong><br />
@@ -229,7 +229,7 @@ Augustus What do you have?
 
 </p>
 <p><strong>Augustus Yuan</strong><br />
-Oh, sure. So this one's a bit. I've never done this before. But what my first pick is an Instagram of someone named Tim Tran. He was he is a friend of my girlfriend's Monica. And he makes these amazing macarons and he posts them and I just like want to give a shout out for it because they're just so freakin good. He it's like they're a Korean type of Macron I believe with this, like special butter cream may combine some French? I don't know. It's just It's just I had one that was just so good. I was like, that's all I could think about when I was thinking of pics. So that's my first pick. And then my second pick. My second pick. Very coincidentally, we talked about jet chat GPT I started doing a lot of moderation on a subreddit. And we started getting a lot of chat GPT spam. And you know, it's like, it's pretty obvious sometimes. But then sometimes there is like a little like, is it and I found that this person named Edward Tian, he, I believe is a Princeton student and he created an app to help decipher if a body of text is written by chat GPT it needs a decent amount of text to be able to know but it looks at like word distribution. It looks at all these things and it tells you like variants I don't I'll be honest, I don't know whatever I'm saying right now. I don't know. I don't even know these words, but it I thought it was a really cool tool he made so it's worth checking.
+Oh, sure. So this one's a bit. I've never done this before. But what my first pick is an Instagram of someone named Tim Tran. He was he is a friend of my girlfriend's Monica. And he makes these amazing macarons and he posts them and I just like want to give a shout out for it because they're just so freakin good. He it's like they're a Korean type of Macron I believe with this, like special butter cream may combine some French? I don't know. It's just It's just I had one that was just so good. I was like, that's all I could think about when I was thinking of pics. So that's my first pick. And then my second pick. My second pick. Very coincidentally, we talked about jet ChatGBT I started doing a lot of moderation on a subreddit. And we started getting a lot of ChatGBT spam. And you know, it's like, it's pretty obvious sometimes. But then sometimes there is like a little like, is it and I found that this person named Edward Tian, he, I believe is a Princeton student and he created an app to help decipher if a body of text is written by ChatGBT it needs a decent amount of text to be able to know but it looks at like word distribution. It looks at all these things and it tells you like variants I don't I'll be honest, I don't know whatever I'm saying right now. I don't know. I don't even know these words, but it I thought it was a really cool tool he made so it's worth checking.
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
