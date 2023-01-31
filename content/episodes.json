@@ -1,5 +1,68 @@
 [
   {
+    "episode": "162",
+    "title": "Micro Frontends - Micro Brewing",
+    "description": "There has been a lot of buzz about micro frontends. In this episode, we are joined by Ruben Casas to talk with us about the pros and cons of leveraging micro frontends.",
+    "id": "1436731279",
+    "published": "February 5, 2023",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["frontend", "UI", "architecture"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Ruben Casas",
+        "twitter": "Infoxicador"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Building Microfrontends",
+        "url": "https://www.amazon.com/Building-Micro-Frontends-Projects-Empowering-Developers/dp/1492082996/ref=sr_1_1?gclid=Cj0KCQiA8t2eBhDeARIsAAVEga0hCiNXw0_1mFmzaaXU7S2pUwrlFbm-hG7hLKiwq1XTvrs7HXye0LYaAvjyEALw_wcB&hvadid=590801818528&hvdev=c&hvlocphy=9031961&hvnetw=g&hvqmt=e&hvrand=1642759814538321933&hvtargid=kwd-1413735243496&hydadcr=22564_10354991&keywords=building+micro+frontends&qid=1675110373&sr=8-1",
+        "from": "Ruben Casas"
+      },
+      {
+        "title": "Micro-frontend dev",
+        "url": "https://microfrontend.dev/",
+        "from": "Ruben Casas"
+      },
+      {
+        "title": "The Last of Us",
+        "url": "https://www.hbo.com/the-last-of-us",
+        "from": "Ruben Casas"
+      },
+      {
+        "title": "The Risks of Micro-Frontends - Ruben Casas",
+        "url": "https://www.youtube.com/watch?v=R8dTiT9nKow",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Pez Outlaw",
+        "url": "https://www.netflix.com/title/81641996",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Beanie Mania",
+        "url": "https://www.hbomax.com/feature/urn:hbo:feature:GYbOeyAqsY4qlwgEAAAGH",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Engineering Management for the Rest of Us by Sarah Drasner",
+        "url": "https://www.engmanagement.dev/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Lomi Food Composter",
+        "url": "https://store.moma.org/products/lomi-food-waste-composter",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "161",
     "title": "Engineering with AI - Always Intoxicated",
     "description": "AI has been around for awhile but has really exploded in the last few months. We are seeing AI that creates art, code, and all forms of writing. In this episode, we discuss how AI has impacted our industry and share our thoughts on where we think it will go.",
@@ -7,7 +70,13 @@
     "published": "January 22, 2023",
     "transcribed": true,
     "category": "soft",
-    "tags": ["AI", "machine learning", "tools", "tooling", "productivity"],
+    "tags": [
+      "AI",
+      "machine learning",
+      "tools",
+      "tooling",
+      "productivity"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",

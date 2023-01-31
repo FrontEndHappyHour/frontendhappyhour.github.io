@@ -9,7 +9,6 @@ const createUrl = require('./lib/create-url');
 const ellipsize = require('ellipsize');
 const mailing = require('./lib/mailing');
 const panelistPage = require('./lib/panelists');
-const epList = require('./lib/episode-json');
 const createSiteMap = require('./lib/sitemap');
 const makeOGImage = require('./lib/make-og-image');
 
@@ -159,10 +158,6 @@ for (let i = episodes.length - 1; i >= 0; i--) {
     main('episode', episodeOutput, epTitle, epDesc, link, pageOGImage)
   );
 }
-
-// output slimmed down version of main episode JSON
-// this provides an episode JSON list for the homepage without all the additional information like picks, guests, panelists, etc.
-epList();
 
 // update index.html
 // this updates the content for the homepage
