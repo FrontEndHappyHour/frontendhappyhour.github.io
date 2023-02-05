@@ -28,7 +28,9 @@ class App extends React.Component {
   componentDidMount() {
     fetch(episodeListURL).then(response => {
       response.json().then(responseJSON => {
-        const epList = Array.prototype.reverse.call(responseJSON);
+        // reverse the order of the episodes displayed on the homepage
+        //const epList = Array.prototype.reverse.call(responseJSON);
+        const epList = responseJSON;
         this.setState({
           episodeList: epList,
           isLoading: false,

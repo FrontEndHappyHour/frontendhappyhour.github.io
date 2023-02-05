@@ -5,22 +5,22 @@ const obj = [];
 
 // loop through the episode list and construct a new object
 for(let ep in episodes) {
-const episode = episodes[ep].episode;
-const title = episodes[ep].title;
-const description = episodes[ep].description;
-const published = episodes[ep].published;
-if(episode !== undefined) {
-    // only use keys from the original JSON needed
-    const details = {
-    episode: episode,
-    title: title,
-    description: description,
-    published: published
-    };
+    const episode = episodes[ep].episode;
+    const title = episodes[ep].title;
+    const description = episodes[ep].description;
+    const published = episodes[ep].published;
+    if(episode !== undefined) {
+        // only use keys from the original JSON needed
+        const details = {
+            episode: episode,
+            title: title,
+            description: description,
+            published: published
+        };
 
-    // add details to object
-    obj.push(details);
-}
+        // add details to object
+        obj.push(details);
+    }
 }
 
 // create episode-list JSON file
