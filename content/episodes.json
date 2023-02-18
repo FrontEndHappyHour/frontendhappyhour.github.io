@@ -1,5 +1,49 @@
 [
   {
+    "episode": "163",
+    "title": "Patents - Drinks pending",
+    "description": "August and his team at Twitch were recently awarded a patent for their work. In this episode, we will learn more about what patents are and the process for a software patent in a company.",
+    "id": "",
+    "published": "February 19, 2023",
+    "transcribed": true,
+    "category": "tech",
+    "tags": ["patents", "code"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Augustus Yuan"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "You - Season 4",
+        "url": "https://www.netflix.com/title/80211991",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "EFF whitepaper “Defend Innovation: How to Fix Our Broken Patent System”",
+        "url": "https://www.eff.org/pages/defend-innovation",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Still Life by ALASKALASKA",
+        "url": "https://alaskalaska.bandcamp.com/track/still-life",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Riot Games Tech Blog",
+        "url": "https://technology.riotgames.com/news/peeking-valorants-netcode",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Physical 100",
+        "url": "https://www.netflix.com/title/81587446",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "162",
     "title": "Micro Frontends - Micro Brewing",
     "description": "There has been a lot of buzz about micro frontends. In this episode, we are joined by Ruben Casas to talk with us about the pros and cons of leveraging micro frontends.",
@@ -7,7 +51,11 @@
     "published": "February 5, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["frontend", "UI", "architecture"],
+    "tags": [
+      "frontend",
+      "UI",
+      "architecture"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
