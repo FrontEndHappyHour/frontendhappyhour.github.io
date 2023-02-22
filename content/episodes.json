@@ -1,5 +1,70 @@
 [
   {
+    "episode": "164",
+    "title": "Engineering levels - our glass level is full",
+    "description": "What do engineering levels mean at companies in Silicon Valley? In this episode, we discuss our experiences with levels and promotion criteria.",
+    "id": "",
+    "published": "March 5, 2023",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["levels", "performance", "growth"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Levels.fyi",
+        "url": "https://www.levels.fyi/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "BriteBrush",
+        "url": "https://www.amazon.com/dp/B07VLL8QH4/ref=cm_sw_r_as_gl_api_gl_i_BQZYAHQDSR1NWNER38NJ?linkCode=ml1&tag=frontendhappy-20",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Insider guide to tech interviews",
+        "url": "https://bartwronski.com/2022/01/04/insider-guide-to-tech-interviews/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Promotion driven development",
+        "url": "https://twitter.com/GergelyOrosz/status/1442215732545216518",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Induction cooking",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Wall of Sleep by Daniel Avery, HAAi",
+        "url": "https://danielavery.bandcamp.com/track/wall-of-sleep",
+        "from": "Stacy London"
+      },
+      {
+        "title": "A Model of Reality - Sebastien Veyan Remix by Max Cooper, Kotomi, Sebastien Veyan",
+        "url": "https://www.youtube.com/watch?v=PWew8ExXWW8",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Defcon 18 Pwned By The Owner",
+        "url": "https://www.youtube.com/watch?v=OAI8S2houW4",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Amazon Leveling Progress",
+        "url": "https://www.levels.fyi/blog/amazon-leveling-progress.html",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "163",
     "title": "Patents - Drinks pending",
     "description": "August and his team at Twitch were recently awarded a patent for their work. In this episode, we will learn more about what patents are and the process for a software patent in a company.",
@@ -7,7 +72,10 @@
     "published": "February 19, 2023",
     "transcribed": true,
     "category": "tech",
-    "tags": ["patents", "code"],
+    "tags": [
+      "patents",
+      "code"
+    ],
     "panel": [
       "Ryan Burgess",
       "Stacy London",
