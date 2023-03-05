@@ -1,5 +1,65 @@
 [
   {
+    "episode": "165",
+    "title": "The art of estimates - how many drinks have we had?",
+    "description": "Estimating software development is a challenging task. In this episode of the podcast, we discuss ways to approach estimating and how to produce more accurate estimates for your work.",
+    "id": "1461959245",
+    "published": "March 19, 2023",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["estimating", "engineer", "engineering", "projects", "process"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "What is ChatGPT doing… and why does it work?",
+        "url": "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/?s=35",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Elgato Mic Arm LP",
+        "url": "https://www.elgato.com/en/wave-mic-arm-lp",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Physical 100",
+        "url": "https://www.netflix.com/title/81587446",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Ringo",
+        "url": "https://www.kickstarter.com/projects/ringobottle/ringo-the-water-bottle-that-magnetically-holds-your-phone",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Bala Rocky by Minihi",
+        "url": "https://minihimusic.bandcamp.com/track/bala-rocky",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Glycerine by Allison Lorenzen, Midwife",
+        "url": "https://allisonlorenzen.bandcamp.com/album/glycerine",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Windows XP logos",
+        "url": "https://www.caseypotterdesign.com/windowsxp",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Web Push for Web Apps on iOS and iPadOS",
+        "url": "https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "164",
     "title": "Engineering levels - our glass level is full",
     "description": "What do engineering levels mean at companies in Silicon Valley? In this episode, we discuss our experiences with levels and promotion criteria.",
@@ -7,7 +67,11 @@
     "published": "March 5, 2023",
     "transcribed": true,
     "category": "soft",
-    "tags": ["levels", "performance", "growth"],
+    "tags": [
+      "levels",
+      "performance",
+      "growth"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
