@@ -116,10 +116,10 @@ fehhTwitterStrings.forEach(function(string) {
     newContent = newContent.replace(string, ' @frontendhh');
 });
 
-// replace chatGBT references
-const chatGBTStrings = [' chat GVT', ' chat GPT', ' Chaturthi GPT', ' chat DBT'];
-chatGBTStrings.forEach(function(string) {
-    newContent = newContent.replace(string, ' ChatGBT');
+// replace chatGPT references
+const chatGPTStrings = [' chat GVT', ' chat GPT', ' Chaturthi GPT', ' chat DBT'];
+chatGPTStrings.forEach(function(string) {
+    newContent = newContent.replace(string, ' ChatGPT');
 });
 
 // create website link for FrontEndHappyHour.com
