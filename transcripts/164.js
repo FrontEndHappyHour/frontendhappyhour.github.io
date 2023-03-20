@@ -15,7 +15,7 @@ at Twitch,
 
 </p>
 <p><strong>Jem Young</strong><br />
-Gem young engineering manager at Netflix. And
+Jem young engineering manager at Netflix. And
 
 </p>
 <p><strong>Ryan Burgess</strong><br />

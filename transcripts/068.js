@@ -579,7 +579,7 @@ on that.
 
 </p>
 <p><strong>Jem Young</strong><br />
-It's like, pretty solid. The ideas are solid, but I wouldn't necessarily copy the code. That's it's not the way I would structure ServiceWorker it's probably a bit more complicated. Also, Gem rat, people who still use var, and a ServiceWorker. Like any browser can run a ServiceWorker you don't need to use var
+It's like, pretty solid. The ideas are solid, but I wouldn't necessarily copy the code. That's it's not the way I would structure ServiceWorker it's probably a bit more complicated. Also, Jem rat, people who still use var, and a ServiceWorker. Like any browser can run a ServiceWorker you don't need to use var
 
 </p>
 <p><strong>Aaron Gustafson</strong><br />

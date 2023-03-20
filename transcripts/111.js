@@ -199,7 +199,7 @@ That is it shows so much about how you think too, which is critical, I really wa
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
-I think there's a lot of amazing advice. If I was to summarize it, it's like, take a step back before jumping in. And that will lead us right into Hicks. So each episode of the front end, podcast, we love to share things that we found interesting. Gem loves to share us the most ridiculous things that exist in Silicon Valley. I shouldn't say in Silicon Valley, just with people with too much money that want to purchase something but yeah, let's jump into pics. Augustus you want to start it off share? Yeah,
+I think there's a lot of amazing advice. If I was to summarize it, it's like, take a step back before jumping in. And that will lead us right into Hicks. So each episode of the front end, podcast, we love to share things that we found interesting. Jem loves to share us the most ridiculous things that exist in Silicon Valley. I shouldn't say in Silicon Valley, just with people with too much money that want to purchase something but yeah, let's jump into pics. Augustus you want to start it off share? Yeah,
 
 </p>
 <p><strong>Augustus Yuan</strong><br />

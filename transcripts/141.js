@@ -255,7 +255,7 @@ That's my stance on NF T's. Honestly, I'm kind of the same. I haven't read too d
 
 </p>
 <p><strong>Shirley Wu</strong><br />
-Cheers. Cheers, Gem forcing the 2020 tears and cheers.
+Cheers. Cheers, Jem forcing the 2020 tears and cheers.
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
@@ -387,7 +387,7 @@ So I have a few picks from fabric joking around with my friends. I'm like, I go 
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
-right on my three picks, Gem What do you have for us? Do you have valid Filkins to start off the year?
+right on my three picks, Jem What do you have for us? Do you have valid Filkins to start off the year?
 
 </p>
 <p><strong>Jem Young</strong><br />

@@ -79,13 +79,12 @@ ryanTwitter.forEach(function(string) {
     newContent = newContent.replace(string, '@burgessdryan');
 });
 
+
 // Fix references to Jem's name
-const jemName = newContent.match(/Jim/g);
-if(jemName !== null) {
-    jemName.forEach(jemString => {
-        newContent = newContent.replace(jemString, `Jem`);
-    });
-}
+const jemName = ['Jim', 'Gem'];
+jemName.forEach(function(jemString) {
+    newContent = newContent.replace(jemString, 'Jem');
+});
 
 // Fix references to Mars' name
 const marsName = newContent.match(/Mars Julian/g);

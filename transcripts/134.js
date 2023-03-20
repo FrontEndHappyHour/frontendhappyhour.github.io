@@ -27,7 +27,7 @@ young engineering manager at Netflix. I'm Ryan Burgess.
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
-I'm a software engineering manager at Netflix, I realized that it's been almost eight years of being in management. So it's kind of cool. Gem and nausea. Both have fresh perspectives. And then Dan and I will have, hopefully some perspectives, but maybe just not as fresh, which will be good. In each episode, the front end Happy Hour podcast, we'd like to choose a keyword that if it's mentioned at all, in the episode, we will all take a drink. And what did we decide today's keyword is transition transition, which I'm pretty sure this words coming up. But yeah, let's, let's start off I really thought as a first way to kick this off is what's it been like moving from IC to manager that transition? Cheers. How does it go? Yes,
+I'm a software engineering manager at Netflix, I realized that it's been almost eight years of being in management. So it's kind of cool. Jem and nausea. Both have fresh perspectives. And then Dan and I will have, hopefully some perspectives, but maybe just not as fresh, which will be good. In each episode, the front end Happy Hour podcast, we'd like to choose a keyword that if it's mentioned at all, in the episode, we will all take a drink. And what did we decide today's keyword is transition transition, which I'm pretty sure this words coming up. But yeah, let's, let's start off I really thought as a first way to kick this off is what's it been like moving from IC to manager that transition? Cheers. How does it go? Yes,
 
 </p>
 <p><strong>Dan DiGangi</strong><br />
