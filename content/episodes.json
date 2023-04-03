@@ -1,5 +1,53 @@
 [
   {
+    "episode": "166",
+    "title": "Backstage - Behind the bar",
+    "description": "We typically don't talk enough about building internal tools. In this episode, we are joined by Jason Palmer to talk with us about Spotify's open-source internal developer portal, Backstage.",
+    "id": "1483668856",
+    "published": "April 2, 2023",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["engineer", "tooling", "builds"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Jason Palmer",
+        "twitter": "palmerj3"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Diablo IV",
+        "url": "https://gear.blizzard.com/products/diabcl0001-diablo-iv-limited-collector-s-box",
+        "from": "Jason Palmer"
+      },
+      {
+        "title": "Tidbyt",
+        "url": "https://tidbyt.com/",
+        "from": "Jason Palmer"
+      },
+      {
+        "title": "Lakrids Bulow",
+        "url": "https://lakridsbybulow.us/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Lego Masters",
+        "url": "https://www.hulu.com/series/fd4ada37-965a-4f86-9ea4-0b214f3e6d7e",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Vestaboard",
+        "url": "https://shop.vestaboard.com/products/vestaboard-white",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "165",
     "title": "The art of estimates - how many drinks have we had?",
     "description": "Estimating software development is a challenging task. In this episode of the podcast, we discuss ways to approach estimating and how to produce more accurate estimates for your work.",
@@ -7,7 +55,13 @@
     "published": "March 19, 2023",
     "transcribed": true,
     "category": "soft",
-    "tags": ["estimating", "engineer", "engineering", "projects", "process"],
+    "tags": [
+      "estimating",
+      "engineer",
+      "engineering",
+      "projects",
+      "process"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
