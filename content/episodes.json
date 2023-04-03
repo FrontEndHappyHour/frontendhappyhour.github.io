@@ -5,7 +5,7 @@
     "description": "We typically don't talk enough about building internal tools. In this episode, we are joined by Jason Palmer to talk with us about Spotify's open-source internal developer portal, Backstage.",
     "id": "1483668856",
     "published": "April 2, 2023",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": ["engineer", "tooling", "builds"],
     "panel": [
