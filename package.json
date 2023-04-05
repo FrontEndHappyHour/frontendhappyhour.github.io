@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io",
   "devDependencies": {
-   /* "babel-core": "^6.26.3",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^6.1.2",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -57,7 +57,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "request": "^2.88.2",
-    "cheerio": "^1.0.0-rc.12"*/
+    "cheerio": "^1.0.0-rc.12"
   },
   "dependencies": {
     
