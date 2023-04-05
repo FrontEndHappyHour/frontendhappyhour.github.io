@@ -39,7 +39,7 @@
     "gulp-nodeunit": "0.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-uglify": "^3.0.2",*/
+    "gulp-uglify": "^3.0.2",
     "husky": "^8.0.3",
     "jshint-stylish": "^2.2.1",
     "node-sass": "^8.0.0",
@@ -57,7 +57,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "request": "^2.88.2",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12"*/
   },
   "dependencies": {
     
