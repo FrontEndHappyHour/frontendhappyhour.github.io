@@ -1,5 +1,85 @@
 [
   {
+    "episode": "167",
+    "title": "Learning - time to wine down and learn",
+    "description": "We all approach learning in different ways. In this episode, we are joined by Madison Kanna to discuss ways we continue to learn as software engineers.",
+    "id": "1494207202",
+    "published": "April 16, 2023",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["learning", "engineering"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Shirley Wu"
+    ],
+    "guests": [
+      {
+        "name": "Madison Kanna",
+        "twitter": "Madisonkanna"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "CS Primer",
+        "url": "https://csprimer.com/",
+        "from": "Madison Kanna"
+      },
+      {
+        "title": "CodeTutor.ai",
+        "url": "https://www.codetutor.ai/",
+        "from": "Madison Kanna"
+      },
+      {
+        "title": "Smart Brevity",
+        "url": "https://www.amazon.com/Smart-Brevity-Power-Saying-More/dp/1523516976",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "alt-J - An Awesome Wave",
+        "url": "https://open.spotify.com/album/6k3vC8nep1BfqAIJ81L6OL",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Changing Minds",
+        "url": "https://changingminds.org/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Woodworking class",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Algorithmic by Spotlights",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Three.js Journey",
+        "url": "https://threejs-journey.com/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "ITP Physical Computing",
+        "url": "https://itp.nyu.edu/physcomp/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "Alice Lee’s weekly ceramic foxes",
+        "url": "https://www.instagram.com/p/CqEW-mWNXAs/",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "wonder & hope art show",
+        "url": "https://www.wonder-and-hope.art/",
+        "from": "Shirley Wu"
+      }
+    ]
+  },
+  {
     "episode": "166",
     "title": "Backstage - Behind the bar",
     "description": "We typically don't talk enough about building internal tools. In this episode, we are joined by Jason Palmer to talk with us about Spotify's open-source internal developer portal, Backstage.",
@@ -7,7 +87,11 @@
     "published": "April 2, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["engineer", "tooling", "builds", "internal"],
+    "tags": [
+      "engineer",
+      "tooling",
+      "builds"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
