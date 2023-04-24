@@ -53,8 +53,7 @@
     "merge-stream": "^2.0.0",
     "mkdirp": "^2.1.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "cheerio": "^1.0.0-rc.12"
+    "react-dom": "^18.2.0"
   },
   "dependencies": {
     
