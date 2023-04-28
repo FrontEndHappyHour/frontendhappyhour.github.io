@@ -1,5 +1,58 @@
 [
   {
+    "episode": "168",
+    "title": "Component libraries - cocktail ingredients",
+    "description": "Component libraries continue to be a growing trend for companies. In this episode, we are joined by Kate Wardin to talk with us about Netflix has adopted a component library they have called Hawkins.",
+    "id": "1502257336",
+    "published": "April 30, 2023",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["libraries", "design", "components"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Kate Wardin",
+        "twitter": "KateWardin"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Tomorrow, and Tomorrow, and Tomorrow",
+        "url": "https://www.amazon.com/Audible-Tomorrow-Novel/dp/B09KD6TCSP/ref=sr_1_1?hvadid=605224886874&hvdev=c&hvlocphy=9031961&hvnetw=g&hvqmt=e&hvrand=18173536944747149316&hvtargid=kwd-421963042545&hydadcr=6587_9607278&keywords=tomorrow+tomorrow+tomorrow&qid=1682375950&sr=8-1",
+        "from": "Kate Wardin"
+      },
+      {
+        "title": "Half-gallon water bottle",
+        "url": "",
+        "from": "Kate Wardin"
+      },
+      {
+        "title": "Jay-z Decoded",
+        "url": "https://www.amazon.com/Decoded-Jay-Z/dp/0812981154",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Rocket Bubble Machine",
+        "url": "https://www.amazon.com/SHCKE-Launcher-Colorful-Birthday-Activity/dp/B09WD9S3C8",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Head On - Arp Version by José González",
+        "url": "https://josgonzlez.bandcamp.com/track/head-on-arp-version",
+        "from": "Stacy London"
+      },
+      {
+        "title": "III by The Supervoid Choral Ensemble",
+        "url": "https://ssupervvoid.bandcamp.com/track/--3",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "167",
     "title": "Learning - time to wine down and learn",
     "description": "We all approach learning in different ways. In this episode, we are joined by Madison Kanna to discuss ways we continue to learn as software engineers.",
@@ -7,7 +60,10 @@
     "published": "April 16, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["learning", "engineering"],
+    "tags": [
+      "learning",
+      "engineering"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
