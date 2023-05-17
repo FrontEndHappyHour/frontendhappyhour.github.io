@@ -1,5 +1,69 @@
 [
   {
+    "episode": "170",
+    "title": "Micro-interactions - micro-brews",
+    "description": "How do micro-interactions impact the user experience? In this episode, we are joined by Evan Purkhiser from Sentry to talk with us about micro-interactions.",
+    "id": "1516414696",
+    "published": "May 28, 2023",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["frontend", "javascript", "UX"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London"
+    ],
+    "guests": [
+      {
+        "name": "Evan Purkhiser",
+        "twitter": "evanpurkhiser"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Set Studio newsletter",
+        "url": "https://set.studio/category/newsletter/",
+        "from": "Evan Purkhiser"
+      },
+      {
+        "title": "Framer",
+        "url": "https://www.framer.com/motion/",
+        "from": "Evan Purkhiser"
+      },
+      {
+        "title": "Evan’s SoundCloud",
+        "url": "https://soundcloud.com/evanpurkhiser",
+        "from": "Evan Purkhiser"
+      },
+      {
+        "title": "Beef",
+        "url": "https://www.netflix.com/title/81447461",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Flipping the Bird",
+        "url": "https://wondery.com/shows/flipping-the-bird-elon-vs-twitter/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Bringing back buttons",
+        "url": "https://slate.com/business/2023/04/cars-buttons-touch-screens-vw-porsche-nissan-hyundai.html",
+        "from": "Jem Young"
+      },
+      {
+        "title": "When You Were A Child And I Was Young by Indian Wells",
+        "url": "https://indianwells.bandcamp.com/track/when-you-were-a-child-and-i-was-young",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Spirit Loop by Rival Consoles",
+        "url": "https://rivalconsoles.bandcamp.com/track/spirit-loop-2",
+        "from": "Stacy London"
+      }
+    ]
+  },
+  {
     "episode": "169",
     "title": "Recruiting - Fill the glass to the correct level",
     "description": "Recruiting, interviews, and hiring is always a great topic for us to discuss. In this episode, we are talking with Hillary Mager and Chris Running from Sterling Strand to talk with us about recruiting and how to get the correct level when hiring.",
@@ -7,7 +71,11 @@
     "published": "May 14, 2023",
     "transcribed": true,
     "category": "soft",
-    "tags": ["recruiting", "interview", "hiring"],
+    "tags": [
+      "recruiting",
+      "interview",
+      "hiring"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
