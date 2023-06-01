@@ -1,5 +1,23 @@
 [
   {
+    "episode": "171",
+    "title": "RenderATL Day 1 Recap",
+    "description": "Ryan Burgess and Jem Young are at RenderATL 2023 conference in Atlanta doing a panel discussion on stage. While at the conference, they recorded a podcast episode to recap day 1 of the conference.",
+    "id": "1528259014",
+    "published": "June 1, 2023",
+    "transcribed": false,
+    "category": "tech",
+    "tags": ["conference", "atlanta", "renderatl"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "170",
     "title": "Micro-interactions - micro-brews",
     "description": "How do micro-interactions impact the user experience? In this episode, we are joined by Evan Purkhiser from Sentry to talk with us about micro-interactions.",
@@ -7,7 +25,11 @@
     "published": "May 28, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["frontend", "javascript", "UX"],
+    "tags": [
+      "frontend",
+      "javascript",
+      "UX"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
