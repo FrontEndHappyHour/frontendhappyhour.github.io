@@ -1,21 +1,47 @@
 [
   {
+    "episode": "172",
+    "title": "RenderATL Day 2 Recap",
+    "description": "Ryan Burgess and Jem Young are at RenderATL 2023 conference in Atlanta. While at the conference, they recorded a podcast episode to recap day one and day two of the conference. In this episode, they are joined by Taylor Desseyn to help provide insights into day two.",
+    "id": "1529685682",
+    "published": "June 3, 2023",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["conference", "renderatl", "networking"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Taylor Desseyn",
+        "twitter": "tdesseyn"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "171",
     "title": "RenderATL Day 1 Recap",
     "description": "Ryan Burgess and Jem Young are at RenderATL 2023 conference in Atlanta doing a panel discussion on stage. While at the conference, they recorded a podcast episode to recap day 1 of the conference.",
     "id": "1528259014",
     "published": "June 1, 2023",
     "transcribed": true,
-    "category": "tech",
-    "tags": ["conference", "atlanta", "renderatl"],
+    "category": "technical",
+    "tags": [
+      "conference",
+      "atlanta",
+      "renderatl"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
     ],
     "guests": [],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "170",
