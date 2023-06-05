@@ -5,7 +5,7 @@
     "description": "Ryan Burgess and Jem Young are at RenderATL 2023 conference in Atlanta. While at the conference, they recorded a podcast episode to recap day one and day two of the conference. In this episode, they are joined by Taylor Desseyn to help provide insights into day two.",
     "id": "1529685682",
     "published": "June 3, 2023",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": ["conference", "renderatl", "networking"],
     "panel": [
