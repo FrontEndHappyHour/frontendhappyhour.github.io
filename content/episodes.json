@@ -1,5 +1,59 @@
 [
   {
+    "episode": "173",
+    "title": "Drag & Drop - drop a drink here",
+    "description": "Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop.",
+    "id": "",
+    "published": "June 11, 2023",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["opensource", "libraries"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Alex Reardon",
+        "twitter": "alexandereardon"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Porcelain cup",
+        "url": "https://www.google.com/search?q=porcelain+cup&oq=porcelain+cup&aqs=chrome..69i57j0i512l9.267j0j7&sourceid=chrome&ie=UTF-8",
+        "from": "Alex Reardon"
+      },
+      {
+        "title": "Barbecue Showdown Season 2",
+        "url": "https://www.netflix.com/watch/81129024",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Pulse At The Centre Of Being - Mor Elian Remix by Max Cooper & Mor Elian",
+        "url": "https://maxcooper.bandcamp.com/track/pulse-at-the-centre-of-being-mor-elian-remix",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Plague X by Midwife, Vyva Melinkolya",
+        "url": "https://midwifemusic.com/track/plague-x",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Stacy's Drag and Drop comment",
+        "url": "",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Two Hot Takes Podcast",
+        "url": "https://www.youtube.com/c/twohottakes",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "172",
     "title": "RenderATL Day 2 Recap",
     "description": "Ryan Burgess and Jem Young are at RenderATL 2023 conference in Atlanta. While at the conference, they recorded a podcast episode to recap day one and day two of the conference. In this episode, they are joined by Taylor Desseyn to help provide insights into day two.",
@@ -7,7 +61,11 @@
     "published": "June 3, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["conference", "renderatl", "networking"],
+    "tags": [
+      "conference",
+      "renderatl",
+      "networking"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -19,8 +77,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "171",
