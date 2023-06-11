@@ -5,7 +5,7 @@
     "description": "Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop.",
     "id": "1536954103",
     "published": "June 11, 2023",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": ["opensource", "libraries"],
     "panel": [
