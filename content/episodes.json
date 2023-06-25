@@ -1,5 +1,80 @@
 [
   {
+    "episode": "174",
+    "title": "Networking - Net-whiskey-ing",
+    "description": "At a networking event, one of our listeners asked us to cover the topic of networking. In this episode, we will share our thoughts on networking and the success stories we’ve experienced from networking in our careers.",
+    "id": "1549878409",
+    "published": "June 25, 2023",
+    "transcribed": false,
+    "category": "soft",
+    "tags": [
+      "networking",
+      "career",
+      "jobs"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan",
+      "Cole Turner"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Based on a True Story",
+        "url": "https://www.peacocktv.com/stream-tv/based-on-a-true-story",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Bunch O Balloons",
+        "url": "https://www.amazon.com/Bunch-Balloons-Tropical-Rapid-Filling-Self-Sealing/dp/B0B44PDCLC/ref=pd_lpo_sccl_1/135-5329622-0612361?pd_rd_w=H97wT&content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_r=33P1VWTH54SEP5PX0E29&pd_rd_wg=RGwhy&pd_rd_r=5b7fc4b8-0bde-40aa-999d-c1f95cf5c07b&pd_rd_i=B0B44PDCLC&psc=1",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Tour de France Unchained",
+        "url": "https://www.netflix.com/title/81153133",
+        "from": "Jem Young"
+      },
+      {
+        "title": "The Managers Path",
+        "url": "https://www.goodreads.com/book/show/33369254-the-manager-s-path",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Fast X",
+        "url": "https://www.imdb.com/title/tt5433140/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Time Takes A While by Daniel Avery",
+        "url": "https://danielavery.bandcamp.com/track/time-takes-a-while",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Spiderman Across Spiderverse in Lego Trailer",
+        "url": "https://www.youtube.com/watch?v=xc4jx4PugHI",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Viewfinder",
+        "url": "https://store.steampowered.com/app/1382070/Viewfinder/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Crucial Conversations: Tools for Talking When the Stakes are High",
+        "url": "https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/1469266822",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Cann",
+        "url": "https://drinkcann.com/",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "173",
     "title": "Drag & Drop - drop a drink here",
     "description": "Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop.",
@@ -7,7 +82,10 @@
     "published": "June 11, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["opensource", "libraries"],
+    "tags": [
+      "opensource",
+      "libraries"
+    ],
     "panel": [
       "Ryan Burgess",
       "Stacy London",
