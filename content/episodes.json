@@ -1,5 +1,70 @@
 [
   {
+    "episode": "175",
+    "title": "Modern CSS - Drinking in style",
+    "description": "What’s the current state of CSS in 2023? Chris Coyier joins us to talk with us about the current landscape of CSS and what we should be excited about in the future.",
+    "id": "",
+    "published": "July 16, 2023",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["css", "frontend"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Chris Coyier",
+        "twitter": "chriscoyier"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Tempered Glass Mouse Mat",
+        "url": "https://www.razer.com/gaming-mouse-mats/razer-atlas",
+        "from": "Chris Coyier"
+      },
+      {
+        "title": "Doritos ketchup chips",
+        "url": "https://www.amazon.com/DORITOS-FLAVORED-TORTILLA-CHIPS-KETCHUP/dp/B0C353B3WG",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Modern CSS in Real Life - Chris Coyier",
+        "url": "https://chriscoyier.net/2023/06/06/modern-css-in-real-life/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Valley Silicon: Linn Sondek",
+        "url": "https://www.linn.co.uk/us/turntables/lp12-50",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Stacy London"
+      },
+      {
+        "title": "No Hard Feelings",
+        "url": "https://www.imdb.com/title/tt15671028/",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Crocs - the perfect outdoor shoe",
+        "url": "https://www.crocs.com/",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "174",
     "title": "Networking - Net-whiskey-ing",
     "description": "At a networking event, one of our listeners asked us to cover the topic of networking. In this episode, we will share our thoughts on networking and the success stories we’ve experienced from networking in our careers.",
