@@ -1,5 +1,96 @@
 [
   {
+    "episode": "176",
+    "title": "How is AI maturing? - Always intoxicated by augmented intelligence",
+    "description": "It’s hard to avoid the topic of AI. The ecosystem of AI is quickly maturing, and we are seeing more use cases and products popping up. In this episode, we are joined by Nick Heiner, an engineer from Fixie, to talk with us about how AI is evolving.",
+    "id": "1576980099",
+    "published": "July 30, 2023",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["AI", "machine learning"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Nick Heiner",
+        "twitter": "nickheiner"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The City of Cape Town",
+        "url": "https://en.wikipedia.org/wiki/Cape_Town",
+        "from": "Nick Heiner"
+      },
+      {
+        "title": "Dog Training",
+        "url": "https://www.amazon.com/101-Dog-Tricks-Activities-Challenge/dp/1592533256",
+        "from": "Nick Heiner"
+      },
+      {
+        "title": "AI.JSX Open Source Framework",
+        "url": "https://github.com/fixie-ai/ai-jsx",
+        "from": "Nick Heiner"
+      },
+      {
+        "title": "Zenpo - Bullet Train Sushi",
+        "url": "https://zenposushisf.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "This Old Ledge: Embarcadero",
+        "url": "https://cdn.jwplayer.com/previews/j8U09VT2",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Marvelous Ms. Maisel S5",
+        "url": "https://www.amazon.com/Marvelous-Mrs-Maisel-Season/dp/B0B7F6XRGS",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Guide for AI newcomers",
+        "url": "https://docs.ai-jsx.com/guides/brand-new",
+        "from": "Jem Young"
+      },
+      {
+        "title": "A Little Bit Further by Tourist",
+        "url": "https://officialtourist.bandcamp.com/track/a-little-bit-further",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Don’t Fall for the AI Hype w/ Timnit Gebru",
+        "url": "https://podcasts.apple.com/podcast/dont-fall-for-the-ai-hype-w-timnit-gebru/id1507621076?i=1000595385583",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Owala",
+        "url": "https://owalalife.com/products/freesip?variant=43048895283359",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Hidden Technical Debt in Machine Learning Systems",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Joy Ride",
+        "url": "https://www.imdb.com/title/tt15268244/",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Tart Cherry Juice",
+        "url": "https://www.target.com/p/r-w-knudsen-family-organic-just-tart-cherry-juice-32-fl-oz-glass-bottle/-/A-14753155",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "175",
     "title": "Modern CSS - Drinking in style",
     "description": "What’s the current state of CSS in 2023? Chris Coyier joins us to talk with us about the current landscape of CSS and what we should be excited about in the future.",
@@ -7,7 +98,10 @@
     "published": "July 16, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["css", "frontend"],
+    "tags": [
+      "css",
+      "frontend"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
