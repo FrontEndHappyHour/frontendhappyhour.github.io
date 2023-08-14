@@ -1,5 +1,84 @@
 [
   {
+    "episode": "177",
+    "title": "CSS - Cascading Sips of Sangria",
+    "description": "CSS has been quickly evolving. In this episode, we are joined by Estelle Weyl and Eric Meyer to explore the new properties that are now available.",
+    "id": "1592392827",
+    "published": "August 13, 2023",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["css", "frontend"],
+    "panel": [
+      "Ryan Burgess",
+      "Stacy London",
+      "Augustus Yuan",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Estelle Weyl",
+        "twitter": ""
+      },
+      {
+        "name": "Eric Meyer",
+        "twitter": "meyerweb"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Gluten-free Oreo cookies",
+        "url": "https://www.amazon.com/Oreo-Original-Double-Cookies-Variety/dp/B096N5QLS9/ref=sr_1_2?hvadid=598805150115&hvdev=c&hvlocphy=9031961&hvnetw=g&hvqmt=e&hvrand=17321927947121720575&hvtargid=kwd-2340854902&hydadcr=3390_13571860&keywords=gluten+free+oreo+cookies&qid=1691971343&rdc=1&sr=8-2",
+        "from": "Estelle Weyl"
+      },
+      {
+        "title": "perfwork.com (Web Performance Job board)",
+        "url": "https://perfwork.com",
+        "from": "Eric Meyer"
+      },
+      {
+        "title": "Mat Marquis Javascript for Web Designers A Book Apart",
+        "url": "https://abookapart.com/products/javascript-for-web-designers",
+        "from": "Eric Meyer"
+      },
+      {
+        "title": "Estelle’s Tracker for Menstrual Cycle Web App",
+        "url": "https://openwebdocs.org/content/posts/cycletracker/",
+        "from": "Eric Meyer"
+      },
+      {
+        "title": "Dewalt Air Inflator",
+        "url": "https://www.amazon.com/DEWALT-DCC020IB-20V-Inflator-Bare/dp/B07H39S9JQ",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "CSS: The Definitive Guide by Eric Meyer & Estelle Weyl",
+        "url": "https://www.oreilly.com/library/view/css-the-definitive/9781098117603/",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Vertebrae / Forgotten Places by Max Cooper",
+        "url": "https://maxcooper.bandcamp.com/track/vertebrae-forgotten-places",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Arc ",
+        "url": "https://arc.net/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Wagwellies dog crocs",
+        "url": "https://wagwear.com/products/wagwellies-mojave?variant=43959804231915&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQjwz8emBhDrARIsANNJjS6IGXaaY8ld0tc85cXeKruw1UCSwTimLcliuD8EQmBnIkg0RqZ1FggaAjtkEALw_wcB",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "BigMouth Inc. Ginormous Inflatable Green Dinosaur Yard Summer Sprinkler",
+        "url": "https://www.amazon.com/dp/B078TKXWGN",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "176",
     "title": "How is AI maturing? - Always intoxicated by augmented intelligence",
     "description": "It’s hard to avoid the topic of AI. The ecosystem of AI is quickly maturing, and we are seeing more use cases and products popping up. In this episode, we are joined by Nick Heiner, an engineer from Fixie, to talk with us about how AI is evolving.",
@@ -7,7 +86,10 @@
     "published": "July 30, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["AI", "machine learning"],
+    "tags": [
+      "AI",
+      "machine learning"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
