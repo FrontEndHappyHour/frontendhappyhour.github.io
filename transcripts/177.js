@@ -1,102 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>CSS - Cascading Sips of Sangria - Front End Happy Hour</title>
-                  <meta name="description" content="CSS has been quickly evolving. In this episode, we are joined by Estelle Weyl and Eric Meyer to explore the new properties that are now available.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/css-cascading-sips-of-sangria.jpeg" /> <meta
-                    property="og:description" content="CSS has been quickly evolving. In this episode, we are joined by Estelle Weyl and Eric Meyer to explore the new properties that are now available." />
-                    <meta property="og:title" content="CSS - Cascading Sips of Sangria - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="CSS has been quickly evolving. In this episode, we are joined by Estelle Weyl and Eric Meyer to explore the new properties that are now available." />
-                    <meta property="twitter:title" content="CSS - Cascading Sips of Sangria - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/css-cascading-sips-of-sangria">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">CSS - Cascading Sips of Sangria</h2>
-                  <div class="container"><p>Published August 13, 2023</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1592392827&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>CSS has been quickly evolving. In this episode, we are joined by Estelle Weyl and Eric Meyer to explore the new properties that are now available.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/estelle-weyl.jpg" alt="Estelle Weyl profile picture"><div><a href="">Estelle Weyl</a></div></li><li><img src="../../public/img/guests/meyerweb.jpg" alt="Eric Meyer profile picture"><div><a href="https://twitter.com/meyerweb">Eric Meyer</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.amazon.com/Oreo-Original-Double-Cookies-Variety/dp/B096N5QLS9/ref=sr_1_2?hvadid=598805150115&hvdev=c&hvlocphy=9031961&hvnetw=g&hvqmt=e&hvrand=17321927947121720575&hvtargid=kwd-2340854902&hydadcr=3390_13571860&keywords=gluten+free+oreo+cookies&qid=1691971343&rdc=1&sr=8-2" target="_blank">Gluten-free Oreo cookies</a> - Estelle Weyl
-      </li><li>
-      <a href="https://perfwork.com" target="_blank">perfwork.com (Web Performance Job board)</a> - Eric Meyer
-      </li><li>
-      <a href="https://abookapart.com/products/javascript-for-web-designers" target="_blank">Mat Marquis Javascript for Web Designers A Book Apart</a> - Eric Meyer
-      </li><li>
-      <a href="https://openwebdocs.org/content/posts/cycletracker/" target="_blank">Estelle’s Tracker for Menstrual Cycle Web App</a> - Eric Meyer
-      </li><li>
-      <a href="https://www.amazon.com/DEWALT-DCC020IB-20V-Inflator-Bare/dp/B07H39S9JQ" target="_blank">Dewalt Air Inflator</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.oreilly.com/library/view/css-the-definitive/9781098117603/" target="_blank">CSS: The Definitive Guide by Eric Meyer & Estelle Weyl</a> - Stacy London
-      </li><li>
-      <a href="https://maxcooper.bandcamp.com/track/vertebrae-forgotten-places" target="_blank">Vertebrae / Forgotten Places by Max Cooper</a> - Stacy London
-      </li><li>
-      <a href="https://arc.net/" target="_blank">Arc </a> - Augustus Yuan
-      </li><li>
-      <a href="https://wagwear.com/products/wagwellies-mojave?variant=43959804231915&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQjwz8emBhDrARIsANNJjS6IGXaaY8ld0tc85cXeKruw1UCSwTimLcliuD8EQmBnIkg0RqZ1FggaAjtkEALw_wcB" target="_blank">Wagwellies dog crocs</a> - Cole Turner
-      </li><li>
-      <a href="https://www.amazon.com/dp/B078TKXWGN" target="_blank">BigMouth Inc. Ginormous Inflatable Green Dinosaur Yard Summer Sprinkler</a> - Cole Turner
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li><li><a href="/panelists/augustus-yuan"><img src="../../public/img/panel/augburto.jpg" alt="Augustus Yuan profile picture" /></a>
-      <span class="name">Augustus Yuan</span>
-      <a href="https://twitter.com/augburto" class="twitter">@augburto</a>
-      </li><li><a href="/panelists/cole-turner"><img src="../../public/img/panel/cole.jpg" alt="Cole Turner profile picture" /></a>
-      <span class="name">Cole Turner</span>
-      <a href="https://twitter.com/coleturner" class="twitter">@coleturner</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to a new episode of the front end happier podcast in I think it was our one of our recent episodes, probably two or three episodes ago, we were joined by Chris coIour to talk about CSS. And because we haven't really covered CSS that often, and it's a great topic to cover we're diving in again, this time was special guests, Estelle and Eric, Estelle and Eric, can you give us a brief introduction of who you are, what you do, and what your favorite Happy Hour beverages still, I
@@ -640,21 +544,6 @@ Yeah, anything other point, and blue sky all the things but yes, front end. Ah a
 That sounded ominous is
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };
