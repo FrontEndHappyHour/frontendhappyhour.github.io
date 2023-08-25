@@ -1,5 +1,52 @@
 [
   {
+    "episode": "178",
+    "title": "Organizing a conference",
+    "description": "We are fans of conferences and have spoken a lot about the value we see in attending conferences, but what goes into organizing a conference? In this episode, we are joined by the organizer of MagnoliaJS, Kayla Sween, to share some insights into the work that goes into running a conference.",
+    "id": "1600625154",
+    "published": "August 27, 2023",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["conference", "organizations"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Kayla Sween",
+        "twitter": "_KaylaSween"
+      }
+    ],
+    "links": [
+      {
+        "title": "MagnoliaJS Discount Code",
+        "url": "https://www.eventbrite.com/e/magnoliajs-2023-tickets-422921328077?discount=frontendhh-10"
+      }
+    ],
+    "picks": [
+      {
+        "title": "MagnoliaJS",
+        "url": "https://www.magnoliajs.com/",
+        "from": "Kayla Sween"
+      },
+      {
+        "title": "Goodles Mac & Cheese",
+        "url": "https://www.target.com/p/goodles-cheddy-mac-creamy-cheddar-protein-mac-38-cheese-6oz/-/A-84783715",
+        "from": "Kayla Sween"
+      },
+      {
+        "title": "Fallout 76",
+        "url": "https://fallout.bethesda.net/en/",
+        "from": "Kayla Sween"
+      },   
+      {
+        "title": "Koala Sour Soothers",
+        "url": "https://www.amazon.com/Koala-Suckers-Gummy-Candy-38-8oz/dp/B00BPXO3ZE/",
+        "from": "Ryan Burgess"
+      }
+    ]
+  },
+  {
     "episode": "177",
     "title": "CSS - Cascading Sips of Sangria",
     "description": "CSS has been quickly evolving. In this episode, we are joined by Estelle Weyl and Eric Meyer to explore the new properties that are now available.",
@@ -7,7 +54,10 @@
     "published": "August 13, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["css", "frontend"],
+    "tags": [
+      "css",
+      "frontend"
+    ],
     "panel": [
       "Ryan Burgess",
       "Stacy London",
