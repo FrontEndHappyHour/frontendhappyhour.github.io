@@ -1,5 +1,87 @@
 [
   {
+    "episode": "179",
+    "title": "Security - what's your favorite happy hour beverage?",
+    "description": "In this episode we are going to be talking about an important feature that so many applications require, login. We are joined by Tony Edwards, Charles Wartemberg and Charlie Shaw from Netflix to share insights into how to approach security and identify for a feature like login.",
+    "id": "",
+    "published": "September 17, 2023",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["security", "hacking", "login", "passwords"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Tony Edwards",
+        "twitter": "tedwards947"
+      },
+      {
+        "name": "Charles Wartemberg",
+        "twitter": ""
+      },
+      {
+        "name": "Charlie Shaw",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Figjam",
+        "url": "https://www.figma.com/figjam/",
+        "from": "Tony Edwards"
+      },
+      {
+        "title": "Foundation",
+        "url": "https://tv.apple.com/us/show/foundation/umc.cmc.5983fipzqbicvrve6jdfep4x3",
+        "from": "Charles Wartemberg"
+      },
+      {
+        "title": "Coffee habit",
+        "url": "",
+        "from": "Charles Wartemberg"
+      },
+      {
+        "title": "Side channel attacks",
+        "url": "https://www.sciencedirect.com/topics/computer-science/side-channel-attack#:~:text=A%20side%2Dchannel%20attack%20is,operation%20of%20the%20attacked%20system.",
+        "from": "Charlie Shaw"
+      },
+      {
+        "title": "7 Days in Chile - Graffiti video",
+        "url": "https://youtu.be/uughdfZRpr8?si=KVp51kJg1JPSxGzr",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Name SF Streets",
+        "url": "https://carvin.github.io/sf-street-names/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Sanctuary",
+        "url": "https://www.netflix.com/title/81144910",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Telly - A “free” TV",
+        "url": "https://www.wired.com/story/telly-tv-free-privacy/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Frontend Security best practices",
+        "url": "https://securitytrails.com/blog/frontend-security-best-practices",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Stanford Javascript Crypto Library",
+        "url": "https://crypto.stanford.edu/sjcl/",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "178",
     "title": "Organizing a conference",
     "description": "We are fans of conferences and have spoken a lot about the value we see in attending conferences, but what goes into organizing a conference? In this episode, we are joined by the organizer of MagnoliaJS, Kayla Sween, to share some insights into the work that goes into running a conference.",
@@ -7,7 +89,10 @@
     "published": "August 27, 2023",
     "transcribed": true,
     "category": "soft",
-    "tags": ["conference", "organizations"],
+    "tags": [
+      "conference",
+      "organizations"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
@@ -38,7 +123,7 @@
         "title": "Fallout 76",
         "url": "https://fallout.bethesda.net/en/",
         "from": "Kayla Sween"
-      },   
+      },
       {
         "title": "Koala Sour Soothers",
         "url": "https://www.amazon.com/Koala-Suckers-Gummy-Candy-38-8oz/dp/B00BPXO3ZE/",
