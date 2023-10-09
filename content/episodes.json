@@ -1,5 +1,71 @@
 [
   {
+    "episode": "180",
+    "title": "Online teaching courses - proof of knowledge",
+    "description": "There’s an art to teaching a technical course or workshop. In this episode, we are joined by Josh W. Comeau, who’s had a lot of experience teaching courses to help share his knowledge with us on how we can create an online course.",
+    "id": "1635531243",
+    "published": "October 8, 2023",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["learning", "courses", "teaching", "workshops"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Josh W. Comeau",
+        "twitter": "JoshWComeau"
+      }
+    ],
+    "links": [
+      {
+        "title": "Josh W. Comeau",
+        "url": "https://www.joshwcomeau.com/"
+      },
+      {
+        "title": "Josh’s online courses",
+        "url": "https://www.joshwcomeau.com/courses/"
+      },
+      {
+        "title": "Hands-Free Coding",
+        "url": "https://www.joshwcomeau.com/blog/hands-free-coding/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Make it Stick",
+        "url": "https://www.amazon.com/Make-It-Stick-Peter-C-Brown-audiobook/dp/B00M1Z2THY/ref=sr_1_1?hvadid=616863168465&hvdev=c&hvlocphy=9031961&hvnetw=g&hvqmt=e&hvrand=182076571795889892&hvtargid=kwd-2281475992&hydadcr=24662_13611802&keywords=make+it+stick&qid=1696615216&sr=8-1",
+        "from": "Josh W. Comeau"
+      },
+      {
+        "title": "Cozy science fiction",
+        "url": "",
+        "from": "Josh W. Comeau"
+      },
+      {
+        "title": "Beep’s Burgers",
+        "url": "https://www.beepsburgers.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Pitch - Kimoyo: Is This African Startup Venture Backable?",
+        "url": "https://www.thepitch.show/116-kimoyo-is-this-african-startup-venture-backable/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Extraction 2",
+        "url": "https://www.netflix.com/title/81098494",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Bugatti Scooter",
+        "url": "https://store.millermotorcars.com/products/bugatti-electric-scooter-agile-bleu?variant=45020143845658",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "179",
     "title": "Security - what's your favorite happy hour beverage?",
     "description": "In this episode we are going to be talking about an important feature that so many applications require, login. We are joined by Tony Edwards, Charles Wartemberg and Charlie Shaw from Netflix to share insights into how to approach security and identify for a feature like login.",
@@ -7,7 +73,12 @@
     "published": "September 17, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["security", "hacking", "login", "passwords"],
+    "tags": [
+      "security",
+      "hacking",
+      "login",
+      "passwords"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
