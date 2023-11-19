@@ -1,5 +1,45 @@
 [
   {
+    "episode": "181",
+    "title": "2023 reflections - looking through the bottle",
+    "description": "In this episode, we reflect on 2023, what's changed in tech, and how we think about our careers.",
+    "id": "1668895197",
+    "published": "November 19, 2023",
+    "transcribed": false,
+    "category": "tech",
+    "tags": ["career"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Cole Turner"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Photographer - Marion Mou",
+        "url": "https://www.instagram.com/moumarion",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Blue-eyed Samurai",
+        "url": "https://www.netflix.com/title/81144203",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Boudin Bakery - Grilled Brie with Apples & Fig Jam",
+        "url": "https://order.boudinbakery.com/menu/boudin-sf-irvine/products/13844286",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "DateUp",
+        "url": "https://apps.apple.com/us/app/dateup-tall-dating-made-easy/id1536497144",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "180",
     "title": "Online teaching courses - proof of knowledge",
     "description": "There’s an art to teaching a technical course or workshop. In this episode, we are joined by Josh W. Comeau, who’s had a lot of experience teaching courses to help share his knowledge with us on how we can create an online course.",
@@ -7,7 +47,12 @@
     "published": "October 8, 2023",
     "transcribed": true,
     "category": "technical",
-    "tags": ["learning", "courses", "teaching", "workshops"],
+    "tags": [
+      "learning",
+      "courses",
+      "teaching",
+      "workshops"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
