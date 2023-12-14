@@ -26,4 +26,5 @@ module.exports =
 <p>Looking for a tailor-made approach? We offer personalized sponsorship packages to meet your specific marketing objectives. From branded content to exclusive giveaways, we collaborate with you to create a campaign that resonates.</p>
 <h2>Get Started Today!</h2>
 <p>Ready to take your brand to new heights with Front End Happy Hour? Connect with our dedicated advertising team to discuss options, rates, and tailor-made solutions. We're committed to ensuring your brand receives the attention it deserves.</p>
-<p>Contact us at <a href="mailto:frontendhappyhour@gmail.com">frontendhappyhour@gmail.com</a> to discuss your advertising goals and explore the exciting opportunities awaiting your brand on the Front End Happy Hour Podcast.</p>`;
+<p>Contact us at <a href="mailto:frontendhappyhour@gmail.com">frontendhappyhour@gmail.com</a> to discuss your advertising goals and explore the exciting opportunities awaiting your brand on the Front End Happy Hour Podcast.</p>
+`;

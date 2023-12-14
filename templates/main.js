@@ -202,6 +202,17 @@ module.exports = function main(pageType, content, title, desc, link, pageOG) {
     js = '';
     heading = 'Subscribe';
   }
+  // advertise
+  if (pageType === 'advertise') {
+    classAdd = 'advertise';
+    path = '../';
+    css = `public/css/subscribe.css?v=${cssVersion}`;
+    pageContent = content;
+    pageTitle = title + ' - ';
+    urlCanonical = `advertise`;
+    js = '';
+    heading = 'Advertise';
+  }
 
   // about
   if (pageType === 'about') {
