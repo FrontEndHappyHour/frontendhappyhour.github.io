@@ -1,5 +1,36 @@
 [
   {
+    "episode": "182",
+    "title": "Documentation - Where is the menu bartender?",
+    "description": "Good documentation is so important but we don’t always put enough focus on it as we should. In this episode, we talk about what makes great quality documentation and ways to improve the documentation you write.",
+    "id": "",
+    "published": "December 17, 2023",
+    "transcribed": false,
+    "category": "tech",
+    "tags": ["documentation"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Estelle Weyl",
+        "twitter": ""
+      },
+      {
+        "name": "Will Bamberg",
+        "twitter": ""
+      },
+      {
+        "name": "Jean-Yves Perrier",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "181",
     "title": "2023 reflections - looking through the bottle",
     "description": "In this episode, we reflect on 2023, what's changed in tech, and how we think about our careers.",
@@ -7,7 +38,9 @@
     "published": "November 19, 2023",
     "transcribed": false,
     "category": "tech",
-    "tags": ["career"],
+    "tags": [
+      "career"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
