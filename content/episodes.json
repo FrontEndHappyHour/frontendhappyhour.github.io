@@ -1,5 +1,61 @@
 [
   {
+    "episode": "183",
+    "title": "Aged to perfection: crafting your internship experience",
+    "description": "In this episode, we are joined by Mark Benliyan to learn about his experiences at tech companies as an intern. Mark shares some interesting insights and provides some useful advice.",
+    "id": "1704115404",
+    "published": "Decembe 31, 2023",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["internships", "learning"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan"
+    ],
+    "guests": [
+      {
+        "name": "Mark Benliyan",
+        "twitter": ""
+      }
+    ],
+    "links": [
+      {
+        "title": "HackerRank",
+        "url": "https://www.hackerrank.com/"
+      },
+      {
+        "title": "CodeSignal",
+        "url": "https://codesignal.com/"
+      },
+      {
+        "title": "Byteboard",
+        "url": "https://www.byteboard.dev/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Rewind AI",
+        "url": "https://www.rewind.ai/",
+        "from": "Mark Benliyan"
+      },
+      {
+        "title": "Squid Game Challenge",
+        "url": "https://www.netflix.com/title/81615540",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Fargo",
+        "url": "https://www.fxnetworks.com/shows/fargo",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Finals",
+        "url": "https://www.reachthefinals.com/",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "182",
     "title": "Documentation - Where is the menu bartender?",
     "description": "Good documentation is so important but we don’t always put enough focus on it as we should. In this episode, we talk about what makes great quality documentation and ways to improve the documentation you write.",
@@ -7,7 +63,9 @@
     "published": "December 17, 2023",
     "transcribed": false,
     "category": "tech",
-    "tags": ["documentation"],
+    "tags": [
+      "documentation"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
@@ -27,8 +85,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "181",
