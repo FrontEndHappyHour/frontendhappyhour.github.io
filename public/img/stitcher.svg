@@ -1,11 +1,1 @@
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180.000000 180.000000"
- preserveAspectRatio="xMidYMid meet">
-<g transform="translate(0.000000,180.000000) scale(0.100000,-0.100000)"
-fill="#3a4750" stroke="none">
-<path d="M1120 935 l0 -335 155 0 155 0 0 335 0 335 -155 0 -155 0 0 -335z"/>
-<path d="M370 915 l0 -315 160 0 160 0 0 315 0 315 -160 0 -160 0 0 -315z"/>
-<path d="M750 845 l0 -325 155 0 155 0 0 325 0 325 -155 0 -155 0 0 -325z"/>
-<path d="M1490 895 l0 -255 155 0 155 0 0 255 0 255 -155 0 -155 0 0 -255z"/>
-<path d="M0 845 l0 -285 155 0 155 0 0 285 0 285 -155 0 -155 0 0 -285z"/>
-</g>
-</svg>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><path d="M112 86.5V120h31V53h-31v33.5zm-75 2V120h32V57H37v31.5zm38 7V128h31V63H75v32.5zm74-5V116h31V65h-31v25.5zm-149 5V124h31V67H0v28.5z" fill="#3a4750"/></svg>

@@ -1,386 +1,414 @@
 <!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Building side projects - Served with a tasty Sidecar - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/building-side-projects-served-with-a-tasty-sidecar.jpeg" /> <meta
-                    property="og:description" content="In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular." />
-                    <meta property="og:title" content="Building side projects - Served with a tasty Sidecar - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular." />
-                    <meta property="twitter:title" content="Building side projects - Served with a tasty Sidecar - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/building-side-projects-served-with-a-tasty-sidecar">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                    <li><a href="/advertise/">Advertise</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Building side projects - Served with a tasty Sidecar</h2>
-                  <div class="container"><p>Published Jan 17, 2020</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/967365850&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/evanfuture.jpg" alt="Evan Payne profile picture"><div><a href="https://twitter.com/evanfuture">Evan Payne</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://maximumfun.org/podcasts/adventure-zone/" target="_blank">The Adventure Zone</a> - Evan Payne
-      </li><li>
-      <a href="https://www.twitch.tv/criticalrole" target="_blank">CriticalRole</a> - Evan Payne
-      </li><li>
-      <a href="https://www.hbo.com/the-undoing" target="_blank">The Undoing</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.hbomax.com/eu" target="_blank">Euphoria</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.netflix.com/title/80994082" target="_blank">Lupin</a> - Jem Young
-      </li><li>
-      <a href="https://www.getawair.com/home/element" target="_blank">Awair Element</a> - Jem Young
-      </li><li>
-      <a href="https://www.hamama.com/products/green-onion-kit" target="_blank">Valley Silicon: Green Onion Kit</a> - Jem Young
-      </li><li>
-      <a href="https://shop.bubblesort.io/" target="_blank">Bubblesort Zines</a> - Shirley Wu
-      </li><li>
-      <a href="https://www.semihandmade.com/" target="_blank">Semihandmade</a> - Shirley Wu
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
-      <span class="name">Jem Young</span>
-      <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
-      </li><li><a href="/panelists/shirley-wu"><img src="../../public/img/panel/sxywu.jpg" alt="Shirley Wu profile picture" /></a>
-      <span class="name">Shirley Wu</span>
-      <a href="https://twitter.com/sxywu" class="twitter">@sxywu</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
-        
-<p><strong>Ryan Burgess</strong><br />
-Welcome to the first episode and 2021 of the front end happier podcast. In today's episode, we have Evan Payne joining us to talk with us about building a side project using Angular JS. Evan, can you give a brief introduction of who you are, what you do, and what your favorite Happy Hour beverages?
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Yeah, so, my name is Evan Payne. I'm a senior front end software engineer at a company called net centric. It's a European based consultancy. And, yeah, I do a lot of front end stuff. I'm really into Dungeons and Dragons lately. And my favorite, happier beverage is kind of anything with vodka in it, though, being over in Spain. A nice red wine Tinto is also very choice though. Currently, I'm drinking some coffee.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-I was just gonna say I'm pretty sure you're not drinking the happy hour beverage right now, because you're joining us very early in the morning to work with all of our schedules. So thank you for doing that. I appreciate that nice, early morning for you. So coffee makes sense. Let's also go around and give introductions of today's panelists surely want to start it off.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-Hi, I'm Shirley. And I'm an independent creator of data visualizations,
-
-</p>
-<p><strong>Jem Young</strong><br />
-Jem Young Senior Software Engineer at Netflix.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-And I'm Ryan Burgess. I'm a software engineering manager at Netflix who actually just joined a new team recently, I will still be a manager at Netflix joined our productivity engineering organization leading the developer infrastructure and tools team. So I'm excited to be starting a new role. In each episode of the front end happier podcast, we'd like to choose a keyword that if it's mentioned at all, in the episode, we will all take a drink. What did we decide today's keyword is my briber libraries. All right, if we say the word library, libraries, plural, whatever it is, we will all take a drink. Before we jump in, I wanted to maybe highlight Evan, you and I had started talking about a project that you've been working on specifically using Angular as a side project. And maybe before we jump into discussing working with side projects, I'd be curious, just give us a little bit of a highlight of what you're working on.
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Yeah, so you know, I have my my normal job. But I've always kept my skills up to date by working on little side projects, because I think one of the best ways to learn anything is to have something that you are trying to solve in the moment that scratch your own itch, so to speak. And I'd always wanted to play Dungeons and Dragons. Since I was a kid, I finally got started with my family. Once my oldest daughter was old enough to play with us, it just kind of clicked into place. And we play sort of once a week, a session and I run the game. So I'm the Game Master. And the notes, I was taking up the lore of the collaborative story that were telling us we play and roll the dice and all they were just getting so out of control, because you have you know, locations that you visited in the descriptions of those and then references to things that they did and people they met. And when you're in the middle of one session trying to look up who they met six months ago, and then you try to get back to your session, it was just out of control. So starting really simple. The core of what I was building was cross linked notes. So I kind of like Rome research, you can click on a link within your session notes, bounce over to that non player character, or location notes, and then bounce back really quickly because it was just a link, but you never left the page. So it's a single page application as well. Then from there, it just kind of grew and expanded. And it took me a year of sort of weekends and nights. But back in October, I finally launched dungeon mastery dot app. And it's been going really well I've got like 700 Plus signups a handful, maybe like 50 active users, but that's great for one man show. So I'm really pleased with it. If that's helping you as a Game Master as well.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-One of the things that comes to mind like when I think of side projects is why create side projects but you for me personally, that's always been the thing is, are you kind of hit a couple things air for me is one just like to keep your skills like and try something different. Or maybe maybe it is trying to complete new library chairs. But yeah, you're trying some new technology and you want to apply it or really just doing something fun like it is it's really interesting. You don't have to necessarily be perfect. It's not production code. Well, in this case, I think I would consider that you're building it for other users. So it is getting to that point. But I also love just the fact of like solving a problem, you solve a problem that you were having, and just made your life easier. And then it's like I bet others could use this and then you just throw it out there and people enjoy it. I think that to me is is really satisfying. There's been tools that I've created on the site, even sometimes very buggy, but they might just help me or they help others and I really enjoy that. So that's always been a motivation for me whenever I do side projects. Oh, Jem, surely any, any motivations differently for doing side projects?
-
-</p>
-<p><strong>Jem Young</strong><br />
-I do, I did want to ask you something because I remember when you when you launched this back in October, at least when you shared it with us, I was like, wow, this is impressive like this, I need to do more stuff. I'm always like I should, I should do more side projects, things like that. But increasingly, what I'm running into is just the motivation to do things it, I think it'd be getting, I was driven by Can I do this thing, and, and now that I'm more knowledgeable, I know that I can build these things I can build most things that I want to build, it doesn't matter how complex it is, I know that I can sit down and put my brain to it and get it done. So I guess for people who do do side projects, like Evan, you're a family, family, man, and you're busy, you have a full time job. How do you find the motivation to come back and do these things? Because I just don't anymore? It's just like the fire isn't there is as much.
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Yeah, I know what you mean. And certainly at the end of last year, I was feeling that to where there were a few things I still wanted to get done in the app. But I was burnt out like it was the it was a crazy year to begin with. And then somehow the work just kept increasing even into December. And I know a lot of people have felt that way to everyone panic, because the beginning of the year was so unproductive that they wanted to get more done. But um, yet, you have to be forgiving for yourself for that. And if you don't have the motivation, that's fine, too. But then be aware that that's a sign of burnout and give yourself a little bit of a break and then come back to it fresh. So I took a couple of weeks off where I didn't do anything. And then I was like, I need to do something again. And that passion sort of returned. That's that's the only thing I could do. Long term, the sustainability of it was more, you know, people do crossword puzzles on weekends, I kind of create a little new feature for the app. That's about it. And spending a lot of time thinking about it. And not coding also helps keep the balance.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Evan, do you also find like another motivation? Because jam, I don't disagree with you. I'm totally in that similar boat where I sometimes I'm just like, I could do that. But I'm, you know, just don't find the motivation for it. I'm wondering to Evan with yours as you've had people using it? Is that a motivation in itself, where people are seeing value in it? And you're like, does that kind of help keep the motivation going?
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Yeah, big time. Especially these last few weeks, I did another kind of announcement post on Reddit. And, you know, minimal enough response, but people have been really supportive, or constructive. I guess that's a better word for it with saying like, Oh, I missed this feature. And it either allows me to say, hey, yeah, that's great. I'll add it to my backlog or I'm not doing that because of this reason which which hones my purpose a little bit. Yeah, but but having a discord community as well and you know, handful of people in there that are super supportive, and thankful and grateful that also really makes it feel good to work on it and add new features and expand upon that.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-I love what you hit on about allowing yourself to have a break because I find that I'm so I've done a lot of side projects. And when I was working full time, I used to do side projects all the time around the clock and and now that I'm independent, I feel like the line between like personal projects and client projects are a little bit kind of blurred. And I find that I approach burnout a lot just because especially in the earlier years, I just worked so much and and that whole like I guess we call it being kind to yourself, like not good. I've been kind to myself. But I really love what you said there Evan about just like being forgiving and letting ourselves be like, we've been working really hard and we don't feel like working on this right now. Because side projects are just supposed to be like a fun thing that gives us joy. Like there's like unless you know there's like people demanding for it and even if there's people demanding for like, I like to tell myself like you don't owe them anything. It's like unless you're like taking their money like you'd I like you don't owe them anything. So I feel like side projects are just supposed to be for like the fun of it and the passion of it. And I love what you said about because of that, like, are you that you said like we could be forgiving about him for not having fun that we should take a step back and when you like just have enough of a step back you naturally have that passion again, like I I think I resonate with that a lot. And I also had a question about I think you kind of hinted at this too. I feel like there's like a tension whenever I create a new project between I've identified this about myself that I love creating a project to like I love. I'm like starting out and figuring out the like architecture of what I'm building and like I love, I love that like making something out of nothing. But then I'm really not good at maintaining. And I, that's something I wanted to ask you about. Because it sounds like now you're like, you're adding new features, but you're also maintaining, and what people are requesting from you
-
-</p>
-<p><strong>Evan Payne</strong><br />
-can be quite challenging. And I mean, maybe this gets into our discussion of Angular a bit. For me, I consider this project, kind of a journeymen piece, which is to say, I've learned so much over the years, and I've been using certain techniques, and little, you know, libraries, chairs, and helpers, to to get myself comfortable with the code and set a good base for myself. And now, having that in place I was it. All of the choices I was making were, what much more well thought out than usual. A lot of side projects, just try something new, toss it together, this was I'm gonna use my stack, the thing that I'm comfortable with, I'll add in a few new things like I switched to tailwind at some stage for the CSS. And that's been really, really great. But generally, having that base that I'm the most confident in, has allowed me to make the right architectural decisions so that when I think something is going to be a challenging feature, it ends up being like a few hours, because it's kind of already naturally there. That's not true for all of the cases. There's one new thing I'm working on now, which is like, I spent days just going Should I even try and do this yet. But yeah, you need to be comfortable with the code base. So once you are then it just makes it easier.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Makes a lot of sense. I guess getting to that point to on the Angular side. What What made you choose that as your library of choice? Cheers.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-Yeah, so caffeinated.
-
-</p>
-<p><strong>Evan Payne</strong><br />
-I'm already the shakes. Yeah. When we were also at the company I was working for, or I'm working for now, one of my mentors there had started a new project and really wanted to use Angular, he was still in alpha when he chose it, and then moved into beta, this Angular two. So I came onto that project towards the tail end, and kind of enjoyed it. Although it was really hard for me at that stage, because I wasn't that much into JavaScript. I just really started this job. And though I was okay at it, because I've done a lot of PHP, it was all kind of Greek to me. But being there since it was in Angular two beta, and then coming out live, and then being able to choose that as what I wanted to use for other projects, as we brought them in. Eventually, we did a project in native script as well, which is a mobile version of that. Yeah, it just it, it came really naturally. So it was someone else's choice to begin with. But then I really embraced it. And over time, have become really comfortable and confident and haven't found something that really quite replaces it in the same way that lets me work fast.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-I'm not surprised to hear you say fast. And like the speed aspect is something that even in the early days of Angular, like, I remember using it really early like in one of the early versions, like one dot something, that's what it would really really impress me with it is how quickly you could spin something up, you had like a lot of components running to like build an application that normally especially that would have been coming off of backbone days, or remember using like knockout J. S, and they were great. But you still had to do a lot of work to get something to where with Angular, it was like out of the box, there was things that I was like, wow, I just got this working in a couple hours. I thought that was always really impressive. I kind of wondered if there was an aspect of speed there.
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Yeah. And every time I try and go back to something like view, as I'm very out of the React World, like I'll tell a story about later if we come back to but I do like view a lot. And when I come back to it, I'm just not as fast. Like I try and get something done. And it's just it's not that view itself can't be fast. It's that I'm not familiar with it enough to know how to fit everything together quickly. Whereas the angular as you say, its parts included, so to speak, and then you just reach for thing and it's there that has side effects of course as well which is that the bundle size is larger and young in the tree shaking is getting better but it's not as good as the other ones. Still. I really like it. I really like the speed that it gives me. So for now I'm sticking with it.
-
-</p>
-<p><strong>Jem Young</strong><br />
-And you're like forgive us really critical point in front end development, which is like it doesn't matter what you use. slike we, we bang on and people argue about React and Angular view and Ember, like, yeah, we go on, we like, have good, good fun about it. But like, it really doesn't matter what you use, like, whatever you're most efficient in to get the job done. Like, that's it. Sure, maybe if you're building some super ultra NASA application, and you need to, like be as fast and slim, and all these things. Sure, there's probably a framework for you. But in general, in dynamic facility cases, do what Evans doing what like your fastest and and you don't have to, like have this cognitive overhead about how to do this? And how to do that which show you Graph QL? Or should we use this? And I don't know, I feel like people get hung up on that. And then they never get anywhere, like, Oh, how's that project going? Well, I'm still trying to decide the database. And it's just like, just build it. Nobody's judging you on this.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-I just recently had this realization of how much I associate might like, I feel like as software engineers, we'd like put so much of our identity into or like, we associate so much of our own identity with like what we use, and like, we're like, oh, I'm a mutable PR, or like a React developer or something. And I realized recently that like, now, it just, they're all just tools in your toolbox, and you should just use whatever works for whatever project you're making. And for me, particularly, it was about like, data visualization, and had put so much on my identity tied so much of my identity to that. And then I realized no, just like it just a set of tools that lets me, like, think about data, better tools come
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-and go to right. Yeah. They like that's the thing is like, don't get so stuck on the one because then it's like, the next day, it's the new hotness that you're like, I want to jump on that. I mean, if you aren't gonna tattoo that and brand yourself was like being a React developer, it's probably a smart thing not to do. It's like because it's like in two years from now, 1000s, the new hotness is going to be out there anyways. And things change. Like I like mentioned, even just me jumping into early Angular days. And what what had changed for me over jumping from like, backbone.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-This is why I'm a late adopter. I don't try anything. I don't try a library chairs until about like, a year and a half to two years in and like, there are like 10 people telling me I should try it. That's how I adopt libraries. Cheers. Again,
-
-</p>
-<p><strong>Evan Payne</strong><br />
-I'm not like that I jumped ahead in, you know, something new, I'll give it a try. But if I don't have a purpose for it, it doesn't really work. So recently, I had a purpose, which was I needed to end up with a web component. But I still wanted to do something with frameworks. And so I thought, Oh, someone mentioned that spelt had sort of built in compiling to web components, like you could create the root of your app as a web component with skill. So I started using felt, and I really, really liked it. It's not that that's going to replace Angular, like I'm not fully invested yet. But again, it comes back to having that very particular use case and just saying, Okay, well, let's try and solve it with this and see how it works. And I was really pleasantly surprised at how that worked and how lightweight it was. And yeah, there's some hiccups again, trying to get tailwind. Also to work with spelt was not an easy thing with the web component setup. I think as a basic thing, it works fine. But still, you know, you spend a while figuring out that problem, and you move on. That's fun, too. I think one of the best things about being a front Ender is that these kinds of things can be fun, as well as good work.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-I think maybe I'm just a very slow learner. This is something I've accepted about myself. So when someone's like, just pick it up, and I'm like, it takes me so long to pick it.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Yeah, but they're also not telling you how long it took them to pick it up. It's easy, because it is like to Evans point, is once you know, the tools, it becomes easier, right? But that hurdle off the start. It's like there's I've had so many times where I'm fiddling with like a build and just trying to get it to work. Yeah. And and once you do it enough times, it's like, yeah, it becomes a lot easier. You're like, oh, yeah, it's so easy to set up Webpack. It's, you know, it's I can do that no problem. But that first time is not that easy. And I think that people seem to forget that
-
-</p>
-<p><strong>Evan Payne</strong><br />
-I will never forget trying to pick up Angular one. This was again, I didn't really know JavaScript. This was back when I was still working with WordPress. And I was like, Well, this is the hot new thing. CSS tricks tells me this is cool. So let me try and learn it. I took a course. And like I studied and it just never clicked and I just couldn't do it. And I gave up which is rare for me. But I did. And then later I look back at it now I'm like, I still don't know if I was actually go with that. You know,
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-I believe Chris Coyier for that one on CSS tricks. Yeah.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-I would love to hear your React story.
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Oh, yeah. So for that mobile project we had to do. I had to spend some time Figuring out what framework we were going to suggest to the client for it. We had already been building some stuff in Angular. So I was obviously more competent with that. Ionic was kind of already burnt to us because we wanted to do proper hybrid, which is to say, like, run as native as possible. And so basically, these other solutions, they like React Native will pack a virtual machine to run the JavaScript. And then the actual UI components are the native components on Swift or Java. So I spent almost a week comparing the building the same little POC in both React Native and in native script, which had Angular. And by the time that was over, I really didn't like React Native. And I think the main reason was not necessarily the code. I mean, it's component based, it's it's similar enough in nature, but it's that it wasn't batteries included, it wasn't prescriptive enough. So you're looking up how to do something, how to set up this particular thing, or how to build this and what the right structure for things should be. There were 100 different opinions, and no consensus. Whereas an Angular, yeah, there might be two ways. But generally, this is the one you go for. And, again, that project was of a type that we needed to work as fast as we could. So I went with the native script and said, yeah, we're just gonna do this, because we're already comfortable. And it's prescriptive. The combination was just there wasn't a choice. Yeah.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-That's that story, though. No, I think it's, I mean, we've talked about that on previous episodes of when you're thinking about different frameworks to use. And there are obviously the trade offs where it's like, maybe you do want to be have something very prescriptive that you can just run with. And it's really clear to everyone how to do that thing. But then there's times where you're like, No, I need a lot more flexibility. But I think also, what I love about that story, too, is you're thinking through those trade offs, and like what's best for the team? Like that's how you should be evaluating it. Not necessarily like, what's the hot new tool, or like, everyone says that React Native is the coolest thing to use? It's like, Yeah, but what's best for our team? And what's going to achieve our goal? And I think that's like, what's the most important piece of that story, too? I like that.
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Yeah, we we also, I remember my, again, the same mentor that that chose to use Angular, reading articles and all that I was like, I really liked this idea of state management, like, you know, Redux had just gotten sort of started, or at least the flux pattern had just been sort of scoped out. And I was like, I like this. And he was like, we're not using that yet. I was like, why he's like, you'll know when you need it. And I was like, No, I think we need to, but I wasn't, I was probably not correct at that moment. But later on, like, now, I just kind of included by default, for Angular, this this NGR x, which I don't know, I just get really comfortable with the actions and reducers and the side effects and things like that. And I add it to all my projects, almost whether they need it or not, because eventually I know that they will need it. But that's for my stuff. But I do really like his methodology of saying, don't reach for a tool, just because it's new, just make sure that you need it. Because that technical debt that you take on, you have to really, really care.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-cautious with that,
-
-</p>
-<p><strong>Jem Young</strong><br />
-I like that a software engineering is hard. You genuinely is like you want to use, you want to stay current. And you want to use the newest technologies, newest ways of thinking. Newest libraries, chairs, and frameworks that utilise say like newer technologies out there, and just newer protocols, things like that. But you also want to use things that are proven and tried and true. And have the knowledge that the newer something is the more edge cases it's going to have that you haven't thought of. So you need to be really careful about where you apply new technology. And that old technology is going to be or old, same old, but older technology is going to be more proven. More read means more tutorials, better support, usually better community, things like that. And somewhere in there, you have to like find where you want to be. Because if you go too old, then you're using then your Facebook, stuff writing PHP still, which nothing else PHP, but like they're still Socratic php. And they built an entire tooling around it all that because they decided to stick with a kind of an older language, relatively speaking for the web, then you have like a startup is using like the newest hottest thing. And then people try to onboard and they're like, oh, yeah, this was hot five years ago. But it actually turns out it was a fluke. And now we're stuck working on this as well. So like you really have to split the middle, and like figure out where you want to be as far as software. And it's just like the thoughtfulness that we don't necessarily put into it. It's always like, Who's the person on Twitter who's got a ton of followers and what are they telling me what is what is CSS tricks telling me today? It's just, it's just like,
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-telling us anything about JavaScript. I'm just kidding. Can
-
-</p>
-<p><strong>Jem Young</strong><br />
-I get plenty of tips off that site, I'm just getting mostly Flexbox mostly flexible
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Flexbox is, is very helpful tool for that.
-
-</p>
-<p><strong>Jem Young</strong><br />
-It's just like a thoughtfulness that we we have to have as engineers, and evidence even to your point, the your mentor at the time, who was saying like, here's the way you should think about problems. And here's why is like such that's such a good mentor. But yeah, there are plenty of people that I've worked with over the years that I fortunately, did not take their advice. But there was like, you always need to do this, or you always need to do this, you always need to do this, rather than setting a clear methodology so I can make my decisions in the future. And we don't see a lot of that we like at least what I see is just people being very prescriptive and saying, do it because I said, so. Rather than, like, do it or pick this technology. And here are the reasons why. It's just like, software engineering is hard. There's a lot to think about, even before we write a line of code, there's a lot to think about.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-Yeah, I like that you call out the Twitter people, because I think Twitter's so bad because we have to fit everything into 140 or 260, or whatever it is now, characters. And I think that's why we're like, I mean, hopefully I'm not guilty of this. But I think that's why there's a lot of like, do this because I said so because unless we want to thread it, I can't tell you all of the reasons why it's like still baffles my mind sometimes why tech is on Twitter so much. Yeah,
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-I mean, I saw, so I don't know what to tell you.
-
-</p>
-<p><strong>Evan Payne</strong><br />
-But a great example of that is micro front ends, there's been this, I don't know, at least I've seen in my Twitter, there's been this recent wave of like, micro front ends are great, you should use them all the time. And, you know, you start to get excited. And so we again, we have this use case where the client was asking us because they'd heard all the buzz that they wanted micro front ends for this case. And it was the Are you sure that's the right case? Let me let's look into this. And one of my colleagues in particular really did a deep dive and she's done talks now and written articles as well on, you probably don't need that architecture. You know, that's, that's component based thinking is already getting you most of the way there. If you really have a completely separate vertical, where your API, your back end, you know, your microservices and your front end are on their own doing their own thing, then might be okay. But if you only have one of those, no, that's that's not it just work on your app. If you have several of those shirts, then that's the right use case. But But again, Twitter would have you say, hey, this hip new thing. Go ahead, run with it. And that's not always the case,
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-that micro front ends is definitely something I know Jem's probably smiling at this too. But I know we've been asked that a few times, I think back to we were at cube con doing a panel and that was a question that came up that someone was asking us if Hey, should we use micro finance? And you know, sure you can. But we also had a long laundry list of reasons why you might not want to it's just more like thinking about it's a trade offs like these, there are trade offs. So there's, there's benefits to it. But there's also a lot of trade offs that you need to think about. And it's not just because someone on Twitter was like, yeah, they're the new hotness, don't just do that don't jump on that bandwagon. That one to me, I think is always one where I'm almost, I don't know, many strong cases where I'm like, yes, my girlfriends is the way to go. I would love to hear all of your thoughts if there is a strong case to but I haven't really been convinced a bit. Here's a
-
-</p>
-<p><strong>Jem Young</strong><br />
-tip for all of the front end Happy Hour regulars. If you ever asked a technology question, you can tell so in seniority, because the more senior they are, the more likely they are to say, Well, it depends, because that's the correct answer for any question about like, should I use this technology? So always be like, it depends. There is no, absolutely you should do this even comes IDs, people like which IDE should I use? I'm like, Well, it depends it which it doesn't as much but I surely hear your point. And Evan, your point as well. Like, on Twitter, yes, people have to be prescriptive because you're a thought leader. But the truth is like every situation is nuanced. And like there is no yes, you should use Angular for this. And yes, she should react for this and etc, etc. So yeah, that's the general tip for all of our front end happier regular. It always depends there. If anybody's ever saying like it's this use this and this the one true way and everybody else that came before me is wrong. They're wrong. It's always
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-my My way is the right way.
-
-</p>
-<p><strong>Jem Young</strong><br />
-We've learned from the mistakes of those 40 other people, and we definitely won't make those mistakes on number 41. Yeah.
-
-</p>
-<p><strong>Evan Payne</strong><br />
-One other point to touch on here maybe is the cyclical nature of things as well. We're on to micro front ends now. But we were in microservices before and we were in iframes kind of all shoved next to each other before that And, you know, it can feel like, oh, yeah, Angular is just Java for the front end, right. A lot of people have referenced that when I was first starting out, because it has a similar feel, although I really don't like to use Java myself. As a back end thing. I think what's happening is we are coming back to these same concepts again and again. But they're improved by the tooling advances that have happened in the meantime, which has been really nice. My prime example for this is there's a few X Googlers X, people from the Angular team, in particular, moved and started a company called norwall. And they started making these mono repository. So mono repo tooling called NX. And it's not any different than learn that or these other mono repo things that have happened before. But it, it says put your whole code base, you have multiple apps, that's great, put it all on this one repo, and make your apps the smallest possible so that they import libraries, cheers, yes. And those libraries, those libraries that are the core of all your stuff resides because they're small, they're they're really modular, and you make as many of those as you need, it's cheap, but then the builds become smaller, because you can make a dependency graph. So before monitory does didn't have this dependency graph, so you just had to build the whole giant thing every time. And that was super annoying. So they've solved a new problem and made it that used an older technology, I guess, that's nice to see,
-
-</p>
-<p><strong>Jem Young</strong><br />
-I've definitely got a rant about the cyclical nature of software technology, especially front end, because it turns over so quickly, I guarantee you, I guarantee you in five years, maybe seven people will be like, you know, you can write JavaScript without types, right? And it says all this inference for you. Did you all know that? It will be like, Yeah, we were saying this when you adopted TypeScript, and you're just switches require, like, we just keep coming back to the same ideas and the same patterns. And we pretend like we've discovered something. And I'm like, computer science is a relatively old field, it's been around 50 6070 years, like these ideas have been discussed before, maybe not to the level that we're talking about. But there aren't many new ideas that like a random developer is going to come up with the, I'm not hating on newbies. But like a lot of the ideas you just had a brilliant idea, it's probably been thought of before I hate to break it to you. And it's like, I don't know, I wish we'd spend a little bit more time studying in less time, like focusing on the newest thing with the NIT Chinese homepage.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-I love the gym. So box that's happening. I actually have been curious, Evan, about. I think your site project is so cool. And I feel like I'm the only person here that hasn't seen it before. Probably because I haven't been on Twitter for a while. I guess I have a question, which is, what were some of the features that you've talked about? That were the most challenging to implement, but or would have been challenging, if not for your expertise in Angular? And then also what were like maybe some of the, like, funnest things that or anything that you implemented for this project that was made extra fun because of Angular very well, because
-
-</p>
-<p><strong>Evan Payne</strong><br />
-of that, it's hard to say, right? Because, you know,
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-you are just in general, sorry,
-
-</p>
-<p><strong>Evan Payne</strong><br />
-I just mean, when when you're the frog in the boiling water, you don't notice the temperature, right. So it's the similar concept, I'm not sure because I already had solved the problem. And it's kind of blurred in my mind. But, um, so one thing I really enjoy about Angular is that it comes with RX JS baked in. And I really liked these observables. And streams, I don't I still, after all these years, don't fully get them. I'm very, I'm self taught and kind of everything I do I know, you know, other people have the luxury of going to school for this, but I went to film school and different track entirely. But that way of thinking reactively, in particular, with ArcGIS. I mean, I could throw away a lot of Angular, if I could just keep that and TypeScript. And you know, for new thing comes along that provides that maybe I'll jump on that train. That has been great. And it's helped solve some problems, that would have been a lot of extra code very elegantly as well. Combining two streams together, let's say like, you know, you've got the, the records themselves and the metadata about them. And you need to transform those into something, let's say change the sorting order of those records as they come in, based on user input. Well, what do you do if you're not thinking reactively of that you have to trigger the event, and then on that, restart the record, and then tell it to update, which is okay, the frameworks helped help with that. But when it's reactive, you just combine the user input stream with the actual data stream, and then it's all in the same place, which is also really nice. And so when you go looking for bugs, it you generally have a single entry point for those as well. I've really enjoyed that. Favorite feature wise. I guess it's for me, it's been the refactoring you know, a lot of big prizes You don't get a chance to refactor. But this is my project. So I don't, that's not a rule anymore. I'll refactor whenever I feel like it's the biggest time was when I was just about to go to production. And I built a whole back end using the nest JS framework, which is sort of like Angular layer on top of Express for the back end, I did the whole back end there. And I had my front end was doing to the services and or was doing the Redux loop and then going to the service. And then that was going to the back end, which was going to the anyway, it was complex, massive amount of files and all this. And when I finally got it, I was like, Wait, where am I actually storing the data because I just done it locally. I was like, I don't want to pay for my SQL database, or like, any kind of database, honestly, looking to Firebase. And once I started looking to Firebase, I was like, Oh, I don't need this back end layer at all. So I just deleted the whole back end completely. And it still worked exactly the same as it did before. That was a really cool moment as well. Not, you know, it could feel like a waste if you just deleted the whole thing. But I learned something. If I ever need that, again, I'll know how to do it. And it made my codebase a little bit lighter and easier to reason through
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-less bugs. Before we jump into pics, I would love to hear you know, since we've been talking a lot about side projects. I'd be curious to hear like all of your maybe piece of advice that you would give to someone who is starting a project or wanting to start those 10 projects that they've thought about, like how, you know, what advice do you give them?
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Yeah, I'll start which is, don't reach for everything new. So like I said, choose the base that you're comfortable with and pick maybe one new thing, because it's fun to try new things. Right. But you know, if you haven't tried tailwind, I keep going on about that, because I'm super in love with it at the moment. If you haven't tried it yet, choose what you're familiar with React or view and then add tailwind in just for this side project. So you've got at least one new thing to keep you on your toes. But don't do also spelt and tailwind and RX js, because you want to try and Graph QL because you want to try some new things know that that can be overwhelming. And you'll just won't follow through on it. I've done that myself. So many times. The only way I've had a successful enough side project has been to keep it with what I was familiar with, and then progressively add on new things, if they were appropriate.
-
-</p>
-<p><strong>Jem Young</strong><br />
-I like that advice, like stick with the baseline. So you can reason out problems in your head. And then once you're comfortable, reach out and pull in some new technologies if if you have a good grasp of the problem already, but don't let the technology become another problem on top of creating your side project. I like that.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-I feel like there was something that was that I think Gemin Evan both hinted at earlier, which is I think Giemsa back, when you were more junior, you did a lot of side projects to kind of learn new technology. But then as you got more and more like as you got more and more comfortable with everything, and you're no longer a technology driven your side projects, but rather a problem and solution driven. I think that's truly a really fun part. And one of the advice I've always given about personal projects is personal projects are hard, because you're doing it on the side of a full time job. And there's really no, like there's no external motivation. And everything has to be absolutely intrinsic. And so the the advice that I generally try to give is, this is coming more from the context of data visualization, but I think it could hopefully apply to a lot of other things, which is trying to find a curiosity. And, and it's something that you want to understand or you want to solve. So that like when that projects gets hard, because it always will. And your own curiosity will motivate you to the other side. Because you're the person that wants to see what it looks like the most. And when other people react positively to it, that's great. But you've done you've done all of this for yourself. And that's what will that's what will drive you to the kind of that finishing line. Not that there's ever really a finishing line to software projects, but whatever you decide is your MVP. It won't get you there. So that's my general advice for side projects.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-I mean, I would echo similar advice so that surely I think like to me it's also like don't overthink it. If you have a problem that you want to solve do it like I love that too is that you're trying to solve a problem that you care about and that that will help the motivation side Have it but also not to overthink it too. It doesn't have to be perfect. You don't have to think about it. Like I love that Evans now taken and shipped it to more users. But I'm sure when you first started out, it was more like, like me, you were solving the problem for yourself, then you start to figure out, oh, this could be helpful for others, like, how do I scale that later. But like, I think you can just phase it like really, like, solve your problem in the dirtiest way possible. And then start to figure out like how you, you maybe scale it if you want to, sometimes I've created something that is dirty, and it does what I need to do. And I'm like, nobody else is looking at this or using it. And that's fine. It works for me, and that's okay, so I think that too, I kind of echo some similar points. While in each episode of the front end, Happy Hour podcast, we'd like to share pics of things that we've been enjoying and want to share with you all. Let's go around and share pics. Jem, what do you have for us?
-
-</p>
-<p><strong>Jem Young</strong><br />
-Uh, yeah, I've got three picks today. The first one is a show on Netflix. It's called Lupin. This is not related to the anime people are gonna, like add me on Twitter. But they're named the same, they have nothing to do with each other really. Anyways, the show is it's French. And it's about a like a sees a I guess you can call a thief. Maybe he's more of like a master criminal of sorts, but not the evil kind. Good guy. But anyways, I won't spoil everything for you. But it has all the elements I like, which is a good heist, I love a good heist. A like kind of a overarching character who always knows what's going on and is always one step ahead of everybody. I always love stuff like that. It has all the elements of a really good show. So that's on Netflix called Groupon. Really, I'm still in the middle of it, but I'm really enjoying it right now. The second pick, this one's a little off for me because you know, I'm against smart, anything. I like my home be disconnected from everything else. But in this case, I had a problem, which was I now have an office. And it's it's sealed off. I try to minimize sound from the outside. You know, my son's running around. My cat is surprisingly noisy. So I have it all sealed off. But it turned out over time I was just losing focus. I was making kind of like poor decisions. And I couldn't figure out why like my my thought process wasn't there. I like accidentally reveal that like secret. That friend told me to another friend and I never do stuff like that like never, but like there's something off. So I was like wait, he's my air bed. So I bought something called an aware element. It was recommended me on Twitter and pretty much monitors your air so monitors the heat, humidity, co2, dangerous chemicals, things like that. And it turns out that after being in meetings for several hours, the door close the co2 level in my office gets dangerously high like to the point where like a doctor would be like you should stop you should open a window because like your judgments now impaired at this point, and I had no idea I just like sort of felt something was off. But now I have an air monitor which reminds me like oh, crap, the co2 is really high in my room I need to open a window just so I can get some fresh thoughts out. And it's been really helpful honestly, like it just changed my office environment just having some fresh air coming in and just reminded me of that. So anybody who's working at home, I know you a lot of us are make sure getting fresh air. You'd be surprised how quickly co2 builds up especially after day meetings. My final pick my valley silicone Actually no, no, let's do Valley Silicon Valley silicon pick this week. That is the point where I pick things that exist only because we have too much money and they really don't need to exist. cold enough you know about the green onion trick. You all know about the green onion trick. So if you're at the store, you buy some green onions you cut the green part, use them in your soup or whatever you're using, you're cooking I'm assuming we're all cooking a lot more. If you don't cut down to the root and you save some of the white part. If you put that in water, it will regrow I did not notice my entire adult life. I was buying green items like sucker now I buy them like a third of the time because I've just keep growing them and growing them until they just like give up on me. However, there is a company that now sells a green onion kit. And for the low low price of $55. I know traditionally this a lot cheaper than my normal picks. But for $55 they'll sell you a box with some holes in it. Put water in it and will grow your green onions. And the reason why at $55 This is the valley silicon fig is because you can literally put a green onion in a glass of water it will grow. I am telling you do not waste time on clever marketing or things like that. You don't even Like they will grow without like, you just put them on your kitchen sick. So that's why those right pics, sorry a little ranty I had some ranting built up over the holidays and think I'm good now.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Wow, that's amazing. All right, Evan, what do you have for us? Okay,
-
-</p>
-<p><strong>Evan Payne</strong><br />
-so yeah, I have two picks. They're both related to Dungeons and Dragons in particular, because why not. And the first podcast, which is called the adventure zone, there's these three brothers that convinced their dad to play Dungeons and Dragons with them. And it starts off really silly. But the DM in particular, Griffin is very inventive. It's not like traditional like live role playing games, it's a little more he takes the time to scripted out and move the story along past the boring parts. And it's it starts off really silly, but it is very sweet. And it is very funny. And a few years ago, it got me into Dungeons and Dragons. Again, I'd wanted to play d&d Since I was a kid. But then I started listening to the show is like, I can do something similar to that. And once I finished the the balance arc, as they call it, this is the initial sort of d&d game, they've moved on to other stuff since, but I was hungry for more of this, and you think it'd be weird, just listen to people sit around and play a role playing game for hours at a time. But it's not. It's great. And there's the that leads me to my second pick, which is also podcast available, but it also is a Twitch stream, and it's probably the most famous one. So anyone that's into this will have heard of it. It's called Critical Role. They're a bunch of voice actors in Los Angeles, that, you know, are in games like Overwatch, and I don't know, I'm not into video games, really, but a lot of other famous games and anime as well. And they just sit around and play actual like four hour sessions of d&d and stream that to the internet. And they have such a huge following. Like, every every stream is 30,000 people watching, you know, it's, like, huge and, and it's also just so good. Like, it has a lot to do with Matt Mercer, the DM he is really expressive. He's they're all really on point. And they play their characters well. And they're really engaged in the role playing part of it to the point where sometimes an hour will go by with no dice rolls, because they're just playing the scenes out and doing stuff. And again, you would think that sitting and listening to four hours worth of people sitting around a table would not be that interesting, but it is so good. I cannot express my appreciation for it enough. And every time they go into like a hiatus. I'm just desperate for more of that. So this is my Pixel.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Ice, surely What do you have for us?
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-Ooh, so I have two today. The first one is my friend Amy, who is at sailor HG on Twitter. I don't know how many people do not know her but she's amazing.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-And she podcast.
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-Yes. Yeah. We did the episode about freelancing together and I still remember that she has a secret brunch place that she will not her favorite brunch places secret and she will not tell anyone. But she did tell us I think her second favorite. And anyways, so she has Bubblesort scenes which I absolutely love, the concept of which is trying to explain very difficult computer science topics in a very accessible way for like kids ages eight and up. But today, I wanted to mention just like she has a great kind of merge line also. So I'm actually wearing her by Mary tree like by Merry Christmas tree sweater. I'm like, pulling it up for my face to show. And I just love her. Like I think her designs are just so punny and clever, but from like a tech like a feminist tech way. And I think that something that's like, I think like her work is so attractive because it just so genuinely her and it's like just what she genuinely finds, like funny or adorable or outrageous and I don't think there's any pretentiousness to it. So I guess this was just a appreciation pig for sailor HG and Bubblesort scenes. And the second one is a little bit out there, which is a company called semi handmade and they're a company that does so this is great for anyone that's like remodeling their house and especially their kitchen. A custom kitchen cabinetry is extremely It's expensive in the US like it can easily run you like 40 50k. But like on the other very, very other end of the spectrum is like something like IKEA, which is like cheap and mass made and relatively okay quality, but doesn't necessarily like look great. So semihandmade is this company that what they do is you go and design your whole kitchen through IKEA. And once you design your whole kitchen, because IKEA just makes it like so easy to customize. You go and buy by all of the door friends and all of the kind of like, the size of your cabinets through semi handmade your kitchen looks like it has really great high quality wood. But the internals are actually IKEA and you end up saving like 10s of 1000s of dollars. And we actually did that for our kitchen remodel. And I think our kitchen cabinets came out to like three or $4,000 or $5,000 when they like, came down to it and it looks I personally think it's a small kitchen. But I personally think it looks really great if you just bought a house, because apparently in the US currently, at least in the bay. There's a lot of house buying going on right now and you're trying to remodel, this might be a very good, affordable option.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Nice. It's really cool. Yeah. All right, I have two picks. I feel like the last episode, I had TV shows as well. But I mean, we just came off holidays, I was trying to relax and do a little binge watching. So I have two series. And both are not on Netflix. They are both on HBO, which is odd for me to pick. But the undoing was a show that I watched over the holidays and it was so good. It was like about a murder of a woman. It's just like really interesting how the whole story unfolds. I don't really want to give away too much. I just think it's definitely worth watching. I think it's a limited series to I'm starting to really like those types of series where it just tells a story and then it's done. It's like we're not going to try and squeeze out six more seasons. So I really enjoyed that one. And since I was paying for HBO, I thought okay, well I got to find something else now to and tried the show euphoria, which it's a different show. It's It's interesting. It's a wild story of like high school students dealing with sex and drugs and identity and all this like wild things that happen to teenagers to an extreme. And it was good. I wasn't like super bingeable Like it wasn't where I was like I have to watch another episode but it was it was a good story. I enjoyed it. So I'll recommend that one as well. Before we end the episode I want to thank everyone for joining us it was a pleasure having you on the episode. Where can people get in touch with you?
-
-</p>
-<p><strong>Evan Payne</strong><br />
-Yeah, that thanks for having me. I've absolute pleasure as well. You can find me on Twitter at Evan future.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Right on so if they have any questions for you about anything Angular related or d&d, that's you're the man. Sure. Love it. Thank you all for listening today's episode. You can find us at front end happy hour.com Subscribe to us on whatever you like to listen to podcasts on. And you can follow us on Twitter at front end H H. Any last words?
-
-</p>
-<p><strong>Shirley Wu</strong><br />
-Happy 2021
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Yeah 2020 21 Libraries. Cheers.
-
-</p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
+<html>
+
+<head>
+  <title>Building side projects - Served with a tasty Sidecar - Front End Happy Hour</title>
+  <meta name="description" content="In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular.">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="alternate" type="application/rss+xml" href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
+  <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/building-side-projects-served-with-a-tasty-sidecar.jpeg" />
+  <meta property="og:description" content="In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular." />
+  <meta property="og:title" content="Building side projects - Served with a tasty Sidecar - Front End Happy Hour" />
+  <meta key="twitter:card" name="twitter:description" content="In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular." />
+  <meta property="twitter:title" content="Building side projects - Served with a tasty Sidecar - Front End Happy Hour" />
+  <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
+  <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
+  <meta key="twitter:creator" name="twitter:creator" content="@frontendhappyhour" />
+  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="https://frontendhappyhour.com/episodes/building-side-projects-served-with-a-tasty-sidecar">
+  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-74493735-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="/">
+        <h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1>
+      </a>
+      <ul class="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/subscribe/">Subscribe</a></li>
+        <li><a href="/advertise/">Advertise</a></li>
       </ul>
+    </div>
+  </header>
+  <div class="episodes ">
+    <h2 id="heading" class="container">Building side projects - Served with a tasty Sidecar</h2>
+    <div class="container">
+      <p>Published Jan 17, 2020</p>
+      <div class="audio">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/967365850&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      </div>
+      <p>In this episode, we are joined by Evan Payne to talk with us about how we each approach side projects. Evan also shares a side project he’s built in Angular.</p>
+    </div>
+    <div class="guests picks container">
+      <h3>Guests</h3>
+      <ul>
+        <li><img src="../../public/img/guests/evanfuture.jpg" alt="Evan Payne profile picture">
+          <div><a href="https://twitter.com/evanfuture">Evan Payne</a></div>
+        </li>
+      </ul>
+    </div>
+    <div class="picks container">
+      <h3>Picks</h3>
+      <ul>
+        <li>
+          <a href="https://maximumfun.org/podcasts/adventure-zone/" target="_blank">The Adventure Zone</a> - Evan Payne
+        </li>
+        <li>
+          <a href="https://www.twitch.tv/criticalrole" target="_blank">CriticalRole</a> - Evan Payne
+        </li>
+        <li>
+          <a href="https://www.hbo.com/the-undoing" target="_blank">The Undoing</a> - Ryan Burgess
+        </li>
+        <li>
+          <a href="https://www.hbomax.com/eu" target="_blank">Euphoria</a> - Ryan Burgess
+        </li>
+        <li>
+          <a href="https://www.netflix.com/title/80994082" target="_blank">Lupin</a> - Jem Young
+        </li>
+        <li>
+          <a href="https://www.getawair.com/home/element" target="_blank">Awair Element</a> - Jem Young
+        </li>
+        <li>
+          <a href="https://www.hamama.com/products/green-onion-kit" target="_blank">Valley Silicon: Green Onion Kit</a> - Jem Young
+        </li>
+        <li>
+          <a href="https://shop.bubblesort.io/" target="_blank">Bubblesort Zines</a> - Shirley Wu
+        </li>
+        <li>
+          <a href="https://www.semihandmade.com/" target="_blank">Semihandmade</a> - Shirley Wu
+        </li>
+      </ul>
+    </div>
+    <div class="panel container">
+      <h3>Panel</h3>
+      <ul>
+        <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
+          <span class="name">Ryan Burgess</span>
+          <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
+        </li>
+        <li><a href="/panelists/jem-young"><img src="../../public/img/jem.jpg" alt="Jem Young profile picture" /></a>
+          <span class="name">Jem Young</span>
+          <a href="https://twitter.com/JemYoung" class="twitter">@JemYoung</a>
+        </li>
+        <li><a href="/panelists/shirley-wu"><img src="../../public/img/panel/sxywu.jpg" alt="Shirley Wu profile picture" /></a>
+          <span class="name">Shirley Wu</span>
+          <a href="https://twitter.com/sxywu" class="twitter">@sxywu</a>
+        </li>
+      </ul>
+    </div>
+    <div id="target"></div>
+    <div class="transcript container">
+      <h3>Episode transcript</h3>
+
+      <p><strong>Ryan Burgess</strong><br />
+        Welcome to the first episode and 2021 of the front end happier podcast. In today's episode, we have Evan Payne joining us to talk with us about building a side project using Angular JS. Evan, can you give a brief introduction of who you are, what you do, and what your favorite Happy Hour beverages?
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Yeah, so, my name is Evan Payne. I'm a senior front end software engineer at a company called net centric. It's a European based consultancy. And, yeah, I do a lot of front end stuff. I'm really into Dungeons and Dragons lately. And my favorite, happier beverage is kind of anything with vodka in it, though, being over in Spain. A nice red wine Tinto is also very choice though. Currently, I'm drinking some coffee.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        I was just gonna say I'm pretty sure you're not drinking the happy hour beverage right now, because you're joining us very early in the morning to work with all of our schedules. So thank you for doing that. I appreciate that nice, early morning for you. So coffee makes sense. Let's also go around and give introductions of today's panelists surely want to start it off.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        Hi, I'm Shirley. And I'm an independent creator of data visualizations,
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        Jem Young Senior Software Engineer at Netflix.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        And I'm Ryan Burgess. I'm a software engineering manager at Netflix who actually just joined a new team recently, I will still be a manager at Netflix joined our productivity engineering organization leading the developer infrastructure and tools team. So I'm excited to be starting a new role. In each episode of the front end happier podcast, we'd like to choose a keyword that if it's mentioned at all, in the episode, we will all take a drink. What did we decide today's keyword is my briber libraries. All right, if we say the word library, libraries, plural, whatever it is, we will all take a drink. Before we jump in, I wanted to maybe highlight Evan, you and I had started talking about a project that you've been working on specifically using Angular as a side project. And maybe before we jump into discussing working with side projects, I'd be curious, just give us a little bit of a highlight of what you're working on.
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Yeah, so you know, I have my my normal job. But I've always kept my skills up to date by working on little side projects, because I think one of the best ways to learn anything is to have something that you are trying to solve in the moment that scratch your own itch, so to speak. And I'd always wanted to play Dungeons and Dragons. Since I was a kid, I finally got started with my family. Once my oldest daughter was old enough to play with us, it just kind of clicked into place. And we play sort of once a week, a session and I run the game. So I'm the Game Master. And the notes, I was taking up the lore of the collaborative story that were telling us we play and roll the dice and all they were just getting so out of control, because you have you know, locations that you visited in the descriptions of those and then references to things that they did and people they met. And when you're in the middle of one session trying to look up who they met six months ago, and then you try to get back to your session, it was just out of control. So starting really simple. The core of what I was building was cross linked notes. So I kind of like Rome research, you can click on a link within your session notes, bounce over to that non player character, or location notes, and then bounce back really quickly because it was just a link, but you never left the page. So it's a single page application as well. Then from there, it just kind of grew and expanded. And it took me a year of sort of weekends and nights. But back in October, I finally launched dungeon mastery dot app. And it's been going really well I've got like 700 Plus signups a handful, maybe like 50 active users, but that's great for one man show. So I'm really pleased with it. If that's helping you as a Game Master as well.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        One of the things that comes to mind like when I think of side projects is why create side projects but you for me personally, that's always been the thing is, are you kind of hit a couple things air for me is one just like to keep your skills like and try something different. Or maybe maybe it is trying to complete new library chairs. But yeah, you're trying some new technology and you want to apply it or really just doing something fun like it is it's really interesting. You don't have to necessarily be perfect. It's not production code. Well, in this case, I think I would consider that you're building it for other users. So it is getting to that point. But I also love just the fact of like solving a problem, you solve a problem that you were having, and just made your life easier. And then it's like I bet others could use this and then you just throw it out there and people enjoy it. I think that to me is is really satisfying. There's been tools that I've created on the site, even sometimes very buggy, but they might just help me or they help others and I really enjoy that. So that's always been a motivation for me whenever I do side projects. Oh, Jem, surely any, any motivations differently for doing side projects?
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        I do, I did want to ask you something because I remember when you when you launched this back in October, at least when you shared it with us, I was like, wow, this is impressive like this, I need to do more stuff. I'm always like I should, I should do more side projects, things like that. But increasingly, what I'm running into is just the motivation to do things it, I think it'd be getting, I was driven by Can I do this thing, and, and now that I'm more knowledgeable, I know that I can build these things I can build most things that I want to build, it doesn't matter how complex it is, I know that I can sit down and put my brain to it and get it done. So I guess for people who do do side projects, like Evan, you're a family, family, man, and you're busy, you have a full time job. How do you find the motivation to come back and do these things? Because I just don't anymore? It's just like the fire isn't there is as much.
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Yeah, I know what you mean. And certainly at the end of last year, I was feeling that to where there were a few things I still wanted to get done in the app. But I was burnt out like it was the it was a crazy year to begin with. And then somehow the work just kept increasing even into December. And I know a lot of people have felt that way to everyone panic, because the beginning of the year was so unproductive that they wanted to get more done. But um, yet, you have to be forgiving for yourself for that. And if you don't have the motivation, that's fine, too. But then be aware that that's a sign of burnout and give yourself a little bit of a break and then come back to it fresh. So I took a couple of weeks off where I didn't do anything. And then I was like, I need to do something again. And that passion sort of returned. That's that's the only thing I could do. Long term, the sustainability of it was more, you know, people do crossword puzzles on weekends, I kind of create a little new feature for the app. That's about it. And spending a lot of time thinking about it. And not coding also helps keep the balance.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Evan, do you also find like another motivation? Because jam, I don't disagree with you. I'm totally in that similar boat where I sometimes I'm just like, I could do that. But I'm, you know, just don't find the motivation for it. I'm wondering to Evan with yours as you've had people using it? Is that a motivation in itself, where people are seeing value in it? And you're like, does that kind of help keep the motivation going?
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Yeah, big time. Especially these last few weeks, I did another kind of announcement post on Reddit. And, you know, minimal enough response, but people have been really supportive, or constructive. I guess that's a better word for it with saying like, Oh, I missed this feature. And it either allows me to say, hey, yeah, that's great. I'll add it to my backlog or I'm not doing that because of this reason which which hones my purpose a little bit. Yeah, but but having a discord community as well and you know, handful of people in there that are super supportive, and thankful and grateful that also really makes it feel good to work on it and add new features and expand upon that.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        I love what you hit on about allowing yourself to have a break because I find that I'm so I've done a lot of side projects. And when I was working full time, I used to do side projects all the time around the clock and and now that I'm independent, I feel like the line between like personal projects and client projects are a little bit kind of blurred. And I find that I approach burnout a lot just because especially in the earlier years, I just worked so much and and that whole like I guess we call it being kind to yourself, like not good. I've been kind to myself. But I really love what you said there Evan about just like being forgiving and letting ourselves be like, we've been working really hard and we don't feel like working on this right now. Because side projects are just supposed to be like a fun thing that gives us joy. Like there's like unless you know there's like people demanding for it and even if there's people demanding for like, I like to tell myself like you don't owe them anything. It's like unless you're like taking their money like you'd I like you don't owe them anything. So I feel like side projects are just supposed to be for like the fun of it and the passion of it. And I love what you said about because of that, like, are you that you said like we could be forgiving about him for not having fun that we should take a step back and when you like just have enough of a step back you naturally have that passion again, like I I think I resonate with that a lot. And I also had a question about I think you kind of hinted at this too. I feel like there's like a tension whenever I create a new project between I've identified this about myself that I love creating a project to like I love. I'm like starting out and figuring out the like architecture of what I'm building and like I love, I love that like making something out of nothing. But then I'm really not good at maintaining. And I, that's something I wanted to ask you about. Because it sounds like now you're like, you're adding new features, but you're also maintaining, and what people are requesting from you
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        can be quite challenging. And I mean, maybe this gets into our discussion of Angular a bit. For me, I consider this project, kind of a journeymen piece, which is to say, I've learned so much over the years, and I've been using certain techniques, and little, you know, libraries, chairs, and helpers, to to get myself comfortable with the code and set a good base for myself. And now, having that in place I was it. All of the choices I was making were, what much more well thought out than usual. A lot of side projects, just try something new, toss it together, this was I'm gonna use my stack, the thing that I'm comfortable with, I'll add in a few new things like I switched to tailwind at some stage for the CSS. And that's been really, really great. But generally, having that base that I'm the most confident in, has allowed me to make the right architectural decisions so that when I think something is going to be a challenging feature, it ends up being like a few hours, because it's kind of already naturally there. That's not true for all of the cases. There's one new thing I'm working on now, which is like, I spent days just going Should I even try and do this yet. But yeah, you need to be comfortable with the code base. So once you are then it just makes it easier.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Makes a lot of sense. I guess getting to that point to on the Angular side. What What made you choose that as your library of choice? Cheers.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        Yeah, so caffeinated.
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        I'm already the shakes. Yeah. When we were also at the company I was working for, or I'm working for now, one of my mentors there had started a new project and really wanted to use Angular, he was still in alpha when he chose it, and then moved into beta, this Angular two. So I came onto that project towards the tail end, and kind of enjoyed it. Although it was really hard for me at that stage, because I wasn't that much into JavaScript. I just really started this job. And though I was okay at it, because I've done a lot of PHP, it was all kind of Greek to me. But being there since it was in Angular two beta, and then coming out live, and then being able to choose that as what I wanted to use for other projects, as we brought them in. Eventually, we did a project in native script as well, which is a mobile version of that. Yeah, it just it, it came really naturally. So it was someone else's choice to begin with. But then I really embraced it. And over time, have become really comfortable and confident and haven't found something that really quite replaces it in the same way that lets me work fast.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        I'm not surprised to hear you say fast. And like the speed aspect is something that even in the early days of Angular, like, I remember using it really early like in one of the early versions, like one dot something, that's what it would really really impress me with it is how quickly you could spin something up, you had like a lot of components running to like build an application that normally especially that would have been coming off of backbone days, or remember using like knockout J. S, and they were great. But you still had to do a lot of work to get something to where with Angular, it was like out of the box, there was things that I was like, wow, I just got this working in a couple hours. I thought that was always really impressive. I kind of wondered if there was an aspect of speed there.
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Yeah. And every time I try and go back to something like view, as I'm very out of the React World, like I'll tell a story about later if we come back to but I do like view a lot. And when I come back to it, I'm just not as fast. Like I try and get something done. And it's just it's not that view itself can't be fast. It's that I'm not familiar with it enough to know how to fit everything together quickly. Whereas the angular as you say, its parts included, so to speak, and then you just reach for thing and it's there that has side effects of course as well which is that the bundle size is larger and young in the tree shaking is getting better but it's not as good as the other ones. Still. I really like it. I really like the speed that it gives me. So for now I'm sticking with it.
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        And you're like forgive us really critical point in front end development, which is like it doesn't matter what you use. slike we, we bang on and people argue about React and Angular view and Ember, like, yeah, we go on, we like, have good, good fun about it. But like, it really doesn't matter what you use, like, whatever you're most efficient in to get the job done. Like, that's it. Sure, maybe if you're building some super ultra NASA application, and you need to, like be as fast and slim, and all these things. Sure, there's probably a framework for you. But in general, in dynamic facility cases, do what Evans doing what like your fastest and and you don't have to, like have this cognitive overhead about how to do this? And how to do that which show you Graph QL? Or should we use this? And I don't know, I feel like people get hung up on that. And then they never get anywhere, like, Oh, how's that project going? Well, I'm still trying to decide the database. And it's just like, just build it. Nobody's judging you on this.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        I just recently had this realization of how much I associate might like, I feel like as software engineers, we'd like put so much of our identity into or like, we associate so much of our own identity with like what we use, and like, we're like, oh, I'm a mutable PR, or like a React developer or something. And I realized recently that like, now, it just, they're all just tools in your toolbox, and you should just use whatever works for whatever project you're making. And for me, particularly, it was about like, data visualization, and had put so much on my identity tied so much of my identity to that. And then I realized no, just like it just a set of tools that lets me, like, think about data, better tools come
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        and go to right. Yeah. They like that's the thing is like, don't get so stuck on the one because then it's like, the next day, it's the new hotness that you're like, I want to jump on that. I mean, if you aren't gonna tattoo that and brand yourself was like being a React developer, it's probably a smart thing not to do. It's like because it's like in two years from now, 1000s, the new hotness is going to be out there anyways. And things change. Like I like mentioned, even just me jumping into early Angular days. And what what had changed for me over jumping from like, backbone.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        This is why I'm a late adopter. I don't try anything. I don't try a library chairs until about like, a year and a half to two years in and like, there are like 10 people telling me I should try it. That's how I adopt libraries. Cheers. Again,
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        I'm not like that I jumped ahead in, you know, something new, I'll give it a try. But if I don't have a purpose for it, it doesn't really work. So recently, I had a purpose, which was I needed to end up with a web component. But I still wanted to do something with frameworks. And so I thought, Oh, someone mentioned that spelt had sort of built in compiling to web components, like you could create the root of your app as a web component with skill. So I started using felt, and I really, really liked it. It's not that that's going to replace Angular, like I'm not fully invested yet. But again, it comes back to having that very particular use case and just saying, Okay, well, let's try and solve it with this and see how it works. And I was really pleasantly surprised at how that worked and how lightweight it was. And yeah, there's some hiccups again, trying to get tailwind. Also to work with spelt was not an easy thing with the web component setup. I think as a basic thing, it works fine. But still, you know, you spend a while figuring out that problem, and you move on. That's fun, too. I think one of the best things about being a front Ender is that these kinds of things can be fun, as well as good work.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        I think maybe I'm just a very slow learner. This is something I've accepted about myself. So when someone's like, just pick it up, and I'm like, it takes me so long to pick it.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Yeah, but they're also not telling you how long it took them to pick it up. It's easy, because it is like to Evans point, is once you know, the tools, it becomes easier, right? But that hurdle off the start. It's like there's I've had so many times where I'm fiddling with like a build and just trying to get it to work. Yeah. And and once you do it enough times, it's like, yeah, it becomes a lot easier. You're like, oh, yeah, it's so easy to set up Webpack. It's, you know, it's I can do that no problem. But that first time is not that easy. And I think that people seem to forget that
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        I will never forget trying to pick up Angular one. This was again, I didn't really know JavaScript. This was back when I was still working with WordPress. And I was like, Well, this is the hot new thing. CSS tricks tells me this is cool. So let me try and learn it. I took a course. And like I studied and it just never clicked and I just couldn't do it. And I gave up which is rare for me. But I did. And then later I look back at it now I'm like, I still don't know if I was actually go with that. You know,
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        I believe Chris Coyier for that one on CSS tricks. Yeah.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        I would love to hear your React story.
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Oh, yeah. So for that mobile project we had to do. I had to spend some time Figuring out what framework we were going to suggest to the client for it. We had already been building some stuff in Angular. So I was obviously more competent with that. Ionic was kind of already burnt to us because we wanted to do proper hybrid, which is to say, like, run as native as possible. And so basically, these other solutions, they like React Native will pack a virtual machine to run the JavaScript. And then the actual UI components are the native components on Swift or Java. So I spent almost a week comparing the building the same little POC in both React Native and in native script, which had Angular. And by the time that was over, I really didn't like React Native. And I think the main reason was not necessarily the code. I mean, it's component based, it's it's similar enough in nature, but it's that it wasn't batteries included, it wasn't prescriptive enough. So you're looking up how to do something, how to set up this particular thing, or how to build this and what the right structure for things should be. There were 100 different opinions, and no consensus. Whereas an Angular, yeah, there might be two ways. But generally, this is the one you go for. And, again, that project was of a type that we needed to work as fast as we could. So I went with the native script and said, yeah, we're just gonna do this, because we're already comfortable. And it's prescriptive. The combination was just there wasn't a choice. Yeah.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        That's that story, though. No, I think it's, I mean, we've talked about that on previous episodes of when you're thinking about different frameworks to use. And there are obviously the trade offs where it's like, maybe you do want to be have something very prescriptive that you can just run with. And it's really clear to everyone how to do that thing. But then there's times where you're like, No, I need a lot more flexibility. But I think also, what I love about that story, too, is you're thinking through those trade offs, and like what's best for the team? Like that's how you should be evaluating it. Not necessarily like, what's the hot new tool, or like, everyone says that React Native is the coolest thing to use? It's like, Yeah, but what's best for our team? And what's going to achieve our goal? And I think that's like, what's the most important piece of that story, too? I like that.
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Yeah, we we also, I remember my, again, the same mentor that that chose to use Angular, reading articles and all that I was like, I really liked this idea of state management, like, you know, Redux had just gotten sort of started, or at least the flux pattern had just been sort of scoped out. And I was like, I like this. And he was like, we're not using that yet. I was like, why he's like, you'll know when you need it. And I was like, No, I think we need to, but I wasn't, I was probably not correct at that moment. But later on, like, now, I just kind of included by default, for Angular, this this NGR x, which I don't know, I just get really comfortable with the actions and reducers and the side effects and things like that. And I add it to all my projects, almost whether they need it or not, because eventually I know that they will need it. But that's for my stuff. But I do really like his methodology of saying, don't reach for a tool, just because it's new, just make sure that you need it. Because that technical debt that you take on, you have to really, really care.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        cautious with that,
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        I like that a software engineering is hard. You genuinely is like you want to use, you want to stay current. And you want to use the newest technologies, newest ways of thinking. Newest libraries, chairs, and frameworks that utilise say like newer technologies out there, and just newer protocols, things like that. But you also want to use things that are proven and tried and true. And have the knowledge that the newer something is the more edge cases it's going to have that you haven't thought of. So you need to be really careful about where you apply new technology. And that old technology is going to be or old, same old, but older technology is going to be more proven. More read means more tutorials, better support, usually better community, things like that. And somewhere in there, you have to like find where you want to be. Because if you go too old, then you're using then your Facebook, stuff writing PHP still, which nothing else PHP, but like they're still Socratic php. And they built an entire tooling around it all that because they decided to stick with a kind of an older language, relatively speaking for the web, then you have like a startup is using like the newest hottest thing. And then people try to onboard and they're like, oh, yeah, this was hot five years ago. But it actually turns out it was a fluke. And now we're stuck working on this as well. So like you really have to split the middle, and like figure out where you want to be as far as software. And it's just like the thoughtfulness that we don't necessarily put into it. It's always like, Who's the person on Twitter who's got a ton of followers and what are they telling me what is what is CSS tricks telling me today? It's just, it's just like,
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        telling us anything about JavaScript. I'm just kidding. Can
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        I get plenty of tips off that site, I'm just getting mostly Flexbox mostly flexible
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Flexbox is, is very helpful tool for that.
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        It's just like a thoughtfulness that we we have to have as engineers, and evidence even to your point, the your mentor at the time, who was saying like, here's the way you should think about problems. And here's why is like such that's such a good mentor. But yeah, there are plenty of people that I've worked with over the years that I fortunately, did not take their advice. But there was like, you always need to do this, or you always need to do this, you always need to do this, rather than setting a clear methodology so I can make my decisions in the future. And we don't see a lot of that we like at least what I see is just people being very prescriptive and saying, do it because I said, so. Rather than, like, do it or pick this technology. And here are the reasons why. It's just like, software engineering is hard. There's a lot to think about, even before we write a line of code, there's a lot to think about.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        Yeah, I like that you call out the Twitter people, because I think Twitter's so bad because we have to fit everything into 140 or 260, or whatever it is now, characters. And I think that's why we're like, I mean, hopefully I'm not guilty of this. But I think that's why there's a lot of like, do this because I said so because unless we want to thread it, I can't tell you all of the reasons why it's like still baffles my mind sometimes why tech is on Twitter so much. Yeah,
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        I mean, I saw, so I don't know what to tell you.
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        But a great example of that is micro front ends, there's been this, I don't know, at least I've seen in my Twitter, there's been this recent wave of like, micro front ends are great, you should use them all the time. And, you know, you start to get excited. And so we again, we have this use case where the client was asking us because they'd heard all the buzz that they wanted micro front ends for this case. And it was the Are you sure that's the right case? Let me let's look into this. And one of my colleagues in particular really did a deep dive and she's done talks now and written articles as well on, you probably don't need that architecture. You know, that's, that's component based thinking is already getting you most of the way there. If you really have a completely separate vertical, where your API, your back end, you know, your microservices and your front end are on their own doing their own thing, then might be okay. But if you only have one of those, no, that's that's not it just work on your app. If you have several of those shirts, then that's the right use case. But But again, Twitter would have you say, hey, this hip new thing. Go ahead, run with it. And that's not always the case,
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        that micro front ends is definitely something I know Jem's probably smiling at this too. But I know we've been asked that a few times, I think back to we were at cube con doing a panel and that was a question that came up that someone was asking us if Hey, should we use micro finance? And you know, sure you can. But we also had a long laundry list of reasons why you might not want to it's just more like thinking about it's a trade offs like these, there are trade offs. So there's, there's benefits to it. But there's also a lot of trade offs that you need to think about. And it's not just because someone on Twitter was like, yeah, they're the new hotness, don't just do that don't jump on that bandwagon. That one to me, I think is always one where I'm almost, I don't know, many strong cases where I'm like, yes, my girlfriends is the way to go. I would love to hear all of your thoughts if there is a strong case to but I haven't really been convinced a bit. Here's a
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        tip for all of the front end Happy Hour regulars. If you ever asked a technology question, you can tell so in seniority, because the more senior they are, the more likely they are to say, Well, it depends, because that's the correct answer for any question about like, should I use this technology? So always be like, it depends. There is no, absolutely you should do this even comes IDs, people like which IDE should I use? I'm like, Well, it depends it which it doesn't as much but I surely hear your point. And Evan, your point as well. Like, on Twitter, yes, people have to be prescriptive because you're a thought leader. But the truth is like every situation is nuanced. And like there is no yes, you should use Angular for this. And yes, she should react for this and etc, etc. So yeah, that's the general tip for all of our front end happier regular. It always depends there. If anybody's ever saying like it's this use this and this the one true way and everybody else that came before me is wrong. They're wrong. It's always
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        my My way is the right way.
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        We've learned from the mistakes of those 40 other people, and we definitely won't make those mistakes on number 41. Yeah.
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        One other point to touch on here maybe is the cyclical nature of things as well. We're on to micro front ends now. But we were in microservices before and we were in iframes kind of all shoved next to each other before that And, you know, it can feel like, oh, yeah, Angular is just Java for the front end, right. A lot of people have referenced that when I was first starting out, because it has a similar feel, although I really don't like to use Java myself. As a back end thing. I think what's happening is we are coming back to these same concepts again and again. But they're improved by the tooling advances that have happened in the meantime, which has been really nice. My prime example for this is there's a few X Googlers X, people from the Angular team, in particular, moved and started a company called norwall. And they started making these mono repository. So mono repo tooling called NX. And it's not any different than learn that or these other mono repo things that have happened before. But it, it says put your whole code base, you have multiple apps, that's great, put it all on this one repo, and make your apps the smallest possible so that they import libraries, cheers, yes. And those libraries, those libraries that are the core of all your stuff resides because they're small, they're they're really modular, and you make as many of those as you need, it's cheap, but then the builds become smaller, because you can make a dependency graph. So before monitory does didn't have this dependency graph, so you just had to build the whole giant thing every time. And that was super annoying. So they've solved a new problem and made it that used an older technology, I guess, that's nice to see,
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        I've definitely got a rant about the cyclical nature of software technology, especially front end, because it turns over so quickly, I guarantee you, I guarantee you in five years, maybe seven people will be like, you know, you can write JavaScript without types, right? And it says all this inference for you. Did you all know that? It will be like, Yeah, we were saying this when you adopted TypeScript, and you're just switches require, like, we just keep coming back to the same ideas and the same patterns. And we pretend like we've discovered something. And I'm like, computer science is a relatively old field, it's been around 50 6070 years, like these ideas have been discussed before, maybe not to the level that we're talking about. But there aren't many new ideas that like a random developer is going to come up with the, I'm not hating on newbies. But like a lot of the ideas you just had a brilliant idea, it's probably been thought of before I hate to break it to you. And it's like, I don't know, I wish we'd spend a little bit more time studying in less time, like focusing on the newest thing with the NIT Chinese homepage.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        I love the gym. So box that's happening. I actually have been curious, Evan, about. I think your site project is so cool. And I feel like I'm the only person here that hasn't seen it before. Probably because I haven't been on Twitter for a while. I guess I have a question, which is, what were some of the features that you've talked about? That were the most challenging to implement, but or would have been challenging, if not for your expertise in Angular? And then also what were like maybe some of the, like, funnest things that or anything that you implemented for this project that was made extra fun because of Angular very well, because
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        of that, it's hard to say, right? Because, you know,
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        you are just in general, sorry,
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        I just mean, when when you're the frog in the boiling water, you don't notice the temperature, right. So it's the similar concept, I'm not sure because I already had solved the problem. And it's kind of blurred in my mind. But, um, so one thing I really enjoy about Angular is that it comes with RX JS baked in. And I really liked these observables. And streams, I don't I still, after all these years, don't fully get them. I'm very, I'm self taught and kind of everything I do I know, you know, other people have the luxury of going to school for this, but I went to film school and different track entirely. But that way of thinking reactively, in particular, with ArcGIS. I mean, I could throw away a lot of Angular, if I could just keep that and TypeScript. And you know, for new thing comes along that provides that maybe I'll jump on that train. That has been great. And it's helped solve some problems, that would have been a lot of extra code very elegantly as well. Combining two streams together, let's say like, you know, you've got the, the records themselves and the metadata about them. And you need to transform those into something, let's say change the sorting order of those records as they come in, based on user input. Well, what do you do if you're not thinking reactively of that you have to trigger the event, and then on that, restart the record, and then tell it to update, which is okay, the frameworks helped help with that. But when it's reactive, you just combine the user input stream with the actual data stream, and then it's all in the same place, which is also really nice. And so when you go looking for bugs, it you generally have a single entry point for those as well. I've really enjoyed that. Favorite feature wise. I guess it's for me, it's been the refactoring you know, a lot of big prizes You don't get a chance to refactor. But this is my project. So I don't, that's not a rule anymore. I'll refactor whenever I feel like it's the biggest time was when I was just about to go to production. And I built a whole back end using the nest JS framework, which is sort of like Angular layer on top of Express for the back end, I did the whole back end there. And I had my front end was doing to the services and or was doing the Redux loop and then going to the service. And then that was going to the back end, which was going to the anyway, it was complex, massive amount of files and all this. And when I finally got it, I was like, Wait, where am I actually storing the data because I just done it locally. I was like, I don't want to pay for my SQL database, or like, any kind of database, honestly, looking to Firebase. And once I started looking to Firebase, I was like, Oh, I don't need this back end layer at all. So I just deleted the whole back end completely. And it still worked exactly the same as it did before. That was a really cool moment as well. Not, you know, it could feel like a waste if you just deleted the whole thing. But I learned something. If I ever need that, again, I'll know how to do it. And it made my codebase a little bit lighter and easier to reason through
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        less bugs. Before we jump into pics, I would love to hear you know, since we've been talking a lot about side projects. I'd be curious to hear like all of your maybe piece of advice that you would give to someone who is starting a project or wanting to start those 10 projects that they've thought about, like how, you know, what advice do you give them?
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Yeah, I'll start which is, don't reach for everything new. So like I said, choose the base that you're comfortable with and pick maybe one new thing, because it's fun to try new things. Right. But you know, if you haven't tried tailwind, I keep going on about that, because I'm super in love with it at the moment. If you haven't tried it yet, choose what you're familiar with React or view and then add tailwind in just for this side project. So you've got at least one new thing to keep you on your toes. But don't do also spelt and tailwind and RX js, because you want to try and Graph QL because you want to try some new things know that that can be overwhelming. And you'll just won't follow through on it. I've done that myself. So many times. The only way I've had a successful enough side project has been to keep it with what I was familiar with, and then progressively add on new things, if they were appropriate.
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        I like that advice, like stick with the baseline. So you can reason out problems in your head. And then once you're comfortable, reach out and pull in some new technologies if if you have a good grasp of the problem already, but don't let the technology become another problem on top of creating your side project. I like that.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        I feel like there was something that was that I think Gemin Evan both hinted at earlier, which is I think Giemsa back, when you were more junior, you did a lot of side projects to kind of learn new technology. But then as you got more and more like as you got more and more comfortable with everything, and you're no longer a technology driven your side projects, but rather a problem and solution driven. I think that's truly a really fun part. And one of the advice I've always given about personal projects is personal projects are hard, because you're doing it on the side of a full time job. And there's really no, like there's no external motivation. And everything has to be absolutely intrinsic. And so the the advice that I generally try to give is, this is coming more from the context of data visualization, but I think it could hopefully apply to a lot of other things, which is trying to find a curiosity. And, and it's something that you want to understand or you want to solve. So that like when that projects gets hard, because it always will. And your own curiosity will motivate you to the other side. Because you're the person that wants to see what it looks like the most. And when other people react positively to it, that's great. But you've done you've done all of this for yourself. And that's what will that's what will drive you to the kind of that finishing line. Not that there's ever really a finishing line to software projects, but whatever you decide is your MVP. It won't get you there. So that's my general advice for side projects.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        I mean, I would echo similar advice so that surely I think like to me it's also like don't overthink it. If you have a problem that you want to solve do it like I love that too is that you're trying to solve a problem that you care about and that that will help the motivation side Have it but also not to overthink it too. It doesn't have to be perfect. You don't have to think about it. Like I love that Evans now taken and shipped it to more users. But I'm sure when you first started out, it was more like, like me, you were solving the problem for yourself, then you start to figure out, oh, this could be helpful for others, like, how do I scale that later. But like, I think you can just phase it like really, like, solve your problem in the dirtiest way possible. And then start to figure out like how you, you maybe scale it if you want to, sometimes I've created something that is dirty, and it does what I need to do. And I'm like, nobody else is looking at this or using it. And that's fine. It works for me, and that's okay, so I think that too, I kind of echo some similar points. While in each episode of the front end, Happy Hour podcast, we'd like to share pics of things that we've been enjoying and want to share with you all. Let's go around and share pics. Jem, what do you have for us?
+
+      </p>
+      <p><strong>Jem Young</strong><br />
+        Uh, yeah, I've got three picks today. The first one is a show on Netflix. It's called Lupin. This is not related to the anime people are gonna, like add me on Twitter. But they're named the same, they have nothing to do with each other really. Anyways, the show is it's French. And it's about a like a sees a I guess you can call a thief. Maybe he's more of like a master criminal of sorts, but not the evil kind. Good guy. But anyways, I won't spoil everything for you. But it has all the elements I like, which is a good heist, I love a good heist. A like kind of a overarching character who always knows what's going on and is always one step ahead of everybody. I always love stuff like that. It has all the elements of a really good show. So that's on Netflix called Groupon. Really, I'm still in the middle of it, but I'm really enjoying it right now. The second pick, this one's a little off for me because you know, I'm against smart, anything. I like my home be disconnected from everything else. But in this case, I had a problem, which was I now have an office. And it's it's sealed off. I try to minimize sound from the outside. You know, my son's running around. My cat is surprisingly noisy. So I have it all sealed off. But it turned out over time I was just losing focus. I was making kind of like poor decisions. And I couldn't figure out why like my my thought process wasn't there. I like accidentally reveal that like secret. That friend told me to another friend and I never do stuff like that like never, but like there's something off. So I was like wait, he's my air bed. So I bought something called an aware element. It was recommended me on Twitter and pretty much monitors your air so monitors the heat, humidity, co2, dangerous chemicals, things like that. And it turns out that after being in meetings for several hours, the door close the co2 level in my office gets dangerously high like to the point where like a doctor would be like you should stop you should open a window because like your judgments now impaired at this point, and I had no idea I just like sort of felt something was off. But now I have an air monitor which reminds me like oh, crap, the co2 is really high in my room I need to open a window just so I can get some fresh thoughts out. And it's been really helpful honestly, like it just changed my office environment just having some fresh air coming in and just reminded me of that. So anybody who's working at home, I know you a lot of us are make sure getting fresh air. You'd be surprised how quickly co2 builds up especially after day meetings. My final pick my valley silicone Actually no, no, let's do Valley Silicon Valley silicon pick this week. That is the point where I pick things that exist only because we have too much money and they really don't need to exist. cold enough you know about the green onion trick. You all know about the green onion trick. So if you're at the store, you buy some green onions you cut the green part, use them in your soup or whatever you're using, you're cooking I'm assuming we're all cooking a lot more. If you don't cut down to the root and you save some of the white part. If you put that in water, it will regrow I did not notice my entire adult life. I was buying green items like sucker now I buy them like a third of the time because I've just keep growing them and growing them until they just like give up on me. However, there is a company that now sells a green onion kit. And for the low low price of $55. I know traditionally this a lot cheaper than my normal picks. But for $55 they'll sell you a box with some holes in it. Put water in it and will grow your green onions. And the reason why at $55 This is the valley silicon fig is because you can literally put a green onion in a glass of water it will grow. I am telling you do not waste time on clever marketing or things like that. You don't even Like they will grow without like, you just put them on your kitchen sick. So that's why those right pics, sorry a little ranty I had some ranting built up over the holidays and think I'm good now.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Wow, that's amazing. All right, Evan, what do you have for us? Okay,
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        so yeah, I have two picks. They're both related to Dungeons and Dragons in particular, because why not. And the first podcast, which is called the adventure zone, there's these three brothers that convinced their dad to play Dungeons and Dragons with them. And it starts off really silly. But the DM in particular, Griffin is very inventive. It's not like traditional like live role playing games, it's a little more he takes the time to scripted out and move the story along past the boring parts. And it's it starts off really silly, but it is very sweet. And it is very funny. And a few years ago, it got me into Dungeons and Dragons. Again, I'd wanted to play d&d Since I was a kid. But then I started listening to the show is like, I can do something similar to that. And once I finished the the balance arc, as they call it, this is the initial sort of d&d game, they've moved on to other stuff since, but I was hungry for more of this, and you think it'd be weird, just listen to people sit around and play a role playing game for hours at a time. But it's not. It's great. And there's the that leads me to my second pick, which is also podcast available, but it also is a Twitch stream, and it's probably the most famous one. So anyone that's into this will have heard of it. It's called Critical Role. They're a bunch of voice actors in Los Angeles, that, you know, are in games like Overwatch, and I don't know, I'm not into video games, really, but a lot of other famous games and anime as well. And they just sit around and play actual like four hour sessions of d&d and stream that to the internet. And they have such a huge following. Like, every every stream is 30,000 people watching, you know, it's, like, huge and, and it's also just so good. Like, it has a lot to do with Matt Mercer, the DM he is really expressive. He's they're all really on point. And they play their characters well. And they're really engaged in the role playing part of it to the point where sometimes an hour will go by with no dice rolls, because they're just playing the scenes out and doing stuff. And again, you would think that sitting and listening to four hours worth of people sitting around a table would not be that interesting, but it is so good. I cannot express my appreciation for it enough. And every time they go into like a hiatus. I'm just desperate for more of that. So this is my Pixel.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Ice, surely What do you have for us?
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        Ooh, so I have two today. The first one is my friend Amy, who is at sailor HG on Twitter. I don't know how many people do not know her but she's amazing.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        And she podcast.
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        Yes. Yeah. We did the episode about freelancing together and I still remember that she has a secret brunch place that she will not her favorite brunch places secret and she will not tell anyone. But she did tell us I think her second favorite. And anyways, so she has Bubblesort scenes which I absolutely love, the concept of which is trying to explain very difficult computer science topics in a very accessible way for like kids ages eight and up. But today, I wanted to mention just like she has a great kind of merge line also. So I'm actually wearing her by Mary tree like by Merry Christmas tree sweater. I'm like, pulling it up for my face to show. And I just love her. Like I think her designs are just so punny and clever, but from like a tech like a feminist tech way. And I think that something that's like, I think like her work is so attractive because it just so genuinely her and it's like just what she genuinely finds, like funny or adorable or outrageous and I don't think there's any pretentiousness to it. So I guess this was just a appreciation pig for sailor HG and Bubblesort scenes. And the second one is a little bit out there, which is a company called semi handmade and they're a company that does so this is great for anyone that's like remodeling their house and especially their kitchen. A custom kitchen cabinetry is extremely It's expensive in the US like it can easily run you like 40 50k. But like on the other very, very other end of the spectrum is like something like IKEA, which is like cheap and mass made and relatively okay quality, but doesn't necessarily like look great. So semihandmade is this company that what they do is you go and design your whole kitchen through IKEA. And once you design your whole kitchen, because IKEA just makes it like so easy to customize. You go and buy by all of the door friends and all of the kind of like, the size of your cabinets through semi handmade your kitchen looks like it has really great high quality wood. But the internals are actually IKEA and you end up saving like 10s of 1000s of dollars. And we actually did that for our kitchen remodel. And I think our kitchen cabinets came out to like three or $4,000 or $5,000 when they like, came down to it and it looks I personally think it's a small kitchen. But I personally think it looks really great if you just bought a house, because apparently in the US currently, at least in the bay. There's a lot of house buying going on right now and you're trying to remodel, this might be a very good, affordable option.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Nice. It's really cool. Yeah. All right, I have two picks. I feel like the last episode, I had TV shows as well. But I mean, we just came off holidays, I was trying to relax and do a little binge watching. So I have two series. And both are not on Netflix. They are both on HBO, which is odd for me to pick. But the undoing was a show that I watched over the holidays and it was so good. It was like about a murder of a woman. It's just like really interesting how the whole story unfolds. I don't really want to give away too much. I just think it's definitely worth watching. I think it's a limited series to I'm starting to really like those types of series where it just tells a story and then it's done. It's like we're not going to try and squeeze out six more seasons. So I really enjoyed that one. And since I was paying for HBO, I thought okay, well I got to find something else now to and tried the show euphoria, which it's a different show. It's It's interesting. It's a wild story of like high school students dealing with sex and drugs and identity and all this like wild things that happen to teenagers to an extreme. And it was good. I wasn't like super bingeable Like it wasn't where I was like I have to watch another episode but it was it was a good story. I enjoyed it. So I'll recommend that one as well. Before we end the episode I want to thank everyone for joining us it was a pleasure having you on the episode. Where can people get in touch with you?
+
+      </p>
+      <p><strong>Evan Payne</strong><br />
+        Yeah, that thanks for having me. I've absolute pleasure as well. You can find me on Twitter at Evan future.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Right on so if they have any questions for you about anything Angular related or d&d, that's you're the man. Sure. Love it. Thank you all for listening today's episode. You can find us at front end happy hour.com Subscribe to us on whatever you like to listen to podcasts on. And you can follow us on Twitter at front end H H. Any last words?
+
+      </p>
+      <p><strong>Shirley Wu</strong><br />
+        Happy 2021
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Yeah 2020 21 Libraries. Cheers.
+
+      </p>
+    </div>
+  </div>
+  <footer>
+    <svg style="display: none;">
+      <symbol id="heart" viewBox="0 0 32 29.6">
+        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+      </symbol>
+    </svg>
+    <div class="row">Made with <svg class="heart">
+        <use xlink:href="#heart"></use>
+      </svg> by Front End Happy Hour</div>
+    <ul class="legal">
+      <li><a href="/terms">Terms</a></li>
+      <li><a href="/privacy">Privacy</a></li>
+    </ul>
   </footer>
-                  
-              </body>
-          </html>
+
+</body>
+
+</html>

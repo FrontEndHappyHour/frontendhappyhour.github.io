@@ -1,308 +1,333 @@
 <!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Drag & Drop - drop a drink here - Front End Happy Hour</title>
-                  <meta name="description" content="Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/drag-&-drop-drop-a-drink-here.jpeg" /> <meta
-                    property="og:description" content="Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop." />
-                    <meta property="og:title" content="Drag & Drop - drop a drink here - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop." />
-                    <meta property="twitter:title" content="Drag & Drop - drop a drink here - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/drag-&-drop-drop-a-drink-here">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                    <li><a href="/advertise/">Advertise</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Drag & Drop - drop a drink here</h2>
-                  <div class="container"><p>Published June 11, 2023</p>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1536954103&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/alexandereardon.jpg" alt="Alex Reardon profile picture"><div><a href="https://twitter.com/alexandereardon">Alex Reardon</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.google.com/search?q=porcelain+cup&oq=porcelain+cup&aqs=chrome..69i57j0i512l9.267j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Porcelain cup</a> - Alex Reardon
-      </li><li>
-      <a href="https://www.netflix.com/watch/81129024" target="_blank">Barbecue Showdown Season 2</a> - Ryan Burgess
-      </li><li>
-      <a href="https://maxcooper.bandcamp.com/track/pulse-at-the-centre-of-being-mor-elian-remix" target="_blank">Pulse At The Centre Of Being - Mor Elian Remix by Max Cooper & Mor Elian</a> - Stacy London
-      </li><li>
-      <a href="https://midwifemusic.com/track/plague-x" target="_blank">Plague X by Midwife, Vyva Melinkolya</a> - Stacy London
-      </li><li>
-      <a href="" target="_blank">Stacy's Drag and Drop comment</a> - Cole Turner
-      </li><li>
-      <a href="https://www.youtube.com/c/twohottakes" target="_blank">Two Hot Takes Podcast</a> - Cole Turner
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
-      <span class="name">Stacy London</span>
-      <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
-      </li><li><a href="/panelists/cole-turner"><img src="../../public/img/panel/cole.jpg" alt="Cole Turner profile picture" /></a>
-      <span class="name">Cole Turner</span>
-      <a href="https://twitter.com/coleturner" class="twitter">@coleturner</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
-        
-<p><strong>Ryan Burgess</strong><br />
-Welcome to a new episode of the front end happier podcast at some point or another, you've likely use an application that has the drag and drop feature. In this episode, we are joined by Alex to talk with us about that very same feature, drag and drop. Alex, can you give us a brief introduction of who you are, what you do and what your favorite hoppy are beverages?
+<html>
 
-</p>
-<p><strong>Alex Reardon</strong><br />
-Great. Yeah. So my name's Alex Reardon. I'm a Principal Engineer at Atlassian. And I work on the design system team there. But I have a sort of special interest, slash history in the drag and drop problem space. It's the middle of the day here in Australia. I'm a big coffee and tea fan. So today I've got a people can't see their home. But I've got a porcelain. Big porcelain cup with a black tea in English breakfast. A good staple tea with a dash of milk. Yes, that's what I'm having today.
+<head>
+  <title>Drag & Drop - drop a drink here - Front End Happy Hour</title>
+  <meta name="description" content="Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop.">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="alternate" type="application/rss+xml" href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
+  <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/drag-&-drop-drop-a-drink-here.jpeg" />
+  <meta property="og:description" content="Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop." />
+  <meta property="og:title" content="Drag & Drop - drop a drink here - Front End Happy Hour" />
+  <meta key="twitter:card" name="twitter:description" content="Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop." />
+  <meta property="twitter:title" content="Drag & Drop - drop a drink here - Front End Happy Hour" />
+  <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
+  <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
+  <meta key="twitter:creator" name="twitter:creator" content="@frontendhappyhour" />
+  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="https://frontendhappyhour.com/episodes/drag-&-drop-drop-a-drink-here">
+  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-74493735-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
 
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Nice. And it is a very fancy looking mug like it definitely yes. Nice. It's like fine china.
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yeah. Yeah, pretty much. It's very nice to drink out of and I look very royal at the same
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-you definitely do. I can attest to that. That is amazing. All right. I also want to give a special welcome to our newest panelist, Cole Turner. Cole has joined us on a few episodes over the years. So we're thrilled to have you join as a full time panelist, Cole, can you give a brief introduction to kick off the panelist intros?
-
-</p>
-<p><strong>Cole Turner</strong><br />
-Thanks, Ryan. I'm happy to be here. It's great to be on front and happy hour and love chatting with you guys and girls and gals. I am Paul Turner. I'm an API engineer at Netflix working on Graph QL developer experience for our consumer product and studio teams. And super excited to chat today.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Right on Stacy.
-
-</p>
-<p><strong>Stacy London</strong><br />
-I'm Stacy London. I'm a principal front end engineer at Atlassian.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-And I'm Ryan Burgess. I'm a engineering manager at Netflix. In each episode of the front end happier podcast, we'd like to choose a keyword that if it's mentioned at all, in the episode, we will all take a drink. What do we decide today's keyword is features feature. All right? We say the word feature we will all take a drink. All right? Well, let's dive in. A great way to start is let's actually describe what drag and drop is as a feature. What what does that mean?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Okay, cool. So I've already said the word feature. That's great.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Started on cheers, cheers. Cheers.
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Okay, so drag and drop is it covers a whole variety of interactions. And it's most broad, we could say it's any interaction where the user depresses some sort of pointer, and then they move that pointer around while it's still depressed. And then they release the pointer. That's, I think, the interaction at a very high level, because there is so many different types of things that fall into that category of interactions. So things like commonly you might think of moving elements around the page. So for example, in like, say, Trello, or Jira, where you have an A card, and you're moving it between columns, or you're moving columns around, but also things like trees. So in VS code, your tree file editor, you can see that as drag and drop text. I'll come back to text. We've got grids, table column, reordering table column resizing. Yeah, so sorry. So resizing, could be considered drag and drop, as well, as well as some drawing, you could consider that to be drag and drop, you've then also got some more native type interactions. So you know, dragging an anchor tag from the web, you know, onto your desktop or onto your, you know, into your bookmarks. You can drag images from your browser, onto your, into your filesystem. And also, you can drag files and images from your local machine into the browser. And then also texts that you might have a selection of text on the page, you sort of drag it to move it around somewhere. So it covers a whole spectrum of different interactions.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-While said I was trying to think of things that you've missed. I think you've covered them all, even ones that I was like, oh, yeah, that is drag and drop. So well done. Alex, I think that's a good definition of it. And so maybe the follow on that is, while you're on here is we're talking a little bit about an open source library that you run the React beautiful DND. And how did that all come about? And I guess what is that open source project?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yes. So I wrote it down. I did some research. The dates may not be exact, but you know, you get the rough idea. So I back in 2015, I was working on JIRA. And I was one of the in one of the first teams that was moving to react. And as part of that process, we were rethinking a lot and how the boards would work. And something that came up with drag and drop But how we're going to do that. And there was a few options around at the time, react DND had sort of just started, which was an open source library. And, but what we kind of found is that at the time, and you know, we just couldn't get the experience that we wanted the drag and drop experience we wanted. Using the browsers built in capabilities are also at the time, browsers drag and drop functionality didn't work on mobile, which sort of complicated things a lot. So I created drag and drop from scratch for JIRA, at that point, which, you know, maybe that wasn't the best call. But at the same time, it was a lot of fun, and we built something really special. And then I think six months later learnt a lot about React and react performance and ended up rewriting that. And I think that code may even still be around in JIRA somewhere, or may have been recently removed. Fast forward a little bit 2017, I was on the design system team. And we had a requirement come up to add reordering to items in a sidebar. And I'd wanted to sort of take this thing that I've been working on in JIRA and make it more general purpose so that we could use it outside of JIRA. And that was what became react beautiful dandy. So what that library does is it aims to provide a physical feeling drag and drop experience for lists, and lists of lists in React while also being accessible out of the box. So that was such a fun project. If you ever have played haven't played with it, like definitely give it a go. It really is quite miraculous that it feels so good in the browser. And I was lucky enough to work on that for about full two years full time. After that, it got defunded internally, there was just as you know, there's just so many things to work on in these kinds of companies. And it is what it is. And I maintained it myself for about six months in my own personal time after that, but I completely burnt out doing that working a full time job and carrying that library as well. And since then it sort of has been, it's still used, you know, really heavily across Atlassian. But, yeah, it hasn't really received much love since then.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-That's cool. I love the history of it, too. I mean, sad on the like personal like open source side, because I think a lot of people can relate to that, too, is that it is really hard to do both doing an open source project seems like a easy enough thing. And then it starts to really pull your attention. So I can absolutely understand where it turns to burnout. I am curious as a follow up, aside from that is the accessibility part of it? What does it mean to be accessible for drag and drop,
-
-</p>
-<p><strong>Stacy London</strong><br />
-I just wanted to say like, as a consumer of that particular library, the accessibility part of it was really, really cool to me. Like that was something that, you know, having worked with other drag and drop libraries, or that didn't have any of that built in. That was to me, that was like a huge bonus for that library. And it was really cool to like see that someone spent, you know, as much time as Alex did actually focusing on making it accessible?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yes. So with the accessibility in React beautiful DND, it probably doubled the amount of time it took to create every feature if if not more, because my thinking was that every feature we need to have a strong accessibility story for. And we did it, you know, we're and I'm super proud of that. And I think it's good learnings for folks that you really can most interactions you can make accessible with enough effort. So how does it work, and then also, maybe what we're doing differently today. So, disclaimer, before I get started, I've actually been working on a new drag and drop project called pragmatic drag and drop for the last sort of year, year and a half, which we can talk about a bit later. But we'll talk about React beautiful the end for now. And how accessibility works for that is it's, Oh man, it's quite interesting how it all works. But essentially, it adds some keyboard bindings to start a drag operation. And then you can use your arrow keys to move items around. And then you can press a button to drop when you're finished, and does all the screen reader messaging. You'd be surprised how complicated it is to move things around on the page. We actually have behind the scenes react beautiful d&d has a collision engine and virtual models, and it's patching those and pushing those and to get the items into the right space and handling scroll containers and handling all this kind of craziness that exists out there. To make that work. It's a cool accessibility story. But it also is a great power user story as well being able to move things around really quickly. But I think the thing that's really really cool about it is that it ships out of the box, you don't have to think about it. You come for beautiful drag and drop and you just get accessibility for free which is which is so cool. And you can customize it a bit but yeah, so I could go into the weeds of how it works, but at a very high level. That's kind of how it works. On that
-
-</p>
-<p><strong>Cole Turner</strong><br />
-note, Alex, I love that you bring up how beautiful is out of the box, because that gets me wondering why don't browsers just provide this automatically? Why? Why do you have to go through all this effort for all of us to be able to take advantage of really gracious Drag and Drop Behavior?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yeah, so the browser has built in drag and drop capabilities, which, as I mentioned, before, historically, didn't have great browser support. I'm gonna go into a little bit of native backstory, and then hopefully get your question about why isn't just looking feel great. Out of the box from from the browser. So yeah, it's patchy. It tries. Look, I don't think the browser is built in drag and drop is fantastic. As a, from a user's perspective, it's really hard to be successful, there's a lot of foot guns there. And it's also pretty inconsistent across browsers. And there's a fair amount of bugs that you have to wrestle with. So even if you want to use it, it is really, really hard to be successful. So for this new library that I've been creating, which I'll explain a little bit more later, it's based on the browser's own built in drag and drop functionality. And, you know, I've spent a lot of time wrestling with it. And it's taken a long time to get something that is stable and can work well across browsers. It's just really hard to use. So but the big question, why isn't it shipped this sort of physicality or this beauty out of the box, because that is opinionated. So that's how I would probably react beautiful dandies biggest weakness is that it's only for lists and lists of lists. Drag and drop is a very, very broad interaction, that covers a lot of different things. And you can, you can have opinions about little interactions, like lists, you know, each item has certain characteristics, they're stacked vertically, you know, all these kind of constraints, design constraints, and within those design constraints, you can then go, Okay, well, I'm gonna add physicality to this. Similarly, how to say, on iOS, if you have, you know, a row item, you know, a row item has certain characteristics. And so that way, you can be clever about the physicality of it, the browser has built in functionality, it doesn't have can't have as opinions, because it's trying to do a lot. And so we can't, unfortunately, probably get that level of physicality out of the box, it makes some concessions in order to find patterns, that sort of good generally work with lots of different things.
-
-</p>
-<p><strong>Cole Turner</strong><br />
-So in that sense, it's trying to reach a broad sense of applications about its opinions for lists of lists. And that makes sense, because when I look at your that is as you describe it, and it feels so familiar to all the dragging interactions I've had mostly on the web, they all feel a lot like Jared. And that's because it's all coming from react beautiful DND.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-So I want to go back, Alex, we talked about like, dealing with open source can be interesting a bit. And what's it been like to build a popular open source library, what's maybe some of the good and some of the bad that comes along with it?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Good. First of all, start with a good because there is a lot of good in open source. I think if you want to build great software, and potentially even the best software, doing it in the open is an incredible way to do that. Because you will get input and feedback from so many people on how to make this piece of code better. And also, you'll run into cases you never would have probably run into just within your organization, you know, people trying to do lots of different things, you'll just get perspective on a much wider arraign range of features. Cheers, then you probably would have if you're just doing it behind doing it yourself, right? Yeah, I do believe that we build great software together. And open source is a great way to get more eyes on it, you know, get more eyes on what you're trying to do get more input from folks with different experiences. I think the result will end up being better. Personally, I think you'll grow a lot as an engineer working on open source because again, from that you'll get more input you'll get more bug reports you know, you'll get more all that kind of stuff that helps helps you grow painful but helps you grow. I've met wonderful people through open source that I still keep in touch with from react beautiful d&d and other projects on the web on Twitter. And you sort of build up this really amazing network of people who can who are also interested in making you know the world better through software. And I think it's sort of a given take on on open source like you get help from people on on your project and certain things and you give help to other people or methods isn't sort of, we can kind of scratch each other's back and help help software get better. And also, there's a huge impact. Some we can build software for ourselves or for our product, but it's often behind, you know, these clothes, I don't know that expression, but you can't always see it, you know, the impact is it is there, it's within, you know, that's what you get paid to do. But open source, the the impact is just, I couldn't imagine, you know, I log into websites today, and I see them using React, beautiful dandy, and it's just It blows my mind, you know, to feel like we can change, like, without being too cliche, like really do change the world like chain in change the web, like, so much of our lives, as written is through these types of interfaces now, and to have that kind of impact is just amazing. The bad, the bad, the bad funding, right? Look at open source, it's really hard to get funded, especially for a long period of time. And the reality is that people's time, costs money, because people have expenses, you know, we have to pay rent, mortgages, and all that kind of food. And it'd be great if we didn't have to do any of those things. We could all just work on software for free all the time. But so sorting out funding is a really big and painful problem for a lot of projects. And a lot of people that I don't have any specially good insight into, but it is a problem. So I mentioned, you know, I was lucky enough to work on it full time at work. Like look at some of the big open source projects that are around today. A lot of them are backed by big companies, who are paying their engineers very well to work on those projects. And there's a reason why those projects have longevity, because they've sorted out funding, and it's a really hard problem. Sort of linked to that is burnout, I mentioned that I've experienced burnout before. I think the challenge is we can put something out there. So this is say even if you're doing it outside of work, you put something out there, you know, okay, this is cool. I like it. And you end up sort of sometimes being on the hook for maintenance forever. I have a few projects like that, and they can kind of build up, the pressure can build up, you've got all these people that you've had sorted depending on you in some way. There's some weird, like social contracts there, depending on how you look at it. And I think burnouts a pretty common experience in open source, because there's just a lot of people using your stuff. And it's easy to not have good bat good barriers, good, sorry, good boundaries, and just spend way too much of your time, and effort and energy on that. And it's complicated if you're also working as well. And, you know, you're sort of burning, you're doing engineering at work, and in your personal time. It's just a recipe for burnout. Yeah, I mentioned, when is a project finished? That's a really hard question to answer. Like, sometimes projects have a shelf life, and I'm becoming more okay with that. But it's hard, it's hard when people are leaning on it. To say like, Hey, like this is done, you know, and even just having that conversation is exhausting. So, it's easy to be like, I'm just gonna leave it, you know, they're gonna do with it what they want. But it's just feels like there's a lot of hard stuff that comes from just putting something out there for people to use.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-It is tough. Like, I feel like so many people, there is that contract, like you said, the social contract tract where people expect you? Well, you're like, you put this out there, and you've gotta like, maintain it, or you've got to add new features. And it's like, not really, I mean, I did this on my spare time. I threw it out there for someone to leverage. And it's great if you want to leverage it. But yeah, this isn't like a full time thing. And that's hard. I think it's also hard and taxing, even to read those comments. Like I know, I've, I'm guilty of just leaving projects to die. And it's like, yeah, if you want to pick it up and leverage it, that's great. Like, if I can save you some time, but it's not my full time job to necessarily maintain it. That's a tough one.
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Some more. I mean, the bad just keep in some ways, there's just a lot of things to wrestle with contributions can be hard. It's really easy to accept code, just just press that merge button. But what they don't tell you is that you're on the line for that forever, if you're until you deprecated or something. So managing contributions is is a difficult problem. Yeah, and also knowing what features to build what features not to build chairs, what chairs, to use, where your projects going. I think a lot of projects don't have a firm vision of what I want to be. And that can be complicated to know what's the right thing to put it in and out. And I guess I'll finish on an emotional one. I think when you start putting yourself out there publicly and especially if you start seeing some people are leaning on it and it's getting success and all that. Speaking from painful experience, it is really easy to build your identity up through, you know, hanging it through the success All of your endeavors, your professional endeavors, and I think open sources, as a lot of ways you can kind of glean, you know, you can kind of derive success with stars, Twitter mentions, you know, whatever it is, I think, but it can be a bit of a trap. It's definitely a trap. And, yeah, it's really, I think it makes it very easy to, to sort of define who you are as a person through the projects that you that you've created, or that you work on.
-
-</p>
-<p><strong>Stacy London</strong><br />
-Even if people aren't, like, anonymous, people on the internet are horrible, mean awful, even not anonymous people. It's shocking to me how mean and cruel and entitled they can be, you know, in GitHub, and like, the comments that people leave on these open source libraries and requests that they make, it's just, it's shocking to me that you know, your name is associated with it, this is how you're behaving. And I would imagine being an open source maintainer, that must, for me, that would really affect my emotional state is having to kind of deal with that you have to be very mature, to handle some of that stuff. So I've seen how you've interacted with some of that Alex may think, very, you set a high bar for being very calm and patient and
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-a good example, that's very kind of you. But yeah, like it's draining right. And it's not. Yeah, it's not easy.
-
-</p>
-<p><strong>Cole Turner</strong><br />
-I feel like that's honestly, one of the biggest struggles with open source work is not only are you kind of on your own on this island, but it's your heart, it's not just your mind, it's your heart in there, because like, you're shaping the vision and the strategy for this repository for this library for this package, what it will do for your customers, what it will do internally, and you have to balance the external pressures of what you're feeling at work with internally, what you're feeling what's best for this project. And then you have a whole Coliseum of strangers and anonymous spectators who are trying to weigh in. I just, I think it's honestly the it's the unsung hero work of our industry.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-I also like Alex, you're bringing up about the fundraising, too, because I think of that is like, yeah, cool, like, ask for money or like Patreon, etc, or whatever the thing is, is that easier said than done, because now that's also work, right? Like, you're like, cool, I want to get paid for doing all this work, because it's becoming popular. But you're doing all that work plus maybe a full time job, even if you're not, it's a different job to manage and go get money. It's the same thing as like, chasing if you had like a website or podcast or whatever, you're chasing advertisers. And that's a different, like, that's a job in itself. And like, that's maybe not something you even want to do. You're like, I need money to support this. But that's more work. And that's at least how I've looked at it for a lot of these types of projects.
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Personally, it wasn't so much an issue with React beautiful there, because that was sort of funded just by the fact that I was working on it through work, but I have thought about it in terms of personal stuff. You know, there's lots of projects I'd love to make. But I just know that I don't have the time to maintain them. And if I could sort out that funding part of the story, then I could work on those things. But yeah, there's no as you called out, Ryan, there's no easy answers there.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-So if built, this open source library has become fairly popular. You're not working on it anymore. But you did mention earlier, another project pragmatic d&d. Now, what's pragmatic d&d, how does this start?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yeah, well, I'll explain how it started. Because that will probably help explain what it is the why Yeah. Yeah. You know, all projects are like that. It's scratching some itch. Right? So this is back in 2000, late 2019. I wrote down the dates, because I can't remember them off top my head. So Atlassian has been having an ongoing focus on making our applications faster, which is something that I'm all on board for, I think it's a great thing to do. And something that got called out as being quite large is react beautiful dandy, and it is it's pretty heavy. It's, I think, about 30 kilobytes, GS zipped something like that. And it's limited. So not only do you have to pay the bundle size for React, beautiful dandy and all the other costs it has. But what we found is that there are There are experiences that we want to add drag and drop for our products. And if they don't fall into the category of lists or lists of lists, you have to pull in another drag and drop library to power those or build something bespoke or something like that. So what ends up happening is you can have two, maybe even three drag and drop libraries on a pay, like, you know, in your app, which is not great if you're trying to build fast applications. So that was sort of swirling around. And we're staring down the barrel of some pretty heavy investment into React, beautiful dandy. For historical reasons, there's an old major of React, beautiful dandy that supported trees, and the new one doesn't, and we're going to have to uplift it. And currently, Confluence I think was pulling in two different majors. So it was like not a great situation. And a lot of investment was probably going to be needed to be had pretty soon. So in that context, I had the idea of what if instead of continuing down this path of React beautiful the end, which is likely always going to be fairly heavy, because it is fundamentally teaching the browser, how to do something from scratch, and there's just going to be a lot of code to do that, especially you want to do it in a performant way. So you know, in an innovation week, which is every so often we get these sort of weeks just to do kind of projects that we think are cool and have value and you know, could be something could lead to something great. I spiked a little idea of what if I did away with the physicality of React, beautiful dandy, and just created a library for drag and drop that was completely orientated around performance, wanting it to be as fast as possible. So I did that in a week, I wrote a spike. And it kind of worked. And I wrote a blog about it internally. And some engineers from Confluence. And from JIRA, were really interested and took my very hacky spike code and actually put it in their product. And they saw some really cool results in terms of performance like straightaway. So that started the ball rolling. And then about two or three months later, we kicked off a formal project me and a small group of people to build out this library, which I was have now been working on for about a year. A bit. Yeah. Yeah, so it's, so what is it? How is it different to react? Beautiful dandy. So what it is, is it's a essentially a convenience wrapper around the platform's drag and drop functionality, that gives you an API that is hopefully fairly easy to use very powerful, and takes away those sort of rough edges of using the platform masks over a lot of the bugs and inconsistencies and that type of thing. And it starts as a very small core, very, very tiny, and then you add in the pieces that you want to build up your experience on the page. So a problem with React beautiful DND is it was designed so that every feature was sort of in the library. And so cheers. So as the feature set, man, it's hard to avoid that word features. I'm just gonna say as the feature set just continue to grow, the libraries got bigger and bigger. So with pragmatic, then they've tried to make it so that it is incremental. So you only pay for the things that you need for your page. And if you don't need that, then you don't pay for that. Right. And that's really, that's a really powerful model for software in general, because it means that if you don't like a particular piece, you don't have to use that piece you can create your own or you can whatever you want to do, that's great. We don't have to even own all the pieces. Like if there's something very bespoke for particular experience, they can build it, they can own it, that's totally fine doesn't have to go in, you know, our shared pieces. So really kind of nice model of doing this type of software. And we also want it to be flexible, so it can power anything, you know, it's as I mentioned, it's sort of just a shim a layer around the platform. So anything the platform can do pragmatic can do as well and hopefully with a you know, a lot more ease. And but also a really big changes that we've made it framework agnostic. So react beautiful. The end was for React. This one is for everything. It's a vanilla Jas library. So yeah, that was a big criticism. I think a fair criticism of React beautiful dandy is if you're not in React, you can't use it, and I get it. But I mean, using React was convenient and easy for us. But even within Atlassian even though most of our UI code is react, you'd be surprised how much is not react, whether that's acquisitions, legacy code, whatever it is, there's a lot of code running that is not react. And so by creating solutions that aren't tied to react, it means we can share it across more tech stacks, leading to, you know, better opportunities to share cases across applications across pages, making our applications faster, then yeah, so And also, it is very easy to use with React, but it's not tied to react. And then lastly, as well, it's been designed to be lazy loaded. So what that means is that you might not need drag and drop when the page first starts, you might have to click some button to enter into edit mode or whatever it is. And pragmatic, the end has been designed to be able to be loaded in and attached to existing Dom, you know, that's already there. So that's, that's really powerful. And that works, you don't have to use React, you can use React, obviously, if you want, you know, all that sort of lazy loading stuff. But you don't have to, you could just use, you know, general async loading patterns to pull in drag and drop later. Not that it's very expensive. It's, you know, I think it's only three or four kilobytes. But that said, if you don't need it, you don't need to load it, you can pull it in later. Yeah, so that's how I sort of gone about the, that's, I guess, how it's different. Now, in order to to realize those benefits, we have had to change the visual language of drag and drop, right. So we've had to, in order to embrace the platform, we've had to be willing to make some concessions and lean into how the browser wants us to do drag and drop. By doing that, we get a heap for free that we don't have to write code for anymore. So things like, I won't go into what they are, I will go into them in a second. But we get a lot for free. But in order to do that, we can't we can't have that physicality anymore, you know, we have to sort of lean into other patterns that work in a much easier way with the browser's built in drag and drop.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-That makes sense. So that's also how you're likely getting a lot of the smaller size in package. And then also just more performance out of that, too.
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Oh, yeah, for sure. I mean, in general, if you can ask, you know, the platform to do something for you, and not have to assess in code, then yeah, that's gonna save you a heap of you know, that's definitely that's always the faster way, right, pretty much always the faster way if you can get the web platform to do something for you. And you're right, like, that's how we see the majority of the size improvements in terms of bundle size. In addition to that is the incremental stuff. So we we now chop up the functionality into pieces. So that's, that's the other big thing that drives down. bundle size. By interestingly, because we're no longer tied to react. React is a fantastic abstraction. But it's not a super cheap abstraction. And by doing by not tying ourselves to react, we actually can work with react faster than if we were tied to react to kind of a funny situation like that. Because we don't need to have components, say in the, in the tree, we don't have to have hooks, we don't have to have all these types of things, which are great. But you know, they're not cheap, although sorry, they're not free, I should say. And so by sidestepping that we can actually get even better performance outcomes.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-That's really cool. I mean, as you explained it, I was like, Oh, that makes a ton of sense with React. But at first I was like, that's weird. Why can't a React component be faster, but the way you described in Macau, that actually makes a ton of sense. And also being able to lazy load, you don't need it until you actually need it. So that's another bonus for it as well. I'm curious, too. We've talked a lot about open source on this episode. I don't think pragmatic d&d is open source Is there plans for it to be open source.
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-So at the moment, the last sort of nine months, really, we've been focused on doing some fairly big conversions within Atlassian from react beautiful dandy over to pragmatic dandy. And the thinking is, let's start close to home, make sure that we're meeting the goals that we want to meet in terms of performance API design, like we can get as much feedback as we need right now from just converting over internally and we've seen some pretty sweet results. We're seeing in the order of 150 millisecond TTI improvements up to four 500 millisecond improvements. So pretty sweet differences and we've been converting over from react, beautiful day and day as well as react day in day out which is another project and some bespoke stuff as well. And yeah, that's in production today, which is pretty cool.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-It is actually been being leveraged in Atlassian products today?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yeah, yeah. I mean, if you got a confluence today and you use the Page tree that's using it. Yeah. Very few areas. And there's a few spots in JIRA. It's in now, I think JIRA roadmaps, opsgenie, JIRA work management somewhere on their calendar view anyway, it's sort of sprinkled and it's growing. But yeah, you'll you'll, if you, if you use our products, you'll be playing with it, which is pretty cool, you know, pretty fun. So the plan is that it will be public source, at least. So that means that our documentation will be public, similar to how the Atlassian design system is public. React, sorry, pragmatic drag and drop isn't tied to the rest of the design system. So you can use it independently. It's not like you have to opt in to the whole design system or anything like that. So the code will be public, or is public already, you can go check it out, the docs will be public, but they're not right now. Because they're on our staging. And there's a few little hoops we have to jump through. And honestly, I probably could spend a couple of days jumping through the hoops and getting it out. But I've just been so focused on these big internal migrations that I haven't done that. So yeah, the ducks will be out soon. So it will be I guess, the short term plans that will be public source, so you can use it, you can look at the docs, happy days, will eventually be an open source project, its own project on GitHub with its own issues that people are going to engage with. I'm not sure. I'd love that. I think that would be amazing. But I mean, it is the reality of companies is that it's hard like that costs money. And it's hard to it's hard to lose, you have to make a good business case for that, right. And if you don't have a company that's already has that strong business case already done, it's just, it's just work you have to do to make that happen. So maybe maybe it will be open source, but at this stage, it'll definitely be public source at least. So that's, that's something
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-that's exciting enough to is that it's out there, it's available. It's even being used in production, which is really cool. I love what you said, too, about companies open sourcing, too, because I think a lot of times we're like, Well, why wouldn't a company just open source their work, it's like, it's not necessarily tied to Atlassian. It's like core business that you're like, they're gonna lose money if someone uses their drag and drop feature. But the thing is, it is very costly for companies to fund open source because you can't just throw it out there, like we said earlier is like someone has to answer, respond, you know, merge pull request, decide the direction of it long term, the short term, and it that's a cost like and it is something that companies have to think about, are they putting something out there, that's realistically going to be supported? Because if you throw something out there, specially when it's behind a company, you kind of want to make sure that it's being supported.
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yeah, official, and I think Atlassian is sort of growing in that space as well. And it's interesting, I think a lot of projects that are open source today are technically just public source projects. Anyway, they just happen to be on GitHub, you The distinction is quite nuanced. It's sort of how much are you willing to engage? I think the distinction is how much are you willing to engage with the broader community? And if the answer is you just putting your code there, and you're doing your own thing anyway? I mean, like, that's still cool. Like you're still sharing something with people, for people to use and to learn from. I think it's a spectrum of how much input do you get from the community because even the more mature projects like you, it's, it's hard to dive into some of these more mature specialized projects and make a proper impact, and also understand where the project is going. And, yeah, so. But while we're here, before I forget, something we've been working on as well, which is pretty cool, is a migration layer. So my colleague, Declan wine, so what we've done is we've actually created a package, which you can use today, and a code mod as well, although no doc, so avoid our eye doctor, there's no public. So good luck, I'd probably wait for the docs. But you can run it and what it will do is if you're using React beautiful dandy today, it'll just swap out your import statements for input statements for our for our migration layer package. And you'll get the React beautiful dandy API and components that'll actually be powered by pragmatic drag and drop under the hood. So hopefully, that sort of is a nice, nice way to not close, maybe not close, we can talk about the future of React beautiful the end but in some way, you know, offer some path forward for people who are have invested in React beautiful dandy, that they can move over to this faster library, you know, without having to do some dramatic code, you know, code changes in their in their projects.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-I love that story. I mean, I think more and more we need to think about that story for Edie software. We do is like, how does it migrate? Those are key things. And so I think I love that you're thinking about that and how that plays out for people using the library. You mentioned the future of React beautiful DND. What is that future? Are? Is it? Are you planning to deprecate it? Because it it's like, making it easier for people to get off of it?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yeah. So I think on the repo now, we essentially call it out as soft deprecated right now, so we say, well, you know, we're not really going to be investing in it. And looking at the landscape within Atlassian, I feel like right now react beautiful dandies out of sync with where we're heading, which is we want, really, really fast user interfaces. And we need solutions that are going to work at scale, and be really flexible. And those characteristics are just sort of not in sync with React beautiful day and day. Now there are some forks have react, beautiful DND, that looks really promising. So if you look at the issues there, you'll be able to see some of them people who are carrying that on, and I think react before the end has inspired other projects since then. So I think DND kit, probably most notably, but there are probably others too. And I'm okay with that. You know, I think if somebody wanted to really, I mean, the forks are there, and people are carrying that project sort of onwards through those. I think the reality is that we probably won't be investing any more in that and, and I don't have enough sanity to push that one forward, especially when I'm investing heavily in pragmatic d&d, which Yeah, I think it's a really cool like direction to lean into. I've always wanted, this is just a personal thing I've always wanted, like, I have applications, my own little, you know, side projects, whatever. And I often want to add drag and drop to it. But I don't want to pay heaps like I want my apps to get, you know, those beautiful crisp 100 Lighthouse store scores, you know, I don't want to be pulling in these giant libraries to add functionality. And so you know, pragmatic drag and drop scratches that edge for me like I want to add drag and drop to my app, but I don't want to pay much for it. So that's sort of where my my emotions pull me more these days. That makes
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-a lot of sense. I love it too, that you're just like honest about it's like yeah, this is where I'm at in where the project is. I love it. It's probably a good time for us to jump into pics in each episode, the front end happier podcast. We love to share things that we found interesting want to share with you all. It might be drag and drop today I'm not sure but Stacy want to kick things off?
-
-</p>
-<p><strong>Stacy London</strong><br />
-Sure. You can drag your headphones on to your drop them on your head and listen to to music tracks that I picked. The first one is called pulse at the center of being bi. It's a remix by more alien. It's a max Cooper track. The remix kind of brings a detuned broken the version of the song scraped with headphones. second track is plug x by midwife and vivia melancholia. It's kind of shoegaze II background music. It was I guess it was inspired by the lifecycle of cicadas. They wrote it in 2021. I guess that's when there was a 17 year periodical cycle of cicadas. So very moody sort of song. But those are my two picks.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Right on Cole, what do you have for us?
-
-</p>
-<p><strong>Cole Turner</strong><br />
-Stacy's drag comment is my first pick. And my second pick is I was recommended to a podcast called Two hot takes. It is these two craters who review Reddit comments and threads and they give their unique perspectives on it. They bring in their friends. It is super funny. They are the most entertaining, besides the front end happier folks. And I recommend it.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Check it out. That sounds awesome. I can just imagine what the Reddit takes on that, too. So, Alex, what do you have for picks for our listeners today?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-Yeah, so given that I'm having a tea as my happy hour beverage? I've got two tea related picks. So first one is porcelain cups. If you haven't if you're a tea drinker, and you haven't tried porcelain cups, like try them. I mean, the more florals you can get on them, the better. Yeah, so that's my first pick, try try it. It'll really change, change the experience for you. And secondly, this is one that I only stumbled onto last year. If you liked drinking green tea or jasmine tea, and you really like it a Chinese restaurants for example, but you struggle to do it at home. Well, I've sort of found a tip for you and that is generally bluing brewing black tea at 100 at boiling, making it boiling 100 degrees Celsius, I don't know what the Fahrenheit is, I'm sorry, boiling water for black tea. And that lets the leafs sort of release their flavor and for black tea. You're usually letting the leaves sit in the water for about three to five minutes before you take them out. You leave them in there too long. on, it'll go really better. Now with green tea, what I've discovered makes all the difference is don't use 100 degrees boiling water, use 70 degrees water, so pull it back quite a bit. It turns out that too hot water like burns the tea leaves. And also, make sure you only let the leaf stay in the water for a very short period of time. Like a minute tops, but probably around that 32nd mark, take it out, and it goes from it is a really soft, nice flavor. I've had years of burnt horrible green tea at home and struggled to know why when I'm messing up. And that's been the big change. And it's I love it now. So there might that's my tea tips.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Those are great tips like definitely need to try that because yeah, I'm, I don't put a lot of thought into my tea and how long it's like, you know warmed up for or sitting. So I like that I'm gonna have to try that. I just have one pick for this episode. It's kind of food related following from a T one it will be a little food related. But it's a show on Netflix. It's the second season of barbecue showdown, I find it really cool to just see some of the things that they're able to do in the amount of time for smoking all sorts of meats and also found it kind of inspiring, where I'm like, I like to do some of those things. But I'm not good with like vegetables or anything like that. I'm like, I should probably add to my meats and so they have some good ideas on the show. So definitely leveraging that. Alex, thanks so much for joining us on the episode. Where can people find you? I guess, obviously GitHub and things but what where can they find and get in touch with you?
-
-</p>
-<p><strong>Alex Reardon</strong><br />
-The best way is on Twitter. My handle is extremely long, Alexander Reardon, share in the show notes. And I think the RS between the Alexander and Reed and I joined into one it's Yeah, I was. I was pretty late to Twitter. So anyway, that's my that's probably the best place to find me.
-
-</p>
-<p><strong>Ryan Burgess</strong><br />
-Right on. Well thank you all for listening today's episode, and find us at <a href="https://twitter.com/frontendhh">@frontendhh</a> on Twitter. You can really subscribe to us on whatever you like to listen to podcasts on. And any last words feature cheers, feature cheers
-
-</p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
+<body>
+  <header>
+    <div class="container">
+      <a href="/">
+        <h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1>
+      </a>
+      <ul class="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/subscribe/">Subscribe</a></li>
+        <li><a href="/advertise/">Advertise</a></li>
       </ul>
+    </div>
+  </header>
+  <div class="episodes ">
+    <h2 id="heading" class="container">Drag & Drop - drop a drink here</h2>
+    <div class="container">
+      <p>Published June 11, 2023</p>
+      <div class="audio">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1536954103&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      </div>
+      <p>Have you ever thought much about the feature, Drag & Drop? In this episode, we are joined by Atlassian Principal Engineer, Alex Reardon, to share some great insights into creating an open-source library for Drag & Drop.</p>
+    </div>
+    <div class="guests picks container">
+      <h3>Guests</h3>
+      <ul>
+        <li><img src="../../public/img/guests/alexandereardon.jpg" alt="Alex Reardon profile picture">
+          <div><a href="https://twitter.com/alexandereardon">Alex Reardon</a></div>
+        </li>
+      </ul>
+    </div>
+    <div class="picks container">
+      <h3>Picks</h3>
+      <ul>
+        <li>
+          <a href="https://www.google.com/search?q=porcelain+cup&oq=porcelain+cup&aqs=chrome..69i57j0i512l9.267j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Porcelain cup</a> - Alex Reardon
+        </li>
+        <li>
+          <a href="https://www.netflix.com/watch/81129024" target="_blank">Barbecue Showdown Season 2</a> - Ryan Burgess
+        </li>
+        <li>
+          <a href="https://maxcooper.bandcamp.com/track/pulse-at-the-centre-of-being-mor-elian-remix" target="_blank">Pulse At The Centre Of Being - Mor Elian Remix by Max Cooper & Mor Elian</a> - Stacy London
+        </li>
+        <li>
+          <a href="https://midwifemusic.com/track/plague-x" target="_blank">Plague X by Midwife, Vyva Melinkolya</a> - Stacy London
+        </li>
+        <li>
+          <a href="" target="_blank">Stacy's Drag and Drop comment</a> - Cole Turner
+        </li>
+        <li>
+          <a href="https://www.youtube.com/c/twohottakes" target="_blank">Two Hot Takes Podcast</a> - Cole Turner
+        </li>
+      </ul>
+    </div>
+    <div class="panel container">
+      <h3>Panel</h3>
+      <ul>
+        <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
+          <span class="name">Ryan Burgess</span>
+          <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
+        </li>
+        <li><a href="/panelists/stacy-london"><img src="../../public/img/panel/stacylondoner.jpg" alt="Stacy London profile picture" /></a>
+          <span class="name">Stacy London</span>
+          <a href="https://twitter.com/stacylondoner" class="twitter">@stacylondoner</a>
+        </li>
+        <li><a href="/panelists/cole-turner"><img src="../../public/img/panel/cole.jpg" alt="Cole Turner profile picture" /></a>
+          <span class="name">Cole Turner</span>
+          <a href="https://twitter.com/coleturner" class="twitter">@coleturner</a>
+        </li>
+      </ul>
+    </div>
+    <div id="target"></div>
+    <div class="transcript container">
+      <h3>Episode transcript</h3>
+
+      <p><strong>Ryan Burgess</strong><br />
+        Welcome to a new episode of the front end happier podcast at some point or another, you've likely use an application that has the drag and drop feature. In this episode, we are joined by Alex to talk with us about that very same feature, drag and drop. Alex, can you give us a brief introduction of who you are, what you do and what your favorite hoppy are beverages?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Great. Yeah. So my name's Alex Reardon. I'm a Principal Engineer at Atlassian. And I work on the design system team there. But I have a sort of special interest, slash history in the drag and drop problem space. It's the middle of the day here in Australia. I'm a big coffee and tea fan. So today I've got a people can't see their home. But I've got a porcelain. Big porcelain cup with a black tea in English breakfast. A good staple tea with a dash of milk. Yes, that's what I'm having today.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Nice. And it is a very fancy looking mug like it definitely yes. Nice. It's like fine china.
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yeah. Yeah, pretty much. It's very nice to drink out of and I look very royal at the same
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        you definitely do. I can attest to that. That is amazing. All right. I also want to give a special welcome to our newest panelist, Cole Turner. Cole has joined us on a few episodes over the years. So we're thrilled to have you join as a full time panelist, Cole, can you give a brief introduction to kick off the panelist intros?
+
+      </p>
+      <p><strong>Cole Turner</strong><br />
+        Thanks, Ryan. I'm happy to be here. It's great to be on front and happy hour and love chatting with you guys and girls and gals. I am Paul Turner. I'm an API engineer at Netflix working on Graph QL developer experience for our consumer product and studio teams. And super excited to chat today.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Right on Stacy.
+
+      </p>
+      <p><strong>Stacy London</strong><br />
+        I'm Stacy London. I'm a principal front end engineer at Atlassian.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        And I'm Ryan Burgess. I'm a engineering manager at Netflix. In each episode of the front end happier podcast, we'd like to choose a keyword that if it's mentioned at all, in the episode, we will all take a drink. What do we decide today's keyword is features feature. All right? We say the word feature we will all take a drink. All right? Well, let's dive in. A great way to start is let's actually describe what drag and drop is as a feature. What what does that mean?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Okay, cool. So I've already said the word feature. That's great.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Started on cheers, cheers. Cheers.
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Okay, so drag and drop is it covers a whole variety of interactions. And it's most broad, we could say it's any interaction where the user depresses some sort of pointer, and then they move that pointer around while it's still depressed. And then they release the pointer. That's, I think, the interaction at a very high level, because there is so many different types of things that fall into that category of interactions. So things like commonly you might think of moving elements around the page. So for example, in like, say, Trello, or Jira, where you have an A card, and you're moving it between columns, or you're moving columns around, but also things like trees. So in VS code, your tree file editor, you can see that as drag and drop text. I'll come back to text. We've got grids, table column, reordering table column resizing. Yeah, so sorry. So resizing, could be considered drag and drop, as well, as well as some drawing, you could consider that to be drag and drop, you've then also got some more native type interactions. So you know, dragging an anchor tag from the web, you know, onto your desktop or onto your, you know, into your bookmarks. You can drag images from your browser, onto your, into your filesystem. And also, you can drag files and images from your local machine into the browser. And then also texts that you might have a selection of text on the page, you sort of drag it to move it around somewhere. So it covers a whole spectrum of different interactions.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        While said I was trying to think of things that you've missed. I think you've covered them all, even ones that I was like, oh, yeah, that is drag and drop. So well done. Alex, I think that's a good definition of it. And so maybe the follow on that is, while you're on here is we're talking a little bit about an open source library that you run the React beautiful DND. And how did that all come about? And I guess what is that open source project?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yes. So I wrote it down. I did some research. The dates may not be exact, but you know, you get the rough idea. So I back in 2015, I was working on JIRA. And I was one of the in one of the first teams that was moving to react. And as part of that process, we were rethinking a lot and how the boards would work. And something that came up with drag and drop But how we're going to do that. And there was a few options around at the time, react DND had sort of just started, which was an open source library. And, but what we kind of found is that at the time, and you know, we just couldn't get the experience that we wanted the drag and drop experience we wanted. Using the browsers built in capabilities are also at the time, browsers drag and drop functionality didn't work on mobile, which sort of complicated things a lot. So I created drag and drop from scratch for JIRA, at that point, which, you know, maybe that wasn't the best call. But at the same time, it was a lot of fun, and we built something really special. And then I think six months later learnt a lot about React and react performance and ended up rewriting that. And I think that code may even still be around in JIRA somewhere, or may have been recently removed. Fast forward a little bit 2017, I was on the design system team. And we had a requirement come up to add reordering to items in a sidebar. And I'd wanted to sort of take this thing that I've been working on in JIRA and make it more general purpose so that we could use it outside of JIRA. And that was what became react beautiful dandy. So what that library does is it aims to provide a physical feeling drag and drop experience for lists, and lists of lists in React while also being accessible out of the box. So that was such a fun project. If you ever have played haven't played with it, like definitely give it a go. It really is quite miraculous that it feels so good in the browser. And I was lucky enough to work on that for about full two years full time. After that, it got defunded internally, there was just as you know, there's just so many things to work on in these kinds of companies. And it is what it is. And I maintained it myself for about six months in my own personal time after that, but I completely burnt out doing that working a full time job and carrying that library as well. And since then it sort of has been, it's still used, you know, really heavily across Atlassian. But, yeah, it hasn't really received much love since then.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        That's cool. I love the history of it, too. I mean, sad on the like personal like open source side, because I think a lot of people can relate to that, too, is that it is really hard to do both doing an open source project seems like a easy enough thing. And then it starts to really pull your attention. So I can absolutely understand where it turns to burnout. I am curious as a follow up, aside from that is the accessibility part of it? What does it mean to be accessible for drag and drop,
+
+      </p>
+      <p><strong>Stacy London</strong><br />
+        I just wanted to say like, as a consumer of that particular library, the accessibility part of it was really, really cool to me. Like that was something that, you know, having worked with other drag and drop libraries, or that didn't have any of that built in. That was to me, that was like a huge bonus for that library. And it was really cool to like see that someone spent, you know, as much time as Alex did actually focusing on making it accessible?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yes. So with the accessibility in React beautiful DND, it probably doubled the amount of time it took to create every feature if if not more, because my thinking was that every feature we need to have a strong accessibility story for. And we did it, you know, we're and I'm super proud of that. And I think it's good learnings for folks that you really can most interactions you can make accessible with enough effort. So how does it work, and then also, maybe what we're doing differently today. So, disclaimer, before I get started, I've actually been working on a new drag and drop project called pragmatic drag and drop for the last sort of year, year and a half, which we can talk about a bit later. But we'll talk about React beautiful the end for now. And how accessibility works for that is it's, Oh man, it's quite interesting how it all works. But essentially, it adds some keyboard bindings to start a drag operation. And then you can use your arrow keys to move items around. And then you can press a button to drop when you're finished, and does all the screen reader messaging. You'd be surprised how complicated it is to move things around on the page. We actually have behind the scenes react beautiful d&d has a collision engine and virtual models, and it's patching those and pushing those and to get the items into the right space and handling scroll containers and handling all this kind of craziness that exists out there. To make that work. It's a cool accessibility story. But it also is a great power user story as well being able to move things around really quickly. But I think the thing that's really really cool about it is that it ships out of the box, you don't have to think about it. You come for beautiful drag and drop and you just get accessibility for free which is which is so cool. And you can customize it a bit but yeah, so I could go into the weeds of how it works, but at a very high level. That's kind of how it works. On that
+
+      </p>
+      <p><strong>Cole Turner</strong><br />
+        note, Alex, I love that you bring up how beautiful is out of the box, because that gets me wondering why don't browsers just provide this automatically? Why? Why do you have to go through all this effort for all of us to be able to take advantage of really gracious Drag and Drop Behavior?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yeah, so the browser has built in drag and drop capabilities, which, as I mentioned, before, historically, didn't have great browser support. I'm gonna go into a little bit of native backstory, and then hopefully get your question about why isn't just looking feel great. Out of the box from from the browser. So yeah, it's patchy. It tries. Look, I don't think the browser is built in drag and drop is fantastic. As a, from a user's perspective, it's really hard to be successful, there's a lot of foot guns there. And it's also pretty inconsistent across browsers. And there's a fair amount of bugs that you have to wrestle with. So even if you want to use it, it is really, really hard to be successful. So for this new library that I've been creating, which I'll explain a little bit more later, it's based on the browser's own built in drag and drop functionality. And, you know, I've spent a lot of time wrestling with it. And it's taken a long time to get something that is stable and can work well across browsers. It's just really hard to use. So but the big question, why isn't it shipped this sort of physicality or this beauty out of the box, because that is opinionated. So that's how I would probably react beautiful dandies biggest weakness is that it's only for lists and lists of lists. Drag and drop is a very, very broad interaction, that covers a lot of different things. And you can, you can have opinions about little interactions, like lists, you know, each item has certain characteristics, they're stacked vertically, you know, all these kind of constraints, design constraints, and within those design constraints, you can then go, Okay, well, I'm gonna add physicality to this. Similarly, how to say, on iOS, if you have, you know, a row item, you know, a row item has certain characteristics. And so that way, you can be clever about the physicality of it, the browser has built in functionality, it doesn't have can't have as opinions, because it's trying to do a lot. And so we can't, unfortunately, probably get that level of physicality out of the box, it makes some concessions in order to find patterns, that sort of good generally work with lots of different things.
+
+      </p>
+      <p><strong>Cole Turner</strong><br />
+        So in that sense, it's trying to reach a broad sense of applications about its opinions for lists of lists. And that makes sense, because when I look at your that is as you describe it, and it feels so familiar to all the dragging interactions I've had mostly on the web, they all feel a lot like Jared. And that's because it's all coming from react beautiful DND.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        So I want to go back, Alex, we talked about like, dealing with open source can be interesting a bit. And what's it been like to build a popular open source library, what's maybe some of the good and some of the bad that comes along with it?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Good. First of all, start with a good because there is a lot of good in open source. I think if you want to build great software, and potentially even the best software, doing it in the open is an incredible way to do that. Because you will get input and feedback from so many people on how to make this piece of code better. And also, you'll run into cases you never would have probably run into just within your organization, you know, people trying to do lots of different things, you'll just get perspective on a much wider arraign range of features. Cheers, then you probably would have if you're just doing it behind doing it yourself, right? Yeah, I do believe that we build great software together. And open source is a great way to get more eyes on it, you know, get more eyes on what you're trying to do get more input from folks with different experiences. I think the result will end up being better. Personally, I think you'll grow a lot as an engineer working on open source because again, from that you'll get more input you'll get more bug reports you know, you'll get more all that kind of stuff that helps helps you grow painful but helps you grow. I've met wonderful people through open source that I still keep in touch with from react beautiful d&d and other projects on the web on Twitter. And you sort of build up this really amazing network of people who can who are also interested in making you know the world better through software. And I think it's sort of a given take on on open source like you get help from people on on your project and certain things and you give help to other people or methods isn't sort of, we can kind of scratch each other's back and help help software get better. And also, there's a huge impact. Some we can build software for ourselves or for our product, but it's often behind, you know, these clothes, I don't know that expression, but you can't always see it, you know, the impact is it is there, it's within, you know, that's what you get paid to do. But open source, the the impact is just, I couldn't imagine, you know, I log into websites today, and I see them using React, beautiful dandy, and it's just It blows my mind, you know, to feel like we can change, like, without being too cliche, like really do change the world like chain in change the web, like, so much of our lives, as written is through these types of interfaces now, and to have that kind of impact is just amazing. The bad, the bad, the bad funding, right? Look at open source, it's really hard to get funded, especially for a long period of time. And the reality is that people's time, costs money, because people have expenses, you know, we have to pay rent, mortgages, and all that kind of food. And it'd be great if we didn't have to do any of those things. We could all just work on software for free all the time. But so sorting out funding is a really big and painful problem for a lot of projects. And a lot of people that I don't have any specially good insight into, but it is a problem. So I mentioned, you know, I was lucky enough to work on it full time at work. Like look at some of the big open source projects that are around today. A lot of them are backed by big companies, who are paying their engineers very well to work on those projects. And there's a reason why those projects have longevity, because they've sorted out funding, and it's a really hard problem. Sort of linked to that is burnout, I mentioned that I've experienced burnout before. I think the challenge is we can put something out there. So this is say even if you're doing it outside of work, you put something out there, you know, okay, this is cool. I like it. And you end up sort of sometimes being on the hook for maintenance forever. I have a few projects like that, and they can kind of build up, the pressure can build up, you've got all these people that you've had sorted depending on you in some way. There's some weird, like social contracts there, depending on how you look at it. And I think burnouts a pretty common experience in open source, because there's just a lot of people using your stuff. And it's easy to not have good bat good barriers, good, sorry, good boundaries, and just spend way too much of your time, and effort and energy on that. And it's complicated if you're also working as well. And, you know, you're sort of burning, you're doing engineering at work, and in your personal time. It's just a recipe for burnout. Yeah, I mentioned, when is a project finished? That's a really hard question to answer. Like, sometimes projects have a shelf life, and I'm becoming more okay with that. But it's hard, it's hard when people are leaning on it. To say like, Hey, like this is done, you know, and even just having that conversation is exhausting. So, it's easy to be like, I'm just gonna leave it, you know, they're gonna do with it what they want. But it's just feels like there's a lot of hard stuff that comes from just putting something out there for people to use.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        It is tough. Like, I feel like so many people, there is that contract, like you said, the social contract tract where people expect you? Well, you're like, you put this out there, and you've gotta like, maintain it, or you've got to add new features. And it's like, not really, I mean, I did this on my spare time. I threw it out there for someone to leverage. And it's great if you want to leverage it. But yeah, this isn't like a full time thing. And that's hard. I think it's also hard and taxing, even to read those comments. Like I know, I've, I'm guilty of just leaving projects to die. And it's like, yeah, if you want to pick it up and leverage it, that's great. Like, if I can save you some time, but it's not my full time job to necessarily maintain it. That's a tough one.
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Some more. I mean, the bad just keep in some ways, there's just a lot of things to wrestle with contributions can be hard. It's really easy to accept code, just just press that merge button. But what they don't tell you is that you're on the line for that forever, if you're until you deprecated or something. So managing contributions is is a difficult problem. Yeah, and also knowing what features to build what features not to build chairs, what chairs, to use, where your projects going. I think a lot of projects don't have a firm vision of what I want to be. And that can be complicated to know what's the right thing to put it in and out. And I guess I'll finish on an emotional one. I think when you start putting yourself out there publicly and especially if you start seeing some people are leaning on it and it's getting success and all that. Speaking from painful experience, it is really easy to build your identity up through, you know, hanging it through the success All of your endeavors, your professional endeavors, and I think open sources, as a lot of ways you can kind of glean, you know, you can kind of derive success with stars, Twitter mentions, you know, whatever it is, I think, but it can be a bit of a trap. It's definitely a trap. And, yeah, it's really, I think it makes it very easy to, to sort of define who you are as a person through the projects that you that you've created, or that you work on.
+
+      </p>
+      <p><strong>Stacy London</strong><br />
+        Even if people aren't, like, anonymous, people on the internet are horrible, mean awful, even not anonymous people. It's shocking to me how mean and cruel and entitled they can be, you know, in GitHub, and like, the comments that people leave on these open source libraries and requests that they make, it's just, it's shocking to me that you know, your name is associated with it, this is how you're behaving. And I would imagine being an open source maintainer, that must, for me, that would really affect my emotional state is having to kind of deal with that you have to be very mature, to handle some of that stuff. So I've seen how you've interacted with some of that Alex may think, very, you set a high bar for being very calm and patient and
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        a good example, that's very kind of you. But yeah, like it's draining right. And it's not. Yeah, it's not easy.
+
+      </p>
+      <p><strong>Cole Turner</strong><br />
+        I feel like that's honestly, one of the biggest struggles with open source work is not only are you kind of on your own on this island, but it's your heart, it's not just your mind, it's your heart in there, because like, you're shaping the vision and the strategy for this repository for this library for this package, what it will do for your customers, what it will do internally, and you have to balance the external pressures of what you're feeling at work with internally, what you're feeling what's best for this project. And then you have a whole Coliseum of strangers and anonymous spectators who are trying to weigh in. I just, I think it's honestly the it's the unsung hero work of our industry.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        I also like Alex, you're bringing up about the fundraising, too, because I think of that is like, yeah, cool, like, ask for money or like Patreon, etc, or whatever the thing is, is that easier said than done, because now that's also work, right? Like, you're like, cool, I want to get paid for doing all this work, because it's becoming popular. But you're doing all that work plus maybe a full time job, even if you're not, it's a different job to manage and go get money. It's the same thing as like, chasing if you had like a website or podcast or whatever, you're chasing advertisers. And that's a different, like, that's a job in itself. And like, that's maybe not something you even want to do. You're like, I need money to support this. But that's more work. And that's at least how I've looked at it for a lot of these types of projects.
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Personally, it wasn't so much an issue with React beautiful there, because that was sort of funded just by the fact that I was working on it through work, but I have thought about it in terms of personal stuff. You know, there's lots of projects I'd love to make. But I just know that I don't have the time to maintain them. And if I could sort out that funding part of the story, then I could work on those things. But yeah, there's no as you called out, Ryan, there's no easy answers there.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        So if built, this open source library has become fairly popular. You're not working on it anymore. But you did mention earlier, another project pragmatic d&d. Now, what's pragmatic d&d, how does this start?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yeah, well, I'll explain how it started. Because that will probably help explain what it is the why Yeah. Yeah. You know, all projects are like that. It's scratching some itch. Right? So this is back in 2000, late 2019. I wrote down the dates, because I can't remember them off top my head. So Atlassian has been having an ongoing focus on making our applications faster, which is something that I'm all on board for, I think it's a great thing to do. And something that got called out as being quite large is react beautiful dandy, and it is it's pretty heavy. It's, I think, about 30 kilobytes, GS zipped something like that. And it's limited. So not only do you have to pay the bundle size for React, beautiful dandy and all the other costs it has. But what we found is that there are There are experiences that we want to add drag and drop for our products. And if they don't fall into the category of lists or lists of lists, you have to pull in another drag and drop library to power those or build something bespoke or something like that. So what ends up happening is you can have two, maybe even three drag and drop libraries on a pay, like, you know, in your app, which is not great if you're trying to build fast applications. So that was sort of swirling around. And we're staring down the barrel of some pretty heavy investment into React, beautiful dandy. For historical reasons, there's an old major of React, beautiful dandy that supported trees, and the new one doesn't, and we're going to have to uplift it. And currently, Confluence I think was pulling in two different majors. So it was like not a great situation. And a lot of investment was probably going to be needed to be had pretty soon. So in that context, I had the idea of what if instead of continuing down this path of React beautiful the end, which is likely always going to be fairly heavy, because it is fundamentally teaching the browser, how to do something from scratch, and there's just going to be a lot of code to do that, especially you want to do it in a performant way. So you know, in an innovation week, which is every so often we get these sort of weeks just to do kind of projects that we think are cool and have value and you know, could be something could lead to something great. I spiked a little idea of what if I did away with the physicality of React, beautiful dandy, and just created a library for drag and drop that was completely orientated around performance, wanting it to be as fast as possible. So I did that in a week, I wrote a spike. And it kind of worked. And I wrote a blog about it internally. And some engineers from Confluence. And from JIRA, were really interested and took my very hacky spike code and actually put it in their product. And they saw some really cool results in terms of performance like straightaway. So that started the ball rolling. And then about two or three months later, we kicked off a formal project me and a small group of people to build out this library, which I was have now been working on for about a year. A bit. Yeah. Yeah, so it's, so what is it? How is it different to react? Beautiful dandy. So what it is, is it's a essentially a convenience wrapper around the platform's drag and drop functionality, that gives you an API that is hopefully fairly easy to use very powerful, and takes away those sort of rough edges of using the platform masks over a lot of the bugs and inconsistencies and that type of thing. And it starts as a very small core, very, very tiny, and then you add in the pieces that you want to build up your experience on the page. So a problem with React beautiful DND is it was designed so that every feature was sort of in the library. And so cheers. So as the feature set, man, it's hard to avoid that word features. I'm just gonna say as the feature set just continue to grow, the libraries got bigger and bigger. So with pragmatic, then they've tried to make it so that it is incremental. So you only pay for the things that you need for your page. And if you don't need that, then you don't pay for that. Right. And that's really, that's a really powerful model for software in general, because it means that if you don't like a particular piece, you don't have to use that piece you can create your own or you can whatever you want to do, that's great. We don't have to even own all the pieces. Like if there's something very bespoke for particular experience, they can build it, they can own it, that's totally fine doesn't have to go in, you know, our shared pieces. So really kind of nice model of doing this type of software. And we also want it to be flexible, so it can power anything, you know, it's as I mentioned, it's sort of just a shim a layer around the platform. So anything the platform can do pragmatic can do as well and hopefully with a you know, a lot more ease. And but also a really big changes that we've made it framework agnostic. So react beautiful. The end was for React. This one is for everything. It's a vanilla Jas library. So yeah, that was a big criticism. I think a fair criticism of React beautiful dandy is if you're not in React, you can't use it, and I get it. But I mean, using React was convenient and easy for us. But even within Atlassian even though most of our UI code is react, you'd be surprised how much is not react, whether that's acquisitions, legacy code, whatever it is, there's a lot of code running that is not react. And so by creating solutions that aren't tied to react, it means we can share it across more tech stacks, leading to, you know, better opportunities to share cases across applications across pages, making our applications faster, then yeah, so And also, it is very easy to use with React, but it's not tied to react. And then lastly, as well, it's been designed to be lazy loaded. So what that means is that you might not need drag and drop when the page first starts, you might have to click some button to enter into edit mode or whatever it is. And pragmatic, the end has been designed to be able to be loaded in and attached to existing Dom, you know, that's already there. So that's, that's really powerful. And that works, you don't have to use React, you can use React, obviously, if you want, you know, all that sort of lazy loading stuff. But you don't have to, you could just use, you know, general async loading patterns to pull in drag and drop later. Not that it's very expensive. It's, you know, I think it's only three or four kilobytes. But that said, if you don't need it, you don't need to load it, you can pull it in later. Yeah, so that's how I sort of gone about the, that's, I guess, how it's different. Now, in order to to realize those benefits, we have had to change the visual language of drag and drop, right. So we've had to, in order to embrace the platform, we've had to be willing to make some concessions and lean into how the browser wants us to do drag and drop. By doing that, we get a heap for free that we don't have to write code for anymore. So things like, I won't go into what they are, I will go into them in a second. But we get a lot for free. But in order to do that, we can't we can't have that physicality anymore, you know, we have to sort of lean into other patterns that work in a much easier way with the browser's built in drag and drop.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        That makes sense. So that's also how you're likely getting a lot of the smaller size in package. And then also just more performance out of that, too.
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Oh, yeah, for sure. I mean, in general, if you can ask, you know, the platform to do something for you, and not have to assess in code, then yeah, that's gonna save you a heap of you know, that's definitely that's always the faster way, right, pretty much always the faster way if you can get the web platform to do something for you. And you're right, like, that's how we see the majority of the size improvements in terms of bundle size. In addition to that is the incremental stuff. So we we now chop up the functionality into pieces. So that's, that's the other big thing that drives down. bundle size. By interestingly, because we're no longer tied to react. React is a fantastic abstraction. But it's not a super cheap abstraction. And by doing by not tying ourselves to react, we actually can work with react faster than if we were tied to react to kind of a funny situation like that. Because we don't need to have components, say in the, in the tree, we don't have to have hooks, we don't have to have all these types of things, which are great. But you know, they're not cheap, although sorry, they're not free, I should say. And so by sidestepping that we can actually get even better performance outcomes.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        That's really cool. I mean, as you explained it, I was like, Oh, that makes a ton of sense with React. But at first I was like, that's weird. Why can't a React component be faster, but the way you described in Macau, that actually makes a ton of sense. And also being able to lazy load, you don't need it until you actually need it. So that's another bonus for it as well. I'm curious, too. We've talked a lot about open source on this episode. I don't think pragmatic d&d is open source Is there plans for it to be open source.
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        So at the moment, the last sort of nine months, really, we've been focused on doing some fairly big conversions within Atlassian from react beautiful dandy over to pragmatic dandy. And the thinking is, let's start close to home, make sure that we're meeting the goals that we want to meet in terms of performance API design, like we can get as much feedback as we need right now from just converting over internally and we've seen some pretty sweet results. We're seeing in the order of 150 millisecond TTI improvements up to four 500 millisecond improvements. So pretty sweet differences and we've been converting over from react, beautiful day and day as well as react day in day out which is another project and some bespoke stuff as well. And yeah, that's in production today, which is pretty cool.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        It is actually been being leveraged in Atlassian products today?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yeah, yeah. I mean, if you got a confluence today and you use the Page tree that's using it. Yeah. Very few areas. And there's a few spots in JIRA. It's in now, I think JIRA roadmaps, opsgenie, JIRA work management somewhere on their calendar view anyway, it's sort of sprinkled and it's growing. But yeah, you'll you'll, if you, if you use our products, you'll be playing with it, which is pretty cool, you know, pretty fun. So the plan is that it will be public source, at least. So that means that our documentation will be public, similar to how the Atlassian design system is public. React, sorry, pragmatic drag and drop isn't tied to the rest of the design system. So you can use it independently. It's not like you have to opt in to the whole design system or anything like that. So the code will be public, or is public already, you can go check it out, the docs will be public, but they're not right now. Because they're on our staging. And there's a few little hoops we have to jump through. And honestly, I probably could spend a couple of days jumping through the hoops and getting it out. But I've just been so focused on these big internal migrations that I haven't done that. So yeah, the ducks will be out soon. So it will be I guess, the short term plans that will be public source, so you can use it, you can look at the docs, happy days, will eventually be an open source project, its own project on GitHub with its own issues that people are going to engage with. I'm not sure. I'd love that. I think that would be amazing. But I mean, it is the reality of companies is that it's hard like that costs money. And it's hard to it's hard to lose, you have to make a good business case for that, right. And if you don't have a company that's already has that strong business case already done, it's just, it's just work you have to do to make that happen. So maybe maybe it will be open source, but at this stage, it'll definitely be public source at least. So that's, that's something
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        that's exciting enough to is that it's out there, it's available. It's even being used in production, which is really cool. I love what you said, too, about companies open sourcing, too, because I think a lot of times we're like, Well, why wouldn't a company just open source their work, it's like, it's not necessarily tied to Atlassian. It's like core business that you're like, they're gonna lose money if someone uses their drag and drop feature. But the thing is, it is very costly for companies to fund open source because you can't just throw it out there, like we said earlier is like someone has to answer, respond, you know, merge pull request, decide the direction of it long term, the short term, and it that's a cost like and it is something that companies have to think about, are they putting something out there, that's realistically going to be supported? Because if you throw something out there, specially when it's behind a company, you kind of want to make sure that it's being supported.
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yeah, official, and I think Atlassian is sort of growing in that space as well. And it's interesting, I think a lot of projects that are open source today are technically just public source projects. Anyway, they just happen to be on GitHub, you The distinction is quite nuanced. It's sort of how much are you willing to engage? I think the distinction is how much are you willing to engage with the broader community? And if the answer is you just putting your code there, and you're doing your own thing anyway? I mean, like, that's still cool. Like you're still sharing something with people, for people to use and to learn from. I think it's a spectrum of how much input do you get from the community because even the more mature projects like you, it's, it's hard to dive into some of these more mature specialized projects and make a proper impact, and also understand where the project is going. And, yeah, so. But while we're here, before I forget, something we've been working on as well, which is pretty cool, is a migration layer. So my colleague, Declan wine, so what we've done is we've actually created a package, which you can use today, and a code mod as well, although no doc, so avoid our eye doctor, there's no public. So good luck, I'd probably wait for the docs. But you can run it and what it will do is if you're using React beautiful dandy today, it'll just swap out your import statements for input statements for our for our migration layer package. And you'll get the React beautiful dandy API and components that'll actually be powered by pragmatic drag and drop under the hood. So hopefully, that sort of is a nice, nice way to not close, maybe not close, we can talk about the future of React beautiful the end but in some way, you know, offer some path forward for people who are have invested in React beautiful dandy, that they can move over to this faster library, you know, without having to do some dramatic code, you know, code changes in their in their projects.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        I love that story. I mean, I think more and more we need to think about that story for Edie software. We do is like, how does it migrate? Those are key things. And so I think I love that you're thinking about that and how that plays out for people using the library. You mentioned the future of React beautiful DND. What is that future? Are? Is it? Are you planning to deprecate it? Because it it's like, making it easier for people to get off of it?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yeah. So I think on the repo now, we essentially call it out as soft deprecated right now, so we say, well, you know, we're not really going to be investing in it. And looking at the landscape within Atlassian, I feel like right now react beautiful dandies out of sync with where we're heading, which is we want, really, really fast user interfaces. And we need solutions that are going to work at scale, and be really flexible. And those characteristics are just sort of not in sync with React beautiful day and day. Now there are some forks have react, beautiful DND, that looks really promising. So if you look at the issues there, you'll be able to see some of them people who are carrying that on, and I think react before the end has inspired other projects since then. So I think DND kit, probably most notably, but there are probably others too. And I'm okay with that. You know, I think if somebody wanted to really, I mean, the forks are there, and people are carrying that project sort of onwards through those. I think the reality is that we probably won't be investing any more in that and, and I don't have enough sanity to push that one forward, especially when I'm investing heavily in pragmatic d&d, which Yeah, I think it's a really cool like direction to lean into. I've always wanted, this is just a personal thing I've always wanted, like, I have applications, my own little, you know, side projects, whatever. And I often want to add drag and drop to it. But I don't want to pay heaps like I want my apps to get, you know, those beautiful crisp 100 Lighthouse store scores, you know, I don't want to be pulling in these giant libraries to add functionality. And so you know, pragmatic drag and drop scratches that edge for me like I want to add drag and drop to my app, but I don't want to pay much for it. So that's sort of where my my emotions pull me more these days. That makes
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        a lot of sense. I love it too, that you're just like honest about it's like yeah, this is where I'm at in where the project is. I love it. It's probably a good time for us to jump into pics in each episode, the front end happier podcast. We love to share things that we found interesting want to share with you all. It might be drag and drop today I'm not sure but Stacy want to kick things off?
+
+      </p>
+      <p><strong>Stacy London</strong><br />
+        Sure. You can drag your headphones on to your drop them on your head and listen to to music tracks that I picked. The first one is called pulse at the center of being bi. It's a remix by more alien. It's a max Cooper track. The remix kind of brings a detuned broken the version of the song scraped with headphones. second track is plug x by midwife and vivia melancholia. It's kind of shoegaze II background music. It was I guess it was inspired by the lifecycle of cicadas. They wrote it in 2021. I guess that's when there was a 17 year periodical cycle of cicadas. So very moody sort of song. But those are my two picks.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Right on Cole, what do you have for us?
+
+      </p>
+      <p><strong>Cole Turner</strong><br />
+        Stacy's drag comment is my first pick. And my second pick is I was recommended to a podcast called Two hot takes. It is these two craters who review Reddit comments and threads and they give their unique perspectives on it. They bring in their friends. It is super funny. They are the most entertaining, besides the front end happier folks. And I recommend it.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Check it out. That sounds awesome. I can just imagine what the Reddit takes on that, too. So, Alex, what do you have for picks for our listeners today?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        Yeah, so given that I'm having a tea as my happy hour beverage? I've got two tea related picks. So first one is porcelain cups. If you haven't if you're a tea drinker, and you haven't tried porcelain cups, like try them. I mean, the more florals you can get on them, the better. Yeah, so that's my first pick, try try it. It'll really change, change the experience for you. And secondly, this is one that I only stumbled onto last year. If you liked drinking green tea or jasmine tea, and you really like it a Chinese restaurants for example, but you struggle to do it at home. Well, I've sort of found a tip for you and that is generally bluing brewing black tea at 100 at boiling, making it boiling 100 degrees Celsius, I don't know what the Fahrenheit is, I'm sorry, boiling water for black tea. And that lets the leafs sort of release their flavor and for black tea. You're usually letting the leaves sit in the water for about three to five minutes before you take them out. You leave them in there too long. on, it'll go really better. Now with green tea, what I've discovered makes all the difference is don't use 100 degrees boiling water, use 70 degrees water, so pull it back quite a bit. It turns out that too hot water like burns the tea leaves. And also, make sure you only let the leaf stay in the water for a very short period of time. Like a minute tops, but probably around that 32nd mark, take it out, and it goes from it is a really soft, nice flavor. I've had years of burnt horrible green tea at home and struggled to know why when I'm messing up. And that's been the big change. And it's I love it now. So there might that's my tea tips.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Those are great tips like definitely need to try that because yeah, I'm, I don't put a lot of thought into my tea and how long it's like, you know warmed up for or sitting. So I like that I'm gonna have to try that. I just have one pick for this episode. It's kind of food related following from a T one it will be a little food related. But it's a show on Netflix. It's the second season of barbecue showdown, I find it really cool to just see some of the things that they're able to do in the amount of time for smoking all sorts of meats and also found it kind of inspiring, where I'm like, I like to do some of those things. But I'm not good with like vegetables or anything like that. I'm like, I should probably add to my meats and so they have some good ideas on the show. So definitely leveraging that. Alex, thanks so much for joining us on the episode. Where can people find you? I guess, obviously GitHub and things but what where can they find and get in touch with you?
+
+      </p>
+      <p><strong>Alex Reardon</strong><br />
+        The best way is on Twitter. My handle is extremely long, Alexander Reardon, share in the show notes. And I think the RS between the Alexander and Reed and I joined into one it's Yeah, I was. I was pretty late to Twitter. So anyway, that's my that's probably the best place to find me.
+
+      </p>
+      <p><strong>Ryan Burgess</strong><br />
+        Right on. Well thank you all for listening today's episode, and find us at <a href="https://twitter.com/frontendhh">@frontendhh</a> on Twitter. You can really subscribe to us on whatever you like to listen to podcasts on. And any last words feature cheers, feature cheers
+
+      </p>
+    </div>
+  </div>
+  <footer>
+    <svg style="display: none;">
+      <symbol id="heart" viewBox="0 0 32 29.6">
+        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+      </symbol>
+    </svg>
+    <div class="row">Made with <svg class="heart">
+        <use xlink:href="#heart"></use>
+      </svg> by Front End Happy Hour</div>
+    <ul class="legal">
+      <li><a href="/terms">Terms</a></li>
+      <li><a href="/privacy">Privacy</a></li>
+    </ul>
   </footer>
-                  
-              </body>
-          </html>
+
+</body>
+
+</html>

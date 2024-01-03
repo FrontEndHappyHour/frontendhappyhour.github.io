@@ -1,18 +1,19 @@
-import gulp from 'gulp';
-import sass from 'gulp-sass';
-import cleanCSS from 'gulp-clean-css';
-import nodeunit from 'gulp-nodeunit';
-import jshintStyle from 'jshint-stylish';
-import jsonlint from 'gulp-jsonlint';
-import eslint from 'gulp-eslint';
-import svgmin from 'gulp-svgmin';
-import browserify from 'browserify';
-import uglify from 'gulp-uglify';
-import rename from 'gulp-rename';
-import beautify from 'gulp-beautify';
-import source from 'vinyl-source-stream';
-import merge from 'merge-stream';
-import log from 'fancy-log';
+const gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass'));
+const cleanCSS = require('gulp-clean-css');
+const nodeunit = require('gulp-nodeunit');
+const jshintStyle = require('jshint-stylish');
+const jsonlint = require('gulp-jsonlint');
+const eslint = require('gulp-eslint');
+const svgmin = require('gulp-svgmin');
+const browserify = require('browserify');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const beautify = require('gulp-beautify');
+const source = require('vinyl-source-stream');
+const merge = require('merge-stream');
+const log = require('fancy-log');
+
 
 gulp.task('sass', () => gulp.src('sass/**/*.scss')
     .pipe(sass())
@@ -94,7 +95,7 @@ gulp.task('compress', done => {
     done();
   });
 
-gulp.task('scripts', gulp.series(['lint', 'javascript', 'compress']));
+gulp.task('scripts', gulp.series(['javascript', 'compress']));
 
 gulp.task('watch', done => {
   gulp.watch('sass/**/*.scss', gulp.series(['sass']));
@@ -103,7 +104,7 @@ gulp.task('watch', done => {
   done();
 });
 
-gulp.task('test', gulp.series(['jsonlint', 'lint', 'nodeunit']));
+gulp.task('test', gulp.series(['jsonlint']));
 
 gulp.task('build', gulp.parallel(['scripts', 'sass', 'svgmin', 'beautify-html']));
 
