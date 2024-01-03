@@ -20,10 +20,13 @@
     "url": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io/issues"
   },
   "homepage": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io",
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "dependencies": {
-    
+    "canvas": "^2.11.2",
+    "cheerio": "^1.0.0-rc.12",
+    "ellipsize": "^0.5.1",
+    "lodash": "^4.17.21",
+    "mkdirp": "^3.0.1",
+    "request": "^2.88.2"
   }
 }

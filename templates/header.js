@@ -14,7 +14,6 @@ module.exports = function header(path) {
                     <li><a href="/">Home</a></li>
                     <li><a href="/about/">About</a></li>
                     <li><a href="/subscribe/">Subscribe</a></li>
-                    <li><a href="/advertise/">Advertise</a></li>
                 </ul>
             </div>
         </header>`;

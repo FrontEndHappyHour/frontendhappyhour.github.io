@@ -1,328 +1,301 @@
 <!DOCTYPE html>
-<html>
+          <html>
+              <head>
+                  <title>Testing cocktails at a robot bar - Automated testing at scale - Front End Happy Hour</title>
+                  <meta name="description" content="In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale.">
+                  <meta name="viewport" content="width=device-width">
+                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                  <link rel="alternate" type="application/rss+xml"
+                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
+                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/testing-cocktails-at-a-robot-bar-automated-testing-at-scale.jpeg" /> <meta
+                    property="og:description" content="In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale." />
+                    <meta property="og:title" content="Testing cocktails at a robot bar - Automated testing at scale - Front End Happy Hour" />
+                    <meta key="twitter:card" name="twitter:description" content="In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale." />
+                    <meta property="twitter:title" content="Testing cocktails at a robot bar - Automated testing at scale - Front End Happy Hour" />
+                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
+                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
+                    <meta
+                      key="twitter:creator"
+                      name="twitter:creator"
+                      content="@frontendhappyhour"
+                    />
+                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
+                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/testing-cocktails-at-a-robot-bar-automated-testing-at-scale">
+                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
+                  <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                    ga('create', 'UA-74493735-1', 'auto');
+                    ga('send', 'pageview');
+                  </script>
+              </head>
+              <body>
+                  <header>
+            <div class="container">
+                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
+                <ul class="nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/subscribe/">Subscribe</a></li>
+                </ul>
+            </div>
+        </header>
+                  <div class="episodes ">
+                  <h2 id="heading" class="container">Testing cocktails at a robot bar - Automated testing at scale</h2>
+                  <div class="container"><p>Published September 18, 2022</p>
+<div class="audio">
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1343467168&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</div>
+<p>In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale.</p></div><div class="guests picks container">
+          <h3>Guests</h3>
+          <ul>
+          <li><img src="../../public/img/guests/janaki-ramachandran.jpg" alt="Janaki Ramachandran profile picture"><div><a href="">Janaki Ramachandran</a></div></li><li><img src="../../public/img/guests/benoit-fontaine.jpg" alt="Benoit Fontaine profile picture"><div><a href="">Benoit Fontaine</a></div></li>
+          </ul>
+          </div><div class="picks container">
+          <h3>Picks</h3>
+          <ul>
+          <li>
+      <a href="https://hiddenbrain.org/" target="_blank">Hidden Brain</a> - Janaki Ramachandran
+      </li><li>
+      <a href="https://www.netflix.com/title/81613670" target="_blank">Junior Bake Off</a> - Janaki Ramachandran
+      </li><li>
+      <a href="https://www.netflix.com/title/81150303" target="_blank">The Sandman</a> - Benoit Fontaine
+      </li><li>
+      <a href="https://www.theheroranch.com/" target="_blank">Hero Ranch Kitchen</a> - Benoit Fontaine
+      </li><li>
+      <a href="https://tv.apple.com/us/show/black-bird/umc.cmc.30gx1y8nwthydkrvhqu156p3" target="_blank">Black Bird</a> - Ryan Burgess
+      </li><li>
+      <a href="https://www.nixsensor.com/nix-mini/" target="_blank">Nix Color Sensor Mini 2</a> - Ryan Burgess
+      </li>
+          </ul>
+          </div><div class="panel container">
+          <h3>Panel</h3>
+          <ul>
+          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
+      <span class="name">Ryan Burgess</span>
+      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
+      </li>
+          </ul>
+          </div>
+          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3>
+        
+<p><strong>Ryan Burgess</strong><br />
+Welcome to a new episode of the front end Happy Hour podcast. An important part of shipping features to production is having solid automated tests. In this episode, we are joined by Janicki and Benoit to talk with us about automation at scale. Janicki Benoit, can you give brief introductions of who you are, what you do and what your favorite Happy Hour beverages?
 
-<head>
-  <title>Testing cocktails at a robot bar - Automated testing at scale - Front End Happy Hour</title>
-  <meta name="description" content="In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale.">
-  <meta name="viewport" content="width=device-width">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link rel="alternate" type="application/rss+xml" href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-  <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/testing-cocktails-at-a-robot-bar-automated-testing-at-scale.jpeg" />
-  <meta property="og:description" content="In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale." />
-  <meta property="og:title" content="Testing cocktails at a robot bar - Automated testing at scale - Front End Happy Hour" />
-  <meta key="twitter:card" name="twitter:description" content="In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale." />
-  <meta property="twitter:title" content="Testing cocktails at a robot bar - Automated testing at scale - Front End Happy Hour" />
-  <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-  <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-  <meta key="twitter:creator" name="twitter:creator" content="@frontendhappyhour" />
-  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-  <link rel="canonical" href="https://frontendhappyhour.com/episodes/testing-cocktails-at-a-robot-bar-automated-testing-at-scale">
-  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-74493735-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-</head>
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+Hi, my name is Janaki Ramachandran and I am, I lead a team, which is doing automation infrastructure for both client devices and for some of the server components. And my favorite Happy Hour drink is probably a red wine, sometimes beer.
 
-<body>
-  <header>
-    <div class="container">
-      <a href="/">
-        <h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1>
-      </a>
-      <ul class="nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/subscribe/">Subscribe</a></li>
-        <li><a href="/advertise/">Advertise</a></li>
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Hi, and thank you, Ryan for receiving us. I'm Benoit from tan. I'm a senior software engineer at Netflix. I've been at Netflix for the last seven years now, under Janaki. And I've been working on test and device automation and building the infrastructure for testing. As Jackie mentioned, it's mainly in the client teams, which is the Netflix application that you have, you know, TV, mobile browsers, but there is also more use of time in the server side as well. For drinks. I am French so I love wine. So a red wine is also great. But when I need something more cool, chill. I definitely like beer and vision beer in particular, like reports.
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+Right on you guys. Both good choices on the happy hour beverage. That's great. And Benoit, you and I probably started at Netflix around the same time because I think I'm just over seven years now too. So that's kind of cool.
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Yeah. 2015 Oh, yeah.
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+Yeah, same here. It was like April 2015. For me. I don't know what time which month you were but March? Yeah. Oh, yes. Very close. I love it. That's really cool. All right. Well, well, let's give introductions of today's panelists. I'm the only panelists today. So I'm Ryan Burgess. I'm a software engineering manager at Netflix. In each episode of the front end, happier podcast, we like to choose a keyword that if it's mentioned at all, in the episode, we will all take a drink. Now, what did we decide today's keyword is? Release?
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Yeah, we try to avoid testing automation. Yeah.
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+So So releases is probably going to come up but maybe not as much just testing automation. So that should be good. All right, I thought it was a good way to level set as we dive in to the topic. It's like, what is automation? Like? I think automation can mean a lot of things. But like, what is automation around testing?
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Yes, this is the mission is is not something to be to consider as a binary thing, like you have automation or you don't, it has a range of domain, it's a gradient of automation. And so you can have like full automation or partial automation or no automation at all. So usually what it involves is, it starts from cataloging tests, meaning, you know, you have a set of data that you know, you have that you could run, so you need to know, catalog them, then at some point, you need to choose Select and automate the selection of the tests you want to run in certain condition. And then when it's time to run them after selecting them, there's automation around executing them in an automated manner. Then you want the reporting to some system to be automated. You don't want people to necessarily do spreadsheets by hand, when they report. And there is then we'll say, action that happened around the test. So test themselves, you know, they do their own validation. But you might want to trigger actions in an automated fashion based on what happened with the test. So first, you could maybe have some statistics, you know, about what happened in the test that you want to calculate at the end. Or you might want to trigger action, like notification, you know, these tests fail and need to notify this. So notification alerting, there's a different value to closing, JIRA is opening GRC automatic, there's a variety of action, you might want to take bait automatically, that has been defined by the user based on test having run. And then obviously, you also want visualization. In particular, when you are, you know, scale. There's so much data that you need a very good way to go through the data, find patterns, and to failure analysis on that. This is purely on the test site, right. But in order to be able to automate testing, usually you also need a supporting infrastructure that provide features that allow automation Have those tests. So that's also another aspect, right? And so, if you take something like just, for example, this is something in the Jasmine world, people know very well, you could consider that test automation. It has, you know, you, you put your tests in some folders. So this is where to catalog test ingest. And then then you can select them, you can define patterns for selections ingest, just will run the tests execute the test, it will do by default, some discreet local reporting, right, but you can have reporter that do some other type of reporting, but it's local reporting. Usually, there's no really test action here. And for visualization, I mean, just by default print on the console, so you have some type of visualization, right? So in a way, just provide some level of automation that checks a lot of the boxes here, I mentioned. But although it's checking most of the boxes, it's still a gradient here. Because the way just provide each of those functionalities is very local. It's like, on my computer, I had to check out my Git repo, and run jest. And so this is not distributed. This is not centralized. I mean, the data are not being sent together and aggregated somewhere. So if you have a lot of different things you need to test, all of that also needs to be automated. So just in a way is, you could say, a very local version of automation. And the type of infrastructure usually, like we take care of is trying to really take automation to the to the next level in terms of distributing it, and making it also across languages, because here just is going to be JavaScript only. So this, I would say, with test automation.
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+Yeah, I think I want to kind of add on to what Ben was said, I think, yeah, many times we think about the phrase automation, test automation, we think about frameworks, hey, what framework Do you want to use? And what language do you want to choose? And how do we put them in some CI systems like Jenkins or something, right? But then here, as you want to take it to scale, then you might week, provide us an infrastructure, or we'll talk about automation is kind of the combination of every one of those things that Ben was reporting all the way from, hey, I need to think about what I need to run. And here I have defined what my tests are. And then how am I going to manage it over time, all of that is what we consider here as a test automation.
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+So I like that you both talk about this in the sense of like the local and that kind of at scale or more distributed? Do you both recommend having both? Like is it one or the other? Or is it like a combination of having the local test automated testing, and then also more distributed? So you
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+can consider a distributed system being a system that distributes local executions? Right? So yes, you will have both, you will have local aspects that are going to be distributed and reporting to send centralized pieces and systems. So this is how we do it. Exactly. Yes. So justice is one of the thing that can be used with automation, and reporting to it can happen. And it can be used in the way where the selection, execution, even the test section, and the resolution of everything that is going through just can be done through our system.
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+And I think the cool thing, what you mentioned is, you know, you feel it goes touches on the developer empathy, right? If you're a developer, sometimes you want to run the tests locally, too. See how the check the test actually behave with your changed code. So taking it from local, and then building it to how it can run without you being in the in the loop, because now we have merged the code, and it has runs locally, but it has to merge with everything else. That is an also an important part of developer empathy and the automation infrastructure. If it's designed properly, then you can run run locally, and also run at scale.
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+That's a very important aspect of when designing automation system is you have kind of a balance here. On one side, you want to have everything working in a generic way. So everybody can benefit from everything. But on the other side, you have your users of the system, there's no I like to run my own framework, my own thing there. And I don't want to think of everything of I don't want to have constrained. I don't want to have to learn new things. I mean, other things. I mean, what I do locally works, what do I need to do in anything else? I mean, I mean, I think it's fine look. And so the one thing to keep in mind all the time is trying to leave as much freedom to the tester and retirement as possible. So every time a constraint is added, it really has to be needed and providing an actual value to the person having to deal with it, so that it on the status and understand, okay, yeah, I do that I get that not just purely oh, I need to fit into the system, and therefore have to do that, but you don't necessarily get the value. And so that was an aspect in the automation system we are building is that we wanting, we wanted the developers to be able to look at results that we bought in the system, and be able to take action on it directly by reproducing the issue locally. So like, you need to be able to say, okay, I can run it locally, when it's reported, I can see how it was run and run it locally. So like from local, to remote back to local. without friction, and at the same time supporting as many I mean, in a generic way. So you want people to be able to use whatever system locally, they, they like Netflix in particular, based on its culture, the teams are a kind of small startups bit. And so a lot of teams have their own way to do things in an efficient manner. And so there's not always common pattern into doing things. And so having the system being able to embrace that as being very powerful, and key to the success of
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+I'm assuming that's quite challenging for a team like yours, like how are you able to, you know, understand the needs of all the teams that are leveraging this, this framework and this, like all the automation that's there? How do you make it possible so that you're understanding those needs of each of the engineering teams that are leveraging that and make it extensible? I'm sure there's a lot of challenges that come along with that, yes, it is
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+very challenging. But I think one of the things that we have tried to do is understand one customer very deeply, and then extended to still have the abstractions in place to extend it for other teams. So we have a very complex client team that we partner with. And we made sure that it be are able to consume the results and iterate very quickly on how the automation should be designed for that customer. At the same time, think, you know, Ben was the engineer designing the system, he had design and put abstractions in place where all the assumptions needed for the local client does not become a requirement, it can still be abstracted out. And, you know, that leads us to, as we get to understanding more and more customers to the design patterns still make sense? And where should the control be? And how can we not have as a central automation team more control, but really, the last mile and the end problems can be owned by the team who are closest to the problem. That is one of the important part of the design principles, again, to be again, to reiterate, I think Benoit can add more to this, we try to start and understand one customer really, really deeply. And then have abstractions and design in place where we can support a lot of the teams. But the the local problems like language selection, for instance, some people have the code written in C++, they want to do testing. Some others have code written in JavaScript, they want to do testing in a different way. Some teams need devices sometimes just need a node environment and how they designed the automation framework should not be a constraint imposed by the infrastructure, or how they want to design how what kind of test cases they need to do a release. I think that's the key word here. The release is the first thing that you know, we don't want to Yeah, the client thinks might do a release once every three months, whereas the server side teams may do release every week or twice every week. And that should not be an those workflow should not be imposed as a constraint and automation framework. So these are some of the principles that we used as we have built up scaled up for different teams. I'm sure that Ben was he was designing he had other things to talk about as well,
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+yes, I can talk them off about what you just said to Nike, it might sound a little vague abstract would be saying here, it's like, oh, you can abstract without focusing on abstractions. And so you do that, I mean, seems like you're not doing anything. Party is to is to understand the responsibilities and who is best at which responsibilities, the responsibilities when it comes to an intermission, you know, ecosystem from I mean, system framework is on what's, what's the shell around the testing. So keeping track of all the pieces, the tests, by the cataloguing, of choosing what selecting the exit, getting the thing to get executed, getting the thing to be reported, I mean, the reporting itself, not necessarily, but having something to be brought to, okay, and then have something to visualize what was reported, in a way, as a tester. It's not something you're necessarily trying to build, what you want is to be able to use something that exists. And so what you do as a tester is I want to write the test. And I want to have full control on how I write my test. So I want to be able to choose whatever framework I want, then obviously, on our side, we need to then have plugins for that framework or hook into that framework. So that we can allow reporting,
+
+we need to, to have abstraction in place so that the person can register their let's call it that we call it runner, so that the framework runs their tests, right. And so so into our system, so then of abstraction, that get to select Test, and then execute them can run their runners, but they have the full control of their own runners, and their own test, the step validation, the test, and the test framework. And everything that tests do is all controlled by them. And so, and one other aspect to that is when it comes to devices, a lot of the testing that is done at Netflix on the client side is testing that the Netflix application works on the multitude of devices to which it's shipped. And so we need to have automation of devices. So the test needs to to, to be able to start a device trigger action on it, and check that everything is working. And there's a lot of variety of devices as an automation platform is we we've built a service that that provide a unified interface to controlling device and you want to start to device The device installed the bill on the device, maybe suspend the device, resume the device, things like that, you know, very high level thing that those application those states will want to do in starting the application on the device. But so we've built for example, that that service, and and other things around it like reservation have people that run tests, they want to get devices, but they don't want to work on each other and say two different tests get the same device and they have a conflict. And so this is something as a tester you don't really want to take care of you want it to be taken care of. And so that's something that we take care of. And the way we take care of is, is not like the way we decide to design that internally is not going to impact the user in terms of constraint at the end, they get a device and they know, it's not going to be used by anybody else. until they're done with it. Now the interface are part of our service, the reservation is is part of service. But then behind the scenes, we also need to interact with the devices themselves. And this is where this is actually delegated to what we call device handlers that can be owned by the test team themselves. And this is part of the flexibility again, other making sure we don't have too many constraints as the platform team for automation. We don't have the we are not experts. In all the devices. The tester was on the test. And all the developers on the team, like maybe the mobile team, you know that does Android iOS, they know very well how does device work and can be automated and if they want to take care of of building the handling for it, they can and then that can be plugged into our system. So we could just talk to to your system I mean to your handler. And so obviously if the team are not don't want to do it or cannot do it, we can help and take care of it. But the idea is we're trying to delegate and distribute as much as possible the responsibility to the party that is the most able to do it. So that removes friction, and leads to better quality and things, they can do faster, saying that the timeline for change is much faster. There's no need to, to, to have constant. And it's a meeting between so what we need that now could you work on it and we become bottlenecks, we try to distribute as much as possible to not become bottleneck,
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+I really liked that too, is that there, you're adding a lot of flexibility in how you're approaching it. You know, what happens if a team like let's for instance, says, you know, they want to use some brand new framework, it's not just it's some new framework that I've never heard of, you've never heard of, what does that look like for your team? If I'm like, hey, my team is now using this x testing framework, what does that mean for your team? Yeah, so
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+you could see it a little bit as, like, ingest, you can do reports of, so we would be we, I mean, they could take care of it. But we could help and to say, Okay, this is this new thing, and that needs to be able to report to our system. And so let's build, you know, a plugin for it, so that when you run it, it does report to it, right. And so we have a list of, you know, different plugins, slash reporters, that, that we take care of some other that teams can take care of, and maintain. And they all, you know, a low reporting to our system. Now this is on the reporting side, there is the other side. Because there's two, two level where we touch with the user test, I mean, the test the test of test, which is executing it, and then it so which is like it's going to input like this at the beginning, we execute it, and then the output, which is reporting to us, and so this is the to surface. And so on the reporting the output a report, something like a reporter can can take care of that, on the executive in the input side, this is where we have we built abstractions, where you can basically say, in order to run the test, this is a Docker image. Alright, so you can run this image with a parameter that gives you the list of tests to run, and just take care of running it, and make sure that you run the plugin to report to us. And that's it. And so this is extremely flexible for us, because you take care of making your own Docker image to execute the test. So you can choose the reporter, you I mean, the test framework you want. On our side, what we do is, so you just need to register, this would be called runner with us. And then we take care of selecting the tests for you give that list, as you know, as parameter to your image, when your image, take care of distributed the run of the image across as many instances as suppose as needed for this in resource wise, we also take care of distributing that load. And then those, you know, container, those runners they do then report to us, and then everything that's before, which is you know, selecting the test, and everything that's after, which is analyzing the result and doing action is outside of you know, the surface layer of the test. And so here, there's no number of constraints.
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+And you know, he was asking how many would have teams come and ask they do happen, but not as frequently because most teams do have some level of normalization. So like Ben was saying, we have an abstractions for for jest, where we are able to run those test cases. More recently, we were working on a C++ integration, because some things wanted to do testing in C++ and they want to wish to catch up here. And we want to be able to report it is not really a unit test, it's to integration testability unit test is part of the build. But when he have integration test cases, then it is really something that he wanted report and habit for a longer time. So yeah, we do work with those teams separately and get the requirements to make sure that they are able to onboard into our system.
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+There might be currently no we have carbon on process. We have just we have x x e x t test on iOS J unit on Android, and then custom homebrewed test framework for on device testing for the TVs. That's really the end catch. Still. That's that's the list today. So it grows, you know, one new framework every year may We the year type of thing, it's very slow. Because I mean, even though the team are independent from each other, as I mentioned earlier, engineers like to go to US tender things, right. So if there is a standard system that already exists, that's what's going to be used. So we try to target the standard one. But sometimes for some teams, there is no standard that you know, like, like, on the on device testing for TV client, this is something that we have some specific needs that we can just run another environment. So we can easily run something like jest. Sometimes, because some things aren't built
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+to. So you also mentioned a challenge, which is devices. I mean, I think a lot of people don't even understand what that means. Because like, even just, you know, maybe they're just building for mobile, or they're building for web, but it's like, you throw in TVs in there, too. And PlayStation X boxes, set top boxes, like there's a lot of things that Netflix is running on. And I'm I would love to hear a little more on like, what what challenges you all face? Like? What happens if a device fails in the middle of a test? Or, you know, how do you even deal with that ecosystem of of all the devices that are out there?
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Yeah, me too. Bucha. Okay. Yes, yeah. Yeah. Your last question, in particular, is the most important one, which is how do you deal with failures of devices? Before getting there? Maybe to give an idea of the amount of devices we run with, internally, we have what was the number of about
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+12,000 virtual devices and about 6000 physical device physical?
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Yeah, this is the amount of devices we have. And so the physical one, and we have labs, which have virtual devices connected to the network there, although USB and then control over the network. And then we have, you know, cloud instances that emulate things that can emulate, for example, an android emulator, or it can be just lean, I mean, basically a Linux version of Netflix, for just for reference reference application that we ran tests on. And this is, you know, using GPU instance, with GPU in the cloud, because it's, we do a lot of testing on that, too.
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+You mentioned about TVs and other devices, Ryan, yes, we do have, you know, a lot of these physical devices or mobile devices and physical the other TV devices like game consoles, Xbox, ps4 doors, and TVs and Roku sticks. A lot of these are physical devices that we are running automation on every day, and the scale is about, you know, we run about three and a half million tests every single day. It's it's pretty, pretty large.
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+That is a ton. Like even just hearing the sheer volume of devices and the tests running like that, you know, we started off saying at scale, and like, this seems to be a large scale that you were all dealing with.
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Yeah, just earlier parentheses, since you talk about scale. The more you scale, in terms of amount of test, the more the visualization, and the aggregation of data, or how you are able to go through the failures is important, because at the beginning, you don't have a lot of test, therefore you don't have the failures. And therefore, you can kind of go through them individually. But then over time, you know, when you answer within tests, I mean, you need to think that behind the scene, if you have 1% of failures. That's that that's that's what that's 30,000 dentists, that, that have to go to, we have to go through, right. And so how do you go through that? And so we I'm going to independence, so that but we do we have a system that catalog failures automatically have Lea I mentioned failure analysis as part of the automation, we have system that can automatically categorize failures to help you. So then later, you can split between things that are automatically categorized versus unknown. So you can focus maybe on a specific category of failure or a non failures and try to understand that and maybe get them to be categorized automatically in the future. failures can be automatically tied to existing open tickets about failures. So the idea is you want to get from 30k to you know, 100 of new things because the other you know, 20 29k was was known I just had Then again, type of thing, because there's an open ticket fight. But we can, maybe we can come talk about it. That's a very interesting topic for analysis. But we're talking about devices. And originally, when we developed the Domitian platform that that we built, it was primarily for the client teams. And so we switch, which involves device events every single time, it's not always the case anymore. Now, there are teams that do not use split, I mean, actual device for the testing. But it was originally, definitely the big focus, and what so what you don't want to happen is have device failures impacting the results of your test in a way that makes the result that you can you can trust the results, or you make the failure, right. And then people say, Well, I have failures, but I don't know, it's, it seems to be half of the failure seems to be infrastructure or device failures. In a way you need is like when Google started with the search engine, you know, they built everything on top of commodity hard drives. And the idea was to say, Well, we know the hard drive can fail, and we need to build it around it. So that's the same here, we know that device can fail, they can image for reason for which they have issues. One is we didn't build the device, they are from another manufacturer, they might have bugs that you have to walk along. That's one second is there might be some issue in the lab, things can go wrong, sometimes, you know, network in POA and we need to be able to, to handle this. And so what does it mean to handle it, it means we need to know when an issue happen, that it is related to the device or the device environment, and not to the test validation itself. And so a lot of effort is taken into making sure we are able to always categorize issues to the responsible party, which is the device in our case, what we're looking for is device versus slash device environment. And when these happen, then automation can take care of it in different fashion. One of it being too well we know it's it's a device issue. So it's not your fault. So we're going to just run this test, and you will not know about it, it will just it for you, it will look like as a as a user that of our system, it will just look like took longer to run your test. This is different than just be running your tests automatically because it fails. That is not the same thing. Because a lot of system that are not able to properly associate issues to device such device environment will then have to fall back to well, we have a lot of failure, it's it's half of the time is devices. So let's just always be run. And you know, and if I run three times, it's going to work eventually. So let's run until it passes. When when you do that you have a massive low pass filter on your results.
+
+Any any actual, like race condition of your product, you know, sporadic failures or bug, actual bug of your product may be filtered out because of your this automatic retry. So we try to not do that. I mean, that's Oh god to not do that at all. And instead, always detect that the issues are related to device and then take care of it internally within the automation without the tester. No, I mean, the tester can know it happen. But what if when the test goes on the dashboard to see the result, they will not be noticed that says, hey, we tried your test. You don't want that to be noisy. You want to be just your results. That's it, right?
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+Yeah. Like the tester is not going to care about if a device failed, right. Like, I at that point. I'm like, I don't really need to know that. Or, you know, if you reran it for that reason, but I absolutely see the value. Yeah, if it's my tests that failed, that's what I want to know and don't want to be, you know, overburdened with all that noise. So that makes a ton of sense. Yeah. And I kind of wondered how that would work with like, because device fail, right, the physical, virtual, they all
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+are the time. Yeah, yeah.
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+So it definitely becomes a challenge for your team, but then also making sure that yeah, you're filtering out that noise, which makes a ton of sense.
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+I want to double down on what Ben was said, I think, you know, probably who are probably all of us are providing a platform for other teams to run something on. In our case, we are running automation. It's like security or other other cases. when things work, there is no complain. But when there is even a low level of failures, then and it's an infrastructure, it becomes an infrastructure problem, developers soon lose confidence in the system. And I think it's very, very important to kind of keep that as top of mind and designing something to do to not have the infrastructure, noise or even a low level of failures. In fact, what the developers are seeing, again, come back to, oh, your infrastructure is flaky. And that's why, you know, I had to keep rerunning this over and over again, and we have found like, even a 1% failure rate is enough to lose that confidence, it has to be very, very less compared to what they are running overall. And especially in PR situation. So this is why this is this part about separating out the device failures from the actual test case failure, or product failure is really important.
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Here, we were talking about device failures, which is something we cannot control. Why because it's within the realm of automation. But there are failures, which can be considered infrastructure. And what I mean by infrastructure, I mean, they are not related to the test itself, or the validation of the test there is that failure is because something that the test depending on did not work as it was supposed to. So like, maybe the test is talking to some service to do something, and that service has an issue. And now it's responding with an error that can make a test fail. And we also provide in because the same issue with devices can happen with that, if your tests rely on some third party service that has frequent failures, similar to devices, if you are not able to say this is an issue related because of a server issue. And then maybe we should be fired automatically when this happened, because we know it's an environmental issue. If you don't have a mechanism to do that, you end up again, having noise in your result, loss of trust, and the fallback to retry everything, right. And so we do provide mechanism through failure analysis process section. So the two books I mentioned earlier, if you mix those two together, through further analysis, we are able to have people define patterns of certain failures and say, when those patterns of failure happen, so it's even outside of the test. So it's a complete generic system, it's a UI you go. And you can say, this is a pattern of failures, based on data, we partied all the logs, the log line of logs, and when this type of thing happened, you know, classify this test as an amine, this result as an issue related to infrastructure. And maybe we try it for up to three times as long as the infrastructure issue keeps happening. So we do that automatically with device issues. But we do have a mechanism for people to define patterns that relates to sub party dependency they themselves use which are not URLs. And so that lead to them to then them not having no is in that test result, because of the third party services having failures from time to time.
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+I love that you both mentioned, like that trust factor, right? Because like, yeah, your customers, our customers have, like their engineers across Netflix that are building, you want your systems to work so that they continue to use that and build great testing around what they're building. So that we're shipping great products to Netflix customers. What I realized too, is you also said that if a device fails, that it would you know, run again, and it would just look like your tests like ran slowly, like so as if I'm that engineer, it just looks like it ran. So is there a bigger? Like, have you found that there's a bigger threshold for like, tests running slow that people are that's okay, like because that could be a trust breaker too, if things are starting to run slower and slower over time, that I could get frustrated on my end. But do you feel like there's that's actually maybe a little more forgiving?
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+What we have seen in most cases, people are not running tests, which are five minutes long. Most test tests are a few seconds to a minute minute is, again, not very, very common from what we have seen. So when you retry those test cases, and you're running locally, that threshold would be they'll be much more sensitive to these thresholds on Oh, a five second test is taking 30 seconds to run. So there was a lot of sensitivity around it. But and what we have also seen is that if tests are run in an automation system, paddle is completely then you know the overall test time than or how often the retry becomes a smaller factor of how much a developer has to wait. So the sensitivity we try to focus on is really on, or I should say, when to run an automation completely out of the of the developers control. That is when you know, this, we tried to keep sorry, rephrase it. The that that threshold for the time when multiple tests are run in parallel is different than when tests are run in a local environment. And for the local environment, we do have to work with developers to figure out are these becoming a pain point, a few tests running here and there for for, you know, 30 extra seconds has not caused that kind of pain point, in terms of saying, hey, something is fundamentally broken, because people are used to having bills take sometimes five minutes or 10 minutes. So this is part of the build test cycle that, you know, developers are used to, and small incremental times don't really impact that much. So there's always a caveat. But for the most part, this holds true.
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+I would add to that, and the fact that it's not because the automation system is able to handle on federal issues, that it becomes an excuse to a law enforcer issues to live to exist. The idea is the system allows them to happen without impacting the user while we fix them. Right? So. So the goal is always to fix any facet or issue. So that there's no retry, there shouldn't be retry, we can hit boundaries, on limits, like on device. So issues on devices can be related to bugs on our side, or handlers and things like that, which can be fixed. Sometimes we hit walls, like what is just, you know, this SDK from this manufacturer, has this known bug. And so once in a while he does this and after, after winning 1000 tests of it, you have, after upstanding the Netflix application a certain time of it in a role in this specific manner that users don't do, but we do for automation, it will stop working. So you have to kind of restart it. We're talking about all the devices that you know, manufacturer will not want to upgrade to 5g anymore, but Netflix still on it. And so we need to test it. And so this is things that we have to live with. And in a way we try and is the best we can do. The alternative is to have noise in the result and loss of trust, and, and then loss of efficiency and people looking through the results. But everything that can be fixed should be fixed. Always,
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+before we dive jump into pics, you all have thought about this for a while, like diving into building a platform around automation testing, what advice would you give to maybe another company or team or individual diving into starting from scratch and building up a platform around automated tests, what's some, you know, piece of advice that you would leave them with? Oh, we
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+did touch to some of those points in the the challenges or goals. The very important part is to be able to have your system and we just touch it separate infrastructure issue from test issues. So they don't impact the users. This is one of the key key aspect here. Testing is about finding failures, right? You testing is testing failures and not testing success. Right? So if failures are injected from means that are not related to what you're testing is not good. So that's a very important aspect. But then we some looking back, as well. You know, I mean, we mentioned earlier the balance between giving flexibility to the users. But there's also some balance on the side, which is we don't want to give too much. So we want to give the right balance, which is the one where the user feels he can do whatever he wants. But some time you might be so if you don't know really well the good balances you either have you to constraint or not enough constraint and when you give too much constraint you can have a more direct feedback, which is you might feel if you listen to your users or if you really get your hands dirty and and do what your users do so you feel the pain which is an important aspect as well is to use your tools. Then you might get the more direct feedback as okay I too much constraint but when you don't give enough constraint because you want to give flexible this takes longer to be realized. Because I mean that maybe you went too flexible here, because down the line was going to happen is that you will want to build something new, some new features. And that new feature will need to rely on some semantic, you know, some some some concepts that maybe let some things being reported in some manner. And if there is not a unified way, so something has been abstracted, constrained in a way in the way it's supposed to be plotted, you will not be able to build on it in a generic way. And then you have to decide, okay, well, maybe I should, I should have abstracted that. So let's add an abstraction, this constraint, but then you need to migrate people to it. And that takes a lot of time and effort to migrate all your users to them to your new abstractions. And so it thinking, how about the balance between the for the abstraction, flexibility versus, you know, abstraction is very important. We haven't mentioned that, but you need to think a bit about your data. When tests are run, if you want to have a generic system that people can just use for any reason, you don't know necessarily what's going to be reported to it. By that, I mean, obviously, there are things and this is where, you know, having more constrained abstraction is important, that is always going to be needed, like a reserved name for hotels, a few things like that, right? Duration maybe. But there are things that maybe the tester want to save, and information, oh, like this is how fast this went, this is the frame rate of this, you know, that they want to report to the leader, they can fit off tests on it, do some aggregation, and things like that, and look. And so you want your system to be very flexible into the data it can ingest. And so this has also an impact on the choice of your data. So
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+go back to what you were asking what advice you would give, I think in in a very, very narrow sense, you, I think you want to think about automation, and you want to think about not starting writing a lot of test cases, but incrementally building towards going there, I think it's, it's gonna be a virtuous cycle. Once you see the benefit, I think you will start doing more of it. And, you know, every I think every team, everybody wants to do automation, it is just that becomes a lot more complex. And in terms of maintaining the system, or the value you might get from it, sometimes the question is, I'm running all this test is always failing, I'm going to merge it anyway. Because it's going to be a false failure anyway, right? When it comes to that point, it's you have lost the battle, right. So this is why the thinking about resilience and starting small, and making the test cases that you really care about either is for a system or for your product, give the test giving good signals about catching real bugs, then in an if if 10 test cases are not able to run constantly and passing all the time, and failing only when there is a product failure, then if you add 100 test cases, while it is good, you will be stuck with trying to figure out why the tests failed. If you have a 10% sporadic failure rate, then you are going to pretty soon give up on writing test cases. And it just becomes you know, something that you don't want to do and it's going to be a pain point, you're going to mentally think, Oh, this is not something that I would like to do, because it's not fun for me. Right. So I think in some ways, starting small, having a good PR system, where to catch real product bugs will incentivize you, the developers around you to say, Hey, this is going to catch me interest is going to be a value add for me. And once you get to add value, then there is more investment from around around everyone a culture gets created where you want it not necessarily forced upon you for having an automation and I think having that kind of environment lets you build on more and more of this virtuous things that are going to help you in the long run at scale. But I think you know, if you add if you want to go fast and you want to add a lot of test cases and they are not really of good quality, it becomes a pain point then then you're left with convincing everyone please use the automation because it's good for insects. No, it is not really good for me. So that is what do you want to fight and go with building good resilience in the beginning I really
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+liked that too is like you start small in order to get to that big point. But if you try and be like we need to solve all the problems, it's like it won't get there anyways, you're almost competing with that. I really like that. Well let's dive into pics. In each episode of the front end happier podcast. We like to share pics of things that we found interesting. They want to share with our listeners. Janicki. Do you want to share your picks for this episode?
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+Sure. I have two thinking of two. One is a podcast I listened to. And I think your listeners that all podcast listeners, that's how they are listening to this. It's called Hidden brain. So for people who don't know, this is about psychology and how our mind works. And it's fascinating. It can understand things about yourself and where other people are coming from. So I highly recommend it. I love it all the time. And the other one I'm watching now is Jr. Great British baking show. So it's also a fun, fun show. For people who have not watched things on Netflix. This is a fun thing I would recommend,
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+right on Benoit, where do you have to share
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+on my side, I've been watching starting to watch Sandman on Netflix. And I really enjoy it. So I would recommend it. I would think of restaurants as well. I like to go to a salon from time to time and one of my favorite restaurant right now, which is you know, in the Bay Area, in in South Africa is called a hero and kitchen. And it's very good. So I would definitely recommend it for that checking it out.
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+Right on, I have two picks to share as well. One funny enough is a TV show that's not on Netflix. But it's called Blackbird. It's a crime drama that it's a limited series on Apple TV. It's based on a true story. The story was really, really well done. And it is now available to binge watch. When I first started it, of course it was going to the weekly release, which is so frustrating, but I'm happy now if you want to go watch it, you can see it all at once. And then my second pick is a little device that helped me recently, I was struggling to match colors of paint in my house, I was wanting to just touch up a few walls and it was really hard to get the right colors. And you know, I tried the trickery take a paint chip in, I took it to Lowe's, they mess it up three different times. And I finally was like this is really frustrating. So I tried this device called Nick's color sensor. And it's it works amazing if you just put it against the wall and it gives you suggestions for the paint color. You try it in different spots, and the one that pops up the most is probably likely the closest to it. So I did that once and was able to actually match the color almost perfectly. So this device is probably a lot cheaper than the one that hard hardware stores. But it seemed to work better for me. So really highly recommend that one. Thank you, Janicki and Benoit for joining us on the episode. This was such a informative, deep dive on automation at scale. I know I even learned even more about the depth that we have at Netflix. Where can people get in touch with you if they want to learn more?
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+For me, it's the most easiest LinkedIn. So you can search my name Janaki Ramachandran. It's a name and you can search my name and you will you can get in touch with me.
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+Yes for for me on LinkedIn as well. Benoit Fontaine. If you have the meeting notes, I guess people can find the names. I'm also on Twitter, although I'm not the active on Twitter, but you know I'm there. And that will be at vanuit de d n zero ut
+
+</p>
+<p><strong>Ryan Burgess</strong><br />
+right on. Well thank you for joining and thank you all for listening to today's episode. We don't often ask for feedback. But if you have feedback for the podcast, leave us a review at whatever you'd like to listen to podcasts on. You can find us at front end happy hour.com and on Twitter at  <a href="https://twitter.com/frontendhh">@frontendhh</a>, any last words from Benoit and Janicki
+
+</p>
+<p><strong>Janaki Ramachandran</strong><br />
+Yeah, it was fun talking about this and I think we are super stoked. Always talk about this topic. And so it was fun chatting with us and I would love to hear from from your listeners on what they think about automation. Yes,
+
+</p>
+<p><strong>Benoit Fontaine</strong><br />
+same. I had a really great time talking to you Ryan, thank you very much for inviting us
+
+</p>
+</div>
+                  </div>
+                  <footer>
+      <svg style="display: none;">
+        <symbol id="heart" viewBox="0 0 32 29.6">
+          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+        </symbol>
+      </svg>
+      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
+      <ul class="legal">
+        <li><a href="/terms">Terms</a></li>
+        <li><a href="/privacy">Privacy</a></li>
       </ul>
-    </div>
-  </header>
-  <div class="episodes ">
-    <h2 id="heading" class="container">Testing cocktails at a robot bar - Automated testing at scale</h2>
-    <div class="container">
-      <p>Published September 18, 2022</p>
-      <div class="audio">
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1343467168&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-      </div>
-      <p>In this episode, we are joined by Janaki Ramachandran and Benoit Fontaine to talk about how Netflix has approached automated testing at a large scale.</p>
-    </div>
-    <div class="guests picks container">
-      <h3>Guests</h3>
-      <ul>
-        <li><img src="../../public/img/guests/janaki-ramachandran.jpg" alt="Janaki Ramachandran profile picture">
-          <div><a href="">Janaki Ramachandran</a></div>
-        </li>
-        <li><img src="../../public/img/guests/benoit-fontaine.jpg" alt="Benoit Fontaine profile picture">
-          <div><a href="">Benoit Fontaine</a></div>
-        </li>
-      </ul>
-    </div>
-    <div class="picks container">
-      <h3>Picks</h3>
-      <ul>
-        <li>
-          <a href="https://hiddenbrain.org/" target="_blank">Hidden Brain</a> - Janaki Ramachandran
-        </li>
-        <li>
-          <a href="https://www.netflix.com/title/81613670" target="_blank">Junior Bake Off</a> - Janaki Ramachandran
-        </li>
-        <li>
-          <a href="https://www.netflix.com/title/81150303" target="_blank">The Sandman</a> - Benoit Fontaine
-        </li>
-        <li>
-          <a href="https://www.theheroranch.com/" target="_blank">Hero Ranch Kitchen</a> - Benoit Fontaine
-        </li>
-        <li>
-          <a href="https://tv.apple.com/us/show/black-bird/umc.cmc.30gx1y8nwthydkrvhqu156p3" target="_blank">Black Bird</a> - Ryan Burgess
-        </li>
-        <li>
-          <a href="https://www.nixsensor.com/nix-mini/" target="_blank">Nix Color Sensor Mini 2</a> - Ryan Burgess
-        </li>
-      </ul>
-    </div>
-    <div class="panel container">
-      <h3>Panel</h3>
-      <ul>
-        <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-          <span class="name">Ryan Burgess</span>
-          <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-        </li>
-      </ul>
-    </div>
-    <div id="target"></div>
-    <div class="transcript container">
-      <h3>Episode transcript</h3>
-
-      <p><strong>Ryan Burgess</strong><br />
-        Welcome to a new episode of the front end Happy Hour podcast. An important part of shipping features to production is having solid automated tests. In this episode, we are joined by Janicki and Benoit to talk with us about automation at scale. Janicki Benoit, can you give brief introductions of who you are, what you do and what your favorite Happy Hour beverages?
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        Hi, my name is Janaki Ramachandran and I am, I lead a team, which is doing automation infrastructure for both client devices and for some of the server components. And my favorite Happy Hour drink is probably a red wine, sometimes beer.
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Hi, and thank you, Ryan for receiving us. I'm Benoit from tan. I'm a senior software engineer at Netflix. I've been at Netflix for the last seven years now, under Janaki. And I've been working on test and device automation and building the infrastructure for testing. As Jackie mentioned, it's mainly in the client teams, which is the Netflix application that you have, you know, TV, mobile browsers, but there is also more use of time in the server side as well. For drinks. I am French so I love wine. So a red wine is also great. But when I need something more cool, chill. I definitely like beer and vision beer in particular, like reports.
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        Right on you guys. Both good choices on the happy hour beverage. That's great. And Benoit, you and I probably started at Netflix around the same time because I think I'm just over seven years now too. So that's kind of cool.
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Yeah. 2015 Oh, yeah.
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        Yeah, same here. It was like April 2015. For me. I don't know what time which month you were but March? Yeah. Oh, yes. Very close. I love it. That's really cool. All right. Well, well, let's give introductions of today's panelists. I'm the only panelists today. So I'm Ryan Burgess. I'm a software engineering manager at Netflix. In each episode of the front end, happier podcast, we like to choose a keyword that if it's mentioned at all, in the episode, we will all take a drink. Now, what did we decide today's keyword is? Release?
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Yeah, we try to avoid testing automation. Yeah.
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        So So releases is probably going to come up but maybe not as much just testing automation. So that should be good. All right, I thought it was a good way to level set as we dive in to the topic. It's like, what is automation? Like? I think automation can mean a lot of things. But like, what is automation around testing?
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Yes, this is the mission is is not something to be to consider as a binary thing, like you have automation or you don't, it has a range of domain, it's a gradient of automation. And so you can have like full automation or partial automation or no automation at all. So usually what it involves is, it starts from cataloging tests, meaning, you know, you have a set of data that you know, you have that you could run, so you need to know, catalog them, then at some point, you need to choose Select and automate the selection of the tests you want to run in certain condition. And then when it's time to run them after selecting them, there's automation around executing them in an automated manner. Then you want the reporting to some system to be automated. You don't want people to necessarily do spreadsheets by hand, when they report. And there is then we'll say, action that happened around the test. So test themselves, you know, they do their own validation. But you might want to trigger actions in an automated fashion based on what happened with the test. So first, you could maybe have some statistics, you know, about what happened in the test that you want to calculate at the end. Or you might want to trigger action, like notification, you know, these tests fail and need to notify this. So notification alerting, there's a different value to closing, JIRA is opening GRC automatic, there's a variety of action, you might want to take bait automatically, that has been defined by the user based on test having run. And then obviously, you also want visualization. In particular, when you are, you know, scale. There's so much data that you need a very good way to go through the data, find patterns, and to failure analysis on that. This is purely on the test site, right. But in order to be able to automate testing, usually you also need a supporting infrastructure that provide features that allow automation Have those tests. So that's also another aspect, right? And so, if you take something like just, for example, this is something in the Jasmine world, people know very well, you could consider that test automation. It has, you know, you, you put your tests in some folders. So this is where to catalog test ingest. And then then you can select them, you can define patterns for selections ingest, just will run the tests execute the test, it will do by default, some discreet local reporting, right, but you can have reporter that do some other type of reporting, but it's local reporting. Usually, there's no really test action here. And for visualization, I mean, just by default print on the console, so you have some type of visualization, right? So in a way, just provide some level of automation that checks a lot of the boxes here, I mentioned. But although it's checking most of the boxes, it's still a gradient here. Because the way just provide each of those functionalities is very local. It's like, on my computer, I had to check out my Git repo, and run jest. And so this is not distributed. This is not centralized. I mean, the data are not being sent together and aggregated somewhere. So if you have a lot of different things you need to test, all of that also needs to be automated. So just in a way is, you could say, a very local version of automation. And the type of infrastructure usually, like we take care of is trying to really take automation to the to the next level in terms of distributing it, and making it also across languages, because here just is going to be JavaScript only. So this, I would say, with test automation.
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        Yeah, I think I want to kind of add on to what Ben was said, I think, yeah, many times we think about the phrase automation, test automation, we think about frameworks, hey, what framework Do you want to use? And what language do you want to choose? And how do we put them in some CI systems like Jenkins or something, right? But then here, as you want to take it to scale, then you might week, provide us an infrastructure, or we'll talk about automation is kind of the combination of every one of those things that Ben was reporting all the way from, hey, I need to think about what I need to run. And here I have defined what my tests are. And then how am I going to manage it over time, all of that is what we consider here as a test automation.
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        So I like that you both talk about this in the sense of like the local and that kind of at scale or more distributed? Do you both recommend having both? Like is it one or the other? Or is it like a combination of having the local test automated testing, and then also more distributed? So you
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        can consider a distributed system being a system that distributes local executions? Right? So yes, you will have both, you will have local aspects that are going to be distributed and reporting to send centralized pieces and systems. So this is how we do it. Exactly. Yes. So justice is one of the thing that can be used with automation, and reporting to it can happen. And it can be used in the way where the selection, execution, even the test section, and the resolution of everything that is going through just can be done through our system.
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        And I think the cool thing, what you mentioned is, you know, you feel it goes touches on the developer empathy, right? If you're a developer, sometimes you want to run the tests locally, too. See how the check the test actually behave with your changed code. So taking it from local, and then building it to how it can run without you being in the in the loop, because now we have merged the code, and it has runs locally, but it has to merge with everything else. That is an also an important part of developer empathy and the automation infrastructure. If it's designed properly, then you can run run locally, and also run at scale.
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        That's a very important aspect of when designing automation system is you have kind of a balance here. On one side, you want to have everything working in a generic way. So everybody can benefit from everything. But on the other side, you have your users of the system, there's no I like to run my own framework, my own thing there. And I don't want to think of everything of I don't want to have constrained. I don't want to have to learn new things. I mean, other things. I mean, what I do locally works, what do I need to do in anything else? I mean, I mean, I think it's fine look. And so the one thing to keep in mind all the time is trying to leave as much freedom to the tester and retirement as possible. So every time a constraint is added, it really has to be needed and providing an actual value to the person having to deal with it, so that it on the status and understand, okay, yeah, I do that I get that not just purely oh, I need to fit into the system, and therefore have to do that, but you don't necessarily get the value. And so that was an aspect in the automation system we are building is that we wanting, we wanted the developers to be able to look at results that we bought in the system, and be able to take action on it directly by reproducing the issue locally. So like, you need to be able to say, okay, I can run it locally, when it's reported, I can see how it was run and run it locally. So like from local, to remote back to local. without friction, and at the same time supporting as many I mean, in a generic way. So you want people to be able to use whatever system locally, they, they like Netflix in particular, based on its culture, the teams are a kind of small startups bit. And so a lot of teams have their own way to do things in an efficient manner. And so there's not always common pattern into doing things. And so having the system being able to embrace that as being very powerful, and key to the success of
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        I'm assuming that's quite challenging for a team like yours, like how are you able to, you know, understand the needs of all the teams that are leveraging this, this framework and this, like all the automation that's there? How do you make it possible so that you're understanding those needs of each of the engineering teams that are leveraging that and make it extensible? I'm sure there's a lot of challenges that come along with that, yes, it is
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        very challenging. But I think one of the things that we have tried to do is understand one customer very deeply, and then extended to still have the abstractions in place to extend it for other teams. So we have a very complex client team that we partner with. And we made sure that it be are able to consume the results and iterate very quickly on how the automation should be designed for that customer. At the same time, think, you know, Ben was the engineer designing the system, he had design and put abstractions in place where all the assumptions needed for the local client does not become a requirement, it can still be abstracted out. And, you know, that leads us to, as we get to understanding more and more customers to the design patterns still make sense? And where should the control be? And how can we not have as a central automation team more control, but really, the last mile and the end problems can be owned by the team who are closest to the problem. That is one of the important part of the design principles, again, to be again, to reiterate, I think Benoit can add more to this, we try to start and understand one customer really, really deeply. And then have abstractions and design in place where we can support a lot of the teams. But the the local problems like language selection, for instance, some people have the code written in C++, they want to do testing. Some others have code written in JavaScript, they want to do testing in a different way. Some teams need devices sometimes just need a node environment and how they designed the automation framework should not be a constraint imposed by the infrastructure, or how they want to design how what kind of test cases they need to do a release. I think that's the key word here. The release is the first thing that you know, we don't want to Yeah, the client thinks might do a release once every three months, whereas the server side teams may do release every week or twice every week. And that should not be an those workflow should not be imposed as a constraint and automation framework. So these are some of the principles that we used as we have built up scaled up for different teams. I'm sure that Ben was he was designing he had other things to talk about as well,
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        yes, I can talk them off about what you just said to Nike, it might sound a little vague abstract would be saying here, it's like, oh, you can abstract without focusing on abstractions. And so you do that, I mean, seems like you're not doing anything. Party is to is to understand the responsibilities and who is best at which responsibilities, the responsibilities when it comes to an intermission, you know, ecosystem from I mean, system framework is on what's, what's the shell around the testing. So keeping track of all the pieces, the tests, by the cataloguing, of choosing what selecting the exit, getting the thing to get executed, getting the thing to be reported, I mean, the reporting itself, not necessarily, but having something to be brought to, okay, and then have something to visualize what was reported, in a way, as a tester. It's not something you're necessarily trying to build, what you want is to be able to use something that exists. And so what you do as a tester is I want to write the test. And I want to have full control on how I write my test. So I want to be able to choose whatever framework I want, then obviously, on our side, we need to then have plugins for that framework or hook into that framework. So that we can allow reporting,
-
-        we need to, to have abstraction in place so that the person can register their let's call it that we call it runner, so that the framework runs their tests, right. And so so into our system, so then of abstraction, that get to select Test, and then execute them can run their runners, but they have the full control of their own runners, and their own test, the step validation, the test, and the test framework. And everything that tests do is all controlled by them. And so, and one other aspect to that is when it comes to devices, a lot of the testing that is done at Netflix on the client side is testing that the Netflix application works on the multitude of devices to which it's shipped. And so we need to have automation of devices. So the test needs to to, to be able to start a device trigger action on it, and check that everything is working. And there's a lot of variety of devices as an automation platform is we we've built a service that that provide a unified interface to controlling device and you want to start to device The device installed the bill on the device, maybe suspend the device, resume the device, things like that, you know, very high level thing that those application those states will want to do in starting the application on the device. But so we've built for example, that that service, and and other things around it like reservation have people that run tests, they want to get devices, but they don't want to work on each other and say two different tests get the same device and they have a conflict. And so this is something as a tester you don't really want to take care of you want it to be taken care of. And so that's something that we take care of. And the way we take care of is, is not like the way we decide to design that internally is not going to impact the user in terms of constraint at the end, they get a device and they know, it's not going to be used by anybody else. until they're done with it. Now the interface are part of our service, the reservation is is part of service. But then behind the scenes, we also need to interact with the devices themselves. And this is where this is actually delegated to what we call device handlers that can be owned by the test team themselves. And this is part of the flexibility again, other making sure we don't have too many constraints as the platform team for automation. We don't have the we are not experts. In all the devices. The tester was on the test. And all the developers on the team, like maybe the mobile team, you know that does Android iOS, they know very well how does device work and can be automated and if they want to take care of of building the handling for it, they can and then that can be plugged into our system. So we could just talk to to your system I mean to your handler. And so obviously if the team are not don't want to do it or cannot do it, we can help and take care of it. But the idea is we're trying to delegate and distribute as much as possible the responsibility to the party that is the most able to do it. So that removes friction, and leads to better quality and things, they can do faster, saying that the timeline for change is much faster. There's no need to, to, to have constant. And it's a meeting between so what we need that now could you work on it and we become bottlenecks, we try to distribute as much as possible to not become bottleneck,
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        I really liked that too, is that there, you're adding a lot of flexibility in how you're approaching it. You know, what happens if a team like let's for instance, says, you know, they want to use some brand new framework, it's not just it's some new framework that I've never heard of, you've never heard of, what does that look like for your team? If I'm like, hey, my team is now using this x testing framework, what does that mean for your team? Yeah, so
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        you could see it a little bit as, like, ingest, you can do reports of, so we would be we, I mean, they could take care of it. But we could help and to say, Okay, this is this new thing, and that needs to be able to report to our system. And so let's build, you know, a plugin for it, so that when you run it, it does report to it, right. And so we have a list of, you know, different plugins, slash reporters, that, that we take care of some other that teams can take care of, and maintain. And they all, you know, a low reporting to our system. Now this is on the reporting side, there is the other side. Because there's two, two level where we touch with the user test, I mean, the test the test of test, which is executing it, and then it so which is like it's going to input like this at the beginning, we execute it, and then the output, which is reporting to us, and so this is the to surface. And so on the reporting the output a report, something like a reporter can can take care of that, on the executive in the input side, this is where we have we built abstractions, where you can basically say, in order to run the test, this is a Docker image. Alright, so you can run this image with a parameter that gives you the list of tests to run, and just take care of running it, and make sure that you run the plugin to report to us. And that's it. And so this is extremely flexible for us, because you take care of making your own Docker image to execute the test. So you can choose the reporter, you I mean, the test framework you want. On our side, what we do is, so you just need to register, this would be called runner with us. And then we take care of selecting the tests for you give that list, as you know, as parameter to your image, when your image, take care of distributed the run of the image across as many instances as suppose as needed for this in resource wise, we also take care of distributing that load. And then those, you know, container, those runners they do then report to us, and then everything that's before, which is you know, selecting the test, and everything that's after, which is analyzing the result and doing action is outside of you know, the surface layer of the test. And so here, there's no number of constraints.
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        And you know, he was asking how many would have teams come and ask they do happen, but not as frequently because most teams do have some level of normalization. So like Ben was saying, we have an abstractions for for jest, where we are able to run those test cases. More recently, we were working on a C++ integration, because some things wanted to do testing in C++ and they want to wish to catch up here. And we want to be able to report it is not really a unit test, it's to integration testability unit test is part of the build. But when he have integration test cases, then it is really something that he wanted report and habit for a longer time. So yeah, we do work with those teams separately and get the requirements to make sure that they are able to onboard into our system.
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        There might be currently no we have carbon on process. We have just we have x x e x t test on iOS J unit on Android, and then custom homebrewed test framework for on device testing for the TVs. That's really the end catch. Still. That's that's the list today. So it grows, you know, one new framework every year may We the year type of thing, it's very slow. Because I mean, even though the team are independent from each other, as I mentioned earlier, engineers like to go to US tender things, right. So if there is a standard system that already exists, that's what's going to be used. So we try to target the standard one. But sometimes for some teams, there is no standard that you know, like, like, on the on device testing for TV client, this is something that we have some specific needs that we can just run another environment. So we can easily run something like jest. Sometimes, because some things aren't built
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        to. So you also mentioned a challenge, which is devices. I mean, I think a lot of people don't even understand what that means. Because like, even just, you know, maybe they're just building for mobile, or they're building for web, but it's like, you throw in TVs in there, too. And PlayStation X boxes, set top boxes, like there's a lot of things that Netflix is running on. And I'm I would love to hear a little more on like, what what challenges you all face? Like? What happens if a device fails in the middle of a test? Or, you know, how do you even deal with that ecosystem of of all the devices that are out there?
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Yeah, me too. Bucha. Okay. Yes, yeah. Yeah. Your last question, in particular, is the most important one, which is how do you deal with failures of devices? Before getting there? Maybe to give an idea of the amount of devices we run with, internally, we have what was the number of about
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        12,000 virtual devices and about 6000 physical device physical?
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Yeah, this is the amount of devices we have. And so the physical one, and we have labs, which have virtual devices connected to the network there, although USB and then control over the network. And then we have, you know, cloud instances that emulate things that can emulate, for example, an android emulator, or it can be just lean, I mean, basically a Linux version of Netflix, for just for reference reference application that we ran tests on. And this is, you know, using GPU instance, with GPU in the cloud, because it's, we do a lot of testing on that, too.
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        You mentioned about TVs and other devices, Ryan, yes, we do have, you know, a lot of these physical devices or mobile devices and physical the other TV devices like game consoles, Xbox, ps4 doors, and TVs and Roku sticks. A lot of these are physical devices that we are running automation on every day, and the scale is about, you know, we run about three and a half million tests every single day. It's it's pretty, pretty large.
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        That is a ton. Like even just hearing the sheer volume of devices and the tests running like that, you know, we started off saying at scale, and like, this seems to be a large scale that you were all dealing with.
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Yeah, just earlier parentheses, since you talk about scale. The more you scale, in terms of amount of test, the more the visualization, and the aggregation of data, or how you are able to go through the failures is important, because at the beginning, you don't have a lot of test, therefore you don't have the failures. And therefore, you can kind of go through them individually. But then over time, you know, when you answer within tests, I mean, you need to think that behind the scene, if you have 1% of failures. That's that that's that's what that's 30,000 dentists, that, that have to go to, we have to go through, right. And so how do you go through that? And so we I'm going to independence, so that but we do we have a system that catalog failures automatically have Lea I mentioned failure analysis as part of the automation, we have system that can automatically categorize failures to help you. So then later, you can split between things that are automatically categorized versus unknown. So you can focus maybe on a specific category of failure or a non failures and try to understand that and maybe get them to be categorized automatically in the future. failures can be automatically tied to existing open tickets about failures. So the idea is you want to get from 30k to you know, 100 of new things because the other you know, 20 29k was was known I just had Then again, type of thing, because there's an open ticket fight. But we can, maybe we can come talk about it. That's a very interesting topic for analysis. But we're talking about devices. And originally, when we developed the Domitian platform that that we built, it was primarily for the client teams. And so we switch, which involves device events every single time, it's not always the case anymore. Now, there are teams that do not use split, I mean, actual device for the testing. But it was originally, definitely the big focus, and what so what you don't want to happen is have device failures impacting the results of your test in a way that makes the result that you can you can trust the results, or you make the failure, right. And then people say, Well, I have failures, but I don't know, it's, it seems to be half of the failure seems to be infrastructure or device failures. In a way you need is like when Google started with the search engine, you know, they built everything on top of commodity hard drives. And the idea was to say, Well, we know the hard drive can fail, and we need to build it around it. So that's the same here, we know that device can fail, they can image for reason for which they have issues. One is we didn't build the device, they are from another manufacturer, they might have bugs that you have to walk along. That's one second is there might be some issue in the lab, things can go wrong, sometimes, you know, network in POA and we need to be able to, to handle this. And so what does it mean to handle it, it means we need to know when an issue happen, that it is related to the device or the device environment, and not to the test validation itself. And so a lot of effort is taken into making sure we are able to always categorize issues to the responsible party, which is the device in our case, what we're looking for is device versus slash device environment. And when these happen, then automation can take care of it in different fashion. One of it being too well we know it's it's a device issue. So it's not your fault. So we're going to just run this test, and you will not know about it, it will just it for you, it will look like as a as a user that of our system, it will just look like took longer to run your test. This is different than just be running your tests automatically because it fails. That is not the same thing. Because a lot of system that are not able to properly associate issues to device such device environment will then have to fall back to well, we have a lot of failure, it's it's half of the time is devices. So let's just always be run. And you know, and if I run three times, it's going to work eventually. So let's run until it passes. When when you do that you have a massive low pass filter on your results.
-
-        Any any actual, like race condition of your product, you know, sporadic failures or bug, actual bug of your product may be filtered out because of your this automatic retry. So we try to not do that. I mean, that's Oh god to not do that at all. And instead, always detect that the issues are related to device and then take care of it internally within the automation without the tester. No, I mean, the tester can know it happen. But what if when the test goes on the dashboard to see the result, they will not be noticed that says, hey, we tried your test. You don't want that to be noisy. You want to be just your results. That's it, right?
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        Yeah. Like the tester is not going to care about if a device failed, right. Like, I at that point. I'm like, I don't really need to know that. Or, you know, if you reran it for that reason, but I absolutely see the value. Yeah, if it's my tests that failed, that's what I want to know and don't want to be, you know, overburdened with all that noise. So that makes a ton of sense. Yeah. And I kind of wondered how that would work with like, because device fail, right, the physical, virtual, they all
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        are the time. Yeah, yeah.
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        So it definitely becomes a challenge for your team, but then also making sure that yeah, you're filtering out that noise, which makes a ton of sense.
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        I want to double down on what Ben was said, I think, you know, probably who are probably all of us are providing a platform for other teams to run something on. In our case, we are running automation. It's like security or other other cases. when things work, there is no complain. But when there is even a low level of failures, then and it's an infrastructure, it becomes an infrastructure problem, developers soon lose confidence in the system. And I think it's very, very important to kind of keep that as top of mind and designing something to do to not have the infrastructure, noise or even a low level of failures. In fact, what the developers are seeing, again, come back to, oh, your infrastructure is flaky. And that's why, you know, I had to keep rerunning this over and over again, and we have found like, even a 1% failure rate is enough to lose that confidence, it has to be very, very less compared to what they are running overall. And especially in PR situation. So this is why this is this part about separating out the device failures from the actual test case failure, or product failure is really important.
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Here, we were talking about device failures, which is something we cannot control. Why because it's within the realm of automation. But there are failures, which can be considered infrastructure. And what I mean by infrastructure, I mean, they are not related to the test itself, or the validation of the test there is that failure is because something that the test depending on did not work as it was supposed to. So like, maybe the test is talking to some service to do something, and that service has an issue. And now it's responding with an error that can make a test fail. And we also provide in because the same issue with devices can happen with that, if your tests rely on some third party service that has frequent failures, similar to devices, if you are not able to say this is an issue related because of a server issue. And then maybe we should be fired automatically when this happened, because we know it's an environmental issue. If you don't have a mechanism to do that, you end up again, having noise in your result, loss of trust, and the fallback to retry everything, right. And so we do provide mechanism through failure analysis process section. So the two books I mentioned earlier, if you mix those two together, through further analysis, we are able to have people define patterns of certain failures and say, when those patterns of failure happen, so it's even outside of the test. So it's a complete generic system, it's a UI you go. And you can say, this is a pattern of failures, based on data, we partied all the logs, the log line of logs, and when this type of thing happened, you know, classify this test as an amine, this result as an issue related to infrastructure. And maybe we try it for up to three times as long as the infrastructure issue keeps happening. So we do that automatically with device issues. But we do have a mechanism for people to define patterns that relates to sub party dependency they themselves use which are not URLs. And so that lead to them to then them not having no is in that test result, because of the third party services having failures from time to time.
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        I love that you both mentioned, like that trust factor, right? Because like, yeah, your customers, our customers have, like their engineers across Netflix that are building, you want your systems to work so that they continue to use that and build great testing around what they're building. So that we're shipping great products to Netflix customers. What I realized too, is you also said that if a device fails, that it would you know, run again, and it would just look like your tests like ran slowly, like so as if I'm that engineer, it just looks like it ran. So is there a bigger? Like, have you found that there's a bigger threshold for like, tests running slow that people are that's okay, like because that could be a trust breaker too, if things are starting to run slower and slower over time, that I could get frustrated on my end. But do you feel like there's that's actually maybe a little more forgiving?
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        What we have seen in most cases, people are not running tests, which are five minutes long. Most test tests are a few seconds to a minute minute is, again, not very, very common from what we have seen. So when you retry those test cases, and you're running locally, that threshold would be they'll be much more sensitive to these thresholds on Oh, a five second test is taking 30 seconds to run. So there was a lot of sensitivity around it. But and what we have also seen is that if tests are run in an automation system, paddle is completely then you know the overall test time than or how often the retry becomes a smaller factor of how much a developer has to wait. So the sensitivity we try to focus on is really on, or I should say, when to run an automation completely out of the of the developers control. That is when you know, this, we tried to keep sorry, rephrase it. The that that threshold for the time when multiple tests are run in parallel is different than when tests are run in a local environment. And for the local environment, we do have to work with developers to figure out are these becoming a pain point, a few tests running here and there for for, you know, 30 extra seconds has not caused that kind of pain point, in terms of saying, hey, something is fundamentally broken, because people are used to having bills take sometimes five minutes or 10 minutes. So this is part of the build test cycle that, you know, developers are used to, and small incremental times don't really impact that much. So there's always a caveat. But for the most part, this holds true.
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        I would add to that, and the fact that it's not because the automation system is able to handle on federal issues, that it becomes an excuse to a law enforcer issues to live to exist. The idea is the system allows them to happen without impacting the user while we fix them. Right? So. So the goal is always to fix any facet or issue. So that there's no retry, there shouldn't be retry, we can hit boundaries, on limits, like on device. So issues on devices can be related to bugs on our side, or handlers and things like that, which can be fixed. Sometimes we hit walls, like what is just, you know, this SDK from this manufacturer, has this known bug. And so once in a while he does this and after, after winning 1000 tests of it, you have, after upstanding the Netflix application a certain time of it in a role in this specific manner that users don't do, but we do for automation, it will stop working. So you have to kind of restart it. We're talking about all the devices that you know, manufacturer will not want to upgrade to 5g anymore, but Netflix still on it. And so we need to test it. And so this is things that we have to live with. And in a way we try and is the best we can do. The alternative is to have noise in the result and loss of trust, and, and then loss of efficiency and people looking through the results. But everything that can be fixed should be fixed. Always,
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        before we dive jump into pics, you all have thought about this for a while, like diving into building a platform around automation testing, what advice would you give to maybe another company or team or individual diving into starting from scratch and building up a platform around automated tests, what's some, you know, piece of advice that you would leave them with? Oh, we
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        did touch to some of those points in the the challenges or goals. The very important part is to be able to have your system and we just touch it separate infrastructure issue from test issues. So they don't impact the users. This is one of the key key aspect here. Testing is about finding failures, right? You testing is testing failures and not testing success. Right? So if failures are injected from means that are not related to what you're testing is not good. So that's a very important aspect. But then we some looking back, as well. You know, I mean, we mentioned earlier the balance between giving flexibility to the users. But there's also some balance on the side, which is we don't want to give too much. So we want to give the right balance, which is the one where the user feels he can do whatever he wants. But some time you might be so if you don't know really well the good balances you either have you to constraint or not enough constraint and when you give too much constraint you can have a more direct feedback, which is you might feel if you listen to your users or if you really get your hands dirty and and do what your users do so you feel the pain which is an important aspect as well is to use your tools. Then you might get the more direct feedback as okay I too much constraint but when you don't give enough constraint because you want to give flexible this takes longer to be realized. Because I mean that maybe you went too flexible here, because down the line was going to happen is that you will want to build something new, some new features. And that new feature will need to rely on some semantic, you know, some some some concepts that maybe let some things being reported in some manner. And if there is not a unified way, so something has been abstracted, constrained in a way in the way it's supposed to be plotted, you will not be able to build on it in a generic way. And then you have to decide, okay, well, maybe I should, I should have abstracted that. So let's add an abstraction, this constraint, but then you need to migrate people to it. And that takes a lot of time and effort to migrate all your users to them to your new abstractions. And so it thinking, how about the balance between the for the abstraction, flexibility versus, you know, abstraction is very important. We haven't mentioned that, but you need to think a bit about your data. When tests are run, if you want to have a generic system that people can just use for any reason, you don't know necessarily what's going to be reported to it. By that, I mean, obviously, there are things and this is where, you know, having more constrained abstraction is important, that is always going to be needed, like a reserved name for hotels, a few things like that, right? Duration maybe. But there are things that maybe the tester want to save, and information, oh, like this is how fast this went, this is the frame rate of this, you know, that they want to report to the leader, they can fit off tests on it, do some aggregation, and things like that, and look. And so you want your system to be very flexible into the data it can ingest. And so this has also an impact on the choice of your data. So
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        go back to what you were asking what advice you would give, I think in in a very, very narrow sense, you, I think you want to think about automation, and you want to think about not starting writing a lot of test cases, but incrementally building towards going there, I think it's, it's gonna be a virtuous cycle. Once you see the benefit, I think you will start doing more of it. And, you know, every I think every team, everybody wants to do automation, it is just that becomes a lot more complex. And in terms of maintaining the system, or the value you might get from it, sometimes the question is, I'm running all this test is always failing, I'm going to merge it anyway. Because it's going to be a false failure anyway, right? When it comes to that point, it's you have lost the battle, right. So this is why the thinking about resilience and starting small, and making the test cases that you really care about either is for a system or for your product, give the test giving good signals about catching real bugs, then in an if if 10 test cases are not able to run constantly and passing all the time, and failing only when there is a product failure, then if you add 100 test cases, while it is good, you will be stuck with trying to figure out why the tests failed. If you have a 10% sporadic failure rate, then you are going to pretty soon give up on writing test cases. And it just becomes you know, something that you don't want to do and it's going to be a pain point, you're going to mentally think, Oh, this is not something that I would like to do, because it's not fun for me. Right. So I think in some ways, starting small, having a good PR system, where to catch real product bugs will incentivize you, the developers around you to say, Hey, this is going to catch me interest is going to be a value add for me. And once you get to add value, then there is more investment from around around everyone a culture gets created where you want it not necessarily forced upon you for having an automation and I think having that kind of environment lets you build on more and more of this virtuous things that are going to help you in the long run at scale. But I think you know, if you add if you want to go fast and you want to add a lot of test cases and they are not really of good quality, it becomes a pain point then then you're left with convincing everyone please use the automation because it's good for insects. No, it is not really good for me. So that is what do you want to fight and go with building good resilience in the beginning I really
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        liked that too is like you start small in order to get to that big point. But if you try and be like we need to solve all the problems, it's like it won't get there anyways, you're almost competing with that. I really like that. Well let's dive into pics. In each episode of the front end happier podcast. We like to share pics of things that we found interesting. They want to share with our listeners. Janicki. Do you want to share your picks for this episode?
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        Sure. I have two thinking of two. One is a podcast I listened to. And I think your listeners that all podcast listeners, that's how they are listening to this. It's called Hidden brain. So for people who don't know, this is about psychology and how our mind works. And it's fascinating. It can understand things about yourself and where other people are coming from. So I highly recommend it. I love it all the time. And the other one I'm watching now is Jr. Great British baking show. So it's also a fun, fun show. For people who have not watched things on Netflix. This is a fun thing I would recommend,
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        right on Benoit, where do you have to share
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        on my side, I've been watching starting to watch Sandman on Netflix. And I really enjoy it. So I would recommend it. I would think of restaurants as well. I like to go to a salon from time to time and one of my favorite restaurant right now, which is you know, in the Bay Area, in in South Africa is called a hero and kitchen. And it's very good. So I would definitely recommend it for that checking it out.
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        Right on, I have two picks to share as well. One funny enough is a TV show that's not on Netflix. But it's called Blackbird. It's a crime drama that it's a limited series on Apple TV. It's based on a true story. The story was really, really well done. And it is now available to binge watch. When I first started it, of course it was going to the weekly release, which is so frustrating, but I'm happy now if you want to go watch it, you can see it all at once. And then my second pick is a little device that helped me recently, I was struggling to match colors of paint in my house, I was wanting to just touch up a few walls and it was really hard to get the right colors. And you know, I tried the trickery take a paint chip in, I took it to Lowe's, they mess it up three different times. And I finally was like this is really frustrating. So I tried this device called Nick's color sensor. And it's it works amazing if you just put it against the wall and it gives you suggestions for the paint color. You try it in different spots, and the one that pops up the most is probably likely the closest to it. So I did that once and was able to actually match the color almost perfectly. So this device is probably a lot cheaper than the one that hard hardware stores. But it seemed to work better for me. So really highly recommend that one. Thank you, Janicki and Benoit for joining us on the episode. This was such a informative, deep dive on automation at scale. I know I even learned even more about the depth that we have at Netflix. Where can people get in touch with you if they want to learn more?
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        For me, it's the most easiest LinkedIn. So you can search my name Janaki Ramachandran. It's a name and you can search my name and you will you can get in touch with me.
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        Yes for for me on LinkedIn as well. Benoit Fontaine. If you have the meeting notes, I guess people can find the names. I'm also on Twitter, although I'm not the active on Twitter, but you know I'm there. And that will be at vanuit de d n zero ut
-
-      </p>
-      <p><strong>Ryan Burgess</strong><br />
-        right on. Well thank you for joining and thank you all for listening to today's episode. We don't often ask for feedback. But if you have feedback for the podcast, leave us a review at whatever you'd like to listen to podcasts on. You can find us at front end happy hour.com and on Twitter at <a href="https://twitter.com/frontendhh">@frontendhh</a>, any last words from Benoit and Janicki
-
-      </p>
-      <p><strong>Janaki Ramachandran</strong><br />
-        Yeah, it was fun talking about this and I think we are super stoked. Always talk about this topic. And so it was fun chatting with us and I would love to hear from from your listeners on what they think about automation. Yes,
-
-      </p>
-      <p><strong>Benoit Fontaine</strong><br />
-        same. I had a really great time talking to you Ryan, thank you very much for inviting us
-
-      </p>
-    </div>
-  </div>
-  <footer>
-    <svg style="display: none;">
-      <symbol id="heart" viewBox="0 0 32 29.6">
-        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
-      </symbol>
-    </svg>
-    <div class="row">Made with <svg class="heart">
-        <use xlink:href="#heart"></use>
-      </svg> by Front End Happy Hour</div>
-    <ul class="legal">
-      <li><a href="/terms">Terms</a></li>
-      <li><a href="/privacy">Privacy</a></li>
-    </ul>
   </footer>
-
-</body>
-
-</html>
+                  
+              </body>
+          </html>
