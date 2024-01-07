@@ -1,5 +1,67 @@
 [
   {
+    "episode": "184",
+    "title": "Online learning on the rocks",
+    "description": "There are many options to learn about software development and how to code. In this episode, we are joined by the CEO of Frontend Masters, Marc Grabanski to get his insights into online learning and what to expect in the future.",
+    "id": "1710864450",
+    "published": "January 7, 2024",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["learning", "teaching"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Marc Gabanski",
+        "twitter": "1Marc"
+      }
+    ],
+    "links": [
+      {
+        "title": "Frontend Masters",
+        "url": "https://frontendmasters.com/"
+      },
+      {
+        "title": "Going phoneless",
+        "url": "https://marcgrabanski.com/articles/going-phoneless/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Askinosie chocolate",
+        "url": "https://askinosie.com/",
+        "from": "Marc Gabanski"
+      },
+      {
+        "title": "Not having a phone",
+        "url": "https://marcgrabanski.com/articles/going-phoneless/",
+        "from": "Marc Gabanski"
+      },
+      {
+        "title": "Glass straws",
+        "url": "https://www.amazon.com/Reusable-8-5x10MM-Including-Straight-Smoothies/dp/B0B63CWH1N/ref=sr_1_7",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Sunlighten Infrared Sauna",
+        "url": "https://www.sunlighten.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Beef coast jerky",
+        "url": "https://www.beefcoast.com/",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Anti-pick: Rebel Moon",
+        "url": "https://www.netflix.com/title/81464239",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "183",
     "title": "Aged to perfection: crafting your internship experience",
     "description": "In this episode, we are joined by Mark Benliyan to learn about his experiences at tech companies as an intern. Mark shares some interesting insights and provides some useful advice.",
@@ -7,7 +69,10 @@
     "published": "Decembe 31, 2023",
     "transcribed": false,
     "category": "soft",
-    "tags": ["internships", "learning"],
+    "tags": [
+      "internships",
+      "learning"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan"
