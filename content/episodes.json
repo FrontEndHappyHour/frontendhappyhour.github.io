@@ -69,7 +69,7 @@
     "id": "1704115404",
     "vid": "",
     "published": "Decembe 31, 2023",
-    "transcribed": false,
+    "transcribed": true,
     "category": "soft",
     "tags": [
       "internships",
@@ -129,7 +129,7 @@
     "id": "1691513787",
     "vid": "",
     "published": "December 17, 2023",
-    "transcribed": false,
+    "transcribed": true,
     "category": "tech",
     "tags": [
       "documentation"
