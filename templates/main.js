@@ -28,6 +28,7 @@ module.exports = function main(pageType, content, title, desc, link, pageOG) {
     <li><a href="${strings.urls[0].googlepodcasts}"><img src="../public/img/googlepodcasts.svg?v2" alt="Follow our Google podcast"><span>Google</span></a></li>
     <li><a href="${strings.urls[0].stitcher}"><img src="../public/img/stitcher.svg?v2" alt="Follow our Stitcher podcast"><span>Stitcher</span></a></li>
     <li><a href="${strings.urls[0].overcast}"><img src="../public/img/overcast.svg?v2" alt="Follow our Overcast podcast"><span>Overcast</span></a></li>
+    <li><a href="${strings.urls[0].youtube}"><img src="../public/img/youtube.svg?v2" alt="Subscribe to our YouTube channel"><span>YouTube</span></a></li>
     <li><a href="${strings.urls[0].rss}"><img src="../public/img/rss.svg?v2" alt="Subscribe to our RSS feed"><span>RSS</span></a></li>
   </ul>
 </div>`;
