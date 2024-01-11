@@ -18,6 +18,7 @@ module.exports = function footer(path) {
       <ul class="legal">
         <li><a href="/terms">Terms</a></li>
         <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/privacy">Advertise</a></li>
       </ul>
   </footer>`;
 
