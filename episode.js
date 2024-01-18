@@ -31,6 +31,7 @@ const object = {
   'title': '',
   'description': '',
   'id': '',
+  'vid': '',
   'published': '',
   'transcribed': false,
   'category': '',
