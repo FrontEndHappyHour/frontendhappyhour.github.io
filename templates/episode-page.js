@@ -7,7 +7,7 @@ module.exports = function episodePage(epDate, id, vidID, epDesc) {
 
   // Look for video id to display a YouTube video of the episode
   if (vidID !== null && vidID !== '' && vidID !== undefined) {
-    videoContent = `<div class="audio"><iframe src="https://www.youtube.com/embed/${vidID}" width="100%" height="400px" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>`;
+    videoContent = `<div class="audio"><iframe src="https://www.youtube.com/embed/${vidID}" width="100%" height="500px" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>`;
   }
 
   return `<div class="container"><p>Published ${epDate}</p>
