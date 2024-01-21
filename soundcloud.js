@@ -77,7 +77,7 @@ function createDetails(num) {
     //add heading for guests
     desc += `\nPicks:\n`;
     for(let pick in picks) {
-      desc += picks[pick].from + ' - ' + picks[pick].title + `\n`;
+      desc += picks[pick].from + ' - ' + picks[pick].title + ' ' + picks[pick].url + `\n`;
     }
   }
 

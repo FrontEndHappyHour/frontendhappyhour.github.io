@@ -1,5 +1,50 @@
 [
   {
+    "episode": "185",
+    "title": "Quitting a job - flipping the bar table",
+    "description": "Ryan Burgess recently left his job at Netflix after being there for 8.5 years. In this episode, Ryan shares some of his thoughts on leaving, and we all talk about how we've approached leaving jobs and the lessons we've learned over the years.",
+    "id": "1723345281",
+    "vid": "",
+    "published": "January 21, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["quit", "career", "jobs"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Cole Turner"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Fool Me Once",
+        "url": "https://www.netflix.com/title/81588093",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Hey Grill Hey Sweet BBQ Rub",
+        "url": "https://www.amazon.com/Hey-Grill-Sweet-Rub-11-7/dp/B08YS6VN7T?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Fake AI articles",
+        "url": "https://futurism.com/sports-illustrated-ai-generated-writers",
+        "from": "Jem Young"
+      },
+      {
+        "title": "North Park, San Diego",
+        "url": "https://en.wikipedia.org/wiki/North_Park,_San_Diego",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Lethal Company",
+        "url": "https://store.steampowered.com/app/1966720/Lethal_Company/",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "184",
     "title": "Online learning on the rocks",
     "description": "There are many options to learn about software development and how to code. In this episode, we are joined by the CEO of Frontend Masters, Marc Grabanski to get his insights into online learning and what to expect in the future.",
