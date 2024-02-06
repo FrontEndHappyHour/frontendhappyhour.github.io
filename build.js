@@ -86,6 +86,7 @@ for (let i = episodes.length - 1; i >= 0; i--) {
   if (transcript === true) {
     const transcriptContent = require('./transcripts/' + episodeNum)();
     episodeOutput += '<div class="transcript container"><h3>Episode transcript</h3>';
+    episodeOutput += `<a href="https://github.com/FrontEndHappyHour/frontendhappyhour.github.io/blob/main/transcripts/${episodeNum}.js" class="transcript-edit-link container">Edit transcript</a>`;
     episodeOutput += transcriptContent;
     episodeOutput += '</div>';
   }
