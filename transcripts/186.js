@@ -163,7 +163,7 @@ easiest way to find me?
 <p><strong>Zack Chapple</strong><br />
 Well Orkin for the last maybe 25 years? Find me anywhere just Google it. The
 
-crazy business guy on LinkedIn. Zach Chappell on link Zachary chapel on LinkedIn. Awesome.
+crazy business guy on LinkedIn. Zack Chapple on link Zachary chapel on LinkedIn. Awesome.
 
 </p>
 <p><strong>Ryan Burgess</strong><br />
