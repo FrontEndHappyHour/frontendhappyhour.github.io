@@ -1,5 +1,66 @@
 [
   {
+    "episode": "187",
+    "title": "Social media platforms - where's the party at?",
+    "description": "Social media continues to impact us in some way or another. In this episode, we discuss what platforms we use and what value we get from them. We share our thoughts on what the future of social media might look like.",
+    "id": "",
+    "vid": "",
+    "published": "February 18, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["networking", "platforms"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Augustus Yuan",
+      "Shirley Wu"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Ryan's YouTube Channel",
+        "url": "https://www.youtube.com/@ryanburgess",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Jem Young"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Shirley Wu"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "186",
     "title": "Module Federation - Module Mixology",
     "description": "Companies and teams are increasingly leveraging Module Federation to split applications into smaller, more manageable pieces. In this episode, we are joined by the creator of Module Federation, Zack Jackson, and his co-founders of Zephyr, Zack Chapple, and Dmitriy Shekhovtsov to share more insights into Module Federation and how Zephyr can help.",
@@ -8,7 +69,10 @@
     "published": "February 4, 2024",
     "transcribed": true,
     "category": "",
-    "tags": ["federation", "webpack"],
+    "tags": [
+      "federation",
+      "webpack"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
