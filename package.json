@@ -2,12 +2,11 @@
   "name": "front-end-happy-hour",
   "version": "0.0.3",
   "description": "Front End Happy Hour website",
-  "main": "gulpfile.js",
   "scripts": {
-    "build": "node build && gulp beautify-html",
+    "build": "node build",
     "postmerge": "",
     "postrewrite": "",
-    "start": "gulp build",
+    "start": "",
     "test": ""
   },
   "repository": {
@@ -22,5 +21,11 @@
   "homepage": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io",
   "devDependencies": {},
   "dependencies": {
+    "canvas": "^2.11.2",
+    "cheerio": "^1.0.0-rc.12",
+    "ellipsize": "^0.5.1",
+    "lodash": "^4.17.21",
+    "mkdirp": "^3.0.1",
+    "request": "^2.88.2"
   }
 }
