@@ -81,7 +81,7 @@ ryanTwitter.forEach(function(string) {
 
 
 // Fix references to Jem's name
-const jemName = ['Jim', 'Gem', 'Gem.', 'Jim.'];
+const jemName = ['Jim', 'Gem', 'Gem.', 'Jim.', 'Gem,'];
 jemName.forEach(function(jemString) {
     newContent = newContent.replace(jemString, 'Jem');
 });
