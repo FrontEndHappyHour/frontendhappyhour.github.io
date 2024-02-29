@@ -23,10 +23,10 @@
     "canvas": "^2.11.2",
     "cheerio": "^1.0.0-rc.12",
     "ellipsize": "^0.5.1",
+    "gulp": "^4.0.2",
     "lodash": "^4.17.21",
     "mkdirp": "^3.0.1",
     "request": "^2.88.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
