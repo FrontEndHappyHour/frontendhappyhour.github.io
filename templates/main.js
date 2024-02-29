@@ -25,10 +25,10 @@ module.exports = function main(pageType, content, title, desc, link, pageOG) {
   <url class="subscribe-list">
     <li><a href="${strings.urls[0].spotify}"><img src="../public/img/spotify.svg?v2" alt="Follow our Spotify podcast"><span>Spotify</span></a></li>
     <li><a href="${strings.urls[0].itunes}"><img src="../public/img/podcast.svg?v2" alt="Follow our Apple podcast"><span>Apple</span></a></li>
-    <li><a href="${strings.urls[0].googlepodcasts}"><img src="../public/img/googlepodcasts.svg?v2" alt="Follow our Google podcast"><span>Google</span></a></li>
     <li><a href="${strings.urls[0].stitcher}"><img src="../public/img/stitcher.svg?v2" alt="Follow our Stitcher podcast"><span>Stitcher</span></a></li>
     <li><a href="${strings.urls[0].overcast}"><img src="../public/img/overcast.svg?v2" alt="Follow our Overcast podcast"><span>Overcast</span></a></li>
     <li><a href="${strings.urls[0].youtube}"><img src="../public/img/youtube.svg?v2" alt="Subscribe to our YouTube channel"><span>YouTube</span></a></li>
+    <li><a href="${strings.urls[0].twitch}"><img src="../public/img/twitch.svg?v2" alt="Subscribe to our Twitch channel"><span>Twitch</span></a></li>
     <li><a href="${strings.urls[0].rss}"><img src="../public/img/rss.svg?v2" alt="Subscribe to our RSS feed"><span>RSS</span></a></li>
   </ul>
 </div>`;
