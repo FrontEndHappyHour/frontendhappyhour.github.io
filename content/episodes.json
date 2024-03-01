@@ -1,5 +1,49 @@
 [
   {
+    "episode": "188",
+    "title": "Unlocking WordPress: Exploring the powers of WPGraphQL",
+    "description": "In this episode, we dive into the intricate world of WordPress, specifically focusing on the powers of WPGraphQL, which is transforming how we interact with WordPress. Join us as we sit down with our special guest, Jason Bahl, who helps us understand the possibilities that GraphQL brings to WordPress development.",
+    "id": "1762498449",
+    "vid": "prMGZQ1fSrs",
+    "published": "March 3, 2024",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["wordpress", "graphql"],
+    "panel": [
+      "Ryan Burgess",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Jason Bahl",
+        "twitter": "jasonbahl"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Elgato Stream Deck",
+        "url": "https://www.amazon.com/Elgato-Stream-Deck-Mini-customizable/dp/B07DYRS1WH/ref=asc_df_B07DYRS1WH?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Jason Bahl"
+      },
+      {
+        "title": "Kids digital camera",
+        "url": "https://www.amazon.com/gp/product/B0CFQ9VZT6/?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Kirkland Peanut Butter Pretzels",
+        "url": "https://www.amazon.com/Kirkland-Signature-Peanut-Butter-Pretzel/dp/B005CP1WZ0/?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Aranet4 CO2 Sensor",
+        "url": "https://www.amazon.com/Aranet4-Home-Temperature-Ink-Configuration/dp/B07YY7BH2W/",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "187",
     "title": "Social media platforms - where's the party at?",
     "description": "Social media continues to impact us in some way or another. In this episode, we discuss what platforms we use and what value we get from them. We share our thoughts on what the future of social media might look like.",
@@ -8,7 +52,10 @@
     "published": "February 18, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["networking", "platforms"],
+    "tags": [
+      "networking",
+      "platforms"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
