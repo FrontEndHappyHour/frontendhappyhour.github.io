@@ -1,5 +1,82 @@
 [
   {
+    "episode": "189",
+    "title": "Why does Wordpress dominate the web?",
+    "description": "In the latest episode, we do a deep into the world of WordPress! Whether you're a seasoned developer or a newbie just starting out, this episode is packed with everything you need to know about WordPress, the leading website-building platform. Our special guests, Fabian Kaegy, Luis Herranz, and Matias Ventura, join us to share their experiences and insights in developing and leveraging WordPress. In this episode, we cover: What is WordPress? An introduction to the powerhouse behind 40% of the web.Why WordPress Dominates: Exploring the reasons behind WordPress's unwavering popularity.WordPress vs. The World: A comparison with other website-building platforms.Busting Myths: Addressing common misconceptions about WordPress.Hidden Gems: Lesser-known WordPress features that pack a punch.Evolving Landscape: The growth and future trends of WordPress.Stay in the Loop: Tips on keeping up with WordPress developments and best practices. Starting with WordPress: Expert advice for WordPress beginners. Whether you're interested in creating your own website, looking to enhance your WordPress skills, or just curious about the platform's capabilities, this episode is for you. We'll guide you through the ins and outs of WordPress, from its comprehensive functionality to the vibrant community that supports it. Plus, we'll share our personal experiences and tips to help you make the most out of WordPress.Don't miss out on this engaging discussion! Tune in now to get ahead with WordPress and join the Front End Happy Hour Podcast for a toast to technology and innovation. Subscribe to our channel for more insights on web development, technology trends, and expert advice from leading developers around the globe.",
+    "id": "1776794727",
+    "vid": "jn7GUVW_1oU",
+    "published": "March 17, 2024",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["wordpress", "cms", "php"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Fabian Kaegy",
+        "twitter": "fabiankaegy"
+      },
+      {
+        "name": "Luis Herranz",
+        "twitter": "luisherranz"
+      },
+      {
+        "name": "Matias Ventura",
+        "twitter": "matias_ventura"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "WPMovies.dev",
+        "url": "https://wpmovies.dev/",
+        "from": "Matias Ventura"
+      },
+      {
+        "title": "Vesuvius challenge",
+        "url": "https://scrollprize.org/",
+        "from": "Matias Ventura"
+      },
+      {
+        "title": "John Cleese on Creativity In Management",
+        "url": "https://www.youtube.com/watch?v=Pb5oIIPO62g",
+        "from": "Luis Herranz"
+      },
+      {
+        "title": "American Kingpin",
+        "url": "https://www.amazon.com/American-Kingpin-Criminal-Mastermind-Behind/dp/1591848148?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Luis Herranz"
+      },
+      {
+        "title": "Lessons in Chemistry",
+        "url": "https://tv.apple.com/us/show/lessons-in-chemistry/umc.cmc.40yycssgxelw4zur8m2ilmvyx",
+        "from": "Fabian Kaegy"
+      },
+      {
+        "title": "DJI Osmo 6",
+        "url": "https://www.amazon.com/DJI-Smartphone-Stabilizer-Extension-ShotGuides/dp/B0B7XD7R43?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Frontend Masters Boost",
+        "url": "https://frontendmasters.com/blog/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Take care of managers in a hybrid world",
+        "url": "https://www.axios.com/2022/09/29/take-care-of-middle-managers-in-the-hybrid-world",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Six Nations: Full Contact",
+        "url": "https://www.netflix.com/title/81647358",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "188",
     "title": "Unlocking WordPress: Exploring the powers of WPGraphQL",
     "description": "In this episode, we dive into the intricate world of WordPress, specifically focusing on the powers of WPGraphQL, which is transforming how we interact with WordPress. Join us as we sit down with our special guest, Jason Bahl, who helps us understand the possibilities that GraphQL brings to WordPress development.",
@@ -8,7 +85,10 @@
     "published": "March 3, 2024",
     "transcribed": true,
     "category": "technical",
-    "tags": ["wordpress", "graphql"],
+    "tags": [
+      "wordpress",
+      "graphql"
+    ],
     "panel": [
       "Ryan Burgess",
       "Cole Turner"
