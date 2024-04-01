@@ -1,5 +1,62 @@
 [
   {
+    "episode": "191",
+    "title": "More AI and layoffs",
+    "description": "In this episode, we jump right into things we are seeing in AI and what the job market is like for software engineers.",
+    "id": "1789511044",
+    "vid": "",
+    "published": "March 31, 2024",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["ai", "vr"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan",
+      "Cole Turner"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "DJI Mic 2",
+        "url": "https://www.amazon.com/gp/aw/d/B0CFZX734J/?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Gentlemen",
+        "url": "https://www.netflix.com/title/81437051",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Valley Silicon - Steelcase Work Tents",
+        "url": "https://www.steelcase.com/products/pods/pod-tent/#steelcase-work-tents-collection",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Kiasmos - Flown",
+        "url": "https://kiasmos.bandcamp.com/album/flown",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Four Tet - Three",
+        "url": "https://fourtet.bandcamp.com/album/three",
+        "from": "Stacy London"
+      },
+      {
+        "title": "The Finals",
+        "url": "https://store.steampowered.com/app/2073850/THE_FINALS/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Quote - Let Go or Be Dragged",
+        "url": "https://www.tiktok.com/discover/let-go-or-be-dragged",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "190",
     "title": "At the bar with Whiskey Web & Whatnot",
     "description": "In this special crossover episode, Robbie Wagner and Chuck Carpenter from Whiskey Web and Whatnot join us to toast and discuss AI, Apple Vision Pro, AR/VR, and frontend development. As glasses clink, our spirited ensemble delves deep into how these cutting-edge technologies are reshaping the landscape of software engineering.",
@@ -24,8 +81,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "189",
