@@ -1,5 +1,38 @@
 [
   {
+    "episode": "193",
+    "title": "Implementing authentication in your app",
+    "description": "Authentication can be difficult to implement in your app. To help us better understand the authentication ecosystem, we were joined by our guest, Braden Sidoti, co-founder and CTO of Clerk.",
+    "id": "",
+    "vid": "",
+    "published": "April 29, 2024",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["security", "authentication"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Braden Sidoti",
+        "twitter": "bsinthewild"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Patagonia Black Hole Gear Tote",
+        "url": "https://www.patagonia.com/product/black-hole-gear-tote-bag-61-liters/196924045774.html",
+        "from": "Braden Sidoti"
+      },
+      {
+        "title": "Automakers Are Sharing Consumers’ Driving Behavior With Insurance Companies",
+        "url": "https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html  ",
+        "from": "Ryan Burgess"
+      }
+    ]
+  },
+  {
     "episode": "192",
     "title": "Do you need to work more than 9 to 5 to get promoted?",
     "description": "In this episode, we discuss Jem's tweet about feeling like you have to work more than 40 hours a week to get promoted. Jason Lengstorf joins us to debate the topic of promotions.",
@@ -8,7 +41,11 @@
     "published": "April 14, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["promotions", "career", "growth"],
+    "tags": [
+      "promotions",
+      "career",
+      "growth"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
@@ -22,8 +59,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "191",
