@@ -1,5 +1,54 @@
 [
   {
+    "episode": "194",
+    "title": "Serverless AI",
+    "description": "In this episode, we are joined by Rita Kozlov, VP of Product at Cloudflare, Developer Platform & AI, to talk with us about serverless AI. Rita shares some interesting insights into how Cloudflare has been leveraging serverless AI and what they've called Workers AI.",
+    "id": "",
+    "vid": "",
+    "published": "May 12, 2024",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["AI", "workers", "server"],
+    "panel": [
+      "Ryan Burgess",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Rita Kozlov",
+        "twitter": "ritakozlov_"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Le Samouraï",
+        "url": "https://www.imdb.com/title/tt0062229/",
+        "from": "Rita Kozlov"
+      },
+      {
+        "title": "AI Therapist",
+        "url": "https://github.com/ErickLuis00/therapistai-cf",
+        "from": "Rita Kozlov"
+      },
+      {
+        "title": "Sugar",
+        "url": "https://tv.apple.com/us/show/sugar/umc.cmc.4r6q7tdquewehwvb3rzl0k3dt",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Borderless",
+        "url": "https://www.youtube.com/watch?v=XLItXCpBJvQ&list=PLZvRVbBCVbGrNTNpilwwSoSKIEXh70DzC",
+        "from": "Ryan Burgess"
+      }, 
+      {
+        "title": "Valve Steam Deck",
+        "url": "https://www.amazon.com/Handheld-Console-Silicone-Protector-Tempered-PC/dp/B0C3C2CGQQ?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "193",
     "title": "Implementing authentication in your app",
     "description": "Authentication can be difficult to implement in your app. To help us better understand the authentication ecosystem, we were joined by our guest, Braden Sidoti, co-founder and CTO of Clerk.",
@@ -8,7 +57,10 @@
     "published": "April 28, 2024",
     "transcribed": true,
     "category": "technical",
-    "tags": ["security", "authentication"],
+    "tags": [
+      "security",
+      "authentication"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
