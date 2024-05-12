@@ -1,88 +1,6 @@
-<!DOCTYPE html>
-          <html>
-              <head>
-                  <title>Serverless AI - Front End Happy Hour</title>
-                  <meta name="description" content="In this episode, we are joined by Rita Kozlov, VP of Product at Cloudflare, Developer Platform & AI, to talk with us about serverless AI. Rita shares some interesting insights into how Cloudflare has been leveraging serverless AI and what they've called Workers AI.">
-                  <meta name="viewport" content="width=device-width">
-                  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-                  <link rel="alternate" type="application/rss+xml"
-                   href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
-                   <meta property="og:image" content="https://frontendhappyhour.com/public/img/episodes/friendly-preview/serverless-ai.jpeg" /> <meta
-                    property="og:description" content="In this episode, we are joined by Rita Kozlov, VP of Product at Cloudflare, Developer Platform & AI, to talk with us about serverless AI. Rita shares some interesting insights into how Cloudflare has been leveraging serverless AI and what they've called Workers AI." />
-                    <meta property="og:title" content="Serverless AI - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:description" content="In this episode, we are joined by Rita Kozlov, VP of Product at Cloudflare, Developer Platform & AI, to talk with us about serverless AI. Rita shares some interesting insights into how Cloudflare has been leveraging serverless AI and what they've called Workers AI." />
-                    <meta property="twitter:title" content="Serverless AI - Front End Happy Hour" />
-                    <meta key="twitter:card" name="twitter:card" content="summary_large_image" />
-                    <meta key="twitter:site" name="twitter:site" content="@frontendhappyhour" />
-                    <meta
-                      key="twitter:creator"
-                      name="twitter:creator"
-                      content="@frontendhappyhour"
-                    />
-                  <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="https://frontendhappyhour.com/episodes/serverless-ai">
-                  <link rel="stylesheet" href="../../public/css/episode.css?v=2.1" type="text/css" media="screen">
-                  <script>
-                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-                    ga('create', 'UA-74493735-1', 'auto');
-                    ga('send', 'pageview');
-                  </script>
-              </head>
-              <body>
-                  <header>
-            <div class="container">
-                <a href="/"><h1><img src="../../public/img/front-end-happy-hour.svg?v2" alt="Front End Happy Hour" class="logo"></h1></a>
-                <ul class="nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/subscribe/">Subscribe</a></li>
-                    <li><a href="/advertise/">Advertise</a></li>
-                </ul>
-            </div>
-        </header>
-                  <div class="episodes ">
-                  <h2 id="heading" class="container">Serverless AI</h2>
-                  <div class="container"><p>Published May 12, 2024</p>
-  <div class="audio"><iframe src="https://www.youtube.com/embed/Emrg11X_xvs" width="100%" height="500px" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-<div class="audio">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1820209536&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-</div>
-<p>In this episode, we are joined by Rita Kozlov, VP of Product at Cloudflare, Developer Platform & AI, to talk with us about serverless AI. Rita shares some interesting insights into how Cloudflare has been leveraging serverless AI and what they've called Workers AI.</p></div><div class="guests picks container">
-          <h3>Guests</h3>
-          <ul>
-          <li><img src="../../public/img/guests/ritakozlov_.jpg" alt="Rita Kozlov profile picture"><div><a href="https://twitter.com/ritakozlov_">Rita Kozlov</a></div></li>
-          </ul>
-          </div><div class="picks container">
-          <h3>Picks</h3>
-          <ul>
-          <li>
-      <a href="https://www.imdb.com/title/tt0062229/" target="_blank">Le Samouraï</a> - Rita Kozlov
-      </li><li>
-      <a href="https://github.com/ErickLuis00/therapistai-cf" target="_blank">AI Therapist</a> - Rita Kozlov
-      </li><li>
-      <a href="https://tv.apple.com/us/show/sugar/umc.cmc.4r6q7tdquewehwvb3rzl0k3dt" target="_blank">Sugar</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.youtube.com/watch?v=XLItXCpBJvQ&list=PLZvRVbBCVbGrNTNpilwwSoSKIEXh70DzC" target="_blank">Borderless</a> - Ryan Burgess
-      </li><li>
-      <a href="https://www.amazon.com/Handheld-Console-Silicone-Protector-Tempered-PC/dp/B0C3C2CGQQ?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325" target="_blank">Valve Steam Deck</a> - Cole Turner
-      </li>
-          </ul>
-          </div><div class="panel container">
-          <h3>Panel</h3>
-          <ul>
-          <li><a href="/panelists/ryan-burgess"><img src="../../public/img/panel/burgessdryan.jpg" alt="Ryan Burgess profile picture" /></a>
-      <span class="name">Ryan Burgess</span>
-      <a href="https://twitter.com/burgessdryan" class="twitter">@burgessdryan</a>
-      </li><li><a href="/panelists/cole-turner"><img src="../../public/img/panel/cole.jpg" alt="Cole Turner profile picture" /></a>
-      <span class="name">Cole Turner</span>
-      <a href="https://twitter.com/coleturner" class="twitter">@coleturner</a>
-      </li>
-          </ul>
-          </div>
-          <div id="target"></div><div class="transcript container"><h3>Episode transcript</h3><a href="https://github.com/FrontEndHappyHour/frontendhappyhour.github.io/blob/main/transcripts/194.js" class="transcript-edit-link container">Edit transcript</a>
+module.exports = function() {
+        'use strict';
+        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Welcome to a new episode of the front end happier podcast. In this episode, we are joined by Rita Kozlov, who is the VP of product at Cloudflare to talk with us about serverless serverless e ai, and something Cloudflare has introduced called workers AI. Rita, thank you so much for joining us. Can you give a brief introduction of who you are, what you do? And what your favorite Happy Hour beverages?
@@ -344,22 +262,6 @@ I just want to say thank you so much. Yeah, yes. And the pleasure has been all m
 Awesome. Thank you so much, Rita. And thank you all for listening.
 
 </p>
-</div>
-                  </div>
-                  <footer>
-      <svg style="display: none;">
-        <symbol id="heart" viewBox="0 0 32 29.6">
-          <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-        </symbol>
-      </svg>
-      <div class="row">Made with <svg class="heart"><use xlink:href="#heart"></use></svg> by Front End Happy Hour</div>
-      <ul class="legal">
-        <li><a href="/terms">Terms</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-        <li><a href="/privacy">Advertise</a></li>
-      </ul>
-  </footer>
-                  
-              </body>
-          </html>
+`;
+        return transcript;
+    };

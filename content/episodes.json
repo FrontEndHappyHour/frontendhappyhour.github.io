@@ -3,10 +3,10 @@
     "episode": "194",
     "title": "Serverless AI",
     "description": "In this episode, we are joined by Rita Kozlov, VP of Product at Cloudflare, Developer Platform & AI, to talk with us about serverless AI. Rita shares some interesting insights into how Cloudflare has been leveraging serverless AI and what they've called Workers AI.",
-    "id": "",
-    "vid": "",
+    "id": "1820209536",
+    "vid": "Emrg11X_xvs",
     "published": "May 12, 2024",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": ["AI", "workers", "server"],
     "panel": [
