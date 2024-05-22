@@ -1,0 +1,35 @@
+.panelist-bio {
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.panelist-bio-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.panelist-bio p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.back-link {
+  display: block;
+  margin-top: 20px;
+  font-size: 1em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

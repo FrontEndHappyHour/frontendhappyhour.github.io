@@ -1,0 +1,38 @@
+.subscribe-page {
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-content {
+  margin-top: 20px;
+}
+
+.subscribe-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.subscribe-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.subscribe-content li {
+  margin-bottom: 10px;
+}
+
+.subscribe-content a {
+  font-size: 1.2em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.subscribe-content a:hover {
+  text-decoration: underline;
+}

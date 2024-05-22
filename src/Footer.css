@@ -1,0 +1,41 @@
+.footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.footer-nav {
+  margin-top: 10px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1em;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.heart {
+  display: inline-block;
+  color: red;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}

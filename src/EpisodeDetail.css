@@ -1,0 +1,56 @@
+.episode-detail {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .episode-detail h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .episode-published {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .episode-detail p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .episode-embeds {
+    margin-top: 20px;
+  }
+  
+  .soundcloud-embed {
+    margin-bottom: 20px;
+  }
+  
+  .youtube-embed {
+    margin-bottom: 20px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #282c34;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    background-color: #1f2022;
+  }
+  

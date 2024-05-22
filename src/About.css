@@ -1,0 +1,61 @@
+.about-page {
+  padding: 20px;
+  background-color: #282c34; /* Darker color background */
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  margin-top: 20px;
+}
+
+.about-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.trailer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.trailer iframe {
+  max-width: 100%;
+  border: none;
+}
+
+.team {
+  margin-top: 40px;
+}
+
+.team h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.panelists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.panelist {
+  margin: 10px;
+  text-align: center;
+}
+
+.panelist-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.panelist h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}

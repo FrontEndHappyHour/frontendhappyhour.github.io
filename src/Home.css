@@ -1,0 +1,121 @@
+.home {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .about {
+    text-align: center;
+    background-color: #282c34; /* Darker color background */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .episodes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .episode {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  .episode-number {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #282c34;
+    color: #282c34;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-right: 20px;
+  }
+  
+  .episode-content {
+    flex: 1;
+  }
+  
+  .episode-title {
+    font-size: 1.5em;
+    color: #282c34;
+    text-decoration: none;
+  }
+  
+  .episode-title:hover {
+    text-decoration: underline;
+  }
+  
+  .episode-description {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .episode-date {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  .episode-link {
+    font-size: 1em;
+    color: #282c34;
+    text-decoration: none;
+  }
+  
+  .episode-link:hover {
+    text-decoration: underline;
+  }
+  
+  .pagination {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    text-decoration: none;
+    color: #282c34;
+    font-weight: bold;
+  }
+  
+  .pagination li a:hover {
+    text-decoration: underline;
+  }
+  
+  .pagination li.active a {
+    color: #fff;
+    background-color: #282c34;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
