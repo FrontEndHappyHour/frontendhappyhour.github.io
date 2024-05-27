@@ -1,5 +1,61 @@
 [
   {
+    "episode": "195",
+    "title": "Revisiting Server-Driven UI",
+    "description": "In this episode of Front End Happy Hour, we dive back into the world of server-driven UI with fresh insights and experiences. Our special guest, Sherman Chen, a Senior Software Engineer at LinkedIn, joins us to share how LinkedIn leverages server-driven UI to enhance their applications. Tune in as we explore the benefits, challenges, and best practices for implementing server-driven UI in modern development.",
+    "id": "",
+    "vid": "",
+    "published": "May 26, 2024",
+    "transcribed": true,
+    "category": "technical",
+    "tags": ["server", "UI", "SDUI"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Augustus Yuan",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Sherman Chen",
+        "twitter": "_shermango"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Sympathizer",
+        "url": "https://www.hbo.com/the-sympathizer",
+        "from": "Sherman Chen"
+      },
+      {
+        "title": "University Challenge",
+        "url": "https://www.bbc.co.uk/programmes/b006t6l0",
+        "from": "Sherman Chen"
+      },
+      {
+        "title": "Classified - Luke's View",
+        "url": "https://open.spotify.com/album/6T2kT5B08MBR8hinkL33IG",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Demand oriented schema design",
+        "url": "https://www.apollographql.com/docs/technotes/TN0027-demand-oriented-schema-design/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "POV Camera",
+        "url": "https://pov.camera/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Wallism",
+        "url": "https://wallism.com/",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "194",
     "title": "Serverless AI",
     "description": "In this episode, we are joined by Rita Kozlov, VP of Product at Cloudflare, Developer Platform & AI, to talk with us about serverless AI. Rita shares some interesting insights into how Cloudflare has been leveraging serverless AI and what they've called Workers AI.",
@@ -8,7 +64,11 @@
     "published": "May 12, 2024",
     "transcribed": true,
     "category": "technical",
-    "tags": ["AI", "workers", "server"],
+    "tags": [
+      "AI",
+      "workers",
+      "server"
+    ],
     "panel": [
       "Ryan Burgess",
       "Cole Turner"
@@ -40,7 +100,7 @@
         "title": "Borderless",
         "url": "https://www.youtube.com/watch?v=XLItXCpBJvQ&list=PLZvRVbBCVbGrNTNpilwwSoSKIEXh70DzC",
         "from": "Ryan Burgess"
-      }, 
+      },
       {
         "title": "Valve Steam Deck",
         "url": "https://www.amazon.com/Handheld-Console-Silicone-Protector-Tempered-PC/dp/B0C3C2CGQQ?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
