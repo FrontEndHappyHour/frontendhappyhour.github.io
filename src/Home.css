@@ -42,12 +42,13 @@
     text-align: left;
     display: flex;
     align-items: center;
+    position: relative;
   }
   
   .episode-number {
-    width: 40px;
-    height: 40px;
-    border: 5px solid #282c34;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #282c34;
     color: #282c34;
     border-radius: 50%;
     display: flex;
@@ -55,6 +56,7 @@
     justify-content: center;
     font-size: 1.2em;
     margin-right: 20px;
+    margin-top: -90px;
   }
   
   .episode-content {
@@ -85,10 +87,29 @@
     font-size: 1em;
     color: #282c34;
     text-decoration: none;
+    float: right;
   }
   
   .episode-link:hover {
     text-decoration: underline;
+  }
+  button {
+    color:#282c34;
+    border: 2px solid #282c34;
+    border-radius: 8px; /* Rounded corners */
+    background-color: transparent; /* Transparent background */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+    padding: 10px 20px;
+  }
+  button:hover {
+    background-color: #282c34; /* Purple background on hover */
+    color: #fff; /* White text on hover */
+  }
+  button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px #282c34; /* Add a subtle shadow on focus */
   }
   
   .pagination {

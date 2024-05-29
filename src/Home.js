@@ -87,7 +87,7 @@ const Home = ({ episodes }) => {
               <Link to={`/episodes/${createURL(episode.title)}`} className="episode-title">{episode.title}</Link>
               <p className="episode-description">{episode.description}</p>
               <p className="episode-date">{episode.date}</p>
-              <Link to={`/episodes/${createURL(episode.title)}`} className="episode-link">Listen Now</Link>
+              <Link to={`/episodes/${createURL(episode.title)}`} className="episode-link"><button>Listen Now</button></Link>
             </div>
           </div>
         ))}

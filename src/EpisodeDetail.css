@@ -1,19 +1,33 @@
 .episode-detail {
-    padding: 20px;
+    padding: 20px 50px;
     background-color: #fff;
     color: #333;
-    max-width: 800px;
     margin: 0 auto;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
+  }
+
+  .episode-detail h2{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .episode-detail iframe {
+    margin: 0 auto;
+    width: 100%;
   }
   
   .episode-detail h1 {
     font-size: 2em;
     margin-bottom: 10px;
   }
-  
+  .edit-transcript{
+    float: right;
+    font-size: 11px;
+    color: #666;
+    margin-top: -20px;
+  }
   .episode-published {
     font-size: 1em;
     color: #666;
@@ -21,8 +35,8 @@
   }
   
   .episode-detail p {
-    font-size: 1.2em;
-    line-height: 1.6;
+    font-size: 1em;
+    line-height: 1.2;
   }
   
   .episode-embeds {
