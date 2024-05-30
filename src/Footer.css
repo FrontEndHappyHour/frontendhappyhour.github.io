@@ -1,13 +1,14 @@
-.footer {
+footer {
   background-color: #282c34;
   color: white;
   text-align: center;
   padding: 20px 0;
 }
 
-.footer p {
+footer p {
   margin: 0;
   font-size: 1.2em;
+  color: white;
 }
 
 .footer-nav {

@@ -1,0 +1,31 @@
+.subscribe-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .subscribe-list li {
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    display: inline-block;
+  }
+  
+  .subscribe-list a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .subscribe-list img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .subscribe-list a:hover {
+    color: #0070f3;
+  }
+  

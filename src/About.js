@@ -1,33 +1,39 @@
 import React from 'react';
 import './About.css'; // Import the CSS file
+import SubscribeList from './SubscribeList'; // Import the SubscribeList component
+
 
 const panelists = [
   {
     name: 'Ryan Burgess',
-    image: 'path_to_image/ryan.jpg',
+    image: '../img/panel/burgessdryan.jpg',
     bioLink: '/panelists/ryan-burgess',
   },
   {
     name: 'Jem Young',
-    image: 'path_to_image/jem.jpg',
+    image: '../img/panel/JemYoung.jpg',
     bioLink: '/panelists/jem-young',
   },
   {
     name: 'Stacy London',
-    image: 'path_to_image/stacy.jpg',
+    image: '../img/panel/stacylondoner.jpg',
     bioLink: '/panelists/stacy-london',
   },
   {
-    name: 'Brian Holt',
-    image: 'path_to_image/brian.jpg',
-    bioLink: '/panelists/brian-holt',
+    name: 'Augustus Yuan',
+    image: '../img/panel/augburto.jpg',
+    bioLink: '/panelists/augustus-yuan',
   },
   {
-    name: 'Mars Jullian',
-    image: 'path_to_image/mars.jpg',
-    bioLink: '/panelists/mars-jullian',
+    name: 'Shirley Wu',
+    image: '../img/panel/sxywu.jpg',
+    bioLink: '/panelists/shirley-wu',
   },
-  // Add more panelists as needed
+  {
+    name: 'Cole Turner',
+    image: '../img/panel/cole.jpg',
+    bioLink: '/panelists/cole-turner',
+  }
 ];
 
 const About = () => {
@@ -49,16 +55,54 @@ const About = () => {
           We hope you enjoy the show! Cheers!
         </p>
         <div className="trailer">
-          <h2>Podcast Trailer</h2>
-          <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/BsFbkUv8P4g" 
-            title="YouTube video player" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen>
-          </iframe>
+          <h2>Trailer</h2>
+          <div className="audio">
+            <iframe
+              width="100%"
+              height="300"
+              scrolling="no"
+              frameBorder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1386003292&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            ></iframe>
+            <div
+              style={{
+                fontSize: '10px',
+                color: '#cccccc',
+                lineBreak: 'anywhere',
+                wordBreak: 'normal',
+                overflow: 'hidden',
+                whiteSpace: 'nowrap',
+                textOverflow: 'ellipsis',
+                fontFamily: 'Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif',
+                fontWeight: 100,
+              }}
+            >
+              <a
+                href="https://soundcloud.com/front-end-happy-hour"
+                title="Front End Happy Hour"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#cccccc', textDecoration: 'none' }}
+              >
+                Front End Happy Hour
+              </a>{' '}
+              ·{' '}
+              <a
+                href="https://soundcloud.com/front-end-happy-hour/front-end-happy-hour-podcast-trailer"
+                title="Front End Happy Hour Podcast Trailer"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#cccccc', textDecoration: 'none' }}
+              >
+                Front End Happy Hour Podcast Trailer
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='subscribe'>
+          <h2>Subscribe</h2>
+          <SubscribeList />
         </div>
         <div className="team">
           <h2>Meet the Team</h2>
