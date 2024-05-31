@@ -1,40 +1,8 @@
 import React from 'react';
 import '../css/Panelist.css'; // Import the CSS file for panelist
+import panelists from '../content/panel.json'; // Import the JSON file
 
-const panelists = [
-  {
-    name: 'Ryan Burgess',
-    image: '../img/panel/burgessdryan.jpg',
-    bioLink: '/panelists/ryan-burgess',
-  },
-  {
-    name: 'Jem Young',
-    image: '../img/panel/JemYoung.jpg',
-    bioLink: '/panelists/jem-young',
-  },
-  {
-    name: 'Stacy London',
-    image: '../img/panel/stacylondoner.jpg',
-    bioLink: '/panelists/stacy-london',
-  },
-  {
-    name: 'Augustus Yuan',
-    image: '../img/panel/augburto.jpg',
-    bioLink: '/panelists/augustus-yuan',
-  },
-  {
-    name: 'Shirley Wu',
-    image: '../img/panel/sxywu.jpg',
-    bioLink: '/panelists/shirley-wu',
-  },
-  {
-    name: 'Cole Turner',
-    image: '../img/panel/cole.jpg',
-    bioLink: '/panelists/cole-turner',
-  }
-];
-
-const Panelist = ({ name, image, bioLink }) => {
+const Panelist = ({ name, image }) => {
   return (
     <div className="panelist">
         <img src={image} alt={name} className="panelist-image" />
@@ -46,12 +14,11 @@ const Panelist = ({ name, image, bioLink }) => {
 export const PanelistList = () => {
   return (
     <div className="panelists">
-      {panelists.map((panelist, index) => (
+      {panelists.filter(panelist => panelist.active).map((panelist, index) => (
         <Panelist 
           key={index} 
           name={panelist.name} 
           image={panelist.image} 
-          bioLink={panelist.bioLink} 
         />
       ))}
     </div>
