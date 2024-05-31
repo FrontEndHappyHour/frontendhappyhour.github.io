@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../css/EpisodeDetail.css'; // Import the CSS file for styling
+import panelistsData from '../content/panel.json'; // Import the JSON file
 
 const EpisodeDetail = ({ episode }) => {
   const navigate = useNavigate(); // Hook for programmatic navigation
@@ -18,6 +19,19 @@ const EpisodeDetail = ({ episode }) => {
   if (!episode) {
     return <div>Episode not found</div>;
   }
+
+  // Find panelists who are part of the episode
+  const episodePanelists = panelistsData.filter(panelist => 
+    episode.panel.includes(panelist.name)
+  );
+
+  // Function to get guest image URL
+  const getGuestImageUrl = (guest) => {
+    if (guest.twitter) {
+      return `../img/guests/${guest.twitter}.jpg`;
+    }
+    return `../img/guests/${guest.name.toLowerCase().replace(/ /g, '-')}.jpg`;
+  };
 
   return (
     <div className="episode-detail">
@@ -47,37 +61,43 @@ const EpisodeDetail = ({ episode }) => {
             scrolling="no" 
             frameBorder="no" 
             allow="autoplay" 
-            title="Episode video" 
+            title="Episode audio" 
             src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${episode.id}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false`}>
           </iframe>
         </div>
       </div>
 
-      {/* Display panel members */}
+      {/* Display panel members with images */}
       <div className="episode-panel">
         <h2>Panel</h2>
-        <ul>
-          {episode.panel.map((member, index) => (
-            <li key={index}>{member}</li>
+        <div className="panel-members">
+          {episodePanelists.map((panelist, index) => (
+            <div key={index} className="panelist">
+              <img src={panelist.image} alt={panelist.name} className="panelist-image" />
+              <p>{panelist.name}</p>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
 
-      {/* Conditionally render guests section */}
+      {/* Conditionally render guests section with images */}
       {episode.guests && episode.guests.length > 0 && (
         <div className="episode-guests">
           <h2>Guests</h2>
-          <ul>
+          <div className="guest-members">
             {episode.guests.map((guest, index) => (
-              <li key={index}>
-                {guest.name} {guest.twitter && (
-                  <a href={`https://twitter.com/${guest.twitter}`} target="_blank" rel="noopener noreferrer">
-                    @{guest.twitter}
-                  </a>
-                )}
-              </li>
+              <div key={index} className="guest">
+                <img src={getGuestImageUrl(guest)} alt={guest.name} className="guest-image" />
+                <p>
+                  {guest.name} {guest.twitter && (
+                    <a href={`https://twitter.com/${guest.twitter}`} target="_blank" rel="noopener noreferrer">
+                      @{guest.twitter}
+                    </a>
+                  )}
+                </p>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       )}
 
