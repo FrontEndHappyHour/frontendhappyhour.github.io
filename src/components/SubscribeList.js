@@ -41,6 +41,18 @@ const SubscribeList = () => {
         </a>
       </li>
       <li>
+        <a href="https://instagram.com/frontendhh" target="_blank" rel="noopener noreferrer">
+          <img src="../img/instagram.svg" alt="Instagram" />
+          Twitch
+        </a>
+      </li>
+      <li>
+        <a href="https://www.tiktok.com/@frontendhh" target="_blank" rel="noopener noreferrer">
+          <img src="../img/tiktok.svg" alt="TikTok" />
+          Twitch
+        </a>
+      </li>
+      <li>
         <a href="https://feeds.simplecast.com/54nAGcIl" target="_blank" rel="noopener noreferrer">
           <img src="../img/rss.svg" alt="RSS" />
           RSS
