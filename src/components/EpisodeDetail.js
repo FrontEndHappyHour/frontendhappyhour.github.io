@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './EpisodeDetail.css'; // Import the CSS file for styling
+import '../css/EpisodeDetail.css'; // Import the CSS file for styling
 
 const EpisodeDetail = ({ episode }) => {
   const navigate = useNavigate(); // Hook for programmatic navigation
@@ -8,7 +8,7 @@ const EpisodeDetail = ({ episode }) => {
 
   useEffect(() => {
     if (episode) {
-      import(`./transcripts/${episode.episode}.js`)
+      import(`../transcripts/${episode.episode}.js`)
         .then((module) => setTranscript(module.default))
         .catch((error) => console.error('Error loading transcript:', error));
     }

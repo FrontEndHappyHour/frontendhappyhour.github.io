@@ -1,40 +1,7 @@
 import React from 'react';
-import './About.css'; // Import the CSS file
-import SubscribeList from './SubscribeList'; // Import the SubscribeList component
-
-
-const panelists = [
-  {
-    name: 'Ryan Burgess',
-    image: '../img/panel/burgessdryan.jpg',
-    bioLink: '/panelists/ryan-burgess',
-  },
-  {
-    name: 'Jem Young',
-    image: '../img/panel/JemYoung.jpg',
-    bioLink: '/panelists/jem-young',
-  },
-  {
-    name: 'Stacy London',
-    image: '../img/panel/stacylondoner.jpg',
-    bioLink: '/panelists/stacy-london',
-  },
-  {
-    name: 'Augustus Yuan',
-    image: '../img/panel/augburto.jpg',
-    bioLink: '/panelists/augustus-yuan',
-  },
-  {
-    name: 'Shirley Wu',
-    image: '../img/panel/sxywu.jpg',
-    bioLink: '/panelists/shirley-wu',
-  },
-  {
-    name: 'Cole Turner',
-    image: '../img/panel/cole.jpg',
-    bioLink: '/panelists/cole-turner',
-  }
-];
+import '../css/About.css'; // Import the CSS file
+import SubscribeList from '../components/SubscribeList'; // Import the SubscribeList component
+import { PanelistList } from '../components/Panelist'; // Import the PanelistList component
 
 const About = () => {
   return (
@@ -106,16 +73,7 @@ const About = () => {
         </div>
         <div className="team">
           <h2>Meet the Team</h2>
-          <div className="panelists">
-            {panelists.map((panelist, index) => (
-              <div key={index} className="panelist">
-                <a href={panelist.bioLink}>
-                  <img src={panelist.image} alt={panelist.name} className="panelist-image" />
-                </a>
-                <h3>{panelist.name}</h3>
-              </div>
-            ))}
-          </div>
+          <PanelistList />
         </div>
       </div>
     </div>

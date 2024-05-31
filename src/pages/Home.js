@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { createURL } from './utils';
-import './Home.css';
+import { createURL } from '../utils';
+import '../css/Home.css';
 
 const EPISODES_PER_PAGE = 5;
 const MAX_PAGE_NUMBERS = 5;

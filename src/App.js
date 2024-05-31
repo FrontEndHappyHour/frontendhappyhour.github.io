@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from './Home';
-import EpisodeDetail from './EpisodeDetail';
-import About from './About';
-import Subscribe from './Subscribe';
-import Advertise from './Advertise';
-import Terms from './Terms';
-import Privacy from './Privacy';
-import RyanBurgess from './RyanBurgess';
-import JemYoung from './JemYoung';
-import StacyLondon from './StacyLondon';
-import BrianHolt from './BrianHolt';
-import MarsJullian from './MarsJullian';
+import Home from './pages/Home';
+import EpisodeDetail from './components/EpisodeDetail';
+import About from './pages/About';
+import Subscribe from './pages/Subscribe';
+import Advertise from './pages/Advertise';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
+import Guests from './pages/Guests';
 import { createURL } from './utils';
-import './App.css';
-import './Footer.css';
+import './css/App.css';
+import './css/Footer.css';
 
 const App = () => {
   const [episodes, setEpisodes] = useState([]);
@@ -49,11 +45,7 @@ const App = () => {
             <Route path="/advertise" element={<Advertise />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/privacy" element={<Privacy />} />
-            <Route path="/panelists/ryan-burgess" element={<RyanBurgess />} />
-            <Route path="/panelists/jem-young" element={<JemYoung />} />
-            <Route path="/panelists/stacy-london" element={<StacyLondon />} />
-            <Route path="/panelists/brian-holt" element={<BrianHolt />} />
-            <Route path="/panelists/mars-jullian" element={<MarsJullian />} />
+            <Route path="/guests" element={<Guests />} />
             {episodes.map((episode, index) => (
               <Route 
                 key={index} 

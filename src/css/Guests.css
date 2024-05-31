@@ -1,0 +1,14 @@
+.guest-page{
+
+}
+
+.guest-page ul {
+    list-style: disc;
+    margin: 1em 0;
+    padding-left: 40px; /* Standard padding for nested lists */
+  }
+  
+  .guest-page ul {
+    margin: 0.5em 0;
+    padding: 0;
+  }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './SubscribeList.css'; // Import the CSS file
+import '../css/SubscribeList.css'; // Import the CSS file
 
 const SubscribeList = () => {
   return (

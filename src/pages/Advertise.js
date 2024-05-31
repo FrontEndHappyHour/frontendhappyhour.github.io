@@ -1,5 +1,5 @@
 import React from 'react';
-import './Advertise.css'; // Import the CSS file
+import '../css/Advertise.css'; // Import the CSS file
 
 const Advertise = () => {
   return (

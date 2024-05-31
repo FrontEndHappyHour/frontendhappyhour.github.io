@@ -1,6 +1,6 @@
 import React from 'react';
-import SubscribeList from './SubscribeList'; // Import the SubscribeList component
-import './Subscribe.css'; // Import the CSS file
+import SubscribeList from '../components/SubscribeList'; // Import the SubscribeList component
+import '../css/Subscribe.css'; // Import the CSS file
 
 const Subscribe = () => {
   return (
