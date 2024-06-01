@@ -1,6 +1,6 @@
 'use strict';
-const episodes = require('./content/episodes.json');
-const panelists = require('./content/panelists.json');
+const episodes = require('./src/content/episodes.json');
+const panelists = require('./src/content/panel.json');
 const jsonfile = require('jsonfile');
 const pad = require('./lib/padding');
 const epNum = parseInt(episodes[0].episode) + 1;
@@ -50,7 +50,7 @@ Object.keys(episodes).forEach(function(key) {
 });
 
 //write new file
-jsonfile.writeFile('./content/episodes.json', temp, {spaces: 2}, function(err) {
+jsonfile.writeFile('./src/content/episodes.json', temp, {spaces: 2}, function(err) {
   if(err) {
     console.log(err);
   }else{
