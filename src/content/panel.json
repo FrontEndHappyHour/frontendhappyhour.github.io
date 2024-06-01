@@ -2,60 +2,67 @@
   {
     "name": "Ryan Burgess",
     "image": "../img/panel/burgessdryan.jpg",
+    "twitter": "burgessdryan",
     "active": true
   },
   {
     "name": "Jem Young",
     "image": "../img/panel/JemYoung.jpg",
+    "twitter": "jemyoung",
     "active": true
   },
   {
     "name": "Stacy London",
     "image": "../img/panel/stacylondoner.jpg",
+    "twitter": "",
     "active": true
   },
   {
     "name": "Augustus Yuan",
     "image": "../img/panel/augburto.jpg",
+    "twitter": "",
     "active": true
   },
   {
     "name": "Shirley Wu",
     "image": "../img/panel/sxywu.jpg",
+    "twitter": "sxywu",
     "active": true
   },
   {
     "name": "Cole Turner",
     "image": "../img/panel/cole.jpg",
+    "twitter": "coleturner",
     "active": true
   },
   {
     "name": "Mars Jullian",
     "image": "../img/panel/marsjosephine.jpg",
+    "twitter": "MarsJullian",
     "active": false
   },
   {
     "name": "Derrick Showers",
-    "twitter": "derrickshowers",
     "image": "../img/panel/derrickshowers.jpg",
+    "twitter": "derrickshowers",
     "active": false
   },
   {
     "name": "Ryan Anklam",
-    "twitter": "bittersweetryan",
     "image": "../img/panel/bittersweetryan.jpg",
+    "twitter": "bittersweetryan",
     "active": false
   },
   {
     "name": "Brian Holt",
-    "twitter": "holtbt",
     "image": "../img/panel/holtbt.jpg",
+    "twitter": "holtbt",
     "active": false
   },
   {
     "name": "Sarah Federman",
-    "twitter": "sarah_federman",
     "image": "../img/panel/marsjosephine.jpg",
+    "twitter": "sarah_federman",
     "active": false
   }
 ]

@@ -25,12 +25,14 @@ const EpisodeDetail = ({ episode }) => {
     episode.panel.includes(panelist.name)
   );
 
-  // Function to get guest image URL
+ // Function to get guest image URL
+  // if the guest has a twitter account the image is saved as their username .jpg
+  // if the guest doesn't have twitter the image is saved as their first-lastname.jpg lowercase
   const getGuestImageUrl = (guest) => {
     if (guest.twitter) {
-      return `../img/guests/${guest.twitter}.jpg`;
+      return `/img/guests/${guest.twitter}.jpg`;
     }
-    return `../img/guests/${guest.name.toLowerCase().replace(/ /g, '-')}.jpg`;
+    return `/img/guests/${guest.name.toLowerCase().replace(/ /g, '-')}.jpg`;
   };
 
   return (
@@ -70,34 +72,34 @@ const EpisodeDetail = ({ episode }) => {
       {/* Display panel members with images */}
       <div className="episode-panel">
         <h2>Panel</h2>
-        <div className="panel-members">
+        <ul className="panel-members">
           {episodePanelists.map((panelist, index) => (
-            <div key={index} className="panelist">
-              <img src={panelist.image} alt={panelist.name} className="panelist-image" />
-              <p>{panelist.name}</p>
-            </div>
+            <li key={index} className="panelist">
+              <a href={`https://twitter.com/${panelist.twitter}`} target="_blank" rel="noopener noreferrer">
+                <img src={panelist.image} alt={panelist.name} className="panelist-image" />
+                <p>{panelist.name}</p>
+              </a>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
 
       {/* Conditionally render guests section with images */}
       {episode.guests && episode.guests.length > 0 && (
         <div className="episode-guests">
           <h2>Guests</h2>
-          <div className="guest-members">
+          <ul className="guest-members">
             {episode.guests.map((guest, index) => (
-              <div key={index} className="guest">
-                <img src={getGuestImageUrl(guest)} alt={guest.name} className="guest-image" />
-                <p>
-                  {guest.name} {guest.twitter && (
-                    <a href={`https://twitter.com/${guest.twitter}`} target="_blank" rel="noopener noreferrer">
-                      @{guest.twitter}
-                    </a>
-                  )}
-                </p>
-              </div>
+              <li key={index} className="guest">
+                <a href={guest.twitter ? `https://twitter.com/${guest.twitter}` : '#'} target="_blank" rel="noopener noreferrer">
+                  <img src={getGuestImageUrl(guest)} alt={guest.name} className="guest-image" />
+                  <p>
+                    {guest.name}
+                  </p>
+                </a>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       )}
 

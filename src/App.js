@@ -29,7 +29,7 @@ const App = () => {
     <Router>
       <div className="app">
         <header className="header">
-          <img src="/logo.svg" alt="Front End Happy Hour" className="logo" />
+        <Link to="/"><img src="/logo.svg" alt="Front End Happy Hour" className="logo" /></Link>
           <nav className="nav">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/about" className="nav-link">About</Link>

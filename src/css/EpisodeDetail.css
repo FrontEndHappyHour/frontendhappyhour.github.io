@@ -67,4 +67,64 @@
   .back-link:hover {
     background-color: #1f2022;
   }
+  .panel-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .panelist {
+    text-align: center;
+    width: 150px;
+  }
+  .panel-members{
+    list-style: none;
+  }
+  .panel-members li a{
+    text-decoration: none;
+  }
+  .panel-members li a:hover, .panel-members li a:focus{
+    color:#282c34;
+  }
+  .panelist-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .episode-guests,
+  .episode-picks,
+  .episode-links,
+  .episode-transcript {
+    margin-bottom: 20px;
+  }
+
+  .panelists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .guest-members li{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .guest-members li a{
+    text-decoration: none;
+  }
+  .guest-members li a:hover, .guest-members li a:focus{
+    color:#282c34;
+  }
+  .guest img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .panelist h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }  
   
