@@ -1,6 +1,5 @@
 // Episode 87 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   </p>
 <p><strong>Ryan Burgess</strong><br />

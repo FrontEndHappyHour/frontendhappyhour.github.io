@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   <p><strong>Ryan Burgess</strong><br />
   Welcome to the latest episode of the front end happy hour podcast. This is actually a very unique special podcast where we are recording remote. Typically all of our episodes are recorded in one room around a table having drinks. With the recent Coronavirus situation. We're a little bit stuck and not able to all meet in the same room. So instead of not recording we are all going to continue recording even if it has to be remote because we want to make sure that we're putting out content for everyone else stuck in their homes. Given we're all being forced to work from home along with a lot of our listeners due to Coronavirus. We felt It was topical to have this episode about our experiences working from home. And there has been one major benefit. I would say that we're now recording remote. Maybe it's a benefit is that we're able to have a special guest joining us from Seattle, Brian Holt. I mean, it depends on how you define benefit. Well, that's why I said I'm like, I don't know some people might find it a benefit. Some people will see some people might stop listening right now.

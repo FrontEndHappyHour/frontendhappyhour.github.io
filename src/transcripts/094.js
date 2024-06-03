@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `<p><strong>Ryan Burgess</strong><br />
   Welcome to the latest episode of the front end happier podcast. In today's episode, we are talking with our special guest Sarah to talk with us about civic hacking. Sarah, can you give a brief introduction of who you are, what you do and what your favorite happier beverages?
   

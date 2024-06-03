@@ -1,6 +1,5 @@
 // Episode 101 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `</p>
   <p><strong>Ryan Burgess </strong><br />
   Welcome to Episode 101 of the front end happier podcast. It's actually been a long long milestone to hit Episode 100. Do you think we will maybe hit the milestone of 200 at some point?

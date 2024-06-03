@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `<p><strong>Ryan Burgess</strong>: Welcome to the very first episode of Front End Happy Hour. The show where we, over drinks, talk about everything front end development. Since we are a happy hour show we will be enjoying drinks while we discuss today&rsquo;s topic. Each week, we will also choose a keyword that we will all drink to each time it&rsquo;s said. For audience participation, we encourage you to drink along each time the keyword is mentioned. What have we decided this week&rsquo;s key word is, guys?</p>
 <p><strong>All</strong>: Tools</p>
 <p><strong>Ryan Burgess</strong>: Awesome. So every time we say tools, take a drink. </p>

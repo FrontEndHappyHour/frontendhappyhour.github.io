@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   <p><strong>Ryan Burgess</strong><br />
   Welcome to another episode of the front end happier podcast. In this episode, we're joined by two Netflix engineers, Chevron, and Michael to talk with us about ecosystem engineering at Netflix, Travon. And Michael, can you give us a brief introduction of who you are, what you do and what your favorite happy are beverages. 

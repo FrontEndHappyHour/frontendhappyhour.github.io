@@ -1,6 +1,5 @@
 // Episode 100 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `<p><strong>Ryan Burgess</strong><br /> 
   Welcome to the episode 100 of the front end happy hour podcast. This is a huge milestone. I'm actually really impressed that we've made it and been able to put out 100 episodes. I want to start the episode by actually thanking all of you the panelists for being part of it all. It's been tons of fun, and I'm really impressed that you've all stuck with it. So I want to thank you all for for doing it,
   

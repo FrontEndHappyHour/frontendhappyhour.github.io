@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   <p><strong>Ryan Burgess</strong><br />
   Welcome to the latest episode of the front end happier podcast. Today's topic has actually been requested quite a few times for us to talk about graph QL. So I'm excited that we have surety to help us really dive deep into the topic. So surety is joining us to talk with us about graph QL. Trudi Can you give us a brief introduction of who you are, what you do, and obviously what is your favorite happier beverage?

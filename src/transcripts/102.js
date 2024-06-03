@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   <p><strong>Ryan Burgess</strong><br />
   Well welcome to a new episode of the front end happier podcast. We are still in quarantine. So we are recording remote but there is some added benefit in this episode. I'm excited we have returning guests, Sarah dresner joining us to discuss complex projects and code bases. Sarah, can you give a brief introduction of who you are, what you do and what your favorite happy hour beverages?

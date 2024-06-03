@@ -1,6 +1,5 @@
 // Episode 77 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   
 <p><strong>Jordanna Kwok</strong><br />

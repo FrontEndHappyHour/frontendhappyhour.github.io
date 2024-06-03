@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `<p><strong>Ryan Burgess</strong> Welcome to another front in Happy Hour podcast. In this episode, we are joined by Emma to talk with us about interviewing. Well, specifically, more like the coding interview. She's the perfect person to speak with us about the topic because she's recently written a book called The Decoding the Technical Interview Process. Emma, can you give us a brief introduction of who you are, what you do and what your favorite happy hour beverages?
   </p><p><strong>Emma Bostian</strong> Yeah, definitely so. Hi, I'm Emma Watson. I am an American software engineer living and working in Germany.
   </p><p><strong>Emma Bostian</strong> I currently work at LogMeIn as a software engineer. Kind of leading the design system. But in about a month, I mean, we joining Spotify over in Stockholm as a software engineer, working on basically the whole entire consumer experience.

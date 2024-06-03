@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   <p><strong>Ryan Burgess</strong><br />
   Welcome to a brand new episode of the front end happy hour podcast. In this episode we are talking with Priyanka and Lauren about an interesting engineering effort their teams are working on at Netflix. Netflix continues to create its own content. And Hollywood is an interesting world with tons of opportunities for engineering to integrate technology to make things more efficient. Priyanka and Lauren will be telling us a little bit more about those nice interesting engineering challenges. Priyanka and Lauren, can you give us a brief introduction of who you are, what you do, and what your favorite happy hour beverages?

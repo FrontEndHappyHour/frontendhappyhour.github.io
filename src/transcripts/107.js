@@ -1,6 +1,5 @@
 // Episode 107 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `<p><strong>Ryan Burgess</strong>  Welcome to another episode of The Front End. Happy Hour podcast. Whether you're giving a presentation to a large audience at a conference or your team or even trying to articulate an idea. Public speaking is an important skill set. In this episode, we are joined by and to talk with us about public speaking. And can you give us a brief introduction of who you are, what you do, and what your favorite happy hour beverages? 
   
   <p><strong>Anne Ricketts</strong>  So my name is Ann Ricketts and I run a company called Lighthouse Communications and we help people communicate more effectively. 

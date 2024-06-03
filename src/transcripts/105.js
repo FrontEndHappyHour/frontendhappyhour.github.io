@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   <p><strong>Ryan Burgess</strong><br /> 
   Welcome to another episode of the front end, happy hour podcast. We all like to bundle up our code that is shipped to the client. And there are a lot of great tools to help us out with that. In this episode, we're joined by Maia will and Devon to talk with us about parcel made will and Devin, can you give us brief introductions of who you are, what you do, and what your favorite happier beverages?

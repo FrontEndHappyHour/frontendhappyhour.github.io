@@ -1,6 +1,5 @@
 // Episode 1 transcript
 module.exports = function() {
-  'use strict';
   const transcript = `
   <p><strong>Ryan Burgess</strong><br />
   Welcome to another episode of the front end happy hour podcast. Our jobs as engineers are not always coding, mostly coding, but we also have meetings and one of the common type of meetings is one on ones. In today's episode we are going to talk about one on ones and how they can be effective or maybe not effective. Let's go around the table and give introductions of today's panelists, Augustus you want to start it off. Sure.
