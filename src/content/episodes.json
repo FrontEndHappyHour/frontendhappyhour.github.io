@@ -8,11 +8,7 @@
     "published": "May 26, 2024",
     "transcribed": true,
     "category": "technical",
-    "tags": [
-      "server",
-      "UI",
-      "SDUI"
-    ],
+    "tags": ["server", "UI", "SDUI"],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
