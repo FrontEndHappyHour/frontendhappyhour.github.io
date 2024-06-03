@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import '../css/EpisodeDetail.css'; // Import the CSS file for styling
 import panelistsData from '../content/panel.json'; // Import the JSON file
 
 const EpisodeDetail = ({ episode }) => {
-  const navigate = useNavigate(); // Hook for programmatic navigation
   const [transcript, setTranscript] = useState('');
 
   useEffect(() => {

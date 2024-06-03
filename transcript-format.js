@@ -152,7 +152,6 @@ if (unknownSpeaker !== null) {
     // If there are no unknown speakers identified finish content and wrap JS module
     // add JS module exports to wrap content
     newContent = `module.exports = function() {
-        'use strict';
         const transcript =\`
         ${newContent}\`;
         return transcript;

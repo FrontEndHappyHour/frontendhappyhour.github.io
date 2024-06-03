@@ -1,5 +1,4 @@
 module.exports = function() {
-        'use strict';
         const transcript =`
         
 <p><strong>Cole Turner</strong><br />

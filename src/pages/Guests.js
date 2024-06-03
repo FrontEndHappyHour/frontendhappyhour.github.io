@@ -1,5 +1,4 @@
 import React from 'react';
-import SubscribeList from '../components/SubscribeList'; // Import the SubscribeList component
 import '../css/Guests.css'; // Import the CSS file
 
 const Guests = () => {
