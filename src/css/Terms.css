@@ -1,0 +1,18 @@
+.terms-page {
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.terms-page p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}

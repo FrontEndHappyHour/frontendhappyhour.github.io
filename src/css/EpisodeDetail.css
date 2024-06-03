@@ -1,0 +1,130 @@
+.episode-detail {
+    padding: 20px 50px;
+    background-color: #fff;
+    color: #333;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  .episode-detail h2{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .episode-detail iframe {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .episode-detail h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .edit-transcript{
+    float: right;
+    font-size: 11px;
+    color: #666;
+    margin-top: -20px;
+  }
+  .episode-published {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .episode-detail p {
+    font-size: 1em;
+    line-height: 1.2;
+  }
+  
+  .episode-embeds {
+    margin-top: 20px;
+  }
+  
+  .soundcloud-embed {
+    margin-bottom: 20px;
+  }
+  
+  .youtube-embed {
+    margin-bottom: 20px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #282c34;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    background-color: #1f2022;
+  }
+  .panel-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .panelist {
+    text-align: center;
+    width: 150px;
+  }
+  .panel-members{
+    list-style: none;
+  }
+  .panel-members li a{
+    text-decoration: none;
+  }
+  .panel-members li a:hover, .panel-members li a:focus{
+    color:#282c34;
+  }
+  .panelist-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .episode-guests,
+  .episode-picks,
+  .episode-links,
+  .episode-transcript {
+    margin-bottom: 20px;
+  }
+
+  .panelists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .guest-members li{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .guest-members li a{
+    text-decoration: none;
+  }
+  .guest-members li a:hover, .guest-members li a:focus{
+    color:#282c34;
+  }
+  .guest img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .panelist h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }  
+  

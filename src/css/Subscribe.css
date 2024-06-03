@@ -1,0 +1,50 @@
+.subscribe-page {
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.subscribe-content {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.subscribe-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.subscribe-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subscribe-content li {
+  margin: 10px 5px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+.subscribe-content a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.subscribe-content img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.subscribe-content a:hover {
+  color: #0070f3;
+}

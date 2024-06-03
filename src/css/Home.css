@@ -1,0 +1,151 @@
+.home {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .about {
+    text-align: center;
+    background-color: #282c34; /* Darker color background */
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+
+  .about h2{
+    color:white;
+  }
+
+  .about p{
+    color: white;
+    font-size: 18px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .episodes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .episode {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    text-align: left;
+    display: flex;
+    align-items: top;
+    position: relative;
+  }
+  
+  .episode-number {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #282c34;
+    color: #282c34;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-right: 20px;
+  }
+  
+  .episode-content {
+    flex: 1;
+  }
+  
+  .episode-title {
+    font-size: 1.5em;
+    color: #282c34;
+    text-decoration: none;
+  }
+  
+  .episode-title:hover {
+    text-decoration: underline;
+  }
+  
+  .episode-description {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .episode-date {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  .episode-link {
+    font-size: 1em;
+    color: #282c34;
+    text-decoration: none;
+    float: right;
+  }
+  
+  .episode-link:hover {
+    text-decoration: underline;
+  }
+  button {
+    color:#282c34;
+    border: 2px solid #282c34;
+    border-radius: 8px; /* Rounded corners */
+    background-color: transparent; /* Transparent background */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+    padding: 10px 20px;
+  }
+  button:hover {
+    background-color: #282c34; /* Purple background on hover */
+    color: #fff; /* White text on hover */
+  }
+  button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px #282c34; /* Add a subtle shadow on focus */
+  }
+  
+  .pagination {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination li a {
+    text-decoration: none;
+    color: #282c34;
+    font-weight: bold;
+  }
+  
+  .pagination li a:hover {
+    text-decoration: underline;
+  }
+  
+  .pagination li.active a {
+    color: #fff;
+    background-color: #282c34;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  

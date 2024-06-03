@@ -1,0 +1,17 @@
+.advertise-page {
+  padding: 20px;
+  color: #333;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.advertise-content {
+  margin-top: 20px;
+}
+
+.advertise-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
