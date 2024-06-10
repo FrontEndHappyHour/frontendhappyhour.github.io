@@ -1,14 +1,20 @@
-.guest-page{
-
-}
-
-.guest-page ul {
+.guest-page ul li{
     list-style: disc;
-    margin: 1em 0;
-    padding-left: 40px; /* Standard padding for nested lists */
+    border: none;
+    text-align: left;
+  }
+
+  .guest-page ul li,  .guest-page ol li{
+    list-style: disc;
+    border: none;
+    text-align: left;
   }
   
   .guest-page ul {
     margin: 0.5em 0;
     padding: 0;
+  }
+
+  .subscribe-content li{
+    display: block;
   }
