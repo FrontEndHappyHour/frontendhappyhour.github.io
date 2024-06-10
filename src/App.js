@@ -16,7 +16,7 @@ const App = () => {
   const [episodes, setEpisodes] = useState([]);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/main/content/episodes.json')
+    fetch('https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/main/sr/content/episodes.json')
       .then(response => response.json())
       .then(data => {
         console.log("Fetched Episodes:", data); // Debugging

@@ -1,5 +1,60 @@
 [
   {
+    "episode": "196",
+    "title": "Breaking the typecast: Growing beyond frontend and backend labels",
+    "description": "In this episode of Front End Happy Hour, we dive into the topic of being typecast as a frontend or backend engineer. Is it really a bad thing? Our panel discusses the implications of these labels, how they can limit growth, and share strategies to break free from these constraints. We explore ways to diversify your skill set, advance your career, and potentially increase your earning potential. Joining the panel is our guest, Tony Casparro, a staff engineer at Netflix. Tune in for an insightful conversation on how to navigate and overcome typecasting in the tech industry.",
+    "id": "1843503090",
+    "vid": "HGJOoPdJlLE",
+    "published": "June 9, 2024",
+    "transcribed": false,
+    "category": "soft",
+    "tags": ["frontend", "career"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Tony Casparro",
+        "twitter": "casparro"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Workflowy",
+        "url": "https://workflowy.com/",
+        "from": "Tony Casparro"
+      },
+      {
+        "title": "Hammock",
+        "url": "https://www.amazon.com/gp/product/B0C98K7M2X/ref=ppx_yo_dt_b_search_asin_image?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Jordan has no life",
+        "url": "https://www.youtube.com/@jordanhasnolife5163",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Can I email",
+        "url": "https://www.caniemail.com/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Suno",
+        "url": "https://suno.com/",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "195",
     "title": "Revisiting Server-Driven UI",
     "description": "In this episode of Front End Happy Hour, we dive back into the world of server-driven UI with fresh insights and experiences. Our special guest, Sherman Chen, a Senior Software Engineer at LinkedIn, joins us to share how LinkedIn leverages server-driven UI to enhance their applications. Tune in as we explore the benefits, challenges, and best practices for implementing server-driven UI in modern development.",
@@ -8,7 +63,11 @@
     "published": "May 26, 2024",
     "transcribed": true,
     "category": "technical",
-    "tags": ["server", "UI", "SDUI"],
+    "tags": [
+      "server",
+      "UI",
+      "SDUI"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",

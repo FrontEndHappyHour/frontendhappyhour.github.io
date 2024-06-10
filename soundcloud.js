@@ -1,6 +1,6 @@
 'use strict';
-const episodes = require('./content/episodes.json');
-const panelInfo = require('./content/panelists.json');
+const episodes = require('./src/content/episodes.json');
+const panelInfo = require('./src/content/panelists.json');
 const createUrl = require('./lib/create-url');
 const args = process.argv.slice(2);
 const identifier = args[0];
