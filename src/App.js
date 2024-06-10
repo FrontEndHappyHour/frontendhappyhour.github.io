@@ -11,25 +11,20 @@ import Guests from './pages/Guests';
 import { createURL } from './utils';
 import './css/App.css';
 import './css/Footer.css';
+import episodesData from './content/episodes.json';
 
 const App = () => {
   const [episodes, setEpisodes] = useState([]);
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/FrontEndHappyHour/frontendhappyhour.github.io/main/sr/content/episodes.json')
-      .then(response => response.json())
-      .then(data => {
-        console.log("Fetched Episodes:", data); // Debugging
-        setEpisodes(data);
-      })
-      .catch(error => console.error("Error fetching episodes:", error));
+    setEpisodes(episodesData);
   }, []);
 
   return (
     <Router>
       <div className="app">
         <header className="header">
-        <Link to="/"><img src="/logo.svg" alt="Front End Happy Hour" className="logo" /></Link>
+          <Link to="/"><img src="/logo.svg" alt="Front End Happy Hour" className="logo" /></Link>
           <nav className="nav">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/about" className="nav-link">About</Link>
