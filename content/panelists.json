@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Ryan Burgess",
+    "twitter": "burgessdryan",
+    "profile_pic": "3660994",
+    "active": true,
+    "bio": "Will code for tattoos! Ryan is a Software Engineering Manager at Netflix. He leads a team of engineers in Productivity Engineering. His favorite happy hour beverage is a old fashioned. Ryan moved to San Francisco from Toronto and has no plans on moving back. California is just too nice. Ryan has always been a fan of tattoos and graffiti. When Ryan isn't binge watching Netflix, he enjoys spending time with his wife, son, and daughter."
+  },
+  {
+    "name": "Jem Young",
+    "twitter": "JemYoung",
+    "profile_pic": "/img/jem.jpg",
+    "active": true,
+    "bio": "Jem is a Senior Software Engineer at Netflix. He loves dogs, reading, and clean code. He believes that empathy is the key to building an effective UI and when he’s not at the gym or chasing his cat, you can find him hassling other engineers to write more tests."
+  },
+  {
+    "name": "Stacy London",
+    "twitter": "stacylondoner",
+    "profile_pic": "/img/panel/stacylondoner.jpg",
+    "active": true,
+    "bio": "Stacy is a Principal Front-End Engineer at Atlassian.  In addition to front-end dev, she's into art, being a musicophile, making to-do lists, and traveling."
+  },
+  {
+    "name": "Augustus Yuan",
+    "twitter": "augburto",
+    "profile_pic": "2054339",
+    "active": true,
+    "bio": "Augustus is a Frontend Engineer at Twitch. He loves quotes, is constantly curious, and has a strong passion for the frontend. He is also slightly obsessed with the drama House and coffee."
+  },
+  {
+    "name": "Derrick Showers",
+    "twitter": "derrickshowers",
+    "profile_pic": "/img/derrick.jpg",
+    "active": false,
+    "bio": "UI Engineer at LinkedIn | I love steak, sushi, San Francisco, boats, whiskey (and yes, occasionally Fernet) | Spontaneity is the key to life"
+  },
+  {
+    "name": "Ryan Anklam",
+    "twitter": "bittersweetryan",
+    "profile_pic": "/img/ryan.jpg",
+    "active": false,
+    "bio": "Ryan is a Senior UI Engineer at Netflix. He loves React, The Simpsons, runninng, and Taylor Swift."
+  },
+  {
+    "name": "Brian Holt",
+    "twitter": "holtbt",
+    "profile_pic": "999523",
+    "active": false,
+    "bio": "Brian is currently working as a senior program manager on Azure at Microsoft and he's all about developers, developers, developers. Previously he was a JavaScript engineer at Netflix, LinkedIn and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog. Brian is currently a resident of Seattle, WA."
+  },
+  {
+    "name": "Mars Jullian",
+    "twitter": "marsjosephine",
+    "profile_pic": "/img/panel/marsjosephine.jpg",
+    "active": false,
+    "bio": "Senior UI Engineer, architecture & design nerd, SF east-coast transplant, and devourer of cookies."
+  },
+  {
+    "name": "Sarah Federman",
+    "twitter": "sarah_federman",
+    "profile_pic": "5673114",
+    "active": false,
+    "bio": "Sarah is a UI Engineer at LinkedIn. Addicted to sushi, burritos, sushirittos, alcohol, and sarcasm."
+  },
+  {
+    "name": "Shirley Wu",
+    "twitter": "sxywu",
+    "profile_pic": "/img/panel/sxywu.jpg",
+    "active": false,
+    "bio": "Shirley Wu is an award-winning creative focused on data-driven art and visualizations.  She has worked with clients such as Google, The Guardian, Scientific American, and SFMOMA to develop custom, highly interactive data visualizations.  She combines her love of art, math, and code into colorful, compelling narratives that push the boundaries of the web.  Her work can be found at sxywu.com."
+  },
+  {
+    "name": "Cole Turner",
+    "twitter": "coleturner",
+    "profile_pic": "/img/panel/cole.jpg",
+    "active": true,
+    "bio": "Cole is a full snack engineer working at Netflix across the stack on user interfaces, distributed systems, and GraphQL APIs. He talks a lot about developer ergonomics and best practices that help you go on-call and sleep at night. When he's not working, he's probably petting dogs, lifting weights, or mowing the lawn while drinking a ranch water."
+  }
+]

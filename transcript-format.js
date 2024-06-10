@@ -4,7 +4,7 @@
 
 'use strict';
 const fs = require('fs');
-const dir = './transcripts/';
+const dir = './src/transcripts/';
 const panelists = require('./content/panelists.json');
 const guests = require('./content/episodes.json');
 const { functionsIn } = require('lodash');
