@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../css/EpisodeDetail.css'; // Import the CSS file for styling
 import panelistsData from '../content/panel.json'; // Import the JSON file
+import { createURL } from '../utils';
+import { Helmet } from 'react-helmet';
 
 const EpisodeDetail = ({ episode }) => {
   const [transcript, setTranscript] = useState('');
@@ -35,6 +37,21 @@ const EpisodeDetail = ({ episode }) => {
 
   return (
     <div className="episode-detail">
+      <Helmet>
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="alternate" type="application/rss+xml" href="https://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss" />
+        <meta property="og:image" content={`https://frontendhappyhour.com/public/img/episodes/friendly-preview/${createURL(episode.title)}.jpeg`} />
+        <meta property="og:description" content={`${episode.description}`} />
+        <meta property="og:title" content={`${episode.title} - Front End Happy Hour`} />
+        <meta name="twitter:description" content={`${episode.description}`} />
+        <meta property="twitter:title" content={`${episode.title} - Front End Happy Hour`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@frontendhappyhour" />
+        <meta name="twitter:creator" content="@frontendhappyhour" />
+        <link rel="icon" href="https://frontendhappyhour.com/favicon.ico" type="image/x-icon" />
+        <link rel="canonical" href={`https://frontendhappyhour.com/episodes/${createURL(episode.title)}`} />
+      </Helmet>
       <h1>{episode.title}</h1>
       <p className="episode-published">Published on: {episode.published}</p>
       <p>{episode.description}</p>

@@ -1,7 +1,5 @@
 module.exports = function() {
         const transcript =`
-        module.exports = function() {
-        const transcript =`
         
 <p><strong>Ryan Burgess</strong><br />
 Music. All right, welcome to a brand new episode of the front end Happy Hour podcast. In this episode, we have an interesting discussion to cover, mainly around, what's it like to be typecast as a front end engineer, like, how does that affect your career? How does that just affect your role. I think this will be an interesting discussion, and we're joined for this conversation. Tony casparo, staff software engineer at Netflix. Tony, thank you for joining us. I'm excited for the conversation, and it was your topic suggestion. So thank you. Can you give a brief introduction of who you are, what you do, and what your favorite Happy Hour beverages?
@@ -354,7 +352,6 @@ any last words? Go read some ring. Ding, ding. I.
 
 </p>
 `;
-        return transcript;
-    };`;
+
         return transcript;
     };
