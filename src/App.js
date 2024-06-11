@@ -19,7 +19,7 @@ const App = () => {
   useEffect(() => {
     setEpisodes(episodesData);
   }, []);
-
+  
   return (
     <Router>
       <div className="app">
