@@ -9,17 +9,14 @@ const About = () => {
       <h1>About</h1>
       <div className="about-content">
         <p>
-          Welcome to Front End Happy Hour! We’re a podcast where a group of front end developers
-          discuss a range of topics pertaining to front end development, while enjoying a few
-          drinks. Each episode, we have a casual discussion about front end development, technology,
-          and the culture of programming.
+        Front End Happy Hour is a podcast where a panel of seasoned software engineers from Silicon Valley companies like Netflix, LinkedIn, Microsoft, Twitch, and Atlassian come together to discuss a wide array of topics related to front end development, technology, and the ever-evolving culture of programming. Our discussions range from the latest in tech trends and best practices to personal experiences and industry insights.
+
         </p>
         <p>
-          Our panelists include engineers from companies like Netflix, LinkedIn, Atlassian, and
-          Evernote. We also occasionally have guests from other companies join our discussions.
+        We bring a unique blend of technical expertise and personal anecdotes, offering valuable perspectives for developers at all stages of their careers. Whether you're looking to stay updated on the latest in front end development, seeking advice on navigating the tech industry, or just wanting to hear some entertaining stories from fellow engineers, Front End Happy Hour has something for you.
         </p>
         <p>
-          We hope you enjoy the show! Cheers!
+        Join us for engaging conversations, insightful discussions, and a bit of fun as we share our passion for technology and frontend development.
         </p>
         <div className="trailer">
           <h2>Trailer</h2>
