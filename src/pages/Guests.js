@@ -5,7 +5,7 @@ const Guests = () => {
   return (
     <div className="guest-page">
       <h1>Guest information</h1>
-      <div className="subscribe-content">
+      <div>
       <p>Thanks for agreeing to be a guest on the podcast! We’re excited to have you join us.</p>
 
 <p>If you haven’t listened to an episode of <a href="https://frontendhappyhour.com">Front End Happy Hour</a>, we like to keep the podcast as a discussion between the group. So it shouldn’t feel as though we’re interviewing you but all chiming in to discuss certain points. We’ll try and keep it pretty casual.</p>
