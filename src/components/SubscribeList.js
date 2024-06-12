@@ -43,13 +43,19 @@ const SubscribeList = () => {
       <li>
         <a href="https://instagram.com/frontendhh" target="_blank" rel="noopener noreferrer">
           <img src="../img/instagram.svg" alt="Instagram" />
-          Twitch
+          Instagram
         </a>
       </li>
       <li>
         <a href="https://www.tiktok.com/@frontendhh" target="_blank" rel="noopener noreferrer">
           <img src="../img/tiktok.svg" alt="TikTok" />
-          Twitch
+          TikTok
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/frontendhh/" target="_blank" rel="noopener noreferrer">
+          <img src="../img/linkedin.svg" alt="LinkedIn" />
+          LinkedIn
         </a>
       </li>
       <li>
