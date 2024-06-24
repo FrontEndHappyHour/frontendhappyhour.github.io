@@ -16,7 +16,7 @@ const EpisodeDetail = ({ episode }) => {
       setMetaTags({
         title: episode.title,
         description: episode.description,
-        image: `https://frontendhappyhour.com/public/img/episodes/friendly-preview/${createURL(episode.title)}.jpeg`,
+        image: `https://frontendhappyhour.com/img/episodes/friendly-preview/${createURL(episode.title)}.jpeg`,
         url: `https://frontendhappyhour.com/episodes/${createURL(episode.title)}`
       });
     }
