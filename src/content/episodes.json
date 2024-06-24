@@ -1,5 +1,67 @@
 [
   {
+    "episode": "198",
+    "title": "Leveraging SQLite in the Cloud",
+    "description": "In this episode of the Front End Happy Hour podcast, we are excited to welcome special guests Brian Holt and Marco Bambini. Join us as we delve into the advantages of leveraging SQLite in the cloud. Discover how this powerful database technology can enhance your projects with its simplicity, efficiency, and flexibility. Brian and Marco share their expertise, real-world examples, and best practices to help you get the most out of SQLite in your cloud-based applications. Whether you're a seasoned developer or just starting, this episode is packed with valuable insights and tips you won't want to miss.",
+    "id": "1855484268",
+    "vid": "",
+    "published": "June 23, 2024",
+    "transcribed": false,
+    "category": "technical",
+    "tags": ["sql", "database", "sqlite", "mysql"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Brian Holt",
+        "twitter": "holtbt"
+      },
+      {
+        "name": "Marco Bambini",
+        "twitter": "_marcobambini"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Backpack Hero",
+        "url": "https://store.steampowered.com/app/1970580/Backpack_Hero/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Microsoft Excel",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/p/excel/cfq7ttc0hr4r?activetab=pivot:overviewtab",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Renovating a church",
+        "url": "",
+        "from": "Marco Bambini"
+      },
+      {
+        "title": "Tennis",
+        "url": "",
+        "from": "Marco Bambini"
+      },
+      {
+        "title": "Gardening",
+        "url": "",
+        "from": "Marco Bambini"
+      },
+      {
+        "title": "Griselda",
+        "url": "https://www.netflix.com/title/81133447",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Temporary Tattoos",
+        "url": "https://www.amazon.com/Temporary-Butterfly-Dinosaur-Stickers-Birthday/dp/B0CC1844WQ?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325",
+        "from": "Ryan Burgess"
+      }
+    ]
+  },
+  {
     "episode": "197",
     "title": "Sips of Wisdom: Interview with Chris Bautista",
     "description": "In this inaugural episode of our new 'Sips of Wisdom' series, Ryan Burgess, host of the Front End Happy Hour podcast, sits down with Chris Bautista, a Senior Software Engineer at Netflix. Chris shares his journey through various tech giants, including the DOD, Hulu, and Netflix, providing a unique perspective on his career. He also offers valuable advice for aspiring software engineers looking to break into the industry. Don't miss this deep dive into the world of software engineering with one of the industry's seasoned professionals.",
@@ -8,7 +70,10 @@
     "published": "June 16, 2024",
     "transcribed": true,
     "category": "interview",
-    "tags": ["interview", "wisdom"],
+    "tags": [
+      "interview",
+      "wisdom"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
