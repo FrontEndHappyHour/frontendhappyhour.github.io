@@ -4,9 +4,9 @@
     "title": "Leveraging SQLite in the Cloud",
     "description": "In this episode of the Front End Happy Hour podcast, we are excited to welcome special guests Brian Holt and Marco Bambini. Join us as we delve into the advantages of leveraging SQLite in the cloud. Discover how this powerful database technology can enhance your projects with its simplicity, efficiency, and flexibility. Brian and Marco share their expertise, real-world examples, and best practices to help you get the most out of SQLite in your cloud-based applications. Whether you're a seasoned developer or just starting, this episode is packed with valuable insights and tips you won't want to miss.",
     "id": "1855484268",
-    "vid": "",
+    "vid": "EeqrJCWC-QM",
     "published": "June 23, 2024",
-    "transcribed": false,
+    "transcribed": true,
     "category": "technical",
     "tags": ["sql", "database", "sqlite", "mysql"],
     "panel": [
