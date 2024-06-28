@@ -1,5 +1,45 @@
 [
   {
+    "episode": "199",
+    "title": "Sips of Wisdom: Interview with April Wensel",
+    "description": "In this latest episode of our 'Sips of Wisdom' series, Ryan Burgess sits down with April Wensel, founder of Compassionate Coding. April shares her unique journey from software engineer to teaching emotional intelligence and compassion in tech. With a background in computer science and experience in Bay Area startups, April discusses the importance of integrating emotional intelligence into software development. She provides valuable insights on managing burnout, fostering empathy, and improving team dynamics. April also shares personal anecdotes and professional advice for creating healthier, more inclusive work environments. Don't miss this inspiring conversation about the human side of software development.",
+    "id": "1858625460",
+    "vid": "r-L-YbBrY2I",
+    "published": "June 30, 2024",
+    "transcribed": true,
+    "category": "interview",
+    "tags": ["interview", "interviews"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "April Wensel",
+        "twitter": "aprilwensel"
+      }
+    ],
+    "links": [
+      {
+        "title": "CompCompassionate Coding",
+        "url": "https://compassionatecoding.com/"
+      },
+      {
+        "title": "Ryan's Engineering Management Resources",
+        "url": "https://github.com/ryanburgess/engineer-manager"
+      },
+      {
+        "title": "Cat Hicks, Ph.D",
+        "url": "https://www.linkedin.com/in/drcathicks/"
+      },
+      {
+        "title": "Self-Compassion - Kristin Neff, Ph.D",
+        "url": "https://www.amazon.com/Self-Compassion-Proven-Power-Being-Yourself/dp/0061733512?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=6fdef16ea2e6c0827b59305b22a9d1da&camp=1789&creative=9325"
+      }
+    ],
+    "picks": [
+    ]
+  },
+  {
     "episode": "198",
     "title": "Leveraging SQLite in the Cloud",
     "description": "In this episode of the Front End Happy Hour podcast, we are excited to welcome special guests Brian Holt and Marco Bambini. Join us as we delve into the advantages of leveraging SQLite in the cloud. Discover how this powerful database technology can enhance your projects with its simplicity, efficiency, and flexibility. Brian and Marco share their expertise, real-world examples, and best practices to help you get the most out of SQLite in your cloud-based applications. Whether you're a seasoned developer or just starting, this episode is packed with valuable insights and tips you won't want to miss.",
@@ -8,7 +48,12 @@
     "published": "June 23, 2024",
     "transcribed": true,
     "category": "technical",
-    "tags": ["sql", "database", "sqlite", "mysql"],
+    "tags": [
+      "sql",
+      "database",
+      "sqlite",
+      "mysql"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
