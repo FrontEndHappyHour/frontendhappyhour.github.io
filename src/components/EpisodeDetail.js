@@ -76,21 +76,6 @@ const EpisodeDetail = ({ episode }) => {
         </div>
       </div>
 
-      {/* Display panel members with images */}
-      <div className="episode-panel">
-        <h2>Panel</h2>
-        <ul className="panel-members">
-          {episodePanelists.map((panelist, index) => (
-            <li key={index} className="panelist">
-              <a href={`https://twitter.com/${panelist.twitter}`} target="_blank" rel="noopener noreferrer">
-                <img src={panelist.image} alt={panelist.name} className="panelist-image" />
-                <p>{panelist.name}</p>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-
       {/* Conditionally render guests section with images */}
       {episode.guests && episode.guests.length > 0 && (
         <div className="episode-guests">
@@ -107,6 +92,21 @@ const EpisodeDetail = ({ episode }) => {
           </ul>
         </div>
       )}
+
+      {/* Display panel members with images */}
+      <div className="episode-panel">
+        <h2>Panel</h2>
+        <ul className="panel-members">
+          {episodePanelists.map((panelist, index) => (
+            <li key={index} className="panelist">
+              <a href={`https://twitter.com/${panelist.twitter}`} target="_blank" rel="noopener noreferrer">
+                <img src={panelist.image} alt={panelist.name} className="panelist-image" />
+                <p>{panelist.name}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       {/* Conditionally render picks section */}
       {episode.picks && episode.picks.length > 0 && (
