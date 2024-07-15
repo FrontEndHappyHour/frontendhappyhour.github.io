@@ -1,5 +1,28 @@
 [
   {
+    "episode": "201",
+    "title": "Sips of Wisdom: Interview with Shaundai Person",
+    "description": "In this latest episode of our 'Sips of Wisdom' series, Ryan Burgess sits down with Shaundai Person, Senior Software Engineer at Netflix. Shaundai shares her inspiring journey from a career in sales to becoming a senior software engineer at one of the world's leading entertainment companies. With her unique background and experience, Shaundai discusses the challenges and triumphs she faced while transitioning into tech. She offers valuable insights into navigating career changes, building technical skills, and the importance of perseverance. Shaundai also shares personal stories and professional advice on thriving in the tech industry.",
+    "id": "1872184374",
+    "vid": "",
+    "published": "July 15, 2024",
+    "transcribed": true,
+    "category": "interview",
+    "tags": ["netflix", "interview", "career"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Shaundai Person",
+        "twitter": "shaundai"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "200",
     "title": "Exploring Isograph",
     "description": "Join us as we welcome Robert Balicki, the creator of Isograph, to discuss how this innovative UI framework can transform your development projects. Robert shares key use cases, tips for leveraging Isograph, and a sneak peek at upcoming features.",
@@ -8,16 +31,23 @@
     "published": "March 7, 2024",
     "transcribed": true,
     "category": "technical",
-    "tags": ["graphql", "backend", "data", "database"],
+    "tags": [
+      "graphql",
+      "backend",
+      "data",
+      "database"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
       "Stacy London"
     ],
-    "guests": [{
-      "name": "Robert Balicki",
-      "twitter": "StatisticsFTW"
-    }],
+    "guests": [
+      {
+        "name": "Robert Balicki",
+        "twitter": "StatisticsFTW"
+      }
+    ],
     "links": [],
     "picks": [
       {
