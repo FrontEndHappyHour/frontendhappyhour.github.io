@@ -1,5 +1,77 @@
 [
   {
+    "episode": "202",
+    "title": "Summer vacation - Online teaching courses",
+    "description": "While the Front End Happy Hour crew takes a much needed summer break, we revisit the topic of online education with Josh W. Comeau, who’s had a lot of experience teaching courses to help share his knowledge with us on how we can create an online course.",
+    "id": "1878324330",
+    "vid": "",
+    "published": "July 22, 2024",
+    "transcribed": true,
+    "category": "technical",
+    "tags": [
+      "learning",
+      "courses",
+      "teaching",
+      "workshops"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Josh W. Comeau",
+        "twitter": "JoshWComeau"
+      }
+    ],
+    "links": [
+      {
+        "title": "Josh W. Comeau",
+        "url": "https://www.joshwcomeau.com/"
+      },
+      {
+        "title": "Josh’s online courses",
+        "url": "https://www.joshwcomeau.com/courses/"
+      },
+      {
+        "title": "Hands-Free Coding",
+        "url": "https://www.joshwcomeau.com/blog/hands-free-coding/"
+      }
+    ],
+    "picks": [
+      {
+        "title": "Make it Stick",
+        "url": "https://www.amazon.com/Make-It-Stick-Peter-C-Brown-audiobook/dp/B00M1Z2THY?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=e062900575dea0ba9cf089cbcf0633eb&camp=1789&creative=9325",
+        "from": "Josh W. Comeau"
+      },
+      {
+        "title": "Cozy science fiction",
+        "url": "",
+        "from": "Josh W. Comeau"
+      },
+      {
+        "title": "Beep’s Burgers",
+        "url": "https://www.beepsburgers.com/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The Pitch - Kimoyo: Is This African Startup Venture Backable?",
+        "url": "https://www.thepitch.show/116-kimoyo-is-this-african-startup-venture-backable/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Extraction 2",
+        "url": "https://www.netflix.com/title/81098494",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Valley Silicon: Bugatti Scooter",
+        "url": "https://store.millermotorcars.com/products/bugatti-electric-scooter-agile-bleu?variant=45020143845658",
+        "from": "Jem Young"
+      }
+    ]
+  },
+  {
     "episode": "201",
     "title": "Sips of Wisdom: Interview with Shaundai Person",
     "description": "In this latest episode of our 'Sips of Wisdom' series, Ryan Burgess sits down with Shaundai Person, Senior Software Engineer at Netflix. Shaundai shares her inspiring journey from a career in sales to becoming a senior software engineer at one of the world's leading entertainment companies. With her unique background and experience, Shaundai discusses the challenges and triumphs she faced while transitioning into tech. She offers valuable insights into navigating career changes, building technical skills, and the importance of perseverance. Shaundai also shares personal stories and professional advice on thriving in the tech industry.",
@@ -8,7 +80,11 @@
     "published": "July 15, 2024",
     "transcribed": true,
     "category": "interview",
-    "tags": ["netflix", "interview", "career"],
+    "tags": [
+      "netflix",
+      "interview",
+      "career"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
@@ -19,8 +95,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "200",
