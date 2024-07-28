@@ -1,5 +1,50 @@
 [
   {
+    "episode": "203",
+    "title": "Normalize taking a break",
+    "description": "In this episode, we dive into the topic of taking a sabbatical and its impact on personal and professional life. Our special guest, Jennifer Tieu, a front-end developer at a Web3 agency, joins us to share her experience of taking a break from work, the challenges she faced, and the insights she gained. Panelists Ryan Burgess and Cole Turner also discuss their own sabbatical journeys, offering valuable advice on managing burnout, prioritizing personal well-being, and navigating the transition back to work. Whether you're considering a sabbatical or just curious about its benefits, this episode provides thoughtful reflections and practical tips.",
+    "id": "1883149710",
+    "vid": "jEGLxbXqvOg",
+    "published": "July 29, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["burnout", "break", "career"],
+    "panel": [
+      "Ryan Burgess",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Jennifer Tieu",
+        "twitter": "jennifer_tieu"
+      }
+    ],
+    "links": [
+    ],
+    "picks": [
+      {
+        "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+        "url": "https://www.amazon.com/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=e062900575dea0ba9cf089cbcf0633eb&camp=1789&creative=9325",
+        "from": "Jennifer Tieu"
+      },
+      {
+        "title": "Steve Jobs' 2005 Stanford Commencement Address",
+        "url": "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Supergoop Sunscreen",
+        "url": "https://www.amazon.com/Supergoop-Unseen-Sunscreen-SPF-1-7/dp/B08CFVM1TT?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=e062900575dea0ba9cf089cbcf0633eb&camp=1789&creative=9325",
+        "from": "Cole Turner"
+      },
+      {
+        "title": "Koko",
+        "url": "",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "202",
     "title": "Summer vacation - Online teaching courses",
     "description": "While the Front End Happy Hour crew takes a much needed summer break, we revisit the topic of online education with Josh W. Comeau, who’s had a lot of experience teaching courses to help share his knowledge with us on how we can create an online course.",
