@@ -1,5 +1,28 @@
 [
   {
+    "episode": "204",
+    "title": "Sips of Wisdom: Interview with Angie Jones",
+    "description": "In this episode, we dive into the career journey of Angie Jones, the Global Vice President of Developer Relations at Block. Angie shares her experiences transitioning from a Senior Software Engineer at Twitter to leading developer relations initiatives at Applitools and now at Block. Angie also provides insights on the future of developer relations and the evolving landscape of tech communities. Whether you're an aspiring developer advocate or a seasoned professional, this episode is packed with wisdom and practical tips.",
+    "id": "1887554535",
+    "vid": "TDacpJYPHN0",
+    "published": "August 05, 2024",
+    "transcribed": true,
+    "category": "interview",
+    "tags": ["career", "interview", "dev-rel"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Angie Jones",
+        "twitter": "techgirl1908"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "203",
     "title": "Normalize taking a break",
     "description": "In this episode, we dive into the topic of taking a sabbatical and its impact on personal and professional life. Our special guest, Jennifer Tieu, a front-end developer at a Web3 agency, joins us to share her experience of taking a break from work, the challenges she faced, and the insights she gained. Panelists Ryan Burgess and Cole Turner also discuss their own sabbatical journeys, offering valuable advice on managing burnout, prioritizing personal well-being, and navigating the transition back to work. Whether you're considering a sabbatical or just curious about its benefits, this episode provides thoughtful reflections and practical tips.",
@@ -8,7 +31,11 @@
     "published": "July 29, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["burnout", "break", "career"],
+    "tags": [
+      "burnout",
+      "break",
+      "career"
+    ],
     "panel": [
       "Ryan Burgess",
       "Cole Turner"
@@ -19,8 +46,7 @@
         "twitter": "jennifer_tieu"
       }
     ],
-    "links": [
-    ],
+    "links": [],
     "picks": [
       {
         "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
