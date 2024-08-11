@@ -1,5 +1,44 @@
 [
   {
+    "episode": "205",
+    "title": "After attending a coding Bootcamp",
+    "description": "In this episode of Front End Happy Hour, we're joined by Shashi Lo, a Senior Software Engineer at Microsoft, to explore our thoughts on the journey after software engineers complete a coding bootcamp. Shashi shares his experiences mentoring self-taught developers and bootcamp graduates, discussing the skills that are often missing and the creative ways to bridge the gap between education and landing that first job in tech.",
+    "id": "1895035836",
+    "vid": "s08Y-_KVLpE",
+    "published": "August 12, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["career", "junior", "bootcamp"],
+    "panel": [
+      "Ryan Burgess",
+      "Augustus Yuan"
+    ],
+    "guests": [
+      {
+        "name": "Shashi Lo",
+        "twitter": "shashiwhocodes"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Frontend Mentor",
+        "url": "https://www.frontendmentor.io/",
+        "from": "Shashi Lo"
+      },
+      {
+        "title": "Prompt Crafting - Nando Costa",
+        "url": "https://www.linkedin.com/pulse/prompt-crafting-nando-costa-08drc/",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Electric Spoon",
+        "url": "https://news.sky.com/story/electric-spoon-that-enhances-salty-taste-of-food-and-promotes-healthier-eating-launched-in-japan-13146505",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "204",
     "title": "Sips of Wisdom: Interview with Angie Jones",
     "description": "In this episode, we dive into the career journey of Angie Jones, the Global Vice President of Developer Relations at Block. Angie shares her experiences transitioning from a Senior Software Engineer at Twitter to leading developer relations initiatives at Applitools and now at Block. Angie also provides insights on the future of developer relations and the evolving landscape of tech communities. Whether you're an aspiring developer advocate or a seasoned professional, this episode is packed with wisdom and practical tips.",
@@ -8,7 +47,11 @@
     "published": "August 05, 2024",
     "transcribed": true,
     "category": "interview",
-    "tags": ["career", "interview", "dev-rel"],
+    "tags": [
+      "career",
+      "interview",
+      "dev-rel"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
@@ -19,8 +62,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "203",
