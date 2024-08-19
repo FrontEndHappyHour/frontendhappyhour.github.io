@@ -1,5 +1,51 @@
 [
   {
+    "episode": "206",
+    "title": "What is it like to work in Silicon Valley?",
+    "description": "In this episode, we explore the unique experiences of living and working in Silicon Valley. From the culture shock of constant tech talk and startup hustle to the surprising realities of company perks and the intense work environment, our panelists share their personal stories and insights. Whether you're curious about the career opportunities or the challenges of life in the Valley, this episode offers an insider's view of what it's really like to be at the heart of the tech industry.",
+    "id": "1900221414",
+    "vid": "",
+    "published": "August 19, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["career", "careers"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Stacy London",
+      "Augustus Yuan"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "From Engineer to Leader: The Path to Engineering Management",
+        "url": "https://www.youtube.com/watch?v=2Ci0dbaIFiI&t=1s",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Jon Hopkins - RITUAL",
+        "url": "https://www.youtube.com/watch?v=6nmwxYmg-Gs",
+        "from": "Stacy London"
+      },
+      {
+        "title": "Former Students Are Suing For-Profit Coding Bootcamp BloomTech",
+        "url": "https://www.forbes.com/sites/edwardconroy/2023/03/29/former-students-are-suing-for-profit-coding-bootcamp-bloomtech/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "React Compiler Playground",
+        "url": "https://playground.react.dev/",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "205",
     "title": "After attending a coding Bootcamp",
     "description": "In this episode of Front End Happy Hour, we're joined by Shashi Lo, a Senior Software Engineer at Microsoft, to explore our thoughts on the journey after software engineers complete a coding bootcamp. Shashi shares his experiences mentoring self-taught developers and bootcamp graduates, discussing the skills that are often missing and the creative ways to bridge the gap between education and landing that first job in tech.",
@@ -8,7 +54,11 @@
     "published": "August 12, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["career", "junior", "bootcamp"],
+    "tags": [
+      "career",
+      "junior",
+      "bootcamp"
+    ],
     "panel": [
       "Ryan Burgess",
       "Augustus Yuan"
