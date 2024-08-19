@@ -28,7 +28,9 @@
   padding: 10px;
   text-align: center;
   border: 1px solid #ccc;
-  display: inline-block;
+  text-align: center;
+  min-width: 120px;
+  min-height: 50px;
 }
 
 .subscribe-content a {
