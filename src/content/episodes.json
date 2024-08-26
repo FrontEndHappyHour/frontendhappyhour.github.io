@@ -1,5 +1,28 @@
 [
   {
+    "episode": "207",
+    "title": "Sips of Wisdom: Interview with Kent C. Dodds",
+    "description": "In this episode, we dive into the remarkable career journey of Kent C. Dodds, a passionate educator and entrepreneur. Kent shares insights from his early days in programming, his transition from working at PayPal to becoming a full-time educator, and the creation of his successful educational platforms like Epic React and Epic Web. We explore the challenges and rewards of going solo, the process of developing and launching educational content, and the importance of work-life balance. Whether you're an aspiring developer or a seasoned professional, Kent's story is full of valuable lessons on growth, resilience, and the power of teaching.",
+    "id": "1904502920",
+    "vid": "",
+    "published": "August 26, 2024",
+    "transcribed": true,
+    "category": "interview",
+    "tags": ["learning", "career", "careers", "react"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Kent C. Dodds",
+        "twitter": "kentcdodds"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "206",
     "title": "What is it like to work in Silicon Valley?",
     "description": "In this episode, we explore the unique experiences of living and working in Silicon Valley. From the culture shock of constant tech talk and startup hustle to the surprising realities of company perks and the intense work environment, our panelists share their personal stories and insights. Whether you're curious about the career opportunities or the challenges of life in the Valley, this episode offers an insider's view of what it's really like to be at the heart of the tech industry.",
@@ -8,7 +31,10 @@
     "published": "August 19, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["career", "careers"],
+    "tags": [
+      "career",
+      "careers"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
