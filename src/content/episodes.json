@@ -1,5 +1,73 @@
 [
   {
+    "episode": "208",
+    "title": "Why most new developers struggle: The missing skills you need",
+    "description": "In this episode of Front End Happy Hour, Ryan Burgess, Jem Young, Brian Holt, and Dan DiGangi dive deep into the challenges faced by junior developers as they embark on their coding journeys. From the importance of curiosity and continuous learning to the often overlooked non-technical skills, our panelists discuss the common gaps that new developers experience. Whether you’re a beginner looking to navigate your first job or a senior engineer mentoring others, this conversation offers valuable insights to help bridge the gap between education and real-world success.",
+    "id": "1908316712",
+    "vid": "AxL0jjTKUA4",
+    "published": "September 2, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["career", "junior", "learning"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young"
+    ],
+    "guests": [
+      {
+        "name": "Brian Holt",
+        "twitter": "holtbt"
+      },
+      {
+        "name": "Dan DiGangi",
+        "twitter": "dandigangi"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+        "url": "https://www.amazon.com/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=e062900575dea0ba9cf089cbcf0633eb&camp=1789&creative=9325",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "",
+        "url": "",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Scaling People: Tactics for Management and Company Building",
+        "url": "https://www.amazon.com/Scaling-People-Tactics-Management-Building/dp/1953953212?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=e062900575dea0ba9cf089cbcf0633eb&camp=1789&creative=9325",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Movement, Before All Flowers - Max Richter",
+        "url": "https://open.spotify.com/album/1HrFsljwk4wUHrPPOGkSbN",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Minnesota State Fair",
+        "url": "https://www.mnstatefair.org/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Dungeons & Degenerate Gamblers",
+        "url": "https://store.steampowered.com/app/2400510/Dungeons__Degenerate_Gamblers/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Electric SQL",
+        "url": "https://electric-sql.com/",
+        "from": "Brian Holt"
+      },
+      {
+        "title": "Waking Up: A Guide to Spirituality Without Religion",
+        "url": "https://www.amazon.com/Waking-Up-Spirituality-Without-Religion/dp/1451636024?&_encoding=UTF8&tag=frontendhappy-20&linkCode=ur2&linkId=e062900575dea0ba9cf089cbcf0633eb&camp=1789&creative=9325",
+        "from": "Dan DiGangi"
+      }
+    ]
+  },
+  {
     "episode": "207",
     "title": "Sips of Wisdom: Interview with Kent C. Dodds",
     "description": "In this episode, we dive into the remarkable career journey of Kent C. Dodds, a passionate educator and entrepreneur. Kent shares insights from his early days in programming, his transition from working at PayPal to becoming a full-time educator, and the creation of his successful educational platforms like Epic React and Epic Web. We explore the challenges and rewards of going solo, the process of developing and launching educational content, and the importance of work-life balance. Whether you're an aspiring developer or a seasoned professional, Kent's story is full of valuable lessons on growth, resilience, and the power of teaching.",
@@ -8,7 +76,12 @@
     "published": "August 26, 2024",
     "transcribed": true,
     "category": "interview",
-    "tags": ["learning", "career", "careers", "react"],
+    "tags": [
+      "learning",
+      "career",
+      "careers",
+      "react"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
@@ -19,8 +92,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "206",
