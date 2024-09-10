@@ -1,5 +1,55 @@
 [
   {
+    "episode": "209",
+    "title": "How promotions really work in tech",
+    "description": "In this episode of the Front End Happy Hour podcast, we’re diving deep into the realities of getting promoted in the tech industry. It’s not just about writing great code or being the smartest person in the room. Jem Young, Augustus Yuan, and Ryan Burgess break down the misconceptions around promotions, the skills that actually matter, and why navigating the process can sometimes feel more political than technical. Whether you’re aiming for a promotion or just curious about how it all works behind the scenes, this episode offers candid advice and strategies for advancing your career. Plus, we discuss what to do if your manager isn’t advocating for you, and the right (and wrong) ways to pursue your next big step. Tune in to hear the honest truth about climbing the tech ladder!",
+    "id": "1913525888",
+    "vid": "",
+    "published": "September 9, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["career", "promotions"],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Augustus Yuan"
+    ],
+    "guests": [],
+    "links": [],
+    "picks": [
+      {
+        "title": "Presumed Innocent",
+        "url": "https://tv.apple.com/us/show/presumed-innocent",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "ChatGPT for Mac",
+        "url": "https://apps.apple.com/us/app/ai-chat-ask-chatbot-assistant/id6447419372",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "The best mouse jiggler methods",
+        "url": "https://www.tomshardware.com/how-to/best-mouse-jiggler-methods",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Atlas",
+        "url": "https://www.netflix.com/title/81012048",
+        "from": "Jem Young"
+      },
+      {
+        "title": "Ikeryou",
+        "url": "https://ikeryou.jp/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "pwnisher",
+        "url": "https://www.youtube.com/@pwnisher",
+        "from": "Augustus Yuan"
+      }
+    ]
+  },
+  {
     "episode": "208",
     "title": "Why most new developers struggle: The missing skills you need",
     "description": "In this episode of Front End Happy Hour, Ryan Burgess, Jem Young, Brian Holt, and Dan DiGangi dive deep into the challenges faced by junior developers as they embark on their coding journeys. From the importance of curiosity and continuous learning to the often overlooked non-technical skills, our panelists discuss the common gaps that new developers experience. Whether you’re a beginner looking to navigate your first job or a senior engineer mentoring others, this conversation offers valuable insights to help bridge the gap between education and real-world success.",
@@ -8,7 +58,11 @@
     "published": "September 2, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["career", "junior", "learning"],
+    "tags": [
+      "career",
+      "junior",
+      "learning"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young"
