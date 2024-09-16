@@ -1,5 +1,28 @@
 [
   {
+    "episode": "210",
+    "title": "Film to Tech - Jason Torres Sips of Wisdom Interview",
+    "description": "In this Sips of Wisdom episode of Front End Happy Hour, Ryan Burgess interviews Jason Torres, who made the bold leap from a 15-year career in the film industry to becoming a software developer. They discuss the surprising similarities between film and tech, the challenges of transitioning careers, and how Jason’s creative skills translated into the tech world. They also dive into how AI is reshaping the creative landscape and what it means for the future of both industries.",
+    "id": "1916609561",
+    "vid": "EEKE_gXGOGk",
+    "published": "September 16, 2024",
+    "transcribed": true,
+    "category": "interview",
+    "tags": ["interview", "career"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Jason Torres",
+        "twitter": "TasonJorres"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "209",
     "title": "How promotions really work in tech",
     "description": "In this episode of the Front End Happy Hour podcast, we’re diving deep into the realities of getting promoted in the tech industry. It’s not just about writing great code or being the smartest person in the room. Jem Young, Augustus Yuan, and Ryan Burgess break down the misconceptions around promotions, the skills that actually matter, and why navigating the process can sometimes feel more political than technical. Whether you’re aiming for a promotion or just curious about how it all works behind the scenes, this episode offers candid advice and strategies for advancing your career. Plus, we discuss what to do if your manager isn’t advocating for you, and the right (and wrong) ways to pursue your next big step. Tune in to hear the honest truth about climbing the tech ladder!",
@@ -8,7 +31,10 @@
     "published": "September 9, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["career", "promotions"],
+    "tags": [
+      "career",
+      "promotions"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
