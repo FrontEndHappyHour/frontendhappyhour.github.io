@@ -59,7 +59,7 @@ const SubscribeList = () => {
         </a>
       </li>
       <li>
-        <a href="https://feeds.simplecast.com/54nAGcIl" target="_blank" rel="noopener noreferrer">
+        <a href="https://anchor.fm/s/fb57a4a8/podcast/rss" target="_blank" rel="noopener noreferrer">
           <img src="../img/rss.svg" alt="RSS" />
           RSS
         </a>
