@@ -1,5 +1,28 @@
 [
   {
+    "episode": "211",
+    "title": "Ken Wheeler Unfiltered - Sips of Wisdom Interview",
+    "description": "In this episode of Front End Happy Hour, Ryan Burgess sits down with Ken Wheeler for a no-holds-barred conversation about the tech industry’s evolution and what it really takes to succeed. From starting out as a butcher and telemarketer to making waves in Silicon Valley, Ken shares his unfiltered thoughts on everything from early career struggles to how today’s tech salaries can hit $700K. We dive into the future of AI, the front-end landscape, and the ever-changing world of web development. Whether you’re just starting out or already deep in the industry, this episode is packed with insights, laughs, and a whole lot of real talk.",
+    "id": "1920976730",
+    "vid": "",
+    "published": "September 23, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["interview", "javascript", "react"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Ken Wheeler", 
+        "twitter": "ken_wheeler"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "210",
     "title": "Film to Tech - Jason Torres Sips of Wisdom Interview",
     "description": "In this Sips of Wisdom episode of Front End Happy Hour, Ryan Burgess interviews Jason Torres, who made the bold leap from a 15-year career in the film industry to becoming a software developer. They discuss the surprising similarities between film and tech, the challenges of transitioning careers, and how Jason’s creative skills translated into the tech world. They also dive into how AI is reshaping the creative landscape and what it means for the future of both industries.",
@@ -8,7 +31,10 @@
     "published": "September 16, 2024",
     "transcribed": true,
     "category": "interview",
-    "tags": ["interview", "career"],
+    "tags": [
+      "interview",
+      "career"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
@@ -19,8 +45,7 @@
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "209",
@@ -1258,7 +1283,7 @@
   {
     "episode": "184",
     "title": "Online learning on the rocks",
-    "description": "There are many options to learn about software development and how to code. In this episode, we are joined by the CEO of Frontend Masters, Marc Grabanski to get his insights into online learning and what to expect in the future.",
+    "description": "In this episode, we dive into the evolving world of online learning with Marc Grabanski, CEO of Frontend Masters. As the demand for coding education grows, Marc and the panel explore whether edutainment is leading to better developers or creating confusion. Are influencers and ‘hot takes’ derailing genuine learning? Find out how to stay ahead in an ever-changing digital landscape and hear insider stories from Frontend Masters about how teaching can impact your career growth. Plus, we debate the role of platforms like YouTube and TikTok in shaping the future of developer education. Tune in for a raw discussion on the pros and cons of online learning today!",
     "id": "1710864450",
     "vid": "6o1NBZQ-bY0",
     "published": "January 7, 2024",
