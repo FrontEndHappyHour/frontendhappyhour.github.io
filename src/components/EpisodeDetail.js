@@ -71,11 +71,10 @@ const EpisodeDetail = ({ episode }) => {
             frameBorder="no" 
             allow="autoplay" 
             title="Episode audio" 
-            src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${episode.id}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false`}>
+            src={`https://podcasters.spotify.com/pod/show/ryan-burgess7/embed/episodes/${episode.id}`}>
           </iframe>
         </div>
       </div>
-
       {/* Conditionally render guests section with images */}
       {episode.guests && episode.guests.length > 0 && (
         <div className="episode-guests">
