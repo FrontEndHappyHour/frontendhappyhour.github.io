@@ -1,5 +1,28 @@
 [
   {
+    "episode": "213",
+    "title": "Scaling Startups and Navigating Product-Market Fit with Emre Baran",
+    "description": "In this episode of Front End Happy Hour, we sit down with Emre Baran, Co-founder and CEO of Cerbos, to dive deep into the world of startups, product-market fit, and scaling a tech company. With over 20 years of experience, Emre’s journey includes building Turkey’s largest social network, contributing to $1 billion in revenue at Google, and now tackling one of the most critical parts of the devops stack—authorization. Emre shares his insights on being a ‘Chief Everything Officer,’ balancing technical and business challenges, and the importance of a well-thought-out go-to-market strategy. Whether you’re an aspiring entrepreneur, a seasoned engineer, or looking to grow your startup, this conversation is packed with actionable advice and invaluable lessons on leadership, scaling, and staying agile.",
+    "id": "Scaling-Startups-and-Navigating-Product-Market-Fit-with-Emre-Baran-e2pa2ov",
+    "vid": "o1JiIitJTus",
+    "published": "October 7, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["interview", "startups", "founder", "ceo", "google"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Emre Baran", 
+        "twitter": "emre"
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "212",
     "title": "Amazon’s Office Mandate: The End of Remote Work?",
     "description": "We dive into Amazon’s recent decision to end its hybrid work policy and require employees to return to the office five days a week. We discuss the impact of this decision on both Amazon employees and the broader tech industry. Is this the beginning of the end for remote work, or will other companies continue to offer flexibility? Join Ryan, Jem, and Stacy as they share their thoughts on Amazon’s move, its implications for talent retention, company culture, and the future of work in tech.",
@@ -8,7 +31,11 @@
     "published": "September 30, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["remote", "amazon", "hybrid"],
+    "tags": [
+      "remote",
+      "amazon",
+      "hybrid"
+    ],
     "panel": [
       "Ryan Burgess",
       "Jem Young",
