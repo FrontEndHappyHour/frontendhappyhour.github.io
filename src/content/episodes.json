@@ -1,5 +1,26 @@
 [
   {
+    "episode": "214",
+    "title": "Recruiting to Global Leadership: Taylor Desseyn Interview",
+    "description": "In this episode of Front End Happy Hour’s Sips of Wisdom, Ryan Burgess sits down with Taylor Desseyn, a long-time recruiter turned leader, to discuss his exciting new leadership role and his approach to building global communities. Taylor shares insights from his 13+ years of experience recruiting engineers and how he’s transitioned into a role focused on community building at scale. He talks about partnering with engineering leaders to hire top talent, the challenges of scaling himself through content creation, and his vision for creating high-quality, meaningful content that fosters community. Whether you’re interested in recruitment, leadership, or content creation, this conversation offers valuable takeaways on staying curious, evolving your career, and creating impact through authentic connections.",
+    "id": "",
+    "vid": "fcq6w8O0TEw",
+    "published": "October 14, 2024",
+    "transcribed": true,
+    "category": "soft",
+    "tags": ["interview", "recruiting", "hiring"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [{
+      "name": "Taylor Desseyn",
+      "twitter": "tdesseyn"
+    }],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "213",
     "title": "Scaling Startups and Navigating Product-Market Fit with Emre Baran",
     "description": "In this episode of Front End Happy Hour, we sit down with Emre Baran, Co-founder and CEO of Cerbos, to dive deep into the world of startups, product-market fit, and scaling a tech company. With over 20 years of experience, Emre’s journey includes building Turkey’s largest social network, contributing to $1 billion in revenue at Google, and now tackling one of the most critical parts of the devops stack—authorization. Emre shares his insights on being a ‘Chief Everything Officer,’ balancing technical and business challenges, and the importance of a well-thought-out go-to-market strategy. Whether you’re an aspiring entrepreneur, a seasoned engineer, or looking to grow your startup, this conversation is packed with actionable advice and invaluable lessons on leadership, scaling, and staying agile.",
@@ -8,19 +29,24 @@
     "published": "October 7, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["interview", "startups", "founder", "ceo", "google"],
+    "tags": [
+      "interview",
+      "startups",
+      "founder",
+      "ceo",
+      "google"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
     "guests": [
       {
-        "name": "Emre Baran", 
+        "name": "Emre Baran",
         "twitter": "emre"
       }
     ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "212",
