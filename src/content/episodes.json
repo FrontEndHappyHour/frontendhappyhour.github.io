@@ -1,5 +1,65 @@
 [
   {
+    "episode": "215",
+    "title": "Revisiting Server-Driven UI: Scalable Approaches in Large Companies",
+    "description": "In this episode of Front End Happy Hour, we explore the benefits and challenges of Server-Driven UI, especially in the context of large-scale applications. Join us as we discuss how this approach impacts front-end development, enhances flexibility, and scales effectively within big companies. Whether you’re curious about its implementation or looking to optimize your own tech stack, this conversation is packed with valuable insights. Tune in for a deep dive into Server-Driven UI and its role in shaping the future of user interfaces.",
+    "id": "Revisiting-Server-Driven-UI-Scalable-Approaches-in-Large-Companies-e2ps6qm",
+    "vid": "xSYFiJt6Z-0",
+    "published": "October 21, 2024",
+    "transcribed": true,
+    "category": "technical",
+    "tags": [
+      "server",
+      "UI",
+      "SDUI"
+    ],
+    "panel": [
+      "Ryan Burgess",
+      "Jem Young",
+      "Augustus Yuan",
+      "Cole Turner"
+    ],
+    "guests": [
+      {
+        "name": "Sherman Chen",
+        "twitter": "_shermango"
+      }
+    ],
+    "links": [],
+    "picks": [
+      {
+        "title": "The Sympathizer",
+        "url": "https://www.hbo.com/the-sympathizer",
+        "from": "Sherman Chen"
+      },
+      {
+        "title": "University Challenge",
+        "url": "https://www.bbc.co.uk/programmes/b006t6l0",
+        "from": "Sherman Chen"
+      },
+      {
+        "title": "Classified - Luke's View",
+        "url": "https://open.spotify.com/album/6T2kT5B08MBR8hinkL33IG",
+        "from": "Ryan Burgess"
+      },
+      {
+        "title": "Demand oriented schema design",
+        "url": "https://www.apollographql.com/docs/technotes/TN0027-demand-oriented-schema-design/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "POV Camera",
+        "url": "https://pov.camera/",
+        "from": "Augustus Yuan"
+      },
+      {
+        "title": "Wallism",
+        "url": "https://wallism.com/",
+        "from": "Cole Turner"
+      }
+    ]
+  },
+  {
     "episode": "214",
     "title": "Recruiting to Global Leadership: Taylor Desseyn Interview",
     "description": "In this episode of Front End Happy Hour’s Sips of Wisdom, Ryan Burgess sits down with Taylor Desseyn, a long-time recruiter turned leader, to discuss his exciting new leadership role and his approach to building global communities. Taylor shares insights from his 13+ years of experience recruiting engineers and how he’s transitioned into a role focused on community building at scale. He talks about partnering with engineering leaders to hire top talent, the challenges of scaling himself through content creation, and his vision for creating high-quality, meaningful content that fosters community. Whether you’re interested in recruitment, leadership, or content creation, this conversation offers valuable takeaways on staying curious, evolving your career, and creating impact through authentic connections.",
@@ -8,17 +68,22 @@
     "published": "October 14, 2024",
     "transcribed": true,
     "category": "soft",
-    "tags": ["interview", "recruiting", "hiring"],
+    "tags": [
+      "interview",
+      "recruiting",
+      "hiring"
+    ],
     "panel": [
       "Ryan Burgess"
     ],
-    "guests": [{
-      "name": "Taylor Desseyn",
-      "twitter": "tdesseyn"
-    }],
+    "guests": [
+      {
+        "name": "Taylor Desseyn",
+        "twitter": "tdesseyn"
+      }
+    ],
     "links": [],
-    "picks": [
-    ]
+    "picks": []
   },
   {
     "episode": "213",
