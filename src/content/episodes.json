@@ -1,5 +1,28 @@
 [
   {
+    "episode": "216",
+    "title": "Beyond the Bingo Card: Leadership Lessons with Karen Catlin",
+    "description": "In this episode of Front End Happy Hour, we’re joined by Karen to dive into an essential conversation about allyship and inclusion in the tech industry. We discuss what it means to actively support underrepresented groups, the challenges of fostering genuine inclusivity, and practical ways to make an impact as allies. From actionable advice to thought-provoking insights, Karen shares her experiences and perspectives, making this episode a must-listen for anyone committed to building a more inclusive tech community. Join us as we explore how we can go beyond the surface and drive real change in tech.",
+    "id": "",
+    "vid": "AGPyQsuYnBk",
+    "published": "October 29, 2024",
+    "transcribed": true,
+    "category": "interview",
+    "tags": ["allyship", "diversity", "inclusion"],
+    "panel": [
+      "Ryan Burgess"
+    ],
+    "guests": [
+      {
+        "name": "Karen Catlin",
+        "twitter": ""
+      }
+    ],
+    "links": [],
+    "picks": [
+    ]
+  },
+  {
     "episode": "215",
     "title": "Revisiting Server-Driven UI: Scalable Approaches in Large Companies",
     "description": "In this episode of Front End Happy Hour, we explore the benefits and challenges of Server-Driven UI, especially in the context of large-scale applications. Join us as we discuss how this approach impacts front-end development, enhances flexibility, and scales effectively within big companies. Whether you’re curious about its implementation or looking to optimize your own tech stack, this conversation is packed with valuable insights. Tune in for a deep dive into Server-Driven UI and its role in shaping the future of user interfaces.",
